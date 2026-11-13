@@ -1,0 +1,71 @@
+/* «Взаимовыгодное сотрудничество» (Дизайнерам 966:47928): слева заголовок, справа список
+   пунктов, разделённых линиями (сверху первого и под каждым). */
+
+.partnership {
+  display: flex;
+  gap: var(--space-40);
+  padding-block: var(--space-70);
+}
+
+.partnership__intro,
+.partnership__list {
+  flex: 1;
+}
+
+.partnership__intro {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-12);
+}
+
+.partnership__lead {
+  max-width: 508px;
+  font-size: var(--font-size-16);
+  line-height: var(--line-height-snug);
+  color: var(--color-text-90);
+}
+
+.partnership__list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-12);
+  padding-top: var(--space-20);
+}
+
+.partnership__item {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-12);
+}
+
+/* Линии в Figma нулевой высоты: в раскладке не занимают места, поэтому отрицательный отступ */
+.partnership__item::after,
+.partnership__item:first-child::before {
+  content: "";
+  height: 1px;
+  margin-block: -0.5px;
+  background-color: var(--color-line);
+}
+
+/* Между линией и текстом — 20px (gap карточки в Figma), между заголовком и текстом — 12px */
+.partnership__item::after {
+  margin-top: calc(var(--space-20) - var(--space-12) - 0.5px);
+}
+
+.partnership__item:first-child::before {
+  margin-bottom: calc(var(--space-20) - var(--space-12) - 0.5px);
+}
+
+.partnership__title {
+  font-size: var(--font-size-18);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-tight);
+  letter-spacing: -0.02em;
+}
+
+.partnership__text {
+  max-width: 550px;
+  font-size: var(--font-size-16);
+  line-height: var(--line-height-snug);
+  color: var(--color-text-90);
+}

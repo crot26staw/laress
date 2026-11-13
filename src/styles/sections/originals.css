@@ -16,10 +16,6 @@
   color: var(--color-text-90);
 }
 
-.originals__lead--center {
-  text-align: center;
-}
-
 .originals__inner {
   display: flex;
   align-items: flex-end;

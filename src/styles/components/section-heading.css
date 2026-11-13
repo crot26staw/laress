@@ -21,3 +21,11 @@
   line-height: var(--line-height-snug);
   color: var(--color-text-90);
 }
+
+/* Подзаголовок 16px под H2 на расстоянии 20px (как у орнамента и H2) — информационные страницы */
+.section-heading__lead {
+  max-width: 508px;
+  font-size: var(--font-size-16);
+  line-height: var(--line-height-snug);
+  color: var(--color-text-90);
+}

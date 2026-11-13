@@ -225,5 +225,64 @@
         "refH": 526
       }
     ]
+  },
+  "designers": {
+    "url": "http://localhost:5173/designers.html",
+    "ref": ".figma/screenshots/designers_966-47859.png",
+    "sections": [
+      {
+        "name": "header",
+        "refY": 0,
+        "refH": 131
+      },
+      {
+        "name": "intro",
+        "selector": ".page-intro",
+        "refY": 131,
+        "refH": 386
+      },
+      {
+        "name": "image",
+        "selector": ".wide-image",
+        "refY": 517,
+        "refH": 600
+      },
+      {
+        "name": "categories",
+        "selector": ".categories",
+        "refY": 1118,
+        "refH": 893
+      },
+      {
+        "name": "projects",
+        "selector": ".media-text",
+        "refY": 2011,
+        "refH": 840
+      },
+      {
+        "name": "partnership",
+        "selector": ".partnership",
+        "refY": 2851,
+        "refH": 580
+      },
+      {
+        "name": "originals",
+        "selector": ".originals",
+        "refY": 3431,
+        "refH": 778
+      },
+      {
+        "name": "cta",
+        "selector": ".cta",
+        "refY": 4209,
+        "refH": 720
+      },
+      {
+        "name": "footer",
+        "selector": ".footer",
+        "refY": 4929,
+        "refH": 526
+      }
+    ]
   }
 }

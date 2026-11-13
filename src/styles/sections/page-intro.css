@@ -17,6 +17,10 @@
   color: var(--color-text-90);
 }
 
+.page-intro__text--wide {
+  max-width: 508px; /* Дизайнерам */
+}
+
 /* Фон информационных страниц — #FBFBFB (в основных — #FAFAF9) */
 .page-surface {
   background-color: var(--color-surface);

@@ -53,3 +53,12 @@
   line-height: var(--line-height-snug);
   color: var(--color-text-90);
 }
+
+/* Три карточки в ряд, фото 445×440 (Дизайнерам 966:47883) */
+.categories--three .categories__list {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.categories--three .categories__image {
+  aspect-ratio: 445 / 440;
+}

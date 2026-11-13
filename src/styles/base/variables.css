@@ -26,7 +26,11 @@
   --color-text-60: rgba(0, 0, 0, 0.6);
   --color-text-50: rgba(0, 0, 0, 0.5);
   --color-text-30: rgba(0, 0, 0, 0.3);
+  --color-text-20: rgba(0, 0, 0, 0.2);
+  --color-text-15: rgba(0, 0, 0, 0.15);
   --color-line: rgba(0, 0, 0, 0.1);
+  --color-gray-100: #f2f3f5;
+  --color-caret: #1f2227;
 
   /* Цвета: на тёмном фоне / фото */
   --color-white-80: rgba(255, 255, 255, 0.8);

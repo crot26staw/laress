@@ -16,6 +16,7 @@
 /* Sections */
 @import "./sections/announcement.css";
 @import "./sections/header.css";
+@import "./sections/search.css";
 @import "./sections/hero.css";
 @import "./sections/about.css";
 @import "./sections/showcase.css";

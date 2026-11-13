@@ -1,25 +1,38 @@
-/* Шапка — UI Kit «Header» (279:19286), на главной 966:41581.
-   --transparent: поверх фото первого экрана, белый текст. */
+/* Шапка — UI Kit «Header» (279:19286), фреймы «Навигация / …» (966:41897–966:42428).
+   Состояния:
+   - базовое: белый фон, чёрный текст, линия снизу;
+   - --transparent: поверх фото первого экрана, белый текст (пока не открыто меню и не прокручено);
+   - --menu-open: открыто выпадающее меню — белый фон, неактивные пункты серые, активный жирный;
+   - --compact: после прокрутки — одна строка, закреплена сверху. */
 
 .header {
   --header-color: var(--color-black);
 
+  position: relative;
+  z-index: 10;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: var(--space-28);
+  gap: 28px;
   width: 100%;
-  padding: var(--space-32) var(--gutter) var(--space-20);
+  padding: 32px var(--gutter) 20px;
   color: var(--header-color);
+  background-color: var(--color-white);
+  box-shadow: inset 0 -1px 0 var(--color-line);
 }
 
 .header--transparent {
-  --header-color: var(--color-white);
-
   position: absolute;
   left: 0;
   right: 0;
-  z-index: 10;
+}
+
+/* Прозрачный вид — только пока меню закрыто и шапка не компактная */
+.header--transparent:not(.header--menu-open, .header--compact) {
+  --header-color: var(--color-white);
+
+  background-color: transparent;
+  box-shadow: none;
 }
 
 /* Верхняя строка: язык и валюта — логотип — иконки и вход */
@@ -36,18 +49,18 @@
 }
 
 .header__group--start {
-  gap: var(--space-24);
+  gap: 24px;
 }
 
 .header__group--end {
   justify-content: flex-end;
-  gap: var(--space-20);
+  gap: 20px;
 }
 
 .header__lang,
 .header__currency,
 .header__menu-link {
-  font-size: var(--font-size-16);
+  font-size: 16px;
   line-height: var(--line-height-tight);
   text-transform: uppercase;
 }
@@ -69,8 +82,7 @@
 .header__currency {
   display: flex;
   align-items: center;
-  gap: var(--space-2);
-  text-transform: uppercase;
+  gap: 2px;
   transition: opacity var(--transition);
 }
 
@@ -96,6 +108,7 @@
   display: flex;
   width: 24px;
   height: 24px;
+  color: inherit;
   transition: opacity var(--transition);
 }
 
@@ -108,24 +121,258 @@
   height: 100%;
 }
 
+/* Корзина — только в белой шапке (в прозрачной на первом экране её нет по макету) */
+.header--transparent:not(.header--menu-open, .header--compact) .header__cart {
+  display: none;
+}
+
+/* Кнопка «Войти»: Tertiary Black на белом, Tertiary White на фото */
+.header__login {
+  color: var(--color-black);
+  border-color: var(--color-text-30);
+}
+
+.header__login:hover {
+  border-color: var(--color-text-60);
+}
+
+.header__login:active {
+  border-color: var(--color-black);
+}
+
+.header--transparent:not(.header--menu-open, .header--compact) .header__login {
+  color: var(--color-white);
+  border-color: var(--color-white-30);
+}
+
+.header--transparent:not(.header--menu-open, .header--compact) .header__login:hover {
+  border-color: var(--color-white-60);
+}
+
+.header--transparent:not(.header--menu-open, .header--compact) .header__login:active {
+  border-color: var(--color-white);
+}
+
 /* Меню */
 .header__menu {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: var(--space-32);
+  gap: 32px;
 }
 
+/* Ширину пунктов фиксирует JS, чтобы жирный активный пункт не сдвигал соседей */
 .header__menu-link {
-  display: block;
-  transition: opacity var(--transition);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  white-space: nowrap;
+  transition:
+    color var(--transition),
+    opacity var(--transition);
 }
 
 .header__menu-link:hover {
   opacity: 0.7;
 }
 
-/* На фото кольцо фокуса — белое */
-.header--transparent :focus-visible {
+.header--menu-open .header__menu-link {
+  color: var(--color-text-50);
+  opacity: 1;
+}
+
+.header--menu-open .header__menu-item--open > .header__menu-link {
+  color: var(--color-black);
+  font-weight: var(--font-weight-bold);
+}
+
+/* Пункт «Каталог» и стрелка у «О Luvr» — только в компактной шапке */
+.header__menu-item--compact-only,
+.header__menu-chevron {
+  display: none;
+}
+
+/* Кольцо фокуса на фото — белое */
+.header--transparent:not(.header--menu-open, .header--compact) :focus-visible {
   outline-color: var(--color-white);
+}
+
+/* ---------- Компактная шапка после прокрутки (966:41897) ---------- */
+
+.header--compact {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 0;
+  padding: 20px var(--gutter);
+  animation: header-slide-in 0.3s ease;
+}
+
+.header--compact .header__top {
+  display: contents;
+}
+
+.header--compact .header__logo {
+  display: none;
+}
+
+.header--compact .header__group {
+  flex: none;
+}
+
+.header--compact .header__group--start {
+  order: 1;
+}
+
+.header--compact .header__nav {
+  order: 2;
+}
+
+.header--compact .header__group--end {
+  order: 3;
+}
+
+.header--compact .header__lang,
+.header--compact .header__currency,
+.header--compact .header__menu-link {
+  font-size: 14px;
+}
+
+.header--compact .header__menu {
+  gap: 20px;
+}
+
+.header--compact .header__login {
+  border-color: var(--color-black); /* во фрейме «Хедер при скролле» — чёрная рамка, обычное начертание */
+  font-weight: var(--font-weight-regular);
+  letter-spacing: -0.02em;
+}
+
+.header--compact .header__menu-item--compact-only {
+  display: block;
+}
+
+.header--compact .header__menu-chevron {
+  display: block;
+  width: 12px;
+  height: 12px;
+}
+
+@keyframes header-slide-in {
+  from {
+    transform: translateY(-100%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .header--compact {
+    animation: none;
+  }
+}
+
+/* ---------- Выпадающее меню («Menu Level 2») ---------- */
+
+.mega-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  display: none;
+  justify-content: space-between;
+  height: 328px;
+  padding: 32px calc(var(--gutter) + 161px); /* 201px на 1440 */
+  background-color: var(--color-white);
+  color: var(--color-black);
+  font-size: 14px;
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-tight);
+  text-align: left;
+}
+
+.header__menu-item--open > .mega-menu {
+  display: flex;
+}
+
+.mega-menu__columns {
+  display: flex;
+  gap: 56px;
+}
+
+/* «В наличии»: 4 колонки на всю ширину, без баннера */
+.mega-menu--spread .mega-menu__columns {
+  flex: 1;
+  justify-content: space-between;
+}
+
+.mega-menu__column {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 217px;
+}
+
+/* Продолжение списка без заголовка — на уровне первого пункта */
+.mega-menu__column--continued {
+  padding-top: 31px;
+}
+
+.mega-menu__title {
+  font-weight: var(--font-weight-bold);
+  text-transform: uppercase;
+}
+
+.mega-menu__list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.mega-menu__link {
+  transition: color var(--transition);
+}
+
+.mega-menu__link:hover {
+  color: var(--color-accent);
+}
+
+.mega-menu__link--all {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.mega-menu__banner {
+  display: block;
+  flex-shrink: 0;
+  width: 440px;
+  height: 264px;
+}
+
+.mega-menu__banner-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ---------- Затемнение страницы под меню и поиском ---------- */
+
+.page-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  visibility: hidden;
+  transition:
+    opacity var(--transition),
+    visibility 0s linear 0.2s;
+}
+
+.page-overlay--visible {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity var(--transition);
 }

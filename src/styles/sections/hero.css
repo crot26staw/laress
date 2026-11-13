@@ -1,4 +1,5 @@
-/* Первый экран — слайдер «Hero» (966:41554). Высота фото 802px, шапка лежит поверх. */
+/* Первый экран (966:41554). Высота 802px, шапка лежит поверх.
+   Медиа — фото, позже видео на весь экран (вместо слайдера из макета — решение заказчика). */
 
 .hero {
   position: relative;
@@ -8,32 +9,12 @@
   background-color: var(--color-black);
 }
 
-.hero__slides {
-  position: absolute;
-  inset: 0;
-}
-
-.hero__slide {
-  position: absolute;
-  inset: 0;
-  visibility: hidden;
-  opacity: 0;
-  transition:
-    opacity 0.6s ease,
-    visibility 0s linear 0.6s;
-}
-
-.hero__slide--active {
-  visibility: visible;
-  opacity: 1;
-  transition: opacity 0.6s ease;
-}
-
 .hero__media {
   position: absolute;
   inset: 0;
 }
 
+/* Затемнение сверху и снизу — для читаемости шапки и заголовка */
 .hero__media::after {
   content: "";
   position: absolute;
@@ -47,21 +28,22 @@
   );
 }
 
-.hero__image {
+.hero__image,
+.hero__video {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-/* Текст и кнопка слайда */
+/* Заголовок и кнопка — на месте из макета (там под ними была полоса прогресса слайдера) */
 .hero__content {
   position: absolute;
   left: 50%;
-  bottom: 54px; /* 20 + 2 (прогресс) + 32 */
+  bottom: 54px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: var(--space-16);
+  gap: 16px;
   width: 643px;
   transform: translateX(-50%);
   text-align: center;
@@ -69,71 +51,4 @@
 
 .hero__button {
   --button-color: var(--color-brown-dark);
-}
-
-/* Стрелки */
-.hero__arrow {
-  position: absolute;
-  top: 397px;
-  z-index: 2;
-  display: flex;
-  width: 24px;
-  height: 24px;
-  color: var(--color-white);
-  transition: opacity var(--transition);
-}
-
-.hero__arrow:hover {
-  opacity: 0.7;
-}
-
-.hero__arrow svg {
-  width: 100%;
-  height: 100%;
-}
-
-.hero__arrow--prev {
-  left: var(--gutter);
-}
-
-.hero__arrow--next {
-  right: var(--gutter);
-}
-
-/* Прогресс слайдера */
-.hero__progress {
-  position: absolute;
-  left: var(--gutter);
-  right: var(--gutter);
-  bottom: var(--space-20);
-  z-index: 2;
-  display: flex;
-  gap: var(--space-2);
-  height: 2px;
-}
-
-.hero__progress-item {
-  position: relative;
-  flex: 1;
-  height: 100%;
-  border-radius: 100px;
-  background-color: var(--color-white-30);
-}
-
-/* Увеличенная область клика */
-.hero__progress-item::after {
-  content: "";
-  position: absolute;
-  inset: -8px 0;
-}
-
-.hero__progress-item--active::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 200px;
-  height: 100%;
-  border-radius: 100px;
-  background-color: var(--color-white-80);
 }

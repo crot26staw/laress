@@ -7,7 +7,7 @@
   </button>
 </div>
 
-<header class="header header--transparent">
+<header class="header header--transparent" data-header>
   <div class="header__top">
     <div class="header__group header__group--start">
       <div class="header__lang">
@@ -29,30 +29,308 @@
     </a>
 
     <div class="header__group header__group--end">
-      <a class="header__icon-link" href="#" aria-label="Поиск по каталогу">
+      <button class="header__icon-link" type="button" aria-label="Поиск по каталогу" aria-controls="search" aria-expanded="false" data-search-open>
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
           <path d="M17 17L21 21M3 11C3 13.1217 3.84285 15.1566 5.34315 16.6569C6.84344 18.1571 8.87827 19 11 19C13.1217 19 15.1566 18.1571 16.6569 16.6569C18.1571 15.1566 19 13.1217 19 11C19 8.87827 18.1571 6.84344 16.6569 5.34315C15.1566 3.84285 13.1217 3 11 3C8.87827 3 6.84344 3.84285 5.34315 5.34315C3.84285 6.84344 3 8.87827 3 11Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
         </svg>
-      </a>
+      </button>
       <a class="header__icon-link" href="#" aria-label="Избранное">
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
           <path d="M3.21688 13.1999C1.05354 10.2665 1.77465 5.86642 5.38022 4.39973C8.98579 2.93305 11.1491 5.86642 11.8702 7.33311C12.5914 5.86642 15.4758 2.93305 19.0814 4.39973C22.687 5.86642 22.687 10.2665 20.5236 13.1999C18.3603 16.1332 11.8702 22 11.8702 22C11.8702 22 5.38022 16.1332 3.21688 13.1999Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
         </svg>
       </a>
-      <a class="button button--s button--tertiary-white header__login" href="#">Войти</a>
+      <a class="header__icon-link header__cart" href="#" aria-label="Корзина">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M2 8H21L20.0084 18.8503C19.9548 19.4375 19.6826 19.9836 19.2451 20.3814C18.8077 20.7791 18.2366 20.9998 17.6441 21H5.35588C4.76336 20.9998 4.19233 20.7791 3.75488 20.3814C3.31744 19.9836 3.04519 19.4375 2.99156 18.8503L2 8Z" stroke="currentColor" stroke-linejoin="round" />
+          <path d="M7 10V6.57143C7 5.35901 7.47411 4.19625 8.31802 3.33894C9.16193 2.48163 10.3065 2 11.5 2C12.6935 2 13.8381 2.48163 14.682 3.33894C15.5259 4.19625 16 5.35901 16 6.57143V10" stroke="currentColor" stroke-linecap="round" />
+        </svg>
+      </a>
+      <a class="button button--s header__login" href="#">Войти</a>
     </div>
   </div>
 
   <nav class="header__nav" aria-label="Основное меню">
     <ul class="header__menu">
-      <li class="header__menu-item"><a class="header__menu-link" href="#">Подарки</a></li>
-      <li class="header__menu-item"><a class="header__menu-link" href="#">В наличии</a></li>
-      <li class="header__menu-item"><a class="header__menu-link" href="#">Бренды</a></li>
-      <li class="header__menu-item"><a class="header__menu-link" href="#">Посуда</a></li>
-      <li class="header__menu-item"><a class="header__menu-link" href="#">Декор и интерьер</a></li>
-      <li class="header__menu-item"><a class="header__menu-link" href="#">Аксессуары</a></li>
-      <li class="header__menu-item"><a class="header__menu-link" href="#">Текстиль</a></li>
-      <li class="header__menu-item"><a class="header__menu-link" href="#">О Luvr</a></li>
+      <li class="header__menu-item header__menu-item--compact-only"><a class="header__menu-link" href="#">Каталог</a></li>
+      <li class="header__menu-item" data-menu-item>
+        <a class="header__menu-link" href="#" aria-expanded="false" aria-controls="mega-gifts" data-menu-link>Подарки</a>
+      <div class="mega-menu" id="mega-gifts" data-mega-menu>
+        <div class="mega-menu__columns">
+          <div class="mega-menu__column">
+            <p class="mega-menu__title">По случаю</p>
+            <ul class="mega-menu__list">
+              <li><a class="mega-menu__link" href="#">День рождения</a></li>
+              <li><a class="mega-menu__link" href="#">Свадьба</a></li>
+              <li><a class="mega-menu__link" href="#">Юбилей</a></li>
+              <li><a class="mega-menu__link" href="#">Новоселье</a></li>
+              <li><a class="mega-menu__link" href="#">Деловой подарок</a></li>
+              <li><a class="mega-menu__link" href="#">Новый год</a></li>
+              <li><a class="mega-menu__link mega-menu__link--all" href="#">Посмотреть все</a></li>
+            </ul>
+          </div>
+          <div class="mega-menu__column">
+            <p class="mega-menu__title">Подборки Luvr</p>
+            <ul class="mega-menu__list">
+              <li><a class="mega-menu__link" href="#">Подарки в наличии</a></li>
+              <li><a class="mega-menu__link" href="#">До 100&nbsp;000 ₽</a></li>
+              <li><a class="mega-menu__link" href="#">До 200&nbsp;000 ₽</a></li>
+              <li><a class="mega-menu__link" href="#">Редкие позиции</a></li>
+              <li><a class="mega-menu__link" href="#">Подарочная карта</a></li>
+              <li><a class="mega-menu__link mega-menu__link--all" href="#">Посмотреть все</a></li>
+            </ul>
+          </div>
+        </div>
+        <a class="mega-menu__banner" href="#">
+          <picture>
+            <source srcset="/src/assets/images/nav/nav-banner-gifts.webp" type="image/webp" />
+            <img class="mega-menu__banner-image" src="/src/assets/images/nav/nav-banner-gifts.jpg" width="440" height="264" alt="Подарочная коробка Louis Vuitton на столе" loading="lazy" />
+          </picture>
+        </a>
+      </div>
+      </li>
+      <li class="header__menu-item" data-menu-item>
+        <a class="header__menu-link" href="#" aria-expanded="false" aria-controls="mega-in-stock" data-menu-link>В наличии</a>
+      <div class="mega-menu mega-menu--spread" id="mega-in-stock" data-mega-menu>
+        <div class="mega-menu__columns">
+          <div class="mega-menu__column">
+            <p class="mega-menu__title">Посуда</p>
+            <ul class="mega-menu__list">
+              <li><a class="mega-menu__link" href="#">Сервизы</a></li>
+              <li><a class="mega-menu__link" href="#">Чай и кофе</a></li>
+              <li><a class="mega-menu__link" href="#">Тарелки и блюда</a></li>
+              <li><a class="mega-menu__link" href="#">Бокалы, стаканы, графины</a></li>
+              <li><a class="mega-menu__link" href="#">Салатники, чаши, креманки</a></li>
+              <li><a class="mega-menu__link" href="#">Фруктовницы и конфетницы</a></li>
+              <li><a class="mega-menu__link mega-menu__link--all" href="#">Посмотреть все</a></li>
+            </ul>
+          </div>
+          <div class="mega-menu__column">
+            <p class="mega-menu__title">Декор и интерьер</p>
+            <ul class="mega-menu__list">
+              <li><a class="mega-menu__link" href="#">Вазы и фруктовницы</a></li>
+              <li><a class="mega-menu__link" href="#">Статуэтки и шкатулки</a></li>
+              <li><a class="mega-menu__link" href="#">Свечи и подсвечники</a></li>
+              <li><a class="mega-menu__link" href="#">Рамки для фото</a></li>
+              <li><a class="mega-menu__link" href="#">Свет</a></li>
+              <li><a class="mega-menu__link" href="#">Ковры</a></li>
+              <li><a class="mega-menu__link mega-menu__link--all" href="#">Посмотреть все</a></li>
+            </ul>
+          </div>
+          <div class="mega-menu__column">
+            <p class="mega-menu__title">Аксессуары</p>
+            <ul class="mega-menu__list">
+              <li><a class="mega-menu__link" href="#">Украшения</a></li>
+              <li><a class="mega-menu__link" href="#">Часы</a></li>
+              <li><a class="mega-menu__link" href="#">Платки</a></li>
+              <li><a class="mega-menu__link" href="#">Сумки</a></li>
+              <li><a class="mega-menu__link" href="#">Чемоданы и дорожные сумки</a></li>
+              <li><a class="mega-menu__link mega-menu__link--all" href="#">Посмотреть все</a></li>
+            </ul>
+          </div>
+          <div class="mega-menu__column">
+            <p class="mega-menu__title">Текстиль</p>
+            <ul class="mega-menu__list">
+              <li><a class="mega-menu__link" href="#">Скатерти</a></li>
+              <li><a class="mega-menu__link" href="#">Пледы и покрывала</a></li>
+              <li><a class="mega-menu__link" href="#">Подушки</a></li>
+              <li><a class="mega-menu__link mega-menu__link--all" href="#">Посмотреть все</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      </li>
+      <li class="header__menu-item" data-menu-item>
+        <a class="header__menu-link" href="#" aria-expanded="false" aria-controls="mega-brands" data-menu-link>Бренды</a>
+      <div class="mega-menu" id="mega-brands" data-mega-menu>
+        <div class="mega-menu__columns">
+          <div class="mega-menu__column">
+            <p class="mega-menu__title">Бренды</p>
+            <ul class="mega-menu__list">
+              <li><a class="mega-menu__link" href="#">Baccarat</a></li>
+              <li><a class="mega-menu__link" href="#">Christofle</a></li>
+              <li><a class="mega-menu__link" href="#">Cartier</a></li>
+              <li><a class="mega-menu__link" href="#">Chanel</a></li>
+              <li><a class="mega-menu__link" href="#">Daum</a></li>
+              <li><a class="mega-menu__link" href="#">Fabergé</a></li>
+              <li><a class="mega-menu__link" href="#">Hermès</a></li>
+            </ul>
+          </div>
+          <div class="mega-menu__column mega-menu__column--continued">
+            <ul class="mega-menu__list">
+              <li><a class="mega-menu__link" href="#">Haviland</a></li>
+              <li><a class="mega-menu__link" href="#">Lalique</a></li>
+              <li><a class="mega-menu__link" href="#">Meissen</a></li>
+              <li><a class="mega-menu__link" href="#">Ralph Lauren Home</a></li>
+              <li><a class="mega-menu__link" href="#">Tiffany&amp;Co</a></li>
+              <li><a class="mega-menu__link mega-menu__link--all" href="#">Посмотреть все</a></li>
+            </ul>
+          </div>
+        </div>
+        <a class="mega-menu__banner" href="#">
+          <picture>
+            <source srcset="/src/assets/images/nav/nav-banner-brands.webp" type="image/webp" />
+            <img class="mega-menu__banner-image" src="/src/assets/images/nav/nav-banner-brands.jpg" width="440" height="264" alt="Подарочные коробки Tiffany&amp;Co с колье" loading="lazy" />
+          </picture>
+        </a>
+      </div>
+      </li>
+      <li class="header__menu-item" data-menu-item>
+        <a class="header__menu-link" href="#" aria-expanded="false" aria-controls="mega-tableware" data-menu-link>Посуда</a>
+      <div class="mega-menu" id="mega-tableware" data-mega-menu>
+        <div class="mega-menu__columns">
+          <div class="mega-menu__column">
+            <p class="mega-menu__title">Посуда</p>
+            <ul class="mega-menu__list">
+              <li><a class="mega-menu__link" href="#">Сервизы</a></li>
+              <li><a class="mega-menu__link" href="#">Чай и кофе</a></li>
+              <li><a class="mega-menu__link" href="#">Тарелки и блюда</a></li>
+              <li><a class="mega-menu__link" href="#">Бокалы, стаканы, графины</a></li>
+              <li><a class="mega-menu__link" href="#">Салатники, чаши, креманки</a></li>
+              <li><a class="mega-menu__link" href="#">Фруктовницы и конфетницы</a></li>
+              <li><a class="mega-menu__link" href="#">Супницы и рагушницы</a></li>
+            </ul>
+          </div>
+          <div class="mega-menu__column mega-menu__column--continued">
+            <ul class="mega-menu__list">
+              <li><a class="mega-menu__link" href="#">Соусники и масленки</a></li>
+              <li><a class="mega-menu__link" href="#">Аксессуары для стола</a></li>
+              <li><a class="mega-menu__link mega-menu__link--all" href="#">Посмотреть все</a></li>
+            </ul>
+          </div>
+        </div>
+        <a class="mega-menu__banner" href="#">
+          <picture>
+            <source srcset="/src/assets/images/nav/nav-banner-tableware.webp" type="image/webp" />
+            <img class="mega-menu__banner-image" src="/src/assets/images/nav/nav-banner-tableware.jpg" width="440" height="264" alt="Сервировка стола с бокалами" loading="lazy" />
+          </picture>
+        </a>
+      </div>
+      </li>
+      <li class="header__menu-item" data-menu-item>
+        <a class="header__menu-link" href="#" aria-expanded="false" aria-controls="mega-decor" data-menu-link>Декор и интерьер</a>
+      <div class="mega-menu" id="mega-decor" data-mega-menu>
+        <div class="mega-menu__columns">
+          <div class="mega-menu__column">
+            <p class="mega-menu__title">Декор и интерьер</p>
+            <ul class="mega-menu__list">
+              <li><a class="mega-menu__link" href="#">Вазы и фруктовницы</a></li>
+              <li><a class="mega-menu__link" href="#">Статуэтки и шкатулки</a></li>
+              <li><a class="mega-menu__link" href="#">Свечи и подсвечники</a></li>
+              <li><a class="mega-menu__link" href="#">Рамки для фото</a></li>
+              <li><a class="mega-menu__link" href="#">Свет</a></li>
+              <li><a class="mega-menu__link" href="#">Ковры</a></li>
+              <li><a class="mega-menu__link" href="#">Аксессуары для ванной</a></li>
+            </ul>
+          </div>
+          <div class="mega-menu__column mega-menu__column--continued">
+            <ul class="mega-menu__list">
+              <li><a class="mega-menu__link" href="#">Новогодний декор</a></li>
+              <li><a class="mega-menu__link" href="#">Пепельницы и монетницы</a></li>
+              <li><a class="mega-menu__link mega-menu__link--all" href="#">Посмотреть все</a></li>
+            </ul>
+          </div>
+        </div>
+        <a class="mega-menu__banner" href="#">
+          <picture>
+            <source srcset="/src/assets/images/nav/nav-banner-decor.webp" type="image/webp" />
+            <img class="mega-menu__banner-image" src="/src/assets/images/nav/nav-banner-decor.jpg" width="440" height="264" alt="Бокал вина и ваза на светлом столе" loading="lazy" />
+          </picture>
+        </a>
+      </div>
+      </li>
+      <li class="header__menu-item" data-menu-item>
+        <a class="header__menu-link" href="#" aria-expanded="false" aria-controls="mega-accessories" data-menu-link>Аксессуары</a>
+      <div class="mega-menu" id="mega-accessories" data-mega-menu>
+        <div class="mega-menu__columns">
+          <div class="mega-menu__column">
+            <p class="mega-menu__title">Аксессуары</p>
+            <ul class="mega-menu__list">
+              <li><a class="mega-menu__link" href="#">Сумки</a></li>
+              <li><a class="mega-menu__link" href="#">Платки</a></li>
+              <li><a class="mega-menu__link" href="#">Часы</a></li>
+              <li><a class="mega-menu__link" href="#">Чемоданы и дорожные сумки</a></li>
+              <li><a class="mega-menu__link" href="#">Прочие аксессуары</a></li>
+              <li><a class="mega-menu__link mega-menu__link--all" href="#">Посмотреть все</a></li>
+            </ul>
+          </div>
+          <div class="mega-menu__column">
+            <p class="mega-menu__title">Украшения</p>
+            <ul class="mega-menu__list">
+              <li><a class="mega-menu__link" href="#">Броши</a></li>
+              <li><a class="mega-menu__link" href="#">Серьги</a></li>
+              <li><a class="mega-menu__link mega-menu__link--all" href="#">Посмотреть все</a></li>
+            </ul>
+          </div>
+          <div class="mega-menu__column">
+            <p class="mega-menu__title">Ювелирные изделия</p>
+            <ul class="mega-menu__list">
+              <li><a class="mega-menu__link" href="#">Браслеты</a></li>
+              <li><a class="mega-menu__link" href="#">Кольца</a></li>
+              <li><a class="mega-menu__link" href="#">Серьги</a></li>
+              <li><a class="mega-menu__link" href="#">Колье и цепочки</a></li>
+              <li><a class="mega-menu__link" href="#">Кулоны и подвески</a></li>
+              <li><a class="mega-menu__link mega-menu__link--all" href="#">Посмотреть все</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      </li>
+      <li class="header__menu-item" data-menu-item>
+        <a class="header__menu-link" href="#" aria-expanded="false" aria-controls="mega-textile" data-menu-link>Текстиль</a>
+      <div class="mega-menu" id="mega-textile" data-mega-menu>
+        <div class="mega-menu__columns">
+          <div class="mega-menu__column">
+            <p class="mega-menu__title">Текстиль</p>
+            <ul class="mega-menu__list">
+              <li><a class="mega-menu__link" href="#">Скатерти</a></li>
+              <li><a class="mega-menu__link" href="#">Пледы и покрывала</a></li>
+              <li><a class="mega-menu__link" href="#">Подушки</a></li>
+              <li><a class="mega-menu__link mega-menu__link--all" href="#">Посмотреть все</a></li>
+            </ul>
+          </div>
+        </div>
+        <a class="mega-menu__banner" href="#">
+          <picture>
+            <source srcset="/src/assets/images/nav/nav-banner-textile.webp" type="image/webp" />
+            <img class="mega-menu__banner-image" src="/src/assets/images/nav/nav-banner-textile.jpg" width="440" height="264" alt="Пледы и подушки в интерьере" loading="lazy" />
+          </picture>
+        </a>
+      </div>
+      </li>
+      <li class="header__menu-item" data-menu-item>
+        <a class="header__menu-link" href="#" aria-expanded="false" aria-controls="mega-about" data-menu-link>О Luvr<svg class="header__menu-chevron" width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M2.004 4.004L5.294 7.294C5.682 7.682 6.318 7.682 6.706 7.294L9.996 4.004" stroke="currentColor" stroke-opacity="0.5" stroke-width="1.009" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" /></svg></a>
+      <div class="mega-menu" id="mega-about" data-mega-menu>
+        <div class="mega-menu__columns">
+          <div class="mega-menu__column">
+            <p class="mega-menu__title">О Luvr</p>
+            <ul class="mega-menu__list">
+              <li><a class="mega-menu__link" href="#">О компании</a></li>
+              <li><a class="mega-menu__link" href="#">Дизайнерам</a></li>
+              <li><a class="mega-menu__link" href="#">Подарочная карта</a></li>
+              <li><a class="mega-menu__link" href="#">Выкуп и ресейл</a></li>
+              <li><a class="mega-menu__link" href="#">Контакты</a></li>
+            </ul>
+          </div>
+          <div class="mega-menu__column mega-menu__column--continued">
+            <ul class="mega-menu__list">
+              <li><a class="mega-menu__link" href="#">Статьи</a></li>
+              <li><a class="mega-menu__link" href="#">Вакансии</a></li>
+              <li><a class="mega-menu__link" href="#">Доставка и оплата</a></li>
+            </ul>
+          </div>
+        </div>
+        <a class="mega-menu__banner" href="#">
+          <picture>
+            <source srcset="/src/assets/images/nav/nav-banner-about.webp" type="image/webp" />
+            <img class="mega-menu__banner-image" src="/src/assets/images/nav/nav-banner-about.jpg" width="440" height="264" alt="Доставка и оплата" loading="lazy" />
+          </picture>
+        </a>
+      </div>
+      </li>
     </ul>
   </nav>
 </header>
+
+<div class="page-overlay" data-page-overlay></div>
+
+<!-- @include src/partials/search.html -->

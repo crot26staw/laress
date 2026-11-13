@@ -13,62 +13,23 @@
     <!-- @include src/partials/header.html -->
 
     <main>
-      <section class="hero" aria-label="Коллекции" data-hero-slider>
-        <!-- Слайды: одинаковая разметка, в WordPress — цикл. Слайды 2–3 — заглушки (в макете один слайд). -->
-        <ul class="hero__slides">
-          <li class="hero__slide hero__slide--active" data-hero-slide>
-            <div class="hero__media">
-              <picture>
-                <source srcset="/src/assets/images/home/hero-hermes-collection.webp" type="image/webp" />
-                <img class="hero__image" src="/src/assets/images/home/hero-hermes-collection.jpg" width="2880" height="1603" alt="Тарелки Hermès с жёлтым орнаментом на деревянных полках" fetchpriority="high" />
-              </picture>
-            </div>
-            <div class="hero__content">
-              <h1 class="hero__title text-h1">Новая солнечная коллекция посуды Hermès</h1>
-              <a class="button button--secondary hero__button" href="#">Перейти в каталог</a>
-            </div>
-          </li>
-          <li class="hero__slide" data-hero-slide>
-            <div class="hero__media">
-              <picture>
-                <source srcset="/src/assets/images/home/hero-hermes-collection.webp" type="image/webp" />
-                <img class="hero__image" src="/src/assets/images/home/hero-hermes-collection.jpg" width="2880" height="1603" alt="Тарелки Hermès с жёлтым орнаментом на деревянных полках" loading="lazy" />
-              </picture>
-            </div>
-            <div class="hero__content">
-              <h2 class="hero__title text-h1">Новая солнечная коллекция посуды Hermès</h2>
-              <a class="button button--secondary hero__button" href="#">Перейти в каталог</a>
-            </div>
-          </li>
-          <li class="hero__slide" data-hero-slide>
-            <div class="hero__media">
-              <picture>
-                <source srcset="/src/assets/images/home/hero-hermes-collection.webp" type="image/webp" />
-                <img class="hero__image" src="/src/assets/images/home/hero-hermes-collection.jpg" width="2880" height="1603" alt="Тарелки Hermès с жёлтым орнаментом на деревянных полках" loading="lazy" />
-              </picture>
-            </div>
-            <div class="hero__content">
-              <h2 class="hero__title text-h1">Новая солнечная коллекция посуды Hermès</h2>
-              <a class="button button--secondary hero__button" href="#">Перейти в каталог</a>
-            </div>
-          </li>
-        </ul>
-
-        <button class="hero__arrow hero__arrow--prev" type="button" aria-label="Предыдущий слайд" data-hero-prev>
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-            <path d="M15.17 4.009L8.592 10.587C7.815 11.364 7.815 12.636 8.592 13.413L15.17 19.991" stroke="currentColor" stroke-opacity="0.8" stroke-width="2.018" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
-          </svg>
-        </button>
-        <button class="hero__arrow hero__arrow--next" type="button" aria-label="Следующий слайд" data-hero-next>
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-            <path d="M8.009 4.009L14.588 10.587C15.364 11.364 15.364 12.636 14.588 13.413L8.009 19.991" stroke="currentColor" stroke-opacity="0.8" stroke-width="2.018" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
-          </svg>
-        </button>
-
-        <div class="hero__progress">
-          <button class="hero__progress-item hero__progress-item--active" type="button" aria-label="Слайд 1" data-hero-dot></button>
-          <button class="hero__progress-item" type="button" aria-label="Слайд 2" data-hero-dot></button>
-          <button class="hero__progress-item" type="button" aria-label="Слайд 3" data-hero-dot></button>
+      <section class="hero" aria-label="Новая коллекция">
+        <div class="hero__media">
+          <!-- Видео первого экрана (заменит фото, когда будет файл):
+               положить ролик в src/assets/video/hero.mp4 (+ hero.webm), раскомментировать <video> и удалить <picture>.
+          <video class="hero__video" autoplay muted loop playsinline preload="metadata" poster="/src/assets/images/home/hero-hermes-collection.jpg">
+            <source src="/src/assets/video/hero.webm" type="video/webm" />
+            <source src="/src/assets/video/hero.mp4" type="video/mp4" />
+          </video>
+          -->
+          <picture>
+            <source srcset="/src/assets/images/home/hero-hermes-collection.webp" type="image/webp" />
+            <img class="hero__image" src="/src/assets/images/home/hero-hermes-collection.jpg" width="2880" height="1603" alt="Тарелки Hermès с жёлтым орнаментом на деревянных полках" fetchpriority="high" />
+          </picture>
+        </div>
+        <div class="hero__content">
+          <h1 class="hero__title text-h1">Новая солнечная коллекция посуды Hermès</h1>
+          <a class="button button--secondary hero__button" href="#">Перейти в каталог</a>
         </div>
       </section>
       <section class="about container" aria-labelledby="about-title">

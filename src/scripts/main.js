@@ -7,6 +7,7 @@ import { initBrandsSliders } from './modules/brands-slider.js';
 import { initWishlist } from './modules/wishlist.js';
 import { initFilters } from './modules/filters.js';
 import { initBrandsSearch } from './modules/brands-search.js';
+import { initProductDescription } from './modules/product-description.js';
 
 initAnnouncement();
 initHeader();
@@ -16,3 +17,4 @@ initBrandsSliders();
 initWishlist();
 initFilters();
 initBrandsSearch();
+initProductDescription();

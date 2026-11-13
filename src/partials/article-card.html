@@ -1,0 +1,18 @@
+<!-- Карточка статьи в списке блога (966:49472): фото 445×440, дата, заголовок, анонс.
+     Параметры: href, image (путь без расширения), alt, date, datetime, title, excerpt.
+     В WordPress — template-parts/article-card.php в цикле WP_Query. -->
+<li>
+  <article class="article-card">
+    <picture>
+      <source srcset="{{image}}.webp" type="image/webp" />
+      <img class="article-card__image" src="{{image}}.jpg" width="445" height="440" alt="{{alt}}" loading="lazy" />
+    </picture>
+    <time class="article-card__date" datetime="{{datetime}}">{{date}}</time>
+    <div class="article-card__body">
+      <div class="article-card__text">
+        <h2 class="text-h3"><a class="article-card__link" href="{{href}}">{{title}}</a></h2>
+        <p class="article-card__excerpt">{{excerpt}}</p>
+      </div>
+    </div>
+  </article>
+</li>

@@ -1,0 +1,82 @@
+<!-- Первый экран страницы товара (966:46295) + галерея (966:46426). Станет template-parts/product-preview.php.
+     Состояния «Страница товара 2.0»: В наличии (966:46293), Нет в наличии (966:46948), Под заказ (966:47081) — отличаются главным фото и текстом кнопки.
+     Параметры: image (путь без расширения: .webp + .jpg), imageAlt, cta (текст кнопки). -->
+<section class="product-preview" aria-labelledby="product-title">
+  <div class="product-preview__info">
+    <div class="product-preview__heading">
+      <div class="product-preview__brand">
+        <picture>
+          <source srcset="/src/assets/images/product/brand-logo-cartier.webp" type="image/webp" />
+          <img class="product-preview__brand-logo" src="/src/assets/images/product/brand-logo-cartier.png" width="100" height="28" alt="Cartier" />
+        </picture>
+      </div>
+      <h1 class="product-preview__title" id="product-title">Подушка Cartier Panthere</h1>
+    </div>
+    <p class="product-preview__lead">Подушка Cartier Panthere размером 50×50 см&nbsp;— воплощение роскоши и&nbsp;комфорта от&nbsp;легендарного бренда. Элемент коллекции Panthere, выполненный из&nbsp;кашемира.</p>
+  </div>
+
+  <div class="product-preview__media">
+    <picture>
+      <source srcset="{{image}}.webp" type="image/webp" />
+      <img class="product-preview__image" src="{{image}}.jpg" width="674" height="700" alt="{{imageAlt}}" />
+    </picture>
+    <button class="product-preview__wishlist" type="button" aria-label="Добавить в избранное" aria-pressed="false">
+      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+        <path d="M7.21688 16.1999C5.05354 13.2665 5.77465 8.86642 9.38022 7.39973C12.9858 5.93305 15.1491 8.86642 15.8702 10.3331C16.5914 8.86642 19.4758 5.93305 23.0814 7.39973C26.687 8.86642 26.687 13.2665 24.5236 16.1999C22.3603 19.1332 15.8702 25 15.8702 25C15.8702 25 9.38022 19.1332 7.21688 16.1999Z" stroke-linecap="round" stroke-linejoin="round" />
+      </svg>
+    </button>
+  </div>
+
+  <div class="product-preview__buy">
+    <div class="product-preview__summary">
+      <div class="product-preview__price-block">
+        <p class="product-preview__price text-h2">60 000 ₽</p>
+        <p class="product-preview__split">
+          <img class="product-preview__split-logo" src="/src/assets/icons/icon-yandex-split.svg" width="25" height="25" alt="Яндекс Сплит" />
+          <span class="product-preview__split-text">
+            15000₽<svg class="product-preview__split-times" width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 6L12 12M12 12L18 18M12 12L18 6M12 12L6 18" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" /></svg><span class="visually-hidden"> × </span>4 в супер Сплит
+          </span>
+        </p>
+      </div>
+      <dl class="specs">
+        <div class="specs__row"><dt class="specs__term">Коллекция</dt><dd class="specs__value">Panthere</dd></div>
+        <div class="specs__row"><dt class="specs__term">Размеры</dt><dd class="specs__value">50 х 50 см</dd></div>
+        <div class="specs__row"><dt class="specs__term">Цвет</dt><dd class="specs__value">Синий</dd></div>
+      </dl>
+    </div>
+
+    <div class="product-preview__actions">
+      <div class="product-preview__cta">
+        <button class="button button--primary product-preview__order" type="button">{{cta}}</button>
+        <button class="product-preview__share" type="button" aria-label="Поделиться">
+          <svg width="48" height="48" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+            <path d="M24.6311 21.338C17.665 22.3934 14.4417 27.1399 13.2036 32.0974C13.1514 32.3062 13.428 32.4327 13.5647 32.2665C16.1678 29.1002 19.7086 27.6213 24.6038 27.5821C24.7142 27.5812 24.8049 27.6708 24.8049 27.7812V32.5729C24.8049 32.7425 25.0027 32.8351 25.133 32.7265L34.8158 24.6536C34.9117 24.5737 34.9117 24.4263 34.8158 24.3464L25.133 16.2735C25.0027 16.1649 24.8049 16.2575 24.8049 16.4271V21.1388C24.8049 21.2384 24.7296 21.323 24.6311 21.338Z" stroke="currentColor" stroke-linecap="square" />
+          </svg>
+        </button>
+      </div>
+      <a class="product-preview__ask" href="#">
+        Задать вопрос менеджеру
+        <img src="/src/assets/icons/icon-telegram.svg" width="24" height="24" alt="" />
+      </a>
+    </div>
+  </div>
+</section>
+
+<div class="product-gallery">
+  <picture>
+    <source srcset="/src/assets/images/product/product-cushion-detail-1.webp" type="image/webp" />
+    <img class="product-gallery__image" src="/src/assets/images/product/product-cushion-detail-1.jpg" width="331" height="331" alt="Вышитая пантера и надпись Cartier на подушке крупным планом" loading="lazy" />
+  </picture>
+  <picture>
+    <source srcset="/src/assets/images/product/product-cushion-detail-2.webp" type="image/webp" />
+    <img class="product-gallery__image" src="/src/assets/images/product/product-cushion-detail-2.jpg" width="331" height="331" alt="Подушка Cartier Panthere на светлом диване" loading="lazy" />
+  </picture>
+  <picture>
+    <source srcset="/src/assets/images/product/product-cushion-detail-3.webp" type="image/webp" />
+    <img class="product-gallery__image" src="/src/assets/images/product/product-cushion-detail-3.jpg" width="331" height="331" alt="Подушка с пантерой рядом с вязаным пледом" loading="lazy" />
+  </picture>
+  <picture>
+    <source srcset="/src/assets/images/product/product-cushion-detail-4.webp" type="image/webp" />
+    <img class="product-gallery__image" src="/src/assets/images/product/product-cushion-detail-4.jpg" width="331" height="331" alt="Край подушки с кантом и рисунком пантеры" loading="lazy" />
+  </picture>
+</div>

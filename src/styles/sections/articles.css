@@ -1,0 +1,17 @@
+/* Блог — список статей (966:49470): сетка 3 колонки карточек + «Показать больше».
+   Карточка — .article-card (sections/blog.css); здесь дата стоит сразу под фото. */
+
+.articles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-40);
+  padding-bottom: var(--space-70);
+}
+
+.articles__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-12);
+  width: 100%;
+}

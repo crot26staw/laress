@@ -1,0 +1,296 @@
+/* Страница товара 2.0 (966:46293): первый экран, галерея, характеристики и описание. */
+
+/* Первый экран (966:46295): описание — фото 674×700 — цена и покупка; колонки по центру фото */
+.product-preview {
+  display: flex;
+  align-items: center;
+  gap: var(--space-40);
+  width: 100%;
+  max-width: var(--container-width);
+  margin-inline: auto;
+  padding-inline: var(--container-padding);
+}
+
+.product-preview__info,
+.product-preview__buy {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.product-preview__info {
+  gap: var(--space-16);
+}
+
+.product-preview__heading {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-12);
+}
+
+.product-preview__brand {
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+
+.product-preview__brand-logo {
+  width: 100px;
+  height: 28px;
+  object-fit: cover;
+}
+
+.product-preview__title {
+  font-size: var(--font-size-24);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-tight);
+  letter-spacing: -0.02em;
+}
+
+.product-preview__lead {
+  font-size: var(--font-size-14);
+  line-height: 18px; /* 14 × 1.25 = 17.5 — Figma рисует строки с шагом 18px */
+  letter-spacing: -0.02em;
+  color: var(--color-text-75);
+}
+
+.product-preview__media {
+  position: relative;
+  flex: 0 0 674px;
+  height: 700px;
+  background-color: var(--color-placeholder);
+}
+
+.product-preview__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* «В избранное» на фото — как у карточки товара */
+.product-preview__wishlist {
+  position: absolute;
+  top: var(--space-8);
+  right: var(--space-8);
+  display: flex;
+  width: 32px;
+  height: 32px;
+  border-radius: var(--radius-s);
+  color: var(--color-black);
+  transition: color var(--transition);
+}
+
+.product-preview__wishlist svg {
+  width: 100%;
+  height: 100%;
+}
+
+.product-preview__wishlist path {
+  fill: var(--color-white);
+  stroke: currentColor;
+  transition: fill var(--transition);
+}
+
+.product-preview__wishlist:hover {
+  color: var(--color-accent);
+}
+
+.product-preview__wishlist[aria-pressed="true"] path {
+  fill: var(--color-accent);
+  stroke: var(--color-accent);
+}
+
+.product-preview__buy {
+  justify-content: center;
+  gap: var(--space-40);
+}
+
+.product-preview__summary {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-32);
+}
+
+.product-preview__price-block {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-8);
+}
+
+.product-preview__split {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+}
+
+.product-preview__split-logo {
+  flex-shrink: 0;
+  width: 25px;
+  height: 25px;
+}
+
+.product-preview__split-text {
+  display: flex;
+  align-items: center;
+  font-size: var(--font-size-12);
+  line-height: var(--line-height-snug);
+  letter-spacing: -0.02em;
+}
+
+.product-preview__split-times {
+  flex-shrink: 0;
+  width: 18px;
+  height: 18px;
+}
+
+.product-preview__actions {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-12);
+}
+
+.product-preview__cta {
+  display: flex;
+  align-items: center;
+  gap: var(--space-8);
+}
+
+.product-preview__order {
+  flex: 1;
+}
+
+.product-preview__share {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border: 1px solid var(--color-text-30);
+  border-radius: var(--radius-s);
+  color: var(--color-accent);
+  transition:
+    color var(--transition),
+    border-color var(--transition);
+}
+
+/* Иконка 48×48 вместе с рамкой: внутри бордера 1px сдвигаем на -1px */
+.product-preview__share svg {
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  margin: -1px;
+}
+
+.product-preview__share:hover {
+  color: var(--color-accent-hover);
+  border-color: var(--color-accent-hover);
+}
+
+.product-preview__share:active {
+  color: var(--color-accent-pressed);
+  border-color: var(--color-accent-pressed);
+}
+
+.product-preview__ask {
+  display: inline-flex;
+  align-items: center;
+  align-self: flex-start;
+  gap: var(--space-4);
+  font-size: var(--font-size-14);
+  line-height: var(--line-height-snug);
+  letter-spacing: -0.02em;
+  transition: color var(--transition);
+}
+
+.product-preview__ask:hover {
+  color: var(--color-accent);
+}
+
+/* Галерея (966:46426): 2×2 по 331px под главным фото */
+.product-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 331px);
+  gap: var(--space-12);
+  width: 674px;
+  margin-inline: auto;
+  padding-block: var(--space-12) var(--space-70);
+}
+
+.product-gallery__image {
+  width: 331px;
+  height: 331px;
+  object-fit: cover;
+  background-color: var(--color-placeholder);
+}
+
+/* Характеристики — Описание — аккордеон (966:46431): три колонки через 80px */
+.product-details {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  align-items: start;
+  gap: 80px;
+  padding-bottom: var(--space-70);
+}
+
+.product-details__column {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-20);
+}
+
+.product-details__title {
+  font-size: var(--font-size-18);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-tight);
+  letter-spacing: -0.02em;
+}
+
+.product-details__description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-12);
+}
+
+.product-details__text {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-12); /* paragraphSpacing 12 */
+  font-size: var(--font-size-14);
+  line-height: 18px; /* 14 × 1.25 = 17.5 — Figma рисует строки с шагом 18px */
+  letter-spacing: -0.02em;
+  color: var(--color-text-90);
+}
+
+/* Свёрнутое описание: в Figma блок 230px, видно 12 строк с многоточием.
+   12 строк × 18px + абзац 12px = 228px; остаток до 230px — отступом, чтобы не выглядывала 13-я строка. */
+.product-details__text--collapsed {
+  display: -webkit-box;
+  height: 228px;
+  margin-bottom: 2px;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 12;
+}
+
+.product-details__text--collapsed p + p {
+  margin-top: var(--space-12);
+}
+
+.product-details__more {
+  font-size: var(--font-size-14);
+  line-height: var(--line-height-tight);
+  color: var(--color-accent);
+  text-decoration: underline;
+  transition: color var(--transition);
+}
+
+.product-details__more:hover {
+  color: var(--color-accent-hover);
+}
+
+.product-details__more[hidden] {
+  display: none;
+}

@@ -1,0 +1,87 @@
+/* Статья блога (966:49521). Содержимое — колонка 904px (padding 0 268 70),
+   внутри плоский поток как у the_content() WordPress: p, h2, figure, .article-promo.
+   Между блоками 28px, между абзацами 14px (paragraphSpacing), подзаголовок → текст 12px. */
+
+.article__title {
+  max-width: 708px;
+}
+
+.article {
+  padding-bottom: var(--space-70);
+}
+
+.article__content {
+  max-width: 904px;
+  margin-inline: auto;
+  font-size: var(--font-size-16);
+  line-height: var(--line-height-snug);
+  color: var(--color-text-90);
+}
+
+.article__content > * + * {
+  margin-top: var(--space-28);
+}
+
+.article__content > p + p {
+  margin-top: 14px;
+}
+
+.article__content > h2 + p {
+  margin-top: var(--space-12);
+}
+
+/* Подзаголовки статьи — стиль H3 */
+.article__content > h2 {
+  font-size: var(--font-size-24);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-tight);
+  letter-spacing: -0.02em;
+  color: var(--color-text);
+}
+
+.article__content img {
+  display: block;
+  width: 100%;
+  height: 440px;
+  object-fit: cover;
+}
+
+/* Промоблок «Подарите выбор» (966:49554) */
+.article-promo {
+  display: flex;
+  gap: var(--space-24);
+  padding: var(--space-24);
+  background-color: var(--color-promo);
+}
+
+/* Две равные колонки по 416px; picture — display: contents, поэтому flex у img */
+.article-promo__body,
+.article-promo__image {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.article-promo__body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.article-promo__text {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-12);
+}
+
+.article-promo__title {
+  color: var(--color-text);
+}
+
+.article-promo__lead {
+  line-height: var(--line-height-text);
+}
+
+.article__content .article-promo__image {
+  height: 268px;
+}

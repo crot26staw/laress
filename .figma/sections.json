@@ -395,5 +395,134 @@
         "refH": 526
       }
     ]
+  },
+  "product": {
+    "url": "http://localhost:5173/product.html",
+    "ref": ".figma/screenshots/product-v2-in-stock_966-46293.png",
+    "sections": [
+      {
+        "name": "header",
+        "refY": 0,
+        "refH": 131
+      },
+      {
+        "name": "preview",
+        "selector": ".product-preview",
+        "refY": 131,
+        "refH": 700
+      },
+      {
+        "name": "gallery",
+        "selector": ".product-gallery",
+        "refY": 831,
+        "refH": 756
+      },
+      {
+        "name": "details",
+        "selector": ".product-details",
+        "refY": 1587,
+        "refH": 366
+      },
+      {
+        "name": "same-collection",
+        "selector": ".products:has(#same-collection-title)",
+        "refY": 1953,
+        "refH": 841
+      },
+      {
+        "name": "brand",
+        "selector": ".brand-story",
+        "refY": 2794,
+        "refH": 860
+      },
+      {
+        "name": "bought-together",
+        "selector": ".products:has(#bought-together-title)",
+        "refY": 3654,
+        "refH": 841
+      },
+      {
+        "name": "recently-viewed",
+        "selector": ".products:has(#recently-viewed-title)",
+        "refY": 4495,
+        "refH": 841
+      },
+      {
+        "name": "footer",
+        "selector": ".footer",
+        "refY": 5341,
+        "refH": 525
+      }
+    ]
+  },
+  "blog": {
+    "url": "http://localhost:5173/blog.html",
+    "ref": ".figma/screenshots/blog_966-49449.png",
+    "sections": [
+      {
+        "name": "header",
+        "refY": 0,
+        "refH": 131
+      },
+      {
+        "name": "intro",
+        "selector": ".page-intro",
+        "refY": 131,
+        "refH": 236
+      },
+      {
+        "name": "list",
+        "selector": ".articles",
+        "refY": 367,
+        "refH": 1431
+      },
+      {
+        "name": "cta",
+        "selector": ".cta",
+        "refY": 1798,
+        "refH": 720
+      },
+      {
+        "name": "footer",
+        "selector": ".footer",
+        "refY": 2518,
+        "refH": 525
+      }
+    ]
+  },
+  "blog-article": {
+    "url": "http://localhost:5173/blog-article.html",
+    "ref": ".figma/screenshots/blog-article_966-49521.png",
+    "sections": [
+      {
+        "name": "header",
+        "refY": 0,
+        "refH": 131
+      },
+      {
+        "name": "intro",
+        "selector": ".page-intro",
+        "refY": 131,
+        "refH": 273
+      },
+      {
+        "name": "content",
+        "selector": ".article",
+        "refY": 404,
+        "refH": 2470
+      },
+      {
+        "name": "cta",
+        "selector": ".cta",
+        "refY": 2874,
+        "refH": 720
+      },
+      {
+        "name": "footer",
+        "selector": ".footer",
+        "refY": 3594,
+        "refH": 526
+      }
+    ]
   }
 }

@@ -1,0 +1,81 @@
+/* Аккордеон «Accord» (966:46472, раскрытый — 966:46914): нативные <details>/<summary>.
+   Линии-разделители в Figma не занимают места — делаем их box-shadow: inset. */
+
+.accordion {
+  background-color: var(--color-white);
+  box-shadow: inset 0 -1px 0 var(--color-line);
+}
+
+.accordion__item {
+  box-shadow: inset 0 1px 0 var(--color-line);
+}
+
+.accordion__summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-16);
+  padding-block: var(--space-20);
+  cursor: pointer;
+  list-style: none;
+  transition: color var(--transition);
+}
+
+.accordion__summary::-webkit-details-marker {
+  display: none;
+}
+
+.accordion__summary:hover {
+  color: var(--color-accent);
+}
+
+.accordion__title {
+  font-size: var(--font-size-18);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-tight);
+  letter-spacing: -0.02em;
+}
+
+.accordion__icon {
+  flex-shrink: 0;
+  width: 18px;
+  height: 18px;
+  transition: transform var(--transition);
+}
+
+.accordion__item[open] .accordion__icon {
+  transform: rotate(180deg);
+}
+
+.accordion__content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-12);
+  padding-bottom: var(--space-20);
+}
+
+.accordion__content p,
+.accordion__text p {
+  font-size: var(--font-size-14);
+  line-height: 18px; /* 14 × 1.25 = 17.5 — Figma рисует строки с шагом 18px */
+  letter-spacing: -0.02em;
+  color: var(--color-text-90);
+}
+
+.accordion__text {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-12); /* paragraphSpacing 12 */
+}
+
+.accordion__link {
+  align-self: flex-start;
+  font-size: var(--font-size-14);
+  line-height: var(--line-height-tight);
+  text-decoration: underline;
+  transition: color var(--transition);
+}
+
+.accordion__link:hover {
+  color: var(--color-accent);
+}

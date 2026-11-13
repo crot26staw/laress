@@ -1,0 +1,38 @@
+/* Список характеристик «Characteristics» (966:46369, 966:46434): название — пунктир — значение. */
+
+.specs {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-16);
+}
+
+.specs__row {
+  display: flex;
+  align-items: flex-end;
+  height: 18px;
+  font-size: var(--font-size-14);
+  line-height: var(--line-height-snug);
+  letter-spacing: -0.02em;
+  color: var(--color-text-90);
+}
+
+/* Пунктир между названием и значением: штрих 1px, промежуток 2px, по нижнему краю строки */
+.specs__row::after {
+  content: "";
+  order: 1;
+  flex: 1;
+  height: 1px;
+  background-image: linear-gradient(to right, var(--color-text-15) 1px, transparent 1px);
+  background-size: 3px 1px;
+}
+
+.specs__term {
+  order: 0;
+  flex-shrink: 0;
+}
+
+.specs__value {
+  order: 2;
+  flex-shrink: 0;
+  text-align: right;
+}

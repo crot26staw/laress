@@ -16,6 +16,8 @@
 @import "./components/choice.css";
 @import "./components/pagination.css";
 @import "./components/info-card.css";
+@import "./components/specs.css";
+@import "./components/accordion.css";
 
 /* Sections */
 @import "./sections/announcement.css";
@@ -41,3 +43,7 @@
 @import "./sections/partnership.css";
 @import "./sections/delivery.css";
 @import "./sections/vacancies.css";
+@import "./sections/product.css";
+@import "./sections/brand-story.css";
+@import "./sections/articles.css";
+@import "./sections/article.css";

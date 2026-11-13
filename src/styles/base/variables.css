@@ -13,6 +13,7 @@
   --color-accent-hover: #977541;
   --color-accent-pressed: #765c32;
   --color-accent-disabled: #d6c5aa;
+  --color-promo: #d6c5aa; /* промоблок в статье блога (966:49554) */
   --color-accent-50: rgba(185, 144, 79, 0.5);
 
   /* Цвета: вторичные */
@@ -24,6 +25,7 @@
   /* Цвета: текст и линии на светлом фоне */
   --color-text: var(--color-black);
   --color-text-90: rgba(0, 0, 0, 0.9);
+  --color-text-75: rgba(0, 0, 0, 0.75); /* краткое описание товара */
   --color-text-60: rgba(0, 0, 0, 0.6);
   --color-text-50: rgba(0, 0, 0, 0.5);
   --color-text-30: rgba(0, 0, 0, 0.3);
@@ -32,6 +34,7 @@
   --color-line: rgba(0, 0, 0, 0.1);
   --color-gray-100: #f2f3f5;
   --color-caret: #1f2227;
+  --color-placeholder: #b0b0b0; /* подложка фото товара до загрузки */
   --color-graphite: #363636; /* номера страниц, «Сбросить» в фильтрах */
 
   /* Цвета: панели и затемнение */

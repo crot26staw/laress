@@ -1,0 +1,1382 @@
+NAME: "Laress (Copy)"
+
+GLOBAL_VARS:
+style_6f999b2d:
+  fontFamily: Hauora
+  fontStyle: Bold
+  fontWeight: 700
+  fontSize: 128
+  lineHeight: 1.06em
+  letterSpacing: '-0.02em'
+  textAlignHorizontal: LEFT
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+fill_658ab2fa:
+  - '#FFFFFF'
+fill_7ad30328:
+  - '#FBFBFB'
+layout_177c5efc:
+  mode: none
+  sizing:
+    horizontal: hug
+    vertical: hug
+ts1:
+  fills:
+    - rgba(0, 0, 0, 0.5)
+style_cc9a6c82:
+  fontFamily: Hauora
+  fontStyle: Regular
+  fontWeight: 400
+  fontSize: 16
+  lineHeight: 1.06em
+  textCase: UPPER
+  textAlignHorizontal: LEFT
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+fill_34dc0314:
+  - '#000000'
+fill_eae80fb4:
+  - type: IMAGE
+    imageRef: 967c087b9dcee4b9641ab2f0a69966aa5cb8a985
+    scaleMode: FILL
+    objectFit: cover
+    isBackground: false
+    imageDownloadArguments:
+      needsCropping: false
+      requiresImageDimensions: false
+fill_97d170e1: []
+style_d0b6b42e:
+  fontFamily: Hauora
+  fontStyle: Regular
+  fontWeight: 400
+  fontSize: 16
+  lineHeight: 1.06em
+  textCase: UPPER
+  textAlignHorizontal: CENTER
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+style_9a5f131c:
+  fontFamily: Hauora
+  fontStyle: Regular
+  fontWeight: 400
+  fontSize: 14
+  lineHeight: 1.06em
+  textAlignHorizontal: CENTER
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+fill_8b4fbb9e:
+  - '#B9904F'
+H2:
+  fontFamily: Hauora
+  fontStyle: Medium
+  fontWeight: 500
+  fontSize: 32
+  lineHeight: 1.15em
+  letterSpacing: '-0.02em'
+  textCase: UPPER
+  textAlignHorizontal: CENTER
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+layout_5bc4e785:
+  mode: none
+  sizing:
+    horizontal: fill
+    vertical: fixed
+  dimensions:
+    height: 440
+layout_56d3c81c:
+  mode: none
+  sizing:
+    horizontal: fill
+    vertical: hug
+style_ea08502d:
+  fontFamily: Hauora
+  fontStyle: Regular
+  fontWeight: 400
+  fontSize: 12
+  lineHeight: 1.25em
+  textAlignHorizontal: LEFT
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+fill_95f554d6:
+  - rgba(0, 0, 0, 0.9)
+H3:
+  fontFamily: Hauora
+  fontStyle: Medium
+  fontWeight: 500
+  fontSize: 24
+  lineHeight: 1.06em
+  letterSpacing: '-0.02em'
+  textAlignHorizontal: LEFT
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+style_c1e78652:
+  fontFamily: Hauora
+  fontStyle: Regular
+  fontWeight: 400
+  fontSize: 16
+  lineHeight: 1.25em
+  textAlignHorizontal: LEFT
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+layout_5d7ee650:
+  mode: row
+  padding: 16px 24px
+  justifyContent: center
+  alignItems: center
+  gap: 10px
+  sizing:
+    horizontal: hug
+    vertical: hug
+style_ce0a4cea:
+  fontFamily: Hauora
+  fontStyle: Medium
+  fontWeight: 500
+  fontSize: 16
+  lineHeight: 1.06em
+  letterSpacing: '-0.03em'
+  textAlignHorizontal: CENTER
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+H2 (828:11795):
+  fontFamily: Hauora
+  fontStyle: Medium
+  fontWeight: 500
+  fontSize: 32
+  lineHeight: 1.15em
+  letterSpacing: '-0.02em'
+  textCase: UPPER
+  textAlignHorizontal: LEFT
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+style_749d1c1f:
+  fontFamily: Hauora
+  fontStyle: Regular
+  fontWeight: 400
+  fontSize: 14
+  lineHeight: 1.25em
+  textAlignHorizontal: LEFT
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+style_2d79fb96:
+  fontFamily: Hauora
+  fontStyle: Bold
+  fontWeight: 700
+  fontSize: 14
+  lineHeight: 1.25em
+  textAlignHorizontal: LEFT
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+fill_b9de0bb4:
+  - '#C0B7A7'
+style_9df09fbc:
+  fontFamily: Hauora
+  fontStyle: SemiBold
+  fontWeight: 600
+  fontSize: 18
+  lineHeight: 1.25em
+  textAlignHorizontal: LEFT
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+layout_9308889f:
+  mode: column
+  alignSelf: stretch
+  padding: 189px 124px 190px
+  justifyContent: center
+  alignItems: center
+  gap: 10px
+  sizing:
+    horizontal: fill
+    vertical: fixed
+  dimensions:
+    height: 440
+T2:
+  fontFamily: Hauora
+  fontStyle: Regular
+  fontWeight: 400
+  fontSize: 16
+  lineHeight: 1.3em
+  textAlignHorizontal: LEFT
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+
+ELEMENTS:
+EL-6b472314:
+  type: INSTANCE
+  layout:
+    mode: column
+    padding: 32px 40px 20px
+    alignItems: center
+    gap: 28px
+    sizing:
+      horizontal: fixed
+      vertical: hug
+    dimensions:
+      width: 1440
+  fills: fill_7ad30328
+  strokes:
+    - rgba(0, 0, 0, 0.1)
+  strokeWeight: 0px 0px 1px
+  componentId: 279:19287
+EL-bb582553:
+  type: FRAME
+  layout:
+    mode: row
+    alignSelf: stretch
+    justifyContent: space-between
+    alignItems: center
+    sizing:
+      horizontal: fill
+      vertical: hug
+EL-12d709f7:
+  type: FRAME
+  layout:
+    mode: row
+    alignItems: center
+    gap: 24px
+    sizing:
+      horizontal: fill
+      vertical: hug
+EL-106f5a91:
+  type: TEXT
+  layout: layout_177c5efc
+  text: '{ts1}US{/ts1}/RU'
+  textStyle: style_cc9a6c82
+  fills: fill_34dc0314
+EL-5843db5d:
+  type: FRAME
+  layout:
+    mode: row
+    alignItems: center
+    gap: 2px
+    sizing:
+      horizontal: hug
+      vertical: hug
+EL-4cc49b2d:
+  type: TEXT
+  layout: layout_177c5efc
+  text: RUB
+  textStyle: style_cc9a6c82
+  fills: fill_34dc0314
+EL-d4302386:
+  type: IMAGE-SVG
+  layout:
+    mode: none
+    sizing:
+      horizontal: fixed
+      vertical: fixed
+    dimensions:
+      width: 12
+      height: 12
+EL-496b7f4c:
+  type: RECTANGLE
+  layout:
+    mode: none
+    sizing:
+      horizontal: fixed
+      vertical: fixed
+    dimensions:
+      width: 118.45
+      height: 34.08
+  fills: fill_eae80fb4
+EL-50da7cd7:
+  type: FRAME
+  layout:
+    mode: row
+    justifyContent: flex-end
+    alignItems: center
+    gap: 20px
+    sizing:
+      horizontal: fill
+      vertical: hug
+EL-762d5cce:
+  type: IMAGE-SVG
+  layout:
+    mode: none
+    sizing:
+      horizontal: fixed
+      vertical: fixed
+    dimensions:
+      width: 24
+      height: 24
+  fills: fill_97d170e1
+EL-e88db4ee:
+  type: INSTANCE
+  layout:
+    mode: row
+    padding: 10px 20px
+    justifyContent: center
+    alignItems: center
+    gap: 10px
+    sizing:
+      horizontal: hug
+      vertical: hug
+  strokes:
+    - rgba(0, 0, 0, 0.3)
+  strokeWeight: 1px
+  borderRadius: 2px
+  componentId: 895:29076
+EL-fd2be87b:
+  type: TEXT
+  layout: layout_177c5efc
+  text: Войти
+  textStyle:
+    fontFamily: Hauora
+    fontStyle: Medium
+    fontWeight: 500
+    fontSize: 14
+    lineHeight: 1.06em
+    letterSpacing: '-0.03em'
+    textAlignHorizontal: CENTER
+    textAlignVertical: TOP
+    paragraphSpacing: 14
+    listSpacing: 14
+  fills: fill_34dc0314
+EL-c9c16ae6:
+  type: FRAME
+  layout:
+    mode: row
+    justifyContent: center
+    alignItems: center
+    gap: 32px
+    sizing:
+      horizontal: hug
+      vertical: hug
+EL-569edc46:
+  type: TEXT
+  layout: layout_177c5efc
+  text: Подарки
+  textStyle: style_d0b6b42e
+  fills: fill_34dc0314
+EL-36e8436f:
+  type: TEXT
+  layout: layout_177c5efc
+  text: В наличии
+  textStyle: style_d0b6b42e
+  fills: fill_34dc0314
+EL-13bfe0f1:
+  type: TEXT
+  layout: layout_177c5efc
+  text: Бренды
+  textStyle: style_d0b6b42e
+  fills: fill_34dc0314
+EL-62a5be30:
+  type: TEXT
+  layout: layout_177c5efc
+  text: Посуда
+  textStyle: style_d0b6b42e
+  fills: fill_34dc0314
+EL-6858659e:
+  type: TEXT
+  layout: layout_177c5efc
+  text: Декор и интерьер
+  textStyle: style_d0b6b42e
+  fills: fill_34dc0314
+EL-4792e634:
+  type: TEXT
+  layout: layout_177c5efc
+  text: Аксессуары
+  textStyle: style_d0b6b42e
+  fills: fill_34dc0314
+EL-6ab11265:
+  type: TEXT
+  layout: layout_177c5efc
+  text: Текстиль
+  textStyle: style_d0b6b42e
+  fills: fill_34dc0314
+EL-f8162672:
+  type: TEXT
+  layout: layout_177c5efc
+  text: О Luvr
+  textStyle: style_d0b6b42e
+  fills: fill_34dc0314
+EL-1e2d879d:
+  type: FRAME
+  layout:
+    mode: column
+    alignSelf: stretch
+    padding: 70px 40px 40px
+    alignItems: center
+    gap: 24px
+    sizing:
+      horizontal: fill
+      vertical: hug
+EL-7e82b98e:
+  type: FRAME
+  layout:
+    mode: column
+    alignItems: center
+    gap: 20px
+    sizing:
+      horizontal: hug
+      vertical: hug
+EL-eda14dc5:
+  type: FRAME
+  layout:
+    mode: row
+    gap: 8px
+    sizing:
+      horizontal: hug
+      vertical: hug
+EL-474825e7:
+  type: TEXT
+  layout: layout_177c5efc
+  text: Главная
+  textStyle: style_9a5f131c
+  fills: fill_8b4fbb9e
+EL-ad237f5c:
+  type: TEXT
+  layout: layout_177c5efc
+  text: /
+  textStyle:
+    fontFamily: Hauora
+    fontStyle: Regular
+    fontWeight: 400
+    fontSize: 14
+    lineHeight: 1.06em
+    textCase: UPPER
+    textAlignHorizontal: CENTER
+    textAlignVertical: TOP
+    paragraphSpacing: 14
+    listSpacing: 14
+  fills: fill_8b4fbb9e
+EL-28d879d4:
+  type: FRAME
+  layout:
+    mode: row
+    justifyContent: center
+    alignItems: center
+    gap: 12px
+    sizing:
+      horizontal: fixed
+      vertical: hug
+    dimensions:
+      width: 220
+EL-56ff9324:
+  type: LINE
+  layout:
+    mode: none
+    sizing:
+      horizontal: fill
+      vertical: fixed
+    dimensions:
+      height: 0
+  strokes:
+    - '#DCCCB6'
+  strokeWeight: 1px
+  strokeAlign: CENTER
+EL-df5bb129:
+  type: IMAGE-SVG
+  layout:
+    mode: none
+    sizing:
+      horizontal: fixed
+      vertical: fixed
+    dimensions:
+      width: 36.74
+      height: 34.08
+  fills: fill_97d170e1
+EL-2ce5c46d:
+  type: FRAME
+  layout:
+    mode: column
+    alignItems: stretch
+    gap: 16px
+    sizing:
+      horizontal: fixed
+      vertical: hug
+    dimensions:
+      width: 445.33
+EL-abb0ba6e:
+  type: TEXT
+  layout: layout_56d3c81c
+  text: 13 мая 2026
+  textStyle: style_ea08502d
+  fills: fill_95f554d6
+EL-243fe5b4:
+  type: FRAME
+  layout:
+    mode: column
+    alignSelf: stretch
+    padding: 0px 24px 0px 0px
+    alignItems: stretch
+    gap: 20px
+    sizing:
+      horizontal: fill
+      vertical: hug
+EL-50ef8a26:
+  type: FRAME
+  layout:
+    mode: column
+    alignSelf: stretch
+    gap: 12px
+    sizing:
+      horizontal: fill
+      vertical: hug
+EL-c280b2bc:
+  type: TEXT
+  layout: layout_177c5efc
+  text: Эстетика времени
+  textStyle: H3
+  fills: fill_34dc0314
+EL-603b51b3:
+  type: TEXT
+  layout: layout_56d3c81c
+  text: "В\_эпоху цифрового шума, когда тысячи снимков бесследно исчезают в\_бесконечной ленте социальных сетей среди мимолетных кадров, истинная ценность обретает физическую форму."
+  textStyle: style_c1e78652
+  fills: fill_95f554d6
+EL-0242c1f8:
+  type: TEXT
+  layout:
+    mode: none
+    sizing:
+      horizontal: fixed
+      vertical: hug
+    dimensions:
+      width: 376
+  text: Лето - время любви и красивых свадеб
+  textStyle: H3
+  fills: fill_34dc0314
+EL-4cfedacb:
+  type: TEXT
+  layout: layout_56d3c81c
+  text: "Свадебный сезон в\_самом разгаре. Получение приглашения на\_свадьбу\_— это всегда радостное событие, за\_которым неизбежно следует важный вопрос: какой подарок станет достойным."
+  textStyle: style_c1e78652
+  fills: fill_95f554d6
+EL-13d4b0d6:
+  type: TEXT
+  layout: layout_56d3c81c
+  text: 1 мая 2026
+  textStyle: style_ea08502d
+  fills: fill_95f554d6
+EL-16f27602:
+  type: TEXT
+  layout: layout_177c5efc
+  text: "Официальный дистрибьютор \Lлюкс домов"
+  textStyle: H3
+  fills: fill_34dc0314
+EL-d41f28e3:
+  type: TEXT
+  layout: layout_56d3c81c
+  text: "Luvr является официальным дистрибьютором и\_авторизованным партнёром ряда крупнейших европейских марок в\_категориях фарфора, хрусталя, столовых приборов и\_предметов декора."
+  textStyle: style_c1e78652
+  fills: fill_95f554d6
+EL-18fca13c:
+  type: INSTANCE
+  layout: layout_5d7ee650
+  fills: fill_8b4fbb9e
+  borderRadius: 2px
+  componentId: 828:11817
+EL-c34b9029:
+  type: FRAME
+  layout:
+    mode: column
+    alignSelf: stretch
+    padding: 80px 40px
+    gap: 24px
+    sizing:
+      horizontal: fill
+      vertical: fixed
+    dimensions:
+      height: 720
+  fills:
+    - type: IMAGE
+      imageRef: abd22c112c8184f627e10a1d5b20670752231b9e
+      scaleMode: FILL
+      backgroundSize: cover
+      backgroundRepeat: no-repeat
+      isBackground: true
+      imageDownloadArguments:
+        needsCropping: false
+        requiresImageDimensions: false
+    - type: IMAGE
+      imageRef: 667b801169c5c75a4c36b4311c13fb82702ad770
+      scaleMode: FILL
+      backgroundSize: cover
+      backgroundRepeat: no-repeat
+      isBackground: true
+      imageDownloadArguments:
+        needsCropping: false
+        requiresImageDimensions: false
+    - type: IMAGE
+      imageRef: fe04c3a5f9a2123105ffc6584646292077d64c38
+      scaleMode: FILL
+      backgroundSize: cover
+      backgroundRepeat: no-repeat
+      isBackground: true
+      imageDownloadArguments:
+        needsCropping: false
+        requiresImageDimensions: false
+    - type: IMAGE
+      imageRef: d7efa69716b386174b4b2db4bbef6d931bef1c89
+      scaleMode: FILL
+      backgroundSize: cover
+      backgroundRepeat: no-repeat
+      isBackground: true
+      imageDownloadArguments:
+        needsCropping: false
+        requiresImageDimensions: false
+    - type: IMAGE
+      imageRef: 3588afd299632815815b682e49058927745484bf
+      scaleMode: FILL
+      backgroundSize: cover
+      backgroundRepeat: no-repeat
+      isBackground: true
+      imageDownloadArguments:
+        needsCropping: false
+        requiresImageDimensions: false
+EL-8f2f1080:
+  type: FRAME
+  layout:
+    mode: column
+    gap: 12px
+    sizing:
+      horizontal: hug
+      vertical: hug
+EL-acfb1ade:
+  type: TEXT
+  layout: layout_177c5efc
+  text: Не уверены, что выбрать?
+  textStyle: H2 (828:11795)
+  fills: fill_658ab2fa
+EL-93b5c6ca:
+  type: TEXT
+  layout:
+    mode: none
+    sizing:
+      horizontal: fixed
+      vertical: hug
+    dimensions:
+      width: 462
+  text: Менеджер Luvr поможет подобрать оригинальную посуду, декор или подарок под повод, бюджет и сроки
+  textStyle:
+    fontFamily: Hauora
+    fontStyle: Regular
+    fontWeight: 400
+    fontSize: 18
+    lineHeight: 1.25em
+    textAlignHorizontal: LEFT
+    textAlignVertical: TOP
+    paragraphSpacing: 14
+    listSpacing: 14
+  fills:
+    - rgba(255, 255, 255, 0.9)
+EL-43b9216d:
+  type: INSTANCE
+  layout: layout_5d7ee650
+  fills: fill_7ad30328
+  borderRadius: 2px
+  componentId: 828:11819
+EL-d75823b6:
+  type: TEXT
+  layout: layout_177c5efc
+  text: Получить бесплатную консультацию
+  textStyle: style_ce0a4cea
+  fills:
+    - '#593B0C'
+EL-928ac7ac:
+  type: INSTANCE
+  layout:
+    mode: column
+    padding: 70px 40px
+    alignItems: stretch
+    gap: 32px
+    sizing:
+      horizontal: fixed
+      vertical: hug
+    dimensions:
+      width: 1440
+  fills: fill_7ad30328
+  componentId: 276:2863
+EL-bf156a5b:
+  type: FRAME
+  layout:
+    mode: none
+    sizing:
+      horizontal: fill
+      vertical: fixed
+    dimensions:
+      height: 385
+EL-3991bef7:
+  type: FRAME
+  layout:
+    mode: column
+    gap: 12px
+    sizing:
+      horizontal: hug
+      vertical: hug
+    locationRelativeToParent:
+      x: 0
+      y: 1
+EL-7349ae27:
+  type: RECTANGLE
+  layout:
+    mode: none
+    sizing:
+      horizontal: fixed
+      vertical: fixed
+    dimensions:
+      width: 187.79
+      height: 54.03
+  fills: fill_eae80fb4
+EL-d07450bf:
+  type: TEXT
+  layout:
+    mode: none
+    sizing:
+      horizontal: fixed
+      vertical: hug
+    dimensions:
+      width: 276
+  text: "Интернет-бутик оригинальной посуды, декора, текстиля и\_аксессуаров премиальных брендов"
+  textStyle: style_749d1c1f
+  fills: fill_95f554d6
+EL-b1ebc304:
+  type: TEXT
+  layout:
+    mode: none
+    sizing: {}
+    locationRelativeToParent:
+      x: 0
+      y: 367
+    dimensions:
+      width: 144
+      height: 18
+  text: © ООО «Ларес», 2026
+  textStyle: style_749d1c1f
+  fills: fill_95f554d6
+EL-0468c0d7:
+  type: TEXT
+  layout:
+    mode: none
+    sizing: {}
+    locationRelativeToParent:
+      x: 343
+      y: 367
+    dimensions:
+      width: 366
+      height: 18
+  text: Информация на сайте не является публичной офертой
+  textStyle: style_749d1c1f
+  fills: fill_95f554d6
+EL-899488be:
+  type: TEXT
+  layout:
+    mode: none
+    sizing: {}
+    locationRelativeToParent:
+      x: 800
+      y: 367
+    dimensions:
+      width: 212
+      height: 18
+  text: Политика конфиденциальности
+  textStyle: style_749d1c1f
+  fills: fill_95f554d6
+EL-c531e5c6:
+  type: TEXT
+  layout:
+    mode: none
+    sizing: {}
+    locationRelativeToParent:
+      x: 1143
+      y: 367
+    dimensions:
+      width: 211
+      height: 18
+  text: Пользовательское соглашение
+  textStyle: style_749d1c1f
+  fills: fill_95f554d6
+EL-1c6de66b:
+  type: FRAME
+  layout:
+    mode: column
+    alignItems: stretch
+    gap: 16px
+    sizing:
+      horizontal: fixed
+      vertical: hug
+    locationRelativeToParent:
+      x: 343
+      y: 0
+    dimensions:
+      width: 217
+EL-362fb9b8:
+  type: TEXT
+  layout: layout_56d3c81c
+  text: Каталог
+  textStyle: style_2d79fb96
+  fills: fill_b9de0bb4
+EL-1519dabc:
+  type: FRAME
+  layout:
+    mode: column
+    alignSelf: stretch
+    alignItems: stretch
+    gap: 12px
+    sizing:
+      horizontal: fill
+      vertical: hug
+EL-53f4cbfc:
+  type: TEXT
+  layout: layout_56d3c81c
+  text: Посуда
+  textStyle: style_c1e78652
+  fills: fill_95f554d6
+EL-5eb41475:
+  type: TEXT
+  layout: layout_56d3c81c
+  text: Декор и интерьер
+  textStyle: style_c1e78652
+  fills: fill_95f554d6
+EL-fa609635:
+  type: TEXT
+  layout: layout_56d3c81c
+  text: Текстиль
+  textStyle: style_c1e78652
+  fills: fill_95f554d6
+EL-6675a1ab:
+  type: TEXT
+  layout: layout_56d3c81c
+  text: Аксессуары
+  textStyle: style_c1e78652
+  fills: fill_95f554d6
+EL-d18ea825:
+  type: TEXT
+  layout: layout_56d3c81c
+  text: В наличии
+  textStyle: style_c1e78652
+  fills: fill_95f554d6
+EL-bad21f62:
+  type: TEXT
+  layout: layout_56d3c81c
+  text: Подарки
+  textStyle: style_c1e78652
+  fills: fill_95f554d6
+EL-19cf47e0:
+  type: TEXT
+  layout: layout_56d3c81c
+  text: Подарочный сертификат
+  textStyle: style_c1e78652
+  fills: fill_95f554d6
+EL-4813bf8c:
+  type: FRAME
+  layout:
+    mode: column
+    alignItems: stretch
+    gap: 16px
+    sizing:
+      horizontal: fixed
+      vertical: hug
+    locationRelativeToParent:
+      x: 572
+      y: 0
+    dimensions:
+      width: 216
+EL-488e33ab:
+  type: TEXT
+  layout: layout_56d3c81c
+  text: Покупателям
+  textStyle: style_2d79fb96
+  fills: fill_b9de0bb4
+EL-def71b74:
+  type: TEXT
+  layout: layout_56d3c81c
+  text: Доставка и оплата
+  textStyle: style_c1e78652
+  fills: fill_95f554d6
+EL-12909fbd:
+  type: TEXT
+  layout: layout_56d3c81c
+  text: Выкуп и ресейл
+  textStyle: style_c1e78652
+  fills: fill_95f554d6
+EL-8dd185e5:
+  type: TEXT
+  layout: layout_56d3c81c
+  text: Контакты
+  textStyle: style_c1e78652
+  fills: fill_95f554d6
+EL-cd7c93c4:
+  type: FRAME
+  layout:
+    mode: column
+    alignItems: stretch
+    gap: 16px
+    sizing:
+      horizontal: fixed
+      vertical: hug
+    locationRelativeToParent:
+      x: 800
+      y: 0
+    dimensions:
+      width: 217
+EL-c354e8a1:
+  type: TEXT
+  layout: layout_56d3c81c
+  text: О Luvr
+  textStyle: style_2d79fb96
+  fills: fill_b9de0bb4
+EL-46649359:
+  type: TEXT
+  layout: layout_56d3c81c
+  text: О компании
+  textStyle: style_c1e78652
+  fills: fill_95f554d6
+EL-71203d8a:
+  type: TEXT
+  layout: layout_56d3c81c
+  text: Дизайнерам
+  textStyle: style_c1e78652
+  fills: fill_95f554d6
+EL-bc5a879b:
+  type: TEXT
+  layout: layout_56d3c81c
+  text: Статьи
+  textStyle: style_c1e78652
+  fills: fill_95f554d6
+EL-01984c59:
+  type: TEXT
+  layout: layout_56d3c81c
+  text: Вакансии
+  textStyle: style_c1e78652
+  fills: fill_95f554d6
+EL-8e2638f3:
+  type: FRAME
+  layout:
+    mode: column
+    alignItems: stretch
+    gap: 24px
+    sizing:
+      horizontal: fixed
+      vertical: hug
+    locationRelativeToParent:
+      x: 1143
+      y: 0
+    dimensions:
+      width: 215
+EL-f6efe3b4:
+  type: FRAME
+  layout:
+    mode: column
+    alignSelf: stretch
+    gap: 16px
+    sizing:
+      horizontal: fill
+      vertical: hug
+EL-24705f71:
+  type: FRAME
+  layout:
+    mode: column
+    alignItems: stretch
+    gap: 4px
+    sizing:
+      horizontal: fixed
+      vertical: hug
+    dimensions:
+      width: 215
+EL-bcfc5562:
+  type: TEXT
+  layout: layout_56d3c81c
+  text: Заказы и консультации
+  textStyle: style_2d79fb96
+  fills: fill_b9de0bb4
+EL-6dda702e:
+  type: TEXT
+  layout: layout_56d3c81c
+  text: +7 977 620 88 85
+  textStyle: style_9df09fbc
+  fills: fill_95f554d6
+EL-b73a9f94:
+  type: TEXT
+  layout: layout_56d3c81c
+  text: Отдел закупок
+  textStyle: style_2d79fb96
+  fills: fill_b9de0bb4
+EL-adf99d5c:
+  type: TEXT
+  layout: layout_56d3c81c
+  text: +7 925 507 99 95
+  textStyle: style_9df09fbc
+  fills: fill_95f554d6
+EL-7cb103ea:
+  type: TEXT
+  layout: layout_56d3c81c
+  text: luvrseo@gmail.com
+  textStyle: style_9df09fbc
+  fills: fill_95f554d6
+EL-235879b0:
+  type: FRAME
+  layout:
+    mode: row
+    alignItems: center
+    gap: 8px
+    sizing:
+      horizontal: hug
+      vertical: hug
+EL-7c4c0d96:
+  type: IMAGE-SVG
+  layout:
+    mode: none
+    sizing:
+      horizontal: fixed
+      vertical: fixed
+    dimensions:
+      width: 40
+      height: 40
+  fills: fill_8b4fbb9e
+  borderRadius: 2px
+EL-d8a3e5e9:
+  type: FRAME
+  layout:
+    mode: column
+    alignSelf: stretch
+    alignItems: stretch
+    gap: 16px
+    sizing:
+      horizontal: fill
+      vertical: hug
+EL-19945db2:
+  type: TEXT
+  layout: layout_56d3c81c
+  text: "Москва, Новослободская улица, д.\_50/1с2"
+  textStyle: style_c1e78652
+  fills: fill_95f554d6
+EL-438719fa:
+  type: TEXT
+  layout: layout_56d3c81c
+  text: Пн—Вс 10:00 – 22:00
+  textStyle: style_c1e78652
+  fills: fill_95f554d6
+EL-9a80455c:
+  type: RECTANGLE
+  layout:
+    mode: none
+    sizing: {}
+    locationRelativeToParent:
+      x: 800
+      y: 170
+    dimensions:
+      width: 151
+      height: 48
+  fills:
+    - type: IMAGE
+      imageRef: 60b532a334228c29a280f643339be78344894145
+      scaleMode: FILL
+      objectFit: cover
+      isBackground: false
+      imageDownloadArguments:
+        needsCropping: false
+        requiresImageDimensions: false
+
+COMPONENTS:
+279:19287:
+  id: 279:19287
+  key: 7ec3f18a57c5f56e9f7098d58c4a4dd9e7d20c00
+  name: Fill=Yes, Size=Desktop, State=Full
+  componentSetId: 279:19286
+895:29076:
+  id: 895:29076
+  key: ab1dcc901025be5f27207ac23bb83d206b9155e8
+  name: State=Default, Type=Thretiarly, Color=Black
+  componentSetId: 277:11108
+828:11817:
+  id: 828:11817
+  key: 61e5da15a5f50ba3b876d553d0dce4f2563ae822
+  name: State=Default, Type=Primary, Color=Accent
+  componentSetId: 828:11816
+828:11819:
+  id: 828:11819
+  key: 3645818126d269d31f6be7f42309440435a5d23a
+  name: State=Default, Type=Primary, Color=Light
+  componentSetId: 828:11816
+276:2863:
+  id: 276:2863
+  key: 639d4c7c713feb7ddca0506b0450132c98d6d2db
+  name: Footer
+
+COMPONENT_SETS:
+279:19286:
+  id: 279:19286
+  key: bc281cfd3d4aa83729dc01553a29d1b18d374dd1
+  name: Header
+  description: ''
+277:11108:
+  id: 277:11108
+  key: f734dda002e50822229e9c1be4cfeb9f642d8d05
+  name: Button
+  description: ''
+828:11816:
+  id: 828:11816
+  key: 675926d04fac1a9825d46ad65d49b5441cf04826
+  name: Button
+  description: ''
+
+NODES:
+[SECTION] "Дизайн / Блог" #966:49446 layout={"mode":"none","sizing":{}} fills=["rgba(255, 255, 255, 0.05)"] strokes=["rgba(255, 255, 255, 0.1)"] strokeWeight=1px
+  [TEXT] #966:49447 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":534,"y":440},"dimensions":{"width":293,"height":136}} fills=fill_658ab2fa textStyle=style_6f999b2d text="Блог"
+  [TEXT] #966:49448 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":2774,"y":440},"dimensions":{"width":438,"height":136}} fills=fill_658ab2fa textStyle=style_6f999b2d text="Статья"
+  [FRAME] "Блог" #966:49449 layout={"mode":"column","alignItems":"center","sizing":{"horizontal":"fixed","vertical":"hug"},"locationRelativeToParent":{"x":534,"y":723},"dimensions":{"width":1440}} fills=fill_7ad30328
+    [INSTANCE] "Header" #966:49450 template=EL-6b472314
+      [FRAME] "Content" #I966:49450;279:19288 template=EL-bb582553
+        [FRAME] "Content " #I966:49450;279:19289 template=EL-12d709f7
+          [TEXT] #I966:49450;279:19290 template=EL-106f5a91
+          [FRAME] #I966:49450;279:19291 template=EL-5843db5d
+            [TEXT] #I966:49450;279:19292 template=EL-4cc49b2d
+            [IMAGE-SVG] "vuesax/linear/arrow-right" #I966:49450;279:19293 template=EL-d4302386
+        [RECTANGLE] "telegram-cloud-document-2-5251416634047897893 1" #I966:49450;907:30122 template=EL-496b7f4c
+        [FRAME] "Content" #I966:49450;279:19297 template=EL-50da7cd7
+          [IMAGE-SVG] "Icon Search" #I966:49450;279:19298 template=EL-762d5cce
+          [IMAGE-SVG] "bytesize:heart" #I966:49450;279:19300 template=EL-762d5cce
+          [INSTANCE] "Button" #I966:49450;895:29085 template=EL-e88db4ee
+            [TEXT] #I966:49450;895:29085;895:29077 template=EL-fd2be87b
+      [FRAME] "Content" #I966:49450;279:19309 template=EL-c9c16ae6
+        [TEXT] #I966:49450;279:19311 template=EL-569edc46
+        [TEXT] #I966:49450;279:19312 template=EL-36e8436f
+        [TEXT] #I966:49450;279:19313 template=EL-13bfe0f1
+        [TEXT] #I966:49450;279:19314 template=EL-62a5be30
+        [TEXT] #I966:49450;279:19315 template=EL-6858659e
+        [TEXT] #I966:49450;279:19316 template=EL-4792e634
+        [TEXT] #I966:49450;279:19317 template=EL-6ab11265
+        [FRAME] "Dropdown" #I966:49450;279:19318 template=EL-5843db5d
+          [TEXT] #I966:49450;279:19319 template=EL-f8162672
+    [FRAME] "Title" #966:49451 template=EL-1e2d879d
+      [FRAME] #966:49452 template=EL-7e82b98e
+        [FRAME] "Breadcrumbs" #966:49453 template=EL-eda14dc5
+          [TEXT] #966:49454 template=EL-474825e7
+          [TEXT] #966:49455 template=EL-ad237f5c
+          [TEXT] #966:49456 layout=layout_177c5efc fills=fill_8b4fbb9e textStyle=style_9a5f131c text="Статьи"
+        [FRAME] #966:49457 template=EL-28d879d4
+          [LINE] #966:49458 template=EL-56ff9324
+          [IMAGE-SVG] "telegram-cloud-document-2-5251416634047897893 1 [Vectorized]" #966:49459 template=EL-df5bb129
+          [LINE] #966:49468 template=EL-56ff9324
+        [TEXT] #966:49469 layout={"mode":"none","sizing":{"horizontal":"fixed","vertical":"hug"},"dimensions":{"width":780}} fills=fill_34dc0314 textStyle=H2 text="Статьи"
+    [FRAME] "Content" #966:49470 layout={"mode":"column","alignSelf":"stretch","padding":"0px 40px 70px","alignItems":"center","gap":"40px","sizing":{"horizontal":"fill","vertical":"hug"}}
+      [FRAME] "Cards" #966:49471 layout={"mode":"row","alignSelf":"stretch","wrap":true,"gap":"12px","sizing":{"horizontal":"fill","vertical":"hug"}}
+        [FRAME] "Article Card" #966:49472 template=EL-2ce5c46d
+          [RECTANGLE] "Image" #966:49473 layout=layout_5bc4e785 fills=[{"type":"IMAGE","imageRef":"8140187d7434deb0949af7fc1b0dd918d1b1971f","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}},{"type":"IMAGE","imageRef":"058c1d8455902d4feeae548f64370c6e21211db7","scaleMode":"STRETCH","objectFit":"fill","isBackground":false,"imageDownloadArguments":{"needsCropping":true,"requiresImageDimensions":false,"cropTransform":[[0.6744838953018188,0,0.1182207465171814],[0,1,-1.4210854715202004e-14]],"filenameSuffix":"5f56c8"}}]
+          [TEXT] #966:49474 template=EL-abb0ba6e
+          [FRAME] #966:49475 template=EL-243fe5b4
+            [FRAME] #966:49476 template=EL-50ef8a26
+              [TEXT] #966:49477 template=EL-c280b2bc
+              [TEXT] #966:49478 template=EL-603b51b3
+        [FRAME] "Article Card" #966:49479 template=EL-2ce5c46d
+          [RECTANGLE] "Image" #966:49480 layout=layout_5bc4e785 fills=[{"type":"IMAGE","imageRef":"058c1d8455902d4feeae548f64370c6e21211db7","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}},"#B0B0B0",{"type":"IMAGE","imageRef":"c4cc1c2758794e9010804afa779f699b21c3e516","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}}]
+          [TEXT] #966:49481 template=EL-abb0ba6e
+          [FRAME] #966:49482 template=EL-243fe5b4
+            [FRAME] #966:49483 template=EL-50ef8a26
+              [TEXT] #966:49484 template=EL-0242c1f8
+              [TEXT] #966:49485 template=EL-4cfedacb
+        [FRAME] "Article Card" #966:49486 template=EL-2ce5c46d
+          [RECTANGLE] "Image" #966:49487 layout=layout_5bc4e785 fills=[{"type":"IMAGE","imageRef":"15d29905f621b4d116c3923f0e503fbb05ee91f7","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}},{"type":"IMAGE","imageRef":"058c1d8455902d4feeae548f64370c6e21211db7","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}},"#B0B0B0",{"type":"IMAGE","imageRef":"4a92a7cb8222478d0ccdf01e6caf11a4f884961b","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}}]
+          [TEXT] #966:49488 template=EL-13d4b0d6
+          [FRAME] #966:49489 template=EL-243fe5b4
+            [FRAME] #966:49490 template=EL-50ef8a26
+              [TEXT] #966:49491 template=EL-16f27602
+              [TEXT] #966:49492 template=EL-d41f28e3
+        [FRAME] "Article Card" #966:49493 template=EL-2ce5c46d
+          [RECTANGLE] "Image" #966:49494 layout=layout_5bc4e785 fills=[{"type":"IMAGE","imageRef":"dbd2f5419f5b2f6fddc301bf2f2da32be65d3d93","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}},{"type":"IMAGE","imageRef":"058c1d8455902d4feeae548f64370c6e21211db7","scaleMode":"STRETCH","objectFit":"fill","isBackground":false,"imageDownloadArguments":{"needsCropping":true,"requiresImageDimensions":false,"cropTransform":[[0.6744838953018188,0,0.1182207465171814],[0,1,-1.4210854715202004e-14]],"filenameSuffix":"5f56c8"}}]
+          [TEXT] #966:49495 template=EL-abb0ba6e
+          [FRAME] #966:49496 template=EL-243fe5b4
+            [FRAME] #966:49497 template=EL-50ef8a26
+              [TEXT] #966:49498 template=EL-c280b2bc
+              [TEXT] #966:49499 template=EL-603b51b3
+        [FRAME] "Article Card" #966:49500 template=EL-2ce5c46d
+          [RECTANGLE] "Image" #966:49501 layout=layout_5bc4e785 fills=[{"type":"IMAGE","imageRef":"6e7b408207da980f53569e61db687c9547a13257","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}},{"type":"IMAGE","imageRef":"058c1d8455902d4feeae548f64370c6e21211db7","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}},"#B0B0B0",{"type":"IMAGE","imageRef":"c4cc1c2758794e9010804afa779f699b21c3e516","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}}]
+          [TEXT] #966:49502 template=EL-abb0ba6e
+          [FRAME] #966:49503 template=EL-243fe5b4
+            [FRAME] #966:49504 template=EL-50ef8a26
+              [TEXT] #966:49505 template=EL-0242c1f8
+              [TEXT] #966:49506 template=EL-4cfedacb
+        [FRAME] "Article Card" #966:49507 template=EL-2ce5c46d
+          [RECTANGLE] "Image" #966:49508 layout=layout_5bc4e785 fills=[{"type":"IMAGE","imageRef":"a2f05d126b72507ffb34c96355f26dbbe2d7c17b","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}},{"type":"IMAGE","imageRef":"058c1d8455902d4feeae548f64370c6e21211db7","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}},"#B0B0B0",{"type":"IMAGE","imageRef":"4a92a7cb8222478d0ccdf01e6caf11a4f884961b","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}}]
+          [TEXT] #966:49509 template=EL-13d4b0d6
+          [FRAME] #966:49510 template=EL-243fe5b4
+            [FRAME] #966:49511 template=EL-50ef8a26
+              [TEXT] #966:49512 template=EL-16f27602
+              [TEXT] #966:49513 template=EL-d41f28e3
+      [INSTANCE] #966:49514 template=EL-18fca13c
+        [TEXT] #I966:49514;1:6200 layout=layout_177c5efc fills=fill_658ab2fa textStyle=style_ce0a4cea text="Показать больше"
+    [FRAME] "Image" #966:49515 template=EL-c34b9029
+      [FRAME] #966:49516 template=EL-8f2f1080
+        [TEXT] #966:49517 template=EL-acfb1ade
+        [TEXT] #966:49518 template=EL-93b5c6ca
+        [INSTANCE] #966:49519 template=EL-43b9216d
+          [TEXT] #I966:49519;1:6202 template=EL-d75823b6
+    [INSTANCE] "Footer" #966:49520 template=EL-928ac7ac
+      [FRAME] "Selection" #I966:49520;203:887 template=EL-bf156a5b
+        [FRAME] #I966:49520;203:889 template=EL-3991bef7
+          [RECTANGLE] "telegram-cloud-document-2-5251416634047897893 1" #I966:49520;907:30196 template=EL-7349ae27
+          [TEXT] #I966:49520;203:891 template=EL-d07450bf
+        [TEXT] #I966:49520;205:63 template=EL-b1ebc304
+        [TEXT] #I966:49520;205:66 template=EL-0468c0d7
+        [TEXT] #I966:49520;205:64 template=EL-899488be
+        [TEXT] #I966:49520;205:65 template=EL-c531e5c6
+        [FRAME] #I966:49520;205:35 template=EL-1c6de66b
+          [TEXT] #I966:49520;203:910 template=EL-362fb9b8
+          [FRAME] #I966:49520;205:34 template=EL-1519dabc
+            [TEXT] #I966:49520;205:27 template=EL-53f4cbfc
+            [TEXT] #I966:49520;205:28 template=EL-5eb41475
+            [TEXT] #I966:49520;205:29 template=EL-fa609635
+            [TEXT] #I966:49520;205:30 template=EL-6675a1ab
+            [TEXT] #I966:49520;205:31 template=EL-d18ea825
+            [TEXT] #I966:49520;205:32 template=EL-bad21f62
+            [TEXT] #I966:49520;205:33 template=EL-19cf47e0
+        [FRAME] #I966:49520;205:36 template=EL-4813bf8c
+          [TEXT] #I966:49520;205:37 template=EL-488e33ab
+          [FRAME] #I966:49520;205:38 template=EL-1519dabc
+            [TEXT] #I966:49520;205:39 template=EL-def71b74
+            [TEXT] #I966:49520;205:61 template=EL-12909fbd
+            [TEXT] #I966:49520;205:44 template=EL-8dd185e5
+        [FRAME] #I966:49520;205:46 template=EL-cd7c93c4
+          [TEXT] #I966:49520;205:47 template=EL-c354e8a1
+          [FRAME] #I966:49520;205:48 template=EL-1519dabc
+            [TEXT] #I966:49520;205:49 template=EL-46649359
+            [TEXT] #I966:49520;205:50 template=EL-71203d8a
+            [TEXT] #I966:49520;205:52 template=EL-bc5a879b
+            [TEXT] #I966:49520;205:56 template=EL-01984c59
+        [FRAME] #I966:49520;205:67 template=EL-8e2638f3
+          [FRAME] #I966:49520;206:122 template=EL-f6efe3b4
+            [FRAME] #I966:49520;206:124 template=EL-24705f71
+              [TEXT] #I966:49520;206:125 template=EL-bcfc5562
+              [TEXT] #I966:49520;206:126 template=EL-6dda702e
+            [FRAME] #I966:49520;206:128 template=EL-24705f71
+              [TEXT] #I966:49520;206:129 template=EL-b73a9f94
+              [TEXT] #I966:49520;206:130 template=EL-adf99d5c
+            [TEXT] #I966:49520;206:119 template=EL-7cb103ea
+            [FRAME] #I966:49520;205:84 template=EL-235879b0
+              [IMAGE-SVG] "basil:vk-solid" #I966:49520;205:85 template=EL-7c4c0d96
+              [IMAGE-SVG] "basil:vk-solid" #I966:49520;205:87 template=EL-7c4c0d96
+              [IMAGE-SVG] "basil:vk-solid" #I966:49520;205:89 template=EL-7c4c0d96
+          [FRAME] #I966:49520;206:123 template=EL-d8a3e5e9
+            [TEXT] #I966:49520;203:898 template=EL-19945db2
+            [TEXT] #I966:49520;203:904 template=EL-438719fa
+        [RECTANGLE] "image 1271224161" #I966:49520;205:91 template=EL-9a80455c
+  [FRAME] "Блог" #966:49521 layout={"mode":"column","alignItems":"center","sizing":{"horizontal":"fixed","vertical":"hug"},"locationRelativeToParent":{"x":2774,"y":723},"dimensions":{"width":1440}} fills=fill_7ad30328
+    [INSTANCE] "Header" #966:49522 template=EL-6b472314
+      [FRAME] "Content" #I966:49522;279:19288 template=EL-bb582553
+        [FRAME] "Content " #I966:49522;279:19289 template=EL-12d709f7
+          [TEXT] #I966:49522;279:19290 template=EL-106f5a91
+          [FRAME] #I966:49522;279:19291 template=EL-5843db5d
+            [TEXT] #I966:49522;279:19292 template=EL-4cc49b2d
+            [IMAGE-SVG] "vuesax/linear/arrow-right" #I966:49522;279:19293 template=EL-d4302386
+        [RECTANGLE] "telegram-cloud-document-2-5251416634047897893 1" #I966:49522;907:30122 template=EL-496b7f4c
+        [FRAME] "Content" #I966:49522;279:19297 template=EL-50da7cd7
+          [IMAGE-SVG] "Icon Search" #I966:49522;279:19298 template=EL-762d5cce
+          [IMAGE-SVG] "bytesize:heart" #I966:49522;279:19300 template=EL-762d5cce
+          [INSTANCE] "Button" #I966:49522;895:29085 template=EL-e88db4ee
+            [TEXT] #I966:49522;895:29085;895:29077 template=EL-fd2be87b
+      [FRAME] "Content" #I966:49522;279:19309 template=EL-c9c16ae6
+        [TEXT] #I966:49522;279:19311 template=EL-569edc46
+        [TEXT] #I966:49522;279:19312 template=EL-36e8436f
+        [TEXT] #I966:49522;279:19313 template=EL-13bfe0f1
+        [TEXT] #I966:49522;279:19314 template=EL-62a5be30
+        [TEXT] #I966:49522;279:19315 template=EL-6858659e
+        [TEXT] #I966:49522;279:19316 template=EL-4792e634
+        [TEXT] #I966:49522;279:19317 template=EL-6ab11265
+        [FRAME] "Dropdown" #I966:49522;279:19318 template=EL-5843db5d
+          [TEXT] #I966:49522;279:19319 template=EL-f8162672
+    [FRAME] "Title" #966:49523 template=EL-1e2d879d
+      [FRAME] #966:49524 template=EL-7e82b98e
+        [FRAME] "Breadcrumbs" #966:49525 template=EL-eda14dc5
+          [TEXT] #966:49526 template=EL-474825e7
+          [TEXT] #966:49527 template=EL-ad237f5c
+          [TEXT] #966:49528 layout=layout_177c5efc fills=fill_8b4fbb9e textStyle=style_9a5f131c text="Все статьи"
+          [TEXT] #966:49529 template=EL-ad237f5c
+          [TEXT] #966:49530 layout=layout_177c5efc fills=fill_8b4fbb9e textStyle=style_9a5f131c text="Статья"
+        [FRAME] #966:49531 template=EL-28d879d4
+          [LINE] #966:49532 template=EL-56ff9324
+          [IMAGE-SVG] "telegram-cloud-document-2-5251416634047897893 1 [Vectorized]" #966:49533 template=EL-df5bb129
+          [LINE] #966:49542 template=EL-56ff9324
+        [TEXT] #966:49543 layout={"mode":"none","sizing":{"horizontal":"fixed","vertical":"hug"},"dimensions":{"width":708}} fills=fill_34dc0314 textStyle=H2 text="Как выбрать подарок для дома, который не будет случайным"
+    [FRAME] #966:49544 layout={"mode":"column","alignSelf":"stretch","padding":"0px 268px 70px","alignItems":"stretch","gap":"28px","sizing":{"horizontal":"fill","vertical":"hug"}}
+      [TEXT] #966:49545 layout=layout_56d3c81c fills=fill_95f554d6 textStyle=style_c1e78652 text="Подарок для дома кажется простым выбором только на первый взгляд. Посуда, ваза, плед или декоративный предмет могут быть очень личными: они становятся частью пространства, попадают в привычный ритм жизни и каждый день оказываются на виду.\\nПоэтому хороший подарок для дома — это не просто красивая вещь. Он должен быть уместным по стилю, понятным по назначению и достаточно универсальным, чтобы легко вписаться в интерьер."
+      [FRAME] "Image" #966:49546 layout=layout_9308889f fills=[{"type":"IMAGE","imageRef":"058c1d8455902d4feeae548f64370c6e21211db7","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}},"#B1B1B1"]
+      [FRAME] #966:49547 template=EL-50ef8a26
+        [TEXT] #966:49548 layout=layout_177c5efc fills=fill_34dc0314 textStyle=H3 text="Начните с повода"
+        [TEXT] #966:49549 layout=layout_56d3c81c fills=fill_95f554d6 textStyle=style_c1e78652 text="Для дня рождения подойдут более личные предметы: чайная пара, ваза, текстиль или аксессуар для сервировки. Для свадьбы или новоселья лучше выбирать вещи, которые могут стать частью общего пространства: сервиз, набор бокалов, предмет декора или подарочный сертификат.\\nДля делового подарка особенно важны сдержанность и качество исполнения. Здесь хорошо работают лаконичные предметы известных брендов: хрусталь, настольные аксессуары, декоративные объекты или универсальные изделия для сервировки."
+      [FRAME] "Image" #966:49550 layout=layout_9308889f fills=[{"type":"IMAGE","imageRef":"013d49a8edd78e5ec3ad22e6534d313e56c35c80","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}},{"type":"IMAGE","imageRef":"058c1d8455902d4feeae548f64370c6e21211db7","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}},"#B1B1B1"]
+      [FRAME] #966:49551 template=EL-50ef8a26
+        [TEXT] #966:49552 layout=layout_177c5efc fills=fill_34dc0314 textStyle=H3 text="Учитывайте интерьер"
+        [TEXT] #966:49553 layout=layout_56d3c81c fills=fill_95f554d6 textStyle=style_c1e78652 text="Даже самый красивый предмет может выглядеть случайно, если он не совпадает с атмосферой дома. Перед покупкой стоит подумать о цветах, материалах и общем характере пространства.\\nДля спокойного интерьера подойдут изделия с чистыми формами, хрусталём, фарфором, прозрачным стеклом или мягкими оттенками. Для более выразительного пространства можно выбрать предмет с акцентным цветом, фактурой или узнаваемым рисунком бренда."
+      [FRAME] "Image" #966:49554 layout={"mode":"row","alignSelf":"stretch","padding":"24px","justifyContent":"center","alignItems":"center","gap":"24px","sizing":{"horizontal":"fill","vertical":"hug"}} fills=["#D6C5AA"]
+        [FRAME] "Text" #966:49555 layout={"mode":"column","alignSelf":"stretch","justifyContent":"space-between","sizing":{"horizontal":"fill","vertical":"fill"}}
+          [FRAME] #966:49556 template=EL-50ef8a26
+            [TEXT] #966:49557 layout=layout_177c5efc fills=fill_34dc0314 textStyle="H2 (828:11795)" text="Подарите выбор"
+            [TEXT] #966:49558 layout=layout_56d3c81c fills=fill_95f554d6 textStyle=T2 text="Подарочная карта Luvr подойдёт, если хочется оставить получателю возможность выбрать изделие самостоятельно"
+          [INSTANCE] #966:49559 template=EL-18fca13c
+            [TEXT] #I966:49559;1:6200 layout=layout_177c5efc fills=fill_658ab2fa textStyle=style_ce0a4cea text="Купить подарочную карту"
+        [FRAME] "Image" #966:49560 layout={"mode":"column","justifyContent":"center","alignItems":"center","gap":"10px","sizing":{"horizontal":"fill","vertical":"fixed"},"dimensions":{"height":268}} fills=[{"type":"IMAGE","imageRef":"15d29905f621b4d116c3923f0e503fbb05ee91f7","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}},"#B1B1B1"]
+      [FRAME] "Image" #966:49561 layout=layout_9308889f fills=[{"type":"IMAGE","imageRef":"a2f05d126b72507ffb34c96355f26dbbe2d7c17b","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}},{"type":"IMAGE","imageRef":"6e7b408207da980f53569e61db687c9547a13257","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}},{"type":"IMAGE","imageRef":"058c1d8455902d4feeae548f64370c6e21211db7","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}},"#B1B1B1"]
+      [FRAME] #966:49562 template=EL-50ef8a26
+        [TEXT] #966:49563 layout=layout_177c5efc fills=fill_34dc0314 textStyle=H3 text="Обращайте внимание на упаковку"
+        [TEXT] #966:49564 layout=layout_56d3c81c fills=fill_95f554d6 textStyle=style_c1e78652 text="Если подарок нужно вручить лично, упаковка становится частью впечатления. Оригинальная коробка, фирменный пакет, лента и аккуратная подготовка делают подарок завершённым.\\nВ Luvr перед покупкой можно уточнить комплектацию изделия, наличие упаковки и детали, которые важны для подарка."
+    [FRAME] "Image" #966:49565 template=EL-c34b9029
+      [FRAME] #966:49566 template=EL-8f2f1080
+        [TEXT] #966:49567 template=EL-acfb1ade
+        [TEXT] #966:49568 template=EL-93b5c6ca
+        [INSTANCE] #966:49569 template=EL-43b9216d
+          [TEXT] #I966:49569;1:6202 template=EL-d75823b6
+    [INSTANCE] "Footer" #966:49570 template=EL-928ac7ac
+      [FRAME] "Selection" #I966:49570;203:887 template=EL-bf156a5b
+        [FRAME] #I966:49570;203:889 template=EL-3991bef7
+          [RECTANGLE] "telegram-cloud-document-2-5251416634047897893 1" #I966:49570;907:30196 template=EL-7349ae27
+          [TEXT] #I966:49570;203:891 template=EL-d07450bf
+        [TEXT] #I966:49570;205:63 template=EL-b1ebc304
+        [TEXT] #I966:49570;205:66 template=EL-0468c0d7
+        [TEXT] #I966:49570;205:64 template=EL-899488be
+        [TEXT] #I966:49570;205:65 template=EL-c531e5c6
+        [FRAME] #I966:49570;205:35 template=EL-1c6de66b
+          [TEXT] #I966:49570;203:910 template=EL-362fb9b8
+          [FRAME] #I966:49570;205:34 template=EL-1519dabc
+            [TEXT] #I966:49570;205:27 template=EL-53f4cbfc
+            [TEXT] #I966:49570;205:28 template=EL-5eb41475
+            [TEXT] #I966:49570;205:29 template=EL-fa609635
+            [TEXT] #I966:49570;205:30 template=EL-6675a1ab
+            [TEXT] #I966:49570;205:31 template=EL-d18ea825
+            [TEXT] #I966:49570;205:32 template=EL-bad21f62
+            [TEXT] #I966:49570;205:33 template=EL-19cf47e0
+        [FRAME] #I966:49570;205:36 template=EL-4813bf8c
+          [TEXT] #I966:49570;205:37 template=EL-488e33ab
+          [FRAME] #I966:49570;205:38 template=EL-1519dabc
+            [TEXT] #I966:49570;205:39 template=EL-def71b74
+            [TEXT] #I966:49570;205:61 template=EL-12909fbd
+            [TEXT] #I966:49570;205:44 template=EL-8dd185e5
+        [FRAME] #I966:49570;205:46 template=EL-cd7c93c4
+          [TEXT] #I966:49570;205:47 template=EL-c354e8a1
+          [FRAME] #I966:49570;205:48 template=EL-1519dabc
+            [TEXT] #I966:49570;205:49 template=EL-46649359
+            [TEXT] #I966:49570;205:50 template=EL-71203d8a
+            [TEXT] #I966:49570;205:52 template=EL-bc5a879b
+            [TEXT] #I966:49570;205:56 template=EL-01984c59
+        [FRAME] #I966:49570;205:67 template=EL-8e2638f3
+          [FRAME] #I966:49570;206:122 template=EL-f6efe3b4
+            [FRAME] #I966:49570;206:124 template=EL-24705f71
+              [TEXT] #I966:49570;206:125 template=EL-bcfc5562
+              [TEXT] #I966:49570;206:126 template=EL-6dda702e
+            [FRAME] #I966:49570;206:128 template=EL-24705f71
+              [TEXT] #I966:49570;206:129 template=EL-b73a9f94
+              [TEXT] #I966:49570;206:130 template=EL-adf99d5c
+            [TEXT] #I966:49570;206:119 template=EL-7cb103ea
+            [FRAME] #I966:49570;205:84 template=EL-235879b0
+              [IMAGE-SVG] "basil:vk-solid" #I966:49570;205:85 template=EL-7c4c0d96
+              [IMAGE-SVG] "basil:vk-solid" #I966:49570;205:87 template=EL-7c4c0d96
+              [IMAGE-SVG] "basil:vk-solid" #I966:49570;205:89 template=EL-7c4c0d96
+          [FRAME] #I966:49570;206:123 template=EL-d8a3e5e9
+            [TEXT] #I966:49570;203:898 template=EL-19945db2
+            [TEXT] #I966:49570;203:904 template=EL-438719fa
+        [RECTANGLE] "image 1271224161" #I966:49570;205:91 template=EL-9a80455c

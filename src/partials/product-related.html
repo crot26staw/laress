@@ -1,0 +1,37 @@
+<!-- Слайдер карточек на странице товара: «Из этой же коллекции» (966:46498), «С этим изделием покупают» (966:46593),
+     «Просмотренные изделия» (966:46664). Станет template-parts/product-related.php (WP_Query + цикл по product-card).
+     Параметры: id (уникальный id заголовка), title. -->
+<section class="products products--related" aria-labelledby="{{id}}" data-products-slider>
+  <div class="products__inner container">
+    <div class="section-heading">
+      <div class="ornament" aria-hidden="true">
+        <span class="ornament__line"></span>
+        <img class="ornament__mark" src="/src/assets/icons/logo-mark.svg" width="37" height="34" alt="" loading="lazy" />
+        <span class="ornament__line"></span>
+      </div>
+      <h2 class="text-h2" id="{{id}}">{{title}}</h2>
+    </div>
+    <div class="products__slider">
+      <ul class="products__track" data-products-track>
+        <li class="products__item">
+          <!-- @include src/partials/product-card.html {"href": "#", "image": "/src/assets/images/catalog/catalog-oysters", "width": "445", "height": "460", "alt": "Сервировка с устрицами на тарелках с орнаментом", "loading": "lazy", "category": "Статуэтка", "title": "Скульптура Daum Рыба Ange Royal Turquoise &amp; Jaune Maya", "price": "1 160 000 ₽", "priceOld": "1 170 000 ₽"} -->
+        </li>
+        <li class="products__item">
+          <!-- @include src/partials/product-card.html {"href": "#", "image": "/src/assets/images/catalog/catalog-watch", "width": "445", "height": "460", "alt": "Часы с зелёным циферблатом на запястье", "loading": "lazy", "category": "Статуэтка", "title": "Скульптура Daum Рыба Ange Royal Turquoise &amp; Jaune Maya", "price": "1 160 000 ₽", "priceOld": "1 170 000 ₽"} -->
+        </li>
+        <li class="products__item">
+          <!-- @include src/partials/product-card.html {"href": "#", "image": "/src/assets/images/catalog/catalog-table-setting", "width": "445", "height": "460", "alt": "Праздничная сервировка с розовыми бокалами", "loading": "lazy", "category": "Статуэтка", "title": "Скульптура Daum Рыба Ange Royal Turquoise &amp; Jaune Maya", "price": "1 160 000 ₽", "priceOld": "1 170 000 ₽"} -->
+        </li>
+        <li class="products__item">
+          <!-- @include src/partials/product-card.html {"href": "#", "image": "/src/assets/images/catalog/catalog-table-setting", "width": "445", "height": "460", "alt": "Праздничная сервировка с розовыми бокалами", "loading": "lazy", "category": "Статуэтка", "title": "Скульптура Daum Рыба Ange Royal Turquoise &amp; Jaune Maya", "price": "1 160 000 ₽", "priceOld": "1 170 000 ₽"} -->
+        </li>
+      </ul>
+      <button class="icon-button products__arrow products__arrow--prev" type="button" aria-label="Предыдущие товары" data-products-prev>
+        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" aria-hidden="true"><path d="M22 12L15.5696 18.5859C14.8101 19.3636 14.8101 20.6364 15.5696 21.4141L22 28" stroke="currentColor" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" /></svg>
+      </button>
+      <button class="icon-button products__arrow products__arrow--next" type="button" aria-label="Следующие товары" data-products-next>
+        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" aria-hidden="true"><path d="M18 12L24.4304 18.5859C25.1899 19.3636 25.1899 20.6364 24.4304 21.4141L18 28" stroke="currentColor" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" /></svg>
+      </button>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,65 @@
+/* «О бренде» на странице товара (966:46569): фото 760×720 от левого края + текст. Раскладка как у .designers. */
+
+.brand-story {
+  display: flex;
+  gap: var(--space-20);
+  padding-block: var(--space-70);
+  background-color: var(--color-surface);
+}
+
+.brand-story__image {
+  flex: 0 0 calc(50% + var(--container-padding));
+  width: calc(50% + var(--container-padding));
+  height: 720px;
+  object-fit: cover;
+}
+
+.brand-story__content {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-right: var(--gutter);
+}
+
+/* Верхний орнамент: блок высотой 2px, знак выступает наружу */
+.brand-story__ornament {
+  height: 2px;
+}
+
+.brand-story__line {
+  height: 1px;
+  background-color: var(--color-sand);
+}
+
+.brand-story__body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: var(--space-40);
+  text-align: center;
+}
+
+.brand-story__heading {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-12);
+  align-self: stretch;
+}
+
+.brand-story__eyebrow {
+  font-size: var(--font-size-16);
+  line-height: var(--line-height-text);
+}
+
+.brand-story__text {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-12);
+  width: 550px;
+  font-size: var(--font-size-16);
+  line-height: var(--line-height-text);
+  color: var(--color-text-90);
+}

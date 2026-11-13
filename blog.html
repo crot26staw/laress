@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Статьи — Luvr</title>
+    <meta name="description" content="Статьи Luvr о посуде, декоре и подарках: выбор бренда, сервировка, оформление интерьера." />
+    <link rel="preload" href="/src/assets/fonts/hauora-regular.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/src/assets/fonts/hauora-medium.woff2" as="font" type="font/woff2" crossorigin />
+    <script type="module" src="/src/scripts/main.js"></script>
+  </head>
+  <body class="page-surface">
+    <!-- @include src/partials/header.html -->
+
+    <main>
+      <div class="page-intro container">
+        <div class="section-heading">
+          <nav class="breadcrumbs" aria-label="Хлебные крошки">
+            <ol class="breadcrumbs__list">
+              <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="/">Главная</a></li>
+              <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="/blog.html" aria-current="page">Статьи</a></li>
+            </ol>
+          </nav>
+          <div class="ornament" aria-hidden="true">
+            <span class="ornament__line"></span>
+            <img class="ornament__mark" src="/src/assets/icons/logo-mark.svg" width="37" height="34" alt="" />
+            <span class="ornament__line"></span>
+          </div>
+          <h1 class="text-h2">Статьи</h1>
+        </div>
+      </div>
+
+      <section class="articles container" aria-label="Список статей">
+        <ul class="articles__list">
+          <!-- @include src/partials/article-card.html {"href": "/blog-article.html", "image": "/src/assets/images/blog/blog-card-pillows", "alt": "Стопка декоративных подушек на льняном покрывале", "date": "13 мая 2026", "datetime": "2026-05-13", "title": "Эстетика времени", "excerpt": "В&nbsp;эпоху цифрового шума, когда тысячи снимков бесследно исчезают в&nbsp;бесконечной ленте социальных сетей среди мимолетных кадров, истинная ценность обретает физическую форму."} -->
+          <!-- @include src/partials/article-card.html {"href": "/blog-article.html", "image": "/src/assets/images/blog/blog-card-flowers", "alt": "Полевые цветы в белой керамической вазе", "date": "13 мая 2026", "datetime": "2026-05-13", "title": "Лето - время любви и красивых свадеб", "excerpt": "Свадебный сезон в&nbsp;самом разгаре. Получение приглашения на&nbsp;свадьбу&nbsp;— это всегда радостное событие, за&nbsp;которым неизбежно следует важный вопрос: какой подарок станет достойным."} -->
+          <!-- @include src/partials/article-card.html {"href": "/blog-article.html", "image": "/src/assets/images/blog/blog-card-vase", "alt": "Дымчатая стеклянная ваза и стакан на мраморном столе", "date": "1 мая 2026", "datetime": "2026-05-01", "title": "Официальный дистрибьютор<br />люкс домов", "excerpt": "Luvr является официальным дистрибьютором и&nbsp;авторизованным партнёром ряда крупнейших европейских марок в&nbsp;категориях фарфора, хрусталя, столовых приборов и&nbsp;предметов декора."} -->
+          <!-- @include src/partials/article-card.html {"href": "/blog-article.html", "image": "/src/assets/images/blog/blog-card-amber-bowl", "alt": "Янтарная стеклянная чаша на каменном постаменте", "date": "13 мая 2026", "datetime": "2026-05-13", "title": "Эстетика времени", "excerpt": "В&nbsp;эпоху цифрового шума, когда тысячи снимков бесследно исчезают в&nbsp;бесконечной ленте социальных сетей среди мимолетных кадров, истинная ценность обретает физическую форму."} -->
+          <!-- @include src/partials/article-card.html {"href": "/blog-article.html", "image": "/src/assets/images/blog/blog-card-figs", "alt": "Бокалы из цветного стекла и инжир на тарелке", "date": "13 мая 2026", "datetime": "2026-05-13", "title": "Лето - время любви и красивых свадеб", "excerpt": "Свадебный сезон в&nbsp;самом разгаре. Получение приглашения на&nbsp;свадьбу&nbsp;— это всегда радостное событие, за&nbsp;которым неизбежно следует важный вопрос: какой подарок станет достойным."} -->
+          <!-- @include src/partials/article-card.html {"href": "/blog-article.html", "image": "/src/assets/images/blog/blog-card-linen", "alt": "Сложенный льняной текстиль с бахромой", "date": "1 мая 2026", "datetime": "2026-05-01", "title": "Официальный дистрибьютор<br />люкс домов", "excerpt": "Luvr является официальным дистрибьютором и&nbsp;авторизованным партнёром ряда крупнейших европейских марок в&nbsp;категориях фарфора, хрусталя, столовых приборов и&nbsp;предметов декора."} -->
+        </ul>
+        <a class="button button--primary" href="#">Показать больше</a>
+      </section>
+
+      <!-- @include src/partials/cta-consultation.html -->
+    </main>
+
+    <!-- @include src/partials/footer.html -->
+  </body>
+</html>

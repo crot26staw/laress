@@ -5,6 +5,9 @@ import { ViteImageOptimizer } from 'vite-plugin-image-optimizer';
 
 const root = process.cwd();
 
+// Базовый путь сайта. Локально — '/', на GitHub Pages — '/laress/' (задаётся в .github/workflows/pages.yml).
+const base = process.env.BASE_PATH || '/';
+
 // Все *.html в корне — отдельные страницы (Vite multi-page).
 const pages = Object.fromEntries(
   readdirSync(root)
@@ -55,9 +58,29 @@ function htmlPartials() {
   };
 }
 
+// Ссылки между страницами (href="/catalog.html", action="/") Vite не трогает — при base ≠ '/'
+// дописываем к ним base. Картинки, шрифты и скрипты Vite переписывает сам.
+function basePageLinks() {
+  return {
+    name: 'base-page-links',
+    apply: 'build',
+    transformIndexHtml: {
+      order: 'post',
+      handler: (html) =>
+        base === '/'
+          ? html
+          : html.replace(/\b(href|action)="\/(?!\/)([^"]*)"/g, (match, attr, rest) =>
+              `/${rest}`.startsWith(base) ? match : `${attr}="${base}${rest}"`,
+            ),
+    },
+  };
+}
+
 export default defineConfig({
+  base,
   plugins: [
     htmlPartials(),
+    basePageLinks(),
     // Растровые картинки уже оптимизированы скриптом (npm run images), здесь — только SVG.
     ViteImageOptimizer({
       test: /\.svg$/i,

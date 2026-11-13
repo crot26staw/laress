@@ -1,0 +1,23 @@
+/* Заголовок секции: орнамент + H2 (+ подзаголовок). */
+
+.section-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-20);
+  text-align: center;
+}
+
+.section-heading__body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-12);
+}
+
+.section-heading__text {
+  max-width: 550px;
+  font-size: var(--font-size-18);
+  line-height: var(--line-height-snug);
+  color: var(--color-text-90);
+}

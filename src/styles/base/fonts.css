@@ -1,0 +1,33 @@
+/* Hauora Sans (WCYS), SIL Open Font License 1.1 — см. src/assets/fonts/hauora-OFL.txt */
+
+@font-face {
+  font-family: "Hauora";
+  src: url("../../assets/fonts/hauora-regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Hauora";
+  src: url("../../assets/fonts/hauora-medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Hauora";
+  src: url("../../assets/fonts/hauora-semibold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Hauora";
+  src: url("../../assets/fonts/hauora-bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}

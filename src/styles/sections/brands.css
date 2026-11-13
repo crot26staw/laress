@@ -1,0 +1,104 @@
+/* «Популярные бренды» — слайдер с крупной центральной карточкой (966:41764). */
+
+.brands {
+  --brands-duration: 0.5s;
+  --brands-easing: cubic-bezier(0.4, 0, 0.2, 1);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-40);
+  padding-block: var(--space-70);
+  overflow: hidden;
+}
+
+.brands__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-32);
+  width: 100%;
+}
+
+.brands__slider {
+  position: relative;
+  width: 100%;
+}
+
+.brands__track {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-12);
+}
+
+.brands__item {
+  flex-shrink: 0;
+}
+
+.brands__link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-12);
+  transition: color var(--transition);
+}
+
+.brands__link:hover {
+  color: var(--color-accent);
+}
+
+.brands__image {
+  width: 254px;
+  height: 306px;
+  object-fit: cover;
+  transition:
+    width var(--brands-duration) var(--brands-easing),
+    height var(--brands-duration) var(--brands-easing);
+}
+
+.brands__item--active .brands__image {
+  width: 446px;
+  height: 520px;
+}
+
+/* Режим карусели (включает JS): карточки стоят по слотам относительно центра */
+.brands__track--carousel {
+  position: relative;
+  display: block;
+  height: 557.44px; /* 557.44px: фото 520 + 12 + название */
+}
+
+.brands__track--carousel .brands__item {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(calc(-50% + var(--brands-x, 0px)), -50%);
+  transition: transform var(--brands-duration) var(--brands-easing);
+}
+
+.brands__item--no-transition,
+.brands__item--no-transition .brands__image {
+  transition: none !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .brands {
+    --brands-duration: 0s;
+  }
+}
+
+.brands__arrow {
+  position: absolute;
+  top: 50%;
+  z-index: 2;
+  transform: translateY(-50%);
+}
+
+.brands__arrow--prev {
+  left: -17px;
+}
+
+.brands__arrow--next {
+  right: -20px;
+}

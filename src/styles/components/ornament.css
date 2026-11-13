@@ -1,0 +1,26 @@
+/* Орнамент-разделитель: линия — знак L — линия (Figma «Decoration»). */
+
+.ornament {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-12);
+  width: 220px;
+}
+
+.ornament__line {
+  flex: 1;
+  height: 1px;
+  background-color: var(--color-sand);
+}
+
+.ornament__mark {
+  flex-shrink: 0;
+  width: 36.74px;
+  height: 34.08px;
+}
+
+/* Растянуть на всю ширину родителя */
+.ornament--wide {
+  width: 100%;
+}

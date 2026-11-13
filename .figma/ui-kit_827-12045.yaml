@@ -1,0 +1,2364 @@
+NAME: "Laress (Copy)"
+
+GLOBAL_VARS:
+fill_dbe29f28:
+  - rgba(255, 255, 255, 0.1)
+style_6f999b2d:
+  fontFamily: Hauora
+  fontStyle: Bold
+  fontWeight: 700
+  fontSize: 128
+  lineHeight: 1.06em
+  letterSpacing: '-0.02em'
+  textAlignHorizontal: LEFT
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+fill_658ab2fa:
+  - '#FFFFFF'
+fill_0f8538f0:
+  - '#191919'
+fill_fd958d89:
+  - rgba(255, 255, 255, 0.15)
+style_1f430fa7:
+  fontFamily: Inter
+  fontStyle: Regular
+  fontWeight: 400
+  fontSize: 16
+  lineHeight: 1.06em
+  letterSpacing: '-0.05em'
+  textAlignHorizontal: CENTER
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+fill_9abcc1ff:
+  - '#EFEFEF'
+fill_70745384:
+  - '#8A38F5'
+fill_8b4fbb9e:
+  - '#B9904F'
+layout_177c5efc:
+  mode: none
+  sizing:
+    horizontal: hug
+    vertical: hug
+style_ce0a4cea:
+  fontFamily: Hauora
+  fontStyle: Medium
+  fontWeight: 500
+  fontSize: 16
+  lineHeight: 1.06em
+  letterSpacing: '-0.03em'
+  textAlignHorizontal: CENTER
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+fill_7ad30328:
+  - '#FBFBFB'
+fill_34dc0314:
+  - '#000000'
+fill_4cd5ff90:
+  - rgba(0, 0, 0, 0.6)
+fill_81a83821:
+  - rgba(0, 0, 0, 0.3)
+fill_cb076e71:
+  - '#977541'
+fill_c5b17057:
+  - rgba(185, 144, 79, 0.5)
+fill_64ec8a4f:
+  - '#765C32'
+fill_711164fb:
+  - '#D6C5AA'
+style_c701a620:
+  fontFamily: Hauora
+  fontStyle: Medium
+  fontWeight: 500
+  fontSize: 14
+  lineHeight: 1.06em
+  letterSpacing: '-0.03em'
+  textAlignHorizontal: CENTER
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+fill_a7745cf9:
+  - rgba(255, 255, 255, 0.3)
+style_0d941602:
+  fontFamily: Inter
+  fontStyle: Medium
+  fontWeight: 500
+  fontSize: 36
+  lineHeight: 1.06em
+  letterSpacing: '-0.05em'
+  textAlignHorizontal: LEFT
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+fill_97d170e1: []
+ts1:
+  fills:
+    - rgba(255, 255, 255, 0.5)
+style_cc9a6c82:
+  fontFamily: Hauora
+  fontStyle: Regular
+  fontWeight: 400
+  fontSize: 16
+  lineHeight: 1.06em
+  textCase: UPPER
+  textAlignHorizontal: LEFT
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+fill_eae80fb4:
+  - type: IMAGE
+    imageRef: 967c087b9dcee4b9641ab2f0a69966aa5cb8a985
+    scaleMode: FILL
+    objectFit: cover
+    isBackground: false
+    imageDownloadArguments:
+      needsCropping: false
+      requiresImageDimensions: false
+layout_f8ded04e:
+  mode: row
+  padding: 10px 20px
+  justifyContent: center
+  alignItems: center
+  gap: 10px
+  sizing:
+    horizontal: hug
+    vertical: hug
+style_d0b6b42e:
+  fontFamily: Hauora
+  fontStyle: Regular
+  fontWeight: 400
+  fontSize: 16
+  lineHeight: 1.06em
+  textCase: UPPER
+  textAlignHorizontal: CENTER
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+fill_090ebe47:
+  - rgba(0, 0, 0, 0.1)
+ts2:
+  fills:
+    - rgba(0, 0, 0, 0.5)
+style_9d1efcf4:
+  fontFamily: Hauora
+  fontStyle: Regular
+  fontWeight: 400
+  fontSize: 14
+  lineHeight: 1.06em
+  textCase: UPPER
+  textAlignHorizontal: LEFT
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+style_b45e7370:
+  fontFamily: Hauora
+  fontStyle: Regular
+  fontWeight: 400
+  fontSize: 14
+  lineHeight: 1.06em
+  textCase: UPPER
+  textAlignHorizontal: CENTER
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+style_749d1c1f:
+  fontFamily: Hauora
+  fontStyle: Regular
+  fontWeight: 400
+  fontSize: 14
+  lineHeight: 1.25em
+  textAlignHorizontal: LEFT
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+fill_95f554d6:
+  - rgba(0, 0, 0, 0.9)
+layout_56d3c81c:
+  mode: none
+  sizing:
+    horizontal: fill
+    vertical: hug
+style_2d79fb96:
+  fontFamily: Hauora
+  fontStyle: Bold
+  fontWeight: 700
+  fontSize: 14
+  lineHeight: 1.25em
+  textAlignHorizontal: LEFT
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+fill_b9de0bb4:
+  - '#C0B7A7'
+style_c1e78652:
+  fontFamily: Hauora
+  fontStyle: Regular
+  fontWeight: 400
+  fontSize: 16
+  lineHeight: 1.25em
+  textAlignHorizontal: LEFT
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+style_9df09fbc:
+  fontFamily: Hauora
+  fontStyle: SemiBold
+  fontWeight: 600
+  fontSize: 18
+  lineHeight: 1.25em
+  textAlignHorizontal: LEFT
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+layout_10cdfab9:
+  mode: none
+  sizing:
+    horizontal: fixed
+    vertical: fixed
+  dimensions:
+    width: 40
+    height: 40
+H5:
+  fontFamily: Hauora
+  fontStyle: Medium
+  fontWeight: 500
+  fontSize: 18
+  lineHeight: 1.25em
+  letterSpacing: '-0.01em'
+  textAlignHorizontal: LEFT
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+style_bd261dfe:
+  fontFamily: Hauora
+  fontStyle: Bold
+  fontWeight: 700
+  fontSize: 18
+  lineHeight: 1.25em
+  letterSpacing: '-0.02em'
+  textAlignHorizontal: LEFT
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+layout_1b948157:
+  mode: none
+  sizing: {}
+  locationRelativeToParent:
+    x: 0
+    y: 13
+  dimensions:
+    width: 91
+    height: 0
+layout_b4474712:
+  mode: none
+  sizing: {}
+  locationRelativeToParent:
+    x: 0
+    y: 0
+  dimensions:
+    width: 93
+    height: 23
+H4:
+  fontFamily: Hauora
+  fontStyle: Medium
+  fontWeight: 500
+  fontSize: 18
+  lineHeight: 1.25em
+  letterSpacing: '-0.02em'
+  textAlignHorizontal: LEFT
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+style_2873c5b8:
+  fontFamily: Hauora
+  fontStyle: Bold
+  fontWeight: 700
+  fontSize: 16
+  lineHeight: 1.25em
+  letterSpacing: '-0.02em'
+  textAlignHorizontal: LEFT
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+layout_437a19ca:
+  mode: none
+  sizing: {}
+  locationRelativeToParent:
+    x: 0
+    y: 0
+  dimensions:
+    width: 83
+    height: 20
+style_3f760aeb:
+  fontFamily: Hauora
+  fontStyle: Regular
+  fontWeight: 400
+  fontSize: 14
+  lineHeight: 1.3em
+  textAlignHorizontal: LEFT
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+T2:
+  fontFamily: Hauora
+  fontStyle: Regular
+  fontWeight: 400
+  fontSize: 16
+  lineHeight: 1.3em
+  textAlignHorizontal: LEFT
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+layout_6441cdef:
+  mode: none
+  sizing: {}
+  locationRelativeToParent:
+    x: 15
+    y: 12
+  dimensions:
+    width: 7
+    height: 16
+layout_bd2cc6a7:
+  mode: none
+  sizing: {}
+  locationRelativeToParent:
+    x: 20
+    y: 20
+  dimensions:
+    width: 24
+    height: 24
+fill_7e97348e:
+  - '#7E7E7E'
+fill_a9b2b803:
+  - '#363636'
+style_44f578d0:
+  fontFamily: Inter
+  fontStyle: Medium
+  fontWeight: 500
+  fontSize: 44
+  lineHeight: 1.2em
+  textAlignHorizontal: LEFT
+  textAlignVertical: TOP
+layout_74dec038:
+  mode: row
+  padding: 4px 4px 4px 0px
+  alignItems: center
+  sizing:
+    horizontal: fixed
+    vertical: fixed
+  dimensions:
+    width: 357
+    height: 60
+style_4fd33b53:
+  fontFamily: Hauora
+  fontStyle: Regular
+  fontWeight: 400
+  fontSize: 12
+  lineHeight: 1.1em
+  textAlignHorizontal: LEFT
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+layout_fb555635:
+  mode: column
+  padding: 10px
+  gap: 10px
+  sizing:
+    horizontal: hug
+    vertical: fixed
+  dimensions:
+    height: 18
+fill_6733d979:
+  - rgba(0, 0, 0, 0.15)
+fill_0ea70a13:
+  - '#A50206'
+layout_75e6593f:
+  mode: row
+  alignSelf: stretch
+  padding: 0px 12px
+  justifyContent: space-between
+  alignItems: center
+  sizing:
+    horizontal: fill
+    vertical: hug
+Caption/S:
+  fontFamily: SF Pro
+  fontStyle: Regular
+  fontWeight: 400
+  fontSize: 12
+  lineHeight: 12px
+  textAlignHorizontal: LEFT
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+layout_5884ceec:
+  mode: row
+  alignItems: center
+  gap: 4px
+  sizing:
+    horizontal: hug
+    vertical: hug
+Desktop/Buttons/S:
+  fontFamily: Inter
+  fontStyle: Medium
+  fontWeight: 500
+  fontSize: 12
+  lineHeight: 1.2em
+  textAlignHorizontal: LEFT
+  textAlignVertical: TOP
+fill_7f960301:
+  - '#696B6E'
+Caption:
+  fontFamily: Hauora
+  fontStyle: Regular
+  fontWeight: 400
+  fontSize: 10
+  lineHeight: 1em
+  textAlignHorizontal: LEFT
+  textAlignVertical: TOP
+layout_a1298e08:
+  mode: column
+  gap: 10px
+  sizing:
+    horizontal: fixed
+    vertical: fixed
+  dimensions:
+    width: 6
+    height: 6
+fill_381be112:
+  - '#101C2A'
+layout_e4b6f33f:
+  mode: none
+  sizing:
+    horizontal: fixed
+    vertical: fixed
+  dimensions:
+    width: 16
+    height: 16
+layout_6971c182:
+  mode: none
+  sizing:
+    horizontal: fixed
+    vertical: fixed
+  dimensions:
+    width: 1
+    height: 16
+layout_68c3e892:
+  mode: row
+  alignSelf: stretch
+  padding: 12px 16px
+  justifyContent: space-between
+  alignItems: center
+  sizing:
+    horizontal: fill
+    vertical: fill
+fill_a42aa054:
+  - '#C11E11'
+layout_72d74afb:
+  mode: none
+  sizing: {}
+  locationRelativeToParent:
+    x: 20
+    y: 64
+  dimensions:
+    width: 24
+    height: 24
+layout_9d31ed21:
+  mode: none
+  sizing: {}
+  locationRelativeToParent:
+    x: 0.2
+    y: -0.8
+  dimensions:
+    width: 24.04
+    height: 25.19
+layout_0a8a3ed9:
+  mode: none
+  sizing: {}
+  locationRelativeToParent:
+    x: 0
+    y: 0
+  dimensions:
+    width: 24.65
+    height: 24.39
+layout_218677b1:
+  mode: none
+  sizing: {}
+  locationRelativeToParent:
+    x: 1.78
+    y: 1.83
+  dimensions:
+    width: 20.48
+    height: 21.33
+
+ELEMENTS:
+EL-71be3cf9:
+  type: TEXT
+  layout: layout_177c5efc
+  text: Смотреть подборки
+  textStyle: style_ce0a4cea
+  fills: fill_658ab2fa
+EL-a5b3c4b9:
+  type: TEXT
+  layout: layout_177c5efc
+  text: Смотреть подборки
+  textStyle: style_ce0a4cea
+  fills: fill_81a83821
+EL-aed888f4:
+  type: TEXT
+  layout: layout_177c5efc
+  text: Смотреть подборки
+  textStyle: style_ce0a4cea
+  fills: fill_8b4fbb9e
+EL-1c99e74b:
+  type: TEXT
+  layout: layout_177c5efc
+  text: Смотреть подборки
+  textStyle: style_ce0a4cea
+  fills: fill_cb076e71
+EL-431a18f1:
+  type: TEXT
+  layout: layout_177c5efc
+  text: Смотреть подборки
+  textStyle: style_c701a620
+  fills: fill_34dc0314
+EL-6d5c5167:
+  type: TEXT
+  layout: layout_177c5efc
+  text: Смотреть подборки
+  textStyle: style_c701a620
+  fills: fill_658ab2fa
+EL-bb6b96bf:
+  type: LINE
+  layout:
+    mode: none
+    sizing: {}
+    locationRelativeToParent:
+      x: 0
+      y: 102
+    dimensions:
+      width: 940
+      height: 0
+  strokes: fill_fd958d89
+  strokeWeight: 1px
+  strokeAlign: CENTER
+EL-bb582553:
+  type: FRAME
+  layout:
+    mode: row
+    alignSelf: stretch
+    justifyContent: space-between
+    alignItems: center
+    sizing:
+      horizontal: fill
+      vertical: hug
+EL-12d709f7:
+  type: FRAME
+  layout:
+    mode: row
+    alignItems: center
+    gap: 24px
+    sizing:
+      horizontal: fill
+      vertical: hug
+EL-5843db5d:
+  type: FRAME
+  layout:
+    mode: row
+    alignItems: center
+    gap: 2px
+    sizing:
+      horizontal: hug
+      vertical: hug
+EL-d4302386:
+  type: IMAGE-SVG
+  layout:
+    mode: none
+    sizing:
+      horizontal: fixed
+      vertical: fixed
+    dimensions:
+      width: 12
+      height: 12
+EL-496b7f4c:
+  type: RECTANGLE
+  layout:
+    mode: none
+    sizing:
+      horizontal: fixed
+      vertical: fixed
+    dimensions:
+      width: 118.45
+      height: 34.08
+  fills: fill_eae80fb4
+EL-50da7cd7:
+  type: FRAME
+  layout:
+    mode: row
+    justifyContent: flex-end
+    alignItems: center
+    gap: 20px
+    sizing:
+      horizontal: fill
+      vertical: hug
+EL-762d5cce:
+  type: IMAGE-SVG
+  layout:
+    mode: none
+    sizing:
+      horizontal: fixed
+      vertical: fixed
+    dimensions:
+      width: 24
+      height: 24
+  fills: fill_97d170e1
+EL-c9c16ae6:
+  type: FRAME
+  layout:
+    mode: row
+    justifyContent: center
+    alignItems: center
+    gap: 32px
+    sizing:
+      horizontal: hug
+      vertical: hug
+EL-e88db4ee:
+  type: INSTANCE
+  layout: layout_f8ded04e
+  strokes: fill_81a83821
+  strokeWeight: 1px
+  borderRadius: 2px
+  componentId: 895:29076
+EL-fd2be87b:
+  type: TEXT
+  layout: layout_177c5efc
+  text: Войти
+  textStyle: style_c701a620
+  fills: fill_34dc0314
+EL-1519dabc:
+  type: FRAME
+  layout:
+    mode: column
+    alignSelf: stretch
+    alignItems: stretch
+    gap: 12px
+    sizing:
+      horizontal: fill
+      vertical: hug
+EL-24705f71:
+  type: FRAME
+  layout:
+    mode: column
+    alignItems: stretch
+    gap: 4px
+    sizing:
+      horizontal: fixed
+      vertical: hug
+    dimensions:
+      width: 215
+EL-235879b0:
+  type: FRAME
+  layout:
+    mode: row
+    alignItems: center
+    gap: 8px
+    sizing:
+      horizontal: hug
+      vertical: hug
+EL-7c4c0d96:
+  type: IMAGE-SVG
+  layout: layout_10cdfab9
+  fills: fill_8b4fbb9e
+  borderRadius: 2px
+EL-9bfb5c6e:
+  type: TEXT
+  layout: layout_177c5efc
+  text: Бестселлер
+  textStyle:
+    fontFamily: Hauora
+    fontStyle: Regular
+    fontWeight: 400
+    fontSize: 14
+    lineHeight: 1.25em
+    letterSpacing: '-0.02em'
+    textAlignHorizontal: LEFT
+    textAlignVertical: TOP
+    paragraphSpacing: 14
+    listSpacing: 14
+  fills: fill_658ab2fa
+EL-bc40306a:
+  type: FRAME
+  layout:
+    mode: column
+    alignSelf: stretch
+    alignItems: stretch
+    gap: 8px
+    sizing:
+      horizontal: fill
+      vertical: hug
+EL-94a17615:
+  type: FRAME
+  layout:
+    mode: row
+    alignSelf: stretch
+    gap: 16px
+    sizing:
+      horizontal: fill
+      vertical: hug
+EL-afe1950d:
+  type: TEXT
+  layout: layout_177c5efc
+  text: 1 160 000 ₽
+  textStyle: style_bd261dfe
+  fills: fill_34dc0314
+EL-71714af2:
+  type: GROUP
+  layout:
+    mode: none
+    sizing:
+      horizontal: fixed
+      vertical: fixed
+    dimensions:
+      width: 93
+      height: 23
+  borderRadius: 0px 0px 0px 0px
+EL-46e13874:
+  type: FRAME
+  layout:
+    mode: row
+    gap: 6px
+    sizing:
+      horizontal: hug
+      vertical: hug
+EL-9a16db37:
+  type: IMAGE-SVG
+  layout:
+    mode: none
+    sizing:
+      horizontal: fixed
+      vertical: fixed
+    dimensions:
+      width: 28
+      height: 29
+  strokes: fill_c5b17057
+  strokeWeight: 1px
+  borderRadius: 2px
+EL-a7c5ea80:
+  type: IMAGE-SVG
+  layout: layout_6441cdef
+  strokes: fill_8b4fbb9e
+  strokeWeight: 2px
+  strokeAlign: CENTER
+EL-4f48fc90:
+  type: COMPONENT
+  layout: layout_bd2cc6a7
+  fills: fill_97d170e1
+EL-735e928d:
+  type: FRAME
+  layout:
+    mode: row
+    alignSelf: stretch
+    padding: 40px 64px
+    alignItems: center
+    gap: 10px
+    sizing:
+      horizontal: fill
+      vertical: hug
+  fills:
+    - '#16181C'
+  strokes: fill_658ab2fa
+  strokeWeight: 1px 1px 0px
+EL-2f1e40f1:
+  type: COMPONENT
+  layout:
+    mode: column
+    padding: 4px 4px 4px 0px
+    justifyContent: center
+    gap: 8px
+    sizing:
+      horizontal: fixed
+      vertical: fixed
+    dimensions:
+      width: 357
+      height: 60
+  fills: fill_658ab2fa
+EL-ab28bdf4:
+  type: FRAME
+  layout:
+    mode: column
+    padding: 10px 20px 10px 16px
+    justifyContent: center
+    gap: 4px
+    sizing:
+      horizontal: hug
+      vertical: fixed
+    dimensions:
+      height: 36
+EL-2cbfa417:
+  type: TEXT
+  layout: layout_177c5efc
+  text: Имя
+  textStyle: T2
+  fills: fill_81a83821
+EL-312c119f:
+  type: FRAME
+  layout:
+    mode: column
+    padding: 0px 20px 0px 16px
+    justifyContent: center
+    sizing:
+      horizontal: hug
+      vertical: hug
+EL-cc31c3e4:
+  type: TEXT
+  layout: layout_177c5efc
+  text: Имя
+  textStyle: style_4fd33b53
+  fills: fill_81a83821
+EL-c6701a83:
+  type: TEXT
+  layout: layout_177c5efc
+  text: Никита
+  textStyle: T2
+  fills: fill_34dc0314
+EL-97c633e3:
+  type: COMPONENT
+  layout: layout_74dec038
+  fills: fill_658ab2fa
+EL-eeb90c38:
+  type: FRAME
+  layout:
+    mode: row
+    alignItems: center
+    gap: 1px
+    sizing:
+      horizontal: hug
+      vertical: hug
+EL-c5095fea:
+  type: FRAME
+  layout: layout_fb555635
+  fills:
+    - '#1F2227'
+  borderRadius: 10px
+EL-ba1e557e:
+  type: COMPONENT
+  layout:
+    mode: column
+    justifyContent: center
+    alignItems: stretch
+    gap: 4px
+    sizing:
+      horizontal: fixed
+      vertical: hug
+    dimensions:
+      width: 357
+EL-be995052:
+  type: FRAME
+  layout:
+    mode: row
+    alignSelf: stretch
+    padding: 12px 16px
+    justifyContent: space-between
+    alignItems: center
+    sizing:
+      horizontal: fill
+      vertical: fixed
+    dimensions:
+      height: 60
+  fills: fill_658ab2fa
+  strokes: fill_0ea70a13
+  strokeWeight: 1px
+EL-a8ef7fa3:
+  type: FRAME
+  layout:
+    mode: column
+    justifyContent: center
+    sizing:
+      horizontal: fill
+      vertical: hug
+EL-4c51a4f3:
+  type: FRAME
+  layout: layout_75e6593f
+  componentPropertyReferences:
+    visible: Discription
+EL-da855990:
+  type: TEXT
+  layout: layout_177c5efc
+  text: Введен неверный пароль
+  textStyle: Caption/S
+  fills: fill_0ea70a13
+EL-ce12ebea:
+  type: INSTANCE
+  layout: layout_5884ceec
+  componentId: 864:22924
+  componentProperties:
+    White: false
+    Button-Text: Зарегистрироваться
+    icon-left: false
+    Black: true
+    icon-right: false
+  componentPropertyReferences:
+    visible: Discription-Button
+EL-7c10d99a:
+  type: TEXT
+  layout: layout_177c5efc
+  text: Зарегистрироваться
+  textStyle: Desktop/Buttons/S
+  fills: fill_7f960301
+EL-1f0b7899:
+  type: FRAME
+  layout:
+    mode: column
+    justifyContent: center
+    gap: 2px
+    sizing:
+      horizontal: hug
+      vertical: hug
+EL-6dce75e2:
+  type: TEXT
+  layout: layout_177c5efc
+  text: Пароль
+  textStyle: Caption
+  fills: fill_81a83821
+EL-414176fc:
+  type: FRAME
+  layout:
+    mode: column
+    justifyContent: center
+    alignItems: center
+    gap: 10px
+    sizing:
+      horizontal: fixed
+      vertical: fixed
+    dimensions:
+      width: 6
+      height: 22
+EL-03e098af:
+  type: FRAME
+  layout: layout_a1298e08
+  fills: fill_381be112
+  borderRadius: 100px
+EL-d313a6ec:
+  type: FRAME
+  layout:
+    mode: row
+    justifyContent: space-between
+    alignItems: center
+    sizing:
+      horizontal: fixed
+      vertical: hug
+    dimensions:
+      width: 25
+  componentPropertyReferences:
+    visible: delete-icon
+EL-ff0611ae:
+  type: IMAGE-SVG
+  layout: layout_e4b6f33f
+  componentId: 864:29438
+EL-9593ee8a:
+  type: FRAME
+  layout: layout_6971c182
+  fills:
+    - '#B5B9BD'
+EL-e836e453:
+  type: IMAGE-SVG
+  layout: layout_e4b6f33f
+  componentId: 864:29441
+  componentPropertyReferences:
+    visible: icon-right
+EL-c329a370:
+  type: FRAME
+  layout: layout_75e6593f
+EL-6e2dae89:
+  type: INSTANCE
+  layout: layout_5884ceec
+  componentId: 864:22924
+  componentProperties:
+    White: false
+    Button-Text: Зарегистрироваться
+    icon-left: false
+    Black: true
+    icon-right: false
+EL-b9c3ed35:
+  type: TEXT
+  layout: layout_177c5efc
+  text: Забыли пароль ?
+  textStyle: Desktop/Buttons/S
+  fills: fill_7f960301
+EL-c09fbf53:
+  type: TEXT
+  layout: layout_177c5efc
+  text: 1234567890%
+  textStyle: T2
+  fills: fill_381be112
+EL-54727cef:
+  type: FRAME
+  layout:
+    mode: row
+    padding: 0px 16px
+    justifyContent: center
+    alignItems: center
+    gap: 10px
+    sizing:
+      horizontal: hug
+      vertical: hug
+  componentPropertyReferences:
+    visible: discription
+EL-f8ed0452:
+  type: TEXT
+  layout: layout_177c5efc
+  text: Введен неверный пароль
+  textStyle: Caption/S
+  fills:
+    - '#F04438'
+EL-92cf7249:
+  type: FRAME
+  layout: layout_68c3e892
+EL-8ed96ddf:
+  type: FRAME
+  layout: layout_fb555635
+  fills: fill_34dc0314
+  borderRadius: 10px
+EL-99ca7a3f:
+  type: FRAME
+  layout: layout_a1298e08
+  fills: fill_34dc0314
+  borderRadius: 100px
+EL-44ec4152:
+  type: TEXT
+  layout: layout_177c5efc
+  text: Введите пароль
+  textStyle: T2
+  fills: fill_4cd5ff90
+EL-a5c8c92d:
+  type: FRAME
+  layout: layout_68c3e892
+  strokes: fill_b9de0bb4
+  strokeWeight: 1px
+EL-b0b968ef:
+  type: IMAGE-SVG
+  layout:
+    mode: none
+    sizing: {}
+    locationRelativeToParent:
+      x: 2
+      y: 4
+    dimensions:
+      width: 20
+      height: 16
+EL-ea97ca69:
+  type: COMPONENT
+  layout: layout_72d74afb
+  fills: fill_97d170e1
+EL-6320abba:
+  type: IMAGE-SVG
+  layout:
+    mode: none
+    sizing: {}
+    locationRelativeToParent:
+      x: 2
+      y: 2
+    dimensions:
+      width: 20
+      height: 20
+EL-9fa661fd:
+  type: IMAGE-SVG
+  layout: layout_0a8a3ed9
+  fills: fill_34dc0314
+  borderRadius: 100px
+EL-2608b148:
+  type: IMAGE-SVG
+  layout:
+    mode: none
+    sizing: {}
+    locationRelativeToParent:
+      x: 9.61
+      y: 8.18
+    dimensions:
+      width: 8.52
+      height: 5.71
+  fills: fill_658ab2fa
+EL-11e91b4c:
+  type: IMAGE-SVG
+  layout:
+    mode: none
+    sizing: {}
+    locationRelativeToParent:
+      x: 5.64
+      y: 5.62
+    dimensions:
+      width: 13.16
+      height: 13.16
+  fills: fill_658ab2fa
+EL-70192840:
+  type: IMAGE-SVG
+  layout: layout_0a8a3ed9
+  fills: fill_8b4fbb9e
+  borderRadius: 100px
+EL-050d880a:
+  type: COMPONENT
+  layout: layout_bd2cc6a7
+EL-1c09c239:
+  type: IMAGE-SVG
+  layout:
+    mode: none
+    sizing: {}
+    locationRelativeToParent:
+      x: 0
+      y: 0
+    dimensions:
+      width: 24
+      height: 24
+EL-a6a81cdd:
+  type: COMPONENT
+  layout: layout_72d74afb
+EL-a1bd4975:
+  type: IMAGE-SVG
+  layout:
+    mode: none
+    sizing: {}
+    locationRelativeToParent:
+      x: 7.39
+      y: 7.48
+    dimensions:
+      width: 9.24
+      height: 8.78
+  fills: fill_658ab2fa
+EL-6f11d355:
+  type: IMAGE-SVG
+  layout:
+    mode: none
+    sizing: {}
+    locationRelativeToParent:
+      x: 0.97
+      y: 0
+    dimensions:
+      width: 21.01
+      height: 24
+
+COMPONENTS:
+277:11102:
+  id: 277:11102
+  key: a802f90bed203e2bb09ca6e83b3132bb13029ce2
+  name: State=Default, Type=Primary, Color=Accent
+  componentSetId: 277:11108
+279:13792:
+  id: 279:13792
+  key: b1f7b960573c387db64a76758bd9b4a31c0c9f11
+  name: State=Default, Type=Secondary, Color=Light
+  componentSetId: 277:11108
+864:25311:
+  id: 864:25311
+  key: 26817a0a2fee2ee2bd44634e05d3a6df048a0f9e
+  name: State=Default, Type=Ghost, Color=Light
+  componentSetId: 277:11108
+864:25320:
+  id: 864:25320
+  key: 83ac4986ac114ccd952f553223581fe8d0ae27d3
+  name: State=Disabled, Type=Ghost, Color=Light
+  componentSetId: 277:11108
+864:25314:
+  id: 864:25314
+  key: 5d1961ee47bc3a55798fb8c377403a0b7741f676
+  name: State=Hover, Type=Ghost, Color=Light
+  componentSetId: 277:11108
+864:25317:
+  id: 864:25317
+  key: 46725d281e70ca8a193a5f1986d2db90a16074bf
+  name: State=Active, Type=Ghost, Color=Light
+  componentSetId: 277:11108
+279:13796:
+  id: 279:13796
+  key: 7a1401a901902fd7173d1fee2f889f235e4bc4ed
+  name: State=Hover, Type=Secondary, Color=Light
+  componentSetId: 277:11108
+279:13798:
+  id: 279:13798
+  key: 1fc3d13e37c4320f2b48bec56fbbdbe6e1d4e504
+  name: State=Pressed, Type=Secondary, Color=Light
+  componentSetId: 277:11108
+279:13800:
+  id: 279:13800
+  key: 02a6f70f31a9e81afeb10ada9f0a37ac29a9cc01
+  name: State=Disabled, Type=Secondary, Color=Light
+  componentSetId: 277:11108
+277:11109:
+  id: 277:11109
+  key: f9149f333dd94455b2617d9022ec45851862fb2d
+  name: State=Default, Type=Thretiarly, Color=Accent
+  componentSetId: 277:11108
+277:11116:
+  id: 277:11116
+  key: b3d16483a828d490a26864594496e9ef15108f7d
+  name: State=Hover, Type=Primary, Color=Accent
+  componentSetId: 277:11108
+277:11121:
+  id: 277:11121
+  key: 335e867d683ac2dccb949b19c28ab0c21fbd61eb
+  name: State=Pressed, Type=Primary, Color=Accent
+  componentSetId: 277:11108
+277:11125:
+  id: 277:11125
+  key: 8907db6ea7045c4d15066e571b7b8ec83dfe9946
+  name: State=Disabled, Type=Primary, Color=Accent
+  componentSetId: 277:11108
+277:11118:
+  id: 277:11118
+  key: e8edb101f9dcfd7243831bb256e75d1c8280ad83
+  name: State=Hover, Type=Thretiarly, Color=Accent
+  componentSetId: 277:11108
+277:11123:
+  id: 277:11123
+  key: 7993195d051fb246088f508f6960a5a185e0d404
+  name: State=Pressed, Type=Thretiarly, Color=Accent
+  componentSetId: 277:11108
+277:11127:
+  id: 277:11127
+  key: ba45a6b0c7e81517e64c8b0a1246b5d2c0b4b134
+  name: State=Disabled, Type=Thretiarly, Color=Accent
+  componentSetId: 277:11108
+895:29076:
+  id: 895:29076
+  key: ab1dcc901025be5f27207ac23bb83d206b9155e8
+  name: State=Default, Type=Thretiarly, Color=Black
+  componentSetId: 277:11108
+895:29078:
+  id: 895:29078
+  key: b0c04ef1d64fa5da0ccc0134e70942d61ca5348d
+  name: State=Hover, Type=Thretiarly, Color=Black
+  componentSetId: 277:11108
+895:29080:
+  id: 895:29080
+  key: f10dbb81b3dd6cb89fc3cdd1d72e7350eb7df7d9
+  name: State=Pressed, Type=Thretiarly, Color=Black
+  componentSetId: 277:11108
+895:29082:
+  id: 895:29082
+  key: 76e4df0cc8dc19036ea56f2a9bcf7878dabdcd6e
+  name: State=Disabled, Type=Thretiarly, Color=Black
+  componentSetId: 277:11108
+895:29219:
+  id: 895:29219
+  key: 89d7622490bf4d927ca133799906223e4d17b57a
+  name: State=Hover, Type=Thretiarly, Color=White
+  componentSetId: 277:11108
+895:29221:
+  id: 895:29221
+  key: bb118e32b25c2dbe3cff075e8e9e60aa58f1699f
+  name: State=Default, Type=Thretiarly, Color=White
+  componentSetId: 277:11108
+895:29223:
+  id: 895:29223
+  key: 42cee38adbe2ef19bd7ba0f4b14122b182303ba0
+  name: State=Pressed, Type=Thretiarly, Color=White
+  componentSetId: 277:11108
+895:29225:
+  id: 895:29225
+  key: 0e183537de4784a39f1cce3a0df7043b01cce7fd
+  name: State=Disabled, Type=Thretiarly, Color=White
+  componentSetId: 277:11108
+279:19285:
+  id: 279:19285
+  key: 56c57ee0f182371561c9b5b78903b2d823dc6aca
+  name: Fill=No, Size=Desktop, State=Full
+  componentSetId: 279:19286
+279:19287:
+  id: 279:19287
+  key: 7ec3f18a57c5f56e9f7098d58c4a4dd9e7d20c00
+  name: Fill=Yes, Size=Desktop, State=Full
+  componentSetId: 279:19286
+279:19585:
+  id: 279:19585
+  key: 0a3d226cd38b4ee0774f1650020fbb9cdea90b39
+  name: Fill=Yes, Size=Desktop, State=Small
+  componentSetId: 279:19286
+276:2863:
+  id: 276:2863
+  key: 639d4c7c713feb7ddca0506b0450132c98d6d2db
+  name: Footer
+277:11218:
+  id: 277:11218
+  key: 7197b69e13e0d2a8d6154159ae69c42fe03a9722
+  name: Tag
+277:11176:
+  id: 277:11176
+  key: 8684637a148b070c2debb6b7781cc6836f9c34e7
+  name: Size=Desktop
+  componentSetId: 277:11373
+277:11232:
+  id: 277:11232
+  key: a4b106e381f5aa018ff6a78e2651a97a64d26579
+  name: Icon Wishlist
+864:25357:
+  id: 864:25357
+  key: 05e08d735a89d2b434fc1da9e31aa3b1a2a55aba
+  name: Size=In-Cart
+  componentSetId: 277:11373
+393:5672:
+  id: 393:5672
+  key: 82226dde64bd1b762cbb11319843dc1b197ff4f1
+  name: Header/Arrow
+895:28953:
+  id: 895:28953
+  key: 7300099177876a3151eeca0d436955cbe9c4363d
+  name: Property 1=Default
+  componentSetId: 895:28954
+276:2960:
+  id: 276:2960
+  key: 60225b2bc4ae996a5c62439a8264d0cff7ff29cb
+  name: Item Card
+277:3990:
+  id: 277:3990
+  key: d08c519e723b431c75bc92b6ba20aeeedab98562
+  name: Property 1=Primary
+  componentSetId: 277:4000
+277:4001:
+  id: 277:4001
+  key: 8cb843ea78961e5ae75789471d5822deedf629d4
+  name: Property 1=Secondary
+  componentSetId: 277:4000
+864:23086:
+  id: 864:23086
+  key: 0006582c22745b40d7e07b2f257b0e36ed7c2e97
+  name: State=Empty, Size=L
+  componentSetId: 864:23085
+864:23153:
+  id: 864:23153
+  key: da4f45c088f614ee878194bbb50bb113348201e4
+  name: State=Hover, Size=L
+  componentSetId: 864:23085
+864:23090:
+  id: 864:23090
+  key: bfd12b39dd99ce856e47c60057e1dcf60a281491
+  name: State=Fill-Hover, Size=L
+  componentSetId: 864:23085
+864:23098:
+  id: 864:23098
+  key: da5e62bf991c0d26e194ae2d78bf3d36200ccfe3
+  name: State=Active, Size=L
+  componentSetId: 864:23085
+864:23108:
+  id: 864:23108
+  key: b1afa18a22b6336c073a23044252b6d7dbc403be
+  name: State=Active-Fill, Size=L
+  componentSetId: 864:23085
+864:23118:
+  id: 864:23118
+  key: 779bcf4145ff8fe513a617b87d6718bc1481f7b3
+  name: State=Fill, Size=L
+  componentSetId: 864:23085
+864:23126:
+  id: 864:23126
+  key: dbcc787e3b9163b5d39c081c5d3381501a3b4a81
+  name: State=Empty-Disabled, Size=L
+  componentSetId: 864:23085
+864:23130:
+  id: 864:23130
+  key: 4b29fb836b664f61bad46ebcc0d3e0c68d9c2ebe
+  name: State=Fill-Disabled, Size=L
+  componentSetId: 864:23085
+864:23138:
+  id: 864:23138
+  key: 998b45959610ab0be69e631dcaf9a34e963d111c
+  name: State=Error-Fill, Size=L
+  componentSetId: 864:23085
+864:22924:
+  id: 864:22924
+  key: 12693fbc658df2f001b76a4386f57c6f344d8c29
+  name: Type=Tertiary-Ghost, SIze=XS, State=Default
+  componentSetId: 864:22871
+280:1581:
+  id: 280:1581
+  key: adb771592eeb1f1c87f1b07d3e0699fd44269674
+  name: Outline / Essentional, UI / Trash Bin Trash
+864:23146:
+  id: 864:23146
+  key: 976b1f519f33484e5673c867aee4302f50cf48b7
+  name: State=Empty-Error, Size=L
+  componentSetId: 864:23085
+864:51076:
+  id: 864:51076
+  key: 2d6ee7c42db4587381bd47796efd78d2c0a1638e
+  name: State=Empty-Disabled-Fill, Color=White
+  componentSetId: 864:51021
+864:51088:
+  id: 864:51088
+  key: 178838734812ae4bb39438a945dc969e69de58a4
+  name: State=Active-Fill-Close, Color=White
+  componentSetId: 864:51021
+864:51131:
+  id: 864:51131
+  key: 8f1c164d3fefa583cf5f83a4e9975842787cd334
+  name: State=Active, Color=White
+  componentSetId: 864:51021
+864:51145:
+  id: 864:51145
+  key: b43d1af3ffd38982f5e91441cc747f6158bd2ad5
+  name: State=Fill-Close, Color=White
+  componentSetId: 864:51021
+864:51185:
+  id: 864:51185
+  key: 58d931fdee392c3e58c014550da176fd1ddf3e56
+  name: State=Fill-Open, Color=White
+  componentSetId: 864:51021
+864:51197:
+  id: 864:51197
+  key: 1851efb7c9209ce4061ffd85185cec92cfb6b50a
+  name: State=Fill-Hover-Close, Color=White
+  componentSetId: 864:51021
+864:51237:
+  id: 864:51237
+  key: f59dd2b83ae1b989f7dbb1b1f71c3740224c0a88
+  name: State=Fill-Hover-Open, Color=White
+  componentSetId: 864:51021
+864:51249:
+  id: 864:51249
+  key: 0992d7f48389bd2a9d50ad862fe9554d7726b555
+  name: State=Hover, Color=White
+  componentSetId: 864:51021
+864:51260:
+  id: 864:51260
+  key: 3639792059a08c39c32f1549599143d0b2f3edbf
+  name: State=Empty, Color=White
+  componentSetId: 864:51021
+864:51392:
+  id: 864:51392
+  key: 38a270584e9bc3f66b2a200422a6fa5dadd45a79
+  name: State=Active, Color=Grey
+  componentSetId: 864:51021
+864:29438:
+  id: 864:29438
+  key: a8451b2bf813961c90d10d04fbb4434a6bad5484
+  name: Line Duotone / Essentional, UI / Close Circle
+864:29441:
+  id: 864:29441
+  key: 5662e8a118219fd56cdb8aa8d440c037ee0ac81c
+  name: Linear / Security / Eye
+864:51406:
+  id: 864:51406
+  key: c7693afa26d55747bf954fed2d2d16e13193733e
+  name: State=Fill-Close, Color=Grey
+  componentSetId: 864:51021
+864:51446:
+  id: 864:51446
+  key: c855635c0b8dad014a7d26023129762fb7f7e7b0
+  name: State=Fill-Open, Color=Grey
+  componentSetId: 864:51021
+864:51458:
+  id: 864:51458
+  key: 4712bb3ae7b74d1cd5adf0409ee972b1289af4a0
+  name: State=Fill-Hover-Close, Color=Grey
+  componentSetId: 864:51021
+864:51510:
+  id: 864:51510
+  key: 503a28d158f4701146d9d666a05a24e59bc80385
+  name: State=Hover, Color=Grey
+  componentSetId: 864:51021
+864:51527:
+  id: 864:51527
+  key: a4e6143306b82f2c67e6927ed7ae91a012fd8033
+  name: State=Empty-Disabled, Color=Grey
+  componentSetId: 864:51021
+864:51538:
+  id: 864:51538
+  key: 249a9d4ecd57e32f506f07ecf08179a3a5c75d3c
+  name: State=Error-Empty, Color=Grey
+  componentSetId: 864:51021
+864:51283:
+  id: 864:51283
+  key: 0a30eebaffffd3ba07d05644c849da529a6d5ad9
+  name: State=Error-Fill-Close, Color=Grey
+  componentSetId: 864:51021
+864:51324:
+  id: 864:51324
+  key: 86356877172d7a7f6666346bdf56285369de02d5
+  name: State=Error-Fill-Open, Color=Grey
+  componentSetId: 864:51021
+864:51337:
+  id: 864:51337
+  key: 40a6b0a35d64cf1885bbd047e392bc5641d5b41f
+  name: State=Empty-Disabled-Fill, Color=Grey
+  componentSetId: 864:51021
+864:51378:
+  id: 864:51378
+  key: 47aca5582be8705e6e1605f1685feada337c6198
+  name: State=Active-Fill-Open, Color=Grey
+  componentSetId: 864:51021
+864:51349:
+  id: 864:51349
+  key: cdadcb679ef46b8fa37c9f8d2dbfd4e4a88d20d4
+  name: State=Active-Fill-Close, Color=Grey
+  componentSetId: 864:51021
+864:51498:
+  id: 864:51498
+  key: e138bbd7989fc50a331e0a763c1ed0d2169e5bdf
+  name: State=Fill-Hover-Open, Color=Grey
+  componentSetId: 864:51021
+864:51521:
+  id: 864:51521
+  key: b8831ea91b0eba3df94827fe0e23a3c29c5e6187
+  name: State=Empty, Color=Grey
+  componentSetId: 864:51021
+885:13423:
+  id: 885:13423
+  key: 4da182a946af55e2f3cd56a18e5add6506bdf00b
+  name: State=Default
+  componentSetId: 885:13424
+886:13431:
+  id: 886:13431
+  key: 4703497f8590865a69deee2ce2856e26538aaea4
+  name: State=Disabled
+  componentSetId: 885:13424
+885:13425:
+  id: 885:13425
+  key: 17035a02a76cbdfc021c9ea6b819f96602fef2bb
+  name: State=Hover
+  componentSetId: 885:13424
+886:13428:
+  id: 886:13428
+  key: c567fcc582d1c7405950a69209f777eaf83c0ed9
+  name: State=Active
+  componentSetId: 885:13424
+864:21617:
+  id: 864:21617
+  key: 4d792f2f23315a5e6c3db7b7d2d7e4c5c080ab4d
+  name: State=Default
+  componentSetId: 864:21718
+864:21763:
+  id: 864:21763
+  key: 0bc65ef0c64625d011f87f21f888de3dcfc5bd28
+  name: State=Active
+  componentSetId: 864:21718
+864:21627:
+  id: 864:21627
+  key: e1c7367044035a51dba8b7bf756d4878cef167d3
+  name: State=Default
+  componentSetId: 864:21719
+864:21767:
+  id: 864:21767
+  key: ec323d1bcd0cff9f5f4a9f0067500524bf5b1622
+  name: State=Active
+  componentSetId: 864:21719
+864:21645:
+  id: 864:21645
+  key: b1912e36d2d21fe956823908832fd2b68c164e26
+  name: State=Default
+  componentSetId: 864:21720
+864:21725:
+  id: 864:21725
+  key: ce15a3b169d4b4034d617b45cc06ec44d2417752
+  name: State=Active
+  componentSetId: 864:21720
+864:21635:
+  id: 864:21635
+  key: f45473b3ed276719cf9cd9d795afac72839bb60b
+  name: State=Default
+  componentSetId: 864:21721
+864:21774:
+  id: 864:21774
+  key: 4c8158d68605efe6bee77b3c6d0170da4b3ab393
+  name: State=Active
+  componentSetId: 864:21721
+864:21644:
+  id: 864:21644
+  key: ffdd717469c00314855ab6124fa326223521afed
+  name: State=Default
+  componentSetId: 864:21722
+864:21780:
+  id: 864:21780
+  key: 6be92ce155eec674cbe8cefb47d1ad793f46ff71
+  name: State=Active
+  componentSetId: 864:21722
+864:21636:
+  id: 864:21636
+  key: 7519d99e173499383a2458ff2e701c3f209668db
+  name: State=Default
+  componentSetId: 864:21723
+864:21734:
+  id: 864:21734
+  key: ecf8144fcebea99ef9fef8b3f581778479df7fe2
+  name: State=Active
+  componentSetId: 864:21723
+864:21628:
+  id: 864:21628
+  key: 32ef0f33a43987cbffde87cac69acc23f0fafaf6
+  name: State=Default
+  componentSetId: 864:21724
+864:21737:
+  id: 864:21737
+  key: 3cbcdf44f37a7abedb7c2f4c8941b4d74a18efe6
+  name: State=Active
+  componentSetId: 864:21724
+
+COMPONENT_SETS:
+277:11108:
+  id: 277:11108
+  key: f734dda002e50822229e9c1be4cfeb9f642d8d05
+  name: Button
+  description: ''
+279:19286:
+  id: 279:19286
+  key: bc281cfd3d4aa83729dc01553a29d1b18d374dd1
+  name: Header
+  description: ''
+277:11373:
+  id: 277:11373
+  key: 1f21b0bc6175145a989330240dc8e6f11b6d543c
+  name: Item Card
+  description: ''
+895:28954:
+  id: 895:28954
+  key: 4b1ae5f116d5507dd3a2f0dbb27b281beba9c49e
+  name: Icon Search
+  description: ''
+277:4000:
+  id: 277:4000
+  key: 1e8bd7e7e208e4f8d06c16fe2d8c2c7c0a8849a9
+  name: Button
+  description: ''
+864:23085:
+  id: 864:23085
+  key: e6b38ef5c2142705630555c471d1db317e92ec95
+  name: Input
+  description: ''
+  propertyDefinitions:
+    Discription:
+      type: boolean
+      defaultValue: true
+    Discription-Button:
+      type: boolean
+      defaultValue: true
+864:22871:
+  id: 864:22871
+  key: a5f0f34433a6869c8305cd1352f7a2036ceaf4da
+  name: Button
+  description: ''
+864:51021:
+  id: 864:51021
+  key: b30d959667878b3ad5f184222a23103e14da6753
+  name: Input-password
+  description: ''
+  propertyDefinitions:
+    icon-right:
+      type: boolean
+      defaultValue: true
+    discription:
+      type: boolean
+      defaultValue: false
+    delete-icon:
+      type: boolean
+      defaultValue: true
+885:13424:
+  id: 885:13424
+  key: 4b3f9c9a8d0a5a718de2066be97a3eeee815952d
+  name: Icon-Button
+  description: ''
+864:21718:
+  id: 864:21718
+  key: 6932e856e407f657f259dafe85ceb530d185164e
+  name: hugeicons
+  description: ''
+864:21719:
+  id: 864:21719
+  key: 83b85fe5a0fbcde11ec415f79b6a380dd1dea8a8
+  name: solar:shop
+  description: ''
+864:21720:
+  id: 864:21720
+  key: aa2471f7c2c91b66201c40c73c27d69609b33955
+  name: sber-pay
+  description: ''
+864:21721:
+  id: 864:21721
+  key: 135a39d3149351631bc2ccb2fd17ca1762901883
+  name: card
+  description: ''
+864:21722:
+  id: 864:21722
+  key: 616890040a48e9e586148a29710d5466523ce537
+  name: wallet
+  description: ''
+864:21723:
+  id: 864:21723
+  key: 1940a465ff4a1ea1b4c38888f45e7fab8617217b
+  name: t-pay
+  description: ''
+864:21724:
+  id: 864:21724
+  key: 815e87cc81f0bfa3f0e5ff3a3e4f60177f018336
+  name: sbp
+  description: ''
+
+NODES:
+[SECTION] "Компоненты" #827:12045 layout={"mode":"none","sizing":{}} fills=["#444444"] strokes=fill_dbe29f28 strokeWeight=1px
+  [TEXT] #277:11175 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":100,"y":100},"dimensions":{"width":783,"height":136}} fills=fill_658ab2fa textStyle=style_6f999b2d text="Компоненты"
+  [FRAME] "Buttons" #277:11135 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":100,"y":408},"dimensions":{"width":940,"height":632}} fills=fill_0f8538f0 strokes=fill_fd958d89 strokeWeight=1px borderRadius=5px
+    [TEXT] #277:11129 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":38,"y":126},"dimensions":{"width":50,"height":17}} fills=fill_658ab2fa textStyle=style_1f430fa7 text="Default"
+    [TEXT] #277:11130 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":259,"y":126},"dimensions":{"width":42,"height":17}} fills=fill_658ab2fa textStyle=style_1f430fa7 text="Hover"
+    [TEXT] #277:11131 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":486,"y":126},"dimensions":{"width":57,"height":17}} fills=fill_658ab2fa textStyle=style_1f430fa7 text="Pressed"
+    [TEXT] #277:11132 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":713,"y":126},"dimensions":{"width":61,"height":17}} fills=fill_658ab2fa textStyle=style_1f430fa7 text="Disabled"
+    [COMPONENT_SET] "Button" #277:11108 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":0,"y":167},"dimensions":{"width":940,"height":465}} fills=fill_9abcc1ff strokes=fill_70745384 strokeWeight=1px strokeDashes=10,5 borderRadius=5px
+      [COMPONENT] "State=Default, Type=Primary, Color=Accent" #277:11102 layout={"mode":"row","padding":"16px 24px","justifyContent":"center","alignItems":"center","gap":"10px","sizing":{"horizontal":"hug","vertical":"hug"},"locationRelativeToParent":{"x":32,"y":32}} fills=fill_8b4fbb9e borderRadius=2px
+        [TEXT] #277:8778 template=EL-71be3cf9
+      [COMPONENT] "State=Default, Type=Secondary, Color=Light" #279:13792 layout={"mode":"row","padding":"16px 24px","justifyContent":"center","alignItems":"center","gap":"10px","sizing":{"horizontal":"hug","vertical":"hug"},"locationRelativeToParent":{"x":32,"y":170}} fills=fill_7ad30328 borderRadius=2px
+        [TEXT] #279:13793 layout=layout_177c5efc fills=fill_34dc0314 textStyle=style_ce0a4cea text="Смотреть подборки"
+      [COMPONENT] "State=Default, Type=Ghost, Color=Light" #864:25311 layout={"mode":"row","padding":"2px","justifyContent":"center","alignItems":"center","gap":"10px","sizing":{"horizontal":"hug","vertical":"hug"},"locationRelativeToParent":{"x":32,"y":239}}
+        [TEXT] #864:25312 layout=layout_177c5efc fills=fill_4cd5ff90 textStyle=style_ce0a4cea text="Смотреть подборки"
+      [COMPONENT] "State=Disabled, Type=Ghost, Color=Light" #864:25320 layout={"mode":"row","padding":"2px","justifyContent":"center","alignItems":"center","gap":"10px","sizing":{"horizontal":"hug","vertical":"hug"},"locationRelativeToParent":{"x":713,"y":239}}
+        [TEXT] #864:25321 template=EL-a5b3c4b9
+      [COMPONENT] "State=Hover, Type=Ghost, Color=Light" #864:25314 layout={"mode":"row","padding":"2px","justifyContent":"center","alignItems":"center","gap":"10px","sizing":{"horizontal":"hug","vertical":"hug"},"locationRelativeToParent":{"x":259,"y":239}}
+        [TEXT] #864:25315 template=EL-aed888f4
+      [COMPONENT] "State=Active, Type=Ghost, Color=Light" #864:25317 layout={"mode":"row","padding":"2px","justifyContent":"center","alignItems":"center","gap":"10px","sizing":{"horizontal":"hug","vertical":"hug"},"locationRelativeToParent":{"x":486,"y":239}}
+        [TEXT] #864:25318 template=EL-1c99e74b
+      [COMPONENT] "State=Hover, Type=Secondary, Color=Light" #279:13796 layout={"mode":"row","padding":"16px 24px","justifyContent":"center","alignItems":"center","gap":"10px","sizing":{"horizontal":"hug","vertical":"hug"},"locationRelativeToParent":{"x":259,"y":170}} fills=fill_7ad30328 borderRadius=2px
+        [TEXT] #279:13797 template=EL-aed888f4
+      [COMPONENT] "State=Pressed, Type=Secondary, Color=Light" #279:13798 layout={"mode":"row","padding":"16px 24px","justifyContent":"center","alignItems":"center","gap":"10px","sizing":{"horizontal":"hug","vertical":"hug"},"locationRelativeToParent":{"x":486,"y":170}} fills=fill_7ad30328 borderRadius=2px
+        [TEXT] #279:13799 template=EL-1c99e74b
+      [COMPONENT] "State=Disabled, Type=Secondary, Color=Light" #279:13800 layout={"mode":"row","padding":"16px 24px","justifyContent":"center","alignItems":"center","gap":"10px","sizing":{"horizontal":"hug","vertical":"hug"},"locationRelativeToParent":{"x":713,"y":170}} fills=fill_7ad30328 borderRadius=2px
+        [TEXT] #279:13801 template=EL-a5b3c4b9
+      [COMPONENT] "State=Default, Type=Thretiarly, Color=Accent" #277:11109 layout={"mode":"row","padding":"16px 24px","justifyContent":"center","alignItems":"center","gap":"10px","sizing":{"horizontal":"hug","vertical":"hug"},"locationRelativeToParent":{"x":32,"y":101}} strokes=fill_c5b17057 strokeWeight=1px borderRadius=2px
+        [TEXT] #277:11110 template=EL-aed888f4
+      [COMPONENT] "State=Hover, Type=Primary, Color=Accent" #277:11116 layout={"mode":"row","padding":"16px 24px","justifyContent":"center","alignItems":"center","gap":"10px","sizing":{"horizontal":"hug","vertical":"hug"},"locationRelativeToParent":{"x":259,"y":32}} fills=fill_cb076e71 borderRadius=2px
+        [TEXT] #277:11117 template=EL-71be3cf9
+      [COMPONENT] "State=Pressed, Type=Primary, Color=Accent" #277:11121 layout={"mode":"row","padding":"16px 24px","justifyContent":"center","alignItems":"center","gap":"10px","sizing":{"horizontal":"hug","vertical":"hug"},"locationRelativeToParent":{"x":486,"y":32}} fills=fill_64ec8a4f borderRadius=2px
+        [TEXT] #277:11122 template=EL-71be3cf9
+      [COMPONENT] "State=Disabled, Type=Primary, Color=Accent" #277:11125 layout={"mode":"row","padding":"16px 24px","justifyContent":"center","alignItems":"center","gap":"10px","sizing":{"horizontal":"hug","vertical":"hug"},"locationRelativeToParent":{"x":713,"y":32}} fills=fill_711164fb borderRadius=2px
+        [TEXT] #277:11126 template=EL-71be3cf9
+      [COMPONENT] "State=Hover, Type=Thretiarly, Color=Accent" #277:11118 layout={"mode":"row","padding":"16px 24px","justifyContent":"center","alignItems":"center","gap":"10px","sizing":{"horizontal":"hug","vertical":"hug"},"locationRelativeToParent":{"x":259,"y":101}} strokes=fill_cb076e71 strokeWeight=1px borderRadius=2px
+        [TEXT] #277:11119 template=EL-1c99e74b
+      [COMPONENT] "State=Pressed, Type=Thretiarly, Color=Accent" #277:11123 layout={"mode":"row","padding":"16px 24px","justifyContent":"center","alignItems":"center","gap":"10px","sizing":{"horizontal":"hug","vertical":"hug"},"locationRelativeToParent":{"x":486,"y":101}} strokes=fill_64ec8a4f strokeWeight=1px borderRadius=2px
+        [TEXT] #277:11124 layout=layout_177c5efc fills=fill_64ec8a4f textStyle=style_ce0a4cea text="Смотреть подборки"
+      [COMPONENT] "State=Disabled, Type=Thretiarly, Color=Accent" #277:11127 layout={"mode":"row","padding":"16px 24px","justifyContent":"center","alignItems":"center","gap":"10px","sizing":{"horizontal":"hug","vertical":"hug"},"locationRelativeToParent":{"x":713,"y":101}} strokes=fill_711164fb strokeWeight=1px borderRadius=2px
+        [TEXT] #277:11128 layout=layout_177c5efc fills=fill_711164fb textStyle=style_ce0a4cea text="Смотреть подборки"
+      [COMPONENT] "State=Default, Type=Thretiarly, Color=Black" #895:29076 layout={"mode":"row","padding":"10px 20px","justifyContent":"center","alignItems":"center","gap":"10px","sizing":{"horizontal":"hug","vertical":"hug"},"locationRelativeToParent":{"x":32,"y":290}} strokes=fill_81a83821 strokeWeight=1px borderRadius=2px
+        [TEXT] #895:29077 template=EL-431a18f1
+      [COMPONENT] "State=Hover, Type=Thretiarly, Color=Black" #895:29078 layout={"mode":"row","padding":"10px 20px","justifyContent":"center","alignItems":"center","gap":"10px","sizing":{"horizontal":"hug","vertical":"hug"},"locationRelativeToParent":{"x":259,"y":290}} strokes=fill_4cd5ff90 strokeWeight=1px borderRadius=2px
+        [TEXT] #895:29079 template=EL-431a18f1
+      [COMPONENT] "State=Pressed, Type=Thretiarly, Color=Black" #895:29080 layout={"mode":"row","padding":"10px 20px","justifyContent":"center","alignItems":"center","gap":"10px","sizing":{"horizontal":"hug","vertical":"hug"},"locationRelativeToParent":{"x":486,"y":290}} strokes=fill_34dc0314 strokeWeight=1px borderRadius=2px
+        [TEXT] #895:29081 template=EL-431a18f1
+      [COMPONENT] "State=Disabled, Type=Thretiarly, Color=Black" #895:29082 layout={"mode":"row","padding":"10px 20px","justifyContent":"center","alignItems":"center","gap":"10px","sizing":{"horizontal":"hug","vertical":"hug"},"locationRelativeToParent":{"x":713,"y":290}} strokes=fill_81a83821 strokeWeight=1px borderRadius=2px
+        [TEXT] #895:29083 layout=layout_177c5efc fills=fill_81a83821 textStyle=style_c701a620 text="Смотреть подборки"
+      [COMPONENT] "State=Hover, Type=Thretiarly, Color=White" #895:29219 layout={"mode":"row","padding":"10px 20px","justifyContent":"center","alignItems":"center","gap":"10px","sizing":{"horizontal":"hug","vertical":"hug"},"locationRelativeToParent":{"x":261,"y":345}} strokes=["rgba(255, 255, 255, 0.6)"] strokeWeight=1px borderRadius=2px
+        [TEXT] #895:29220 template=EL-6d5c5167
+      [COMPONENT] "State=Default, Type=Thretiarly, Color=White" #895:29221 layout={"mode":"row","padding":"10px 20px","justifyContent":"center","alignItems":"center","gap":"10px","sizing":{"horizontal":"hug","vertical":"hug"},"locationRelativeToParent":{"x":34,"y":345}} strokes=fill_a7745cf9 strokeWeight=1px borderRadius=2px
+        [TEXT] #895:29222 template=EL-6d5c5167
+      [COMPONENT] "State=Pressed, Type=Thretiarly, Color=White" #895:29223 layout={"mode":"row","padding":"10px 20px","justifyContent":"center","alignItems":"center","gap":"10px","sizing":{"horizontal":"hug","vertical":"hug"},"locationRelativeToParent":{"x":488,"y":345}} strokes=fill_658ab2fa strokeWeight=1px borderRadius=2px
+        [TEXT] #895:29224 template=EL-6d5c5167
+      [COMPONENT] "State=Disabled, Type=Thretiarly, Color=White" #895:29225 layout={"mode":"row","padding":"10px 20px","justifyContent":"center","alignItems":"center","gap":"10px","sizing":{"horizontal":"hug","vertical":"hug"},"locationRelativeToParent":{"x":715,"y":345}} strokes=fill_a7745cf9 strokeWeight=1px borderRadius=2px
+        [TEXT] #895:29226 layout=layout_177c5efc fills=fill_a7745cf9 textStyle=style_c701a620 text="Смотреть подборки"
+    [TEXT] #277:11105 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":32,"y":32},"dimensions":{"width":124,"height":38}} fills=fill_658ab2fa textStyle=style_0d941602 text="Buttons"
+    [LINE] #277:11139 template=EL-bb6b96bf
+  [FRAME] "Header" #277:11311 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":100,"y":3352},"dimensions":{"width":3012,"height":569}} fills=fill_0f8538f0 strokes=fill_fd958d89 strokeWeight=1px borderRadius=5px
+    [TEXT] #277:11316 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":32,"y":32},"dimensions":{"width":117,"height":38}} fills=fill_658ab2fa textStyle=style_0d941602 text="Header"
+    [LINE] #277:11317 template=EL-bb6b96bf
+    [COMPONENT_SET] "Header" #279:19286 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":0,"y":102},"dimensions":{"width":1504,"height":467}} strokes=fill_70745384 strokeWeight=1px strokeDashes=10,5 borderRadius=5px
+      [COMPONENT] "Fill=No, Size=Desktop, State=Full" #279:19285 layout={"mode":"column","padding":"32px 40px 20px","alignItems":"center","gap":"28px","sizing":{"horizontal":"fixed","vertical":"hug"},"locationRelativeToParent":{"x":32,"y":32},"dimensions":{"width":1440}} fills=fill_97d170e1
+        [FRAME] "Content" #279:19249 template=EL-bb582553
+          [FRAME] "Content " #279:19250 template=EL-12d709f7
+            [TEXT] #279:19251 layout=layout_177c5efc fills=fill_658ab2fa textStyle=style_cc9a6c82 text="{ts1}US{/ts1}/RU"
+            [FRAME] #279:19252 template=EL-5843db5d
+              [TEXT] #279:19253 layout=layout_177c5efc fills=fill_658ab2fa textStyle=style_cc9a6c82 text="RUB"
+              [IMAGE-SVG] "vuesax/linear/arrow-right" #279:19254 template=EL-d4302386
+          [RECTANGLE] "telegram-cloud-document-2-5251416634047897893 1" #907:30192 template=EL-496b7f4c
+          [FRAME] "Content" #279:19258 template=EL-50da7cd7
+            [IMAGE-SVG] "Icon Search" #279:19259 template=EL-762d5cce
+            [IMAGE-SVG] "bytesize:heart" #279:19261 template=EL-762d5cce
+            [INSTANCE] "Button" #895:29230 layout=layout_f8ded04e strokes=fill_a7745cf9 strokeWeight=1px borderRadius=2px componentId=895:29221
+              [TEXT] #I895:29230;895:29222 layout=layout_177c5efc fills=fill_658ab2fa textStyle=style_c701a620 text="Войти"
+        [FRAME] "Content" #279:19270 template=EL-c9c16ae6
+          [TEXT] #279:19272 layout=layout_177c5efc fills=fill_658ab2fa textStyle=style_d0b6b42e text="Подарки"
+          [TEXT] #279:19273 layout=layout_177c5efc fills=fill_658ab2fa textStyle=style_d0b6b42e text="В наличии"
+          [TEXT] #279:19274 layout=layout_177c5efc fills=fill_658ab2fa textStyle=style_d0b6b42e text="Бренды"
+          [TEXT] #279:19275 layout=layout_177c5efc fills=fill_658ab2fa textStyle=style_d0b6b42e text="Посуда"
+          [TEXT] #279:19276 layout=layout_177c5efc fills=fill_658ab2fa textStyle=style_d0b6b42e text="Декор и интерьер"
+          [TEXT] #279:19277 layout=layout_177c5efc fills=fill_658ab2fa textStyle=style_d0b6b42e text="Аксессуары"
+          [TEXT] #279:19278 layout=layout_177c5efc fills=fill_658ab2fa textStyle=style_d0b6b42e text="Текстиль"
+          [FRAME] "Dropdown" #279:19279 template=EL-5843db5d
+            [TEXT] #279:19280 layout=layout_177c5efc fills=fill_658ab2fa textStyle=style_d0b6b42e text="О Luvr"
+      [COMPONENT] "Fill=Yes, Size=Desktop, State=Full" #279:19287 layout={"mode":"column","padding":"32px 40px 20px","alignItems":"center","gap":"28px","sizing":{"horizontal":"fixed","vertical":"hug"},"locationRelativeToParent":{"x":32,"y":196},"dimensions":{"width":1440}} fills=fill_7ad30328 strokes=fill_090ebe47 strokeWeight="0px 0px 1px"
+        [FRAME] "Content" #279:19288 template=EL-bb582553
+          [FRAME] "Content " #279:19289 template=EL-12d709f7
+            [TEXT] #279:19290 layout=layout_177c5efc fills=fill_34dc0314 textStyle=style_cc9a6c82 text="{ts2}US{/ts2}/RU"
+            [FRAME] #279:19291 template=EL-5843db5d
+              [TEXT] #279:19292 layout=layout_177c5efc fills=fill_34dc0314 textStyle=style_cc9a6c82 text="RUB"
+              [IMAGE-SVG] "vuesax/linear/arrow-right" #279:19293 template=EL-d4302386
+          [RECTANGLE] "telegram-cloud-document-2-5251416634047897893 1" #907:30122 template=EL-496b7f4c
+          [FRAME] "Content" #279:19297 template=EL-50da7cd7
+            [IMAGE-SVG] "Icon Search" #279:19298 template=EL-762d5cce
+            [IMAGE-SVG] "bytesize:heart" #279:19300 template=EL-762d5cce
+            [INSTANCE] "Button" #895:29085 template=EL-e88db4ee
+              [TEXT] #I895:29085;895:29077 template=EL-fd2be87b
+        [FRAME] "Content" #279:19309 template=EL-c9c16ae6
+          [TEXT] #279:19311 layout=layout_177c5efc fills=fill_34dc0314 textStyle=style_d0b6b42e text="Подарки"
+          [TEXT] #279:19312 layout=layout_177c5efc fills=fill_34dc0314 textStyle=style_d0b6b42e text="В наличии"
+          [TEXT] #279:19313 layout=layout_177c5efc fills=fill_34dc0314 textStyle=style_d0b6b42e text="Бренды"
+          [TEXT] #279:19314 layout=layout_177c5efc fills=fill_34dc0314 textStyle=style_d0b6b42e text="Посуда"
+          [TEXT] #279:19315 layout=layout_177c5efc fills=fill_34dc0314 textStyle=style_d0b6b42e text="Декор и интерьер"
+          [TEXT] #279:19316 layout=layout_177c5efc fills=fill_34dc0314 textStyle=style_d0b6b42e text="Аксессуары"
+          [TEXT] #279:19317 layout=layout_177c5efc fills=fill_34dc0314 textStyle=style_d0b6b42e text="Текстиль"
+          [FRAME] "Dropdown" #279:19318 template=EL-5843db5d
+            [TEXT] #279:19319 layout=layout_177c5efc fills=fill_34dc0314 textStyle=style_d0b6b42e text="О Luvr"
+      [COMPONENT] "Fill=Yes, Size=Desktop, State=Small" #279:19585 layout={"mode":"row","padding":"20px 40px","justifyContent":"space-between","alignItems":"center","sizing":{"horizontal":"fixed","vertical":"hug"},"locationRelativeToParent":{"x":32,"y":360},"dimensions":{"width":1440}} fills=fill_7ad30328 strokes=fill_090ebe47 strokeWeight="0px 0px 1px"
+        [FRAME] "Content " #279:19587 layout={"mode":"row","alignItems":"center","gap":"24px","sizing":{"horizontal":"hug","vertical":"hug"}}
+          [TEXT] #279:19588 layout=layout_177c5efc fills=fill_34dc0314 textStyle=style_9d1efcf4 text="{ts2}US{/ts2}/RU"
+          [FRAME] #279:19589 template=EL-5843db5d
+            [TEXT] #279:19590 layout=layout_177c5efc fills=fill_34dc0314 textStyle=style_9d1efcf4 text="RUB"
+            [IMAGE-SVG] "vuesax/linear/arrow-right" #279:19591 template=EL-d4302386
+        [FRAME] "Content" #279:19607 layout={"mode":"row","justifyContent":"center","alignItems":"center","gap":"20px","sizing":{"horizontal":"hug","vertical":"hug"}}
+          [TEXT] #279:19609 layout=layout_177c5efc fills=fill_34dc0314 textStyle=style_b45e7370 text="Подарки"
+          [TEXT] #279:19610 layout=layout_177c5efc fills=fill_34dc0314 textStyle=style_b45e7370 text="В наличии"
+          [TEXT] #279:19611 layout=layout_177c5efc fills=fill_34dc0314 textStyle=style_b45e7370 text="Бренды"
+          [TEXT] #279:19612 layout=layout_177c5efc fills=fill_34dc0314 textStyle=style_b45e7370 text="Посуда"
+          [TEXT] #279:19613 layout=layout_177c5efc fills=fill_34dc0314 textStyle=style_b45e7370 text="Декор и интерьер"
+          [TEXT] #279:19614 layout=layout_177c5efc fills=fill_34dc0314 textStyle=style_b45e7370 text="Аксессуары"
+          [TEXT] #279:19615 layout=layout_177c5efc fills=fill_34dc0314 textStyle=style_b45e7370 text="Текстиль"
+          [FRAME] "Dropdown" #279:19616 template=EL-5843db5d
+            [TEXT] #279:19617 layout=layout_177c5efc fills=fill_34dc0314 textStyle=style_b45e7370 text="О Luvr"
+        [FRAME] "Content" #279:19595 layout={"mode":"row","alignItems":"center","gap":"20px","sizing":{"horizontal":"hug","vertical":"hug"}}
+          [IMAGE-SVG] "Icon Search" #279:19596 template=EL-762d5cce
+          [IMAGE-SVG] "bytesize:heart" #279:19598 template=EL-762d5cce
+          [INSTANCE] "Button" #895:29184 template=EL-e88db4ee
+            [TEXT] #I895:29184;895:29077 template=EL-fd2be87b
+  [FRAME] "Footer" #277:11318 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":100,"y":4080},"dimensions":{"width":3012,"height":691}} fills=fill_0f8538f0 strokes=fill_fd958d89 strokeWeight=1px borderRadius=5px
+    [TEXT] #277:11319 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":32,"y":32},"dimensions":{"width":103,"height":38}} fills=fill_658ab2fa textStyle=style_0d941602 text="Footer"
+    [LINE] #277:11320 template=EL-bb6b96bf
+    [COMPONENT] "Footer" #276:2863 layout={"mode":"column","padding":"70px 40px","alignItems":"stretch","gap":"32px","sizing":{"horizontal":"fixed","vertical":"hug"},"locationRelativeToParent":{"x":32,"y":134},"dimensions":{"width":1440}} fills=fill_7ad30328
+      [FRAME] "Selection" #203:887 layout={"mode":"none","sizing":{"horizontal":"fill","vertical":"fixed"},"dimensions":{"height":385}}
+        [FRAME] #203:889 layout={"mode":"column","gap":"12px","sizing":{"horizontal":"hug","vertical":"hug"},"locationRelativeToParent":{"x":0,"y":1}}
+          [RECTANGLE] "telegram-cloud-document-2-5251416634047897893 1" #907:30196 layout={"mode":"none","sizing":{"horizontal":"fixed","vertical":"fixed"},"dimensions":{"width":187.79,"height":54.03}} fills=fill_eae80fb4
+          [TEXT] #203:891 layout={"mode":"none","sizing":{"horizontal":"fixed","vertical":"hug"},"dimensions":{"width":276}} fills=fill_95f554d6 textStyle=style_749d1c1f text="Интернет-бутик оригинальной посуды, декора, текстиля и аксессуаров премиальных брендов"
+        [TEXT] #205:63 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":0,"y":367},"dimensions":{"width":144,"height":18}} fills=fill_95f554d6 textStyle=style_749d1c1f text="© ООО «Ларес», 2026"
+        [TEXT] #205:66 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":343,"y":367},"dimensions":{"width":366,"height":18}} fills=fill_95f554d6 textStyle=style_749d1c1f text="Информация на сайте не является публичной офертой"
+        [TEXT] #205:64 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":800,"y":367},"dimensions":{"width":213,"height":18}} fills=fill_95f554d6 textStyle=style_749d1c1f text="Политика конфиденциальности"
+        [TEXT] #205:65 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":1143,"y":367},"dimensions":{"width":211,"height":18}} fills=fill_95f554d6 textStyle=style_749d1c1f text="Пользовательское соглашение"
+        [FRAME] #205:35 layout={"mode":"column","alignItems":"stretch","gap":"16px","sizing":{"horizontal":"fixed","vertical":"hug"},"locationRelativeToParent":{"x":343,"y":0},"dimensions":{"width":217}}
+          [TEXT] #203:910 layout=layout_56d3c81c fills=fill_b9de0bb4 textStyle=style_2d79fb96 text="Каталог"
+          [FRAME] #205:34 template=EL-1519dabc
+            [TEXT] #205:27 layout=layout_56d3c81c fills=fill_95f554d6 textStyle=style_c1e78652 text="Посуда"
+            [TEXT] #205:28 layout=layout_56d3c81c fills=fill_95f554d6 textStyle=style_c1e78652 text="Декор и интерьер"
+            [TEXT] #205:29 layout=layout_56d3c81c fills=fill_95f554d6 textStyle=style_c1e78652 text="Текстиль"
+            [TEXT] #205:30 layout=layout_56d3c81c fills=fill_95f554d6 textStyle=style_c1e78652 text="Аксессуары"
+            [TEXT] #205:31 layout=layout_56d3c81c fills=fill_95f554d6 textStyle=style_c1e78652 text="В наличии"
+            [TEXT] #205:32 layout=layout_56d3c81c fills=fill_95f554d6 textStyle=style_c1e78652 text="Подарки"
+            [TEXT] #205:33 layout=layout_56d3c81c fills=fill_95f554d6 textStyle=style_c1e78652 text="Подарочный сертификат"
+        [FRAME] #205:36 layout={"mode":"column","alignItems":"stretch","gap":"16px","sizing":{"horizontal":"fixed","vertical":"hug"},"locationRelativeToParent":{"x":572,"y":0},"dimensions":{"width":216}}
+          [TEXT] #205:37 layout=layout_56d3c81c fills=fill_b9de0bb4 textStyle=style_2d79fb96 text="Покупателям"
+          [FRAME] #205:38 template=EL-1519dabc
+            [TEXT] #205:39 layout=layout_56d3c81c fills=fill_95f554d6 textStyle=style_c1e78652 text="Доставка и оплата"
+            [TEXT] #205:61 layout=layout_56d3c81c fills=fill_95f554d6 textStyle=style_c1e78652 text="Выкуп и ресейл"
+            [TEXT] #205:44 layout=layout_56d3c81c fills=fill_95f554d6 textStyle=style_c1e78652 text="Контакты"
+        [FRAME] #205:46 layout={"mode":"column","alignItems":"stretch","gap":"16px","sizing":{"horizontal":"fixed","vertical":"hug"},"locationRelativeToParent":{"x":800,"y":0},"dimensions":{"width":217}}
+          [TEXT] #205:47 layout=layout_56d3c81c fills=fill_b9de0bb4 textStyle=style_2d79fb96 text="О Luvr"
+          [FRAME] #205:48 template=EL-1519dabc
+            [TEXT] #205:49 layout=layout_56d3c81c fills=fill_95f554d6 textStyle=style_c1e78652 text="О компании"
+            [TEXT] #205:50 layout=layout_56d3c81c fills=fill_95f554d6 textStyle=style_c1e78652 text="Дизайнерам"
+            [TEXT] #205:52 layout=layout_56d3c81c fills=fill_95f554d6 textStyle=style_c1e78652 text="Статьи"
+            [TEXT] #205:56 layout=layout_56d3c81c fills=fill_95f554d6 textStyle=style_c1e78652 text="Вакансии"
+        [FRAME] #205:67 layout={"mode":"column","alignItems":"stretch","gap":"24px","sizing":{"horizontal":"fixed","vertical":"hug"},"locationRelativeToParent":{"x":1143,"y":0},"dimensions":{"width":215}}
+          [FRAME] #206:122 layout={"mode":"column","alignSelf":"stretch","gap":"16px","sizing":{"horizontal":"fill","vertical":"hug"}}
+            [FRAME] #206:124 template=EL-24705f71
+              [TEXT] #206:125 layout=layout_56d3c81c fills=fill_b9de0bb4 textStyle=style_2d79fb96 text="Заказы и консультации"
+              [TEXT] #206:126 layout=layout_56d3c81c fills=fill_95f554d6 textStyle=style_9df09fbc text="+7 977 620 88 85"
+            [FRAME] #206:128 template=EL-24705f71
+              [TEXT] #206:129 layout=layout_56d3c81c fills=fill_b9de0bb4 textStyle=style_2d79fb96 text="Отдел закупок"
+              [TEXT] #206:130 layout=layout_56d3c81c fills=fill_95f554d6 textStyle=style_9df09fbc text="+7 925 507 99 95"
+            [TEXT] #206:119 layout=layout_56d3c81c fills=fill_95f554d6 textStyle=style_9df09fbc text="luvrseo@gmail.com"
+            [FRAME] #205:84 template=EL-235879b0
+              [IMAGE-SVG] "basil:vk-solid" #205:85 template=EL-7c4c0d96
+              [IMAGE-SVG] "basil:vk-solid" #205:87 template=EL-7c4c0d96
+              [IMAGE-SVG] "basil:vk-solid" #205:89 template=EL-7c4c0d96
+          [FRAME] #206:123 layout={"mode":"column","alignSelf":"stretch","alignItems":"stretch","gap":"16px","sizing":{"horizontal":"fill","vertical":"hug"}}
+            [TEXT] #203:898 layout=layout_56d3c81c fills=fill_95f554d6 textStyle=style_c1e78652 text="Москва, Новослободская улица, д. 50/1с2"
+            [TEXT] #203:904 layout=layout_56d3c81c fills=fill_95f554d6 textStyle=style_c1e78652 text="Пн—Вс 10:00 – 22:00"
+        [RECTANGLE] "image 1271224161" #205:91 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":800,"y":170},"dimensions":{"width":151,"height":48}} fills=[{"type":"IMAGE","imageRef":"60b532a334228c29a280f643339be78344894145","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}}]
+  [FRAME] "Tags" #277:11240 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":1136,"y":408},"dimensions":{"width":940,"height":632}} fills=fill_0f8538f0 strokes=fill_fd958d89 strokeWeight=1px borderRadius=5px
+    [TEXT] #277:11262 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":32,"y":32},"dimensions":{"width":78,"height":38}} fills=fill_658ab2fa textStyle=style_0d941602 text="Tags"
+    [LINE] #277:11263 template=EL-bb6b96bf
+    [COMPONENT] "Tag" #277:11218 layout={"mode":"row","padding":"7px 12px","justifyContent":"center","alignItems":"center","gap":"10px","sizing":{"horizontal":"hug","vertical":"fixed"},"locationRelativeToParent":{"x":32,"y":202},"dimensions":{"height":32}} fills=fill_8b4fbb9e borderRadius=2px
+      [TEXT] #277:11213 template=EL-9bfb5c6e
+  [FRAME] "Item Cards" #277:11264 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":100,"y":1136},"dimensions":{"width":3012,"height":1012}} fills=fill_0f8538f0 strokes=fill_fd958d89 strokeWeight=1px borderRadius=5px
+    [TEXT] #277:11265 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":32,"y":32},"dimensions":{"width":172,"height":38}} fills=fill_658ab2fa textStyle=style_0d941602 text="Item Cards"
+    [LINE] #277:11266 template=EL-bb6b96bf
+    [COMPONENT_SET] "Item Card" #277:11373 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":0,"y":102},"dimensions":{"width":3012,"height":910}} fills=fill_9abcc1ff strokes=fill_70745384 strokeWeight=1px strokeDashes=10,5 borderRadius=5px
+      [COMPONENT] "Size=Desktop" #277:11176 layout={"mode":"column","alignItems":"stretch","gap":"16px","sizing":{"horizontal":"fixed","vertical":"hug"},"locationRelativeToParent":{"x":32,"y":32},"dimensions":{"width":331}}
+        [RECTANGLE] "Image" #277:8831 layout={"mode":"none","sizing":{"horizontal":"fill","vertical":"fixed"},"dimensions":{"height":331}} fills=[{"type":"IMAGE","imageRef":"88fd281f4d0240daee631a8963ea746f35fb0d87","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}}]
+        [FRAME] "Content" #277:8832 template=EL-1519dabc
+          [FRAME] "Text" #277:8833 template=EL-bc40306a
+            [TEXT] #277:8834 layout=layout_56d3c81c fills=fill_b9de0bb4 textStyle={"fontFamily":"Hauora","fontStyle":"SemiBold","fontWeight":600,"fontSize":16,"lineHeight":"1.25em","letterSpacing":"-0.02em","textAlignHorizontal":"LEFT","textAlignVertical":"TOP","paragraphSpacing":14,"listSpacing":14} text="Статуэтка"
+            [TEXT] #277:8835 layout=layout_56d3c81c fills=fill_34dc0314 textStyle=H5 text="Скульптура Daum Рыба Ange Royal Turquoise & Jaune Maya"
+          [FRAME] "Sale Price" #277:8836 template=EL-94a17615
+            [TEXT] #277:8837 template=EL-afe1950d
+            [GROUP] #277:8838 template=EL-71714af2
+              [LINE] #277:8839 layout=layout_1b948157 strokes=fill_b9de0bb4 strokeWeight=1px
+              [TEXT] #277:8840 layout=layout_b4474712 fills=fill_b9de0bb4 textStyle=style_bd261dfe text="1 170 000 ₽"
+        [INSTANCE] "Tag" #277:11219 layout={"mode":"row","padding":"7px 12px","justifyContent":"center","alignItems":"center","gap":"10px","sizing":{"horizontal":"hug","vertical":"fixed"},"position":"absolute","locationRelativeToParent":{"x":8,"y":8},"dimensions":{"height":32}} fills=fill_8b4fbb9e borderRadius=2px componentId=277:11218
+          [TEXT] #I277:11219;277:11213 template=EL-9bfb5c6e
+        [IMAGE-SVG] "Icon Wishlist" #277:11233 layout={"mode":"none","sizing":{"horizontal":"fixed","vertical":"fixed"},"position":"absolute","locationRelativeToParent":{"x":291,"y":8},"dimensions":{"width":32,"height":32}} fills=fill_97d170e1 componentId=277:11232
+      [COMPONENT] "Size=In-Cart" #864:25357 layout={"mode":"row","padding":"12px","gap":"12px","sizing":{"horizontal":"fixed","vertical":"hug"},"locationRelativeToParent":{"x":413,"y":32},"dimensions":{"width":780}} fills=fill_7ad30328 strokes=fill_090ebe47 strokeWeight=1px
+        [FRAME] #864:24700 layout={"mode":"column","justifyContent":"space-between","alignItems":"center","sizing":{"horizontal":"fixed","vertical":"fixed"},"dimensions":{"width":200,"height":200}} fills=fill_9abcc1ff
+          [FRAME] #864:24701 layout={"mode":"row","justifyContent":"center","alignItems":"center","gap":"10px","sizing":{"horizontal":"fixed","vertical":"fixed"},"dimensions":{"width":200,"height":200}}
+          [RECTANGLE] "Image" #864:25235 layout={"mode":"none","sizing":{"horizontal":"fill","vertical":"fixed"},"dimensions":{"height":200}} fills=[{"type":"IMAGE","imageRef":"fe04c3a5f9a2123105ffc6584646292077d64c38","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}},{"type":"IMAGE","imageRef":"19d18261a744c0c897fb220cf55872414de53de3","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}},{"type":"IMAGE","imageRef":"88fd281f4d0240daee631a8963ea746f35fb0d87","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}}]
+        [FRAME] #864:24702 layout={"mode":"column","alignSelf":"stretch","padding":"4px 0px","justifyContent":"space-between","alignItems":"stretch","sizing":{"horizontal":"fill","vertical":"fill"}}
+          [FRAME] #864:24703 layout={"mode":"column","alignSelf":"stretch","gap":"10px","sizing":{"horizontal":"fill","vertical":"hug"}}
+            [FRAME] #864:24704 layout={"mode":"row","alignSelf":"stretch","justifyContent":"space-between","sizing":{"horizontal":"fill","vertical":"hug"}}
+              [FRAME] "Text" #864:25149 layout={"mode":"column","alignItems":"stretch","gap":"6px","sizing":{"horizontal":"fixed","vertical":"hug"},"dimensions":{"width":349}}
+                [TEXT] #864:25151 layout=layout_56d3c81c fills=fill_34dc0314 textStyle=H4 text="Скульптура Daum Рыба Ange Royal Turquoise & Jaune Maya"
+              [FRAME] "Sale Price" #864:25158 layout={"mode":"column","alignSelf":"stretch","gap":"2px","sizing":{"horizontal":"hug","vertical":"fill"}}
+                [TEXT] #864:25159 layout=layout_177c5efc fills=fill_34dc0314 textStyle=style_2873c5b8 text="1 160 000 ₽"
+                [FRAME] #864:25164 layout={"mode":"none","sizing":{"horizontal":"fixed","vertical":"fixed"},"dimensions":{"width":83,"height":20}}
+                  [GROUP] #864:25160 layout=layout_437a19ca borderRadius="0px 0px 0px 0px"
+                    [LINE] #864:25161 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":0,"y":10},"dimensions":{"width":81.48,"height":0}} strokes=fill_b9de0bb4 strokeWeight=1px
+                    [TEXT] #864:25162 layout=layout_437a19ca fills=fill_b9de0bb4 textStyle=style_2873c5b8 text="1 170 000 ₽"
+            [FRAME] #864:25165 layout={"mode":"column","gap":"4px","sizing":{"horizontal":"hug","vertical":"hug"}}
+              [FRAME] #864:25167 template=EL-46e13874
+                [TEXT] #864:25168 layout=layout_177c5efc fills=fill_81a83821 textStyle=style_3f760aeb text="Цвет"
+                [TEXT] #864:25169 layout=layout_177c5efc fills=fill_34dc0314 textStyle=style_3f760aeb text="Серый"
+              [FRAME] #864:25171 template=EL-46e13874
+                [TEXT] #864:25172 layout=layout_177c5efc fills=fill_81a83821 textStyle=style_3f760aeb text="Размер"
+                [TEXT] #864:25173 layout=layout_177c5efc fills=fill_34dc0314 textStyle=style_3f760aeb text="35\\*57\\*20 см"
+          [FRAME] #864:24718 layout={"mode":"row","alignSelf":"stretch","justifyContent":"space-between","alignItems":"flex-end","sizing":{"horizontal":"fill","vertical":"hug"}}
+            [FRAME] #864:24719 layout={"mode":"row","alignItems":"center","gap":"12px","sizing":{"horizontal":"hug","vertical":"hug"}}
+              [IMAGE-SVG] "Header/Arrow" #864:25261 template=EL-9a16db37
+              [TEXT] #864:24722 layout=layout_177c5efc fills=fill_8b4fbb9e textStyle=T2 text="1"
+              [IMAGE-SVG] "Header/Arrow" #864:25259 template=EL-9a16db37
+            [INSTANCE] #864:25323 layout={"mode":"row","padding":"2px","justifyContent":"center","alignItems":"center","gap":"10px","sizing":{"horizontal":"hug","vertical":"hug"}} componentId=864:25311
+              [TEXT] #I864:25323;864:25312 layout=layout_177c5efc fills=fill_4cd5ff90 textStyle=style_ce0a4cea text="Удалить"
+  [FRAME] "Icons" #277:11269 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":100,"y":2244},"dimensions":{"width":940,"height":1012}} fills=fill_0f8538f0 strokes=fill_fd958d89 strokeWeight=1px borderRadius=5px
+    [TEXT] #277:11270 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":32,"y":32},"dimensions":{"width":86,"height":38}} fills=fill_658ab2fa textStyle=style_0d941602 text="Icons"
+    [LINE] #277:11271 template=EL-bb6b96bf
+    [COMPONENT] "Icon Wishlist" #277:11232 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":32,"y":134},"dimensions":{"width":32,"height":32}} fills=fill_97d170e1
+      [IMAGE-SVG] "Vector" #277:11227 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":6,"y":7},"dimensions":{"width":20,"height":18}} fills=fill_658ab2fa strokes=fill_34dc0314 strokeWeight=1px
+    [COMPONENT] "Header/Arrow" #393:5672 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":92,"y":130},"dimensions":{"width":40,"height":40}} strokes=fill_c5b17057 strokeWeight=1px borderRadius=2px
+      [IMAGE-SVG] "Vector" #277:8883 template=EL-a7c5ea80
+    [COMPONENT_SET] "Icon Search" #895:28954 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":48,"y":442},"dimensions":{"width":64,"height":64}} strokes=fill_70745384 strokeWeight=1px strokeDashes=10,5 borderRadius=5px
+      [COMPONENT] "Property 1=Default" #895:28953 template=EL-4f48fc90
+        [IMAGE-SVG] "Vector" #895:28951 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":5,"y":5},"dimensions":{"width":15,"height":15}} strokes=fill_34dc0314 strokeWeight=1px
+  [COMPONENT] "Item Card" #276:2960 layout={"mode":"column","alignItems":"stretch","gap":"16px","sizing":{"horizontal":"fixed","vertical":"hug"},"locationRelativeToParent":{"x":120,"y":6408},"dimensions":{"width":331}}
+    [FRAME] "Image" #277:3894 layout={"mode":"row","alignSelf":"stretch","padding":"8px","justifyContent":"flex-end","gap":"169px","sizing":{"horizontal":"fill","vertical":"fixed"},"dimensions":{"height":331}} fills=["#B0B0B0"]
+      [IMAGE-SVG] "Icon Wishlist" #277:3897 layout=layout_10cdfab9 fills=fill_97d170e1
+    [FRAME] "Content" #276:2655 template=EL-1519dabc
+      [FRAME] "Text" #276:2656 template=EL-bc40306a
+        [TEXT] #276:2657 layout=layout_56d3c81c fills=["rgba(0, 0, 0, 0.5)"] textStyle={"fontFamily":"Hauora","fontStyle":"Medium","fontWeight":500,"fontSize":16,"lineHeight":"1.25em","letterSpacing":"-0.02em","textAlignHorizontal":"LEFT","textAlignVertical":"TOP","paragraphSpacing":14,"listSpacing":14} text="Статуэтка"
+        [TEXT] #276:2658 layout=layout_56d3c81c fills=fill_34dc0314 textStyle={"fontFamily":"Hauora","fontStyle":"SemiBold","fontWeight":600,"fontSize":18,"lineHeight":"1.25em","letterSpacing":"-0.02em","textAlignHorizontal":"LEFT","textAlignVertical":"TOP","paragraphSpacing":14,"listSpacing":14} text="Скульптура Daum Рыба Ange Royal Turquoise & Jaune Maya"
+      [FRAME] "Sale Price" #276:2659 template=EL-94a17615
+        [TEXT] #276:2660 template=EL-afe1950d
+        [GROUP] #276:2661 template=EL-71714af2
+          [LINE] #276:2662 layout=layout_1b948157 strokes=fill_7e97348e strokeWeight=1px
+          [TEXT] #276:2663 layout=layout_b4474712 fills=fill_7e97348e textStyle=style_bd261dfe text="1 170 000 ₽"
+  [TEXT] #276:3360 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":120,"y":6135},"dimensions":{"width":751,"height":136}} fills=fill_658ab2fa textStyle=style_6f999b2d text="c прототипа"
+  [COMPONENT_SET] "Button" #277:4000 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":100,"y":6964},"dimensions":{"width":223,"height":158}} strokes=fill_70745384 strokeWeight=1px strokeDashes=10,5 borderRadius=5px
+    [COMPONENT] "Property 1=Primary" #277:3990 layout={"mode":"row","padding":"16px 24px","justifyContent":"center","alignItems":"center","gap":"10px","sizing":{"horizontal":"hug","vertical":"hug"},"locationRelativeToParent":{"x":20,"y":20}} fills=fill_a9b2b803 borderRadius=2px
+      [TEXT] #201:530 layout=layout_177c5efc fills=fill_658ab2fa textStyle=style_ce0a4cea text="Перейти в каталог"
+    [COMPONENT] "Property 1=Secondary" #277:4001 layout={"mode":"row","padding":"16px 24px","justifyContent":"center","alignItems":"center","gap":"10px","sizing":{"horizontal":"hug","vertical":"hug"},"locationRelativeToParent":{"x":20,"y":89}} strokes=fill_a9b2b803 strokeWeight=1px borderRadius=2px
+      [TEXT] #277:4002 layout=layout_177c5efc fills=fill_a9b2b803 textStyle=style_ce0a4cea text="Перейти в каталог"
+  [FRAME] "Input-Text" #864:23082 layout={"mode":"column","sizing":{"horizontal":"hug","vertical":"hug"},"locationRelativeToParent":{"x":1255,"y":5975}}
+    [FRAME] "Button" #864:23083 template=EL-735e928d
+      [TEXT] #864:23084 layout=layout_177c5efc fills=fill_658ab2fa textStyle=style_44f578d0 text="Input-Text"
+    [COMPONENT_SET] "Input" #864:23085 layout={"mode":"column","padding":"20px","gap":"20px","sizing":{"horizontal":"hug","vertical":"hug"}} fills=fill_7ad30328 strokes=fill_70745384 strokeWeight=1px strokeDashes=10,5 borderRadius=5px
+      [COMPONENT] "State=Empty, Size=L" #864:23086 template=EL-2f1e40f1
+        [FRAME] #864:23087 template=EL-ab28bdf4
+          [TEXT] #864:23088 layout=layout_177c5efc fills=fill_4cd5ff90 textStyle=T2 text="Имя"
+      [COMPONENT] "State=Hover, Size=L" #864:23153 template=EL-2f1e40f1
+        [FRAME] #864:23154 layout={"mode":"column","padding":"10px 20px","justifyContent":"center","gap":"4px","sizing":{"horizontal":"hug","vertical":"fixed"},"dimensions":{"height":36}}
+          [TEXT] #864:23155 template=EL-2cbfa417
+      [COMPONENT] "State=Fill-Hover, Size=L" #864:23090 layout=layout_74dec038 fills=fill_658ab2fa strokes=fill_b9de0bb4 strokeWeight=1px
+        [FRAME] #864:23091 template=EL-312c119f
+          [TEXT] #864:23092 template=EL-cc31c3e4
+          [TEXT] #864:23093 template=EL-c6701a83
+      [COMPONENT] "State=Active, Size=L" #864:23098 template=EL-97c633e3
+        [FRAME] #864:23099 template=EL-312c119f
+          [TEXT] #864:23100 template=EL-cc31c3e4
+          [FRAME] #864:23101 template=EL-eeb90c38
+            [FRAME] #864:23102 template=EL-c5095fea
+            [TEXT] #864:23103 layout=layout_177c5efc fills=fill_6733d979 textStyle=T2 text="Введите имя"
+      [COMPONENT] "State=Active-Fill, Size=L" #864:23108 template=EL-97c633e3
+        [FRAME] #864:23109 template=EL-312c119f
+          [TEXT] #864:23110 template=EL-cc31c3e4
+          [FRAME] #864:23111 template=EL-eeb90c38
+            [TEXT] #864:23112 layout=layout_177c5efc fills=fill_34dc0314 textStyle=T2 text="Ник"
+            [FRAME] #864:23113 template=EL-c5095fea
+      [COMPONENT] "State=Fill, Size=L" #864:23118 template=EL-97c633e3
+        [FRAME] #864:23119 template=EL-312c119f
+          [TEXT] #864:23120 template=EL-cc31c3e4
+          [TEXT] #864:23121 template=EL-c6701a83
+      [COMPONENT] "State=Empty-Disabled, Size=L" #864:23126 template=EL-2f1e40f1
+        [FRAME] #864:23127 template=EL-ab28bdf4
+          [TEXT] #864:23128 layout=layout_177c5efc fills=fill_6733d979 textStyle=T2 text="Имя"
+      [COMPONENT] "State=Fill-Disabled, Size=L" #864:23130 template=EL-97c633e3
+        [FRAME] #864:23131 template=EL-312c119f
+          [TEXT] #864:23132 layout=layout_177c5efc fills=fill_6733d979 textStyle=style_4fd33b53 text="Имя"
+          [TEXT] #864:23133 layout=layout_177c5efc fills=fill_6733d979 textStyle={"fontFamily":"Inter","fontStyle":"Regular","fontWeight":400,"fontSize":16,"lineHeight":"1.4em","letterSpacing":"-0.01em","textAlignHorizontal":"LEFT","textAlignVertical":"TOP"} text="Никита"
+      [COMPONENT] "State=Error-Fill, Size=L" #864:23138 template=EL-ba1e557e
+        [FRAME] "Frame" #864:23139 template=EL-be995052
+          [FRAME] #864:23140 template=EL-a8ef7fa3
+            [TEXT] #864:23141 template=EL-cc31c3e4
+            [TEXT] #864:23142 template=EL-c6701a83
+        [FRAME] #864:23143 template=EL-4c51a4f3
+          [TEXT] #864:23144 template=EL-da855990
+          [INSTANCE] #864:23145 template=EL-ce12ebea
+            [TEXT] #I864:23145;477:174771 template=EL-7c10d99a
+      [COMPONENT] "State=Empty-Error, Size=L" #864:23146 template=EL-ba1e557e
+        [FRAME] "Frame" #864:23147 template=EL-be995052
+          [FRAME] #864:23148 template=EL-a8ef7fa3
+            [TEXT] #864:23149 template=EL-2cbfa417
+        [FRAME] #864:23150 template=EL-4c51a4f3
+          [TEXT] #864:23151 template=EL-da855990
+          [INSTANCE] #864:23152 template=EL-ce12ebea
+            [TEXT] #I864:23152;477:174771 template=EL-7c10d99a
+  [FRAME] "Input-Password" #864:51018 layout={"mode":"column","sizing":{"horizontal":"hug","vertical":"hug"},"locationRelativeToParent":{"x":1739,"y":5975}}
+    [FRAME] "Button" #864:51019 template=EL-735e928d
+      [TEXT] #864:51020 layout=layout_177c5efc fills=fill_658ab2fa textStyle=style_44f578d0 text="Input-Password"
+    [COMPONENT_SET] "Input-password" #864:51021 layout={"mode":"grid","padding":"64px","gridTemplateColumns":"repeat(1,fit-content(100%))","gridTemplateRows":"fit-content(100%) fit-content(100%) fit-content(100%) fit-content(100%) fit-content(100%) fit-content(100%) fit-content(100%) fit-content(100%) fit-content(100%) fit-content(100%) fit-content(100%) fit-content(100%) fit-content(100%) fit-content(100%) fit-content(100%) fit-content(100%) 60.00px fit-content(100%) fit-content(100%) fit-content(100%) fit-content(100%) fit-content(100%) fit-content(100%) fit-content(100%)","gap":"20px","sizing":{"horizontal":"hug","vertical":"hug"}} fills=fill_7ad30328 strokes=fill_70745384 strokeWeight=1px strokeDashes=10,5 borderRadius=5px
+      [COMPONENT] "State=Error-Fill-Close, Color=Grey" #864:51283 layout={"mode":"column","justifyContent":"center","alignItems":"stretch","gap":"4px","sizing":{"horizontal":"fixed","vertical":"hug"},"gridColumn":"1","gridRow":"1","dimensions":{"width":484}}
+        [FRAME] "Frame" #864:51284 layout={"mode":"row","alignSelf":"stretch","padding":"16px","justifyContent":"space-between","alignItems":"center","sizing":{"horizontal":"fill","vertical":"fixed"},"dimensions":{"height":60}} fills=fill_658ab2fa strokes=fill_0ea70a13 strokeWeight=1px
+          [FRAME] "Frame" #864:51285 template=EL-1f0b7899
+            [TEXT] #864:51286 template=EL-6dce75e2
+            [FRAME] #864:51287 template=EL-46e13874
+              [FRAME] #864:51288 template=EL-414176fc
+                [FRAME] #864:51289 template=EL-03e098af
+              [FRAME] #864:51290 template=EL-414176fc
+                [FRAME] #864:51291 template=EL-03e098af
+              [FRAME] #864:51292 template=EL-414176fc
+                [FRAME] #864:51293 template=EL-03e098af
+              [FRAME] #864:51294 template=EL-414176fc
+                [FRAME] #864:51295 template=EL-03e098af
+              [FRAME] #864:51296 template=EL-414176fc
+                [FRAME] #864:51297 template=EL-03e098af
+              [FRAME] #864:51298 template=EL-414176fc
+                [FRAME] #864:51299 template=EL-03e098af
+              [FRAME] #864:51300 template=EL-414176fc
+                [FRAME] #864:51301 template=EL-03e098af
+              [FRAME] #864:51302 template=EL-414176fc
+                [FRAME] #864:51303 template=EL-03e098af
+              [FRAME] #864:51304 template=EL-414176fc
+                [FRAME] #864:51305 template=EL-03e098af
+              [FRAME] #864:51306 template=EL-414176fc
+                [FRAME] #864:51307 template=EL-03e098af
+              [FRAME] #864:51308 template=EL-414176fc
+                [FRAME] #864:51309 template=EL-03e098af
+              [FRAME] #864:51310 template=EL-414176fc
+                [FRAME] #864:51311 template=EL-03e098af
+              [FRAME] #864:51312 template=EL-414176fc
+                [FRAME] #864:51313 template=EL-03e098af
+              [FRAME] #864:51314 template=EL-414176fc
+                [FRAME] #864:51315 template=EL-03e098af
+          [FRAME] #864:51316 template=EL-235879b0
+            [FRAME] #864:51317 template=EL-d313a6ec
+              [IMAGE-SVG] "Line Duotone / Essentional, UI / Close Circle" #864:51318 template=EL-ff0611ae
+              [FRAME] #864:51319 template=EL-9593ee8a
+            [IMAGE-SVG] "Linear / Security / Eye" #864:51320 template=EL-e836e453
+        [FRAME] #864:51321 template=EL-c329a370
+          [TEXT] #864:51322 template=EL-da855990
+          [INSTANCE] #864:51323 template=EL-6e2dae89
+            [TEXT] #I864:51323;477:174771 template=EL-b9c3ed35
+      [COMPONENT] "State=Error-Fill-Open, Color=Grey" #864:51324 layout={"mode":"column","justifyContent":"center","alignItems":"stretch","gap":"4px","sizing":{"horizontal":"fixed","vertical":"hug"},"gridColumn":"1","gridRow":"2","dimensions":{"width":484}}
+        [FRAME] "Frame" #864:51325 template=EL-be995052
+          [FRAME] "Frame" #864:51326 template=EL-1f0b7899
+            [TEXT] #864:51327 template=EL-6dce75e2
+            [TEXT] #864:51328 template=EL-c09fbf53
+          [FRAME] #864:51329 template=EL-235879b0
+            [FRAME] #864:51330 template=EL-d313a6ec
+              [IMAGE-SVG] "Line Duotone / Essentional, UI / Close Circle" #864:51331 template=EL-ff0611ae
+              [FRAME] #864:51332 template=EL-9593ee8a
+            [IMAGE-SVG] "Linear / Security / Eye" #864:51333 template=EL-e836e453
+        [FRAME] #864:51334 template=EL-c329a370
+          [TEXT] #864:51335 template=EL-da855990
+          [INSTANCE] #864:51336 template=EL-6e2dae89
+            [TEXT] #I864:51336;477:174771 template=EL-b9c3ed35
+      [COMPONENT] "State=Empty-Disabled-Fill, Color=Grey" #864:51337 layout={"mode":"column","justifyContent":"center","gap":"4px","sizing":{"horizontal":"fixed","vertical":"fixed"},"gridColumn":"1","gridRow":"3","dimensions":{"width":484,"height":60}}
+        [FRAME] "Frame" #864:51338 layout=layout_68c3e892 fills=fill_658ab2fa
+          [FRAME] "Frame" #864:51339 template=EL-1f0b7899
+            [TEXT] #864:51340 layout=layout_177c5efc fills=fill_6733d979 textStyle=Caption text="Пароль"
+            [TEXT] #864:51341 layout=layout_177c5efc fills=fill_81a83821 textStyle=T2 text="1234567890%"
+          [FRAME] #864:51342 template=EL-235879b0
+            [FRAME] #864:51343 template=EL-d313a6ec
+              [IMAGE-SVG] "Line Duotone / Essentional, UI / Close Circle" #864:51344 template=EL-ff0611ae
+              [FRAME] #864:51345 template=EL-9593ee8a
+            [IMAGE-SVG] "Linear / Security / Eye" #864:51346 template=EL-e836e453
+        [FRAME] #864:51347 template=EL-54727cef
+          [TEXT] #864:51348 template=EL-f8ed0452
+      [COMPONENT] "State=Active-Fill-Open, Color=Grey" #864:51378 layout={"mode":"column","justifyContent":"center","gap":"4px","sizing":{"horizontal":"fixed","vertical":"fixed"},"gridColumn":"1","gridRow":"4","dimensions":{"width":484,"height":60}} fills=fill_658ab2fa
+        [FRAME] "Frame" #864:51379 template=EL-92cf7249
+          [FRAME] "Frame" #864:51380 template=EL-1f0b7899
+            [TEXT] #864:51381 template=EL-6dce75e2
+            [FRAME] #864:51382 template=EL-eeb90c38
+              [TEXT] #864:51383 layout=layout_177c5efc fills=fill_34dc0314 textStyle=T2 text="123456"
+              [FRAME] #864:51384 template=EL-8ed96ddf
+          [FRAME] #864:51385 template=EL-235879b0
+            [FRAME] #864:51386 template=EL-d313a6ec
+              [IMAGE-SVG] "Line Duotone / Essentional, UI / Close Circle" #864:51387 template=EL-ff0611ae
+              [FRAME] #864:51388 template=EL-9593ee8a
+            [IMAGE-SVG] "Linear / Security / Eye" #864:51389 template=EL-e836e453
+        [FRAME] #864:51390 template=EL-54727cef
+          [TEXT] #864:51391 template=EL-f8ed0452
+      [COMPONENT] "State=Active-Fill-Close, Color=Grey" #864:51349 layout={"mode":"column","justifyContent":"center","gap":"4px","sizing":{"horizontal":"fixed","vertical":"fixed"},"gridColumn":"1","gridRow":"5","dimensions":{"width":484,"height":60}} fills=fill_658ab2fa
+        [FRAME] "Frame" #864:51350 template=EL-92cf7249
+          [FRAME] "Frame" #864:51351 template=EL-1f0b7899
+            [TEXT] #864:51352 template=EL-6dce75e2
+            [FRAME] #864:51353 layout={"mode":"row","alignItems":"center","gap":"6px","sizing":{"horizontal":"hug","vertical":"hug"}}
+              [FRAME] #864:51354 template=EL-414176fc
+                [FRAME] #864:51355 template=EL-99ca7a3f
+              [FRAME] #864:51356 template=EL-414176fc
+                [FRAME] #864:51357 template=EL-99ca7a3f
+              [FRAME] #864:51358 template=EL-414176fc
+                [FRAME] #864:51359 template=EL-99ca7a3f
+              [FRAME] #864:51360 template=EL-414176fc
+                [FRAME] #864:51361 template=EL-99ca7a3f
+              [FRAME] #864:51362 template=EL-414176fc
+                [FRAME] #864:51363 template=EL-99ca7a3f
+              [FRAME] #864:51364 template=EL-414176fc
+                [FRAME] #864:51365 template=EL-99ca7a3f
+              [FRAME] #864:51366 template=EL-414176fc
+                [FRAME] #864:51367 template=EL-99ca7a3f
+              [FRAME] #864:51368 template=EL-414176fc
+                [FRAME] #864:51369 template=EL-99ca7a3f
+              [FRAME] #864:51370 template=EL-8ed96ddf
+          [FRAME] #864:51371 template=EL-235879b0
+            [FRAME] #864:51372 template=EL-d313a6ec
+              [IMAGE-SVG] "Line Duotone / Essentional, UI / Close Circle" #864:51373 template=EL-ff0611ae
+              [FRAME] #864:51374 template=EL-9593ee8a
+            [IMAGE-SVG] "Linear / Security / Eye" #864:51375 template=EL-e836e453
+        [FRAME] #864:51376 template=EL-54727cef
+          [TEXT] #864:51377 template=EL-f8ed0452
+      [COMPONENT] "State=Fill-Hover-Close, Color=Grey" #864:51458 layout={"mode":"column","justifyContent":"center","gap":"4px","sizing":{"horizontal":"fixed","vertical":"fixed"},"gridColumn":"1","gridRow":"6","dimensions":{"width":484,"height":60}} fills=fill_658ab2fa
+        [FRAME] "Frame" #864:51459 template=EL-92cf7249
+          [FRAME] "Frame" #864:51460 template=EL-1f0b7899
+            [TEXT] #864:51461 template=EL-6dce75e2
+            [FRAME] #864:51462 template=EL-46e13874
+              [FRAME] #864:51463 template=EL-414176fc
+                [FRAME] #864:51464 template=EL-99ca7a3f
+              [FRAME] #864:51465 template=EL-414176fc
+                [FRAME] #864:51466 template=EL-99ca7a3f
+              [FRAME] #864:51467 template=EL-414176fc
+                [FRAME] #864:51468 template=EL-99ca7a3f
+              [FRAME] #864:51469 template=EL-414176fc
+                [FRAME] #864:51470 template=EL-99ca7a3f
+              [FRAME] #864:51471 template=EL-414176fc
+                [FRAME] #864:51472 template=EL-99ca7a3f
+              [FRAME] #864:51473 template=EL-414176fc
+                [FRAME] #864:51474 template=EL-99ca7a3f
+              [FRAME] #864:51475 template=EL-414176fc
+                [FRAME] #864:51476 template=EL-99ca7a3f
+              [FRAME] #864:51477 template=EL-414176fc
+                [FRAME] #864:51478 template=EL-99ca7a3f
+              [FRAME] #864:51479 template=EL-414176fc
+                [FRAME] #864:51480 template=EL-99ca7a3f
+              [FRAME] #864:51481 template=EL-414176fc
+                [FRAME] #864:51482 template=EL-99ca7a3f
+              [FRAME] #864:51483 template=EL-414176fc
+                [FRAME] #864:51484 template=EL-99ca7a3f
+              [FRAME] #864:51485 template=EL-414176fc
+                [FRAME] #864:51486 template=EL-99ca7a3f
+              [FRAME] #864:51487 template=EL-414176fc
+                [FRAME] #864:51488 template=EL-99ca7a3f
+              [FRAME] #864:51489 template=EL-414176fc
+                [FRAME] #864:51490 template=EL-99ca7a3f
+          [FRAME] #864:51491 template=EL-235879b0
+            [FRAME] #864:51492 template=EL-d313a6ec
+              [IMAGE-SVG] "Line Duotone / Essentional, UI / Close Circle" #864:51493 template=EL-ff0611ae
+              [FRAME] #864:51494 template=EL-9593ee8a
+            [IMAGE-SVG] "Linear / Security / Eye" #864:51495 template=EL-e836e453
+        [FRAME] #864:51496 template=EL-54727cef
+          [TEXT] #864:51497 template=EL-f8ed0452
+      [COMPONENT] "State=Fill-Close, Color=Grey" #864:51406 layout={"mode":"column","justifyContent":"center","gap":"4px","sizing":{"horizontal":"fixed","vertical":"fixed"},"gridColumn":"1","gridRow":"7","dimensions":{"width":484,"height":60}} fills=fill_658ab2fa
+        [FRAME] "Frame" #864:51407 template=EL-92cf7249
+          [FRAME] "Frame" #864:51408 template=EL-1f0b7899
+            [TEXT] #864:51409 template=EL-6dce75e2
+            [FRAME] #864:51410 template=EL-46e13874
+              [FRAME] #864:51411 template=EL-414176fc
+                [FRAME] #864:51412 template=EL-99ca7a3f
+              [FRAME] #864:51413 template=EL-414176fc
+                [FRAME] #864:51414 template=EL-99ca7a3f
+              [FRAME] #864:51415 template=EL-414176fc
+                [FRAME] #864:51416 template=EL-99ca7a3f
+              [FRAME] #864:51417 template=EL-414176fc
+                [FRAME] #864:51418 template=EL-99ca7a3f
+              [FRAME] #864:51419 template=EL-414176fc
+                [FRAME] #864:51420 template=EL-99ca7a3f
+              [FRAME] #864:51421 template=EL-414176fc
+                [FRAME] #864:51422 template=EL-99ca7a3f
+              [FRAME] #864:51423 template=EL-414176fc
+                [FRAME] #864:51424 template=EL-99ca7a3f
+              [FRAME] #864:51425 template=EL-414176fc
+                [FRAME] #864:51426 template=EL-99ca7a3f
+              [FRAME] #864:51427 template=EL-414176fc
+                [FRAME] #864:51428 template=EL-99ca7a3f
+              [FRAME] #864:51429 template=EL-414176fc
+                [FRAME] #864:51430 template=EL-99ca7a3f
+              [FRAME] #864:51431 template=EL-414176fc
+                [FRAME] #864:51432 template=EL-99ca7a3f
+              [FRAME] #864:51433 template=EL-414176fc
+                [FRAME] #864:51434 template=EL-99ca7a3f
+              [FRAME] #864:51435 template=EL-414176fc
+                [FRAME] #864:51436 template=EL-99ca7a3f
+              [FRAME] #864:51437 template=EL-414176fc
+                [FRAME] #864:51438 template=EL-99ca7a3f
+          [FRAME] #864:51439 template=EL-235879b0
+            [FRAME] #864:51440 template=EL-d313a6ec
+              [IMAGE-SVG] "Line Duotone / Essentional, UI / Close Circle" #864:51441 template=EL-ff0611ae
+              [FRAME] #864:51442 template=EL-9593ee8a
+            [IMAGE-SVG] "Linear / Security / Eye" #864:51443 template=EL-e836e453
+        [FRAME] #864:51444 template=EL-54727cef
+          [TEXT] #864:51445 template=EL-f8ed0452
+      [COMPONENT] "State=Active, Color=Grey" #864:51392 layout={"mode":"column","justifyContent":"center","gap":"4px","sizing":{"horizontal":"fixed","vertical":"fixed"},"gridColumn":"1","gridRow":"8","dimensions":{"width":484,"height":60}} fills=fill_658ab2fa
+        [FRAME] "Frame" #864:51393 template=EL-92cf7249
+          [FRAME] "Frame" #864:51394 template=EL-1f0b7899
+            [TEXT] #864:51395 template=EL-6dce75e2
+            [FRAME] #864:51396 template=EL-eeb90c38
+              [FRAME] #864:51397 layout=layout_fb555635 fills=fill_381be112 borderRadius=10px
+              [TEXT] #864:51398 layout=layout_177c5efc fills=fill_81a83821 textStyle=T2 text="Введите пароль"
+          [FRAME] #864:51399 template=EL-235879b0
+            [FRAME] #864:51400 template=EL-d313a6ec
+              [IMAGE-SVG] "Line Duotone / Essentional, UI / Close Circle" #864:51401 template=EL-ff0611ae
+              [FRAME] #864:51402 template=EL-9593ee8a
+            [IMAGE-SVG] "Linear / Security / Eye" #864:51403 template=EL-e836e453
+        [FRAME] #864:51404 template=EL-54727cef
+          [TEXT] #864:51405 template=EL-f8ed0452
+      [COMPONENT] "State=Fill-Open, Color=Grey" #864:51446 layout={"mode":"column","justifyContent":"center","gap":"4px","sizing":{"horizontal":"fixed","vertical":"fixed"},"gridColumn":"1","gridRow":"9","dimensions":{"width":484,"height":60}} fills=fill_658ab2fa
+        [FRAME] "Frame" #864:51447 template=EL-92cf7249
+          [FRAME] "Frame" #864:51448 template=EL-1f0b7899
+            [TEXT] #864:51449 template=EL-6dce75e2
+            [TEXT] #864:51450 template=EL-c09fbf53
+          [FRAME] #864:51451 template=EL-235879b0
+            [FRAME] #864:51452 template=EL-d313a6ec
+              [IMAGE-SVG] "Line Duotone / Essentional, UI / Close Circle" #864:51453 template=EL-ff0611ae
+              [FRAME] #864:51454 template=EL-9593ee8a
+            [IMAGE-SVG] "Linear / Security / Eye" #864:51455 template=EL-e836e453
+        [FRAME] #864:51456 template=EL-54727cef
+          [TEXT] #864:51457 template=EL-f8ed0452
+      [COMPONENT] "State=Error-Empty, Color=Grey" #864:51538 layout={"mode":"column","justifyContent":"center","gap":"4px","sizing":{"horizontal":"fixed","vertical":"hug"},"gridColumn":"1","gridRow":"10","dimensions":{"width":484}}
+        [FRAME] "Frame" #864:51539 layout={"mode":"row","alignSelf":"stretch","padding":"16px","alignItems":"center","gap":"128px","sizing":{"horizontal":"fill","vertical":"fixed"},"dimensions":{"height":60}} strokes=fill_a42aa054 strokeWeight=1px
+          [FRAME] "Frame" #864:51540 template=EL-1f0b7899
+            [TEXT] #864:51541 template=EL-44ec4152
+        [FRAME] #864:51542 layout={"mode":"row","justifyContent":"center","alignItems":"center","gap":"10px","sizing":{"horizontal":"hug","vertical":"hug"}}
+          [TEXT] #864:51543 layout=layout_177c5efc fills=fill_a42aa054 textStyle=Caption/S text="Текст ошибки"
+      [COMPONENT] "State=Hover, Color=Grey" #864:51510 layout={"mode":"column","justifyContent":"center","gap":"4px","sizing":{"horizontal":"fixed","vertical":"fixed"},"gridColumn":"1","gridRow":"11","dimensions":{"width":484,"height":60}} fills=fill_658ab2fa
+        [FRAME] "Frame" #864:51511 template=EL-a5c8c92d
+          [FRAME] "Frame" #864:51512 template=EL-1f0b7899
+            [TEXT] #864:51513 template=EL-44ec4152
+          [FRAME] #864:51514 template=EL-235879b0
+            [FRAME] #864:51515 template=EL-d313a6ec
+              [IMAGE-SVG] "Line Duotone / Essentional, UI / Close Circle" #864:51516 template=EL-ff0611ae
+              [FRAME] #864:51517 layout=layout_6971c182 fills=["#8E8CA3"]
+            [IMAGE-SVG] "Linear / Security / Eye" #864:51518 template=EL-e836e453
+        [FRAME] #864:51519 template=EL-54727cef
+          [TEXT] #864:51520 template=EL-f8ed0452
+      [COMPONENT] "State=Fill-Hover-Open, Color=Grey" #864:51498 layout={"mode":"column","justifyContent":"center","gap":"4px","sizing":{"horizontal":"fixed","vertical":"fixed"},"gridColumn":"1","gridRow":"12","dimensions":{"width":484,"height":60}} fills=fill_658ab2fa
+        [FRAME] "Frame" #864:51499 template=EL-a5c8c92d
+          [FRAME] "Frame" #864:51500 template=EL-1f0b7899
+            [TEXT] #864:51501 template=EL-6dce75e2
+            [TEXT] #864:51502 template=EL-c09fbf53
+          [FRAME] #864:51503 template=EL-235879b0
+            [FRAME] #864:51504 template=EL-d313a6ec
+              [IMAGE-SVG] "Line Duotone / Essentional, UI / Close Circle" #864:51505 template=EL-ff0611ae
+              [FRAME] #864:51506 template=EL-9593ee8a
+            [IMAGE-SVG] "Linear / Security / Eye" #864:51507 template=EL-e836e453
+        [FRAME] #864:51508 template=EL-54727cef
+          [TEXT] #864:51509 template=EL-f8ed0452
+      [COMPONENT] "State=Empty-Disabled, Color=Grey" #864:51527 layout={"mode":"column","justifyContent":"center","gap":"4px","sizing":{"horizontal":"fixed","vertical":"fixed"},"gridColumn":"1","gridRow":"13","dimensions":{"width":484,"height":60}} fills=fill_658ab2fa
+        [FRAME] "Frame" #864:51528 template=EL-92cf7249
+          [FRAME] "Frame" #864:51529 template=EL-1f0b7899
+            [TEXT] #864:51530 template=EL-44ec4152
+          [FRAME] #864:51531 template=EL-235879b0
+            [FRAME] #864:51532 template=EL-d313a6ec
+              [IMAGE-SVG] "Line Duotone / Essentional, UI / Close Circle" #864:51533 template=EL-ff0611ae
+              [FRAME] #864:51534 layout=layout_6971c182 fills=["#E7E6EB"]
+            [IMAGE-SVG] "Linear / Security / Eye" #864:51535 template=EL-e836e453
+        [FRAME] #864:51536 template=EL-54727cef
+          [TEXT] #864:51537 template=EL-f8ed0452
+      [COMPONENT] "State=Empty, Color=Grey" #864:51521 layout={"mode":"column","justifyContent":"center","gap":"4px","sizing":{"horizontal":"fixed","vertical":"fixed"},"gridColumn":"1","gridRow":"14","dimensions":{"width":484,"height":60}} fills=fill_658ab2fa
+        [FRAME] "Frame" #864:51522 layout={"mode":"row","alignSelf":"stretch","padding":"12px 16px","alignItems":"center","sizing":{"horizontal":"fill","vertical":"fill"}}
+          [FRAME] "Frame" #864:51523 template=EL-1f0b7899
+            [TEXT] #864:51524 template=EL-44ec4152
+        [FRAME] #864:51525 template=EL-54727cef
+          [TEXT] #864:51526 template=EL-f8ed0452
+      [COMPONENT] "State=Empty-Disabled-Fill, Color=White" #864:51076 layout={"mode":"column","justifyContent":"center","gap":"4px","sizing":{"horizontal":"fixed","vertical":"fixed"},"gridColumn":"1","gridRow":"15","dimensions":{"width":484,"height":60}}
+        [FRAME] #864:51086 template=EL-54727cef
+          [TEXT] #864:51087 template=EL-f8ed0452
+      [COMPONENT] "State=Active-Fill-Close, Color=White" #864:51088 layout={"mode":"column","justifyContent":"center","gap":"4px","sizing":{"horizontal":"fixed","vertical":"fixed"},"gridColumn":"1","gridRow":"16","dimensions":{"width":484,"height":60}}
+        [FRAME] #864:51115 template=EL-54727cef
+          [TEXT] #864:51116 template=EL-f8ed0452
+      [COMPONENT] "State=Active, Color=White" #864:51131 layout={"mode":"column","justifyContent":"center","gap":"4px","sizing":{"horizontal":"fixed","vertical":"hug"},"gridColumn":"1","gridRow":"18","dimensions":{"width":484}}
+        [FRAME] #864:51143 template=EL-54727cef
+          [TEXT] #864:51144 template=EL-f8ed0452
+      [COMPONENT] "State=Fill-Close, Color=White" #864:51145 layout={"mode":"column","justifyContent":"center","gap":"4px","sizing":{"horizontal":"fixed","vertical":"fixed"},"gridColumn":"1","gridRow":"19","dimensions":{"width":484,"height":60}}
+        [FRAME] #864:51183 template=EL-54727cef
+          [TEXT] #864:51184 template=EL-f8ed0452
+      [COMPONENT] "State=Fill-Open, Color=White" #864:51185 layout={"mode":"column","justifyContent":"center","gap":"4px","sizing":{"horizontal":"fixed","vertical":"fixed"},"gridColumn":"1","gridRow":"20","dimensions":{"width":484,"height":60}}
+        [FRAME] #864:51195 template=EL-54727cef
+          [TEXT] #864:51196 template=EL-f8ed0452
+      [COMPONENT] "State=Fill-Hover-Close, Color=White" #864:51197 layout={"mode":"column","justifyContent":"center","gap":"4px","sizing":{"horizontal":"fixed","vertical":"fixed"},"gridColumn":"1","gridRow":"21","dimensions":{"width":484,"height":60}}
+        [FRAME] #864:51235 template=EL-54727cef
+          [TEXT] #864:51236 template=EL-f8ed0452
+      [COMPONENT] "State=Fill-Hover-Open, Color=White" #864:51237 layout={"mode":"column","justifyContent":"center","gap":"4px","sizing":{"horizontal":"fixed","vertical":"fixed"},"gridColumn":"1","gridRow":"22","dimensions":{"width":484,"height":60}}
+        [FRAME] #864:51247 template=EL-54727cef
+          [TEXT] #864:51248 template=EL-f8ed0452
+      [COMPONENT] "State=Hover, Color=White" #864:51249 layout={"mode":"column","justifyContent":"center","gap":"4px","sizing":{"horizontal":"fixed","vertical":"fixed"},"gridColumn":"1","gridRow":"23","dimensions":{"width":484,"height":60}}
+        [FRAME] #864:51258 template=EL-54727cef
+          [TEXT] #864:51259 template=EL-f8ed0452
+      [COMPONENT] "State=Empty, Color=White" #864:51260 layout={"mode":"column","justifyContent":"center","gap":"4px","sizing":{"horizontal":"fixed","vertical":"fixed"},"gridColumn":"1","gridRow":"24","dimensions":{"width":484,"height":60}}
+        [FRAME] #864:51264 template=EL-54727cef
+          [TEXT] #864:51265 template=EL-f8ed0452
+  [COMPONENT_SET] "Icon-Button" #885:13424 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":1175,"y":2430},"dimensions":{"width":80,"height":260}} fills=fill_658ab2fa strokes=fill_70745384 strokeWeight=1px strokeDashes=10,5 borderRadius=5px
+    [COMPONENT] "State=Default" #885:13423 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":20,"y":20},"dimensions":{"width":40,"height":40}} strokes=fill_c5b17057 strokeWeight=1px borderRadius=2px
+      [IMAGE-SVG] "Vector" #885:13422 template=EL-a7c5ea80
+    [COMPONENT] "State=Disabled" #886:13431 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":20,"y":200},"dimensions":{"width":40,"height":40}} strokes=fill_711164fb strokeWeight=1px borderRadius=2px
+      [IMAGE-SVG] "Vector" #886:13432 layout=layout_6441cdef strokes=fill_711164fb strokeWeight=2px
+    [COMPONENT] "State=Hover" #885:13425 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":20,"y":80},"dimensions":{"width":40,"height":40}} strokes=fill_cb076e71 strokeWeight=1px borderRadius=2px
+      [IMAGE-SVG] "Vector" #885:13426 layout=layout_6441cdef strokes=fill_cb076e71 strokeWeight=2px
+    [COMPONENT] "State=Active" #886:13428 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":20,"y":140},"dimensions":{"width":40,"height":40}} strokes=fill_64ec8a4f strokeWeight=1px borderRadius=2px
+      [IMAGE-SVG] "Vector" #886:13429 layout=layout_6441cdef strokes=fill_64ec8a4f strokeWeight=2px
+  [SECTION] "Icon" #864:21618 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":147,"y":2476},"dimensions":{"width":849,"height":168}} fills=fill_0f8538f0 strokes=fill_dbe29f28 strokeWeight=1px
+    [COMPONENT_SET] "hugeicons" #864:21718 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":16,"y":29},"dimensions":{"width":64,"height":110}} strokes=fill_70745384 strokeWeight=1px strokeDashes=10,5 borderRadius=5px
+      [COMPONENT] "State=Default" #864:21617 template=EL-4f48fc90
+        [IMAGE-SVG] "Group" #864:21613 template=EL-b0b968ef
+      [COMPONENT] "State=Active" #864:21763 template=EL-ea97ca69
+        [IMAGE-SVG] "Group" #864:21764 template=EL-b0b968ef
+    [COMPONENT_SET] "solar:shop" #864:21719 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":100,"y":29},"dimensions":{"width":64,"height":110}} strokes=fill_70745384 strokeWeight=1px strokeDashes=10,5 borderRadius=5px
+      [COMPONENT] "State=Default" #864:21627 template=EL-4f48fc90
+        [IMAGE-SVG] "Group" #864:21620 template=EL-6320abba
+      [COMPONENT] "State=Active" #864:21767 template=EL-ea97ca69
+        [IMAGE-SVG] "Group" #864:21768 template=EL-6320abba
+    [COMPONENT_SET] "sber-pay" #864:21720 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":184,"y":28},"dimensions":{"width":64,"height":110}} strokes=fill_70745384 strokeWeight=1px strokeDashes=10,5 borderRadius=5px
+      [COMPONENT] "State=Default" #864:21645 layout=layout_bd2cc6a7 fills=fill_97d170e1 borderRadius=100px
+        [IMAGE-SVG] "Vector" #862:19820 layout=layout_9d31ed21 fills=fill_34dc0314 borderRadius=100px
+        [IMAGE-SVG] "Vector" #862:19821 template=EL-9fa661fd
+        [IMAGE-SVG] "Vector" #862:19822 template=EL-9fa661fd
+        [IMAGE-SVG] "Vector" #862:19823 template=EL-9fa661fd
+        [IMAGE-SVG] "Vector" #862:19824 template=EL-9fa661fd
+        [IMAGE-SVG] "Vector" #862:19825 template=EL-9fa661fd
+        [IMAGE-SVG] "Vector" #862:19826 template=EL-2608b148
+        [IMAGE-SVG] "Vector" #862:19827 template=EL-11e91b4c
+      [COMPONENT] "State=Active" #864:21725 layout=layout_72d74afb fills=fill_97d170e1 borderRadius=100px
+        [IMAGE-SVG] "Vector" #864:21726 layout=layout_9d31ed21 fills=fill_8b4fbb9e borderRadius=100px
+        [IMAGE-SVG] "Vector" #864:21727 template=EL-70192840
+        [IMAGE-SVG] "Vector" #864:21728 template=EL-70192840
+        [IMAGE-SVG] "Vector" #864:21729 template=EL-70192840
+        [IMAGE-SVG] "Vector" #864:21730 template=EL-70192840
+        [IMAGE-SVG] "Vector" #864:21731 template=EL-70192840
+        [IMAGE-SVG] "Vector" #864:21732 template=EL-2608b148
+        [IMAGE-SVG] "Vector" #864:21733 template=EL-11e91b4c
+    [COMPONENT_SET] "card" #864:21721 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":268,"y":29},"dimensions":{"width":64,"height":110}} strokes=fill_70745384 strokeWeight=1px strokeDashes=10,5 borderRadius=5px
+      [COMPONENT] "State=Default" #864:21635 template=EL-050d880a
+        [IMAGE-SVG] "vuesax/bold/card" #864:21630 template=EL-1c09c239
+      [COMPONENT] "State=Active" #864:21774 template=EL-a6a81cdd
+        [IMAGE-SVG] "vuesax/bold/card" #864:21775 template=EL-1c09c239
+    [COMPONENT_SET] "wallet" #864:21722 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":352,"y":29},"dimensions":{"width":64,"height":110}} strokes=fill_70745384 strokeWeight=1px strokeDashes=10,5 borderRadius=5px
+      [COMPONENT] "State=Default" #864:21644 template=EL-050d880a
+        [IMAGE-SVG] "vuesax/bold/wallet" #864:21638 template=EL-1c09c239
+      [COMPONENT] "State=Active" #864:21780 template=EL-a6a81cdd
+        [IMAGE-SVG] "vuesax/bold/wallet" #864:21781 template=EL-1c09c239
+    [COMPONENT_SET] "t-pay" #864:21723 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":436,"y":28},"dimensions":{"width":64,"height":112}} strokes=fill_70745384 strokeWeight=1px strokeDashes=10,5 borderRadius=5px
+      [COMPONENT] "State=Default" #864:21636 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":20,"y":20},"dimensions":{"width":24,"height":25}} fills=fill_97d170e1
+        [IMAGE-SVG] "Vector" #862:19814 layout=layout_218677b1 fills=fill_34dc0314
+        [IMAGE-SVG] "Vector" #862:19815 template=EL-a1bd4975
+      [COMPONENT] "State=Active" #864:21734 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":20,"y":64},"dimensions":{"width":24,"height":25}} fills=fill_97d170e1
+        [IMAGE-SVG] "Vector" #864:21735 layout=layout_218677b1 fills=fill_8b4fbb9e
+        [IMAGE-SVG] "Vector" #864:21736 template=EL-a1bd4975
+    [COMPONENT_SET] "sbp" #864:21724 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":520,"y":28},"dimensions":{"width":62,"height":110}} strokes=fill_70745384 strokeWeight=1px strokeDashes=10,5 borderRadius=5px
+      [COMPONENT] "State=Default" #864:21628 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":20,"y":20},"dimensions":{"width":22,"height":24}} fills=fill_97d170e1
+        [IMAGE-SVG] "Group" #862:19783 template=EL-6f11d355
+      [COMPONENT] "State=Active" #864:21737 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":20,"y":64},"dimensions":{"width":22,"height":24}} fills=fill_97d170e1
+        [IMAGE-SVG] "Group" #864:21738 template=EL-6f11d355

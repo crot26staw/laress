@@ -1,0 +1,157 @@
+/* Кнопки — UI Kit «Button» (277:11108).
+   Размеры: базовый L (16px, 16/24) и --s (14px, 10/20).
+   Варианты: --primary, --secondary, --tertiary, --tertiary-black, --tertiary-white, --ghost. */
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-8);
+  /* В Figma обводка не влияет на размер: вычитаем бордер 1px из паддингов (16/24) */
+  padding: calc(var(--space-16) - 1px) calc(var(--space-24) - 1px);
+  border: 1px solid transparent;
+  border-radius: var(--radius-s);
+  font-family: var(--font-base);
+  font-size: var(--font-size-16);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-tight);
+  letter-spacing: -0.03em;
+  text-align: center;
+  white-space: nowrap;
+  cursor: pointer;
+  transition:
+    color var(--transition),
+    background-color var(--transition),
+    border-color var(--transition);
+}
+
+.button--s {
+  padding: calc(10px - 1px) calc(var(--space-20) - 1px); /* 10/20 */
+  font-size: var(--font-size-14);
+}
+
+.button:disabled,
+.button[aria-disabled="true"] {
+  cursor: default;
+  pointer-events: none;
+}
+
+/* Primary — заливка акцентом */
+.button--primary {
+  color: var(--color-white);
+  background-color: var(--color-accent);
+}
+
+.button--primary:hover {
+  background-color: var(--color-accent-hover);
+}
+
+.button--primary:active {
+  background-color: var(--color-accent-pressed);
+}
+
+.button--primary:disabled,
+.button--primary[aria-disabled="true"] {
+  background-color: var(--color-accent-disabled);
+}
+
+/* Secondary — светлая заливка */
+.button--secondary {
+  color: var(--button-color, var(--color-black));
+  background-color: var(--color-surface);
+}
+
+.button--secondary:hover {
+  color: var(--color-accent);
+}
+
+.button--secondary:active {
+  color: var(--color-accent-hover);
+}
+
+.button--secondary:disabled,
+.button--secondary[aria-disabled="true"] {
+  color: var(--color-text-30);
+}
+
+/* Tertiary — обводка акцентом */
+.button--tertiary {
+  color: var(--color-accent);
+  border-color: var(--color-accent-50);
+}
+
+.button--tertiary:hover {
+  color: var(--color-accent-hover);
+  border-color: var(--color-accent-hover);
+}
+
+.button--tertiary:active {
+  color: var(--color-accent-pressed);
+  border-color: var(--color-accent-pressed);
+}
+
+.button--tertiary:disabled,
+.button--tertiary[aria-disabled="true"] {
+  color: var(--color-accent-disabled);
+  border-color: var(--color-accent-disabled);
+}
+
+/* Tertiary Black — чёрная обводка */
+.button--tertiary-black {
+  color: var(--color-black);
+  border-color: var(--color-text-30);
+}
+
+.button--tertiary-black:hover {
+  border-color: var(--color-text-60);
+}
+
+.button--tertiary-black:active {
+  border-color: var(--color-black);
+}
+
+.button--tertiary-black:disabled,
+.button--tertiary-black[aria-disabled="true"] {
+  color: var(--color-text-30);
+  border-color: var(--color-text-30);
+}
+
+/* Tertiary White — белая обводка (на фото) */
+.button--tertiary-white {
+  color: var(--color-white);
+  border-color: var(--color-white-30);
+}
+
+.button--tertiary-white:hover {
+  border-color: var(--color-white-60);
+}
+
+.button--tertiary-white:active {
+  border-color: var(--color-white);
+}
+
+.button--tertiary-white:disabled,
+.button--tertiary-white[aria-disabled="true"] {
+  color: var(--color-white-30);
+  border-color: var(--color-white-30);
+}
+
+/* Ghost — только текст */
+.button--ghost {
+  padding: var(--space-2);
+  border: 0;
+  color: var(--color-text-60);
+}
+
+.button--ghost:hover {
+  color: var(--color-accent);
+}
+
+.button--ghost:active {
+  color: var(--color-accent-hover);
+}
+
+.button--ghost:disabled,
+.button--ghost[aria-disabled="true"] {
+  color: var(--color-text-30);
+}

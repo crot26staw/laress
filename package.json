@@ -1,0 +1,21 @@
+{
+  "name": "laress",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "images": "node scripts/optimize-images.mjs",
+    "compare": "node scripts/compare.mjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.65.0",
+    "postcss-pxtorem": "^6.1.0",
+    "sharp": "^0.35.5",
+    "svgo": "^4.1.0",
+    "vite": "^8.3.8",
+    "vite-plugin-image-optimizer": "^2.0.3"
+  }
+}

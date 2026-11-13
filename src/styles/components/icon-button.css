@@ -1,0 +1,38 @@
+/* Кнопка-иконка 40×40 со стрелкой — UI Kit «Icon-Button» (885:13424). */
+
+.icon-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--color-accent-50);
+  border-radius: var(--radius-s);
+  background-color: var(--color-white);
+  color: var(--color-accent);
+  transition:
+    color var(--transition),
+    border-color var(--transition);
+}
+
+.icon-button:hover {
+  color: var(--color-accent-hover);
+  border-color: var(--color-accent-hover);
+}
+
+.icon-button:active {
+  color: var(--color-accent-pressed);
+  border-color: var(--color-accent-pressed);
+}
+
+.icon-button:disabled {
+  color: var(--color-accent-disabled);
+  border-color: var(--color-accent-disabled);
+  cursor: default;
+}
+
+.icon-button svg {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+}

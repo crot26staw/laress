@@ -1,0 +1,86 @@
+/* Базовая типографика и текстовые стили из Figma (H1–H5, T1–T3). */
+
+/* Масштабирование макета: на 1440 — 1rem = 16px, к 1920 растёт пропорционально (до 21.33px),
+   шире 1920 — фиксируется. Ниже 1440 — 16px (адаптив делается отдельно). */
+html {
+  font-size: clamp(16px, 100vw / 90, 1920px / 90);
+}
+
+body {
+  font-family: var(--font-base);
+  font-size: var(--font-size-16);
+  font-weight: var(--font-weight-regular);
+  color: var(--color-text);
+  background-color: var(--color-bg);
+}
+
+.text-h1 {
+  font-size: var(--font-size-40);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-heading);
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+}
+
+.text-h2 {
+  font-size: var(--font-size-32);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-heading);
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+.text-h3 {
+  font-size: var(--font-size-24);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-tight);
+  letter-spacing: -0.02em;
+}
+
+.text-h4 {
+  font-size: var(--font-size-18);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-snug);
+  letter-spacing: -0.02em;
+}
+
+.text-h5 {
+  font-size: var(--font-size-18);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-snug);
+  letter-spacing: -0.01em;
+}
+
+.text-t1 {
+  font-size: var(--font-size-18);
+  line-height: var(--line-height-text);
+  letter-spacing: -0.02em;
+}
+
+.text-t2 {
+  font-size: var(--font-size-16);
+  line-height: var(--line-height-text);
+}
+
+.text-t3 {
+  font-size: var(--font-size-14);
+  line-height: var(--line-height-text);
+}
+
+/* Скрыть визуально, оставить для скринридеров */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+:focus-visible {
+  outline: var(--focus-ring);
+  outline-offset: 2px;
+}

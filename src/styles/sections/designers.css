@@ -1,0 +1,50 @@
+/* «Дизайнерам и декораторам» (966:41800). */
+
+.designers {
+  background-color: var(--color-surface);
+  padding-block: var(--space-70);
+}
+
+.designers__inner {
+  display: flex;
+  gap: var(--space-20);
+}
+
+/* Фото от левого края экрана: на 1440 — 760px (половина + 40px) */
+.designers__image {
+  flex: 0 0 calc(50% + var(--container-padding));
+  width: calc(50% + var(--container-padding));
+  height: 720px;
+  object-fit: cover;
+}
+
+.designers__content {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-right: var(--gutter); /* правый край — по границе контейнера */
+}
+
+/* Верхний орнамент: блок высотой 2px, знак выступает наружу */
+.designers__ornament {
+  height: 2px;
+}
+
+.designers__line {
+  height: 1px;
+  background-color: var(--color-sand);
+}
+
+.designers__body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-32);
+  text-align: center;
+}
+
+.designers__actions {
+  display: flex;
+  gap: var(--space-8);
+}

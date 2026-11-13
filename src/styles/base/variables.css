@@ -1,0 +1,89 @@
+/* Токены из Figma (UI Kit 827:12045, страницы 966:41552). */
+
+:root {
+  /* Цвета: основные */
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --color-bg: #fafaf9;
+  --color-surface: #fbfbfb;
+
+  /* Цвета: акцент */
+  --color-accent: #b9904f;
+  --color-accent-hover: #977541;
+  --color-accent-pressed: #765c32;
+  --color-accent-disabled: #d6c5aa;
+  --color-accent-50: rgba(185, 144, 79, 0.5);
+
+  /* Цвета: вторичные */
+  --color-beige: #c0b7a7;
+  --color-sand: #dcccb6;
+  --color-brown-dark: #593b0c;
+  --color-error: #a50206;
+
+  /* Цвета: текст и линии на светлом фоне */
+  --color-text: var(--color-black);
+  --color-text-90: rgba(0, 0, 0, 0.9);
+  --color-text-60: rgba(0, 0, 0, 0.6);
+  --color-text-50: rgba(0, 0, 0, 0.5);
+  --color-text-30: rgba(0, 0, 0, 0.3);
+  --color-line: rgba(0, 0, 0, 0.1);
+
+  /* Цвета: на тёмном фоне / фото */
+  --color-white-80: rgba(255, 255, 255, 0.8);
+  --color-white-60: rgba(255, 255, 255, 0.6);
+  --color-white-50: rgba(255, 255, 255, 0.5);
+  --color-white-30: rgba(255, 255, 255, 0.3);
+
+  /* Шрифты */
+  --font-base: "Hauora", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  /* Размеры шрифта */
+  --font-size-10: 10px;
+  --font-size-12: 12px;
+  --font-size-14: 14px;
+  --font-size-16: 16px;
+  --font-size-18: 18px;
+  --font-size-24: 24px;
+  --font-size-32: 32px;
+  --font-size-40: 40px;
+
+  /* Межстрочный интервал */
+  --line-height-tight: 1.06;
+  --line-height-heading: 1.15;
+  --line-height-snug: 1.25;
+  --line-height-text: 1.3;
+
+  /* Отступы */
+  --space-2: 2px;
+  --space-4: 4px;
+  --space-8: 8px;
+  --space-12: 12px;
+  --space-16: 16px;
+  --space-20: 20px;
+  --space-24: 24px;
+  --space-28: 28px;
+  --space-32: 32px;
+  --space-40: 40px;
+  --space-70: 70px;
+  --space-140: 140px;
+
+  /* Сетка */
+  /* Ширина макета. Все размеры в rem (px → rem при сборке), а корневой шрифт растёт от 1440 до 1920,
+     поэтому контейнер пропорционально увеличивается до 1920px; шире — центрируется. */
+  --container-width: 1440px;
+  --container-padding: var(--space-40);
+  /* Отступ от края экрана до контента контейнера (40px макета; шире 1920 — больше).
+     Для элементов на всю ширину: % считается от ширины родителя. */
+  --gutter: max(var(--container-padding), (100% - var(--container-width)) / 2 + var(--container-padding));
+  /* То же, но от ширины окна — для элементов внутри контейнера, которые выходят к краю экрана */
+  --gutter-vw: max(var(--container-padding), (100vw - var(--container-width)) / 2 + var(--container-padding));
+
+  /* Прочее */
+  --radius-s: 2px;
+  --transition: 0.2s ease;
+  --focus-ring: 2px solid var(--color-accent);
+}

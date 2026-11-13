@@ -1,0 +1,35 @@
+/* «Коллекции для дома и образа» (966:41661). */
+
+.categories {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-32);
+  padding-block: var(--space-70);
+}
+
+.categories__list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--space-12);
+  width: 100%;
+}
+
+.categories__link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-16);
+  transition: color var(--transition);
+}
+
+.categories__link:hover {
+  color: var(--color-accent);
+}
+
+.categories__image {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 331 / 440; /* на 1440 — 331×440 */
+  object-fit: cover;
+}

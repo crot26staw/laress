@@ -1,0 +1,149 @@
+/* Футер — UI Kit «Footer» (276:2863), на главной 966:41895. */
+
+.footer {
+  padding-block: var(--space-70);
+  background-color: var(--color-surface);
+  color: var(--color-text-90);
+  font-size: var(--font-size-14);
+  line-height: var(--line-height-snug);
+}
+
+.footer__inner {
+  display: grid;
+  /* Колонки по макету: x = 0, 343, 572, 800, 1143 (из 1360) — шире растягиваются пропорционально */
+  grid-template-columns: minmax(0, 343fr) minmax(0, 229fr) minmax(0, 228fr) minmax(0, 343fr) minmax(0, 217fr);
+  grid-template-rows: 1fr auto;
+  height: 385px;
+}
+
+.footer__brand {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-12);
+}
+
+.footer__logo-image {
+  width: 187.79px;
+  height: auto;
+}
+
+.footer__about {
+  max-width: 276px;
+}
+
+.footer__column {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-16);
+  width: 217px;
+}
+
+.footer__title {
+  font-weight: var(--font-weight-bold);
+  color: var(--color-beige);
+}
+
+.footer__menu {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-12);
+}
+
+.footer__link {
+  font-size: var(--font-size-16);
+  transition: color var(--transition);
+}
+
+.footer__link:hover,
+.footer__legal-link:hover,
+.footer__phone:hover,
+.footer__email:hover {
+  color: var(--color-accent);
+}
+
+.footer__rating {
+  display: block;
+  width: 151px;
+  margin-top: 4.48px; /* 20.5px от меню */
+}
+
+.footer__contacts {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-24);
+  width: 215px;
+}
+
+.footer__contacts-main,
+.footer__address {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-16);
+}
+
+.footer__contact {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.footer__phone,
+.footer__email {
+  font-size: var(--font-size-18);
+  font-weight: var(--font-weight-semibold);
+  transition: color var(--transition);
+}
+
+.footer__socials {
+  display: flex;
+  gap: var(--space-8);
+}
+
+.footer__social {
+  display: block;
+  width: 40px;
+  height: 40px;
+  transition: opacity var(--transition);
+}
+
+.footer__social:hover {
+  opacity: 0.8;
+}
+
+.footer__address {
+  font-size: var(--font-size-16);
+  font-style: normal;
+}
+
+/* Нижняя строка: колонки 1, 2–3, 4, 5 */
+.footer__bottom {
+  display: contents;
+}
+
+.footer__copyright,
+.footer__offer,
+.footer__legal-link {
+  grid-row: 2;
+  align-self: end;
+}
+
+.footer__copyright {
+  grid-column: 1;
+}
+
+.footer__offer {
+  grid-column: 2 / 4;
+}
+
+.footer__legal-link--policy {
+  grid-column: 4;
+}
+
+.footer__legal-link--terms {
+  grid-column: 5;
+}
+
+.footer__legal-link {
+  justify-self: start;
+  transition: color var(--transition);
+}

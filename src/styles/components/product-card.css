@@ -1,0 +1,120 @@
+/* Карточка товара — «Item Card/Desktop». Ширину задаёт родитель (слайдер, сетка каталога). */
+
+.product-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-12);
+}
+
+.product-card__media {
+  display: block;
+  aspect-ratio: 445 / 460;
+  overflow: hidden;
+  background-color: var(--color-white);
+}
+
+.product-card__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.product-card__tag {
+  position: absolute;
+  top: var(--space-8);
+  left: var(--space-8);
+}
+
+.product-card__wishlist {
+  position: absolute;
+  top: var(--space-8);
+  right: var(--space-8);
+  display: flex;
+  width: 32px;
+  height: 32px;
+  color: var(--color-black);
+  transition: color var(--transition);
+}
+
+.product-card__wishlist svg {
+  width: 100%;
+  height: 100%;
+}
+
+.product-card__wishlist path {
+  fill: var(--color-white);
+  stroke: currentColor;
+  transition: fill var(--transition);
+}
+
+.product-card__wishlist:hover {
+  color: var(--color-accent);
+}
+
+.product-card__wishlist[aria-pressed="true"] path {
+  fill: var(--color-accent);
+  stroke: var(--color-accent);
+}
+
+.product-card__body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.product-card__text {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-8);
+}
+
+.product-card__category {
+  font-size: var(--font-size-16);
+  font-weight: var(--font-weight-semibold);
+  line-height: var(--line-height-snug);
+  letter-spacing: -0.02em;
+  color: var(--color-beige);
+}
+
+.product-card__title {
+  font-size: var(--font-size-18);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-snug);
+  letter-spacing: -0.02em;
+}
+
+.product-card__link {
+  transition: color var(--transition);
+}
+
+.product-card__link:hover {
+  color: var(--color-accent);
+}
+
+/* Растянуть ссылку на всю карточку */
+.product-card__link::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+}
+
+.product-card__tag,
+.product-card__wishlist {
+  z-index: 1;
+}
+
+.product-card__prices {
+  display: flex;
+  gap: var(--space-16);
+  font-size: var(--font-size-18);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-snug);
+  letter-spacing: -0.02em;
+}
+
+.product-card__price-old {
+  color: var(--color-beige);
+  text-decoration: line-through;
+  text-decoration-thickness: 1px;
+}

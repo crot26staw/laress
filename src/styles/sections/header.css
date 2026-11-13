@@ -1,0 +1,131 @@
+/* Шапка — UI Kit «Header» (279:19286), на главной 966:41581.
+   --transparent: поверх фото первого экрана, белый текст. */
+
+.header {
+  --header-color: var(--color-black);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-28);
+  width: 100%;
+  padding: var(--space-32) var(--gutter) var(--space-20);
+  color: var(--header-color);
+}
+
+.header--transparent {
+  --header-color: var(--color-white);
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+/* Верхняя строка: язык и валюта — логотип — иконки и вход */
+.header__top {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  width: 100%;
+}
+
+.header__group {
+  display: flex;
+  align-items: center;
+}
+
+.header__group--start {
+  gap: var(--space-24);
+}
+
+.header__group--end {
+  justify-content: flex-end;
+  gap: var(--space-20);
+}
+
+.header__lang,
+.header__currency,
+.header__menu-link {
+  font-size: var(--font-size-16);
+  line-height: var(--line-height-tight);
+  text-transform: uppercase;
+}
+
+.header__lang {
+  display: flex;
+}
+
+.header__lang-link {
+  opacity: 0.5;
+  transition: opacity var(--transition);
+}
+
+.header__lang-link--active,
+.header__lang-link:hover {
+  opacity: 1;
+}
+
+.header__currency {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  text-transform: uppercase;
+  transition: opacity var(--transition);
+}
+
+.header__currency:hover {
+  opacity: 0.7;
+}
+
+.header__currency-icon {
+  width: 12px;
+  height: 12px;
+}
+
+.header__logo {
+  display: block;
+}
+
+.header__logo-image {
+  width: 118.45px;
+  height: auto;
+}
+
+.header__icon-link {
+  display: flex;
+  width: 24px;
+  height: 24px;
+  transition: opacity var(--transition);
+}
+
+.header__icon-link:hover {
+  opacity: 0.7;
+}
+
+.header__icon-link svg {
+  width: 100%;
+  height: 100%;
+}
+
+/* Меню */
+.header__menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-32);
+}
+
+.header__menu-link {
+  display: block;
+  transition: opacity var(--transition);
+}
+
+.header__menu-link:hover {
+  opacity: 0.7;
+}
+
+/* На фото кольцо фокуса — белое */
+.header--transparent :focus-visible {
+  outline-color: var(--color-white);
+}

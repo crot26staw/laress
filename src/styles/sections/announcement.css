@@ -1,0 +1,42 @@
+/* Полоса объявления над шапкой — Figma «Ad Banner» (966:41577) */
+
+.announcement {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: var(--space-12) var(--container-padding);
+  background-color: var(--color-sand);
+  color: var(--color-black);
+}
+
+.announcement[hidden] {
+  display: none;
+}
+
+.announcement__text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: var(--font-size-14);
+  line-height: var(--line-height-tight);
+  text-align: center;
+  white-space: nowrap;
+}
+
+.announcement__close {
+  display: flex;
+  width: 24px;
+  height: 24px;
+  transition: opacity var(--transition);
+}
+
+.announcement__close:hover {
+  opacity: 0.6;
+}
+
+.announcement__close-icon {
+  width: 100%;
+  height: 100%;
+}

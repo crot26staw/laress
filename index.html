@@ -1,0 +1,576 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Luvr — оригинальная посуда, декор, текстиль и аксессуары премиальных брендов</title>
+    <meta name="description" content="Интернет-бутик оригинальной посуды, декора, текстиля и аксессуаров премиальных брендов." />
+    <link rel="preload" href="/src/assets/fonts/hauora-regular.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/src/assets/fonts/hauora-medium.woff2" as="font" type="font/woff2" crossorigin />
+    <script type="module" src="/src/scripts/main.js"></script>
+  </head>
+  <body>
+    <!-- @include src/partials/header.html -->
+
+    <main>
+      <section class="hero" aria-label="Коллекции" data-hero-slider>
+        <!-- Слайды: одинаковая разметка, в WordPress — цикл. Слайды 2–3 — заглушки (в макете один слайд). -->
+        <ul class="hero__slides">
+          <li class="hero__slide hero__slide--active" data-hero-slide>
+            <div class="hero__media">
+              <picture>
+                <source srcset="/src/assets/images/home/hero-hermes-collection.webp" type="image/webp" />
+                <img class="hero__image" src="/src/assets/images/home/hero-hermes-collection.jpg" width="2880" height="1603" alt="Тарелки Hermès с жёлтым орнаментом на деревянных полках" fetchpriority="high" />
+              </picture>
+            </div>
+            <div class="hero__content">
+              <h1 class="hero__title text-h1">Новая солнечная коллекция посуды Hermès</h1>
+              <a class="button button--secondary hero__button" href="#">Перейти в каталог</a>
+            </div>
+          </li>
+          <li class="hero__slide" data-hero-slide>
+            <div class="hero__media">
+              <picture>
+                <source srcset="/src/assets/images/home/hero-hermes-collection.webp" type="image/webp" />
+                <img class="hero__image" src="/src/assets/images/home/hero-hermes-collection.jpg" width="2880" height="1603" alt="Тарелки Hermès с жёлтым орнаментом на деревянных полках" loading="lazy" />
+              </picture>
+            </div>
+            <div class="hero__content">
+              <h2 class="hero__title text-h1">Новая солнечная коллекция посуды Hermès</h2>
+              <a class="button button--secondary hero__button" href="#">Перейти в каталог</a>
+            </div>
+          </li>
+          <li class="hero__slide" data-hero-slide>
+            <div class="hero__media">
+              <picture>
+                <source srcset="/src/assets/images/home/hero-hermes-collection.webp" type="image/webp" />
+                <img class="hero__image" src="/src/assets/images/home/hero-hermes-collection.jpg" width="2880" height="1603" alt="Тарелки Hermès с жёлтым орнаментом на деревянных полках" loading="lazy" />
+              </picture>
+            </div>
+            <div class="hero__content">
+              <h2 class="hero__title text-h1">Новая солнечная коллекция посуды Hermès</h2>
+              <a class="button button--secondary hero__button" href="#">Перейти в каталог</a>
+            </div>
+          </li>
+        </ul>
+
+        <button class="hero__arrow hero__arrow--prev" type="button" aria-label="Предыдущий слайд" data-hero-prev>
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M15.17 4.009L8.592 10.587C7.815 11.364 7.815 12.636 8.592 13.413L15.17 19.991" stroke="currentColor" stroke-opacity="0.8" stroke-width="2.018" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </button>
+        <button class="hero__arrow hero__arrow--next" type="button" aria-label="Следующий слайд" data-hero-next>
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M8.009 4.009L14.588 10.587C15.364 11.364 15.364 12.636 14.588 13.413L8.009 19.991" stroke="currentColor" stroke-opacity="0.8" stroke-width="2.018" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </button>
+
+        <div class="hero__progress">
+          <button class="hero__progress-item hero__progress-item--active" type="button" aria-label="Слайд 1" data-hero-dot></button>
+          <button class="hero__progress-item" type="button" aria-label="Слайд 2" data-hero-dot></button>
+          <button class="hero__progress-item" type="button" aria-label="Слайд 3" data-hero-dot></button>
+        </div>
+      </section>
+      <section class="about container" aria-labelledby="about-title">
+        <div class="about__inner">
+          <div class="section-heading">
+            <div class="ornament" aria-hidden="true">
+              <span class="ornament__line"></span>
+              <img class="ornament__mark" src="/src/assets/icons/logo-mark.svg" width="37" height="34" alt="" loading="lazy" />
+              <span class="ornament__line"></span>
+            </div>
+            <h2 class="section-heading__title about__title text-h2" id="about-title">Оригинальная посуда, декор, текстиль и&nbsp;аксессуары мировых премиальных брендов</h2>
+          </div>
+          <ul class="about__list">
+            <li class="about__item">
+              <picture>
+                <source srcset="/src/assets/images/home/about-original.webp" type="image/webp" />
+                <img class="about__image" src="/src/assets/images/home/about-original.jpg" width="331" height="280" alt="Фарфоровая чашка с синим узором и позолотой" loading="lazy" />
+              </picture>
+              <div class="about__body">
+                <h3 class="text-h3">Оригинальные изделия</h3>
+                <p class="about__text">Работаем с&nbsp;проверенными поставщиками и&nbsp;подтверждаем подлинность товаров</p>
+              </div>
+            </li>
+            <li class="about__item about__item--large">
+              <picture>
+                <source srcset="/src/assets/images/home/about-delivery.webp" type="image/webp" />
+                <img class="about__image" src="/src/assets/images/home/about-delivery.jpg" width="470" height="460" alt="Руки передают хрустальную вазу Daum" loading="lazy" />
+              </picture>
+              <div class="about__body">
+                <h3 class="text-h3">Бережная доставка</h3>
+                <p class="about__text">Собственные курьеры в&nbsp;Москве и&nbsp;СДЭК по&nbsp;России с&nbsp;вниманием к&nbsp;хрупким изделиям и&nbsp;гарантией сохранности</p>
+              </div>
+            </li>
+            <li class="about__item">
+              <picture>
+                <source srcset="/src/assets/images/home/about-gift-wrapping.webp" type="image/webp" />
+                <img class="about__image" src="/src/assets/images/home/about-gift-wrapping.jpg" width="331" height="280" alt="Красные подарочные коробки Baccarat с хрустальными бабочками" loading="lazy" />
+              </picture>
+              <div class="about__body">
+                <h3 class="text-h3">Подарочная упаковка</h3>
+                <p class="about__text">Оригинальная коробка, пакет, лента и&nbsp;другие детали комплектации</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <a class="button button--tertiary" href="#">Узнать больше о нас</a>
+      </section>
+
+      <section class="showcase showcase--filled" aria-labelledby="gifts-title">
+        <div class="showcase__inner">
+          <div class="showcase__media">
+            <picture>
+              <source srcset="/src/assets/images/home/gifts-main.webp" type="image/webp" />
+              <img class="showcase__image" src="/src/assets/images/home/gifts-main.jpg" width="720" height="720" alt="Золотые браслеты и кольцо Tiffany T" loading="lazy" />
+            </picture>
+          </div>
+          <div class="showcase__content">
+            <div class="showcase__body">
+              <div class="ornament showcase__ornament" aria-hidden="true">
+                <span class="ornament__line"></span>
+                <img class="ornament__mark" src="/src/assets/icons/logo-mark.svg" width="37" height="34" alt="" loading="lazy" />
+                <span class="ornament__line"></span>
+              </div>
+              <div class="showcase__group">
+                <h2 class="showcase__title text-h2" id="gifts-title">Подарки к&nbsp;особому случаю</h2>
+                <picture>
+                  <source srcset="/src/assets/images/home/gifts-small.webp" type="image/webp" />
+                  <img class="showcase__thumb" src="/src/assets/images/home/gifts-small.jpg" width="260" height="308" alt="Женские часы с зелёным ремешком на запястье" loading="lazy" />
+                </picture>
+                <p class="showcase__text showcase__text--gifts">Изделия для особых поводов, деловых жестов и личных событий</p>
+              </div>
+              <div class="showcase__actions">
+                <a class="button button--primary" href="#">Перейти в каталог</a>
+                <a class="button button--tertiary" href="#">Подарочная карта</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="showcase showcase--reverse" aria-labelledby="custom-order-title">
+        <div class="showcase__inner">
+          <div class="showcase__media">
+            <picture>
+              <source srcset="/src/assets/images/home/custom-order-main.webp" type="image/webp" />
+              <img class="showcase__image" src="/src/assets/images/home/custom-order-main.jpg" width="720" height="720" alt="Хрустальные вазы и бабочка на тёплом фоне" loading="lazy" />
+            </picture>
+          </div>
+          <div class="showcase__content">
+            <div class="showcase__body">
+              <div class="ornament showcase__ornament" aria-hidden="true">
+                <span class="ornament__line"></span>
+                <img class="ornament__mark" src="/src/assets/icons/logo-mark.svg" width="37" height="34" alt="" loading="lazy" />
+                <span class="ornament__line"></span>
+              </div>
+              <div class="showcase__group">
+                <h2 class="showcase__title text-h2" id="custom-order-title">изделия<br />под заказ</h2>
+                <picture>
+                  <source srcset="/src/assets/images/home/custom-order-small.webp" type="image/webp" />
+                  <img class="showcase__thumb" src="/src/assets/images/home/custom-order-small.jpg" width="260" height="308" alt="Статуэтка лошади на тёмном фоне" loading="lazy" />
+                </picture>
+                <p class="showcase__text showcase__text--order">Премиальные изделия известных брендов из&nbsp;Европы и США по индивидуальному заказу</p>
+              </div>
+              <a class="button button--primary" href="#">Перейти в каталог</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="categories container" aria-labelledby="categories-title">
+        <div class="section-heading">
+          <div class="ornament" aria-hidden="true">
+            <span class="ornament__line"></span>
+            <img class="ornament__mark" src="/src/assets/icons/logo-mark.svg" width="37" height="34" alt="" loading="lazy" />
+            <span class="ornament__line"></span>
+          </div>
+          <div class="section-heading__body">
+            <h2 class="text-h2" id="categories-title">Коллекции для дома и образа</h2>
+            <p class="section-heading__text">Посуда, хрусталь, декор и аксессуары Hermès, Baccarat, Lalique, Tiffany&amp;Co, Versace и других премиальных брендов</p>
+          </div>
+        </div>
+        <ul class="categories__list">
+          <li class="categories__item">
+            <a class="categories__link" href="#">
+              <picture>
+                <source srcset="/src/assets/images/home/category-decor.webp" type="image/webp" />
+                <img class="categories__image" src="/src/assets/images/home/category-decor.jpg" width="331" height="440" alt="Декор и интерьер: белые орхидеи и красная коробка" loading="lazy" />
+              </picture>
+              <span class="text-h3">Декор и интерьер</span>
+            </a>
+          </li>
+          <li class="categories__item">
+            <a class="categories__link" href="#">
+              <picture>
+                <source srcset="/src/assets/images/home/category-tableware.webp" type="image/webp" />
+                <img class="categories__image" src="/src/assets/images/home/category-tableware.jpg" width="331" height="440" alt="Посуда: сервировка с бокалами и фарфором" loading="lazy" />
+              </picture>
+              <span class="text-h3">Посуда</span>
+            </a>
+          </li>
+          <li class="categories__item">
+            <a class="categories__link" href="#">
+              <picture>
+                <source srcset="/src/assets/images/home/category-textile.webp" type="image/webp" />
+                <img class="categories__image" src="/src/assets/images/home/category-textile.jpg" width="331" height="440" alt="Текстиль: подушки и плед в интерьере" loading="lazy" />
+              </picture>
+              <span class="text-h3">Текстиль</span>
+            </a>
+          </li>
+          <li class="categories__item">
+            <a class="categories__link" href="#">
+              <picture>
+                <source srcset="/src/assets/images/home/category-accessories.webp" type="image/webp" />
+                <img class="categories__image" src="/src/assets/images/home/category-accessories.jpg" width="331" height="440" alt="Аксессуары: золотые часы-браслет" loading="lazy" />
+              </picture>
+              <span class="text-h3">Аксессуары</span>
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="products" aria-labelledby="products-title" data-products-slider>
+        <div class="products__inner container">
+          <div class="section-heading">
+            <div class="ornament" aria-hidden="true">
+              <span class="ornament__line"></span>
+              <img class="ornament__mark" src="/src/assets/icons/logo-mark.svg" width="37" height="34" alt="" loading="lazy" />
+              <span class="ornament__line"></span>
+            </div>
+            <h2 class="text-h2" id="products-title">Выбор клиентов</h2>
+          </div>
+          <div class="products__slider">
+            <ul class="products__track" data-products-track>
+              <li class="products__item">
+                <article class="product-card">
+                  <div class="product-card__media">
+                    <picture>
+                      <source srcset="/src/assets/images/home/product-daum-fish.webp" type="image/webp" />
+                      <img class="product-card__image" src="/src/assets/images/home/product-daum-fish.jpg" width="445" height="460" alt="Скульптура Daum в форме бирюзовой рыбы на серебряном коралле" loading="lazy" />
+                    </picture>
+                  </div>
+                  <span class="tag product-card__tag">Бестселлер</span>
+                  <button class="product-card__wishlist" type="button" aria-label="Добавить в избранное" aria-pressed="false">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+                      <path d="M7.21688 16.1999C5.05354 13.2665 5.77465 8.86642 9.38022 7.39973C12.9858 5.93305 15.1491 8.86642 15.8702 10.3331C16.5914 8.86642 19.4758 5.93305 23.0814 7.39973C26.687 8.86642 26.687 13.2665 24.5236 16.1999C22.3603 19.1332 15.8702 25 15.8702 25C15.8702 25 9.38022 19.1332 7.21688 16.1999Z" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                  </button>
+                  <div class="product-card__body">
+                    <div class="product-card__text">
+                      <p class="product-card__category">Статуэтка</p>
+                      <h3 class="product-card__title"><a class="product-card__link" href="#">Скульптура Daum Рыба Ange Royal Turquoise &amp; Jaune Maya</a></h3>
+                    </div>
+                    <p class="product-card__prices">
+                      <span class="product-card__price">1 160 000 ₽</span>
+                      <s class="product-card__price-old"><span class="visually-hidden">Старая цена: </span>1 170 000 ₽</s>
+                    </p>
+                  </div>
+                </article>
+              </li>
+              <li class="products__item">
+                <article class="product-card">
+                  <div class="product-card__media">
+                    <picture>
+                      <source srcset="/src/assets/images/home/product-patek-ashtray.webp" type="image/webp" />
+                      <img class="product-card__image" src="/src/assets/images/home/product-patek-ashtray.jpg" width="445" height="460" alt="Фарфоровая пепельница с изображением часов Patek Philippe и Chopard" loading="lazy" />
+                    </picture>
+                  </div>
+                  <span class="tag product-card__tag">Бестселлер</span>
+                  <button class="product-card__wishlist" type="button" aria-label="Добавить в избранное" aria-pressed="false">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+                      <path d="M7.21688 16.1999C5.05354 13.2665 5.77465 8.86642 9.38022 7.39973C12.9858 5.93305 15.1491 8.86642 15.8702 10.3331C16.5914 8.86642 19.4758 5.93305 23.0814 7.39973C26.687 8.86642 26.687 13.2665 24.5236 16.1999C22.3603 19.1332 15.8702 25 15.8702 25C15.8702 25 9.38022 19.1332 7.21688 16.1999Z" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                  </button>
+                  <div class="product-card__body">
+                    <div class="product-card__text">
+                      <p class="product-card__category">Пепельница</p>
+                      <h3 class="product-card__title"><a class="product-card__link" href="#">Пепельница Patek Philippe Chopard</a></h3>
+                    </div>
+                    <p class="product-card__prices">
+                      <span class="product-card__price">45 000 ₽</span>
+                    </p>
+                  </div>
+                </article>
+              </li>
+              <li class="products__item">
+                <article class="product-card">
+                  <div class="product-card__media">
+                    <picture>
+                      <source srcset="/src/assets/images/home/product-cartier-plaid.webp" type="image/webp" />
+                      <img class="product-card__image" src="/src/assets/images/home/product-cartier-plaid.jpg" width="445" height="460" alt="Плед Cartier с силуэтом пантеры" loading="lazy" />
+                    </picture>
+                  </div>
+                  <button class="product-card__wishlist" type="button" aria-label="Добавить в избранное" aria-pressed="false">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+                      <path d="M7.21688 16.1999C5.05354 13.2665 5.77465 8.86642 9.38022 7.39973C12.9858 5.93305 15.1491 8.86642 15.8702 10.3331C16.5914 8.86642 19.4758 5.93305 23.0814 7.39973C26.687 8.86642 26.687 13.2665 24.5236 16.1999C22.3603 19.1332 15.8702 25 15.8702 25C15.8702 25 9.38022 19.1332 7.21688 16.1999Z" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                  </button>
+                  <div class="product-card__body">
+                    <div class="product-card__text">
+                      <p class="product-card__category">Плед</p>
+                      <h3 class="product-card__title"><a class="product-card__link" href="#">Плед Cartier Panthere</a></h3>
+                    </div>
+                    <p class="product-card__prices">
+                      <span class="product-card__price">120 000 ₽</span>
+                    </p>
+                  </div>
+                </article>
+              </li>
+              <li class="products__item">
+                <article class="product-card">
+                  <div class="product-card__media">
+                    <picture>
+                      <source srcset="/src/assets/images/home/product-cartier-plaid.webp" type="image/webp" />
+                      <img class="product-card__image" src="/src/assets/images/home/product-cartier-plaid.jpg" width="445" height="460" alt="Плед Cartier с силуэтом пантеры" loading="lazy" />
+                    </picture>
+                  </div>
+                  <button class="product-card__wishlist" type="button" aria-label="Добавить в избранное" aria-pressed="false">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+                      <path d="M7.21688 16.1999C5.05354 13.2665 5.77465 8.86642 9.38022 7.39973C12.9858 5.93305 15.1491 8.86642 15.8702 10.3331C16.5914 8.86642 19.4758 5.93305 23.0814 7.39973C26.687 8.86642 26.687 13.2665 24.5236 16.1999C22.3603 19.1332 15.8702 25 15.8702 25C15.8702 25 9.38022 19.1332 7.21688 16.1999Z" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                  </button>
+                  <div class="product-card__body">
+                    <div class="product-card__text">
+                      <p class="product-card__category">Плед</p>
+                      <h3 class="product-card__title"><a class="product-card__link" href="#">Плед Cartier Panthere</a></h3>
+                    </div>
+                    <p class="product-card__prices">
+                      <span class="product-card__price">120 000 ₽</span>
+                    </p>
+                  </div>
+                </article>
+              </li>
+            </ul>
+            <button class="icon-button products__arrow products__arrow--prev" type="button" aria-label="Предыдущие товары" data-products-prev>
+              <svg width="40" height="40" viewBox="0 0 40 40" fill="none" aria-hidden="true"><path d="M22 12L15.5696 18.5859C14.8101 19.3636 14.8101 20.6364 15.5696 21.4141L22 28" stroke="currentColor" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" /></svg>
+            </button>
+            <button class="icon-button products__arrow products__arrow--next" type="button" aria-label="Следующие товары" data-products-next>
+              <svg width="40" height="40" viewBox="0 0 40 40" fill="none" aria-hidden="true"><path d="M18 12L24.4304 18.5859C25.1899 19.3636 25.1899 20.6364 24.4304 21.4141L18 28" stroke="currentColor" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" /></svg>
+            </button>
+          </div>
+        </div>
+        <a class="button button--primary" href="#">Смотреть все изделия</a>
+      </section>
+
+      <section class="brands" aria-labelledby="brands-title" data-brands-slider>
+        <div class="brands__inner container">
+          <div class="section-heading">
+            <div class="ornament" aria-hidden="true">
+              <span class="ornament__line"></span>
+              <img class="ornament__mark" src="/src/assets/icons/logo-mark.svg" width="37" height="34" alt="" loading="lazy" />
+              <span class="ornament__line"></span>
+            </div>
+            <h2 class="text-h2" id="brands-title">Популярные бренды</h2>
+          </div>
+          <div class="brands__slider">
+            <ul class="brands__track" data-brands-track>
+              <li class="brands__item" data-brands-item>
+                <a class="brands__link" href="#">
+                  <picture>
+                    <source srcset="/src/assets/images/home/brand-daum.webp" type="image/webp" />
+                    <img class="brands__image" src="/src/assets/images/home/brand-daum.jpg" width="446" height="520" alt="Ваза Daum из янтарного хрусталя" loading="lazy" />
+                  </picture>
+                  <span class="brands__name text-h3">Daum</span>
+                </a>
+              </li>
+              <li class="brands__item" data-brands-item>
+                <a class="brands__link" href="#">
+                  <picture>
+                    <source srcset="/src/assets/images/home/brand-versace.webp" type="image/webp" />
+                    <img class="brands__image" src="/src/assets/images/home/brand-versace.jpg" width="446" height="520" alt="Сервировка Versace с золотыми приборами" loading="lazy" />
+                  </picture>
+                  <span class="brands__name text-h3">Versace</span>
+                </a>
+              </li>
+              <li class="brands__item brands__item--active" data-brands-item>
+                <a class="brands__link" href="#">
+                  <picture>
+                    <source srcset="/src/assets/images/home/brand-hermes.webp" type="image/webp" />
+                    <img class="brands__image" src="/src/assets/images/home/brand-hermes.jpg" width="446" height="520" alt="Чайный сервиз Hermès с коралловым узором" loading="lazy" />
+                  </picture>
+                  <span class="brands__name text-h3">Hermès</span>
+                </a>
+              </li>
+              <li class="brands__item" data-brands-item>
+                <a class="brands__link" href="#">
+                  <picture>
+                    <source srcset="/src/assets/images/home/brand-baccarat.webp" type="image/webp" />
+                    <img class="brands__image" src="/src/assets/images/home/brand-baccarat.jpg" width="446" height="520" alt="Хрустальный графин и бокалы Baccarat" loading="lazy" />
+                  </picture>
+                  <span class="brands__name text-h3">Baccarat</span>
+                </a>
+              </li>
+              <li class="brands__item" data-brands-item>
+                <a class="brands__link" href="#">
+                  <picture>
+                    <source srcset="/src/assets/images/home/brand-tiffany.webp" type="image/webp" />
+                    <img class="brands__image" src="/src/assets/images/home/brand-tiffany.jpg" width="446" height="520" alt="Серьга Tiffany&amp;Co с жемчугом" loading="lazy" />
+                  </picture>
+                  <span class="brands__name text-h3">Tiffany&amp;Co</span>
+                </a>
+              </li>
+            </ul>
+            <button class="icon-button brands__arrow brands__arrow--prev" type="button" aria-label="Предыдущий бренд" data-brands-prev>
+              <svg width="40" height="40" viewBox="0 0 40 40" fill="none" aria-hidden="true"><path d="M22 12L15.5696 18.5859C14.8101 19.3636 14.8101 20.6364 15.5696 21.4141L22 28" stroke="currentColor" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" /></svg>
+            </button>
+            <button class="icon-button brands__arrow brands__arrow--next" type="button" aria-label="Следующий бренд" data-brands-next>
+              <svg width="40" height="40" viewBox="0 0 40 40" fill="none" aria-hidden="true"><path d="M18 12L24.4304 18.5859C25.1899 19.3636 25.1899 20.6364 24.4304 21.4141L18 28" stroke="currentColor" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" /></svg>
+            </button>
+          </div>
+        </div>
+        <a class="button button--primary" href="#">Смотреть все бренды</a>
+      </section>
+
+      <section class="designers" aria-labelledby="designers-title">
+        <div class="designers__inner">
+          <picture>
+            <source srcset="/src/assets/images/home/designers.webp" type="image/webp" />
+            <img class="designers__image" src="/src/assets/images/home/designers.jpg" width="760" height="720" alt="Хрустальные вазы с цветами в светлом интерьере" loading="lazy" />
+          </picture>
+          <div class="designers__content">
+            <div class="ornament ornament--wide designers__ornament" aria-hidden="true">
+              <span class="ornament__line"></span>
+              <img class="ornament__mark" src="/src/assets/icons/logo-mark.svg" width="37" height="34" alt="" loading="lazy" />
+              <span class="ornament__line"></span>
+            </div>
+            <div class="designers__body">
+              <div class="section-heading__body">
+                <h2 class="text-h2" id="designers-title">Дизайнерам и декораторам</h2>
+                <p class="section-heading__text">Подбирайте оригинальные изделия премиальных брендов<br />для интерьерных проектов и собирайте их в удобные подборки для согласования с клиентами. Luvr открыта к обсуждению индивидуальных условий партнёрства</p>
+              </div>
+              <div class="designers__actions">
+                <a class="button button--primary" href="#">Обсудить сотрудничество</a>
+                <a class="button button--tertiary" href="#">Узнать больше</a>
+              </div>
+            </div>
+            <div class="designers__line" aria-hidden="true"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="blog container" aria-labelledby="blog-title">
+        <div class="section-heading">
+          <div class="ornament" aria-hidden="true">
+            <span class="ornament__line"></span>
+            <img class="ornament__mark" src="/src/assets/icons/logo-mark.svg" width="37" height="34" alt="" loading="lazy" />
+            <span class="ornament__line"></span>
+          </div>
+          <div class="section-heading__body">
+            <h2 class="text-h2" id="blog-title">Статьи</h2>
+            <p class="section-heading__text">Материалы о посуде, декоре и подарках: от выбора бренда до сервировки и оформления интерьера</p>
+          </div>
+        </div>
+        <div class="blog__content">
+          <ul class="blog__list">
+            <li>
+              <article class="article-card">
+                <picture>
+                  <source srcset="/src/assets/images/home/blog-time-aesthetics.webp" type="image/webp" />
+                  <img class="article-card__image" src="/src/assets/images/home/blog-time-aesthetics.jpg" width="445" height="440" alt="Старинные фотографии в рамках на столе" loading="lazy" />
+                </picture>
+                <div class="article-card__body">
+                  <div class="article-card__text">
+                    <h3 class="text-h3"><a class="article-card__link" href="#">Эстетика времени</a></h3>
+                    <p class="article-card__excerpt">В&nbsp;эпоху цифрового шума, когда тысячи снимков бесследно исчезают в&nbsp;бесконечной ленте социальных сетей среди мимолетных кадров, истинная ценность обретает физическую форму.</p>
+                  </div>
+                  <time class="article-card__date" datetime="2026-05-13">13 мая 2026</time>
+                </div>
+              </article>
+            </li>
+            <li>
+              <article class="article-card">
+                <picture>
+                  <source srcset="/src/assets/images/home/blog-summer-weddings.webp" type="image/webp" />
+                  <img class="article-card__image" src="/src/assets/images/home/blog-summer-weddings.jpg" width="445" height="440" alt="Праздничный стол со свадебным тортом" loading="lazy" />
+                </picture>
+                <div class="article-card__body">
+                  <div class="article-card__text">
+                    <h3 class="text-h3"><a class="article-card__link" href="#">Лето - время любви и красивых свадеб</a></h3>
+                    <p class="article-card__excerpt">Свадебный сезон в&nbsp;самом разгаре. Получение приглашения на&nbsp;свадьбу&nbsp;— это всегда радостное событие, за&nbsp;которым неизбежно следует важный вопрос: какой подарок станет достойным.</p>
+                  </div>
+                  <time class="article-card__date" datetime="2026-05-13">13 мая 2026</time>
+                </div>
+              </article>
+            </li>
+            <li>
+              <article class="article-card">
+                <picture>
+                  <source srcset="/src/assets/images/home/blog-official-distributor.webp" type="image/webp" />
+                  <img class="article-card__image" src="/src/assets/images/home/blog-official-distributor.jpg" width="445" height="440" alt="Хрустальные бокалы и цветы на столе" loading="lazy" />
+                </picture>
+                <div class="article-card__body">
+                  <div class="article-card__text">
+                    <h3 class="text-h3"><a class="article-card__link" href="#">Официальный дистрибьютор<br />люкс домов</a></h3>
+                    <p class="article-card__excerpt">Luvr является официальным дистрибьютором и&nbsp;авторизованным партнёром ряда крупнейших европейских марок в&nbsp;категориях фарфора, хрусталя, столовых приборов и&nbsp;предметов декора.</p>
+                  </div>
+                  <time class="article-card__date" datetime="2026-05-01">1 мая 2026</time>
+                </div>
+              </article>
+            </li>
+          </ul>
+          <a class="button button--tertiary" href="#">Смотреть все статьи</a>
+        </div>
+      </section>
+
+      <section class="cta" aria-labelledby="cta-title">
+        <div class="cta__inner">
+          <div class="cta__media">
+            <picture>
+              <source srcset="/src/assets/images/home/cta-bg.webp" type="image/webp" />
+              <img class="cta__image" src="/src/assets/images/home/cta-bg.jpg" width="1440" height="720" alt="Девушка в коричневом платье с сумкой Hermès" loading="lazy" />
+            </picture>
+          </div>
+          <div class="cta__content">
+            <div class="cta__text-group">
+              <h2 class="text-h2" id="cta-title">Не уверены, что выбрать?</h2>
+              <p class="cta__text">Менеджер Luvr поможет подобрать оригинальную посуду, декор или подарок под повод, бюджет и сроки</p>
+            </div>
+            <a class="button button--secondary cta__button" href="#">Получить бесплатную консультацию</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="contacts container" aria-labelledby="contacts-title">
+        <div class="contacts__inner">
+          <div class="contacts__content">
+            <div class="contacts__intro">
+              <div class="contacts__heading">
+                <h2 class="text-h2" id="contacts-title">контакты</h2>
+                <p class="contacts__lead">Ответим на&nbsp;вопросы, поможем уточнить детали заказа<br />или подобрать изделие под повод, интерьерный проект и&nbsp;сроки</p>
+              </div>
+              <a class="button button--primary" href="#">Оставить заявку</a>
+            </div>
+            <div class="contacts__details">
+              <dl class="contacts__list">
+                <div class="contacts__item">
+                  <dt class="contacts__label">Телефон</dt>
+                  <dd class="contacts__value"><a href="tel:+79776208885">+7 977 620 88 85</a></dd>
+                </div>
+                <div class="contacts__item">
+                  <dt class="contacts__label">Адрес</dt>
+                  <dd class="contacts__value">Москва, ул. Новослободская, 50/1с2</dd>
+                </div>
+                <div class="contacts__item">
+                  <dt class="contacts__label">Email</dt>
+                  <dd class="contacts__value"><a href="mailto:luvrseo@gmail.com">luvrseo@gmail.com</a></dd>
+                </div>
+                <div class="contacts__item">
+                  <dt class="contacts__label">Режим работы</dt>
+                  <dd class="contacts__value">Пн—Вс 10:00 – 22:00</dd>
+                </div>
+              </dl>
+              <a class="button button--tertiary" href="#">Все контакты и реквизиты</a>
+            </div>
+          </div>
+          <picture>
+            <source srcset="/src/assets/images/home/contacts-map.webp" type="image/webp" />
+            <img class="contacts__map" src="/src/assets/images/home/contacts-map.jpg" width="680" height="440" alt="Карта: Москва, ул. Новослободская, 50/1с2" loading="lazy" />
+          </picture>
+        </div>
+      </section>
+    </main>
+
+    <!-- @include src/partials/footer.html -->
+  </body>
+</html>

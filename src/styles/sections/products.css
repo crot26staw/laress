@@ -1,0 +1,56 @@
+/* «Выбор клиентов» — слайдер карточек (966:41691). Лента уходит за правый край экрана. */
+
+.products {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-40);
+  padding-block: var(--space-70);
+  overflow: hidden;
+}
+
+.products__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-32);
+  width: 100%;
+}
+
+.products__slider {
+  position: relative;
+  width: 100%;
+}
+
+.products__track {
+  display: flex;
+  gap: var(--space-12);
+  /* Лента выходит к правому краю экрана */
+  margin-right: calc(-1 * var(--gutter-vw));
+  padding-right: var(--gutter-vw);
+  /* Листается только стрелками (JS): колесо и тачпад прокручивают страницу, а не ленту.
+     overflow задаём по обеим осям: один overflow-x: hidden превращает overflow-y в auto,
+     и при переполнении на доли пикселя лента начинает прокручиваться вертикально. */
+  overflow: hidden;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+
+.products__item {
+  flex: 0 0 445px;
+  scroll-snap-align: start;
+}
+
+.products__arrow {
+  position: absolute;
+  top: 269.84px; /* 269.84px — по центру карточки */
+  z-index: 2;
+}
+
+.products__arrow--prev {
+  left: -17px;
+}
+
+.products__arrow--next {
+  right: -20px;
+}

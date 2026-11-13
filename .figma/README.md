@@ -126,6 +126,7 @@
 
 Фоны CTA — исходники без текста (imageRef). Они меньше 2880px по ширине: на retina будут мягче остальных фото, а `delivery`/`contacts` (портрет 1023px) растягиваются даже на 1x. В «Доставке» плашка QR (966:48293) — заливка акцентом без картинки, ассета нет.
 
-### Сверка информационных страниц (`sections.json` → `about`, `designers`, `delivery`)
+### Сверка информационных страниц (`sections.json` → `about`, `designers`, `delivery`, `vacancies`)
 
 - «Доставка и оплата» (delivery.html): header, intro, cards, payment, cta, footer. Плашка QR — заливка акцентом, как в макете (настоящего QR-кода в Figma нет).
+- «Вакансии» (vacancies.html): header, intro, list, cta, footer.

@@ -52,3 +52,23 @@
 .cta--flush {
   padding-block: 0;
 }
+
+/* Кнопка + телефон в строку («Вакансии», 966:48391) */
+.cta__actions {
+  display: flex;
+  align-items: center;
+  gap: var(--space-24);
+}
+
+.cta__phone {
+  font-size: var(--font-size-16);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-tight);
+  letter-spacing: -0.03em;
+  color: var(--color-white);
+  transition: color var(--transition);
+}
+
+.cta__phone:hover {
+  color: var(--color-white-80);
+}

@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Вакансии — Luvr</title>
+    <meta name="description" content="Открытые вакансии интернет-бутика Luvr: посуда и декор премиальных брендов. Присоединяйтесь к команде." />
+    <link rel="preload" href="/src/assets/fonts/hauora-regular.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/src/assets/fonts/hauora-medium.woff2" as="font" type="font/woff2" crossorigin />
+    <script type="module" src="/src/scripts/main.js"></script>
+  </head>
+  <body class="page-surface">
+    <!-- @include src/partials/header.html -->
+
+    <main>
+      <div class="page-intro container">
+        <div class="section-heading">
+          <nav class="breadcrumbs" aria-label="Хлебные крошки">
+            <ol class="breadcrumbs__list">
+              <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="/">Главная</a></li>
+              <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="/vacancies.html" aria-current="page">Вакансии</a></li>
+            </ol>
+          </nav>
+          <div class="ornament" aria-hidden="true">
+            <span class="ornament__line"></span>
+            <img class="ornament__mark" src="/src/assets/icons/logo-mark.svg" width="37" height="34" alt="" />
+            <span class="ornament__line"></span>
+          </div>
+          <h1 class="text-h2">Вакансии</h1>
+          <p class="page-intro__text page-intro__text--580">Luvr&nbsp;— интернет-бутик посуды и&nbsp;декора премиальных брендов. Мы&nbsp;работаем и&nbsp;развиваемся более 10 лет и&nbsp;открыты к сотрудничеству с&nbsp;новыми специалистами</p>
+        </div>
+      </div>
+
+      <section class="vacancies container" aria-label="Открытые вакансии">
+        <ul class="vacancies__list">
+          <li class="info-card info-card--row vacancy-card">
+            <div class="vacancy-card__main">
+              <h2 class="text-h3">Менеджер по продажам</h2>
+              <p class="vacancy-card__text">Сотрудник на&nbsp;постоянную работу. Только кандидаты с&nbsp;опытом работы в&nbsp;интернет‑магазине и&nbsp;опытом мобильной/предметной фотосъёмки.</p>
+            </div>
+            <div class="vacancy-card__aside">
+              <a class="button button--primary" href="#">Подробнее</a>
+              <p class="vacancy-card__place">Москва, ТЦ «Юнимолл»</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section class="cta cta--flush" aria-labelledby="cta-title">
+        <div class="cta__inner">
+          <div class="cta__media">
+            <picture>
+              <source srcset="/src/assets/images/vacancies/vacancies-cta-bg.webp" type="image/webp" />
+              <img class="cta__image" src="/src/assets/images/vacancies/vacancies-cta-bg.jpg" width="1536" height="1024" alt="Ваза из дымчатого стекла и янтарный стакан на каменном столе" loading="lazy" />
+            </picture>
+          </div>
+          <div class="cta__content">
+            <div class="cta__text-group">
+              <h2 class="text-h2" id="cta-title">Хотите работать в Luvr?</h2>
+              <p class="cta__text">Расскажите о&nbsp;себе и&nbsp;своём опыте. Мы&nbsp;свяжемся с&nbsp;вами, если ваш профиль подходит для открытой вакансии или будущих возможностей в&nbsp;команде</p>
+            </div>
+            <div class="cta__actions">
+              <a class="button button--secondary button--icon-accent cta__button" href="#">
+                Откликнуться
+                <svg class="button__icon" width="17" height="17" viewBox="0 0 17 17" aria-hidden="true"><path fill="currentColor" fill-rule="evenodd" d="M8.5 0a8.5 8.5 0 0 0-7.278 12.893L.464 15.47a.859.859 0 0 0 1.066 1.066l2.577-.758A8.5 8.5 0 1 0 8.5 0M6.577 10.424c1.72 1.718 3.361 1.945 3.94 1.966.882.033 1.74-.64 2.075-1.422a.6.6 0 0 0-.075-.597c-.466-.595-1.095-1.023-1.71-1.448a.604.604 0 0 0-.828.135l-.51.777a.195.195 0 0 1-.26.065c-.345-.198-.85-.535-1.211-.897a5.5 5.5 0 0 1-.856-1.167.196.196 0 0 1 .057-.247l.785-.583a.604.604 0 0 0 .102-.8c-.38-.557-.824-1.266-1.468-1.736a.6.6 0 0 0-.581-.064C5.255 4.741 4.578 5.6 4.61 6.483c.022.58.249 2.221 1.967 3.94" clip-rule="evenodd"/></svg>
+              </a>
+              <a class="cta__phone" href="tel:+79255079995">+7 925 507-99-95</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- @include src/partials/footer.html -->
+  </body>
+</html>

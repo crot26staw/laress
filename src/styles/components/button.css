@@ -155,3 +155,19 @@
 .button--ghost[aria-disabled="true"] {
   color: var(--color-text-30);
 }
+
+/* Иконка в кнопке (инлайн-SVG с fill="currentColor") */
+.button__icon {
+  flex-shrink: 0;
+  width: 17px;
+  height: 17px;
+}
+
+/* Иконка акцентного цвета на светлой кнопке («Откликнуться» в CTA «Вакансий», 966:48392) */
+.button--icon-accent {
+  gap: 10px;
+}
+
+.button--icon-accent .button__icon {
+  color: var(--color-accent);
+}

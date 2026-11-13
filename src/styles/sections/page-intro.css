@@ -33,3 +33,7 @@
   height: 600px;
   object-fit: cover;
 }
+
+.page-intro__text--580 {
+  max-width: 580px; /* Доставка и оплата */
+}

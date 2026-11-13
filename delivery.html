@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Доставка и оплата — Luvr</title>
+    <meta name="description" content="Доставка по Москве, России и за рубеж, предоплата 30%, сроки поставки и способы оплаты заказов Luvr." />
+    <link rel="preload" href="/src/assets/fonts/hauora-regular.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/src/assets/fonts/hauora-medium.woff2" as="font" type="font/woff2" crossorigin />
+    <script type="module" src="/src/scripts/main.js"></script>
+  </head>
+  <body class="page-surface">
+    <!-- @include src/partials/header.html -->
+
+    <main>
+      <div class="page-intro container">
+        <div class="section-heading">
+          <nav class="breadcrumbs" aria-label="Хлебные крошки">
+            <ol class="breadcrumbs__list">
+              <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="/">Главная</a></li>
+              <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="/delivery.html" aria-current="page">Доставка и оплата</a></li>
+            </ol>
+          </nav>
+          <div class="ornament" aria-hidden="true">
+            <span class="ornament__line"></span>
+            <img class="ornament__mark" src="/src/assets/icons/logo-mark.svg" width="37" height="34" alt="" />
+            <span class="ornament__line"></span>
+          </div>
+          <h1 class="text-h2">Доставка и оплата</h1>
+          <p class="page-intro__text page-intro__text--580">Мы выкупаем и доставляем изделия под заказ. Сопровождаем товар на&nbsp;каждом этапе: выкупаем позицию у бренда, организуем доставку и&nbsp;таможенное оформление товара</p>
+        </div>
+      </div>
+
+      <section class="delivery container" aria-label="Доставка">
+        <ul class="delivery__cards">
+          <li class="info-card">
+            <h2 class="text-h3">Москва</h2>
+            <div class="info-card__text">
+              <p class="delivery__note">После доставки изделия к нам на склад, наш менеджер связывается с вами и согласовывает дату и время доставки</p>
+            </div>
+            <ul class="info-card__list">
+              <li>Доставка бесплатная</li>
+            </ul>
+          </li>
+          <li class="info-card">
+            <h2 class="text-h3">Россия и зарубежье</h2>
+            <div class="info-card__text">
+              <p>Доставка осуществляется удобной для покупателя транспортной компанией по&nbsp;её&nbsp;тарифам. Сроки доставки зависят от&nbsp;поставки товара, бренда и&nbsp;адреса получения и&nbsp;согласовываются с&nbsp;менеджером.</p>
+              <p><strong>Обратите внимание:</strong> при отказе от&nbsp;товара стоимость доставки оплачивается покупателем.</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section class="payment" aria-labelledby="payment-title">
+        <div class="payment__content">
+          <div class="ornament payment__ornament" aria-hidden="true">
+            <span class="ornament__line"></span>
+            <img class="ornament__mark" src="/src/assets/icons/logo-mark.svg" width="37" height="34" alt="" loading="lazy" />
+            <span class="ornament__line"></span>
+          </div>
+          <div class="payment__text">
+            <p>Все изделия оформляются под заказ, поэтому при оформлении необходимо внести предоплату в размере 30% стоимости изделия .<br />При оформлении заказа заключается официальный договор.</p>
+            <p>Срок поставки зависит от&nbsp;бренда и&nbsp;обычно составляет <br />от&nbsp;2 недель до&nbsp;2 месяцев. Точные сроки менеджер сообщит <br />при оформлении заказа.</p>
+          </div>
+          <div class="info-card info-card--row">
+            <div class="payment__methods">
+              <h2 class="text-h3" id="payment-title">Способы оплаты:</h2>
+              <ul class="info-card__list">
+                <li>Банковской картой на сайте</li>
+                <li>СБП</li>
+                <li>QR-кодом</li>
+                <li>На расчётный счёт (+10% к стоимости заказа)</li>
+              </ul>
+            </div>
+            <figure class="payment__qr">
+              <div class="payment__qr-image" role="img" aria-label="QR-код для оплаты на расчётный счёт"></div>
+              <figcaption class="payment__qr-caption">Оплата на расчетный счет</figcaption>
+            </figure>
+          </div>
+        </div>
+        <picture>
+          <source srcset="/src/assets/images/delivery/delivery-crystal.webp" type="image/webp" />
+          <img class="payment__image" src="/src/assets/images/delivery/delivery-crystal.jpg" width="710" height="720" alt="Хрустальные подсвечники и бабочка на терракотовом фоне" loading="lazy" />
+        </picture>
+      </section>
+
+      <section class="cta cta--flush" aria-labelledby="cta-title">
+        <div class="cta__inner">
+          <div class="cta__media">
+            <picture>
+              <source srcset="/src/assets/images/delivery/delivery-cta-bg.webp" type="image/webp" />
+              <img class="cta__image" src="/src/assets/images/delivery/delivery-cta-bg.jpg" width="1023" height="1537" alt="Бокалы из цветного стекла и инжир на сервированном столе" loading="lazy" />
+            </picture>
+          </div>
+          <div class="cta__content">
+            <div class="cta__text-group">
+              <h2 class="text-h2" id="cta-title">Остались вопросы?</h2>
+              <p class="cta__text">Если у вас остались вопросы по доставке, оплате или предзаказу, менеджер Luvr объяснит условия и подскажет удобный вариант</p>
+            </div>
+            <a class="button button--secondary cta__button" href="#">Связаться с нами</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- @include src/partials/footer.html -->
+  </body>
+</html>

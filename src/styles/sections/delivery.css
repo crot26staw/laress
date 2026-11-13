@@ -1,0 +1,98 @@
+/* «Доставка и оплата» (966:48241): карточки Москва / Россия (966:48263)
+   и блок «In stock» — текст, способы оплаты и фото 710×720 (966:48272). */
+
+.delivery__cards {
+  display: flex;
+  gap: var(--space-20);
+}
+
+.delivery__cards > .info-card {
+  flex: 1;
+}
+
+.delivery__note {
+  max-width: 528px; /* 527.46 в Figma */
+}
+
+.payment {
+  display: flex;
+  padding-block: var(--space-70);
+}
+
+.payment__content {
+  position: relative;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: var(--space-24);
+  padding: 0 var(--space-20) 0 var(--gutter);
+}
+
+/* Орнамент над колонкой: 674px, линии фиксированные 287.5px */
+.payment__ornament {
+  position: absolute;
+  top: -20px;
+  left: var(--gutter);
+  width: 674px;
+}
+
+.payment__ornament .ornament__line {
+  flex: 0 0 287.5px;
+}
+
+/* Линия по нижнему краю колонки (966:48295) */
+.payment__content::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: var(--gutter);
+  width: 640px;
+  height: 1px;
+  background-color: var(--color-sand);
+}
+
+.payment__text {
+  max-width: 658px;
+  font-size: var(--font-size-18);
+  line-height: var(--line-height-snug);
+  letter-spacing: -0.02em;
+  color: var(--color-text);
+}
+
+.payment__text p + p {
+  margin-top: 14px; /* paragraphSpacing в Figma */
+}
+
+.payment__methods {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-16);
+  width: 335px;
+}
+
+.payment__qr {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-12);
+}
+
+/* В макете вместо QR-кода — заливка акцентом (966:48293), картинки нет */
+.payment__qr-image {
+  width: 211px;
+  height: 211px;
+  background-color: var(--color-accent);
+}
+
+.payment__qr-caption {
+  font-size: var(--font-size-16);
+  line-height: var(--line-height-snug);
+  color: var(--color-text-90);
+}
+
+.payment__image {
+  display: block;
+  width: 710px;
+  height: 720px;
+  object-fit: cover;
+}

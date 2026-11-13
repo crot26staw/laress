@@ -1,0 +1,46 @@
+/* Бежевая карточка со списком — «Доставка и оплата» (966:48265, 966:48288), «Вакансии».
+   Заголовок H3, текст 16px и маркированный список (listSpacing 12px). */
+
+.info-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-16);
+  padding: var(--space-32);
+  background-color: var(--color-cream);
+}
+
+/* Содержимое в строку по краям: «Способы оплаты» + QR */
+.info-card--row {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.info-card__text,
+.info-card__list {
+  font-size: var(--font-size-16);
+  line-height: var(--line-height-snug);
+  color: var(--color-text-90);
+}
+
+.info-card__text p + p {
+  margin-top: var(--space-12); /* paragraphSpacing в Figma */
+}
+
+.info-card__text strong {
+  font-weight: var(--font-weight-bold);
+}
+
+.info-card__list li {
+  position: relative;
+  padding-left: 24px;
+}
+
+.info-card__list li + li {
+  margin-top: var(--space-12);
+}
+
+.info-card__list li::before {
+  content: "•";
+  position: absolute;
+  left: 8px;
+}

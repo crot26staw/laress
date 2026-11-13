@@ -15,6 +15,7 @@
 @import "./components/breadcrumbs.css";
 @import "./components/choice.css";
 @import "./components/pagination.css";
+@import "./components/info-card.css";
 
 /* Sections */
 @import "./sections/announcement.css";
@@ -38,3 +39,4 @@
 @import "./sections/media-text.css";
 @import "./sections/originals.css";
 @import "./sections/partnership.css";
+@import "./sections/delivery.css";

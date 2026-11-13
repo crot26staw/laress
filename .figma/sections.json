@@ -284,5 +284,46 @@
         "refH": 526
       }
     ]
+  },
+  "delivery": {
+    "url": "http://localhost:5173/delivery.html",
+    "ref": ".figma/screenshots/delivery_966-48241.png",
+    "sections": [
+      {
+        "name": "header",
+        "refY": 0,
+        "refH": 131
+      },
+      {
+        "name": "intro",
+        "selector": ".page-intro",
+        "refY": 131,
+        "refH": 317
+      },
+      {
+        "name": "cards",
+        "selector": ".delivery",
+        "refY": 448,
+        "refH": 217
+      },
+      {
+        "name": "payment",
+        "selector": ".payment",
+        "refY": 665,
+        "refH": 860
+      },
+      {
+        "name": "cta",
+        "selector": ".cta",
+        "refY": 1525,
+        "refH": 720
+      },
+      {
+        "name": "footer",
+        "selector": ".footer",
+        "refY": 2245,
+        "refH": 526
+      }
+    ]
   }
 }

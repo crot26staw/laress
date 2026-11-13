@@ -8,7 +8,9 @@
     "build": "vite build",
     "preview": "vite preview",
     "images": "node scripts/optimize-images.mjs",
-    "compare": "node scripts/compare.mjs"
+    "compare": "node scripts/compare.mjs",
+    "figma:tree": "node scripts/figma-tree.mjs",
+    "compare:page": "node scripts/compare-page.mjs"
   },
   "devDependencies": {
     "playwright": "^1.65.0",
@@ -16,6 +18,7 @@
     "sharp": "^0.35.5",
     "svgo": "^4.1.0",
     "vite": "^8.3.8",
-    "vite-plugin-image-optimizer": "^2.0.3"
+    "vite-plugin-image-optimizer": "^2.0.3",
+    "yaml": "^2.9.1"
   }
 }

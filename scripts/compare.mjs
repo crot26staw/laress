@@ -1,6 +1,8 @@
 // Сверка вёрстки с эталоном из Figma.
 // npm run compare -- --ref .figma/screenshots/home-01-hero_966-41554.png --name hero [--url http://localhost:5173/] [--y 0] [--selector .hero]
 //   [--ref-y 1900 --ref-h 860]  — вырезать полосу из полного эталона страницы
+// Печатает % отличий и лучший вертикальный сдвиг эталона (±4px). Норма: ≤ ~2% при сдвиге 0–2px
+// (остаток — сглаживание текста). Больше — смотреть <name>-diff.png и <name>-side.png.
 // Снимает страницу при ширине эталона, вырезает область той же высоты и кладёт в .compare/:
 //   <name>-site.png, <name>-side.png (бок о бок), <name>-overlay.png (макет 50% поверх), <name>-diff.png (отличия красным).
 import { mkdir } from 'node:fs/promises';
@@ -100,4 +102,36 @@ await sharp({ create: { width: width * 2 + 20, height, channels: 3, background: 
 
 const pct = ((changed / (width * height)) * 100).toFixed(2);
 console.log(`${args.name}: ${width}×${height}, отличается ${changed} px (${pct}%) при пороге ${threshold}`);
+
+// Лучший вертикальный сдвиг эталона (±4px): отметки секций в полном скриншоте Figma округлены,
+// поэтому смотреть надо на % при лучшем сдвиге, а сам сдвиг до 1–2px — норма.
+const PAD = 4;
+const extTop = Math.max(0, refY - PAD);
+const extBottom = Math.min(meta.height, refY + height + PAD);
+const ext = await sharp(args.ref)
+  .extract({ left: 0, top: extTop, width, height: extBottom - extTop })
+  .flatten({ background: args.bg })
+  .removeAlpha()
+  .raw()
+  .toBuffer();
+const results = [];
+for (let dy = -PAD; dy <= PAD; dy++) {
+  let diffCount = 0;
+  let total = 0;
+  for (let y = PAD + 1; y < height - PAD - 1; y++) {
+    const ry = refY + y + dy - extTop;
+    if (ry < 0 || ry >= extBottom - extTop) continue;
+    for (let x = 0; x < width; x++) {
+      const s = (y * width + x) * 3;
+      const r = (ry * width + x) * 3;
+      const d = Math.max(Math.abs(ext[r] - siteRaw[s]), Math.abs(ext[r + 1] - siteRaw[s + 1]), Math.abs(ext[r + 2] - siteRaw[s + 2]));
+      if (d > threshold) diffCount++;
+      total++;
+    }
+  }
+  if (total) results.push({ dy, pct: (diffCount / total) * 100 });
+}
+results.sort((a, b) => a.pct - b.pct);
+const best = results[0];
+console.log(`  лучший сдвиг эталона: ${best.dy > 0 ? '+' : ''}${best.dy}px → ${best.pct.toFixed(2)}%`);
 console.log(`Файлы: ${OUT}/${args.name}-{site,side,overlay,diff}.png`);

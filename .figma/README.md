@@ -2,6 +2,9 @@
 
 Локальные копии ответов Figma API (MCP figma-api / Framelink), чтобы не запрашивать макет повторно.
 
+- Разбор узла: `npm run figma:tree -- <nodeId>` (по умолчанию из `pages_966-41552.yaml`, для UI Kit — `--file .figma/ui-kit_827-12045.yaml`).
+- Сверка страницы: `npm run compare:page -- <страница>` — секции описаны в `sections.json`.
+
 - Файл: `xDnfQshLiYi4kvHbeJfZav` — Laress (Copy)
 - Имя кэша: `<что>_<nodeId>.yaml`, скриншоты-эталоны: `screenshots/<что>_<nodeId>.png` (1x)
 - Если дизайнер менял макет после даты выгрузки — выгрузить узел заново и обновить дату.
@@ -75,14 +78,14 @@
 
 ## Ассеты (выгружены 2026-11-12)
 
-Фото — PNG-исходники 2x, кадр как в макете (экспорт по слою). Если поверх фото в макете лежит текст/кнопки — взят исходник без наложений (hero, cta, catalog-brands-bottom-bg, фото подушки), наложения делаются кодом.
+Фото — PNG-исходники 2x в `assets-src/images/<папка>/` (кадр как в макете, экспорт по слою); `npm run images` делает из них `.webp` + `.jpg/.png` в `src/assets/images/<папка>/`. Если поверх фото в макете лежит текст/кнопки — взят исходник без наложений (hero, cta, catalog-brands-bottom-bg, фото подушки), наложения делаются кодом.
 
 | Папка | Что |
 |---|---|
-| `src/assets/images/common/` | logo-full.png (растр, SVG нет), footer-rating.png (рейтинг Яндекса) |
-| `src/assets/images/home/` | 26 фото главной |
-| `src/assets/images/nav/` | 6 баннеров выпадающего меню (440×264) |
-| `src/assets/images/catalog/` | 19 карточек каталога (заглушки товаров; 05, 06, 11 — большие промо-карточки) + фон блока брендов |
-| `src/assets/images/product/` | подушка Cartier (2 фото), лого Cartier (2), промо Hermès, 4 «похожих товара». Блок «Дизайнерам» на странице товара = home/designers.png |
-| `src/assets/images/gift-card/` | 3 изображения сертификата |
+| `assets-src/images/common/` | logo-full.png (растр, SVG нет), footer-rating.png (рейтинг Яндекса) |
+| `assets-src/images/home/` | 26 фото главной |
+| `assets-src/images/nav/` | 6 баннеров выпадающего меню (440×264) |
+| `assets-src/images/catalog/` | 19 карточек каталога (заглушки товаров; 05, 06, 11 — большие промо-карточки) + фон блока брендов |
+| `assets-src/images/product/` | подушка Cartier (2 фото), лого Cartier (2), промо Hermès, 4 «похожих товара». Блок «Дизайнерам» на странице товара = home/designers.png |
+| `assets-src/images/gift-card/` | 3 изображения сертификата |
 | `src/assets/icons/` | 30 SVG. Нарисованы вручную по образцу icon-vk (в макете их нет): icon-telegram-square.svg, icon-whatsapp-square.svg (глиф WhatsApp — Material Design Icons, Apache 2.0). Из Figma — 28: шапка, слайдеры, аккордеон, поиск, сортировка, пагинация, telegram, vk, share, Яндекс Сплит, 7 иконок оплаты (из UI Kit, состояние Default), logo-mark.svg — вектор знака логотипа |

@@ -1,0 +1,21 @@
+{
+  "$comment": "Секции страниц для пакетной сверки: npm run compare:page -- <страница> [--scale 1920]. ref — полный эталон страницы из .figma/screenshots/, refY/refH — полоса секции в нём (px макета 1440), selector — элемент на сайте (без selector — сверху страницы).",
+  "home": {
+    "url": "http://localhost:5173/",
+    "ref": ".figma/screenshots/home_966-41553.png",
+    "sections": [
+      { "name": "hero", "refY": 0, "refH": 850 },
+      { "name": "about", "selector": ".about", "refY": 851, "refH": 1048 },
+      { "name": "gifts", "selector": ".showcase--filled", "refY": 1899, "refH": 860 },
+      { "name": "order", "selector": ".showcase--reverse", "refY": 2759, "refH": 860 },
+      { "name": "categories", "selector": ".categories", "refY": 3620, "refH": 801 },
+      { "name": "products", "selector": ".products", "refY": 4421, "refH": 930 },
+      { "name": "brands", "selector": ".brands", "refY": 5353, "refH": 909 },
+      { "name": "designers", "selector": ".designers", "refY": 6261, "refH": 860 },
+      { "name": "blog", "selector": ".blog", "refY": 7122, "refH": 1043 },
+      { "name": "cta", "selector": ".cta", "refY": 8165, "refH": 860 },
+      { "name": "contacts", "selector": ".contacts", "refY": 9025, "refH": 580 },
+      { "name": "footer", "selector": ".footer", "refY": 9605, "refH": 525 }
+    ]
+  }
+}

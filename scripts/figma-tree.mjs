@@ -1,17 +1,18 @@
 // Дерево узла из кэша Figma (выгрузка Framelink get_figma_data) с подставленными стилями.
 // npm run figma:tree -- <nodeId> [--file .figma/pages_966-41552.yaml]
+// Без --file узел ищется во всех выгрузках .figma/*.yaml (страницы, UI Kit, информационные страницы…).
 // Пример: npm run figma:tree -- 966:41582
 // Для каждого узла печатает: тип, имя, id, раскладку (row/column, padding, gap, размеры),
 // заливки/обводки, текстовый стиль и текст. Шаблоны EL-*, layout_*, fill_*, style_* раскрываются.
 // В тексте [nbsp] = неразрывный пробел (&nbsp;), [br] = принудительный перенос (<br />).
 // Стоки (strokes) в Figma не влияют на размеры — в CSS для таких линий используйте box-shadow inset.
-import { readFileSync } from 'node:fs';
+import { readFileSync, readdirSync } from 'node:fs';
 import { parseArgs } from 'node:util';
 import YAML from 'yaml';
 
 const { values, positionals } = parseArgs({
   allowPositionals: true,
-  options: { file: { type: 'string', default: '.figma/pages_966-41552.yaml' } },
+  options: { file: { type: 'string' } },
 });
 const target = positionals[0];
 if (!target) {
@@ -19,7 +20,15 @@ if (!target) {
   process.exit(1);
 }
 
-const src = readFileSync(values.file, 'utf-8');
+const files = values.file
+  ? [values.file]
+  : readdirSync('.figma').filter((f) => f.endsWith('.yaml')).map((f) => `.figma/${f}`);
+const file = files.find((f) => readFileSync(f, 'utf-8').includes(`#${target} `));
+if (!file) {
+  console.error(`Узел ${target} не найден в кэше (${files.join(', ')}). Выгрузите его через get_figma_data в .figma/.`);
+  process.exit(1);
+}
+const src = readFileSync(file, 'utf-8');
 const [head, nodes] = src.split('\nNODES:\n');
 const gvText = head.split('GLOBAL_VARS:\n')[1].split('\nELEMENTS:')[0];
 const elText = head.split('\nELEMENTS:\n')[1]?.split(/\n(?:COMPONENTS|COMPONENT_SETS):/)[0] ?? '';

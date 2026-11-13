@@ -1,0 +1,72 @@
+/* «Оригинальные изделия» (О компании 966:48084, Дизайнерам 966:47967):
+   слева заголовок, текст и фото 244×314, справа 4 карточки 325×314 в сетке 2×2. */
+
+.originals {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-32);
+  padding-block: var(--space-70);
+}
+
+.originals__lead {
+  max-width: 508px;
+  font-size: var(--font-size-16);
+  line-height: var(--line-height-snug);
+  color: var(--color-text-90);
+}
+
+.originals__lead--center {
+  text-align: center;
+}
+
+.originals__inner {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.originals__aside {
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+  justify-content: space-between;
+  width: 660px;
+}
+
+.originals__intro {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-20);
+}
+
+.originals__image {
+  display: block;
+  width: 244px;
+  height: 314px;
+  object-fit: cover;
+}
+
+.originals__cards {
+  display: grid;
+  grid-template-columns: repeat(2, 325px);
+  gap: 10px;
+  justify-content: space-between;
+  width: 660px;
+}
+
+.originals__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 314px;
+  padding: var(--space-32);
+  box-shadow: inset 0 0 0 1px var(--color-text-15);
+}
+
+.originals__text {
+  font-size: var(--font-size-16);
+  line-height: var(--line-height-snug);
+  color: var(--color-text-90);
+}

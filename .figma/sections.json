@@ -172,5 +172,58 @@
         "refH": 526
       }
     ]
+  },
+  "about": {
+    "url": "http://localhost:5173/about.html",
+    "ref": ".figma/screenshots/about_966-48005.png",
+    "sections": [
+      {
+        "name": "header",
+        "refY": 0,
+        "refH": 131
+      },
+      {
+        "name": "intro",
+        "selector": ".page-intro",
+        "refY": 131,
+        "refH": 386
+      },
+      {
+        "name": "image",
+        "selector": ".wide-image",
+        "refY": 517,
+        "refH": 600
+      },
+      {
+        "name": "categories",
+        "selector": ".categories",
+        "refY": 1118,
+        "refH": 866
+      },
+      {
+        "name": "selection",
+        "selector": ".media-text",
+        "refY": 1984,
+        "refH": 840
+      },
+      {
+        "name": "originals",
+        "selector": ".originals",
+        "refY": 2824,
+        "refH": 980
+      },
+      {
+        "name": "cta",
+        "selector": ".cta",
+        "refY": 3804,
+        "refH": 720
+      },
+      {
+        "name": "footer",
+        "selector": ".footer",
+        "refY": 4524,
+        "refH": 526
+      }
+    ]
   }
 }

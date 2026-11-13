@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>О компании — Luvr</title>
+    <meta name="description" content="Luvr — интернет-бутик оригинальной посуды, декора, текстиля и аксессуаров премиальных брендов для дома, подарков и интерьера." />
+    <link rel="preload" href="/src/assets/fonts/hauora-regular.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/src/assets/fonts/hauora-medium.woff2" as="font" type="font/woff2" crossorigin />
+    <script type="module" src="/src/scripts/main.js"></script>
+  </head>
+  <body class="page-surface">
+    <!-- @include src/partials/header.html -->
+
+    <main>
+      <div class="page-intro container">
+        <div class="section-heading">
+          <nav class="breadcrumbs" aria-label="Хлебные крошки">
+            <ol class="breadcrumbs__list">
+              <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="/">Главная</a></li>
+              <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="/about.html" aria-current="page">О компании</a></li>
+            </ol>
+          </nav>
+          <div class="ornament" aria-hidden="true">
+            <span class="ornament__line"></span>
+            <img class="ornament__mark" src="/src/assets/icons/logo-mark.svg" width="37" height="34" alt="" />
+            <span class="ornament__line"></span>
+          </div>
+          <h1 class="text-h2">О бутике Luvr</h1>
+          <p class="page-intro__text">Luvr— интернет-бутик оригинальной посуды, декора, текстиля и аксессуаров премиальных брендов для дома, подарков и интерьера</p>
+        </div>
+        <a class="button button--primary" href="/catalog.html">Перейти в каталог</a>
+      </div>
+
+      <picture>
+        <source srcset="/src/assets/images/about/about-hero.webp" type="image/webp" />
+        <img class="wide-image" src="/src/assets/images/about/about-hero.jpg" width="1440" height="600" alt="Хрустальные подсвечники и хрустальная бабочка на терракотовом фоне" fetchpriority="high" />
+      </picture>
+
+      <section class="categories categories--spacious container" aria-labelledby="categories-title">
+        <div class="section-heading">
+          <div class="ornament" aria-hidden="true">
+            <span class="ornament__line"></span>
+            <img class="ornament__mark" src="/src/assets/icons/logo-mark.svg" width="37" height="34" alt="" loading="lazy" />
+            <span class="ornament__line"></span>
+          </div>
+          <h2 class="text-h2" id="categories-title">Что можно найти в&nbsp;Luvr</h2>
+        </div>
+        <ul class="categories__list">
+          <li class="categories__item">
+            <a class="categories__link" href="/catalog.html">
+              <picture>
+                <source srcset="/src/assets/images/about/about-category-tableware.webp" type="image/webp" />
+                <img class="categories__image" src="/src/assets/images/about/about-category-tableware.jpg" width="331" height="440" alt="Фарфоровая чайная пара с синим и золотым узором" loading="lazy" />
+              </picture>
+              <span class="categories__body">
+                <span class="text-h3">Посуда</span>
+                <span class="categories__text">Сервизы, чайные пары, тарелки, блюда, бокалы и предметы для сервировки</span>
+              </span>
+            </a>
+          </li>
+          <li class="categories__item">
+            <a class="categories__link" href="/catalog.html">
+              <picture>
+                <source srcset="/src/assets/images/about/about-category-decor.webp" type="image/webp" />
+                <img class="categories__image" src="/src/assets/images/about/about-category-decor.jpg" width="331" height="440" alt="Фарфоровая статуэтка рыбы на светлом постаменте" loading="lazy" />
+              </picture>
+              <span class="categories__body">
+                <span class="text-h3">Декор и интерьер</span>
+                <span class="categories__text">Вазы, статуэтки, скульптуры, подсвечники и&nbsp;декоративные предметы</span>
+              </span>
+            </a>
+          </li>
+          <li class="categories__item">
+            <a class="categories__link" href="/catalog.html">
+              <picture>
+                <source srcset="/src/assets/images/about/about-category-textile.webp" type="image/webp" />
+                <img class="categories__image" src="/src/assets/images/about/about-category-textile.jpg" width="331" height="440" alt="Красные подушки и плед с пантерой на светлом диване" loading="lazy" />
+              </picture>
+              <span class="categories__body">
+                <span class="text-h3">Текстиль</span>
+                <span class="categories__text">Подушки, покрывала, пледы и другие текстильные изделия для дома</span>
+              </span>
+            </a>
+          </li>
+          <li class="categories__item">
+            <a class="categories__link" href="/catalog.html">
+              <picture>
+                <source srcset="/src/assets/images/about/about-category-accessories.webp" type="image/webp" />
+                <img class="categories__image" src="/src/assets/images/about/about-category-accessories.jpg" width="331" height="440" alt="Хрустальные бабочки Baccarat на красных подарочных коробках" loading="lazy" />
+              </picture>
+              <span class="categories__body">
+                <span class="text-h3">Аксессуары</span>
+                <span class="categories__text">Сумки, ювелирные изделия, часы, платки и&nbsp;другие аксессуары</span>
+              </span>
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="media-text container" aria-labelledby="selection-title">
+        <div class="media-text__content">
+          <div class="media-text__body">
+            <div class="ornament ornament--wide" aria-hidden="true">
+              <span class="ornament__line"></span>
+              <img class="ornament__mark" src="/src/assets/icons/logo-mark.svg" width="37" height="34" alt="" loading="lazy" />
+              <span class="ornament__line"></span>
+            </div>
+            <h2 class="text-h2" id="selection-title">Подбор под ваш запрос</h2>
+            <div class="media-text__text">
+              <p>Мы помогаем выбрать посуду, декор, текстиль и предметы интерьера для дома, подарка или конкретного запроса.</p>
+              <p>Если вы не нашли нужное изделие в каталоге, отправьте запрос команде Luvr Мы уточним возможность подбора и свяжемся с вами.</p>
+            </div>
+          </div>
+          <picture>
+            <source srcset="/src/assets/images/about/about-selection-small.webp" type="image/webp" />
+            <img class="media-text__thumb" src="/src/assets/images/about/about-selection-small.jpg" width="230" height="300" alt="Тарелки Hermès с красными кораллами на светлом рельефном фоне" loading="lazy" />
+          </picture>
+        </div>
+        <picture>
+          <source srcset="/src/assets/images/about/about-selection-large.webp" type="image/webp" />
+          <img class="media-text__image" src="/src/assets/images/about/about-selection-large.jpg" width="660" height="700" alt="Бокалы с белым, розовым и красным вином на светлом столе" loading="lazy" />
+        </picture>
+      </section>
+
+      <!-- @include src/partials/originals.html {"heading": "1", "image": "/src/assets/images/about/about-originals", "alt": "Девушка с золотой серьгой-подвеской"} -->
+
+      <section class="cta cta--flush" aria-labelledby="cta-title">
+        <div class="cta__inner">
+          <div class="cta__media">
+            <picture>
+              <source srcset="/src/assets/images/home/cta-bg.webp" type="image/webp" />
+              <img class="cta__image" src="/src/assets/images/home/cta-bg.jpg" width="1440" height="720" alt="Девушка в коричневом платье с сумкой Hermès" loading="lazy" />
+            </picture>
+          </div>
+          <div class="cta__content">
+            <div class="cta__text-group">
+              <h2 class="text-h2" id="cta-title">Поможем найти нужное изделие</h2>
+              <p class="cta__text">Расскажите, что вы&nbsp;ищете: бренд, коллекцию, категорию или конкретный предмет. Команда Luvr уточнит возможные варианты и&nbsp;поможет с&nbsp;выбором</p>
+            </div>
+            <a class="button button--secondary cta__button" href="#">Связаться с нами</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- @include src/partials/footer.html -->
+  </body>
+</html>

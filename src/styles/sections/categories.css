@@ -33,3 +33,23 @@
   aspect-ratio: 331 / 440; /* на 1440 — 331×440 */
   object-fit: cover;
 }
+
+/* Отступ сверху 140px — после фото на всю ширину (О компании 966:48029) */
+.categories--spacious {
+  padding-top: var(--space-140);
+}
+
+/* Название + описание под фото (О компании) */
+.categories__body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-12);
+  text-align: center;
+}
+
+.categories__text {
+  font-size: var(--font-size-16);
+  line-height: var(--line-height-snug);
+  color: var(--color-text-90);
+}

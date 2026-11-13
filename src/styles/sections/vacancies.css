@@ -35,3 +35,26 @@
   line-height: var(--line-height-snug);
   color: var(--color-text-90);
 }
+
+/* Страница вакансии (966:48423): слева «Требования» и «Условия», справа «Обязанности».
+   Две колонки по 672px с зазором 20 — 1364px, на 4px шире контейнера: в макете блок
+   центрирован и начинается с x=38, поэтому justify-content: center (без safe). */
+.vacancy {
+  display: flex;
+  justify-content: center;
+  gap: var(--space-20);
+  padding-bottom: var(--space-70);
+}
+
+.vacancy__column {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-12);
+  flex-shrink: 0;
+  width: 672px;
+}
+
+.vacancy__duties {
+  flex-shrink: 0;
+  width: 672px;
+}

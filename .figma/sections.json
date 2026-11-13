@@ -360,5 +360,40 @@
         "refH": 526
       }
     ]
+  },
+  "vacancy-sales-manager": {
+    "url": "http://localhost:5173/vacancy-sales-manager.html",
+    "ref": ".figma/screenshots/vacancy-sales-manager_966-48397.png",
+    "sections": [
+      {
+        "name": "header",
+        "refY": 0,
+        "refH": 131
+      },
+      {
+        "name": "intro",
+        "selector": ".page-intro",
+        "refY": 131,
+        "refH": 306
+      },
+      {
+        "name": "cards",
+        "selector": ".vacancy",
+        "refY": 437,
+        "refH": 704
+      },
+      {
+        "name": "cta",
+        "selector": ".cta",
+        "refY": 1141,
+        "refH": 720
+      },
+      {
+        "name": "footer",
+        "selector": ".footer",
+        "refY": 1861,
+        "refH": 526
+      }
+    ]
   }
 }

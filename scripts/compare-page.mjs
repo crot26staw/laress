@@ -30,15 +30,32 @@ if (values.scale) {
 }
 
 for (const s of page.sections) {
+  // У секции может быть свой эталон (например, состояние с открытой панелью)
+  let sref = ref;
+  if (s.ref) {
+    sref = s.ref;
+    if (values.scale) {
+      sref = `.compare/${pageName}-${s.name}-ref-1920.png`;
+      if (!existsSync(sref)) {
+        const m = await sharp(s.ref).metadata();
+        await sharp(s.ref).resize(1920, Math.round((m.height * 1920) / 1440), { kernel: 'lanczos3' }).toFile(sref);
+      }
+    }
+  }
   const args = [
     'scripts/compare.mjs',
-    '--ref', ref,
+    '--ref', sref,
     '--url', page.url,
     '--name', `${pageName}-${s.name}${values.scale ? '-1920' : ''}`,
     '--ref-y', String(Math.round(s.refY * k)),
     '--ref-h', String(Math.round(s.refH * k)),
   ];
   if (s.selector) args.push('--selector', s.selector);
+  if (s.refX !== undefined) args.push('--ref-x', String(Math.round(s.refX * k)));
+  if (s.refW !== undefined) args.push('--ref-w', String(Math.round(s.refW * k)));
+  if (s.open) args.push('--open', s.open);
+  if (s.viewportH !== undefined) args.push('--viewport-h', String(Math.round(s.viewportH * k)));
+  if (s.url) args[args.indexOf('--url') + 1] = s.url;
   const out = execFileSync('node', args, { encoding: 'utf-8' });
   const [line1, line2] = out.split('\n');
   console.log(`${line1.split(',')[0].padEnd(28)} ${line1.match(/\(([\d.]+%)\)/)?.[1].padStart(7)}   ${line2.trim()}`);

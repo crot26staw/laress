@@ -136,7 +136,7 @@ npm run compare -- --ref .figma/screenshots/<эталон>.png --name <секц�
 npm run compare:page -- <страница> [--scale]   # сверка всех секций страницы по .figma/sections.json
 ```
 
-- Партиалы подключаются в HTML комментарием `<!-- @include src/partials/header.html -->` (плагин в vite.config.js).
+- Партиалы подключаются в HTML комментарием `<!-- @include src/partials/header.html -->` (плагин в vite.config.js). Параметры — JSON после пути: `<!-- @include src/partials/product-card.html {"title": "…"} -->`, в партиале `{{name}}` и `{{#if name}}…{{/if}}` (аналог `get_template_part( …, $args )`). Первый комментарий партиала — его описание, в страницу не попадает.
 - Кэш данных Figma и эталоны для сверки — в `.figma/` (индекс в `.figma/README.md`).
 
 ## Общение

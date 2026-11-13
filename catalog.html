@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Каталог — Luvr</title>
+    <meta name="description" content="Каталог оригинальной посуды, декора, текстиля и аксессуаров премиальных брендов." />
+    <link rel="preload" href="/src/assets/fonts/hauora-regular.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/src/assets/fonts/hauora-medium.woff2" as="font" type="font/woff2" crossorigin />
+    <script type="module" src="/src/scripts/main.js"></script>
+  </head>
+  <body>
+    <!-- @include src/partials/header.html -->
+
+    <main class="catalog container">
+      <div class="section-heading">
+        <nav class="breadcrumbs" aria-label="Хлебные крошки">
+          <ol class="breadcrumbs__list">
+            <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="/">Главная</a></li>
+            <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="/catalog.html" aria-current="page">Каталог</a></li>
+          </ol>
+        </nav>
+        <div class="ornament" aria-hidden="true">
+          <span class="ornament__line"></span>
+          <img class="ornament__mark" src="/src/assets/icons/logo-mark.svg" width="37" height="34" alt="" />
+          <span class="ornament__line"></span>
+        </div>
+        <h1 class="section-heading__title text-h2">Каталог</h1>
+      </div>
+
+      <div class="catalog__content">
+        <div class="catalog__toolbar">
+          <button class="catalog__control" type="button" aria-controls="filters" aria-haspopup="dialog" data-filters-open>Фильтры</button>
+          <button class="catalog__control" type="button">
+            <svg class="catalog__control-icon" width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true">
+              <path d="M6.26172 2.92383L5.73438 3.45117L3.75391 1.47656L3.74805 12H2.99805L3.00391 1.45898L1.01172 3.45117L0.484375 2.92383L3.37305 0.0351562L6.26172 2.92383ZM10.9902 8.54883L11.5234 9.07617L8.63477 11.9648L5.74023 9.07617L6.27344 8.54883L8.25391 10.5293L8.24805 0H8.99805L9.00391 10.5352L10.9902 8.54883Z" fill="currentColor" />
+            </svg>
+            Сортировать
+          </button>
+        </div>
+
+        <ul class="catalog__grid">
+          <li class="catalog__item">
+            <!-- @include src/partials/product-card.html {"href": "#", "category": "Статуэтка", "title": "Скульптура Daum Рыба Ange Royal Turquoise &amp; Jaune Maya", "price": "1 160 000 ₽", "priceOld": "1 170 000 ₽", "image": "/src/assets/images/catalog/catalog-oysters", "width": "445", "height": "460", "alt": "Устрицы на тарелках с золотым узором и хрустальные бокалы на зелёной скатерти", "loading": "eager"} -->
+          </li>
+          <li class="catalog__item">
+            <!-- @include src/partials/product-card.html {"href": "#", "category": "Статуэтка", "title": "Скульптура Daum Рыба Ange Royal Turquoise &amp; Jaune Maya", "price": "1 160 000 ₽", "priceOld": "1 170 000 ₽", "image": "/src/assets/images/catalog/catalog-watch", "width": "445", "height": "460", "alt": "Часы с зелёным ремешком на запястье, рукав оранжевого пальто", "loading": "eager"} -->
+          </li>
+          <li class="catalog__item">
+            <!-- @include src/partials/product-card.html {"href": "#", "category": "Статуэтка", "title": "Скульптура Daum Рыба Ange Royal Turquoise &amp; Jaune Maya", "price": "1 160 000 ₽", "priceOld": "1 170 000 ₽", "image": "/src/assets/images/catalog/catalog-table-setting", "width": "445", "height": "460", "alt": "Сервировка стола: чаша-цветок, розовые бокалы и серебряное ведёрко", "loading": "eager"} -->
+          </li>
+          <li class="catalog__item catalog__item--wide">
+            <!-- @include src/partials/product-card.html {"href": "#", "category": "Статуэтка", "title": "Скульптура Daum Рыба Ange Royal Turquoise &amp; Jaune Maya", "price": "1 160 000 ₽", "priceOld": "1 170 000 ₽", "modifier": "product-card--square", "image": "/src/assets/images/catalog/catalog-wine-glasses", "width": "674", "height": "674", "alt": "Бокалы с белым, розовым и красным вином на светлом столе", "loading": "lazy", "tag": "Бестселлер"} -->
+          </li>
+          <li class="catalog__item catalog__item--wide">
+            <!-- @include src/partials/product-card.html {"href": "#", "category": "Статуэтка", "title": "Скульптура Daum Рыба Ange Royal Turquoise &amp; Jaune Maya", "price": "1 160 000 ₽", "priceOld": "1 170 000 ₽", "modifier": "product-card--square", "image": "/src/assets/images/catalog/catalog-wine-glasses", "width": "674", "height": "674", "alt": "Бокалы с белым, розовым и красным вином на светлом столе", "loading": "lazy", "tag": "Бестселлер"} -->
+          </li>
+          <li class="catalog__item">
+            <!-- @include src/partials/product-card.html {"href": "#", "category": "Статуэтка", "title": "Скульптура Daum Рыба Ange Royal Turquoise &amp; Jaune Maya", "price": "1 160 000 ₽", "priceOld": "1 170 000 ₽", "image": "/src/assets/images/catalog/catalog-oysters", "width": "445", "height": "460", "alt": "Устрицы на тарелках с золотым узором и хрустальные бокалы на зелёной скатерти", "loading": "lazy"} -->
+          </li>
+          <li class="catalog__item">
+            <!-- @include src/partials/product-card.html {"href": "#", "category": "Статуэтка", "title": "Скульптура Daum Рыба Ange Royal Turquoise &amp; Jaune Maya", "price": "1 160 000 ₽", "priceOld": "1 170 000 ₽", "image": "/src/assets/images/catalog/catalog-watch", "width": "445", "height": "460", "alt": "Часы с зелёным ремешком на запястье, рукав оранжевого пальто", "loading": "lazy"} -->
+          </li>
+          <li class="catalog__item">
+            <!-- @include src/partials/product-card.html {"href": "#", "category": "Статуэтка", "title": "Скульптура Daum Рыба Ange Royal Turquoise &amp; Jaune Maya", "price": "1 160 000 ₽", "priceOld": "1 170 000 ₽", "image": "/src/assets/images/catalog/catalog-table-setting", "width": "445", "height": "460", "alt": "Сервировка стола: чаша-цветок, розовые бокалы и серебряное ведёрко", "loading": "lazy"} -->
+          </li>
+          <li class="catalog__item catalog__item--wide">
+            <!-- @include src/partials/product-card.html {"href": "#", "category": "Статуэтка", "title": "Скульптура Daum Рыба Ange Royal Turquoise &amp; Jaune Maya", "price": "1 160 000 ₽", "priceOld": "1 170 000 ₽", "modifier": "product-card--square", "image": "/src/assets/images/catalog/catalog-wine-glasses", "width": "674", "height": "674", "alt": "Бокалы с белым, розовым и красным вином на светлом столе", "loading": "lazy", "tag": "Бестселлер"} -->
+          </li>
+          <li class="catalog__item catalog__item--wide">
+            <!-- @include src/partials/product-card.html {"href": "#", "category": "Статуэтка", "title": "Скульптура Daum Рыба Ange Royal Turquoise &amp; Jaune Maya", "price": "1 160 000 ₽", "priceOld": "1 170 000 ₽", "modifier": "product-card--square", "image": "/src/assets/images/catalog/catalog-wine-glasses", "width": "674", "height": "674", "alt": "Бокалы с белым, розовым и красным вином на светлом столе", "loading": "lazy", "tag": "Бестселлер"} -->
+          </li>
+          <li class="catalog__item">
+            <!-- @include src/partials/product-card.html {"href": "#", "category": "Статуэтка", "title": "Скульптура Daum Рыба Ange Royal Turquoise &amp; Jaune Maya", "price": "1 160 000 ₽", "priceOld": "1 170 000 ₽", "image": "/src/assets/images/catalog/catalog-oysters", "width": "445", "height": "460", "alt": "Устрицы на тарелках с золотым узором и хрустальные бокалы на зелёной скатерти", "loading": "lazy"} -->
+          </li>
+          <li class="catalog__item">
+            <!-- @include src/partials/product-card.html {"href": "#", "category": "Статуэтка", "title": "Скульптура Daum Рыба Ange Royal Turquoise &amp; Jaune Maya", "price": "1 160 000 ₽", "priceOld": "1 170 000 ₽", "image": "/src/assets/images/catalog/catalog-watch", "width": "445", "height": "460", "alt": "Часы с зелёным ремешком на запястье, рукав оранжевого пальто", "loading": "lazy"} -->
+          </li>
+          <li class="catalog__item">
+            <!-- @include src/partials/product-card.html {"href": "#", "category": "Статуэтка", "title": "Скульптура Daum Рыба Ange Royal Turquoise &amp; Jaune Maya", "price": "1 160 000 ₽", "priceOld": "1 170 000 ₽", "image": "/src/assets/images/catalog/catalog-table-setting", "width": "445", "height": "460", "alt": "Сервировка стола: чаша-цветок, розовые бокалы и серебряное ведёрко", "loading": "lazy"} -->
+          </li>
+        </ul>
+      </div>
+
+      <nav class="pagination" aria-label="Страницы каталога">
+        <a class="pagination__arrow" href="#" aria-label="Предыдущая страница" aria-disabled="true">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+            <path d="M17.5469 19.92L14.2869 16.66C13.9019 16.275 13.9019 15.645 14.2869 15.26L17.5469 12" stroke="currentColor" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </a>
+        <ul class="pagination__pages">
+          <li><a class="pagination__page" href="#" aria-current="page">1</a></li>
+          <li><a class="pagination__page" href="#">2</a></li>
+          <li><a class="pagination__page" href="#">3</a></li>
+          <li><a class="pagination__page" href="#">4</a></li>
+          <li><a class="pagination__page" href="#">5</a></li>
+          <li><a class="pagination__page" href="#">6</a></li>
+          <li><span class="pagination__page pagination__page--dots">...</span></li>
+          <li><a class="pagination__page" href="#">10</a></li>
+        </ul>
+        <a class="pagination__arrow pagination__arrow--next" href="#" aria-label="Следующая страница">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+            <path d="M17.5469 19.92L14.2869 16.66C13.9019 16.275 13.9019 15.645 14.2869 15.26L17.5469 12" stroke="currentColor" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </a>
+      </nav>
+    </main>
+
+    <!-- @include src/partials/footer.html -->
+    <!-- @include src/partials/filters.html -->
+  </body>
+</html>

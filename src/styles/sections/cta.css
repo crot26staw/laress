@@ -47,3 +47,8 @@
 .cta__button {
   --button-color: var(--color-brown-dark);
 }
+
+/* Без внешних отступов — вплотную к футеру (страница «Все бренды», 966:42748) */
+.cta--flush {
+  padding-block: 0;
+}

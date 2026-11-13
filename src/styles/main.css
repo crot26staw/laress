@@ -12,6 +12,9 @@
 @import "./components/section-heading.css";
 @import "./components/tag.css";
 @import "./components/product-card.css";
+@import "./components/breadcrumbs.css";
+@import "./components/choice.css";
+@import "./components/pagination.css";
 
 /* Sections */
 @import "./sections/announcement.css";
@@ -28,3 +31,6 @@
 @import "./sections/cta.css";
 @import "./sections/contacts.css";
 @import "./sections/footer.css";
+@import "./sections/catalog.css";
+@import "./sections/filters.css";
+@import "./sections/brands-index.css";

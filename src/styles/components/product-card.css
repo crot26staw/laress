@@ -114,7 +114,13 @@
 }
 
 .product-card__price-old {
+  line-height: 23px; /* в Figma старая цена — группа 93×23 (текст + линия), строка цен выходит 23px */
   color: var(--color-beige);
   text-decoration: line-through;
   text-decoration-thickness: 1px;
+}
+
+/* Квадратное фото — широкие карточки в сетке каталога (674×674) */
+.product-card--square .product-card__media {
+  aspect-ratio: 1;
 }

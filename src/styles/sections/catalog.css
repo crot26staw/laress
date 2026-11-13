@@ -1,0 +1,64 @@
+/* Страница «Каталог» (966:47214): заголовок, кнопки фильтров и сортировки, сетка карточек, пагинация. */
+
+.catalog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-40);
+  padding-top: var(--space-40);
+  padding-bottom: var(--space-70);
+}
+
+.catalog__content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-12);
+  width: 100%;
+}
+
+.catalog__toolbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* «Фильтры» и «Сортировать»: обводка акцентом 50%, обычный текст (14/20) */
+.catalog__control {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-8);
+  padding: 14px var(--space-20);
+  border-radius: var(--radius-s);
+  box-shadow: inset 0 0 0 1px var(--color-accent-50);
+  font-size: var(--font-size-16);
+  line-height: var(--line-height-tight);
+  color: var(--color-black);
+  transition:
+    color var(--transition),
+    box-shadow var(--transition);
+}
+
+.catalog__control:hover {
+  color: var(--color-accent);
+  box-shadow: inset 0 0 0 1px var(--color-accent);
+}
+
+.catalog__control-icon {
+  flex-shrink: 0;
+  width: 12px;
+  height: 12px;
+}
+
+/* Сетка: 6 колонок — обычная карточка занимает 2 (3 в ряд), широкая — 3 (2 в ряд) */
+.catalog__grid {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: var(--space-24) var(--space-12);
+}
+
+.catalog__item {
+  grid-column: span 2;
+}
+
+.catalog__item--wide {
+  grid-column: span 3;
+}

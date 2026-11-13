@@ -1,0 +1,72 @@
+/* Пагинация — «Pagination» (966:47418). */
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-20);
+}
+
+.pagination__arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius-s);
+  box-shadow: inset 0 0 0 1px var(--color-accent-50);
+  color: var(--color-black);
+  transition:
+    color var(--transition),
+    box-shadow var(--transition);
+}
+
+.pagination__arrow svg {
+  width: 32px;
+  height: 32px;
+}
+
+.pagination__arrow--next svg {
+  transform: scaleX(-1);
+}
+
+.pagination__arrow:hover {
+  color: var(--color-accent);
+  box-shadow: inset 0 0 0 1px var(--color-accent);
+}
+
+.pagination__arrow[aria-disabled="true"] {
+  pointer-events: none;
+}
+
+.pagination__pages {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+}
+
+.pagination__page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  font-size: var(--font-size-16);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-tight);
+  letter-spacing: -0.03em;
+  color: var(--color-graphite);
+  transition:
+    color var(--transition),
+    background-color var(--transition);
+}
+
+a.pagination__page:hover {
+  color: var(--color-accent);
+}
+
+.pagination__page[aria-current="page"] {
+  background-color: var(--color-accent);
+  color: var(--color-white);
+  pointer-events: none;
+}

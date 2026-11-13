@@ -1,6 +1,8 @@
 // Сверка вёрстки с эталоном из Figma.
 // npm run compare -- --ref .figma/screenshots/home-01-hero_966-41554.png --name hero [--url http://localhost:5173/] [--y 0] [--selector .hero]
 //   [--ref-y 1900 --ref-h 860]  — вырезать полосу из полного эталона страницы
+//   [--ref-x 0 --ref-w 440]     — сравнивать только полосу по горизонтали (например, панель поверх затемнённой страницы)
+//   [--open .button]            — кликнуть перед снимком (модалки, панели); снимается окно высотой --viewport-h (по умолчанию = высоте полосы)
 // Печатает % отличий и лучший вертикальный сдвиг эталона (±4px). Норма: ≤ ~2% при сдвиге 0–2px
 // (остаток — сглаживание текста). Больше — смотреть <name>-diff.png и <name>-side.png.
 // Снимает страницу при ширине эталона, вырезает область той же высоты и кладёт в .compare/:
@@ -20,6 +22,10 @@ const { values: args } = parseArgs({
     threshold: { type: 'string', default: '40' }, // порог отличия канала 0–255
     'ref-y': { type: 'string', default: '0' }, // вырезать из эталона полосу с этого Y (для полного скриншота страницы)
     'ref-h': { type: 'string' }, // высота полосы эталона (по умолчанию — до конца)
+    'ref-x': { type: 'string', default: '0' },
+    'ref-w': { type: 'string' },
+    open: { type: 'string' },
+    'viewport-h': { type: 'string' },
     bg: { type: 'string', default: '#fafaf9' }, // подложка под прозрачные места эталона (фон страницы)
   },
 });
@@ -34,16 +40,18 @@ await mkdir(OUT, { recursive: true });
 // Эталон: подложка цвета страницы (секции в Figma часто прозрачные) + вырезка полосы
 const meta = await sharp(args.ref).metadata();
 const refY = Number(args['ref-y']);
-const width = meta.width;
+const fullWidth = meta.width;
+const left = Number(args['ref-x']);
+const width = args['ref-w'] ? Number(args['ref-w']) : fullWidth - left;
 const height = args['ref-h'] ? Number(args['ref-h']) : meta.height - refY;
 const refPng = await sharp(args.ref)
-  .extract({ left: 0, top: refY, width, height })
+  .extract({ left, top: refY, width, height })
   .flatten({ background: args.bg })
   .png()
   .toBuffer();
 
 const browser = await chromium.launch();
-const page = await browser.newPage({ viewport: { width, height: 900 }, deviceScaleFactor: 1 });
+const page = await browser.newPage({ viewport: { width: fullWidth, height: args.open ? Number(args['viewport-h'] ?? height) : 900 }, deviceScaleFactor: 1 });
 await page.goto(args.url, { waitUntil: 'networkidle' });
 // Ленивые картинки: прокрутить страницу, чтобы всё загрузилось
 await page.evaluate(async () => {
@@ -57,7 +65,13 @@ if (args.selector) {
   top = await page.$eval(args.selector, (el) => el.getBoundingClientRect().top + window.scrollY);
 }
 const sitePath = `${OUT}/${args.name}-site.png`;
-await page.screenshot({ path: sitePath, fullPage: true, clip: { x: 0, y: top, width, height } });
+if (args.open) {
+  await page.click(args.open);
+  await page.waitForTimeout(500); // анимация появления
+  await page.screenshot({ path: sitePath, clip: { x: left, y: top, width, height } });
+} else {
+  await page.screenshot({ path: sitePath, fullPage: true, clip: { x: left, y: top, width, height } });
+}
 await browser.close();
 
 const refRaw = await sharp(refPng).removeAlpha().raw().toBuffer();
@@ -109,7 +123,7 @@ const PAD = 4;
 const extTop = Math.max(0, refY - PAD);
 const extBottom = Math.min(meta.height, refY + height + PAD);
 const ext = await sharp(args.ref)
-  .extract({ left: 0, top: extTop, width, height: extBottom - extTop })
+  .extract({ left, top: extTop, width, height: extBottom - extTop })
   .flatten({ background: args.bg })
   .removeAlpha()
   .raw()

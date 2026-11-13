@@ -1,0 +1,26 @@
+/* Хлебные крошки — «Breadcrumbs» в шапке страниц каталога (966:47218). */
+
+.breadcrumbs__list {
+  display: flex;
+  gap: var(--space-8);
+  font-size: var(--font-size-14);
+  line-height: var(--line-height-tight);
+  color: var(--color-accent);
+}
+
+.breadcrumbs__item {
+  display: flex;
+  gap: var(--space-8);
+}
+
+.breadcrumbs__item + .breadcrumbs__item::before {
+  content: "/";
+}
+
+.breadcrumbs__link {
+  transition: color var(--transition);
+}
+
+.breadcrumbs__link:hover {
+  color: var(--color-accent-hover);
+}

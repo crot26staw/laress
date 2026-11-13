@@ -1,0 +1,27 @@
+<!-- Карточка товара «Item Card/Desktop». Станет template-parts/product-card.php.
+     Параметры: modifier (product-card--square), href, image (путь без расширения: .webp + .jpg), width, height, alt, loading (lazy|eager),
+     tag (необязательно), category, title, price, priceOld (необязательно). -->
+<article class="product-card {{modifier}}">
+  <div class="product-card__media">
+    <picture>
+      <source srcset="{{image}}.webp" type="image/webp" />
+      <img class="product-card__image" src="{{image}}.jpg" width="{{width}}" height="{{height}}" alt="{{alt}}" loading="{{loading}}" />
+    </picture>
+  </div>
+  {{#if tag}}<span class="tag product-card__tag">{{tag}}</span>{{/if}}
+  <button class="product-card__wishlist" type="button" aria-label="Добавить в избранное" aria-pressed="false">
+    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+      <path d="M7.21688 16.1999C5.05354 13.2665 5.77465 8.86642 9.38022 7.39973C12.9858 5.93305 15.1491 8.86642 15.8702 10.3331C16.5914 8.86642 19.4758 5.93305 23.0814 7.39973C26.687 8.86642 26.687 13.2665 24.5236 16.1999C22.3603 19.1332 15.8702 25 15.8702 25C15.8702 25 9.38022 19.1332 7.21688 16.1999Z" stroke-linecap="round" stroke-linejoin="round" />
+    </svg>
+  </button>
+  <div class="product-card__body">
+    <div class="product-card__text">
+      <p class="product-card__category">{{category}}</p>
+      <h3 class="product-card__title"><a class="product-card__link" href="{{href}}">{{title}}</a></h3>
+    </div>
+    <p class="product-card__prices">
+      <span class="product-card__price">{{price}}</span>
+      {{#if priceOld}}<s class="product-card__price-old"><span class="visually-hidden">Старая цена: </span>{{priceOld}}</s>{{/if}}
+    </p>
+  </div>
+</article>

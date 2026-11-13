@@ -1,21 +1,176 @@
 {
-  "$comment": "Секции страниц для пакетной сверки: npm run compare:page -- <страница> [--scale 1920]. ref — полный эталон страницы из .figma/screenshots/, refY/refH — полоса секции в нём (px макета 1440), selector — элемент на сайте (без selector — сверху страницы).",
+  "$comment": "Секции страниц для пакетной сверки: npm run compare:page -- <страница> [--scale 1920]. ref — полный эталон страницы из .figma/screenshots/, refY/refH — полоса секции в нём (px макета 1440), selector — элемент на сайте (без selector — сверху страницы). Для состояний: ref — свой эталон, open — что кликнуть перед снимком (снимается окно высотой viewportH), refX/refW — сравнить только полосу по горизонтали.",
   "home": {
     "url": "http://localhost:5173/",
     "ref": ".figma/screenshots/home_966-41553.png",
     "sections": [
-      { "name": "hero", "refY": 0, "refH": 850 },
-      { "name": "about", "selector": ".about", "refY": 851, "refH": 1048 },
-      { "name": "gifts", "selector": ".showcase--filled", "refY": 1899, "refH": 860 },
-      { "name": "order", "selector": ".showcase--reverse", "refY": 2759, "refH": 860 },
-      { "name": "categories", "selector": ".categories", "refY": 3620, "refH": 801 },
-      { "name": "products", "selector": ".products", "refY": 4421, "refH": 930 },
-      { "name": "brands", "selector": ".brands", "refY": 5353, "refH": 909 },
-      { "name": "designers", "selector": ".designers", "refY": 6261, "refH": 860 },
-      { "name": "blog", "selector": ".blog", "refY": 7122, "refH": 1043 },
-      { "name": "cta", "selector": ".cta", "refY": 8165, "refH": 860 },
-      { "name": "contacts", "selector": ".contacts", "refY": 9025, "refH": 580 },
-      { "name": "footer", "selector": ".footer", "refY": 9605, "refH": 525 }
+      {
+        "name": "hero",
+        "refY": 0,
+        "refH": 850
+      },
+      {
+        "name": "about",
+        "selector": ".about",
+        "refY": 851,
+        "refH": 1048
+      },
+      {
+        "name": "gifts",
+        "selector": ".showcase--filled",
+        "refY": 1899,
+        "refH": 860
+      },
+      {
+        "name": "order",
+        "selector": ".showcase--reverse",
+        "refY": 2759,
+        "refH": 860
+      },
+      {
+        "name": "categories",
+        "selector": ".categories",
+        "refY": 3620,
+        "refH": 801
+      },
+      {
+        "name": "products",
+        "selector": ".products",
+        "refY": 4421,
+        "refH": 930
+      },
+      {
+        "name": "brands",
+        "selector": ".brands",
+        "refY": 5353,
+        "refH": 909
+      },
+      {
+        "name": "designers",
+        "selector": ".designers",
+        "refY": 6261,
+        "refH": 860
+      },
+      {
+        "name": "blog",
+        "selector": ".blog",
+        "refY": 7122,
+        "refH": 1043
+      },
+      {
+        "name": "cta",
+        "selector": ".cta",
+        "refY": 8165,
+        "refH": 860
+      },
+      {
+        "name": "contacts",
+        "selector": ".contacts",
+        "refY": 9025,
+        "refH": 580
+      },
+      {
+        "name": "footer",
+        "selector": ".footer",
+        "refY": 9605,
+        "refH": 525
+      }
+    ]
+  },
+  "catalog": {
+    "url": "http://localhost:5173/catalog.html",
+    "ref": ".figma/screenshots/catalog_966-47214.png",
+    "sections": [
+      {
+        "name": "header",
+        "refY": 0,
+        "refH": 131
+      },
+      {
+        "name": "heading",
+        "selector": ".catalog > .section-heading",
+        "refY": 172,
+        "refH": 126
+      },
+      {
+        "name": "grid",
+        "selector": ".catalog__content",
+        "refY": 338,
+        "refH": 3425
+      },
+      {
+        "name": "pagination",
+        "selector": ".pagination",
+        "refY": 3808,
+        "refH": 40
+      },
+      {
+        "name": "footer",
+        "selector": ".footer",
+        "refY": 3918,
+        "refH": 526
+      },
+      {
+        "name": "filters-all",
+        "ref": ".figma/screenshots/catalog-filters-all_966-42754.png",
+        "open": "[data-filters-open]",
+        "refY": 0,
+        "refH": 1298,
+        "viewportH": 1298,
+        "refX": 0,
+        "refW": 440
+      },
+      {
+        "name": "filters-one-screen",
+        "ref": ".figma/screenshots/catalog-filters-one-screen_966-42996.png",
+        "open": "[data-filters-open]",
+        "refY": 0,
+        "refH": 800,
+        "viewportH": 800,
+        "refX": 0,
+        "refW": 440
+      }
+    ]
+  },
+  "brands": {
+    "url": "http://localhost:5173/brands.html",
+    "ref": ".figma/screenshots/catalog-all-brands_966-42575.png",
+    "sections": [
+      {
+        "name": "header",
+        "refY": 0,
+        "refH": 131
+      },
+      {
+        "name": "heading",
+        "selector": ".brands-index > .section-heading",
+        "refY": 172,
+        "refH": 126
+      },
+      {
+        "name": "toolbar",
+        "selector": ".brands-index__toolbar",
+        "refY": 337,
+        "refH": 56
+      },
+      {
+        "name": "list",
+        "selector": ".brands-index__columns",
+        "refY": 433,
+        "refH": 1786
+      },
+      {
+        "name": "cta",
+        "selector": ".cta",
+        "refY": 2289,
+        "refH": 720
+      },
+      {
+        "name": "footer",
+        "selector": ".footer",
+        "refY": 3009,
+        "refH": 526
+      }
     ]
   }
 }

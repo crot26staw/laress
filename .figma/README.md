@@ -85,7 +85,13 @@
 | `assets-src/images/common/` | logo-full.png (растр, SVG нет), footer-rating.png (рейтинг Яндекса) |
 | `assets-src/images/home/` | 26 фото главной |
 | `assets-src/images/nav/` | 6 баннеров выпадающего меню (440×264) |
-| `assets-src/images/catalog/` | 19 карточек каталога (заглушки товаров; 05, 06, 11 — большие промо-карточки) + фон блока брендов |
+| `assets-src/images/catalog/` | `catalog-item-01…19` — фото карточек из старых вариантов фреймов каталога (331×331, в вёрстке не используются); `catalog-oysters`, `catalog-watch`, `catalog-table-setting` (445×460), `catalog-wine-glasses` (674×674) — карточки актуального фрейма «Каталог», выгружены 2026-11-13 по nodeId 966:47246 / 47259 / 47272 / 47286; `catalog-brands-bottom-bg` — фон CTA на «Все бренды» (imageRef a532f01d, оригинал в Figma всего 610×610, большего нет) |
 | `assets-src/images/product/` | подушка Cartier (2 фото), лого Cartier (2), промо Hermès, 4 «похожих товара». Блок «Дизайнерам» на странице товара = home/designers.png |
 | `assets-src/images/gift-card/` | 3 изображения сертификата |
 | `src/assets/icons/` | 30 SVG. Нарисованы вручную по образцу icon-vk (в макете их нет): icon-telegram-square.svg, icon-whatsapp-square.svg (глиф WhatsApp — Material Design Icons, Apache 2.0). Из Figma — 28: шапка, слайдеры, аккордеон, поиск, сортировка, пагинация, telegram, vk, share, Яндекс Сплит, 7 иконок оплаты (из UI Kit, состояние Default), logo-mark.svg — вектор знака логотипа |
+
+## Каталог — секции для сверки (`sections.json` → `catalog`, `brands`)
+
+- «Каталог» (catalog.html): header, heading, grid, pagination, footer + панель фильтров в двух состояниях (`filters-all`, `filters-one-screen`; открывается кликом, сравнивается полоса 0–440px — фон под затемнением в эталонах от старой версии каталога).
+- «Все бренды» (brands.html): header, heading, toolbar, list, cta, footer.
+- Шапка в эталонах каталога — старый вариант (без корзины, фон #FBFBFB); в вёрстке — актуальная белая шапка с корзиной, как во фреймах «Навигация / …» и «Фильтры на одном экране».

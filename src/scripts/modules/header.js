@@ -83,13 +83,23 @@ export function initHeader() {
 
   overlay?.addEventListener('click', close);
 
-  // Компактная шапка: включается, когда полная шапка ушла за верх экрана
+  // Компактная шапка: включается, когда полная шапка ушла за верх экрана.
+  // Обычная шапка стоит в потоке (прозрачная на главной — поверх фото), поэтому, когда она становится fixed,
+  // сохраняем её высоту отступом у body — иначе страница прыгнет вверх.
+  const inFlow = getComputedStyle(header).position !== 'absolute';
   let threshold = 0;
+  let fullHeight = 0;
+  const reserveSpace = (compact) => {
+    if (inFlow) document.body.style.paddingTop = compact ? `${fullHeight}px` : '';
+  };
   const measure = () => {
     const wasCompact = header.classList.contains('header--compact');
     header.classList.remove('header--compact');
+    reserveSpace(false);
+    fullHeight = header.offsetHeight;
     threshold = header.getBoundingClientRect().bottom + window.scrollY;
     header.classList.toggle('header--compact', wasCompact);
+    reserveSpace(wasCompact);
   };
 
   const updateCompact = () => {
@@ -97,6 +107,7 @@ export function initHeader() {
     if (compact === header.classList.contains('header--compact')) return;
     close();
     header.classList.toggle('header--compact', compact);
+    reserveSpace(compact);
     lockWidths();
   };
 

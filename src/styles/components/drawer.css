@@ -1,0 +1,68 @@
+/* Боковая панель справа — «Conditions Popup» (966:47845): 440px на всю высоту экрана.
+   Нативный <dialog>, открывается кнопкой [data-dialog-open="id"] (scripts/modules/dialog.js). */
+
+.drawer {
+  position: fixed;
+  inset: 0 0 0 auto;
+  width: 440px;
+  max-width: none;
+  height: 100%;
+  max-height: none;
+  margin: 0;
+  padding: var(--space-32);
+  border: 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  background-color: var(--color-surface);
+  color: var(--color-black);
+}
+
+.drawer[open] {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-32);
+  animation: drawer-slide-in 0.3s ease;
+}
+
+.drawer::backdrop {
+  background-color: var(--color-overlay-50);
+}
+
+@keyframes drawer-slide-in {
+  from {
+    transform: translateX(100%);
+  }
+}
+
+.drawer__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-16);
+}
+
+.drawer__close {
+  display: flex;
+  flex-shrink: 0;
+  color: var(--color-accent);
+  transition: color var(--transition);
+}
+
+.drawer__close:hover {
+  color: var(--color-accent-hover);
+}
+
+.drawer__close svg {
+  width: 24px;
+  height: 24px;
+}
+
+.drawer__text {
+  display: flex;
+  flex-direction: column;
+  gap: 14px; /* абзацы в эталоне через 14px (строки по 18px) */
+  font-size: var(--font-size-14);
+  line-height: 18px; /* 14 × 1.25 = 17.5 — Figma рисует строки с шагом 18px */
+  letter-spacing: -0.02em;
+  color: var(--color-text-90);
+}

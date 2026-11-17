@@ -51,6 +51,7 @@ for (const s of page.sections) {
     '--ref-h', String(Math.round(s.refH * k)),
   ];
   if (s.selector) args.push('--selector', s.selector);
+  if (s.y !== undefined) args.push('--y', String(Math.round(s.y * k)));
   if (s.refX !== undefined) args.push('--ref-x', String(Math.round(s.refX * k)));
   if (s.refW !== undefined) args.push('--ref-w', String(Math.round(s.refW * k)));
   if (s.open) args.push('--open', s.open);

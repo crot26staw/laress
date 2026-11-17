@@ -1,0 +1,115 @@
+/* Подарочная карта (966:47440): блок «Gift Card» (966:47462) и «Часто задаваемые вопросы» (966:47482). */
+
+/* Фото 672×630 и бежевая панель 672×630, между ними 16px (space-between в 1360) */
+.gift-card {
+  display: flex;
+  justify-content: space-between;
+  height: 700px;
+  padding-bottom: var(--space-70);
+}
+
+.gift-card__image {
+  display: block;
+  width: 672px;
+  height: 100%;
+  object-fit: cover;
+  background-color: var(--color-placeholder);
+}
+
+.gift-card picture {
+  display: block;
+  height: 100%;
+}
+
+.gift-card__panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 672px;
+  padding: var(--space-32);
+  background-color: var(--color-cream);
+}
+
+.gift-card__types {
+  display: flex;
+  gap: 10px;
+  align-self: stretch;
+}
+
+.gift-card__amount {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-24);
+  width: 446px;
+}
+
+.gift-card__title {
+  font-size: var(--font-size-28);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-tight);
+  letter-spacing: -0.02em;
+  text-align: center;
+}
+
+.gift-card__amount-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.gift-card__amount-body .field {
+  align-self: stretch;
+}
+
+.gift-card__presets {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px;
+  width: 392px;
+}
+
+.gift-card__actions {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-16);
+  align-self: stretch;
+}
+
+/* «Купить» — паддинги 20/24 (у базовой кнопки 16/24) */
+.gift-card__submit {
+  padding-block: var(--space-20);
+}
+
+.gift-card__terms-link {
+  align-self: center;
+  font-size: var(--font-size-16);
+  line-height: var(--line-height-tight);
+  color: var(--color-accent);
+  text-decoration: underline;
+  transition: color var(--transition);
+}
+
+.gift-card__terms-link:hover {
+  color: var(--color-accent-hover);
+}
+
+/* FAQ: заголовок 780, список 1130 по центру */
+.faq {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-24);
+  padding-top: var(--space-70);
+  padding-bottom: var(--space-70);
+}
+
+.faq__title {
+  text-align: center;
+}
+
+.faq__list {
+  width: 1130px;
+}

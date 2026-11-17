@@ -37,3 +37,7 @@
 .page-intro__text--580 {
   max-width: 580px; /* Доставка и оплата */
 }
+
+.page-intro__text--center {
+  text-align: center; /* Подарочная карта: текст отдельно от заголовка, через 24px */
+}

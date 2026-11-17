@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Подарочная карта — Luvr</title>
+    <meta name="description" content="Подарочный сертификат Luvr: пластиковая или виртуальная карта на сумму от 100 000 ₽ на посуду, декор, текстиль и аксессуары премиальных брендов." />
+    <link rel="preload" href="/src/assets/fonts/hauora-regular.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/src/assets/fonts/hauora-medium.woff2" as="font" type="font/woff2" crossorigin />
+    <script type="module" src="/src/scripts/main.js"></script>
+  </head>
+  <body class="page-surface">
+    <!-- @include src/partials/header.html -->
+
+    <main>
+      <div class="page-intro container">
+        <div class="section-heading">
+          <nav class="breadcrumbs" aria-label="Хлебные крошки">
+            <ol class="breadcrumbs__list">
+              <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="/">Главная</a></li>
+              <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="/gift-card.html" aria-current="page">Подарочная карта</a></li>
+            </ol>
+          </nav>
+          <div class="ornament" aria-hidden="true">
+            <span class="ornament__line"></span>
+            <img class="ornament__mark" src="/src/assets/icons/logo-mark.svg" width="37" height="34" alt="" />
+            <span class="ornament__line"></span>
+          </div>
+          <h1 class="text-h2">Подарочная карта</h1>
+        </div>
+        <p class="page-intro__text page-intro__text--580 page-intro__text--center">Подарочный сертификат Luvr&nbsp;— способ подарить выбор. Получатель сможет выбрать посуду, декор, текстиль или аксессуары премиальных брендов на&nbsp;сумму сертификата</p>
+      </div>
+
+      <section class="gift-card container" aria-label="Покупка подарочной карты">
+        <picture>
+          <source srcset="/src/assets/images/gift-card/gift-card-hero.webp" type="image/webp" />
+          <img class="gift-card__image" src="/src/assets/images/gift-card/gift-card-hero.jpg" width="672" height="630" alt="Две пары рук передают подарочную коробку с бордовой бархатной лентой" />
+        </picture>
+
+        <!-- Выбор карты и суммы. Отправка ведёт на оформление заказа; в WordPress — добавление товара в корзину. -->
+        <form class="gift-card__panel" action="/gift-card-checkout.html" method="get" data-gift-card>
+          <fieldset class="gift-card__types">
+            <legend class="visually-hidden">Тип карты</legend>
+            <label class="option-tab option-tab--fill option-tab--center">
+              <input class="visually-hidden" type="radio" name="card_type" value="plastic" checked />
+              Пластиковая
+            </label>
+            <label class="option-tab option-tab--fill option-tab--center">
+              <input class="visually-hidden" type="radio" name="card_type" value="virtual" />
+              Виртуальная
+            </label>
+          </fieldset>
+
+          <div class="gift-card__amount">
+            <h2 class="gift-card__title" id="gift-card-amount-title">Выберите сумму подарка</h2>
+            <div class="gift-card__amount-body">
+              <label class="field field--labeled">
+                <span class="field__label">Сумма подарка</span>
+                <input class="field__input" type="text" name="amount" value="100 000 ₽" inputmode="numeric" autocomplete="off" required data-gift-card-amount />
+              </label>
+              <ul class="gift-card__presets" aria-label="Быстрый выбор суммы">
+                <li><button class="option-tab option-tab--s" type="button" data-gift-card-preset="500000">500 000 ₽</button></li>
+                <li><button class="option-tab option-tab--s" type="button" data-gift-card-preset="1000000">1 000 000 ₽</button></li>
+                <li><button class="option-tab option-tab--s" type="button" data-gift-card-preset="3000000">3 000 000 ₽</button></li>
+                <li><button class="option-tab option-tab--s" type="button" data-gift-card-preset="5000000">5 000 000 ₽</button></li>
+                <li><button class="option-tab option-tab--s" type="button" data-gift-card-preset="10000000">10 000 000 ₽</button></li>
+                <li><button class="option-tab option-tab--s" type="button" data-gift-card-preset="20000000">20 000 000 ₽</button></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="gift-card__actions">
+            <button class="button button--primary gift-card__submit" type="submit">Купить</button>
+            <button class="gift-card__terms-link" type="button" data-dialog-open="gift-card-terms">Условия использования сертификата</button>
+          </div>
+        </form>
+      </section>
+
+      <section class="faq container" aria-labelledby="faq-title">
+        <h2 class="text-h2 faq__title" id="faq-title">Часто задаваемые вопросы</h2>
+        <!-- Ответы есть в макете только у первого вопроса, остальные — заглушки до текстов от заказчика -->
+        <div class="accordion accordion--faq faq__list">
+          <details class="accordion__item" open>
+            <summary class="accordion__summary">
+              <h3 class="accordion__title">Какой номинал можно выбрать?</h3>
+              <svg class="accordion__icon" width="24" height="24" viewBox="-3 -3 24 24" fill="none" aria-hidden="true"><path d="M5.004 7.504L8.294 10.794C8.682 11.182 9.318 11.182 9.706 10.794L12.996 7.504" stroke="currentColor" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" /></svg>
+            </summary>
+            <div class="accordion__content">
+              <p>Вы можете выбрать один из предложенных номиналов или указать индивидуальную сумму, если такая возможность предусмотрена на сайте.</p>
+            </div>
+          </details>
+          <details class="accordion__item">
+            <summary class="accordion__summary">
+              <h3 class="accordion__title">Какой срок действия у сертификата?</h3>
+              <svg class="accordion__icon" width="24" height="24" viewBox="-3 -3 24 24" fill="none" aria-hidden="true"><path d="M5.004 7.504L8.294 10.794C8.682 11.182 9.318 11.182 9.706 10.794L12.996 7.504" stroke="currentColor" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" /></svg>
+            </summary>
+            <div class="accordion__content">
+              <p>Ответ уточняется.</p>
+            </div>
+          </details>
+          <details class="accordion__item">
+            <summary class="accordion__summary">
+              <h3 class="accordion__title">Можно ли оплатить сертификатом часть покупки?</h3>
+              <svg class="accordion__icon" width="24" height="24" viewBox="-3 -3 24 24" fill="none" aria-hidden="true"><path d="M5.004 7.504L8.294 10.794C8.682 11.182 9.318 11.182 9.706 10.794L12.996 7.504" stroke="currentColor" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" /></svg>
+            </summary>
+            <div class="accordion__content">
+              <p>Ответ уточняется.</p>
+            </div>
+          </details>
+          <details class="accordion__item">
+            <summary class="accordion__summary">
+              <h3 class="accordion__title">Как узнать баланс сертификата?</h3>
+              <svg class="accordion__icon" width="24" height="24" viewBox="-3 -3 24 24" fill="none" aria-hidden="true"><path d="M5.004 7.504L8.294 10.794C8.682 11.182 9.318 11.182 9.706 10.794L12.996 7.504" stroke="currentColor" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" /></svg>
+            </summary>
+            <div class="accordion__content">
+              <p>Ответ уточняется.</p>
+            </div>
+          </details>
+          <details class="accordion__item">
+            <summary class="accordion__summary">
+              <h3 class="accordion__title">Какой срок действия у сертификата?</h3>
+              <svg class="accordion__icon" width="24" height="24" viewBox="-3 -3 24 24" fill="none" aria-hidden="true"><path d="M5.004 7.504L8.294 10.794C8.682 11.182 9.318 11.182 9.706 10.794L12.996 7.504" stroke="currentColor" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" /></svg>
+            </summary>
+            <div class="accordion__content">
+              <p>Ответ уточняется.</p>
+            </div>
+          </details>
+          <details class="accordion__item">
+            <summary class="accordion__summary">
+              <h3 class="accordion__title">Можно ли оплатить сертификатом часть покупки?</h3>
+              <svg class="accordion__icon" width="24" height="24" viewBox="-3 -3 24 24" fill="none" aria-hidden="true"><path d="M5.004 7.504L8.294 10.794C8.682 11.182 9.318 11.182 9.706 10.794L12.996 7.504" stroke="currentColor" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" /></svg>
+            </summary>
+            <div class="accordion__content">
+              <p>Ответ уточняется.</p>
+            </div>
+          </details>
+          <details class="accordion__item">
+            <summary class="accordion__summary">
+              <h3 class="accordion__title">Что делать, если карта повреждена?</h3>
+              <svg class="accordion__icon" width="24" height="24" viewBox="-3 -3 24 24" fill="none" aria-hidden="true"><path d="M5.004 7.504L8.294 10.794C8.682 11.182 9.318 11.182 9.706 10.794L12.996 7.504" stroke="currentColor" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" /></svg>
+            </summary>
+            <div class="accordion__content">
+              <p>Ответ уточняется.</p>
+            </div>
+          </details>
+        </div>
+      </section>
+    </main>
+
+    <!-- @include src/partials/footer.html -->
+    <!-- @include src/partials/gift-card-terms.html -->
+  </body>
+</html>

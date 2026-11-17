@@ -1,5 +1,5 @@
 {
-  "$comment": "Секции страниц для пакетной сверки: npm run compare:page -- <страница> [--scale 1920]. ref — полный эталон страницы из .figma/screenshots/, refY/refH — полоса секции в нём (px макета 1440), selector — элемент на сайте (без selector — сверху страницы). Для состояний: ref — свой эталон, open — что кликнуть перед снимком (снимается окно высотой viewportH), refX/refW — сравнить только полосу по горизонтали.",
+  "$comment": "Секции страниц для пакетной сверки: npm run compare:page -- <страница> [--scale 1920]. ref — полный эталон страницы из .figma/screenshots/, refY/refH — полоса секции в нём (px макета 1440), selector — элемент на сайте (без selector — сверху страницы). Для состояний: ref — свой эталон, open — что кликнуть перед снимком (снимается окно высотой viewportH), refX/refW — сравнить только полосу по горизонтали, y — с какого Y снимать сайт (без selector).",
   "home": {
     "url": "http://localhost:5173/",
     "ref": ".figma/screenshots/home_966-41553.png",
@@ -452,6 +452,17 @@
         "selector": ".footer",
         "refY": 5341,
         "refH": 525
+      },
+      {
+        "name": "order-modal",
+        "ref": ".figma/screenshots/checkout-modal-empty_966-43813.png",
+        "open": "[data-dialog-open=\"order-modal\"]",
+        "refY": 163,
+        "refH": 474,
+        "viewportH": 800,
+        "refX": 470,
+        "refW": 500,
+        "y": 163
       }
     ]
   },
@@ -522,6 +533,84 @@
         "selector": ".footer",
         "refY": 3594,
         "refH": 526
+      }
+    ]
+  },
+  "gift-card": {
+    "url": "http://localhost:5173/gift-card.html",
+    "ref": ".figma/screenshots/gift-card_966-47440.png",
+    "sections": [
+      {
+        "name": "header",
+        "refY": 0,
+        "refH": 131
+      },
+      {
+        "name": "intro",
+        "selector": ".page-intro",
+        "refY": 131,
+        "refH": 320
+      },
+      {
+        "name": "card",
+        "selector": ".gift-card",
+        "refY": 451,
+        "refH": 700
+      },
+      {
+        "name": "faq",
+        "selector": ".faq",
+        "refY": 1151,
+        "refH": 695
+      },
+      {
+        "name": "footer",
+        "selector": ".footer",
+        "refY": 1846,
+        "refH": 526
+      },
+      {
+        "name": "terms",
+        "ref": ".figma/screenshots/gift-card-terms_966-47720.png",
+        "open": "[data-dialog-open=\"gift-card-terms\"]",
+        "refY": 0,
+        "refH": 800,
+        "viewportH": 800,
+        "refX": 1000,
+        "refW": 440
+      }
+    ]
+  },
+  "gift-card-checkout": {
+    "url": "http://localhost:5173/gift-card-checkout.html",
+    "ref": ".figma/screenshots/gift-card-plastic_966-47642.png",
+    "sections": [
+      {
+        "name": "intro",
+        "selector": ".checkout-intro",
+        "refY": 131,
+        "refH": 96
+      },
+      {
+        "name": "courier",
+        "selector": ".checkout",
+        "refY": 227,
+        "refH": 844
+      },
+      {
+        "name": "footer",
+        "selector": ".footer",
+        "refY": 1071,
+        "refH": 526
+      },
+      {
+        "name": "pickup",
+        "ref": ".figma/screenshots/gift-card-virtual_966-47566.png",
+        "selector": ".checkout",
+        "open": "label:has([value=\"pickup\"])",
+        "refY": 227,
+        "refH": 774,
+        "viewportH": 1527
       }
     ]
   }

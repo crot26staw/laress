@@ -79,3 +79,30 @@
 .accordion__link:hover {
   color: var(--color-accent);
 }
+
+/* FAQ подарочной карты (966:47484): без фона, иконка 24px,
+   у первого вопроса сверху 18px, между вопросом и ответом 12px */
+.accordion--faq {
+  background-color: transparent;
+}
+
+.accordion--faq .accordion__summary {
+  align-items: flex-start; /* вопрос прижат к верху строки высотой 24px (по иконке) */
+}
+
+.accordion--faq .accordion__item:first-child .accordion__summary {
+  padding-top: 18px;
+}
+
+.accordion--faq .accordion__item[open] .accordion__summary {
+  padding-bottom: var(--space-12);
+}
+
+.accordion--faq .accordion__icon {
+  width: 24px;
+  height: 24px;
+}
+
+.accordion--faq .accordion__content p {
+  max-width: 550px;
+}

@@ -8,6 +8,10 @@ import { initWishlist } from './modules/wishlist.js';
 import { initFilters } from './modules/filters.js';
 import { initBrandsSearch } from './modules/brands-search.js';
 import { initProductDescription } from './modules/product-description.js';
+import { initDialogs } from './modules/dialog.js';
+import { initGiftCard } from './modules/gift-card.js';
+import { initCheckout } from './modules/checkout.js';
+import { initOrderModal } from './modules/order-modal.js';
 
 initAnnouncement();
 initHeader();
@@ -18,3 +22,7 @@ initWishlist();
 initFilters();
 initBrandsSearch();
 initProductDescription();
+initDialogs();
+initGiftCard();
+initCheckout();
+initOrderModal();

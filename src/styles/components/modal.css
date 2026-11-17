@@ -1,0 +1,136 @@
+/* Модалка по центру экрана — «Оформление заказа» (966:44219) и «Заказ успешно оформлен» (966:45061).
+   <dialog> на весь экран, панель 500px по центру, крестик 37×37 в правом верхнем углу экрана (40px от краёв). */
+
+.modal {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  max-width: none;
+  height: 100%;
+  max-height: none;
+  margin: 0;
+  padding: var(--space-40);
+  border: 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  background-color: transparent;
+  color: var(--color-black);
+}
+
+.modal[open] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: modal-fade-in 0.2s ease;
+}
+
+.modal::backdrop {
+  background-color: var(--color-overlay);
+}
+
+@keyframes modal-fade-in {
+  from {
+    opacity: 0;
+  }
+}
+
+.modal__close {
+  position: fixed;
+  top: var(--space-40);
+  right: 40.5px; /* 1440 − 1362.5 − 37 */
+  display: flex;
+  color: var(--color-white);
+  transition: color var(--transition);
+}
+
+.modal__close:hover {
+  color: var(--color-white-60);
+}
+
+.modal__close svg {
+  width: 37px;
+  height: 37px;
+}
+
+.modal__panel {
+  width: 500px;
+  margin: auto; /* по центру, а если выше экрана — прокрутка без обрезки сверху */
+  background-color: var(--color-surface);
+}
+
+.modal__view[hidden] {
+  display: none;
+}
+
+.modal__content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-28);
+  padding: var(--space-32) var(--space-32) 0;
+}
+
+.modal__content--center {
+  align-items: center;
+  gap: var(--space-24);
+  text-align: center;
+}
+
+.modal__title {
+  font-size: var(--font-size-28);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-tight);
+  letter-spacing: -0.02em;
+  text-align: center;
+}
+
+.modal__form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.modal__fields {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.modal__consent {
+  width: 340px;
+}
+
+.modal__actions {
+  display: flex;
+  flex-direction: column;
+  padding: var(--space-24) var(--space-32) var(--space-32);
+}
+
+/* Кнопка высотой 60px (в Figma фиксированная высота при паддингах 16/24) */
+.modal__button {
+  height: 60px;
+}
+
+.modal__text-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-12);
+}
+
+.modal__text {
+  max-width: 270px;
+  font-size: var(--font-size-16);
+  line-height: var(--line-height-text);
+  color: var(--color-text-90);
+}
+
+.modal__success-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background-color: var(--color-success);
+  color: var(--color-white);
+}

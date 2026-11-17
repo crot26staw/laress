@@ -1,0 +1,205 @@
+/* Оформление заказа подарочной карты — «Подарочная карта / Пластиковая» (966:47642, курьер)
+   и «… / Виртуальная» (966:47566, самовывоз). Слева форма 780px, справа сводка заказа. */
+
+.checkout-intro {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding-top: 30px;
+}
+
+.checkout {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-20);
+  padding-top: var(--space-40);
+  padding-bottom: var(--space-40);
+}
+
+.checkout__main {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-28);
+  width: 780px;
+  flex-shrink: 0;
+}
+
+.checkout__delivery,
+.checkout__panel {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.checkout__panel[hidden] {
+  display: none;
+}
+
+/* Группа: заголовок и содержимое через 16px. */
+.checkout__group {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-16);
+}
+
+.checkout__legend,
+.checkout__label {
+  float: left; /* плавающий <legend> становится обычным flex-элементом и получает gap */
+  padding: 0;
+}
+
+.checkout__label {
+  font-size: var(--font-size-16);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-snug);
+  letter-spacing: -0.01em;
+  color: var(--color-text-90);
+}
+
+.checkout__rows {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.checkout__row {
+  display: flex;
+  gap: 10px;
+}
+
+/* Даты и время: вкладки по содержимому через 8px, ряды — через 14px */
+.checkout__slots {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.checkout__row--slots {
+  flex-wrap: wrap;
+  gap: var(--space-8);
+}
+
+.checkout__row--fields {
+  gap: var(--space-12);
+}
+
+.checkout__row--fields .field {
+  flex: 1;
+  min-width: 0;
+}
+
+/* Адрес бутика при самовывозе — на месте поля адреса, с линией снизу */
+.checkout__pickup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: var(--space-4);
+  height: 56px;
+  padding: 0 var(--space-2) 10px;
+  box-shadow: inset 0 -1px 0 var(--color-text-15);
+}
+
+.checkout__notes {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.checkout__note {
+  font-size: var(--font-size-14);
+  line-height: var(--line-height-text);
+  color: var(--color-text-60);
+}
+
+/* Правая колонка: сводка и подтверждение через 10px */
+.checkout__aside {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 10px;
+  min-width: 0;
+}
+
+.checkout__confirm {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-16);
+  padding: var(--space-24);
+  border-radius: 6px;
+  background-color: var(--color-white);
+}
+
+/* Сводка заказа */
+.order-summary {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-28);
+  padding: var(--space-28);
+  background-color: var(--color-white);
+}
+
+.order-summary__item {
+  display: flex;
+  gap: var(--space-12);
+}
+
+.order-summary__image {
+  display: block;
+  width: 189px;
+  height: 120px;
+  object-fit: cover;
+}
+
+.order-summary__info {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: var(--space-8);
+  min-width: 0;
+  padding-block: var(--space-2);
+}
+
+.order-summary__head {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--space-8);
+}
+
+.order-summary__name {
+  font-size: var(--font-size-18);
+  font-weight: var(--font-weight-medium);
+  line-height: 1.1;
+  color: var(--color-ink);
+}
+
+.order-summary__price {
+  flex-shrink: 0;
+  font-size: var(--font-size-16);
+  font-weight: var(--font-weight-medium);
+  line-height: 1;
+}
+
+.order-summary__meta {
+  font-size: var(--font-size-14);
+  line-height: var(--line-height-text);
+  color: var(--color-ink-50);
+}
+
+/* «Итого»: линия 1px и строка через 20px. В макете шрифт Inter — у нас только Hauora. */
+.order-summary__total {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: var(--space-20);
+  border-top: 1px solid var(--color-divider);
+  font-size: var(--font-size-16);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-text);
+  color: var(--color-ink-strong);
+}
+
+.order-summary__total-value {
+  font-size: var(--font-size-18);
+  font-weight: var(--font-weight-semibold);
+  line-height: 1.2;
+}

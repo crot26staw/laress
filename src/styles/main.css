@@ -18,6 +18,11 @@
 @import "./components/info-card.css";
 @import "./components/specs.css";
 @import "./components/accordion.css";
+@import "./components/option-tab.css";
+@import "./components/field.css";
+@import "./components/checkbox.css";
+@import "./components/drawer.css";
+@import "./components/modal.css";
 
 /* Sections */
 @import "./sections/announcement.css";
@@ -47,3 +52,5 @@
 @import "./sections/brand-story.css";
 @import "./sections/articles.css";
 @import "./sections/article.css";
+@import "./sections/gift-card.css";
+@import "./sections/checkout.css";

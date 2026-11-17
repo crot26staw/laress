@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Контакты — Luvr</title>
+    <meta name="description" content="Телефон, email, адрес и режим работы Luvr в Москве, реквизиты ООО «Ларес» и соцсети." />
+    <link rel="preload" href="/src/assets/fonts/hauora-regular.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/src/assets/fonts/hauora-medium.woff2" as="font" type="font/woff2" crossorigin />
+    <script type="module" src="/src/scripts/main.js"></script>
+  </head>
+  <body class="page-surface">
+    <!-- @include src/partials/header.html -->
+
+    <main>
+      <div class="page-intro container">
+        <div class="section-heading">
+          <nav class="breadcrumbs" aria-label="Хлебные крошки">
+            <ol class="breadcrumbs__list">
+              <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="/">Главная</a></li>
+              <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="/contacts.html" aria-current="page">Контакты</a></li>
+            </ol>
+          </nav>
+          <div class="ornament" aria-hidden="true">
+            <span class="ornament__line"></span>
+            <img class="ornament__mark" src="/src/assets/icons/logo-mark.svg" width="37" height="34" alt="" />
+            <span class="ornament__line"></span>
+          </div>
+          <h1 class="text-h2">контакты Luvr</h1>
+        </div>
+      </div>
+
+      <section class="contact-info container" aria-label="Контакты и реквизиты">
+        <dl class="contact-info__requisites">
+          <div class="contact-info__item">
+            <dt class="contact-info__label">Реквизиты</dt>
+            <dd class="contact-info__value contact-info__value--text">
+              <p>ООО "ЛАРЕС"</p>
+              <p>ИНН: 7701404621<br />ОГРН: 1147746931023<br />Расчетный счет: 40702810401500022911<br />Банк: ООО "Банк Точка"<br />БИК: 044525104<br />Корр. счет: 30101810745374525104</p>
+            </dd>
+          </div>
+        </dl>
+
+        <div class="contact-info__aside">
+          <dl class="contact-info__list">
+            <div class="contact-info__item">
+              <dt class="contact-info__label">Телефон</dt>
+              <dd class="contact-info__value"><a href="tel:+79776208885">+7 977 620 88 85</a></dd>
+            </div>
+            <div class="contact-info__item">
+              <dt class="contact-info__label">Адрес</dt>
+              <dd class="contact-info__value">Москва, ул. Новослободская, 50/1с2</dd>
+            </div>
+            <div class="contact-info__item">
+              <dt class="contact-info__label">Email</dt>
+              <dd class="contact-info__value"><a href="mailto:luvrseo@gmail.com">luvrseo@gmail.com</a></dd>
+            </div>
+            <div class="contact-info__item">
+              <dt class="contact-info__label">Режим работы</dt>
+              <dd class="contact-info__value">Пн—Вс 10:00 – 22:00</dd>
+            </div>
+          </dl>
+
+          <ul class="contact-info__socials" aria-label="Мы в соцсетях">
+            <li>
+              <a class="contact-info__social" href="#" aria-label="ВКонтакте">
+                <img src="/src/assets/icons/icon-vk.svg" width="40" height="40" alt="" />
+              </a>
+            </li>
+            <li>
+              <a class="contact-info__social" href="#" aria-label="Telegram">
+                <img src="/src/assets/icons/icon-telegram-square.svg" width="40" height="40" alt="" />
+              </a>
+            </li>
+            <li>
+              <a class="contact-info__social" href="#" aria-label="WhatsApp">
+                <img src="/src/assets/icons/icon-whatsapp-square.svg" width="40" height="40" alt="" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="cta cta--flush cta--shaded" aria-labelledby="cta-title">
+        <div class="cta__inner">
+          <div class="cta__media">
+            <picture>
+              <source srcset="/src/assets/images/contacts/contacts-cta-bg.webp" type="image/webp" />
+              <img class="cta__image" src="/src/assets/images/contacts/contacts-cta-bg.jpg" width="928" height="464" alt="Подушка с терракотовым тканым узором" loading="lazy" />
+            </picture>
+          </div>
+          <div class="cta__content">
+            <div class="cta__text-group">
+              <h2 class="text-h2" id="cta-title">Поможем с выбором и заказом</h2>
+              <p class="cta__text">Напишите нам, если хотите уточнить наличие, комплектацию, упаковку, доставку или подобрать изделие под конкретный запрос</p>
+            </div>
+            <a class="button button--secondary cta__button" href="#">Связаться с нами</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- @include src/partials/footer.html -->
+  </body>
+</html>

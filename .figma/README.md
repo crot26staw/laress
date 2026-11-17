@@ -121,15 +121,16 @@
 | `assets-src/images/about/` | hero 1440×600, 4 категории (331×440), подбор: большое 660×700 и малое 230×300, «Оригинальные изделия» 244×314. CTA — то же фото, что на главной (`home/cta-bg`, imageRef 3588afd2) |
 | `assets-src/images/designers/` | hero 1440×600, 3 категории (445×440), «Подборки»: 660×700 и 230×300, «Оригинальные» 244×314, Hero 5: 714×700 и 242×284, `designers-cta-bg` (исходник по imageRef, 2000×2000) |
 | `assets-src/images/delivery/` | `delivery-crystal` 710×720, `delivery-cta-bg` (исходник по imageRef, 1023×1537) |
-| `assets-src/images/contacts/` | `contacts-cta-bg` (исходник по imageRef, 1023×1537; градиент поверх — кодом) |
+| `assets-src/images/contacts/` | `contacts-cta-bg` — исходник по imageRef 8140187d (1023×1537), 2026-11-17 обрезан по cropTransform заливки до 928×464 (x 0, y 385): в макете виден только кадр с верхней подушкой, растянутый до 1440×720. Градиент поверх — кодом (`.cta--shaded`) |
 | `assets-src/images/vacancies/` | `vacancies-cta-bg` (исходник по imageRef, 1536×1024) |
 | `src/assets/icons/icon-whatsapp.svg` | глиф WhatsApp из кнопки «Откликнуться» (966:48422), SVGO |
 
 Фоны CTA — исходники без текста (imageRef). Они меньше 2880px по ширине: на retina будут мягче остальных фото, а `delivery`/`contacts` (портрет 1023px) растягиваются даже на 1x. В «Доставке» плашка QR (966:48293) — заливка акцентом без картинки, ассета нет.
 
-### Сверка информационных страниц (`sections.json` → `about`, `designers`, `delivery`, `vacancies`, `vacancy-sales-manager`)
+### Сверка информационных страниц (`sections.json` → `about`, `designers`, `delivery`, `contacts`, `vacancies`, `vacancy-sales-manager`)
 
 - «Доставка и оплата» (delivery.html): header, intro, cards, payment, cta, footer. Плашка QR — заливка акцентом, как в макете (настоящего QR-кода в Figma нет).
+- «Контакты» (contacts.html, 2026-11-17): header, intro, info, cta, footer. Блок — `.contact-info` (подписи акцентным цветом, в отличие от «Контактов» на главной; line-height подписей 18px, как в Figma).
 - «Вакансии» (vacancies.html): header, intro, list, cta, footer.
 - «Менеджер по продажам» (vacancy-sales-manager.html): header, intro, cards, cta, footer. CTA «Хотите работать в Luvr?» общий — партиал cta-careers.
 

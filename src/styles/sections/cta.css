@@ -72,3 +72,11 @@
 .cta__phone:hover {
   color: var(--color-white-80);
 }
+
+/* Затемнение слева сверху поверх фото («Контакты», 966:48351) */
+.cta--shaded .cta__media::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(142deg, var(--color-black-30) 17%, transparent 64%);
+}

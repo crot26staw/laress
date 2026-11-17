@@ -1,0 +1,75 @@
+/* «Контакты» (966:48303): реквизиты слева, контакты и соцсети справа (966:48324). */
+
+.contact-info {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: var(--space-70);
+}
+
+.contact-info__requisites {
+  flex: 1;
+}
+
+.contact-info__aside {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-32);
+  width: 674px;
+}
+
+/* Телефон / Адрес, Email / Режим работы: колонки 217px и по содержимому, gap 32px 12px */
+.contact-info__list {
+  display: grid;
+  grid-template-columns: 217px auto;
+  justify-content: start;
+  gap: var(--space-32) var(--space-12);
+}
+
+.contact-info__item {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.contact-info__label {
+  font-size: var(--font-size-14);
+  font-weight: var(--font-weight-bold);
+  line-height: 18px; /* Figma рисует 14px × 1.25 с шагом 18px */
+  color: var(--color-accent);
+}
+
+.contact-info__value {
+  font-size: var(--font-size-16);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-snug);
+  color: var(--color-text-90);
+}
+
+/* Реквизиты: абзацы с paragraphSpacing 14px */
+.contact-info__value--text p + p {
+  margin-top: 14px;
+}
+
+.contact-info__value a {
+  transition: color var(--transition);
+}
+
+.contact-info__value a:hover {
+  color: var(--color-accent);
+}
+
+.contact-info__socials {
+  display: flex;
+  gap: var(--space-8);
+}
+
+.contact-info__social {
+  display: block;
+  width: 40px;
+  height: 40px;
+  transition: opacity var(--transition);
+}
+
+.contact-info__social:hover {
+  opacity: 0.8;
+}

@@ -326,6 +326,41 @@
       }
     ]
   },
+  "contacts": {
+    "url": "http://localhost:5173/contacts.html",
+    "ref": ".figma/screenshots/contacts_966-48303.png",
+    "sections": [
+      {
+        "name": "header",
+        "refY": 0,
+        "refH": 131
+      },
+      {
+        "name": "intro",
+        "selector": ".page-intro",
+        "refY": 131,
+        "refH": 236
+      },
+      {
+        "name": "info",
+        "selector": ".contact-info",
+        "refY": 367,
+        "refH": 259
+      },
+      {
+        "name": "cta",
+        "selector": ".cta",
+        "refY": 626,
+        "refH": 720
+      },
+      {
+        "name": "footer",
+        "selector": ".footer",
+        "refY": 1346,
+        "refH": 526
+      }
+    ]
+  },
   "vacancies": {
     "url": "http://localhost:5173/vacancies.html",
     "ref": ".figma/screenshots/vacancies_966-48357.png",

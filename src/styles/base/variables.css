@@ -27,6 +27,9 @@
   --color-heading: #101c2a; /* заголовки разделов личного кабинета */
   --color-line-light: #ebebeb; /* обводки и разделители личного кабинета */
   --color-label: #b5b9bd; /* подписи полей в профиле */
+  --color-line-soft: #e7e8ea; /* разделители в списке заказов */
+  --color-status-progress: #e3aa00; /* статус «Доставляется» */
+  --color-status-cancelled: #ef1818; /* статус «Заказ отменен» */
 
   /* Цвета: текст и линии на светлом фоне */
   --color-text: var(--color-black);

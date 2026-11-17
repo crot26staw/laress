@@ -1,10 +1,10 @@
 /* Личный кабинет (966:40942): каркас «меню | разделитель | контент», боковое меню, «Профиль» (966:40943). */
 
-/* Каркас: padding 40px 20px, между меню, разделителем и контентом — 20px */
+/* Каркас: padding 40px 20px, между меню, разделителем и контентом — 10px (в фрейме «Профиль» 20px — решено брать 10, как в остальных) */
 .account {
   display: flex;
   align-items: flex-start;
-  gap: var(--space-20);
+  gap: 10px;
   max-width: var(--container-width);
   margin-inline: auto;
   padding: var(--space-40) var(--space-20);
@@ -269,5 +269,140 @@
 }
 
 .profile__stat dt {
+  color: var(--color-text-60);
+}
+
+/* ——— Мои заказы (966:41052) ——— */
+
+/* Контент списка заказов: padding и gap 24px (в «Профиле» — 32px) */
+.account__content--compact {
+  gap: var(--space-24);
+  padding: var(--space-24);
+}
+
+.account__title {
+  color: var(--color-heading);
+}
+
+/* Перед каждым заказом — линия 1px #E7E8EA, отступы 24px */
+.orders {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-24);
+}
+
+.orders > li {
+  padding-top: var(--space-24);
+  border-top: 1px solid var(--color-line-soft);
+}
+
+.order-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-16);
+}
+
+.order-card__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  gap: var(--space-16);
+}
+
+.order-card__title-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.order-card__title {
+  color: var(--color-heading);
+}
+
+.order-card__link {
+  transition: color var(--transition);
+}
+
+.order-card__link:hover {
+  color: var(--color-accent);
+}
+
+.order-card__date {
+  font-size: var(--font-size-16);
+  line-height: var(--line-height-text);
+  color: var(--color-text-60);
+}
+
+.order-card__items {
+  display: flex;
+  gap: var(--space-12);
+}
+
+.order-card__image {
+  display: block;
+  width: 120px;
+  height: 140px;
+  object-fit: cover;
+}
+
+/* «Общая сумма»: рамка 1px rgba(0,0,0,.15) снаружи паддингов 10/12 — в эталоне плашка 43px высотой */
+.order-card__total {
+  padding: 10px var(--space-12);
+  border: 1px solid var(--color-text-15);
+  font-size: var(--font-size-16);
+  line-height: var(--line-height-text);
+  color: var(--color-text-90);
+}
+
+/* Статус заказа: плашка 7/10, белая обводка 1px внутрь */
+.order-status {
+  flex-shrink: 0;
+  padding: 7px 10px;
+  font-size: var(--font-size-14);
+  line-height: var(--line-height-text);
+  color: var(--color-white);
+  box-shadow: inset 0 0 0 1px var(--color-white);
+}
+
+.order-status--delivered {
+  background-color: var(--color-success);
+}
+
+.order-status--shipping {
+  background-color: var(--color-status-progress);
+}
+
+.order-status--cancelled {
+  background-color: var(--color-status-cancelled);
+}
+
+/* ——— Пустой список (966:41028) ——— */
+
+.account__content--empty {
+  justify-content: center;
+  align-items: center;
+  height: 346px;
+}
+
+.empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+  width: 590px;
+  text-align: center;
+}
+
+.empty-state__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.empty-state__note {
+  max-width: 360px;
   color: var(--color-text-60);
 }

@@ -671,5 +671,51 @@
         "refH": 525
       }
     ]
+  },
+  "account-orders": {
+    "url": "http://localhost:5173/account-orders.html",
+    "ref": ".figma/screenshots/account-orders_966-41052.png",
+    "sections": [
+      {
+        "name": "header",
+        "refY": 0,
+        "refH": 131
+      },
+      {
+        "name": "list",
+        "selector": ".account",
+        "refY": 132,
+        "refH": 1113
+      },
+      {
+        "name": "footer",
+        "selector": ".footer",
+        "refY": 1245,
+        "refH": 525
+      }
+    ]
+  },
+  "account-orders-empty": {
+    "url": "http://localhost:5173/account-orders-empty.html",
+    "ref": ".figma/screenshots/account-orders-empty_966-41028.png",
+    "sections": [
+      {
+        "name": "header",
+        "refY": 0,
+        "refH": 131
+      },
+      {
+        "name": "empty",
+        "selector": ".account",
+        "refY": 132,
+        "refH": 460
+      },
+      {
+        "name": "footer",
+        "selector": ".footer",
+        "refY": 592,
+        "refH": 525
+      }
+    ]
   }
 }

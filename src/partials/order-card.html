@@ -1,0 +1,20 @@
+<!-- Карточка заказа в «Мои заказы» (966:41074). Параметры: number, date, status (текст), state — delivered | shipping | cancelled,
+     total, href (детали заказа), image (путь без расширения: .webp + .jpg), alt. Миниатюры товаров — <li> в цикле; в макете у каждого заказа одна. -->
+<article class="order-card">
+  <header class="order-card__head">
+    <div class="order-card__title-group">
+      <h2 class="text-h3 order-card__title"><a class="order-card__link" href="{{href}}">Заказ №{{number}}</a></h2>
+      <p class="order-card__date">{{date}}</p>
+    </div>
+    <p class="order-status order-status--{{state}}">{{status}}</p>
+  </header>
+  <ul class="order-card__items">
+    <li>
+      <picture>
+        <source srcset="{{image}}.webp" type="image/webp" />
+        <img class="order-card__image" src="{{image}}.jpg" width="120" height="140" alt="{{alt}}" loading="lazy" />
+      </picture>
+    </li>
+  </ul>
+  <p class="order-card__total">Общая сумма: {{total}}</p>
+</article>

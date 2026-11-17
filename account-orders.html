@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Мои заказы — личный кабинет Luvr</title>
+    <meta name="robots" content="noindex" />
+    <link rel="preload" href="/src/assets/fonts/hauora-regular.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/src/assets/fonts/hauora-medium.woff2" as="font" type="font/woff2" crossorigin />
+    <script type="module" src="/src/scripts/main.js"></script>
+  </head>
+  <body class="page-surface">
+    <!-- @include src/partials/header.html {"loggedIn": true} -->
+
+    <main class="account">
+      <!-- @include src/partials/account-nav.html {"orders": true} -->
+
+      <div class="account__content account__content--compact">
+        <h1 class="text-h2 account__title">Мои заказы</h1>
+        <ul class="orders">
+          <li><!-- @include src/partials/order-card.html {"number":"2659544","href":"#","image":"/src/assets/images/account/order-item-vase","alt":"Красная хрустальная ваза с белыми орхидеями","date":"до 21 мая","status":"Доставлен","state":"delivered","total":"21 222 788 ₽"} --></li>
+          <li><!-- @include src/partials/order-card.html {"number":"2659544","href":"#","image":"/src/assets/images/account/order-item-vase","alt":"Красная хрустальная ваза с белыми орхидеями","date":"27 апреля","status":"Доставляется","state":"shipping","total":"1 222 788 ₽"} --></li>
+          <li><!-- @include src/partials/order-card.html {"number":"2659544","href":"#","image":"/src/assets/images/account/order-item-vase","alt":"Красная хрустальная ваза с белыми орхидеями","date":"25.05.2024","status":"Заказ отменен","state":"cancelled","total":"7 121 788 ₽"} --></li>
+        </ul>
+      </div>
+    </main>
+
+    <!-- @include src/partials/footer.html {"modifier": "footer--bordered"} -->
+  </body>
+</html>

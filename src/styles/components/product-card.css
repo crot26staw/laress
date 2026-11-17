@@ -124,3 +124,27 @@
 .product-card--square .product-card__media {
   aspect-ratio: 1;
 }
+
+/* Компактная карточка 220×250 (детали заказа, 966:41454): отступы 8/6/6, сердечко в углу */
+.product-card--compact {
+  gap: var(--space-8);
+}
+
+.product-card--compact .product-card__media {
+  aspect-ratio: 220 / 250;
+}
+
+.product-card--compact .product-card__text,
+.product-card--compact .product-card__body {
+  gap: 6px;
+}
+
+.product-card--compact .product-card__wishlist {
+  top: 0;
+  right: 0;
+}
+
+/* Figma рисует 18px × 1.25 с шагом строк 23px (а не 22.5) — у трёхстрочного названия это 1.5px */
+.product-card--compact .product-card__title {
+  line-height: 23px;
+}

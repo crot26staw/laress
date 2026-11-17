@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Настройки — личный кабинет Luvr</title>
+    <meta name="robots" content="noindex" />
+    <link rel="preload" href="/src/assets/fonts/hauora-regular.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/src/assets/fonts/hauora-medium.woff2" as="font" type="font/woff2" crossorigin />
+    <script type="module" src="/src/scripts/main.js"></script>
+  </head>
+  <body class="page-surface">
+    <!-- @include src/partials/header.html {"loggedIn": true} -->
+
+    <main class="account">
+      <!-- @include src/partials/account-nav.html {"settings": true} -->
+
+      <div class="account__content account__content--bare">
+        <h1 class="settings__title">Изменить пароль</h1>
+        <form class="settings__form" action="#" method="post">
+          <div class="form-field">
+            <label class="field field--float">
+              <input class="field__input" type="tel" name="phone" placeholder=" " autocomplete="tel" required />
+              <span class="field__label">Телефон</span>
+            </label>
+          </div>
+          <!-- @include src/partials/password-field.html {"id":"old-password","name":"old_password","label":"Старый пароль","autocomplete":"current-password"} -->
+          <!-- @include src/partials/password-field.html {"id":"new-password","name":"new_password","label":"Новый пароль","autocomplete":"new-password"} -->
+          <!-- @include src/partials/password-field.html {"id":"repeat-password","name":"repeat_password","label":"Повторите пароль","autocomplete":"new-password"} -->
+          <button class="button button--primary settings__submit" type="submit">Изменить пароль</button>
+        </form>
+      </div>
+    </main>
+
+    <!-- @include src/partials/toast.html {"title": "Пароль успешно изменен", "text": "Если вы не меняли пароль - обратитесь в поддержку"} -->
+
+    <!-- @include src/partials/footer.html {"modifier": "footer--bordered"} -->
+  </body>
+</html>

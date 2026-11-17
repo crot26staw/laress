@@ -23,6 +23,7 @@
 @import "./components/checkbox.css";
 @import "./components/drawer.css";
 @import "./components/modal.css";
+@import "./components/toast.css";
 
 /* Sections */
 @import "./sections/announcement.css";

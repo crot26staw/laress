@@ -73,3 +73,84 @@
   color: var(--color-text-60);
   pointer-events: none;
 }
+
+/* Поле пароля «Input-password» (966:41190): подпись 10px над точками, справа «очистить | показать» */
+.field--password {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-8);
+  padding: 0 var(--space-16);
+}
+
+.field__body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: var(--space-2);
+  min-width: 0;
+}
+
+.field--password .field__label {
+  font-size: 10px;
+  line-height: 1;
+}
+
+/* Скрытый пароль — точки 6px с шагом 12px, строка 22px: «•» Hauora 26px = точка 6px, шаг 17px → letter-spacing −5px */
+.field--password .field__input[type="password"] {
+  height: 22px;
+  font-size: 26px;
+  line-height: 22px;
+  letter-spacing: -5px;
+}
+
+.field__actions {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  gap: var(--space-8);
+}
+
+/* Пустое поле — без кнопок */
+.field--password:has(.field__input:placeholder-shown) .field__actions {
+  visibility: hidden;
+}
+
+.field__action {
+  display: flex;
+  border-radius: var(--radius-s);
+  transition: opacity var(--transition);
+}
+
+.field__action:hover {
+  opacity: 0.6;
+}
+
+.field__action[aria-pressed="true"] {
+  opacity: 0.5;
+}
+
+/* Линия 1px #B5B9BD между «очистить» и «показать»: в Figma блок 25px (иконка 16 + 8 + линия) — тот же шаг 8px */
+.field__divider {
+  width: 1px;
+  height: 16px;
+  background-color: var(--color-label);
+}
+
+/* Обёртка поля с сообщением об ошибке (966:41216): рамка #A50206, текст 12px под полем через 4px */
+.form-field {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.form-field--invalid .field {
+  box-shadow: inset 0 0 0 1px var(--color-error);
+}
+
+.form-field__error {
+  padding: 0 var(--space-12);
+  font-size: var(--font-size-12);
+  line-height: 12px;
+  color: var(--color-error);
+}

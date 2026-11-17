@@ -12,6 +12,8 @@ import { initDialogs } from './modules/dialog.js';
 import { initGiftCard } from './modules/gift-card.js';
 import { initCheckout } from './modules/checkout.js';
 import { initOrderModal } from './modules/order-modal.js';
+import { initPasswordFields } from './modules/password-field.js';
+import { initToasts } from './modules/toast.js';
 
 initAnnouncement();
 initHeader();
@@ -26,3 +28,5 @@ initDialogs();
 initGiftCard();
 initCheckout();
 initOrderModal();
+initPasswordFields();
+initToasts();

@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Заказ №2659544 — личный кабинет Luvr</title>
+    <meta name="robots" content="noindex" />
+    <link rel="preload" href="/src/assets/fonts/hauora-regular.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/src/assets/fonts/hauora-medium.woff2" as="font" type="font/woff2" crossorigin />
+    <script type="module" src="/src/scripts/main.js"></script>
+  </head>
+  <body class="page-surface">
+    <!-- @include src/partials/header.html {"loggedIn": true} -->
+
+    <main class="account">
+      <!-- @include src/partials/account-nav.html {"orders": true} -->
+
+      <div class="account__content account__content--stack">
+        <section class="order" aria-labelledby="order-title">
+          <header class="order__head">
+            <div class="order__title-group">
+              <a class="order__back" href="/account-orders.html" aria-label="Назад к списку заказов">
+                <svg width="44" height="44" viewBox="0 0 44 44" fill="none" aria-hidden="true"><path stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" d="m24.06 16.72-4.346 4.347a.88.88 0 0 0 0 1.867l4.347 4.346" /></svg>
+              </a>
+              <h1 class="text-h3 order__title" id="order-title">Заказ №2659544</h1>
+            </div>
+            <p class="order-status order-status--s order-status--delivered">Доставлен</p>
+          </header>
+          <h2 class="visually-hidden">Товары в заказе</h2>
+          <ul class="order__items">
+              <li><!-- @include src/partials/product-card.html {"modifier":"product-card--compact","href":"#","category":"Статуэтка","title":"Скульптура Daum Рыба Ange Royal Turquoise &amp; Jaune Maya","price":"1 160 000 ₽","priceOld":"1 170 000 ₽","image":"/src/assets/images/account/order-detail-oysters","width":"220","height":"250","alt":"Устрицы на тарелках с золотым узором и хрустальные бокалы на зелёной скатерти","loading":"eager"} --></li>
+              <li><!-- @include src/partials/product-card.html {"modifier":"product-card--compact","href":"#","category":"Статуэтка","title":"Скульптура Daum Рыба Ange Royal Turquoise &amp; Jaune Maya","price":"1 160 000 ₽","priceOld":"1 170 000 ₽","image":"/src/assets/images/account/order-detail-watch","width":"220","height":"250","alt":"Часы с зелёным ремешком на запястье, рукав оранжевого пальто","loading":"eager"} --></li>
+              <li><!-- @include src/partials/product-card.html {"modifier":"product-card--compact","href":"#","category":"Статуэтка","title":"Скульптура Daum Рыба Ange Royal Turquoise &amp; Jaune Maya","price":"1 160 000 ₽","priceOld":"1 170 000 ₽","image":"/src/assets/images/account/order-detail-butterflies","width":"220","height":"250","alt":"Хрустальные бабочки Baccarat на красных подарочных коробках","loading":"eager","tag":"Бестселлер"} --></li>
+          </ul>
+        </section>
+
+        <section class="order-summary" aria-labelledby="order-summary-title">
+          <h2 class="text-h5" id="order-summary-title">Детали заказа</h2>
+          <dl class="order-summary__list">
+            <div class="order-summary__row">
+              <dt>Товары (2)</dt>
+              <dd>3 550 000&nbsp;₽</dd>
+            </div>
+            <div class="order-summary__row">
+              <dt>Доставка</dt>
+              <dd>0&nbsp;₽</dd>
+            </div>
+            <div class="order-summary__row">
+              <dt>Скидка по карте</dt>
+              <dd>50 000&nbsp;₽</dd>
+            </div>
+            <div class="order-summary__row order-summary__row--total">
+              <dt>Итого</dt>
+              <dd>3 500 000&nbsp;₽</dd>
+            </div>
+          </dl>
+        </section>
+      </div>
+    </main>
+
+    <!-- @include src/partials/footer.html {"modifier": "footer--bordered"} -->
+  </body>
+</html>

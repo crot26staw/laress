@@ -717,5 +717,51 @@
         "refH": 525
       }
     ]
+  },
+  "account-order": {
+    "url": "http://localhost:5173/account-order.html",
+    "ref": ".figma/screenshots/account-order-details_966-41427.png",
+    "sections": [
+      {
+        "name": "header",
+        "refY": 0,
+        "refH": 131
+      },
+      {
+        "name": "order",
+        "selector": ".account",
+        "refY": 132,
+        "refH": 851
+      },
+      {
+        "name": "footer",
+        "selector": ".footer",
+        "refY": 983,
+        "refH": 525
+      }
+    ]
+  },
+  "account-settings": {
+    "url": "http://localhost:5173/account-settings.html",
+    "ref": ".figma/screenshots/account-settings_966-41143.png",
+    "sections": [
+      {
+        "name": "header",
+        "refY": 0,
+        "refH": 131
+      },
+      {
+        "name": "form",
+        "selector": ".account",
+        "refY": 132,
+        "refH": 481
+      },
+      {
+        "name": "footer",
+        "selector": ".footer",
+        "refY": 613,
+        "refH": 525
+      }
+    ]
   }
 }

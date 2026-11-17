@@ -41,7 +41,7 @@
                   <dt class="profile__field-label">ФИО</dt>
                   <dd class="profile__field-value">Соколов Никита Сергеевич</dd>
                 </div>
-                <button class="button button--tertiary-black profile__icon-button" type="button" aria-label="Изменить ФИО">
+                <button class="button button--tertiary-black profile__icon-button" type="button" aria-label="Изменить ФИО" data-dialog-open="profile-edit-name">
                   <!-- @include src/partials/icon-edit.html {"class": "profile__icon"} -->
                 </button>
               </div>
@@ -50,7 +50,7 @@
                   <dt class="profile__field-label">Номер телефона</dt>
                   <dd class="profile__field-value">+7 (900) 000-00-00</dd>
                 </div>
-                <button class="button button--tertiary-black profile__icon-button" type="button" aria-label="Изменить номер телефона">
+                <button class="button button--tertiary-black profile__icon-button" type="button" aria-label="Изменить номер телефона" data-dialog-open="profile-edit-phone">
                   <!-- @include src/partials/icon-edit.html {"class": "profile__icon"} -->
                 </button>
               </div>
@@ -59,7 +59,7 @@
                   <dt class="profile__field-label">E-mail</dt>
                   <dd class="profile__field-value">nekitnekit@mail.ru</dd>
                 </div>
-                <button class="button button--tertiary-black profile__icon-button" type="button" aria-label="Изменить e-mail">
+                <button class="button button--tertiary-black profile__icon-button" type="button" aria-label="Изменить e-mail" data-dialog-open="profile-edit-email">
                   <!-- @include src/partials/icon-edit.html {"class": "profile__icon"} -->
                 </button>
               </div>
@@ -73,7 +73,7 @@
                 <li class="profile__address">
                   <p class="text-t1">г. Москва, ул. Казанская, д6, кв 120</p>
                   <div class="profile__address-actions">
-                    <button class="button button--tertiary-black profile__icon-button" type="button" aria-label="Изменить адрес">
+                    <button class="button button--tertiary-black profile__icon-button" type="button" aria-label="Изменить адрес" data-dialog-open="address-edit">
                       <!-- @include src/partials/icon-edit.html {"class": "profile__icon"} -->
                     </button>
                     <button class="button profile__icon-button profile__icon-button--danger" type="button" aria-label="Удалить адрес">
@@ -82,7 +82,7 @@
                   </div>
                 </li>
               </ul>
-              <button class="button button--tertiary profile__add-button" type="button">
+              <button class="button button--tertiary profile__add-button" type="button" data-dialog-open="address-add">
                 <!-- @include src/partials/icon-add.html {"class": "profile__icon profile__icon--l"} -->
                 Добавить адрес
               </button>
@@ -111,5 +111,12 @@
     </main>
 
     <!-- @include src/partials/footer.html {"modifier": "footer--bordered"} -->
+
+    <!-- @include src/partials/profile-edit-drawer.html {"id": "profile-edit-name", "label": "ФИО", "name": "name", "type": "text", "value": "Соколов Никита Сергеевич", "autocomplete": "name"} -->
+    <!-- @include src/partials/profile-edit-drawer.html {"id": "profile-edit-phone", "label": "Номер телефона", "name": "phone", "type": "tel", "value": "+7 (900) 000-00-00", "autocomplete": "tel"} -->
+    <!-- @include src/partials/profile-edit-drawer.html {"id": "profile-edit-email", "label": "E-mail", "name": "email", "type": "email", "value": "nekitnekit@mail.ru", "autocomplete": "email"} -->
+    <!-- @include src/partials/address-drawer.html {"id": "address-add", "title": "Добавление адреса", "button": "Добавить адрес", "success": "address-added"} -->
+    <!-- @include src/partials/address-drawer.html {"id": "address-edit", "title": "Изменить адрес", "button": "Сохранить", "value": "г. Москва, ул. Казанская, д6, кв 120"} -->
+    <!-- @include src/partials/address-added-modal.html -->
   </body>
 </html>

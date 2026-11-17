@@ -66,3 +66,49 @@
   letter-spacing: -0.02em;
   color: var(--color-text-90);
 }
+
+/* Панель с формой — «Редактировать данные» (966:41335) и «Добавление адреса» (966:41377) в личном кабинете.
+   Отступ сверху 24, заголовок с полями 20 по бокам, под ним через 20px линия #F0F0F0,
+   ниже форма с паддингом 20: поле сверху, кнопка прижата к низу. */
+.drawer--form {
+  padding: var(--space-24) 0 0;
+}
+
+.drawer--form[open] {
+  gap: var(--space-20);
+}
+
+.drawer--form .drawer__header {
+  padding: 0 var(--space-20);
+}
+
+.drawer__title {
+  font-size: var(--font-size-24);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-tight);
+  letter-spacing: -0.02em;
+  color: var(--color-heading);
+}
+
+.drawer--form .drawer__close {
+  color: var(--color-black);
+}
+
+.drawer--form .drawer__close:hover {
+  color: var(--color-accent);
+}
+
+.drawer__form {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: var(--space-20);
+  padding: calc(var(--space-20) + 1px) var(--space-20) var(--space-20); /* +1px — линия сверху */
+  box-shadow: inset 0 1px 0 var(--color-line-faint);
+}
+
+/* Кнопка 59px: паддинги 21/24 в Figma минус рамка 1px */
+.drawer__submit {
+  padding-block: 20px;
+}

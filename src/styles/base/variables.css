@@ -28,6 +28,8 @@
   --color-line-light: #ebebeb; /* обводки и разделители личного кабинета */
   --color-label: #b5b9bd; /* подписи полей в профиле */
   --color-line-soft: #e7e8ea; /* разделители в списке заказов */
+  --color-line-faint: #f0f0f0; /* линия под заголовком панелей ЛК */
+  --color-border-soft: #dcdddf; /* рамка уведомления «Адрес успешно добавлен» */
   --color-status-progress: #e3aa00; /* статус «Доставляется» */
   --color-status-cancelled: #ef1818; /* статус «Заказ отменен» */
 

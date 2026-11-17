@@ -1,0 +1,20 @@
+<!-- Панель «Редактировать данные» (966:41335 во фрейме 966:41307): одно поле и кнопка «Изменить данные».
+     Нативный <dialog class="drawer drawer--form">, открывается кнопкой [data-dialog-open="{{id}}"]; после отправки закрывается (modules/drawer-form.js).
+     Параметры: id, label, name, type, value, autocomplete. Станет template-parts/profile-edit-drawer.php. -->
+<dialog class="drawer drawer--form" id="{{id}}" aria-labelledby="{{id}}-title">
+  <div class="drawer__header">
+    <h2 class="drawer__title" id="{{id}}-title">Редактировать данные</h2>
+    <button class="drawer__close" type="button" aria-label="Закрыть" data-dialog-close>
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <path d="M6 6L12 12M12 12L18 18M12 12L18 6M12 12L6 18" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" />
+      </svg>
+    </button>
+  </div>
+  <form class="drawer__form" action="" method="post" data-drawer-form>
+    <label class="field">
+      <span class="field__label">{{label}}</span>
+      <input class="field__input" type="{{type}}" name="{{name}}" value="{{value}}" autocomplete="{{autocomplete}}" required />
+    </label>
+    <button class="button button--primary drawer__submit" type="submit">Изменить данные</button>
+  </form>
+</dialog>

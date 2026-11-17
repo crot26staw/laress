@@ -14,6 +14,7 @@ import { initCheckout } from './modules/checkout.js';
 import { initOrderModal } from './modules/order-modal.js';
 import { initPasswordFields } from './modules/password-field.js';
 import { initToasts } from './modules/toast.js';
+import { initDrawerForms } from './modules/drawer-form.js';
 
 initAnnouncement();
 initHeader();
@@ -30,3 +31,4 @@ initCheckout();
 initOrderModal();
 initPasswordFields();
 initToasts();
+initDrawerForms();

@@ -154,3 +154,14 @@
   line-height: 12px;
   color: var(--color-error);
 }
+
+/* Поле с кнопкой «очистить» справа (адрес в панели «Добавление адреса», 966:41389): кнопка видна, когда поле заполнено */
+.field--clearable {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--space-12);
+}
+
+.field--clearable:has(.field__input:placeholder-shown) .field__action {
+  visibility: hidden;
+}

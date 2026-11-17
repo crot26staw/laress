@@ -55,6 +55,7 @@ for (const s of page.sections) {
   if (s.refX !== undefined) args.push('--ref-x', String(Math.round(s.refX * k)));
   if (s.refW !== undefined) args.push('--ref-w', String(Math.round(s.refW * k)));
   if (s.open) args.push('--open', s.open);
+  if (s.eval) args.push('--eval', s.eval);
   if (s.viewportH !== undefined) args.push('--viewport-h', String(Math.round(s.viewportH * k)));
   if (s.url) args[args.indexOf('--url') + 1] = s.url;
   const out = execFileSync('node', args, { encoding: 'utf-8' });

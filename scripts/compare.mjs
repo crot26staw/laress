@@ -3,6 +3,7 @@
 //   [--ref-y 1900 --ref-h 860]  — вырезать полосу из полного эталона страницы
 //   [--ref-x 0 --ref-w 440]     — сравнивать только полосу по горизонтали (например, панель поверх затемнённой страницы)
 //   [--open .button]            — кликнуть перед снимком (модалки, панели); снимается окно высотой --viewport-h (по умолчанию = высоте полосы)
+//   [--eval "js"]               — вместо клика выполнить JS на странице (окно, которое открывается не кнопкой)
 // Печатает % отличий и лучший вертикальный сдвиг эталона (±4px). Норма: ≤ ~2% при сдвиге 0–2px
 // (остаток — сглаживание текста). Больше — смотреть <name>-diff.png и <name>-side.png.
 // Снимает страницу при ширине эталона, вырезает область той же высоты и кладёт в .compare/:
@@ -25,6 +26,7 @@ const { values: args } = parseArgs({
     'ref-x': { type: 'string', default: '0' },
     'ref-w': { type: 'string' },
     open: { type: 'string' },
+    eval: { type: 'string' },
     'viewport-h': { type: 'string' },
     bg: { type: 'string', default: '#fafaf9' }, // подложка под прозрачные места эталона (фон страницы)
   },
@@ -51,7 +53,7 @@ const refPng = await sharp(args.ref)
   .toBuffer();
 
 const browser = await chromium.launch();
-const page = await browser.newPage({ viewport: { width: fullWidth, height: args.open ? Number(args['viewport-h'] ?? height) : 900 }, deviceScaleFactor: 1 });
+const page = await browser.newPage({ viewport: { width: fullWidth, height: args.open || args.eval ? Number(args['viewport-h'] ?? height) : 900 }, deviceScaleFactor: 1 });
 await page.goto(args.url, { waitUntil: 'networkidle' });
 // Ленивые картинки: прокрутить страницу, чтобы всё загрузилось
 await page.evaluate(async () => {
@@ -65,8 +67,9 @@ if (args.selector) {
   top = await page.$eval(args.selector, (el) => el.getBoundingClientRect().top + window.scrollY);
 }
 const sitePath = `${OUT}/${args.name}-site.png`;
-if (args.open) {
-  await page.click(args.open);
+if (args.open || args.eval) {
+  if (args.open) await page.click(args.open);
+  if (args.eval) await page.evaluate(args.eval);
   await page.waitForTimeout(500); // анимация появления
   await page.screenshot({ path: sitePath, clip: { x: left, y: top, width, height } });
 } else {

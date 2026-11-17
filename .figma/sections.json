@@ -669,6 +669,37 @@
         "selector": ".footer",
         "refY": 1038,
         "refH": 525
+      },
+      {
+        "name": "edit-data",
+        "ref": ".figma/screenshots/account-modal-edit-data_966-41307.png",
+        "open": "[data-dialog-open=\"profile-edit-name\"]",
+        "refY": 0,
+        "refH": 800,
+        "viewportH": 800,
+        "refX": 1000,
+        "refW": 440
+      },
+      {
+        "name": "add-address",
+        "ref": ".figma/screenshots/account-modal-add-address_966-41349.png",
+        "eval": "const d = document.getElementById('address-add'); d.querySelector('input').value = 'Москва, Новый Арбат, д. 15, кв 130'; d.showModal()",
+        "refY": 0,
+        "refH": 800,
+        "viewportH": 800,
+        "refX": 1000,
+        "refW": 440
+      },
+      {
+        "name": "address-added",
+        "ref": ".figma/screenshots/account-modal-address-added_966-41391.png",
+        "eval": "document.getElementById('address-added').showModal()",
+        "refY": 261,
+        "refH": 278,
+        "viewportH": 800,
+        "refX": 514,
+        "refW": 412,
+        "y": 261
       }
     ]
   },

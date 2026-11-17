@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Профиль — личный кабинет Luvr</title>
+    <meta name="robots" content="noindex" />
+    <link rel="preload" href="/src/assets/fonts/hauora-regular.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/src/assets/fonts/hauora-medium.woff2" as="font" type="font/woff2" crossorigin />
+    <script type="module" src="/src/scripts/main.js"></script>
+  </head>
+  <body class="page-surface">
+    <!-- @include src/partials/header.html {"loggedIn": true} -->
+
+    <main class="account">
+      <!-- @include src/partials/account-nav.html {"profile": true} -->
+
+      <div class="account__content">
+        <h1 class="text-h2">Личная информация</h1>
+
+        <div class="profile">
+          <div class="profile__avatar">
+            <div class="profile__avatar-image">
+              <img src="/src/assets/icons/icon-user-circle.svg" width="34" height="34" alt="" />
+            </div>
+            <div class="profile__avatar-info">
+              <p class="profile__avatar-hint" id="avatar-hint">Аватар в формате JPG или PNG<br />до 10 МБ</p>
+              <label class="button button--tertiary profile__avatar-button">
+                <!-- @include src/partials/icon-edit.html {"class": "profile__icon"} -->
+                Изменить
+                <input class="visually-hidden" type="file" name="avatar" accept="image/jpeg,image/png" aria-describedby="avatar-hint" />
+              </label>
+            </div>
+          </div>
+
+          <section class="profile__section" aria-labelledby="profile-data-title">
+            <h2 class="text-h3 profile__title" id="profile-data-title">Личные данные</h2>
+            <dl class="profile__fields">
+              <div class="profile__field">
+                <div class="profile__field-text">
+                  <dt class="profile__field-label">ФИО</dt>
+                  <dd class="profile__field-value">Соколов Никита Сергеевич</dd>
+                </div>
+                <button class="button button--tertiary-black profile__icon-button" type="button" aria-label="Изменить ФИО">
+                  <!-- @include src/partials/icon-edit.html {"class": "profile__icon"} -->
+                </button>
+              </div>
+              <div class="profile__field">
+                <div class="profile__field-text">
+                  <dt class="profile__field-label">Номер телефона</dt>
+                  <dd class="profile__field-value">+7 (900) 000-00-00</dd>
+                </div>
+                <button class="button button--tertiary-black profile__icon-button" type="button" aria-label="Изменить номер телефона">
+                  <!-- @include src/partials/icon-edit.html {"class": "profile__icon"} -->
+                </button>
+              </div>
+              <div class="profile__field">
+                <div class="profile__field-text">
+                  <dt class="profile__field-label">E-mail</dt>
+                  <dd class="profile__field-value">nekitnekit@mail.ru</dd>
+                </div>
+                <button class="button button--tertiary-black profile__icon-button" type="button" aria-label="Изменить e-mail">
+                  <!-- @include src/partials/icon-edit.html {"class": "profile__icon"} -->
+                </button>
+              </div>
+            </dl>
+          </section>
+
+          <section class="profile__section" aria-labelledby="profile-address-title">
+            <h2 class="text-h3 profile__title" id="profile-address-title">Адрес доставки</h2>
+            <div class="profile__addresses">
+              <ul class="profile__address-list">
+                <li class="profile__address">
+                  <p class="text-t1">г. Москва, ул. Казанская, д6, кв 120</p>
+                  <div class="profile__address-actions">
+                    <button class="button button--tertiary-black profile__icon-button" type="button" aria-label="Изменить адрес">
+                      <!-- @include src/partials/icon-edit.html {"class": "profile__icon"} -->
+                    </button>
+                    <button class="button profile__icon-button profile__icon-button--danger" type="button" aria-label="Удалить адрес">
+                      <!-- @include src/partials/icon-trash.html {"class": "profile__icon profile__icon--l"} -->
+                    </button>
+                  </div>
+                </li>
+              </ul>
+              <button class="button button--tertiary profile__add-button" type="button">
+                <!-- @include src/partials/icon-add.html {"class": "profile__icon profile__icon--l"} -->
+                Добавить адрес
+              </button>
+            </div>
+          </section>
+
+          <section class="profile__section" aria-labelledby="profile-stats-title">
+            <h2 class="text-h3 profile__title" id="profile-stats-title">Общая информация</h2>
+            <dl class="profile__stats">
+              <div class="profile__stat">
+                <dt>Общая сумма заказов</dt>
+                <dd>10 000 000&nbsp;₽</dd>
+              </div>
+              <div class="profile__stat">
+                <dt>Количество заказов</dt>
+                <dd>20</dd>
+              </div>
+              <div class="profile__stat">
+                <dt>Дата регистрации</dt>
+                <dd>20.01.2020</dd>
+              </div>
+            </dl>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <!-- @include src/partials/footer.html {"modifier": "footer--bordered"} -->
+  </body>
+</html>

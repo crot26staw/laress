@@ -18,13 +18,15 @@ const pages = Object.fromEntries(
 // Подключение партиалов: <!-- @include src/partials/header.html -->
 // Пути — от корня проекта. Вложенные include поддерживаются.
 // Параметры — JSON после пути: <!-- @include src/partials/product-card.html {"title": "…", "tag": "Бестселлер"} -->
-// В партиале: {{name}} — значение (нет параметра — пустая строка), {{#if name}}…{{/if}} — блок, если параметр задан.
+// В партиале: {{name}} — значение (нет параметра — пустая строка), {{#if name}}…{{/if}} — блок, если параметр задан,
+// {{#unless name}}…{{/unless}} — блок, если параметр не задан.
 // Аналог get_template_part( …, $args ) в WordPress.
 const INCLUDE_RE = /<!--\s*@include\s+(\S+)(?:\s+(\{[\s\S]*?\}))?\s*-->/g;
 
 function applyParams(html, params) {
   return html
     .replace(/\{\{#if (\w+)\}\}([\s\S]*?)\{\{\/if\}\}/g, (_, name, block) => (params[name] ? block : ''))
+    .replace(/\{\{#unless (\w+)\}\}([\s\S]*?)\{\{\/unless\}\}/g, (_, name, block) => (params[name] ? '' : block))
     .replace(/\{\{(\w+)\}\}/g, (_, name) => params[name] ?? '')
     // Пустой модификатор не должен оставлять лишних пробелов в class
     .replace(/class="([^"]*)"/g, (_, cls) => `class="${cls.trim().replace(/\s+/g, ' ')}"`);

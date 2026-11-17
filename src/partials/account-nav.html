@@ -1,0 +1,15 @@
+<!-- Боковое меню личного кабинета (966:40946). Активный пункт — параметр: {"profile": true} | {"orders": true} | {"settings": true}.
+     Меню — <ul> в <nav> (wp_nav_menu), «Выйти» — отдельная ссылка (wp_logout_url). -->
+<aside class="account-nav">
+  <nav aria-label="Личный кабинет">
+    <ul class="account-nav__menu">
+      <li class="account-nav__item"><a class="account-nav__link {{#if profile}}account-nav__link--active{{/if}}" href="/account.html" {{#if profile}}aria-current="page"{{/if}}>Профиль</a></li>
+      <li class="account-nav__item"><a class="account-nav__link {{#if orders}}account-nav__link--active{{/if}}" href="#" {{#if orders}}aria-current="page"{{/if}}>Мои заказы</a></li>
+      <li class="account-nav__item"><a class="account-nav__link {{#if settings}}account-nav__link--active{{/if}}" href="#" {{#if settings}}aria-current="page"{{/if}}>Настройки</a></li>
+    </ul>
+  </nav>
+  <a class="account-nav__logout" href="#">
+    <img src="/src/assets/icons/icon-logout.svg" width="20" height="20" alt="" />
+    <span>Выйти</span>
+  </a>
+</aside>

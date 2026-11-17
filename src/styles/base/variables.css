@@ -22,7 +22,11 @@
   --color-sand: #dcccb6;
   --color-brown-dark: #593b0c;
   --color-error: #a50206;
+  --color-error-hover: #840105; /* наведение на кнопку «Удалить» — в макете нет, на 20% темнее */
   --color-success: #009d5b; /* иконка «Заказ успешно оформлен» */
+  --color-heading: #101c2a; /* заголовки разделов личного кабинета */
+  --color-line-light: #ebebeb; /* обводки и разделители личного кабинета */
+  --color-label: #b5b9bd; /* подписи полей в профиле */
 
   /* Цвета: текст и линии на светлом фоне */
   --color-text: var(--color-black);

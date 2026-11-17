@@ -648,5 +648,28 @@
         "viewportH": 1527
       }
     ]
+  },
+  "account": {
+    "url": "http://localhost:5173/account.html",
+    "ref": ".figma/screenshots/account-profile_966-40943.png",
+    "sections": [
+      {
+        "name": "header",
+        "refY": 0,
+        "refH": 131
+      },
+      {
+        "name": "profile",
+        "selector": ".account",
+        "refY": 132,
+        "refH": 906
+      },
+      {
+        "name": "footer",
+        "selector": ".footer",
+        "refY": 1038,
+        "refH": 525
+      }
+    ]
   }
 }

@@ -1,0 +1,28 @@
+/* Кнопка «•••» (действия с подборкой) — плашка акцентом, отступы 8, текст «•••» 14/1 (966:48484).
+   --l — высота 45 (заголовок страницы подборки, 966:48528). */
+
+.dots-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-8);
+  border-radius: var(--radius-s);
+  background-color: var(--color-accent);
+  font-size: var(--font-size-14);
+  font-weight: var(--font-weight-medium);
+  line-height: 1;
+  color: var(--color-white);
+  transition: background-color var(--transition);
+}
+
+.dots-button:hover {
+  background-color: var(--color-accent-hover);
+}
+
+.dots-button:active {
+  background-color: var(--color-accent-pressed);
+}
+
+.dots-button--l {
+  height: 45px;
+}

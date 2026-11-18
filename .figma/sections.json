@@ -840,5 +840,28 @@
         "refH": 525
       }
     ]
+  },
+  "favorites-collection": {
+    "url": "http://localhost:5173/favorites-collection.html",
+    "ref": ".figma/screenshots/favorites-collection_966-48516.png",
+    "sections": [
+      {
+        "name": "header",
+        "refY": 0,
+        "refH": 131
+      },
+      {
+        "name": "main",
+        "selector": ".favorites",
+        "refY": 132,
+        "refH": 1032
+      },
+      {
+        "name": "footer",
+        "selector": ".footer",
+        "refY": 1164,
+        "refH": 525
+      }
+    ]
   }
 }

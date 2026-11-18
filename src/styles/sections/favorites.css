@@ -132,23 +132,9 @@
   inset: 0;
 }
 
-/* «•••» — плашка акцентом, отступы 8, текст 14/1 */
 .collection-card__menu {
   position: relative;
   z-index: 1;
-  display: flex;
-  padding: var(--space-8);
-  border-radius: var(--radius-s);
-  background-color: var(--color-accent);
-  font-size: var(--font-size-14);
-  font-weight: var(--font-weight-medium);
-  line-height: 1;
-  color: var(--color-white);
-  transition: background-color var(--transition);
-}
-
-.collection-card__menu:hover {
-  background-color: var(--color-accent-hover);
 }
 
 .collection-card__images {
@@ -178,4 +164,99 @@
 .collection-card__total {
   font-weight: var(--font-weight-semibold);
   color: var(--color-ink-strong);
+}
+
+/* Страница подборки (966:48516). Шапка: отступы 30 / 40, крошки и строка заголовка через 14px,
+   справа кнопка «•••» высотой 45 */
+.collection-intro {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding-block: 30px;
+}
+
+.collection-intro__head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+/* Товары и «Расчёт подборки» через 40px */
+.collection {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-40);
+  padding-bottom: var(--space-70);
+}
+
+.collection__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--space-12);
+}
+
+/* «Расчёт подборки» (966:48579): бежевая плашка, отступы 28, блоки через 24 */
+.collection-summary {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-24);
+  padding: var(--space-28);
+  background-color: var(--color-cream);
+}
+
+.collection-summary__title {
+  font-size: var(--font-size-24);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-tight);
+  letter-spacing: -0.02em;
+}
+
+.collection-summary__list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-20);
+  align-self: stretch;
+  font-size: var(--font-size-16);
+  line-height: 1.2;
+  color: var(--color-gray-600);
+}
+
+.collection-summary__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.collection-summary__value {
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-ink-strong);
+}
+
+/* «Итого»: над строкой разделитель 1px #DBDBDB (в Figma — отдельный прямоугольник в потоке с отступами 20) */
+.collection-summary__row--total {
+  flex-wrap: wrap;
+  row-gap: var(--space-20);
+  color: var(--color-ink-strong);
+}
+
+.collection-summary__row--total::before {
+  content: "";
+  flex-basis: 100%;
+  height: 1px;
+  background-color: var(--color-divider);
+}
+
+.collection-summary__row--total dt {
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-text);
+}
+
+.collection-summary__row--total .collection-summary__value {
+  font-size: var(--font-size-18);
+}
+
+.collection-summary__actions {
+  display: flex;
+  gap: var(--space-12);
 }

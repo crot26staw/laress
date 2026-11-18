@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Сервировка для ужина — подборка Luvr</title>
+    <meta name="robots" content="noindex" />
+    <link rel="preload" href="/src/assets/fonts/hauora-regular.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/src/assets/fonts/hauora-medium.woff2" as="font" type="font/woff2" crossorigin />
+    <script type="module" src="/src/scripts/main.js"></script>
+  </head>
+  <body class="page-surface">
+    <!-- @include src/partials/header.html -->
+
+    <main class="favorites">
+      <div class="collection-intro container">
+        <nav class="breadcrumbs" aria-label="Хлебные крошки">
+          <ol class="breadcrumbs__list">
+            <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="/">Главная</a></li>
+            <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="/favorites.html">Избранное</a></li>
+            <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="/favorites-collection.html" aria-current="page">Подборка</a></li>
+          </ol>
+        </nav>
+        <div class="collection-intro__head">
+          <h1 class="text-h2">Сервировка для ужина</h1>
+          <button class="dots-button dots-button--l" type="button" aria-label="Действия с подборкой">
+            <span aria-hidden="true">•••</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="collection container">
+        <section aria-label="Товары подборки">
+          <ul class="collection__grid">
+            <li><!-- @include src/partials/product-card.html {"modifier":"product-card--favorite","remove":true,"href":"/product.html","category":"Бокал","title":"Скульптура Daum Рыба Ange Royal Turquoise &amp; Jaune Maya","price":"1 160 000 ₽","image":"/src/assets/images/favorites/favorite-glasses-figs","width":"331","height":"331","alt":"Бокалы из цветного стекла и инжир на тарелке","loading":"eager"} --></li>
+            <li><!-- @include src/partials/product-card.html {"modifier":"product-card--favorite","remove":true,"href":"/product.html","category":"Стакан","title":"Скульптура Daum Рыба Ange Royal Turquoise &amp; Jaune Maya","price":"1 160 000 ₽","image":"/src/assets/images/favorites/favorite-smoky-vase","width":"331","height":"331","alt":"Дымчатая стеклянная ваза и янтарный стакан на мраморе","loading":"eager"} --></li>
+            <li><!-- @include src/partials/product-card.html {"modifier":"product-card--favorite","remove":true,"href":"/product.html","category":"Пиала","title":"Скульптура Daum Рыба Ange Royal Turquoise &amp; Jaune Maya","price":"1 160 000 ₽","priceOld":"1 170 000 ₽","image":"/src/assets/images/favorites/favorite-amber-bowl","width":"331","height":"331","alt":"Янтарная стеклянная чаша на каменном постаменте","loading":"eager"} --></li>
+          </ul>
+        </section>
+
+        <section class="collection-summary" aria-labelledby="collection-summary-title">
+          <h2 class="collection-summary__title" id="collection-summary-title">Расчёт подборки</h2>
+          <dl class="collection-summary__list">
+            <div class="collection-summary__row">
+              <dt>Товары (3)</dt>
+              <dd class="collection-summary__value">5 123 900&nbsp;₽</dd>
+            </div>
+            <div class="collection-summary__row">
+              <dt>Скидка</dt>
+              <dd class="collection-summary__value">0&nbsp;₽</dd>
+            </div>
+            <div class="collection-summary__row">
+              <dt>Доставка</dt>
+              <dd class="collection-summary__value">Бесплатно</dd>
+            </div>
+            <div class="collection-summary__row collection-summary__row--total">
+              <dt>Итого</dt>
+              <dd class="collection-summary__value">5 123 900&nbsp;₽</dd>
+            </div>
+          </dl>
+          <div class="collection-summary__actions">
+            <a class="button button--primary" href="#">Перейти к оформлению</a>
+            <button class="button button--tertiary" type="button">Отправить подборку и расчет</button>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <!-- @include src/partials/footer.html -->
+  </body>
+</html>

@@ -175,17 +175,18 @@
   background-color: var(--color-white-30);
 }
 
-/* Карточка в «Избранном» (966:48628): фото 331×331, отступы 16 / 12 / 8,
+/* Карточка в «Избранном» (966:48628, 966:48533): фото 331×331,
    категория серая 500, название 600, старая цена #7E7E7E */
-.product-card--favorite {
-  gap: var(--space-16);
-}
-
 .product-card--favorite .product-card__media {
   aspect-ratio: 1;
 }
 
-.product-card--favorite .product-card__body {
+/* Отступы 16 / 12 вместо 12 / 10 — «Все сохраненные товары» (966:48628) */
+.product-card--roomy {
+  gap: var(--space-16);
+}
+
+.product-card--roomy .product-card__body {
   gap: var(--space-12);
 }
 

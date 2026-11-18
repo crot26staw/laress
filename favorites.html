@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Избранное — Luvr</title>
+    <meta name="robots" content="noindex" />
+    <link rel="preload" href="/src/assets/fonts/hauora-regular.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/src/assets/fonts/hauora-medium.woff2" as="font" type="font/woff2" crossorigin />
+    <script type="module" src="/src/scripts/main.js"></script>
+  </head>
+  <body class="page-surface">
+    <!-- @include src/partials/header.html -->
+
+    <main class="favorites">
+      <div class="page-intro container">
+        <div class="section-heading">
+          <nav class="breadcrumbs" aria-label="Хлебные крошки">
+            <ol class="breadcrumbs__list">
+              <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="/">Главная</a></li>
+              <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="/favorites.html" aria-current="page">Избранное</a></li>
+            </ol>
+          </nav>
+          <div class="ornament" aria-hidden="true">
+            <span class="ornament__line"></span>
+            <img class="ornament__mark" src="/src/assets/icons/logo-mark.svg" width="37" height="34" alt="" />
+            <span class="ornament__line"></span>
+          </div>
+          <h1 class="text-h2">Избранное</h1>
+        </div>
+      </div>
+
+      <div class="favorites__body container">
+        <!-- @include src/partials/favorites-tabs.html {"all": true} -->
+
+        <section aria-label="Сохранённые товары">
+          <ul class="favorites__grid">
+            <li><!-- @include src/partials/product-card.html {"modifier":"product-card--favorite","remove":true,"href":"/product.html","category":"Браслет","title":"Скульптура Daum Рыба Ange Royal Turquoise &amp; Jaune Maya","price":"1 160 000 ₽","image":"/src/assets/images/favorites/favorite-bracelets","width":"331","height":"331","alt":"Золотые браслеты и кольцо с бриллиантами на бежевой ткани","loading":"eager"} --></li>
+            <li><!-- @include src/partials/product-card.html {"modifier":"product-card--favorite","remove":true,"href":"/product.html","category":"Статуэтка","title":"Скульптура Daum Рыба Ange Royal Turquoise &amp; Jaune Maya","price":"1 160 000 ₽","image":"/src/assets/images/favorites/favorite-vase","width":"331","height":"331","alt":"Красная гранёная ваза с белыми орхидеями на столе","loading":"eager"} --></li>
+            <li><!-- @include src/partials/product-card.html {"modifier":"product-card--favorite","remove":true,"href":"/product.html","category":"Статуэтка","title":"Скульптура Daum Рыба Ange Royal Turquoise &amp; Jaune Maya","price":"1 160 000 ₽","priceOld":"1 170 000 ₽","image":"/src/assets/images/favorites/favorite-horse","width":"331","height":"331","alt":"Хрустальная статуэтка вставшего на дыбы коня на белом постаменте","loading":"eager"} --></li>
+            <li><!-- @include src/partials/product-card.html {"modifier":"product-card--favorite","remove":true,"href":"/product.html","category":"Браслет-часы","title":"Скульптура Daum Рыба Ange Royal Turquoise &amp; Jaune Maya","price":"1 160 000 ₽","image":"/src/assets/images/favorites/favorite-watch","width":"331","height":"331","alt":"Часы-браслет из розового золота в форме змеи на подставке","loading":"eager"} --></li>
+          </ul>
+        </section>
+      </div>
+    </main>
+
+    <!-- @include src/partials/footer.html -->
+  </body>
+</html>

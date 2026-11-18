@@ -15,6 +15,7 @@ import { initOrderModal } from './modules/order-modal.js';
 import { initPasswordFields } from './modules/password-field.js';
 import { initToasts } from './modules/toast.js';
 import { initDrawerForms } from './modules/drawer-form.js';
+import { initFavorites } from './modules/favorites.js';
 
 initAnnouncement();
 initHeader();
@@ -32,3 +33,4 @@ initOrderModal();
 initPasswordFields();
 initToasts();
 initDrawerForms();
+initFavorites();

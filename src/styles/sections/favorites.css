@@ -1,0 +1,47 @@
+/* Избранное — «Все сохраненные товары» (966:48599), «Все подборки» (966:48445).
+   Фон контента белый, заголовок — .page-intro, ниже вкладки и список. */
+
+.favorites {
+  background-color: var(--color-white);
+}
+
+.favorites__body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-28);
+  padding-bottom: var(--space-70);
+}
+
+/* Вкладки «Все» / «Мои подборки» — ссылки на две страницы раздела.
+   Линии снизу — обводки Figma внутри блока, поэтому box-shadow: inset. */
+.favorites-tabs__list {
+  display: flex;
+  justify-content: center;
+  box-shadow: inset 0 -1px 0 var(--color-line);
+}
+
+.favorites-tabs__link {
+  display: block;
+  padding: var(--space-16) var(--space-24);
+  font-size: var(--font-size-18);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-snug);
+  letter-spacing: -0.02em;
+  transition:
+    color var(--transition),
+    box-shadow var(--transition);
+}
+
+.favorites-tabs__link:hover {
+  color: var(--color-accent);
+}
+
+.favorites-tabs__link[aria-current="page"] {
+  box-shadow: inset 0 -1px 0 var(--color-accent);
+}
+
+.favorites__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--space-12);
+}

@@ -148,3 +148,50 @@
 .product-card--compact .product-card__title {
   line-height: 23px;
 }
+
+/* Кнопка «Убрать из избранного» — «Icon Close» 40×40 в углу фото (966:48632):
+   белая подложка 10% с размытием фона 7px, белый крестик. */
+.product-card__remove {
+  position: absolute;
+  top: var(--space-8);
+  right: var(--space-8);
+  z-index: 1;
+  display: flex;
+  width: 40px;
+  height: 40px;
+  background-color: var(--color-white-10);
+  backdrop-filter: blur(7px);
+  color: var(--color-white);
+  transition: background-color var(--transition);
+}
+
+.product-card__remove:hover {
+  background-color: var(--color-white-30);
+}
+
+/* Карточка в «Избранном» (966:48628): фото 331×331, отступы 16 / 12 / 8,
+   категория серая 500, название 600, старая цена #7E7E7E */
+.product-card--favorite {
+  gap: var(--space-16);
+}
+
+.product-card--favorite .product-card__media {
+  aspect-ratio: 1;
+}
+
+.product-card--favorite .product-card__body {
+  gap: var(--space-12);
+}
+
+.product-card--favorite .product-card__category {
+  font-weight: var(--font-weight-medium);
+  color: var(--color-text-50);
+}
+
+.product-card--favorite .product-card__title {
+  font-weight: var(--font-weight-semibold);
+}
+
+.product-card--favorite .product-card__price-old {
+  color: var(--color-gray-500);
+}

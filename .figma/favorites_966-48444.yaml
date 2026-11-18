@@ -1,0 +1,4266 @@
+NAME: "Laress (Copy)"
+
+GLOBAL_VARS:
+fill_dbe29f28:
+  - rgba(255, 255, 255, 0.1)
+fill_7ad30328:
+  - '#FBFBFB'
+fill_090ebe47:
+  - rgba(0, 0, 0, 0.1)
+layout_177c5efc:
+  mode: none
+  sizing:
+    horizontal: hug
+    vertical: hug
+ts1:
+  fills:
+    - rgba(0, 0, 0, 0.5)
+style_cc9a6c82:
+  fontFamily: Hauora
+  fontStyle: Regular
+  fontWeight: 400
+  fontSize: 16
+  lineHeight: 1.06em
+  textCase: UPPER
+  textAlignHorizontal: LEFT
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+fill_34dc0314:
+  - '#000000'
+layout_26993d1a:
+  mode: none
+  sizing:
+    horizontal: fixed
+    vertical: fixed
+  dimensions:
+    width: 12
+    height: 12
+fill_5db237a5:
+  - rgba(0, 0, 0, 0.5)
+fill_eae80fb4:
+  - type: IMAGE
+    imageRef: 967c087b9dcee4b9641ab2f0a69966aa5cb8a985
+    scaleMode: FILL
+    objectFit: cover
+    isBackground: false
+    imageDownloadArguments:
+      needsCropping: false
+      requiresImageDimensions: false
+layout_a111c4b6:
+  mode: none
+  sizing:
+    horizontal: fixed
+    vertical: fixed
+  dimensions:
+    width: 24
+    height: 24
+fill_97d170e1: []
+layout_f8ded04e:
+  mode: row
+  padding: 10px 20px
+  justifyContent: center
+  alignItems: center
+  gap: 10px
+  sizing:
+    horizontal: hug
+    vertical: hug
+style_d0b6b42e:
+  fontFamily: Hauora
+  fontStyle: Regular
+  fontWeight: 400
+  fontSize: 16
+  lineHeight: 1.06em
+  textCase: UPPER
+  textAlignHorizontal: CENTER
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+fill_658ab2fa:
+  - '#FFFFFF'
+style_9a5f131c:
+  fontFamily: Hauora
+  fontStyle: Regular
+  fontWeight: 400
+  fontSize: 14
+  lineHeight: 1.06em
+  textAlignHorizontal: CENTER
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+fill_8b4fbb9e:
+  - '#B9904F'
+style_b45e7370:
+  fontFamily: Hauora
+  fontStyle: Regular
+  fontWeight: 400
+  fontSize: 14
+  lineHeight: 1.06em
+  textCase: UPPER
+  textAlignHorizontal: CENTER
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+layout_3cdeda1d:
+  mode: none
+  sizing:
+    horizontal: fill
+    vertical: fixed
+  dimensions:
+    height: 0
+H2:
+  fontFamily: Hauora
+  fontStyle: Medium
+  fontWeight: 500
+  fontSize: 32
+  lineHeight: 1.15em
+  letterSpacing: '-0.02em'
+  textCase: UPPER
+  textAlignHorizontal: CENTER
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+layout_5d7ee650:
+  mode: row
+  padding: 16px 24px
+  justifyContent: center
+  alignItems: center
+  gap: 10px
+  sizing:
+    horizontal: hug
+    vertical: hug
+H4:
+  fontFamily: Hauora
+  fontStyle: Medium
+  fontWeight: 500
+  fontSize: 18
+  lineHeight: 1.25em
+  letterSpacing: '-0.02em'
+  textAlignHorizontal: LEFT
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+fill_c5b17057:
+  - rgba(185, 144, 79, 0.5)
+style_ce0a4cea:
+  fontFamily: Hauora
+  fontStyle: Medium
+  fontWeight: 500
+  fontSize: 16
+  lineHeight: 1.06em
+  letterSpacing: '-0.03em'
+  textAlignHorizontal: CENTER
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+Black:
+  - '#292D33'
+layout_e8d1e716:
+  mode: none
+  sizing: {}
+  locationRelativeToParent:
+    x: 0
+    y: 0
+  dimensions:
+    width: 120
+    height: 140
+layout_c8dbe63d:
+  mode: none
+  sizing:
+    horizontal: fixed
+    vertical: hug
+  dimensions:
+    width: 183
+style_b8a8c444:
+  fontFamily: Hauora
+  fontStyle: Regular
+  fontWeight: 400
+  fontSize: 16
+  lineHeight: 1.2em
+  textAlignHorizontal: LEFT
+  textAlignVertical: TOP
+fill_de2f262b:
+  - '#727272'
+style_42542bc1:
+  fontFamily: Hauora
+  fontStyle: SemiBold
+  fontWeight: 600
+  fontSize: 16
+  lineHeight: 1.2em
+  textAlignHorizontal: LEFT
+  textAlignVertical: TOP
+style_749d1c1f:
+  fontFamily: Hauora
+  fontStyle: Regular
+  fontWeight: 400
+  fontSize: 14
+  lineHeight: 1.25em
+  textAlignHorizontal: LEFT
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+fill_95f554d6:
+  - rgba(0, 0, 0, 0.9)
+layout_56d3c81c:
+  mode: none
+  sizing:
+    horizontal: fill
+    vertical: hug
+style_2d79fb96:
+  fontFamily: Hauora
+  fontStyle: Bold
+  fontWeight: 700
+  fontSize: 14
+  lineHeight: 1.25em
+  textAlignHorizontal: LEFT
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+fill_b9de0bb4:
+  - '#C0B7A7'
+style_c1e78652:
+  fontFamily: Hauora
+  fontStyle: Regular
+  fontWeight: 400
+  fontSize: 16
+  lineHeight: 1.25em
+  textAlignHorizontal: LEFT
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+style_9df09fbc:
+  fontFamily: Hauora
+  fontStyle: SemiBold
+  fontWeight: 600
+  fontSize: 18
+  lineHeight: 1.25em
+  textAlignHorizontal: LEFT
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+layout_10cdfab9:
+  mode: none
+  sizing:
+    horizontal: fixed
+    vertical: fixed
+  dimensions:
+    width: 40
+    height: 40
+layout_2a189349:
+  mode: row
+  alignSelf: stretch
+  padding: 8px
+  justifyContent: flex-end
+  gap: 169px
+  sizing:
+    horizontal: fill
+    vertical: fixed
+  dimensions:
+    height: 331
+style_34f903f5:
+  fontFamily: Hauora
+  fontStyle: Medium
+  fontWeight: 500
+  fontSize: 16
+  lineHeight: 1.25em
+  letterSpacing: '-0.02em'
+  textAlignHorizontal: LEFT
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+style_bd261dfe:
+  fontFamily: Hauora
+  fontStyle: Bold
+  fontWeight: 700
+  fontSize: 18
+  lineHeight: 1.25em
+  letterSpacing: '-0.02em'
+  textAlignHorizontal: LEFT
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+fill_7e97348e:
+  - '#7E7E7E'
+H3:
+  fontFamily: Hauora
+  fontStyle: Medium
+  fontWeight: 500
+  fontSize: 24
+  lineHeight: 1.06em
+  letterSpacing: '-0.02em'
+  textAlignHorizontal: LEFT
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+layout_e2494641:
+  mode: column
+  alignItems: stretch
+  gap: 16px
+  sizing:
+    horizontal: fixed
+    vertical: hug
+  dimensions:
+    width: 331
+style_70acd44d:
+  fontFamily: Hauora
+  fontStyle: Medium
+  fontWeight: 500
+  fontSize: 100
+  lineHeight: 1.06em
+  textAlignHorizontal: LEFT
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+layout_acc7116b:
+  mode: column
+  alignSelf: stretch
+  padding: 70px 40px
+  alignItems: stretch
+  gap: 32px
+  sizing:
+    horizontal: fill
+    vertical: hug
+style_9d1efcf4:
+  fontFamily: Hauora
+  fontStyle: Regular
+  fontWeight: 400
+  fontSize: 14
+  lineHeight: 1.06em
+  textCase: UPPER
+  textAlignHorizontal: LEFT
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+fill_f584bf6f:
+  - '#F1F1F1'
+fill_2d02050b:
+  - '#B0B0B0'
+fill_a9b2b803:
+  - '#363636'
+layout_3ab4db5e:
+  mode: column
+  justifyContent: center
+  alignItems: center
+  gap: 10px
+  sizing:
+    horizontal: fixed
+    vertical: fixed
+  dimensions:
+    width: 32
+    height: 32
+fill_4cd5ff90:
+  - rgba(0, 0, 0, 0.6)
+fill_c48813f8:
+  - '#F2F2F2'
+style_742e00ad:
+  fontFamily: Hauora
+  fontStyle: Medium
+  fontWeight: 500
+  fontSize: 24
+  lineHeight: 1.06em
+  letterSpacing: '-0.02em'
+  textAlignHorizontal: LEFT
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+style_73856adf:
+  fontFamily: Hauora
+  fontStyle: Medium
+  fontWeight: 500
+  fontSize: 18
+  lineHeight: 1.06em
+  letterSpacing: '-0.02em'
+  textAlignHorizontal: LEFT
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+layout_7efe7290:
+  mode: row
+  alignSelf: stretch
+  padding: 16px 24px
+  justifyContent: center
+  alignItems: center
+  gap: 10px
+  sizing:
+    horizontal: fill
+    vertical: hug
+layout_2fc956d7:
+  mode: none
+  sizing:
+    horizontal: fixed
+    vertical: fixed
+  position: absolute
+  locationRelativeToParent:
+    x: 0
+    y: 0
+  dimensions:
+    width: 1440
+    height: 3492
+fill_1e5e4c72:
+  - type: IMAGE
+    imageRef: 5ac0ffbded13ff0cda969f0f0b0f7e5e0cf230a7
+    scaleMode: FILL
+    objectFit: cover
+    isBackground: false
+    imageDownloadArguments:
+      needsCropping: false
+      requiresImageDimensions: false
+
+ELEMENTS:
+EL-6b472314:
+  type: INSTANCE
+  layout:
+    mode: column
+    padding: 32px 40px 20px
+    alignItems: center
+    gap: 28px
+    sizing:
+      horizontal: fixed
+      vertical: hug
+    dimensions:
+      width: 1440
+  fills: fill_7ad30328
+  strokes: fill_090ebe47
+  strokeWeight: 0px 0px 1px
+  componentId: 279:19287
+EL-bb582553:
+  type: FRAME
+  layout:
+    mode: row
+    alignSelf: stretch
+    justifyContent: space-between
+    alignItems: center
+    sizing:
+      horizontal: fill
+      vertical: hug
+EL-12d709f7:
+  type: FRAME
+  layout:
+    mode: row
+    alignItems: center
+    gap: 24px
+    sizing:
+      horizontal: fill
+      vertical: hug
+EL-106f5a91:
+  type: TEXT
+  layout: layout_177c5efc
+  text: '{ts1}US{/ts1}/RU'
+  textStyle: style_cc9a6c82
+  fills: fill_34dc0314
+EL-5843db5d:
+  type: FRAME
+  layout:
+    mode: row
+    alignItems: center
+    gap: 2px
+    sizing:
+      horizontal: hug
+      vertical: hug
+EL-4cc49b2d:
+  type: TEXT
+  layout: layout_177c5efc
+  text: RUB
+  textStyle: style_cc9a6c82
+  fills: fill_34dc0314
+EL-d4302386:
+  type: IMAGE-SVG
+  layout: layout_26993d1a
+EL-496b7f4c:
+  type: RECTANGLE
+  layout:
+    mode: none
+    sizing:
+      horizontal: fixed
+      vertical: fixed
+    dimensions:
+      width: 118.45
+      height: 34.08
+  fills: fill_eae80fb4
+EL-50da7cd7:
+  type: FRAME
+  layout:
+    mode: row
+    justifyContent: flex-end
+    alignItems: center
+    gap: 20px
+    sizing:
+      horizontal: fill
+      vertical: hug
+EL-762d5cce:
+  type: IMAGE-SVG
+  layout: layout_a111c4b6
+  fills: fill_97d170e1
+EL-e88db4ee:
+  type: INSTANCE
+  layout: layout_f8ded04e
+  strokes:
+    - rgba(0, 0, 0, 0.3)
+  strokeWeight: 1px
+  borderRadius: 2px
+  componentId: 895:29076
+EL-fd2be87b:
+  type: TEXT
+  layout: layout_177c5efc
+  text: Войти
+  textStyle:
+    fontFamily: Hauora
+    fontStyle: Medium
+    fontWeight: 500
+    fontSize: 14
+    lineHeight: 1.06em
+    letterSpacing: '-0.03em'
+    textAlignHorizontal: CENTER
+    textAlignVertical: TOP
+    paragraphSpacing: 14
+    listSpacing: 14
+  fills: fill_34dc0314
+EL-c9c16ae6:
+  type: FRAME
+  layout:
+    mode: row
+    justifyContent: center
+    alignItems: center
+    gap: 32px
+    sizing:
+      horizontal: hug
+      vertical: hug
+EL-569edc46:
+  type: TEXT
+  layout: layout_177c5efc
+  text: Подарки
+  textStyle: style_d0b6b42e
+  fills: fill_34dc0314
+EL-36e8436f:
+  type: TEXT
+  layout: layout_177c5efc
+  text: В наличии
+  textStyle: style_d0b6b42e
+  fills: fill_34dc0314
+EL-13bfe0f1:
+  type: TEXT
+  layout: layout_177c5efc
+  text: Бренды
+  textStyle: style_d0b6b42e
+  fills: fill_34dc0314
+EL-62a5be30:
+  type: TEXT
+  layout: layout_177c5efc
+  text: Посуда
+  textStyle: style_d0b6b42e
+  fills: fill_34dc0314
+EL-6858659e:
+  type: TEXT
+  layout: layout_177c5efc
+  text: Декор и интерьер
+  textStyle: style_d0b6b42e
+  fills: fill_34dc0314
+EL-4792e634:
+  type: TEXT
+  layout: layout_177c5efc
+  text: Аксессуары
+  textStyle: style_d0b6b42e
+  fills: fill_34dc0314
+EL-6ab11265:
+  type: TEXT
+  layout: layout_177c5efc
+  text: Текстиль
+  textStyle: style_d0b6b42e
+  fills: fill_34dc0314
+EL-f8162672:
+  type: TEXT
+  layout: layout_177c5efc
+  text: О Luvr
+  textStyle: style_d0b6b42e
+  fills: fill_34dc0314
+EL-5ff084d6:
+  type: FRAME
+  layout:
+    mode: column
+    padding: 70px 40px 40px
+    alignItems: center
+    gap: 24px
+    sizing:
+      horizontal: fixed
+      vertical: hug
+    dimensions:
+      width: 1440
+  fills: fill_658ab2fa
+EL-7e82b98e:
+  type: FRAME
+  layout:
+    mode: column
+    alignItems: center
+    gap: 20px
+    sizing:
+      horizontal: hug
+      vertical: hug
+EL-eda14dc5:
+  type: FRAME
+  layout:
+    mode: row
+    gap: 8px
+    sizing:
+      horizontal: hug
+      vertical: hug
+EL-474825e7:
+  type: TEXT
+  layout: layout_177c5efc
+  text: Главная
+  textStyle: style_9a5f131c
+  fills: fill_8b4fbb9e
+EL-ad237f5c:
+  type: TEXT
+  layout: layout_177c5efc
+  text: /
+  textStyle: style_b45e7370
+  fills: fill_8b4fbb9e
+EL-d421bbef:
+  type: TEXT
+  layout: layout_177c5efc
+  text: Избранное
+  textStyle: style_9a5f131c
+  fills: fill_8b4fbb9e
+EL-28d879d4:
+  type: FRAME
+  layout:
+    mode: row
+    justifyContent: center
+    alignItems: center
+    gap: 12px
+    sizing:
+      horizontal: fixed
+      vertical: hug
+    dimensions:
+      width: 220
+EL-56ff9324:
+  type: LINE
+  layout: layout_3cdeda1d
+  strokes:
+    - '#DCCCB6'
+  strokeWeight: 1px
+  strokeAlign: CENTER
+EL-df5bb129:
+  type: IMAGE-SVG
+  layout:
+    mode: none
+    sizing:
+      horizontal: fixed
+      vertical: fixed
+    dimensions:
+      width: 36.74
+      height: 34.08
+  fills: fill_97d170e1
+EL-781b832a:
+  type: TEXT
+  layout:
+    mode: none
+    sizing:
+      horizontal: fixed
+      vertical: hug
+    dimensions:
+      width: 780
+  text: Избранное
+  textStyle: H2
+  fills: fill_34dc0314
+EL-c4e48f56:
+  type: FRAME
+  layout:
+    mode: row
+    alignSelf: stretch
+    padding: 0px 40px 70px
+    gap: 20px
+    sizing:
+      horizontal: fill
+      vertical: hug
+  fills: fill_658ab2fa
+EL-6e1f97e9:
+  type: FRAME
+  layout:
+    mode: column
+    alignItems: stretch
+    gap: 28px
+    sizing:
+      horizontal: fill
+      vertical: hug
+EL-abfc58e6:
+  type: FRAME
+  layout:
+    mode: row
+    alignSelf: stretch
+    justifyContent: center
+    sizing:
+      horizontal: fill
+      vertical: hug
+  strokes: fill_090ebe47
+  strokeWeight: 0px 0px 1px
+EL-8a0f5ca1:
+  type: FRAME
+  layout: layout_5d7ee650
+EL-4b621ed7:
+  type: TEXT
+  layout: layout_177c5efc
+  text: Все
+  textStyle: H4
+  fills: fill_34dc0314
+EL-2cfa4edb:
+  type: FRAME
+  layout: layout_5d7ee650
+  strokes: fill_8b4fbb9e
+  strokeWeight: 0px 0px 1px
+EL-c56a473b:
+  type: TEXT
+  layout: layout_177c5efc
+  text: Мои подборки
+  textStyle: H4
+  fills: fill_34dc0314
+EL-ffc1b4d2:
+  type: FRAME
+  layout:
+    mode: row
+    alignSelf: stretch
+    justifyContent: space-between
+    sizing:
+      horizontal: fill
+      vertical: hug
+EL-18fca13c:
+  type: INSTANCE
+  layout: layout_5d7ee650
+  fills: fill_8b4fbb9e
+  borderRadius: 2px
+  componentId: 828:11817
+EL-1519dabc:
+  type: FRAME
+  layout:
+    mode: column
+    alignSelf: stretch
+    alignItems: stretch
+    gap: 12px
+    sizing:
+      horizontal: fill
+      vertical: hug
+EL-bb14c527:
+  type: FRAME
+  layout:
+    mode: column
+    alignSelf: stretch
+    padding: 16px
+    gap: 16px
+    sizing:
+      horizontal: fill
+      vertical: hug
+  fills: fill_658ab2fa
+  strokes:
+    - '#E1E1E1'
+  strokeWeight: 1px
+EL-e1f1b3a1:
+  type: FRAME
+  layout:
+    mode: row
+    padding: 8px
+    justifyContent: center
+    alignItems: center
+    gap: 2px
+    sizing:
+      horizontal: hug
+      vertical: hug
+  fills: fill_8b4fbb9e
+  borderRadius: 2px
+EL-3eb1e6e3:
+  type: TEXT
+  layout: layout_177c5efc
+  text: •••
+  textStyle:
+    fontFamily: Hauora
+    fontStyle: Medium
+    fontWeight: 500
+    fontSize: 14
+    lineHeight: 1em
+    textAlignHorizontal: LEFT
+    textAlignVertical: TOP
+  fills: fill_658ab2fa
+EL-850dec76:
+  type: FRAME
+  layout:
+    mode: row
+    justifyContent: center
+    alignItems: center
+    gap: 12px
+    sizing:
+      horizontal: hug
+      vertical: hug
+EL-78c8a09b:
+  type: FRAME
+  layout:
+    mode: none
+    sizing:
+      horizontal: fixed
+      vertical: fixed
+    dimensions:
+      width: 120
+      height: 140
+EL-9c3d008f:
+  type: TEXT
+  layout: layout_c8dbe63d
+  text: Товары \(3\)
+  textStyle: style_b8a8c444
+  fills: fill_de2f262b
+EL-235879b0:
+  type: FRAME
+  layout:
+    mode: row
+    alignItems: center
+    gap: 8px
+    sizing:
+      horizontal: hug
+      vertical: hug
+EL-928ac7ac:
+  type: INSTANCE
+  layout:
+    mode: column
+    padding: 70px 40px
+    alignItems: stretch
+    gap: 32px
+    sizing:
+      horizontal: fixed
+      vertical: hug
+    dimensions:
+      width: 1440
+  fills: fill_7ad30328
+  componentId: 276:2863
+EL-bf156a5b:
+  type: FRAME
+  layout:
+    mode: none
+    sizing:
+      horizontal: fill
+      vertical: fixed
+    dimensions:
+      height: 385
+EL-3991bef7:
+  type: FRAME
+  layout:
+    mode: column
+    gap: 12px
+    sizing:
+      horizontal: hug
+      vertical: hug
+    locationRelativeToParent:
+      x: 0
+      y: 1
+EL-7349ae27:
+  type: RECTANGLE
+  layout:
+    mode: none
+    sizing:
+      horizontal: fixed
+      vertical: fixed
+    dimensions:
+      width: 187.79
+      height: 54.03
+  fills: fill_eae80fb4
+EL-d07450bf:
+  type: TEXT
+  layout:
+    mode: none
+    sizing:
+      horizontal: fixed
+      vertical: hug
+    dimensions:
+      width: 276
+  text: "Интернет-бутик оригинальной посуды, декора, текстиля и\_аксессуаров премиальных брендов"
+  textStyle: style_749d1c1f
+  fills: fill_95f554d6
+EL-b1ebc304:
+  type: TEXT
+  layout:
+    mode: none
+    sizing: {}
+    locationRelativeToParent:
+      x: 0
+      y: 367
+    dimensions:
+      width: 144
+      height: 18
+  text: © ООО «Ларес», 2026
+  textStyle: style_749d1c1f
+  fills: fill_95f554d6
+EL-0468c0d7:
+  type: TEXT
+  layout:
+    mode: none
+    sizing: {}
+    locationRelativeToParent:
+      x: 343
+      y: 367
+    dimensions:
+      width: 366
+      height: 18
+  text: Информация на сайте не является публичной офертой
+  textStyle: style_749d1c1f
+  fills: fill_95f554d6
+EL-899488be:
+  type: TEXT
+  layout:
+    mode: none
+    sizing: {}
+    locationRelativeToParent:
+      x: 800
+      y: 367
+    dimensions:
+      width: 212
+      height: 18
+  text: Политика конфиденциальности
+  textStyle: style_749d1c1f
+  fills: fill_95f554d6
+EL-c531e5c6:
+  type: TEXT
+  layout:
+    mode: none
+    sizing: {}
+    locationRelativeToParent:
+      x: 1143
+      y: 367
+    dimensions:
+      width: 211
+      height: 18
+  text: Пользовательское соглашение
+  textStyle: style_749d1c1f
+  fills: fill_95f554d6
+EL-1c6de66b:
+  type: FRAME
+  layout:
+    mode: column
+    alignItems: stretch
+    gap: 16px
+    sizing:
+      horizontal: fixed
+      vertical: hug
+    locationRelativeToParent:
+      x: 343
+      y: 0
+    dimensions:
+      width: 217
+EL-362fb9b8:
+  type: TEXT
+  layout: layout_56d3c81c
+  text: Каталог
+  textStyle: style_2d79fb96
+  fills: fill_b9de0bb4
+EL-53f4cbfc:
+  type: TEXT
+  layout: layout_56d3c81c
+  text: Посуда
+  textStyle: style_c1e78652
+  fills: fill_95f554d6
+EL-5eb41475:
+  type: TEXT
+  layout: layout_56d3c81c
+  text: Декор и интерьер
+  textStyle: style_c1e78652
+  fills: fill_95f554d6
+EL-fa609635:
+  type: TEXT
+  layout: layout_56d3c81c
+  text: Текстиль
+  textStyle: style_c1e78652
+  fills: fill_95f554d6
+EL-6675a1ab:
+  type: TEXT
+  layout: layout_56d3c81c
+  text: Аксессуары
+  textStyle: style_c1e78652
+  fills: fill_95f554d6
+EL-d18ea825:
+  type: TEXT
+  layout: layout_56d3c81c
+  text: В наличии
+  textStyle: style_c1e78652
+  fills: fill_95f554d6
+EL-bad21f62:
+  type: TEXT
+  layout: layout_56d3c81c
+  text: Подарки
+  textStyle: style_c1e78652
+  fills: fill_95f554d6
+EL-19cf47e0:
+  type: TEXT
+  layout: layout_56d3c81c
+  text: Подарочный сертификат
+  textStyle: style_c1e78652
+  fills: fill_95f554d6
+EL-4813bf8c:
+  type: FRAME
+  layout:
+    mode: column
+    alignItems: stretch
+    gap: 16px
+    sizing:
+      horizontal: fixed
+      vertical: hug
+    locationRelativeToParent:
+      x: 572
+      y: 0
+    dimensions:
+      width: 216
+EL-488e33ab:
+  type: TEXT
+  layout: layout_56d3c81c
+  text: Покупателям
+  textStyle: style_2d79fb96
+  fills: fill_b9de0bb4
+EL-def71b74:
+  type: TEXT
+  layout: layout_56d3c81c
+  text: Доставка и оплата
+  textStyle: style_c1e78652
+  fills: fill_95f554d6
+EL-12909fbd:
+  type: TEXT
+  layout: layout_56d3c81c
+  text: Выкуп и ресейл
+  textStyle: style_c1e78652
+  fills: fill_95f554d6
+EL-8dd185e5:
+  type: TEXT
+  layout: layout_56d3c81c
+  text: Контакты
+  textStyle: style_c1e78652
+  fills: fill_95f554d6
+EL-cd7c93c4:
+  type: FRAME
+  layout:
+    mode: column
+    alignItems: stretch
+    gap: 16px
+    sizing:
+      horizontal: fixed
+      vertical: hug
+    locationRelativeToParent:
+      x: 800
+      y: 0
+    dimensions:
+      width: 217
+EL-c354e8a1:
+  type: TEXT
+  layout: layout_56d3c81c
+  text: О Luvr
+  textStyle: style_2d79fb96
+  fills: fill_b9de0bb4
+EL-46649359:
+  type: TEXT
+  layout: layout_56d3c81c
+  text: О компании
+  textStyle: style_c1e78652
+  fills: fill_95f554d6
+EL-71203d8a:
+  type: TEXT
+  layout: layout_56d3c81c
+  text: Дизайнерам
+  textStyle: style_c1e78652
+  fills: fill_95f554d6
+EL-bc5a879b:
+  type: TEXT
+  layout: layout_56d3c81c
+  text: Статьи
+  textStyle: style_c1e78652
+  fills: fill_95f554d6
+EL-01984c59:
+  type: TEXT
+  layout: layout_56d3c81c
+  text: Вакансии
+  textStyle: style_c1e78652
+  fills: fill_95f554d6
+EL-8e2638f3:
+  type: FRAME
+  layout:
+    mode: column
+    alignItems: stretch
+    gap: 24px
+    sizing:
+      horizontal: fixed
+      vertical: hug
+    locationRelativeToParent:
+      x: 1143
+      y: 0
+    dimensions:
+      width: 215
+EL-f6efe3b4:
+  type: FRAME
+  layout:
+    mode: column
+    alignSelf: stretch
+    gap: 16px
+    sizing:
+      horizontal: fill
+      vertical: hug
+EL-24705f71:
+  type: FRAME
+  layout:
+    mode: column
+    alignItems: stretch
+    gap: 4px
+    sizing:
+      horizontal: fixed
+      vertical: hug
+    dimensions:
+      width: 215
+EL-bcfc5562:
+  type: TEXT
+  layout: layout_56d3c81c
+  text: Заказы и консультации
+  textStyle: style_2d79fb96
+  fills: fill_b9de0bb4
+EL-6dda702e:
+  type: TEXT
+  layout: layout_56d3c81c
+  text: +7 977 620 88 85
+  textStyle: style_9df09fbc
+  fills: fill_95f554d6
+EL-b73a9f94:
+  type: TEXT
+  layout: layout_56d3c81c
+  text: Отдел закупок
+  textStyle: style_2d79fb96
+  fills: fill_b9de0bb4
+EL-adf99d5c:
+  type: TEXT
+  layout: layout_56d3c81c
+  text: +7 925 507 99 95
+  textStyle: style_9df09fbc
+  fills: fill_95f554d6
+EL-7cb103ea:
+  type: TEXT
+  layout: layout_56d3c81c
+  text: luvrseo@gmail.com
+  textStyle: style_9df09fbc
+  fills: fill_95f554d6
+EL-7c4c0d96:
+  type: IMAGE-SVG
+  layout: layout_10cdfab9
+  fills: fill_8b4fbb9e
+  borderRadius: 2px
+EL-d8a3e5e9:
+  type: FRAME
+  layout:
+    mode: column
+    alignSelf: stretch
+    alignItems: stretch
+    gap: 16px
+    sizing:
+      horizontal: fill
+      vertical: hug
+EL-19945db2:
+  type: TEXT
+  layout: layout_56d3c81c
+  text: "Москва, Новослободская улица, д.\_50/1с2"
+  textStyle: style_c1e78652
+  fills: fill_95f554d6
+EL-438719fa:
+  type: TEXT
+  layout: layout_56d3c81c
+  text: Пн—Вс 10:00 – 22:00
+  textStyle: style_c1e78652
+  fills: fill_95f554d6
+EL-9a80455c:
+  type: RECTANGLE
+  layout:
+    mode: none
+    sizing: {}
+    locationRelativeToParent:
+      x: 800
+      y: 170
+    dimensions:
+      width: 151
+      height: 48
+  fills:
+    - type: IMAGE
+      imageRef: 60b532a334228c29a280f643339be78344894145
+      scaleMode: FILL
+      objectFit: cover
+      isBackground: false
+      imageDownloadArguments:
+        needsCropping: false
+        requiresImageDimensions: false
+EL-c094fdcc:
+  type: FRAME
+  layout:
+    mode: row
+    alignSelf: stretch
+    gap: 12px
+    sizing:
+      horizontal: fill
+      vertical: hug
+EL-a6160c77:
+  type: FRAME
+  layout:
+    mode: column
+    alignItems: stretch
+    gap: 12px
+    sizing:
+      horizontal: fixed
+      vertical: hug
+    dimensions:
+      width: 331
+EL-232debae:
+  type: IMAGE-SVG
+  layout: layout_10cdfab9
+  fills: fill_dbe29f28
+  effects:
+    backdropFilter: blur(7px)
+EL-7e8f3d26:
+  type: FRAME
+  layout:
+    mode: column
+    alignSelf: stretch
+    alignItems: stretch
+    gap: 10px
+    sizing:
+      horizontal: fill
+      vertical: hug
+EL-bc40306a:
+  type: FRAME
+  layout:
+    mode: column
+    alignSelf: stretch
+    alignItems: stretch
+    gap: 8px
+    sizing:
+      horizontal: fill
+      vertical: hug
+EL-e1f7f57e:
+  type: TEXT
+  layout: layout_56d3c81c
+  text: Скульптура Daum Рыба Ange Royal Turquoise & Jaune Maya
+  textStyle:
+    fontFamily: Hauora
+    fontStyle: SemiBold
+    fontWeight: 600
+    fontSize: 18
+    lineHeight: 1.25em
+    letterSpacing: '-0.02em'
+    textAlignHorizontal: LEFT
+    textAlignVertical: TOP
+    paragraphSpacing: 14
+    listSpacing: 14
+  fills: fill_34dc0314
+EL-94a17615:
+  type: FRAME
+  layout:
+    mode: row
+    alignSelf: stretch
+    gap: 16px
+    sizing:
+      horizontal: fill
+      vertical: hug
+EL-afe1950d:
+  type: TEXT
+  layout: layout_177c5efc
+  text: 1 160 000 ₽
+  textStyle: style_bd261dfe
+  fills: fill_34dc0314
+EL-71714af2:
+  type: GROUP
+  layout:
+    mode: none
+    sizing:
+      horizontal: fixed
+      vertical: fixed
+    dimensions:
+      width: 93
+      height: 23
+  borderRadius: 0px 0px 0px 0px
+EL-406ec395:
+  type: LINE
+  layout:
+    mode: none
+    sizing: {}
+    locationRelativeToParent:
+      x: 0
+      y: 13
+    dimensions:
+      width: 91
+      height: 0
+  strokes: fill_7e97348e
+  strokeWeight: 1px
+  strokeAlign: CENTER
+EL-7ac8af5c:
+  type: TEXT
+  layout:
+    mode: none
+    sizing: {}
+    locationRelativeToParent:
+      x: 0
+      y: 0
+    dimensions:
+      width: 93
+      height: 23
+  text: 1 170 000 ₽
+  textStyle: style_bd261dfe
+  fills: fill_7e97348e
+EL-9db5b930:
+  type: FRAME
+  layout: layout_e2494641
+EL-102dd31f:
+  type: FRAME
+  layout: layout_2a189349
+  fills:
+    - type: IMAGE
+      imageRef: 4433e71c1e29a8c0b82114147eb9fde77541f222
+      scaleMode: FILL
+      backgroundSize: cover
+      backgroundRepeat: no-repeat
+      isBackground: true
+      imageDownloadArguments:
+        needsCropping: false
+        requiresImageDimensions: false
+    - '#B0B0B0'
+EL-2063c6fe:
+  type: TEXT
+  layout: layout_56d3c81c
+  text: Браслет
+  textStyle: style_34f903f5
+  fills: fill_5db237a5
+EL-293e5acd:
+  type: FRAME
+  layout: layout_2a189349
+  fills:
+    - type: IMAGE
+      imageRef: 40543c862d529ce0193dde6058c08d6d67be1d8f
+      scaleMode: FILL
+      backgroundSize: cover
+      backgroundRepeat: no-repeat
+      isBackground: true
+      imageDownloadArguments:
+        needsCropping: false
+        requiresImageDimensions: false
+    - '#B0B0B0'
+EL-9eb34e2e:
+  type: TEXT
+  layout: layout_56d3c81c
+  text: Статуэтка
+  textStyle: style_34f903f5
+  fills: fill_5db237a5
+EL-96b2d234:
+  type: FRAME
+  layout: layout_2a189349
+  fills:
+    - type: IMAGE
+      imageRef: 5121a4647bacd6fecd6faac3511f215257a73b50
+      scaleMode: FILL
+      backgroundSize: cover
+      backgroundRepeat: no-repeat
+      isBackground: true
+      imageDownloadArguments:
+        needsCropping: false
+        requiresImageDimensions: false
+    - '#B0B0B0'
+EL-a57ef421:
+  type: FRAME
+  layout: layout_2a189349
+  fills:
+    - type: IMAGE
+      imageRef: fcde373bba1317a2083610e271ad216295f343d3
+      scaleMode: FILL
+      backgroundSize: cover
+      backgroundRepeat: no-repeat
+      isBackground: true
+      imageDownloadArguments:
+        needsCropping: false
+        requiresImageDimensions: false
+    - '#B0B0B0'
+EL-49da3909:
+  type: TEXT
+  layout: layout_56d3c81c
+  text: Браслет-часы
+  textStyle: style_34f903f5
+  fills: fill_5db237a5
+EL-2f9fe287:
+  type: FRAME
+  layout:
+    mode: column
+    sizing:
+      horizontal: hug
+      vertical: hug
+EL-b35ab3bb:
+  type: RECTANGLE
+  layout:
+    mode: none
+    sizing:
+      horizontal: fixed
+      vertical: fixed
+    dimensions:
+      width: 42
+      height: 42
+  fills:
+    - type: IMAGE
+      imageRef: 473389d5f66d5b6de560860aa1b85bb9f4e262e9
+      scaleMode: STRETCH
+      objectFit: fill
+      isBackground: false
+      imageDownloadArguments:
+        needsCropping: true
+        requiresImageDimensions: false
+        cropTransform:
+          - - 0.23036649823188782
+            - 0
+            - 0.04973822459578514
+          - - 0
+            - 0.9085782170295715
+            - 0.03309168666601181
+        filenameSuffix: 62fde9
+EL-89393d37:
+  type: INSTANCE
+  layout: layout_acc7116b
+  fills: fill_7ad30328
+  strokes: fill_090ebe47
+  strokeWeight: 1px 0px 0px
+  componentId: 828:11843
+EL-c354d6cc:
+  type: RECTANGLE
+  layout:
+    mode: none
+    sizing:
+      horizontal: fixed
+      vertical: fixed
+    dimensions:
+      width: 193
+      height: 42
+  fills:
+    - type: IMAGE
+      imageRef: a340ddb26a8ef930273f1270569ffec0a1c8702f
+      scaleMode: FILL
+      objectFit: cover
+      isBackground: false
+      imageDownloadArguments:
+        needsCropping: false
+        requiresImageDimensions: false
+EL-71139944:
+  type: TEXT
+  layout: layout_56d3c81c
+  text: О Laress
+  textStyle: style_2d79fb96
+  fills: fill_b9de0bb4
+EL-b536d265:
+  type: TEXT
+  layout: layout_56d3c81c
+  text: laresseo@gmail.com
+  textStyle: style_9df09fbc
+  fills: fill_95f554d6
+EL-44928c51:
+  type: INSTANCE
+  layout:
+    mode: row
+    padding: 20px 40px
+    justifyContent: space-between
+    alignItems: center
+    sizing:
+      horizontal: fixed
+      vertical: hug
+    dimensions:
+      width: 1440
+  fills: fill_7ad30328
+  strokes: fill_090ebe47
+  strokeWeight: 0px 0px 1px
+  componentId: 828:11970
+EL-dda368b5:
+  type: FRAME
+  layout:
+    mode: row
+    alignItems: center
+    gap: 24px
+    sizing:
+      horizontal: hug
+      vertical: hug
+EL-9ef49631:
+  type: TEXT
+  layout: layout_177c5efc
+  text: '{ts1}US{/ts1}/RU'
+  textStyle: style_9d1efcf4
+  fills: fill_34dc0314
+EL-95e154cc:
+  type: TEXT
+  layout: layout_177c5efc
+  text: RUB
+  textStyle: style_9d1efcf4
+  fills: fill_34dc0314
+EL-b99d5fd3:
+  type: FRAME
+  layout:
+    mode: row
+    justifyContent: center
+    alignItems: center
+    gap: 20px
+    sizing:
+      horizontal: hug
+      vertical: hug
+EL-7d3d1727:
+  type: TEXT
+  layout: layout_177c5efc
+  text: Каталог
+  textStyle: style_b45e7370
+  fills: fill_34dc0314
+EL-e65f391d:
+  type: TEXT
+  layout: layout_177c5efc
+  text: Подарки
+  textStyle: style_b45e7370
+  fills: fill_34dc0314
+EL-b121fb61:
+  type: TEXT
+  layout: layout_177c5efc
+  text: В наличии
+  textStyle: style_b45e7370
+  fills: fill_34dc0314
+EL-b1a961b1:
+  type: TEXT
+  layout: layout_177c5efc
+  text: Бренды
+  textStyle: style_b45e7370
+  fills: fill_34dc0314
+EL-44e37d99:
+  type: TEXT
+  layout: layout_177c5efc
+  text: Посуда
+  textStyle: style_b45e7370
+  fills: fill_34dc0314
+EL-44b5ca68:
+  type: TEXT
+  layout: layout_177c5efc
+  text: Декор и интерьер
+  textStyle: style_b45e7370
+  fills: fill_34dc0314
+EL-e95bd3cc:
+  type: TEXT
+  layout: layout_177c5efc
+  text: Аксессуары
+  textStyle: style_b45e7370
+  fills: fill_34dc0314
+EL-9d6fbc6a:
+  type: TEXT
+  layout: layout_177c5efc
+  text: Текстиль
+  textStyle: style_b45e7370
+  fills: fill_34dc0314
+EL-f7f9c3f6:
+  type: TEXT
+  layout: layout_177c5efc
+  text: О Laress
+  textStyle: style_b45e7370
+  fills: fill_34dc0314
+EL-f73b6cbc:
+  type: FRAME
+  layout:
+    mode: row
+    alignItems: center
+    gap: 20px
+    sizing:
+      horizontal: hug
+      vertical: hug
+EL-3a760745:
+  type: FRAME
+  layout: layout_f8ded04e
+  strokes: fill_34dc0314
+  strokeWeight: 1px
+  borderRadius: 2px
+EL-e6d22986:
+  type: TEXT
+  layout: layout_177c5efc
+  text: Войти
+  textStyle:
+    fontFamily: Hauora
+    fontStyle: Regular
+    fontWeight: 400
+    fontSize: 14
+    lineHeight: 1.06em
+    letterSpacing: '-0.02em'
+    textAlignHorizontal: CENTER
+    textAlignVertical: TOP
+    paragraphSpacing: 14
+    listSpacing: 14
+  fills: fill_34dc0314
+EL-4161d281:
+  type: FRAME
+  layout:
+    mode: column
+    alignSelf: stretch
+    padding: 40px 40px 70px
+    alignItems: center
+    gap: 40px
+    sizing:
+      horizontal: fill
+      vertical: hug
+EL-616774d3:
+  type: FRAME
+  layout:
+    mode: column
+    alignItems: stretch
+    gap: 12px
+    sizing:
+      horizontal: fixed
+      vertical: hug
+    dimensions:
+      width: 1360
+EL-a188efd9:
+  type: FRAME
+  layout:
+    mode: row
+    padding: 16px 28px
+    justifyContent: center
+    alignItems: center
+    gap: 10px
+    sizing:
+      horizontal: hug
+      vertical: hug
+  fills: fill_f584bf6f
+  borderRadius: 2px
+EL-56ff89a0:
+  type: TEXT
+  layout: layout_177c5efc
+  text: фильтры
+  textStyle: style_d0b6b42e
+  fills: fill_34dc0314
+EL-0a758b4c:
+  type: TEXT
+  layout: layout_177c5efc
+  text: сортировка
+  textStyle: style_d0b6b42e
+  fills: fill_34dc0314
+EL-922c2e83:
+  type: FRAME
+  layout:
+    mode: row
+    alignSelf: stretch
+    wrap: true
+    gap: 32px 12px
+    sizing:
+      horizontal: fill
+      vertical: hug
+EL-2eebfdca:
+  type: INSTANCE
+  layout: layout_e2494641
+  componentId: 828:12006
+EL-f49cb700:
+  type: FRAME
+  layout: layout_2a189349
+  fills: fill_2d02050b
+EL-c593ddd4:
+  type: IMAGE-SVG
+  layout: layout_10cdfab9
+  fills: fill_97d170e1
+EL-3cbe3213:
+  type: INSTANCE
+  layout:
+    mode: column
+    alignItems: stretch
+    gap: 16px
+    sizing:
+      horizontal: fixed
+      vertical: hug
+    dimensions:
+      width: 674
+  componentId: 828:12006
+EL-6604c6c3:
+  type: FRAME
+  layout:
+    mode: row
+    alignSelf: stretch
+    padding: 8px
+    justifyContent: flex-end
+    gap: 169px
+    sizing:
+      horizontal: fill
+      vertical: fixed
+    dimensions:
+      height: 674
+  fills: fill_2d02050b
+EL-e935e75d:
+  type: INSTANCE
+  layout: layout_5d7ee650
+  strokes: fill_a9b2b803
+  strokeWeight: 1px
+  borderRadius: 2px
+  componentId: 828:12024
+EL-577db4a2:
+  type: TEXT
+  layout: layout_177c5efc
+  text: Показать еще
+  textStyle: style_ce0a4cea
+  fills: fill_a9b2b803
+EL-790ee3d6:
+  type: FRAME
+  layout:
+    mode: row
+    justifyContent: center
+    alignItems: center
+    gap: 8px
+    sizing:
+      horizontal: hug
+      vertical: hug
+EL-786995b0:
+  type: IMAGE-SVG
+  layout:
+    mode: none
+    sizing:
+      horizontal: fixed
+      vertical: fixed
+    dimensions:
+      width: 32
+      height: 32
+EL-21a18932:
+  type: FRAME
+  layout:
+    mode: row
+    sizing:
+      horizontal: hug
+      vertical: hug
+EL-49500987:
+  type: FRAME
+  layout: layout_3ab4db5e
+  fills: fill_f584bf6f
+EL-1cdeaac9:
+  type: TEXT
+  layout: layout_177c5efc
+  text: '1'
+  textStyle: style_ce0a4cea
+  fills: fill_a9b2b803
+EL-72cd99d7:
+  type: FRAME
+  layout: layout_3ab4db5e
+EL-6e4d5dc5:
+  type: TEXT
+  layout: layout_177c5efc
+  text: '2'
+  textStyle: style_ce0a4cea
+  fills: fill_a9b2b803
+EL-e5a9249c:
+  type: TEXT
+  layout: layout_177c5efc
+  text: '3'
+  textStyle: style_ce0a4cea
+  fills: fill_a9b2b803
+EL-58d548ec:
+  type: TEXT
+  layout: layout_177c5efc
+  text: '4'
+  textStyle: style_ce0a4cea
+  fills: fill_a9b2b803
+EL-3f80f3e2:
+  type: TEXT
+  layout: layout_177c5efc
+  text: '5'
+  textStyle: style_ce0a4cea
+  fills: fill_a9b2b803
+EL-8c18e808:
+  type: TEXT
+  layout: layout_177c5efc
+  text: '6'
+  textStyle: style_ce0a4cea
+  fills: fill_a9b2b803
+EL-3e7ee904:
+  type: TEXT
+  layout: layout_177c5efc
+  text: ...
+  textStyle: style_ce0a4cea
+  fills: fill_a9b2b803
+EL-c52236e1:
+  type: TEXT
+  layout: layout_177c5efc
+  text: '10'
+  textStyle: style_ce0a4cea
+  fills: fill_a9b2b803
+EL-95db1e76:
+  type: INSTANCE
+  layout: layout_acc7116b
+  fills: fill_7ad30328
+  componentId: 828:11843
+EL-dd2738a7:
+  type: FRAME
+  layout:
+    mode: column
+    alignSelf: stretch
+    padding: 32px 32px 0px
+    alignItems: stretch
+    gap: 40px
+    sizing:
+      horizontal: fill
+      vertical: hug
+EL-d0bac69b:
+  type: TEXT
+  layout: layout_177c5efc
+  text: Добавление в избранное
+  textStyle: style_742e00ad
+  fills: fill_34dc0314
+EL-ecd9240b:
+  type: FRAME
+  layout:
+    mode: column
+    alignSelf: stretch
+    alignItems: stretch
+    gap: 24px
+    sizing:
+      horizontal: fill
+      vertical: hug
+EL-7d2050db:
+  type: LINE
+  layout: layout_3cdeda1d
+  strokes: fill_090ebe47
+  strokeWeight: 1px
+  strokeAlign: CENTER
+EL-b0606623:
+  type: TEXT
+  layout: layout_56d3c81c
+  text: Все сохраненные
+  textStyle: style_73856adf
+  fills: fill_34dc0314
+EL-c8d50cb3:
+  type: FRAME
+  layout:
+    mode: row
+    alignSelf: stretch
+    alignItems: center
+    gap: 8px
+    sizing:
+      horizontal: fill
+      vertical: hug
+EL-f9e735ce:
+  type: TEXT
+  layout: layout_56d3c81c
+  text: Сервировка для ужина
+  textStyle: style_73856adf
+  fills: fill_34dc0314
+EL-0503ed4c:
+  type: TEXT
+  layout: layout_56d3c81c
+  text: Проект гостиной
+  textStyle: style_73856adf
+  fills: fill_34dc0314
+EL-ebe32b4e:
+  type: FRAME
+  layout:
+    mode: column
+    alignSelf: stretch
+    padding: 40px 32px
+    alignItems: stretch
+    gap: 8px
+    sizing:
+      horizontal: fill
+      vertical: hug
+  fills: fill_f584bf6f
+EL-98391260:
+  type: FRAME
+  layout: layout_7efe7290
+  fills: fill_8b4fbb9e
+  borderRadius: 2px
+EL-ff09df22:
+  type: IMAGE-SVG
+  layout:
+    mode: none
+    sizing:
+      horizontal: fixed
+      vertical: fixed
+    dimensions:
+      width: 13.97
+      height: 13.97
+  strokes: fill_f584bf6f
+  strokeWeight: 1.399999976158142px
+  strokeAlign: CENTER
+EL-69ab01bf:
+  type: TEXT
+  layout: layout_177c5efc
+  text: Создать подборку
+  textStyle: style_ce0a4cea
+  fills: fill_658ab2fa
+EL-dfbceab7:
+  type: RECTANGLE
+  layout: layout_2fc956d7
+  fills: fill_5db237a5
+EL-af6662cf:
+  type: FRAME
+  layout:
+    mode: column
+    alignItems: stretch
+    sizing:
+      horizontal: fixed
+      vertical: hug
+    position: absolute
+    locationRelativeToParent:
+      x: 500
+      y: 186
+    dimensions:
+      width: 440
+  fills: fill_c48813f8
+
+COMPONENTS:
+279:19287:
+  id: 279:19287
+  key: 7ec3f18a57c5f56e9f7098d58c4a4dd9e7d20c00
+  name: Fill=Yes, Size=Desktop, State=Full
+  componentSetId: 279:19286
+895:29076:
+  id: 895:29076
+  key: ab1dcc901025be5f27207ac23bb83d206b9155e8
+  name: State=Default, Type=Thretiarly, Color=Black
+  componentSetId: 277:11108
+828:11817:
+  id: 828:11817
+  key: 61e5da15a5f50ba3b876d553d0dce4f2563ae822
+  name: State=Default, Type=Primary, Color=Accent
+  componentSetId: 828:11816
+276:2863:
+  id: 276:2863
+  key: 639d4c7c713feb7ddca0506b0450132c98d6d2db
+  name: Footer
+828:11827:
+  id: 828:11827
+  key: ac80f6f43eeaae236d202a6c2412a9f847c41f4a
+  name: State=Default, Type=Secondary, Color=Accent
+  componentSetId: 828:11816
+828:11843:
+  id: 828:11843
+  key: 747cb56ac6720a18954157e9d72d1172d7c07e2c
+  name: Footer
+828:11970:
+  id: 828:11970
+  key: 2d0919b929504ac312a2fe7e50c0beb263a225f0
+  name: Fill=Yes, Size=Desktop
+  componentSetId: 828:11895
+828:12006:
+  id: 828:12006
+  key: 29c783b134d407a667f5945a29a9d01d5d569d96
+  name: Item Card
+828:12024:
+  id: 828:12024
+  key: 8100b4ef31dac970c6a762fe47c98bf47eb25ce1
+  name: Property 1=Secondary
+  componentSetId: 828:12021
+313:8446:
+  id: 313:8446
+  key: 52416301c5e4f7f746400ddc8ba06566dd669065
+  name: Style=linear
+  componentSetId: 313:8445
+280:1581:
+  id: 280:1581
+  key: adb771592eeb1f1c87f1b07d3e0699fd44269674
+  name: Outline / Essentional, UI / Trash Bin Trash
+281:1757:
+  id: 281:1757
+  key: 79059df9ea77f12bf33ad133e9e0c720fe9ed95d
+  name: Mode=Dark
+  componentSetId: 281:1756
+
+COMPONENT_SETS:
+279:19286:
+  id: 279:19286
+  key: bc281cfd3d4aa83729dc01553a29d1b18d374dd1
+  name: Header
+  description: ''
+277:11108:
+  id: 277:11108
+  key: f734dda002e50822229e9c1be4cfeb9f642d8d05
+  name: Button
+  description: ''
+828:11816:
+  id: 828:11816
+  key: 675926d04fac1a9825d46ad65d49b5441cf04826
+  name: Button
+  description: ''
+828:11895:
+  id: 828:11895
+  key: 2dc5627e4a6e0ea774ed01acf8de7fa80fb9a4f6
+  name: Header
+  description: ''
+828:12021:
+  id: 828:12021
+  key: 08819ffced80468d31d56a1ae491b997f1a3695d
+  name: Button
+  description: ''
+313:8445:
+  id: 313:8445
+  key: 348ba5c78c93f62e3aec323484a48661a79933f4
+  name: arrow-left
+  description: ''
+281:1756:
+  id: 281:1756
+  key: de8ea05dedb60249cf99a753abf0bc2b379a1cc2
+  name: Arrow-down
+  description: ''
+
+NODES:
+[SECTION] "Дизайн / Избранное" #966:48444 layout={"mode":"none","sizing":{}} fills=["rgba(255, 255, 255, 0.05)"] strokes=fill_dbe29f28 strokeWeight=1px
+  [FRAME] "Избранное  / Все подборки" #966:48445 layout={"mode":"column","sizing":{"horizontal":"hug","vertical":"hug"},"locationRelativeToParent":{"x":1675,"y":432}}
+    [INSTANCE] "Header" #966:48446 template=EL-6b472314
+      [FRAME] "Content" #I966:48446;279:19288 template=EL-bb582553
+        [FRAME] "Content " #I966:48446;279:19289 template=EL-12d709f7
+          [TEXT] #I966:48446;279:19290 template=EL-106f5a91
+          [FRAME] #I966:48446;279:19291 template=EL-5843db5d
+            [TEXT] #I966:48446;279:19292 template=EL-4cc49b2d
+            [IMAGE-SVG] "vuesax/linear/arrow-right" #I966:48446;279:19293 template=EL-d4302386
+        [RECTANGLE] "telegram-cloud-document-2-5251416634047897893 1" #I966:48446;907:30122 template=EL-496b7f4c
+        [FRAME] "Content" #I966:48446;279:19297 template=EL-50da7cd7
+          [IMAGE-SVG] "Icon Search" #I966:48446;279:19298 template=EL-762d5cce
+          [IMAGE-SVG] "bytesize:heart" #I966:48446;279:19300 template=EL-762d5cce
+          [INSTANCE] "Button" #I966:48446;895:29085 template=EL-e88db4ee
+            [TEXT] #I966:48446;895:29085;895:29077 template=EL-fd2be87b
+      [FRAME] "Content" #I966:48446;279:19309 template=EL-c9c16ae6
+        [TEXT] #I966:48446;279:19311 template=EL-569edc46
+        [TEXT] #I966:48446;279:19312 template=EL-36e8436f
+        [TEXT] #I966:48446;279:19313 template=EL-13bfe0f1
+        [TEXT] #I966:48446;279:19314 template=EL-62a5be30
+        [TEXT] #I966:48446;279:19315 template=EL-6858659e
+        [TEXT] #I966:48446;279:19316 template=EL-4792e634
+        [TEXT] #I966:48446;279:19317 template=EL-6ab11265
+        [FRAME] "Dropdown" #I966:48446;279:19318 template=EL-5843db5d
+          [TEXT] #I966:48446;279:19319 template=EL-f8162672
+    [FRAME] "Title" #966:48447 template=EL-5ff084d6
+      [FRAME] #966:48448 template=EL-7e82b98e
+        [FRAME] "Breadcrumbs" #966:48449 template=EL-eda14dc5
+          [TEXT] #966:48450 template=EL-474825e7
+          [TEXT] #966:48451 template=EL-ad237f5c
+          [TEXT] #966:48452 template=EL-d421bbef
+        [FRAME] #966:48453 template=EL-28d879d4
+          [LINE] #966:48454 template=EL-56ff9324
+          [IMAGE-SVG] "telegram-cloud-document-2-5251416634047897893 1 [Vectorized]" #966:48455 template=EL-df5bb129
+          [LINE] #966:48464 template=EL-56ff9324
+        [TEXT] #966:48465 template=EL-781b832a
+    [FRAME] #966:48466 template=EL-c4e48f56
+      [FRAME] #966:48467 template=EL-6e1f97e9
+        [FRAME] "Tabs" #966:48468 template=EL-abfc58e6
+          [FRAME] #966:48469 template=EL-8a0f5ca1
+            [TEXT] #966:48470 template=EL-4b621ed7
+          [FRAME] #966:48471 template=EL-2cfa4edb
+            [TEXT] #966:48472 template=EL-c56a473b
+        [FRAME] #966:48473 layout={"mode":"column","alignSelf":"stretch","alignItems":"stretch","gap":"28px","sizing":{"horizontal":"fill","vertical":"hug"}}
+          [FRAME] #966:48474 template=EL-ffc1b4d2
+            [FRAME] "Button" #966:48475 layout={"mode":"row","padding":"16px 24px","justifyContent":"center","alignItems":"center","gap":"10px","sizing":{"horizontal":"hug","vertical":"fixed"},"dimensions":{"height":48}} strokes=fill_c5b17057 strokeWeight=1px borderRadius=2px
+              [IMAGE-SVG] "fluent-mdl2:sort" #966:48476 layout=layout_26993d1a fills=fill_97d170e1
+              [TEXT] #966:48478 layout=layout_177c5efc fills=fill_34dc0314 textStyle={"fontFamily":"Hauora","fontStyle":"Regular","fontWeight":400,"fontSize":16,"lineHeight":"1.06em","textAlignHorizontal":"CENTER","textAlignVertical":"TOP","paragraphSpacing":14,"listSpacing":14} text="Сортировать"
+            [INSTANCE] #966:48479 template=EL-18fca13c
+              [TEXT] #I966:48479;1:6200 layout=layout_177c5efc fills=fill_658ab2fa textStyle=style_ce0a4cea text="Показать больше"
+          [FRAME] #966:48480 template=EL-1519dabc
+            [FRAME] #966:48481 template=EL-bb14c527
+              [FRAME] #966:48482 template=EL-ffc1b4d2
+                [TEXT] #966:48483 layout=layout_177c5efc fills=Black textStyle=H4 text="Сервировка для ужина"
+                [FRAME] "Sale" #966:48484 template=EL-e1f1b3a1
+                  [TEXT] #966:48485 template=EL-3eb1e6e3
+              [FRAME] #966:48486 template=EL-850dec76
+                [FRAME] "Image" #966:48487 template=EL-78c8a09b
+                  [RECTANGLE] "Image" #966:48488 layout=layout_e8d1e716 fills=[{"type":"IMAGE","imageRef":"6e7b408207da980f53569e61db687c9547a13257","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}},"#C4C4C4"]
+                [FRAME] "Image" #966:48489 template=EL-78c8a09b
+                  [RECTANGLE] "Image" #966:48490 layout=layout_e8d1e716 fills=[{"type":"IMAGE","imageRef":"9b8419f7025e2e6b130f17f55438d6c6f1b1741b","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}},"#C4C4C4"]
+                [FRAME] "Image" #966:48491 template=EL-78c8a09b
+                  [RECTANGLE] "Image" #966:48492 layout=layout_e8d1e716 fills=[{"type":"IMAGE","imageRef":"dbd2f5419f5b2f6fddc301bf2f2da32be65d3d93","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}},"#C4C4C4"]
+              [FRAME] #966:48493 template=EL-bb582553
+                [TEXT] #966:48494 template=EL-9c3d008f
+                [TEXT] #966:48495 layout=layout_177c5efc fills=Black textStyle=style_42542bc1 text="223 900 ₽"
+            [FRAME] #966:48496 template=EL-bb14c527
+              [FRAME] #966:48497 template=EL-ffc1b4d2
+                [TEXT] #966:48498 layout=layout_177c5efc fills=Black textStyle=H4 text="Проект гостиной"
+                [FRAME] #966:48499 template=EL-235879b0
+                  [FRAME] "Sale" #966:48500 template=EL-e1f1b3a1
+                    [TEXT] #966:48501 template=EL-3eb1e6e3
+              [FRAME] #966:48502 template=EL-850dec76
+                [FRAME] "Image" #966:48503 template=EL-78c8a09b
+                  [RECTANGLE] "Image" #966:48504 layout=layout_e8d1e716 fills=[{"type":"IMAGE","imageRef":"40543c862d529ce0193dde6058c08d6d67be1d8f","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}},"#C4C4C4"]
+                [FRAME] "Image" #966:48505 template=EL-78c8a09b
+                  [RECTANGLE] "Image" #966:48506 layout=layout_e8d1e716 fills=[{"type":"IMAGE","imageRef":"5121a4647bacd6fecd6faac3511f215257a73b50","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}},"#C4C4C4"]
+                [FRAME] "Image" #966:48507 template=EL-78c8a09b
+                  [RECTANGLE] "Image" #966:48508 layout=layout_e8d1e716 fills=[{"type":"IMAGE","imageRef":"058c1d8455902d4feeae548f64370c6e21211db7","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}},"#C4C4C4"]
+                [FRAME] "Image" #966:48509 template=EL-78c8a09b
+                  [RECTANGLE] "Image" #966:48510 layout=layout_e8d1e716 fills=["#C4C4C4"]
+                  [RECTANGLE] "Image" #966:48511 layout=layout_e8d1e716 fills=[{"type":"IMAGE","imageRef":"8140187d7434deb0949af7fc1b0dd918d1b1971f","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}},"#C4C4C4"]
+              [FRAME] #966:48512 template=EL-bb582553
+                [TEXT] #966:48513 layout=layout_c8dbe63d fills=fill_de2f262b textStyle=style_b8a8c444 text="Товары \\(4\\)"
+                [TEXT] #966:48514 layout=layout_177c5efc fills=Black textStyle=style_42542bc1 text="653 000 ₽"
+    [INSTANCE] "Footer" #966:48515 template=EL-928ac7ac
+      [FRAME] "Selection" #I966:48515;203:887 template=EL-bf156a5b
+        [FRAME] #I966:48515;203:889 template=EL-3991bef7
+          [RECTANGLE] "telegram-cloud-document-2-5251416634047897893 1" #I966:48515;907:30196 template=EL-7349ae27
+          [TEXT] #I966:48515;203:891 template=EL-d07450bf
+        [TEXT] #I966:48515;205:63 template=EL-b1ebc304
+        [TEXT] #I966:48515;205:66 template=EL-0468c0d7
+        [TEXT] #I966:48515;205:64 template=EL-899488be
+        [TEXT] #I966:48515;205:65 template=EL-c531e5c6
+        [FRAME] #I966:48515;205:35 template=EL-1c6de66b
+          [TEXT] #I966:48515;203:910 template=EL-362fb9b8
+          [FRAME] #I966:48515;205:34 template=EL-1519dabc
+            [TEXT] #I966:48515;205:27 template=EL-53f4cbfc
+            [TEXT] #I966:48515;205:28 template=EL-5eb41475
+            [TEXT] #I966:48515;205:29 template=EL-fa609635
+            [TEXT] #I966:48515;205:30 template=EL-6675a1ab
+            [TEXT] #I966:48515;205:31 template=EL-d18ea825
+            [TEXT] #I966:48515;205:32 template=EL-bad21f62
+            [TEXT] #I966:48515;205:33 template=EL-19cf47e0
+        [FRAME] #I966:48515;205:36 template=EL-4813bf8c
+          [TEXT] #I966:48515;205:37 template=EL-488e33ab
+          [FRAME] #I966:48515;205:38 template=EL-1519dabc
+            [TEXT] #I966:48515;205:39 template=EL-def71b74
+            [TEXT] #I966:48515;205:61 template=EL-12909fbd
+            [TEXT] #I966:48515;205:44 template=EL-8dd185e5
+        [FRAME] #I966:48515;205:46 template=EL-cd7c93c4
+          [TEXT] #I966:48515;205:47 template=EL-c354e8a1
+          [FRAME] #I966:48515;205:48 template=EL-1519dabc
+            [TEXT] #I966:48515;205:49 template=EL-46649359
+            [TEXT] #I966:48515;205:50 template=EL-71203d8a
+            [TEXT] #I966:48515;205:52 template=EL-bc5a879b
+            [TEXT] #I966:48515;205:56 template=EL-01984c59
+        [FRAME] #I966:48515;205:67 template=EL-8e2638f3
+          [FRAME] #I966:48515;206:122 template=EL-f6efe3b4
+            [FRAME] #I966:48515;206:124 template=EL-24705f71
+              [TEXT] #I966:48515;206:125 template=EL-bcfc5562
+              [TEXT] #I966:48515;206:126 template=EL-6dda702e
+            [FRAME] #I966:48515;206:128 template=EL-24705f71
+              [TEXT] #I966:48515;206:129 template=EL-b73a9f94
+              [TEXT] #I966:48515;206:130 template=EL-adf99d5c
+            [TEXT] #I966:48515;206:119 template=EL-7cb103ea
+            [FRAME] #I966:48515;205:84 template=EL-235879b0
+              [IMAGE-SVG] "basil:vk-solid" #I966:48515;205:85 template=EL-7c4c0d96
+              [IMAGE-SVG] "basil:vk-solid" #I966:48515;205:87 template=EL-7c4c0d96
+              [IMAGE-SVG] "basil:vk-solid" #I966:48515;205:89 template=EL-7c4c0d96
+          [FRAME] #I966:48515;206:123 template=EL-d8a3e5e9
+            [TEXT] #I966:48515;203:898 template=EL-19945db2
+            [TEXT] #I966:48515;203:904 template=EL-438719fa
+        [RECTANGLE] "image 1271224161" #I966:48515;205:91 template=EL-9a80455c
+  [FRAME] "Избранное / Подборка" #966:48516 layout={"mode":"column","sizing":{"horizontal":"fixed","vertical":"hug"},"locationRelativeToParent":{"x":3155,"y":432},"dimensions":{"width":1440}}
+    [INSTANCE] "Header" #966:48517 template=EL-6b472314
+      [FRAME] "Content" #I966:48517;279:19288 template=EL-bb582553
+        [FRAME] "Content " #I966:48517;279:19289 template=EL-12d709f7
+          [TEXT] #I966:48517;279:19290 template=EL-106f5a91
+          [FRAME] #I966:48517;279:19291 template=EL-5843db5d
+            [TEXT] #I966:48517;279:19292 template=EL-4cc49b2d
+            [IMAGE-SVG] "vuesax/linear/arrow-right" #I966:48517;279:19293 template=EL-d4302386
+        [RECTANGLE] "telegram-cloud-document-2-5251416634047897893 1" #I966:48517;907:30122 template=EL-496b7f4c
+        [FRAME] "Content" #I966:48517;279:19297 template=EL-50da7cd7
+          [IMAGE-SVG] "Icon Search" #I966:48517;279:19298 template=EL-762d5cce
+          [IMAGE-SVG] "bytesize:heart" #I966:48517;279:19300 template=EL-762d5cce
+          [INSTANCE] "Button" #I966:48517;895:29085 template=EL-e88db4ee
+            [TEXT] #I966:48517;895:29085;895:29077 template=EL-fd2be87b
+      [FRAME] "Content" #I966:48517;279:19309 template=EL-c9c16ae6
+        [TEXT] #I966:48517;279:19311 template=EL-569edc46
+        [TEXT] #I966:48517;279:19312 template=EL-36e8436f
+        [TEXT] #I966:48517;279:19313 template=EL-13bfe0f1
+        [TEXT] #I966:48517;279:19314 template=EL-62a5be30
+        [TEXT] #I966:48517;279:19315 template=EL-6858659e
+        [TEXT] #I966:48517;279:19316 template=EL-4792e634
+        [TEXT] #I966:48517;279:19317 template=EL-6ab11265
+        [FRAME] "Dropdown" #I966:48517;279:19318 template=EL-5843db5d
+          [TEXT] #I966:48517;279:19319 template=EL-f8162672
+    [FRAME] "Главная страница" #966:48518 layout={"mode":"column","padding":"30px 40px","alignItems":"stretch","gap":"10px","sizing":{"horizontal":"fixed","vertical":"hug"},"dimensions":{"width":1440}} fills=fill_658ab2fa
+      [FRAME] #966:48519 layout={"mode":"column","alignSelf":"stretch","gap":"14px","sizing":{"horizontal":"fill","vertical":"hug"}}
+        [FRAME] "Breadcrumbs" #966:48520 template=EL-eda14dc5
+          [TEXT] #966:48521 template=EL-474825e7
+          [TEXT] #966:48522 template=EL-ad237f5c
+          [TEXT] #966:48523 template=EL-d421bbef
+          [TEXT] #966:48524 template=EL-ad237f5c
+          [TEXT] #966:48525 layout=layout_177c5efc fills=fill_8b4fbb9e textStyle=style_9a5f131c text="Подборка"
+        [FRAME] #966:48526 template=EL-ffc1b4d2
+          [TEXT] #966:48527 layout=layout_177c5efc fills=fill_34dc0314 textStyle=H2 text="Сервировка для ужина"
+          [FRAME] "Sale" #966:48528 layout={"mode":"row","padding":"8px","justifyContent":"center","alignItems":"center","gap":"2px","sizing":{"horizontal":"hug","vertical":"fixed"},"dimensions":{"height":45}} fills=fill_8b4fbb9e borderRadius=2px
+            [TEXT] #966:48529 template=EL-3eb1e6e3
+    [FRAME] #966:48530 template=EL-c4e48f56
+      [FRAME] #966:48531 layout={"mode":"column","alignItems":"stretch","gap":"40px","sizing":{"horizontal":"fill","vertical":"hug"}}
+        [FRAME] #966:48532 template=EL-c094fdcc
+          [FRAME] "Item Card" #966:48533 template=EL-a6160c77
+            [FRAME] "Image" #966:48534 layout=layout_2a189349 fills=[{"type":"IMAGE","imageRef":"6e7b408207da980f53569e61db687c9547a13257","scaleMode":"FILL","backgroundSize":"cover","backgroundRepeat":"no-repeat","isBackground":true,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}},"#B0B0B0"]
+              [IMAGE-SVG] "Icon Close" #966:48537 template=EL-232debae
+            [FRAME] "Content" #966:48539 template=EL-7e8f3d26
+              [FRAME] "Text" #966:48540 template=EL-bc40306a
+                [TEXT] #966:48541 layout=layout_56d3c81c fills=fill_5db237a5 textStyle=style_34f903f5 text="Бокал"
+                [TEXT] #966:48542 template=EL-e1f7f57e
+              [FRAME] "Sale Price" #966:48543 template=EL-94a17615
+                [TEXT] #966:48544 template=EL-afe1950d
+          [FRAME] "Item Card" #966:48548 template=EL-a6160c77
+            [FRAME] "Image" #966:48549 layout=layout_2a189349 fills=[{"type":"IMAGE","imageRef":"9b8419f7025e2e6b130f17f55438d6c6f1b1741b","scaleMode":"FILL","backgroundSize":"cover","backgroundRepeat":"no-repeat","isBackground":true,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}},"#B0B0B0"]
+              [IMAGE-SVG] "Icon Close" #966:48552 template=EL-232debae
+            [FRAME] "Content" #966:48554 template=EL-7e8f3d26
+              [FRAME] "Text" #966:48555 template=EL-bc40306a
+                [TEXT] #966:48556 layout=layout_56d3c81c fills=fill_5db237a5 textStyle=style_34f903f5 text="Стакан"
+                [TEXT] #966:48557 template=EL-e1f7f57e
+              [FRAME] "Sale Price" #966:48558 template=EL-94a17615
+                [TEXT] #966:48559 template=EL-afe1950d
+          [FRAME] "Item Card" #966:48563 template=EL-a6160c77
+            [FRAME] "Image" #966:48564 layout=layout_2a189349 fills=[{"type":"IMAGE","imageRef":"dbd2f5419f5b2f6fddc301bf2f2da32be65d3d93","scaleMode":"FILL","backgroundSize":"cover","backgroundRepeat":"no-repeat","isBackground":true,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}},"#B0B0B0"]
+              [IMAGE-SVG] "Icon Close" #966:48567 template=EL-232debae
+            [FRAME] "Content" #966:48569 template=EL-7e8f3d26
+              [FRAME] "Text" #966:48570 template=EL-bc40306a
+                [TEXT] #966:48571 layout=layout_56d3c81c fills=fill_5db237a5 textStyle=style_34f903f5 text="Пиала"
+                [TEXT] #966:48572 template=EL-e1f7f57e
+              [FRAME] "Sale Price" #966:48573 template=EL-94a17615
+                [TEXT] #966:48574 template=EL-afe1950d
+                [GROUP] #966:48575 template=EL-71714af2
+                  [LINE] #966:48576 template=EL-406ec395
+                  [TEXT] #966:48577 template=EL-7ac8af5c
+        [FRAME] #966:48578 layout={"mode":"row","alignSelf":"stretch","alignItems":"stretch","gap":"16px","sizing":{"horizontal":"fill","vertical":"hug"}}
+          [FRAME] #966:48579 layout={"mode":"column","alignSelf":"stretch","padding":"28px","gap":"24px","sizing":{"horizontal":"fill","vertical":"fill"}} fills=["#F7F3EF"]
+            [TEXT] #966:48580 layout=layout_177c5efc fills=fill_34dc0314 textStyle=H3 text="Расчёт подборки"
+            [FRAME] #966:48581 layout={"mode":"column","alignSelf":"stretch","alignItems":"stretch","gap":"20px","sizing":{"horizontal":"fill","vertical":"hug"}}
+              [FRAME] #966:48582 template=EL-bb582553
+                [TEXT] #966:48583 template=EL-9c3d008f
+                [TEXT] #966:48584 layout=layout_177c5efc fills=Black textStyle=style_42542bc1 text="5 123 900 ₽"
+              [FRAME] #966:48585 template=EL-bb582553
+                [TEXT] #966:48586 layout=layout_c8dbe63d fills=fill_de2f262b textStyle=style_b8a8c444 text="Скидка"
+                [TEXT] #966:48587 layout=layout_177c5efc fills=Black textStyle=style_42542bc1 text="0 ₽"
+              [FRAME] #966:48588 template=EL-bb582553
+                [TEXT] #966:48589 layout=layout_c8dbe63d fills=fill_de2f262b textStyle=style_b8a8c444 text="Доставка"
+                [TEXT] #966:48590 layout=layout_177c5efc fills=Black textStyle=style_42542bc1 text="Бесплатно"
+              [RECTANGLE] #966:48591 layout={"mode":"none","sizing":{"horizontal":"fill","vertical":"fixed"},"dimensions":{"height":1}} fills=["#DBDBDB"]
+              [FRAME] #966:48592 template=EL-bb582553
+                [TEXT] #966:48593 layout=layout_177c5efc fills=Black textStyle={"fontFamily":"Hauora","fontStyle":"Medium","fontWeight":500,"fontSize":16,"lineHeight":"1.3em","textAlignHorizontal":"LEFT","textAlignVertical":"TOP"} text="Итого"
+                [TEXT] #966:48594 layout=layout_177c5efc fills=Black textStyle={"fontFamily":"Hauora","fontStyle":"SemiBold","fontWeight":600,"fontSize":18,"lineHeight":"1.2em","textAlignHorizontal":"LEFT","textAlignVertical":"TOP"} text="5 123 900 ₽"
+            [FRAME] #966:48595 layout={"mode":"row","gap":"12px","sizing":{"horizontal":"hug","vertical":"hug"}}
+              [INSTANCE] #966:48596 template=EL-18fca13c
+                [TEXT] #I966:48596;1:6200 layout=layout_177c5efc fills=fill_658ab2fa textStyle=style_ce0a4cea text="Перейти к оформлению"
+              [INSTANCE] "Button" #966:48597 layout=layout_5d7ee650 strokes=fill_c5b17057 strokeWeight=1px borderRadius=2px componentId=828:11827
+                [TEXT] #I966:48597;1:6210 layout=layout_177c5efc fills=fill_8b4fbb9e textStyle=style_ce0a4cea text="Отправить подборку и расчет"
+    [INSTANCE] "Footer" #966:48598 template=EL-928ac7ac
+      [FRAME] "Selection" #I966:48598;203:887 template=EL-bf156a5b
+        [FRAME] #I966:48598;203:889 template=EL-3991bef7
+          [RECTANGLE] "telegram-cloud-document-2-5251416634047897893 1" #I966:48598;907:30196 template=EL-7349ae27
+          [TEXT] #I966:48598;203:891 template=EL-d07450bf
+        [TEXT] #I966:48598;205:63 template=EL-b1ebc304
+        [TEXT] #I966:48598;205:66 template=EL-0468c0d7
+        [TEXT] #I966:48598;205:64 template=EL-899488be
+        [TEXT] #I966:48598;205:65 template=EL-c531e5c6
+        [FRAME] #I966:48598;205:35 template=EL-1c6de66b
+          [TEXT] #I966:48598;203:910 template=EL-362fb9b8
+          [FRAME] #I966:48598;205:34 template=EL-1519dabc
+            [TEXT] #I966:48598;205:27 template=EL-53f4cbfc
+            [TEXT] #I966:48598;205:28 template=EL-5eb41475
+            [TEXT] #I966:48598;205:29 template=EL-fa609635
+            [TEXT] #I966:48598;205:30 template=EL-6675a1ab
+            [TEXT] #I966:48598;205:31 template=EL-d18ea825
+            [TEXT] #I966:48598;205:32 template=EL-bad21f62
+            [TEXT] #I966:48598;205:33 template=EL-19cf47e0
+        [FRAME] #I966:48598;205:36 template=EL-4813bf8c
+          [TEXT] #I966:48598;205:37 template=EL-488e33ab
+          [FRAME] #I966:48598;205:38 template=EL-1519dabc
+            [TEXT] #I966:48598;205:39 template=EL-def71b74
+            [TEXT] #I966:48598;205:61 template=EL-12909fbd
+            [TEXT] #I966:48598;205:44 template=EL-8dd185e5
+        [FRAME] #I966:48598;205:46 template=EL-cd7c93c4
+          [TEXT] #I966:48598;205:47 template=EL-c354e8a1
+          [FRAME] #I966:48598;205:48 template=EL-1519dabc
+            [TEXT] #I966:48598;205:49 template=EL-46649359
+            [TEXT] #I966:48598;205:50 template=EL-71203d8a
+            [TEXT] #I966:48598;205:52 template=EL-bc5a879b
+            [TEXT] #I966:48598;205:56 template=EL-01984c59
+        [FRAME] #I966:48598;205:67 template=EL-8e2638f3
+          [FRAME] #I966:48598;206:122 template=EL-f6efe3b4
+            [FRAME] #I966:48598;206:124 template=EL-24705f71
+              [TEXT] #I966:48598;206:125 template=EL-bcfc5562
+              [TEXT] #I966:48598;206:126 template=EL-6dda702e
+            [FRAME] #I966:48598;206:128 template=EL-24705f71
+              [TEXT] #I966:48598;206:129 template=EL-b73a9f94
+              [TEXT] #I966:48598;206:130 template=EL-adf99d5c
+            [TEXT] #I966:48598;206:119 template=EL-7cb103ea
+            [FRAME] #I966:48598;205:84 template=EL-235879b0
+              [IMAGE-SVG] "basil:vk-solid" #I966:48598;205:85 template=EL-7c4c0d96
+              [IMAGE-SVG] "basil:vk-solid" #I966:48598;205:87 template=EL-7c4c0d96
+              [IMAGE-SVG] "basil:vk-solid" #I966:48598;205:89 template=EL-7c4c0d96
+          [FRAME] #I966:48598;206:123 template=EL-d8a3e5e9
+            [TEXT] #I966:48598;203:898 template=EL-19945db2
+            [TEXT] #I966:48598;203:904 template=EL-438719fa
+        [RECTANGLE] "image 1271224161" #I966:48598;205:91 template=EL-9a80455c
+  [FRAME] "Избранное / Все сохраненные товары" #966:48599 layout={"mode":"column","sizing":{"horizontal":"hug","vertical":"hug"},"locationRelativeToParent":{"x":195,"y":432}}
+    [INSTANCE] "Header" #966:48600 template=EL-6b472314
+      [FRAME] "Content" #I966:48600;279:19288 template=EL-bb582553
+        [FRAME] "Content " #I966:48600;279:19289 template=EL-12d709f7
+          [TEXT] #I966:48600;279:19290 template=EL-106f5a91
+          [FRAME] #I966:48600;279:19291 template=EL-5843db5d
+            [TEXT] #I966:48600;279:19292 template=EL-4cc49b2d
+            [IMAGE-SVG] "vuesax/linear/arrow-right" #I966:48600;279:19293 template=EL-d4302386
+        [RECTANGLE] "telegram-cloud-document-2-5251416634047897893 1" #I966:48600;907:30122 template=EL-496b7f4c
+        [FRAME] "Content" #I966:48600;279:19297 template=EL-50da7cd7
+          [IMAGE-SVG] "Icon Search" #I966:48600;279:19298 template=EL-762d5cce
+          [IMAGE-SVG] "bytesize:heart" #I966:48600;279:19300 template=EL-762d5cce
+          [INSTANCE] "Button" #I966:48600;895:29085 template=EL-e88db4ee
+            [TEXT] #I966:48600;895:29085;895:29077 template=EL-fd2be87b
+      [FRAME] "Content" #I966:48600;279:19309 template=EL-c9c16ae6
+        [TEXT] #I966:48600;279:19311 template=EL-569edc46
+        [TEXT] #I966:48600;279:19312 template=EL-36e8436f
+        [TEXT] #I966:48600;279:19313 template=EL-13bfe0f1
+        [TEXT] #I966:48600;279:19314 template=EL-62a5be30
+        [TEXT] #I966:48600;279:19315 template=EL-6858659e
+        [TEXT] #I966:48600;279:19316 template=EL-4792e634
+        [TEXT] #I966:48600;279:19317 template=EL-6ab11265
+        [FRAME] "Dropdown" #I966:48600;279:19318 template=EL-5843db5d
+          [TEXT] #I966:48600;279:19319 template=EL-f8162672
+    [FRAME] "Title" #966:48601 template=EL-5ff084d6
+      [FRAME] #966:48602 template=EL-7e82b98e
+        [FRAME] "Breadcrumbs" #966:48603 template=EL-eda14dc5
+          [TEXT] #966:48604 template=EL-474825e7
+          [TEXT] #966:48605 template=EL-ad237f5c
+          [TEXT] #966:48606 template=EL-d421bbef
+        [FRAME] #966:48607 template=EL-28d879d4
+          [LINE] #966:48608 template=EL-56ff9324
+          [IMAGE-SVG] "telegram-cloud-document-2-5251416634047897893 1 [Vectorized]" #966:48609 template=EL-df5bb129
+          [LINE] #966:48618 template=EL-56ff9324
+        [TEXT] #966:48619 template=EL-781b832a
+    [FRAME] #966:48620 template=EL-c4e48f56
+      [FRAME] #966:48621 template=EL-6e1f97e9
+        [FRAME] "Tabs" #966:48622 template=EL-abfc58e6
+          [FRAME] #966:48623 template=EL-2cfa4edb
+            [TEXT] #966:48624 template=EL-4b621ed7
+          [FRAME] #966:48625 template=EL-8a0f5ca1
+            [TEXT] #966:48626 template=EL-c56a473b
+        [FRAME] #966:48627 template=EL-c094fdcc
+          [FRAME] "Item Card" #966:48628 template=EL-9db5b930
+            [FRAME] "Image" #966:48629 template=EL-102dd31f
+              [IMAGE-SVG] "Icon Close" #966:48632 template=EL-232debae
+            [FRAME] "Content" #966:48634 template=EL-1519dabc
+              [FRAME] "Text" #966:48635 template=EL-bc40306a
+                [TEXT] #966:48636 template=EL-2063c6fe
+                [TEXT] #966:48637 template=EL-e1f7f57e
+              [FRAME] "Sale Price" #966:48638 template=EL-94a17615
+                [TEXT] #966:48639 template=EL-afe1950d
+          [FRAME] "Item Card" #966:48643 template=EL-9db5b930
+            [FRAME] "Image" #966:48644 template=EL-293e5acd
+              [IMAGE-SVG] "Icon Close" #966:48647 template=EL-232debae
+            [FRAME] "Content" #966:48649 template=EL-1519dabc
+              [FRAME] "Text" #966:48650 template=EL-bc40306a
+                [TEXT] #966:48651 template=EL-9eb34e2e
+                [TEXT] #966:48652 template=EL-e1f7f57e
+              [FRAME] "Sale Price" #966:48653 template=EL-94a17615
+                [TEXT] #966:48654 template=EL-afe1950d
+          [FRAME] "Item Card" #966:48658 template=EL-9db5b930
+            [FRAME] "Image" #966:48659 template=EL-96b2d234
+              [IMAGE-SVG] "Icon Close" #966:48662 template=EL-232debae
+            [FRAME] "Content" #966:48664 template=EL-1519dabc
+              [FRAME] "Text" #966:48665 template=EL-bc40306a
+                [TEXT] #966:48666 template=EL-9eb34e2e
+                [TEXT] #966:48667 template=EL-e1f7f57e
+              [FRAME] "Sale Price" #966:48668 template=EL-94a17615
+                [TEXT] #966:48669 template=EL-afe1950d
+                [GROUP] #966:48670 template=EL-71714af2
+                  [LINE] #966:48671 template=EL-406ec395
+                  [TEXT] #966:48672 template=EL-7ac8af5c
+          [FRAME] "Item Card" #966:48673 template=EL-9db5b930
+            [FRAME] "Image" #966:48674 template=EL-a57ef421
+              [IMAGE-SVG] "Icon Close" #966:48677 template=EL-232debae
+            [FRAME] "Content" #966:48679 template=EL-1519dabc
+              [FRAME] "Text" #966:48680 template=EL-bc40306a
+                [TEXT] #966:48681 template=EL-49da3909
+                [TEXT] #966:48682 template=EL-e1f7f57e
+              [FRAME] "Sale Price" #966:48683 template=EL-94a17615
+                [TEXT] #966:48684 template=EL-afe1950d
+    [INSTANCE] "Footer" #966:48688 template=EL-928ac7ac
+      [FRAME] "Selection" #I966:48688;203:887 template=EL-bf156a5b
+        [FRAME] #I966:48688;203:889 template=EL-3991bef7
+          [RECTANGLE] "telegram-cloud-document-2-5251416634047897893 1" #I966:48688;907:30196 template=EL-7349ae27
+          [TEXT] #I966:48688;203:891 template=EL-d07450bf
+        [TEXT] #I966:48688;205:63 template=EL-b1ebc304
+        [TEXT] #I966:48688;205:66 template=EL-0468c0d7
+        [TEXT] #I966:48688;205:64 template=EL-899488be
+        [TEXT] #I966:48688;205:65 template=EL-c531e5c6
+        [FRAME] #I966:48688;205:35 template=EL-1c6de66b
+          [TEXT] #I966:48688;203:910 template=EL-362fb9b8
+          [FRAME] #I966:48688;205:34 template=EL-1519dabc
+            [TEXT] #I966:48688;205:27 template=EL-53f4cbfc
+            [TEXT] #I966:48688;205:28 template=EL-5eb41475
+            [TEXT] #I966:48688;205:29 template=EL-fa609635
+            [TEXT] #I966:48688;205:30 template=EL-6675a1ab
+            [TEXT] #I966:48688;205:31 template=EL-d18ea825
+            [TEXT] #I966:48688;205:32 template=EL-bad21f62
+            [TEXT] #I966:48688;205:33 template=EL-19cf47e0
+        [FRAME] #I966:48688;205:36 template=EL-4813bf8c
+          [TEXT] #I966:48688;205:37 template=EL-488e33ab
+          [FRAME] #I966:48688;205:38 template=EL-1519dabc
+            [TEXT] #I966:48688;205:39 template=EL-def71b74
+            [TEXT] #I966:48688;205:61 template=EL-12909fbd
+            [TEXT] #I966:48688;205:44 template=EL-8dd185e5
+        [FRAME] #I966:48688;205:46 template=EL-cd7c93c4
+          [TEXT] #I966:48688;205:47 template=EL-c354e8a1
+          [FRAME] #I966:48688;205:48 template=EL-1519dabc
+            [TEXT] #I966:48688;205:49 template=EL-46649359
+            [TEXT] #I966:48688;205:50 template=EL-71203d8a
+            [TEXT] #I966:48688;205:52 template=EL-bc5a879b
+            [TEXT] #I966:48688;205:56 template=EL-01984c59
+        [FRAME] #I966:48688;205:67 template=EL-8e2638f3
+          [FRAME] #I966:48688;206:122 template=EL-f6efe3b4
+            [FRAME] #I966:48688;206:124 template=EL-24705f71
+              [TEXT] #I966:48688;206:125 template=EL-bcfc5562
+              [TEXT] #I966:48688;206:126 template=EL-6dda702e
+            [FRAME] #I966:48688;206:128 template=EL-24705f71
+              [TEXT] #I966:48688;206:129 template=EL-b73a9f94
+              [TEXT] #I966:48688;206:130 template=EL-adf99d5c
+            [TEXT] #I966:48688;206:119 template=EL-7cb103ea
+            [FRAME] #I966:48688;205:84 template=EL-235879b0
+              [IMAGE-SVG] "basil:vk-solid" #I966:48688;205:85 template=EL-7c4c0d96
+              [IMAGE-SVG] "basil:vk-solid" #I966:48688;205:87 template=EL-7c4c0d96
+              [IMAGE-SVG] "basil:vk-solid" #I966:48688;205:89 template=EL-7c4c0d96
+          [FRAME] #I966:48688;206:123 template=EL-d8a3e5e9
+            [TEXT] #I966:48688;203:898 template=EL-19945db2
+            [TEXT] #I966:48688;203:904 template=EL-438719fa
+        [RECTANGLE] "image 1271224161" #I966:48688;205:91 template=EL-9a80455c
+  [TEXT] #966:48689 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":195,"y":187},"dimensions":{"width":536,"height":106}} fills=fill_658ab2fa textStyle=style_70acd44d text="Избранное"
+  [TEXT] #966:48690 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":5358,"y":187},"dimensions":{"width":957,"height":106}} fills=fill_658ab2fa textStyle=style_70acd44d text="Добавление товара"
+  [TEXT] #966:48691 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":9078,"y":187},"dimensions":{"width":964,"height":106}} fills=fill_658ab2fa textStyle=style_70acd44d text="Создание подборки"
+  [FRAME] "Избранное / Добавление товара" #966:48692 layout={"mode":"column","alignItems":"center","sizing":{"horizontal":"fixed","vertical":"fixed"},"locationRelativeToParent":{"x":5358,"y":432},"dimensions":{"width":1440,"height":800}} fills=fill_658ab2fa
+    [FRAME] "Избранное / Все сохраненные товары" #966:48693 template=EL-2f9fe287
+      [INSTANCE] "Header" #966:48694 template=EL-6b472314
+        [FRAME] "Content" #I966:48694;279:19288 template=EL-bb582553
+          [FRAME] "Content " #I966:48694;279:19289 template=EL-12d709f7
+            [TEXT] #I966:48694;279:19290 template=EL-106f5a91
+            [FRAME] #I966:48694;279:19291 template=EL-5843db5d
+              [TEXT] #I966:48694;279:19292 template=EL-4cc49b2d
+              [IMAGE-SVG] "vuesax/linear/arrow-right" #I966:48694;279:19293 template=EL-d4302386
+          [RECTANGLE] "telegram-cloud-document-2-5251416634047897893 1" #I966:48694;907:30122 template=EL-496b7f4c
+          [FRAME] "Content" #I966:48694;279:19297 template=EL-50da7cd7
+            [IMAGE-SVG] "Icon Search" #I966:48694;279:19298 template=EL-762d5cce
+            [IMAGE-SVG] "bytesize:heart" #I966:48694;279:19300 template=EL-762d5cce
+            [INSTANCE] "Button" #I966:48694;895:29085 template=EL-e88db4ee
+              [TEXT] #I966:48694;895:29085;895:29077 template=EL-fd2be87b
+        [FRAME] "Content" #I966:48694;279:19309 template=EL-c9c16ae6
+          [TEXT] #I966:48694;279:19311 template=EL-569edc46
+          [TEXT] #I966:48694;279:19312 template=EL-36e8436f
+          [TEXT] #I966:48694;279:19313 template=EL-13bfe0f1
+          [TEXT] #I966:48694;279:19314 template=EL-62a5be30
+          [TEXT] #I966:48694;279:19315 template=EL-6858659e
+          [TEXT] #I966:48694;279:19316 template=EL-4792e634
+          [TEXT] #I966:48694;279:19317 template=EL-6ab11265
+          [FRAME] "Dropdown" #I966:48694;279:19318 template=EL-5843db5d
+            [TEXT] #I966:48694;279:19319 template=EL-f8162672
+      [FRAME] "Title" #966:48695 template=EL-5ff084d6
+        [FRAME] #966:48696 template=EL-7e82b98e
+          [FRAME] "Breadcrumbs" #966:48697 template=EL-eda14dc5
+            [TEXT] #966:48698 template=EL-474825e7
+            [TEXT] #966:48699 template=EL-ad237f5c
+            [TEXT] #966:48700 template=EL-d421bbef
+          [FRAME] #966:48701 template=EL-28d879d4
+            [LINE] #966:48702 template=EL-56ff9324
+            [RECTANGLE] "Logo" #966:48703 template=EL-b35ab3bb
+            [LINE] #966:48704 template=EL-56ff9324
+          [TEXT] #966:48705 template=EL-781b832a
+      [FRAME] #966:48706 template=EL-c4e48f56
+        [FRAME] #966:48707 template=EL-6e1f97e9
+          [FRAME] "Tabs" #966:48708 template=EL-abfc58e6
+            [FRAME] #966:48709 template=EL-2cfa4edb
+              [TEXT] #966:48710 template=EL-4b621ed7
+            [FRAME] #966:48711 template=EL-8a0f5ca1
+              [TEXT] #966:48712 template=EL-c56a473b
+          [FRAME] #966:48713 template=EL-c094fdcc
+            [FRAME] "Item Card" #966:48714 template=EL-9db5b930
+              [FRAME] "Image" #966:48715 template=EL-102dd31f
+                [IMAGE-SVG] "Icon Close" #966:48718 template=EL-232debae
+              [FRAME] "Content" #966:48720 template=EL-1519dabc
+                [FRAME] "Text" #966:48721 template=EL-bc40306a
+                  [TEXT] #966:48722 template=EL-2063c6fe
+                  [TEXT] #966:48723 template=EL-e1f7f57e
+                [FRAME] "Sale Price" #966:48724 template=EL-94a17615
+                  [TEXT] #966:48725 template=EL-afe1950d
+            [FRAME] "Item Card" #966:48729 template=EL-9db5b930
+              [FRAME] "Image" #966:48730 template=EL-293e5acd
+                [IMAGE-SVG] "Icon Close" #966:48733 template=EL-232debae
+              [FRAME] "Content" #966:48735 template=EL-1519dabc
+                [FRAME] "Text" #966:48736 template=EL-bc40306a
+                  [TEXT] #966:48737 template=EL-9eb34e2e
+                  [TEXT] #966:48738 template=EL-e1f7f57e
+                [FRAME] "Sale Price" #966:48739 template=EL-94a17615
+                  [TEXT] #966:48740 template=EL-afe1950d
+            [FRAME] "Item Card" #966:48744 template=EL-9db5b930
+              [FRAME] "Image" #966:48745 template=EL-96b2d234
+                [IMAGE-SVG] "Icon Close" #966:48748 template=EL-232debae
+              [FRAME] "Content" #966:48750 template=EL-1519dabc
+                [FRAME] "Text" #966:48751 template=EL-bc40306a
+                  [TEXT] #966:48752 template=EL-9eb34e2e
+                  [TEXT] #966:48753 template=EL-e1f7f57e
+                [FRAME] "Sale Price" #966:48754 template=EL-94a17615
+                  [TEXT] #966:48755 template=EL-afe1950d
+                  [GROUP] #966:48756 template=EL-71714af2
+                    [LINE] #966:48757 template=EL-406ec395
+                    [TEXT] #966:48758 template=EL-7ac8af5c
+            [FRAME] "Item Card" #966:48759 template=EL-9db5b930
+              [FRAME] "Image" #966:48760 template=EL-a57ef421
+                [IMAGE-SVG] "Icon Close" #966:48763 template=EL-232debae
+              [FRAME] "Content" #966:48765 template=EL-1519dabc
+                [FRAME] "Text" #966:48766 template=EL-bc40306a
+                  [TEXT] #966:48767 template=EL-49da3909
+                  [TEXT] #966:48768 template=EL-e1f7f57e
+                [FRAME] "Sale Price" #966:48769 template=EL-94a17615
+                  [TEXT] #966:48770 template=EL-afe1950d
+      [INSTANCE] "Footer" #966:48774 template=EL-89393d37
+        [FRAME] "Selection" #I966:48774;1:6349 template=EL-bf156a5b
+          [FRAME] #I966:48774;1:6350 template=EL-3991bef7
+            [RECTANGLE] "image 1271224130" #I966:48774;1:6351 template=EL-c354d6cc
+            [TEXT] #I966:48774;1:6352 template=EL-d07450bf
+          [TEXT] #I966:48774;1:6353 template=EL-b1ebc304
+          [TEXT] #I966:48774;1:6354 template=EL-0468c0d7
+          [TEXT] #I966:48774;1:6355 template=EL-899488be
+          [TEXT] #I966:48774;1:6356 template=EL-c531e5c6
+          [FRAME] #I966:48774;1:6357 template=EL-1c6de66b
+            [TEXT] #I966:48774;1:6358 template=EL-362fb9b8
+            [FRAME] #I966:48774;1:6359 template=EL-1519dabc
+              [TEXT] #I966:48774;1:6360 template=EL-53f4cbfc
+              [TEXT] #I966:48774;1:6361 template=EL-5eb41475
+              [TEXT] #I966:48774;1:6362 template=EL-fa609635
+              [TEXT] #I966:48774;1:6363 template=EL-6675a1ab
+              [TEXT] #I966:48774;1:6364 template=EL-d18ea825
+              [TEXT] #I966:48774;1:6365 template=EL-bad21f62
+              [TEXT] #I966:48774;1:6366 template=EL-19cf47e0
+          [FRAME] #I966:48774;1:6367 template=EL-4813bf8c
+            [TEXT] #I966:48774;1:6368 template=EL-488e33ab
+            [FRAME] #I966:48774;1:6369 template=EL-1519dabc
+              [TEXT] #I966:48774;1:6370 template=EL-def71b74
+              [TEXT] #I966:48774;1:6371 template=EL-12909fbd
+              [TEXT] #I966:48774;1:6372 template=EL-8dd185e5
+          [FRAME] #I966:48774;1:6373 template=EL-cd7c93c4
+            [TEXT] #I966:48774;1:6374 template=EL-71139944
+            [FRAME] #I966:48774;1:6375 template=EL-1519dabc
+              [TEXT] #I966:48774;1:6376 template=EL-46649359
+              [TEXT] #I966:48774;1:6377 template=EL-71203d8a
+              [TEXT] #I966:48774;1:6378 template=EL-bc5a879b
+              [TEXT] #I966:48774;1:6379 template=EL-01984c59
+          [FRAME] #I966:48774;1:6380 template=EL-8e2638f3
+            [FRAME] #I966:48774;1:6381 template=EL-f6efe3b4
+              [FRAME] #I966:48774;1:6382 template=EL-24705f71
+                [TEXT] #I966:48774;1:6383 template=EL-bcfc5562
+                [TEXT] #I966:48774;1:6384 template=EL-6dda702e
+              [FRAME] #I966:48774;1:6385 template=EL-24705f71
+                [TEXT] #I966:48774;1:6386 template=EL-b73a9f94
+                [TEXT] #I966:48774;1:6387 template=EL-adf99d5c
+              [TEXT] #I966:48774;1:6388 template=EL-b536d265
+              [FRAME] #I966:48774;1:6389 template=EL-235879b0
+                [IMAGE-SVG] "basil:vk-solid" #I966:48774;1:6390 template=EL-7c4c0d96
+                [IMAGE-SVG] "basil:vk-solid" #I966:48774;1:6392 template=EL-7c4c0d96
+                [IMAGE-SVG] "basil:vk-solid" #I966:48774;1:6394 template=EL-7c4c0d96
+            [FRAME] #I966:48774;1:6396 template=EL-d8a3e5e9
+              [TEXT] #I966:48774;1:6397 template=EL-19945db2
+              [TEXT] #I966:48774;1:6398 template=EL-438719fa
+          [RECTANGLE] "image 1271224161" #I966:48774;1:6399 template=EL-9a80455c
+    [INSTANCE] "Header" #966:48775 template=EL-44928c51
+      [FRAME] "Content " #I966:48775;1:6311 template=EL-dda368b5
+        [TEXT] #I966:48775;1:6312 template=EL-9ef49631
+        [FRAME] #I966:48775;1:6313 template=EL-5843db5d
+          [TEXT] #I966:48775;1:6314 template=EL-95e154cc
+          [IMAGE-SVG] "vuesax/linear/arrow-right" #I966:48775;1:6315 template=EL-d4302386
+      [FRAME] "Content" #I966:48775;1:6319 template=EL-b99d5fd3
+        [TEXT] #I966:48775;1:6320 template=EL-7d3d1727
+        [TEXT] #I966:48775;1:6321 template=EL-e65f391d
+        [TEXT] #I966:48775;1:6322 template=EL-b121fb61
+        [TEXT] #I966:48775;1:6323 template=EL-b1a961b1
+        [TEXT] #I966:48775;1:6324 template=EL-44e37d99
+        [TEXT] #I966:48775;1:6325 template=EL-44b5ca68
+        [TEXT] #I966:48775;1:6326 template=EL-e95bd3cc
+        [TEXT] #I966:48775;1:6327 template=EL-9d6fbc6a
+        [FRAME] "Dropdown" #I966:48775;1:6328 template=EL-5843db5d
+          [TEXT] #I966:48775;1:6329 template=EL-f7f9c3f6
+          [IMAGE-SVG] "vuesax/linear/arrow-right" #I966:48775;1:6330 template=EL-d4302386
+      [FRAME] "Content" #I966:48775;1:6334 template=EL-f73b6cbc
+        [IMAGE-SVG] "Icon Search" #I966:48775;1:6335 template=EL-762d5cce
+        [IMAGE-SVG] "bytesize:heart" #I966:48775;1:6337 template=EL-762d5cce
+        [IMAGE-SVG] "iconamoon:shopping-bag-light" #I966:48775;1:6339 template=EL-762d5cce
+        [FRAME] "Button" #I966:48775;1:6343 template=EL-3a760745
+          [TEXT] #I966:48775;1:6344 template=EL-e6d22986
+    [FRAME] "Catalog" #966:48776 template=EL-4161d281
+      [FRAME] "Content" #966:48777 template=EL-616774d3
+        [FRAME] "Filters" #966:48778 template=EL-ffc1b4d2
+          [FRAME] #966:48779 template=EL-a188efd9
+            [TEXT] #966:48780 template=EL-56ff89a0
+          [FRAME] #966:48781 template=EL-a188efd9
+            [TEXT] #966:48782 template=EL-0a758b4c
+        [FRAME] "Item Cards" #966:48783 template=EL-922c2e83
+          [INSTANCE] "Item Card" #966:48784 template=EL-2eebfdca
+            [FRAME] "Image" #I966:48784;1:6430 template=EL-f49cb700
+              [IMAGE-SVG] "Icon Wishlist" #I966:48784;1:6433 template=EL-c593ddd4
+            [FRAME] "Content" #I966:48784;1:6435 template=EL-1519dabc
+              [FRAME] "Text" #I966:48784;1:6436 template=EL-bc40306a
+                [TEXT] #I966:48784;1:6437 template=EL-9eb34e2e
+                [TEXT] #I966:48784;1:6438 template=EL-e1f7f57e
+              [FRAME] "Sale Price" #I966:48784;1:6439 template=EL-94a17615
+                [TEXT] #I966:48784;1:6440 template=EL-afe1950d
+          [INSTANCE] "Item Card" #966:48785 template=EL-2eebfdca
+            [FRAME] "Image" #I966:48785;1:6430 template=EL-f49cb700
+              [IMAGE-SVG] "Icon Wishlist" #I966:48785;1:6433 template=EL-c593ddd4
+            [FRAME] "Content" #I966:48785;1:6435 template=EL-1519dabc
+              [FRAME] "Text" #I966:48785;1:6436 template=EL-bc40306a
+                [TEXT] #I966:48785;1:6437 template=EL-9eb34e2e
+                [TEXT] #I966:48785;1:6438 template=EL-e1f7f57e
+              [FRAME] "Sale Price" #I966:48785;1:6439 template=EL-94a17615
+                [TEXT] #I966:48785;1:6440 template=EL-afe1950d
+          [INSTANCE] "Item Card" #966:48786 template=EL-2eebfdca
+            [FRAME] "Image" #I966:48786;1:6430 template=EL-f49cb700
+              [IMAGE-SVG] "Icon Wishlist" #I966:48786;1:6433 template=EL-c593ddd4
+            [FRAME] "Content" #I966:48786;1:6435 template=EL-1519dabc
+              [FRAME] "Text" #I966:48786;1:6436 template=EL-bc40306a
+                [TEXT] #I966:48786;1:6437 template=EL-9eb34e2e
+                [TEXT] #I966:48786;1:6438 template=EL-e1f7f57e
+              [FRAME] "Sale Price" #I966:48786;1:6439 template=EL-94a17615
+                [TEXT] #I966:48786;1:6440 template=EL-afe1950d
+                [GROUP] #I966:48786;1:6441 template=EL-71714af2
+                  [LINE] #I966:48786;1:6442 template=EL-406ec395
+                  [TEXT] #I966:48786;1:6443 template=EL-7ac8af5c
+          [INSTANCE] "Item Card" #966:48787 template=EL-2eebfdca
+            [FRAME] "Image" #I966:48787;1:6430 template=EL-f49cb700
+              [IMAGE-SVG] "Icon Wishlist" #I966:48787;1:6433 template=EL-c593ddd4
+            [FRAME] "Content" #I966:48787;1:6435 template=EL-1519dabc
+              [FRAME] "Text" #I966:48787;1:6436 template=EL-bc40306a
+                [TEXT] #I966:48787;1:6437 template=EL-9eb34e2e
+                [TEXT] #I966:48787;1:6438 template=EL-e1f7f57e
+              [FRAME] "Sale Price" #I966:48787;1:6439 template=EL-94a17615
+                [TEXT] #I966:48787;1:6440 template=EL-afe1950d
+          [INSTANCE] "Item Card" #966:48788 template=EL-3cbe3213
+            [FRAME] "Image" #I966:48788;1:6430 template=EL-6604c6c3
+              [IMAGE-SVG] "Icon Wishlist" #I966:48788;1:6433 template=EL-c593ddd4
+            [FRAME] "Content" #I966:48788;1:6435 template=EL-1519dabc
+              [FRAME] "Text" #I966:48788;1:6436 template=EL-bc40306a
+                [TEXT] #I966:48788;1:6437 template=EL-9eb34e2e
+                [TEXT] #I966:48788;1:6438 template=EL-e1f7f57e
+              [FRAME] "Sale Price" #I966:48788;1:6439 template=EL-94a17615
+                [TEXT] #I966:48788;1:6440 template=EL-afe1950d
+                [GROUP] #I966:48788;1:6441 template=EL-71714af2
+                  [LINE] #I966:48788;1:6442 template=EL-406ec395
+                  [TEXT] #I966:48788;1:6443 template=EL-7ac8af5c
+          [INSTANCE] "Item Card" #966:48789 template=EL-3cbe3213
+            [FRAME] "Image" #I966:48789;1:6430 template=EL-6604c6c3
+              [IMAGE-SVG] "Icon Wishlist" #I966:48789;1:6433 template=EL-c593ddd4
+            [FRAME] "Content" #I966:48789;1:6435 template=EL-1519dabc
+              [FRAME] "Text" #I966:48789;1:6436 template=EL-bc40306a
+                [TEXT] #I966:48789;1:6437 template=EL-9eb34e2e
+                [TEXT] #I966:48789;1:6438 template=EL-e1f7f57e
+              [FRAME] "Sale Price" #I966:48789;1:6439 template=EL-94a17615
+                [TEXT] #I966:48789;1:6440 template=EL-afe1950d
+          [INSTANCE] "Item Card" #966:48790 template=EL-2eebfdca
+            [FRAME] "Image" #I966:48790;1:6430 template=EL-f49cb700
+              [IMAGE-SVG] "Icon Wishlist" #I966:48790;1:6433 template=EL-c593ddd4
+            [FRAME] "Content" #I966:48790;1:6435 template=EL-1519dabc
+              [FRAME] "Text" #I966:48790;1:6436 template=EL-bc40306a
+                [TEXT] #I966:48790;1:6437 template=EL-9eb34e2e
+                [TEXT] #I966:48790;1:6438 template=EL-e1f7f57e
+              [FRAME] "Sale Price" #I966:48790;1:6439 template=EL-94a17615
+                [TEXT] #I966:48790;1:6440 template=EL-afe1950d
+          [INSTANCE] "Item Card" #966:48791 template=EL-2eebfdca
+            [FRAME] "Image" #I966:48791;1:6430 template=EL-f49cb700
+              [IMAGE-SVG] "Icon Wishlist" #I966:48791;1:6433 template=EL-c593ddd4
+            [FRAME] "Content" #I966:48791;1:6435 template=EL-1519dabc
+              [FRAME] "Text" #I966:48791;1:6436 template=EL-bc40306a
+                [TEXT] #I966:48791;1:6437 template=EL-9eb34e2e
+                [TEXT] #I966:48791;1:6438 template=EL-e1f7f57e
+              [FRAME] "Sale Price" #I966:48791;1:6439 template=EL-94a17615
+                [TEXT] #I966:48791;1:6440 template=EL-afe1950d
+                [GROUP] #I966:48791;1:6441 template=EL-71714af2
+                  [LINE] #I966:48791;1:6442 template=EL-406ec395
+                  [TEXT] #I966:48791;1:6443 template=EL-7ac8af5c
+          [INSTANCE] "Item Card" #966:48792 template=EL-2eebfdca
+            [FRAME] "Image" #I966:48792;1:6430 template=EL-f49cb700
+              [IMAGE-SVG] "Icon Wishlist" #I966:48792;1:6433 template=EL-c593ddd4
+            [FRAME] "Content" #I966:48792;1:6435 template=EL-1519dabc
+              [FRAME] "Text" #I966:48792;1:6436 template=EL-bc40306a
+                [TEXT] #I966:48792;1:6437 template=EL-9eb34e2e
+                [TEXT] #I966:48792;1:6438 template=EL-e1f7f57e
+              [FRAME] "Sale Price" #I966:48792;1:6439 template=EL-94a17615
+                [TEXT] #I966:48792;1:6440 template=EL-afe1950d
+          [INSTANCE] "Item Card" #966:48793 template=EL-2eebfdca
+            [FRAME] "Image" #I966:48793;1:6430 template=EL-f49cb700
+              [IMAGE-SVG] "Icon Wishlist" #I966:48793;1:6433 template=EL-c593ddd4
+            [FRAME] "Content" #I966:48793;1:6435 template=EL-1519dabc
+              [FRAME] "Text" #I966:48793;1:6436 template=EL-bc40306a
+                [TEXT] #I966:48793;1:6437 template=EL-9eb34e2e
+                [TEXT] #I966:48793;1:6438 template=EL-e1f7f57e
+              [FRAME] "Sale Price" #I966:48793;1:6439 template=EL-94a17615
+                [TEXT] #I966:48793;1:6440 template=EL-afe1950d
+          [INSTANCE] "Item Card" #966:48794 template=EL-3cbe3213
+            [FRAME] "Image" #I966:48794;1:6430 template=EL-6604c6c3
+              [IMAGE-SVG] "Icon Wishlist" #I966:48794;1:6433 template=EL-c593ddd4
+            [FRAME] "Content" #I966:48794;1:6435 template=EL-1519dabc
+              [FRAME] "Text" #I966:48794;1:6436 template=EL-bc40306a
+                [TEXT] #I966:48794;1:6437 template=EL-9eb34e2e
+                [TEXT] #I966:48794;1:6438 template=EL-e1f7f57e
+              [FRAME] "Sale Price" #I966:48794;1:6439 template=EL-94a17615
+                [TEXT] #I966:48794;1:6440 template=EL-afe1950d
+                [GROUP] #I966:48794;1:6441 template=EL-71714af2
+                  [LINE] #I966:48794;1:6442 template=EL-406ec395
+                  [TEXT] #I966:48794;1:6443 template=EL-7ac8af5c
+          [INSTANCE] "Item Card" #966:48795 template=EL-3cbe3213
+            [FRAME] "Image" #I966:48795;1:6430 template=EL-6604c6c3
+              [IMAGE-SVG] "Icon Wishlist" #I966:48795;1:6433 template=EL-c593ddd4
+            [FRAME] "Content" #I966:48795;1:6435 template=EL-1519dabc
+              [FRAME] "Text" #I966:48795;1:6436 template=EL-bc40306a
+                [TEXT] #I966:48795;1:6437 template=EL-9eb34e2e
+                [TEXT] #I966:48795;1:6438 template=EL-e1f7f57e
+              [FRAME] "Sale Price" #I966:48795;1:6439 template=EL-94a17615
+                [TEXT] #I966:48795;1:6440 template=EL-afe1950d
+      [INSTANCE] "Button" #966:48796 template=EL-e935e75d
+        [TEXT] #I966:48796;1:6449 template=EL-577db4a2
+      [FRAME] "Pagination" #966:48797 template=EL-790ee3d6
+        [IMAGE-SVG] "Icon Arrow" #966:48798 template=EL-786995b0
+        [FRAME] "Pages" #966:48800 template=EL-21a18932
+          [FRAME] "Page" #966:48801 template=EL-49500987
+            [TEXT] #966:48802 template=EL-1cdeaac9
+          [FRAME] "Page" #966:48803 template=EL-72cd99d7
+            [TEXT] #966:48804 template=EL-6e4d5dc5
+          [FRAME] "Page" #966:48805 template=EL-72cd99d7
+            [TEXT] #966:48806 template=EL-e5a9249c
+          [FRAME] "Page" #966:48807 template=EL-72cd99d7
+            [TEXT] #966:48808 template=EL-58d548ec
+          [FRAME] "Page" #966:48809 template=EL-72cd99d7
+            [TEXT] #966:48810 template=EL-3f80f3e2
+          [FRAME] "Page" #966:48811 template=EL-72cd99d7
+            [TEXT] #966:48812 template=EL-8c18e808
+          [FRAME] "Page" #966:48813 template=EL-72cd99d7
+            [TEXT] #966:48814 template=EL-3e7ee904
+          [FRAME] "Page" #966:48815 template=EL-72cd99d7
+            [TEXT] #966:48816 template=EL-c52236e1
+        [IMAGE-SVG] "Icon Arrow" #966:48817 template=EL-786995b0
+    [INSTANCE] "Footer" #966:48819 template=EL-95db1e76
+      [FRAME] "Selection" #I966:48819;1:6349 template=EL-bf156a5b
+        [FRAME] #I966:48819;1:6350 template=EL-3991bef7
+          [RECTANGLE] "image 1271224130" #I966:48819;1:6351 template=EL-c354d6cc
+          [TEXT] #I966:48819;1:6352 template=EL-d07450bf
+        [TEXT] #I966:48819;1:6353 template=EL-b1ebc304
+        [TEXT] #I966:48819;1:6354 template=EL-0468c0d7
+        [TEXT] #I966:48819;1:6355 template=EL-899488be
+        [TEXT] #I966:48819;1:6356 template=EL-c531e5c6
+        [FRAME] #I966:48819;1:6357 template=EL-1c6de66b
+          [TEXT] #I966:48819;1:6358 template=EL-362fb9b8
+          [FRAME] #I966:48819;1:6359 template=EL-1519dabc
+            [TEXT] #I966:48819;1:6360 template=EL-53f4cbfc
+            [TEXT] #I966:48819;1:6361 template=EL-5eb41475
+            [TEXT] #I966:48819;1:6362 template=EL-fa609635
+            [TEXT] #I966:48819;1:6363 template=EL-6675a1ab
+            [TEXT] #I966:48819;1:6364 template=EL-d18ea825
+            [TEXT] #I966:48819;1:6365 template=EL-bad21f62
+            [TEXT] #I966:48819;1:6366 template=EL-19cf47e0
+        [FRAME] #I966:48819;1:6367 template=EL-4813bf8c
+          [TEXT] #I966:48819;1:6368 template=EL-488e33ab
+          [FRAME] #I966:48819;1:6369 template=EL-1519dabc
+            [TEXT] #I966:48819;1:6370 template=EL-def71b74
+            [TEXT] #I966:48819;1:6371 template=EL-12909fbd
+            [TEXT] #I966:48819;1:6372 template=EL-8dd185e5
+        [FRAME] #I966:48819;1:6373 template=EL-cd7c93c4
+          [TEXT] #I966:48819;1:6374 template=EL-71139944
+          [FRAME] #I966:48819;1:6375 template=EL-1519dabc
+            [TEXT] #I966:48819;1:6376 template=EL-46649359
+            [TEXT] #I966:48819;1:6377 template=EL-71203d8a
+            [TEXT] #I966:48819;1:6378 template=EL-bc5a879b
+            [TEXT] #I966:48819;1:6379 template=EL-01984c59
+        [FRAME] #I966:48819;1:6380 template=EL-8e2638f3
+          [FRAME] #I966:48819;1:6381 template=EL-f6efe3b4
+            [FRAME] #I966:48819;1:6382 template=EL-24705f71
+              [TEXT] #I966:48819;1:6383 template=EL-bcfc5562
+              [TEXT] #I966:48819;1:6384 template=EL-6dda702e
+            [FRAME] #I966:48819;1:6385 template=EL-24705f71
+              [TEXT] #I966:48819;1:6386 template=EL-b73a9f94
+              [TEXT] #I966:48819;1:6387 template=EL-adf99d5c
+            [TEXT] #I966:48819;1:6388 template=EL-b536d265
+            [FRAME] #I966:48819;1:6389 template=EL-235879b0
+              [IMAGE-SVG] "basil:vk-solid" #I966:48819;1:6390 template=EL-7c4c0d96
+              [IMAGE-SVG] "basil:vk-solid" #I966:48819;1:6392 template=EL-7c4c0d96
+              [IMAGE-SVG] "basil:vk-solid" #I966:48819;1:6394 template=EL-7c4c0d96
+          [FRAME] #I966:48819;1:6396 template=EL-d8a3e5e9
+            [TEXT] #I966:48819;1:6397 template=EL-19945db2
+            [TEXT] #I966:48819;1:6398 template=EL-438719fa
+        [RECTANGLE] "image 1271224161" #I966:48819;1:6399 template=EL-9a80455c
+    [FRAME] #966:48820 layout={"mode":"none","sizing":{"horizontal":"fixed","vertical":"fixed"},"position":"absolute","locationRelativeToParent":{"x":0,"y":0},"dimensions":{"width":1440,"height":800}} fills=fill_4cd5ff90
+      [FRAME] "Filters" #966:48821 layout={"mode":"column","alignItems":"stretch","sizing":{"horizontal":"fixed","vertical":"hug"},"locationRelativeToParent":{"x":500,"y":186},"dimensions":{"width":440}} fills=fill_c48813f8
+        [FRAME] "Content" #966:48822 template=EL-dd2738a7
+          [FRAME] "Title" #966:48823 template=EL-bb582553
+            [TEXT] #966:48824 template=EL-d0bac69b
+            [IMAGE-SVG] "Icon Close" #966:48825 template=EL-762d5cce
+          [FRAME] #966:48827 template=EL-ecd9240b
+            [LINE] #966:48828 template=EL-7d2050db
+            [TEXT] #966:48829 template=EL-b0606623
+            [LINE] #966:48830 template=EL-7d2050db
+            [FRAME] "Checkbox" #966:48831 template=EL-c8d50cb3
+              [TEXT] #966:48832 template=EL-f9e735ce
+            [LINE] #966:48833 template=EL-7d2050db
+            [FRAME] "Checkbox" #966:48834 template=EL-c8d50cb3
+              [TEXT] #966:48835 template=EL-0503ed4c
+            [LINE] #966:48836 template=EL-7d2050db
+        [FRAME] "Buttons" #966:48837 template=EL-ebe32b4e
+          [FRAME] #966:48838 template=EL-98391260
+            [IMAGE-SVG] "Vector" #966:48839 template=EL-ff09df22
+            [TEXT] #966:48840 template=EL-69ab01bf
+  [FRAME] "Избранное / Добавление товара / Нет созданных подборок" #966:48841 layout={"mode":"column","alignItems":"center","sizing":{"horizontal":"fixed","vertical":"fixed"},"locationRelativeToParent":{"x":9078,"y":1421},"dimensions":{"width":1440,"height":800}} fills=fill_658ab2fa
+    [FRAME] "Избранное / Все сохраненные товары" #966:48842 template=EL-2f9fe287
+      [INSTANCE] "Header" #966:48843 template=EL-6b472314
+        [FRAME] "Content" #I966:48843;279:19288 template=EL-bb582553
+          [FRAME] "Content " #I966:48843;279:19289 template=EL-12d709f7
+            [TEXT] #I966:48843;279:19290 template=EL-106f5a91
+            [FRAME] #I966:48843;279:19291 template=EL-5843db5d
+              [TEXT] #I966:48843;279:19292 template=EL-4cc49b2d
+              [IMAGE-SVG] "vuesax/linear/arrow-right" #I966:48843;279:19293 template=EL-d4302386
+          [RECTANGLE] "telegram-cloud-document-2-5251416634047897893 1" #I966:48843;907:30122 template=EL-496b7f4c
+          [FRAME] "Content" #I966:48843;279:19297 template=EL-50da7cd7
+            [IMAGE-SVG] "Icon Search" #I966:48843;279:19298 template=EL-762d5cce
+            [IMAGE-SVG] "bytesize:heart" #I966:48843;279:19300 template=EL-762d5cce
+            [INSTANCE] "Button" #I966:48843;895:29085 template=EL-e88db4ee
+              [TEXT] #I966:48843;895:29085;895:29077 template=EL-fd2be87b
+        [FRAME] "Content" #I966:48843;279:19309 template=EL-c9c16ae6
+          [TEXT] #I966:48843;279:19311 template=EL-569edc46
+          [TEXT] #I966:48843;279:19312 template=EL-36e8436f
+          [TEXT] #I966:48843;279:19313 template=EL-13bfe0f1
+          [TEXT] #I966:48843;279:19314 template=EL-62a5be30
+          [TEXT] #I966:48843;279:19315 template=EL-6858659e
+          [TEXT] #I966:48843;279:19316 template=EL-4792e634
+          [TEXT] #I966:48843;279:19317 template=EL-6ab11265
+          [FRAME] "Dropdown" #I966:48843;279:19318 template=EL-5843db5d
+            [TEXT] #I966:48843;279:19319 template=EL-f8162672
+      [FRAME] "Title" #966:48844 template=EL-5ff084d6
+        [FRAME] #966:48845 template=EL-7e82b98e
+          [FRAME] "Breadcrumbs" #966:48846 template=EL-eda14dc5
+            [TEXT] #966:48847 template=EL-474825e7
+            [TEXT] #966:48848 template=EL-ad237f5c
+            [TEXT] #966:48849 template=EL-d421bbef
+          [FRAME] #966:48850 template=EL-28d879d4
+            [LINE] #966:48851 template=EL-56ff9324
+            [RECTANGLE] "Logo" #966:48852 template=EL-b35ab3bb
+            [LINE] #966:48853 template=EL-56ff9324
+          [TEXT] #966:48854 template=EL-781b832a
+      [FRAME] #966:48855 template=EL-c4e48f56
+        [FRAME] #966:48856 template=EL-6e1f97e9
+          [FRAME] "Tabs" #966:48857 template=EL-abfc58e6
+            [FRAME] #966:48858 template=EL-2cfa4edb
+              [TEXT] #966:48859 template=EL-4b621ed7
+            [FRAME] #966:48860 template=EL-8a0f5ca1
+              [TEXT] #966:48861 template=EL-c56a473b
+          [FRAME] #966:48862 template=EL-c094fdcc
+            [FRAME] "Item Card" #966:48863 template=EL-9db5b930
+              [FRAME] "Image" #966:48864 template=EL-102dd31f
+                [IMAGE-SVG] "Icon Close" #966:48867 template=EL-232debae
+              [FRAME] "Content" #966:48869 template=EL-1519dabc
+                [FRAME] "Text" #966:48870 template=EL-bc40306a
+                  [TEXT] #966:48871 template=EL-2063c6fe
+                  [TEXT] #966:48872 template=EL-e1f7f57e
+                [FRAME] "Sale Price" #966:48873 template=EL-94a17615
+                  [TEXT] #966:48874 template=EL-afe1950d
+            [FRAME] "Item Card" #966:48878 template=EL-9db5b930
+              [FRAME] "Image" #966:48879 template=EL-293e5acd
+                [IMAGE-SVG] "Icon Close" #966:48882 template=EL-232debae
+              [FRAME] "Content" #966:48884 template=EL-1519dabc
+                [FRAME] "Text" #966:48885 template=EL-bc40306a
+                  [TEXT] #966:48886 template=EL-9eb34e2e
+                  [TEXT] #966:48887 template=EL-e1f7f57e
+                [FRAME] "Sale Price" #966:48888 template=EL-94a17615
+                  [TEXT] #966:48889 template=EL-afe1950d
+            [FRAME] "Item Card" #966:48893 template=EL-9db5b930
+              [FRAME] "Image" #966:48894 template=EL-96b2d234
+                [IMAGE-SVG] "Icon Close" #966:48897 template=EL-232debae
+              [FRAME] "Content" #966:48899 template=EL-1519dabc
+                [FRAME] "Text" #966:48900 template=EL-bc40306a
+                  [TEXT] #966:48901 template=EL-9eb34e2e
+                  [TEXT] #966:48902 template=EL-e1f7f57e
+                [FRAME] "Sale Price" #966:48903 template=EL-94a17615
+                  [TEXT] #966:48904 template=EL-afe1950d
+                  [GROUP] #966:48905 template=EL-71714af2
+                    [LINE] #966:48906 template=EL-406ec395
+                    [TEXT] #966:48907 template=EL-7ac8af5c
+            [FRAME] "Item Card" #966:48908 template=EL-9db5b930
+              [FRAME] "Image" #966:48909 template=EL-a57ef421
+                [IMAGE-SVG] "Icon Close" #966:48912 template=EL-232debae
+              [FRAME] "Content" #966:48914 template=EL-1519dabc
+                [FRAME] "Text" #966:48915 template=EL-bc40306a
+                  [TEXT] #966:48916 template=EL-49da3909
+                  [TEXT] #966:48917 template=EL-e1f7f57e
+                [FRAME] "Sale Price" #966:48918 template=EL-94a17615
+                  [TEXT] #966:48919 template=EL-afe1950d
+      [INSTANCE] "Footer" #966:48923 template=EL-89393d37
+        [FRAME] "Selection" #I966:48923;1:6349 template=EL-bf156a5b
+          [FRAME] #I966:48923;1:6350 template=EL-3991bef7
+            [RECTANGLE] "image 1271224130" #I966:48923;1:6351 template=EL-c354d6cc
+            [TEXT] #I966:48923;1:6352 template=EL-d07450bf
+          [TEXT] #I966:48923;1:6353 template=EL-b1ebc304
+          [TEXT] #I966:48923;1:6354 template=EL-0468c0d7
+          [TEXT] #I966:48923;1:6355 template=EL-899488be
+          [TEXT] #I966:48923;1:6356 template=EL-c531e5c6
+          [FRAME] #I966:48923;1:6357 template=EL-1c6de66b
+            [TEXT] #I966:48923;1:6358 template=EL-362fb9b8
+            [FRAME] #I966:48923;1:6359 template=EL-1519dabc
+              [TEXT] #I966:48923;1:6360 template=EL-53f4cbfc
+              [TEXT] #I966:48923;1:6361 template=EL-5eb41475
+              [TEXT] #I966:48923;1:6362 template=EL-fa609635
+              [TEXT] #I966:48923;1:6363 template=EL-6675a1ab
+              [TEXT] #I966:48923;1:6364 template=EL-d18ea825
+              [TEXT] #I966:48923;1:6365 template=EL-bad21f62
+              [TEXT] #I966:48923;1:6366 template=EL-19cf47e0
+          [FRAME] #I966:48923;1:6367 template=EL-4813bf8c
+            [TEXT] #I966:48923;1:6368 template=EL-488e33ab
+            [FRAME] #I966:48923;1:6369 template=EL-1519dabc
+              [TEXT] #I966:48923;1:6370 template=EL-def71b74
+              [TEXT] #I966:48923;1:6371 template=EL-12909fbd
+              [TEXT] #I966:48923;1:6372 template=EL-8dd185e5
+          [FRAME] #I966:48923;1:6373 template=EL-cd7c93c4
+            [TEXT] #I966:48923;1:6374 template=EL-71139944
+            [FRAME] #I966:48923;1:6375 template=EL-1519dabc
+              [TEXT] #I966:48923;1:6376 template=EL-46649359
+              [TEXT] #I966:48923;1:6377 template=EL-71203d8a
+              [TEXT] #I966:48923;1:6378 template=EL-bc5a879b
+              [TEXT] #I966:48923;1:6379 template=EL-01984c59
+          [FRAME] #I966:48923;1:6380 template=EL-8e2638f3
+            [FRAME] #I966:48923;1:6381 template=EL-f6efe3b4
+              [FRAME] #I966:48923;1:6382 template=EL-24705f71
+                [TEXT] #I966:48923;1:6383 template=EL-bcfc5562
+                [TEXT] #I966:48923;1:6384 template=EL-6dda702e
+              [FRAME] #I966:48923;1:6385 template=EL-24705f71
+                [TEXT] #I966:48923;1:6386 template=EL-b73a9f94
+                [TEXT] #I966:48923;1:6387 template=EL-adf99d5c
+              [TEXT] #I966:48923;1:6388 template=EL-b536d265
+              [FRAME] #I966:48923;1:6389 template=EL-235879b0
+                [IMAGE-SVG] "basil:vk-solid" #I966:48923;1:6390 template=EL-7c4c0d96
+                [IMAGE-SVG] "basil:vk-solid" #I966:48923;1:6392 template=EL-7c4c0d96
+                [IMAGE-SVG] "basil:vk-solid" #I966:48923;1:6394 template=EL-7c4c0d96
+            [FRAME] #I966:48923;1:6396 template=EL-d8a3e5e9
+              [TEXT] #I966:48923;1:6397 template=EL-19945db2
+              [TEXT] #I966:48923;1:6398 template=EL-438719fa
+          [RECTANGLE] "image 1271224161" #I966:48923;1:6399 template=EL-9a80455c
+    [INSTANCE] "Header" #966:48924 template=EL-44928c51
+      [FRAME] "Content " #I966:48924;1:6311 template=EL-dda368b5
+        [TEXT] #I966:48924;1:6312 template=EL-9ef49631
+        [FRAME] #I966:48924;1:6313 template=EL-5843db5d
+          [TEXT] #I966:48924;1:6314 template=EL-95e154cc
+          [IMAGE-SVG] "vuesax/linear/arrow-right" #I966:48924;1:6315 template=EL-d4302386
+      [FRAME] "Content" #I966:48924;1:6319 template=EL-b99d5fd3
+        [TEXT] #I966:48924;1:6320 template=EL-7d3d1727
+        [TEXT] #I966:48924;1:6321 template=EL-e65f391d
+        [TEXT] #I966:48924;1:6322 template=EL-b121fb61
+        [TEXT] #I966:48924;1:6323 template=EL-b1a961b1
+        [TEXT] #I966:48924;1:6324 template=EL-44e37d99
+        [TEXT] #I966:48924;1:6325 template=EL-44b5ca68
+        [TEXT] #I966:48924;1:6326 template=EL-e95bd3cc
+        [TEXT] #I966:48924;1:6327 template=EL-9d6fbc6a
+        [FRAME] "Dropdown" #I966:48924;1:6328 template=EL-5843db5d
+          [TEXT] #I966:48924;1:6329 template=EL-f7f9c3f6
+          [IMAGE-SVG] "vuesax/linear/arrow-right" #I966:48924;1:6330 template=EL-d4302386
+      [FRAME] "Content" #I966:48924;1:6334 template=EL-f73b6cbc
+        [IMAGE-SVG] "Icon Search" #I966:48924;1:6335 template=EL-762d5cce
+        [IMAGE-SVG] "bytesize:heart" #I966:48924;1:6337 template=EL-762d5cce
+        [IMAGE-SVG] "iconamoon:shopping-bag-light" #I966:48924;1:6339 template=EL-762d5cce
+        [FRAME] "Button" #I966:48924;1:6343 template=EL-3a760745
+          [TEXT] #I966:48924;1:6344 template=EL-e6d22986
+    [FRAME] "Catalog" #966:48925 template=EL-4161d281
+      [FRAME] "Content" #966:48926 template=EL-616774d3
+        [FRAME] "Filters" #966:48927 template=EL-ffc1b4d2
+          [FRAME] #966:48928 template=EL-a188efd9
+            [TEXT] #966:48929 template=EL-56ff89a0
+          [FRAME] #966:48930 template=EL-a188efd9
+            [TEXT] #966:48931 template=EL-0a758b4c
+        [FRAME] "Item Cards" #966:48932 template=EL-922c2e83
+          [INSTANCE] "Item Card" #966:48933 template=EL-2eebfdca
+            [FRAME] "Image" #I966:48933;1:6430 template=EL-f49cb700
+              [IMAGE-SVG] "Icon Wishlist" #I966:48933;1:6433 template=EL-c593ddd4
+            [FRAME] "Content" #I966:48933;1:6435 template=EL-1519dabc
+              [FRAME] "Text" #I966:48933;1:6436 template=EL-bc40306a
+                [TEXT] #I966:48933;1:6437 template=EL-9eb34e2e
+                [TEXT] #I966:48933;1:6438 template=EL-e1f7f57e
+              [FRAME] "Sale Price" #I966:48933;1:6439 template=EL-94a17615
+                [TEXT] #I966:48933;1:6440 template=EL-afe1950d
+          [INSTANCE] "Item Card" #966:48934 template=EL-2eebfdca
+            [FRAME] "Image" #I966:48934;1:6430 template=EL-f49cb700
+              [IMAGE-SVG] "Icon Wishlist" #I966:48934;1:6433 template=EL-c593ddd4
+            [FRAME] "Content" #I966:48934;1:6435 template=EL-1519dabc
+              [FRAME] "Text" #I966:48934;1:6436 template=EL-bc40306a
+                [TEXT] #I966:48934;1:6437 template=EL-9eb34e2e
+                [TEXT] #I966:48934;1:6438 template=EL-e1f7f57e
+              [FRAME] "Sale Price" #I966:48934;1:6439 template=EL-94a17615
+                [TEXT] #I966:48934;1:6440 template=EL-afe1950d
+          [INSTANCE] "Item Card" #966:48935 template=EL-2eebfdca
+            [FRAME] "Image" #I966:48935;1:6430 template=EL-f49cb700
+              [IMAGE-SVG] "Icon Wishlist" #I966:48935;1:6433 template=EL-c593ddd4
+            [FRAME] "Content" #I966:48935;1:6435 template=EL-1519dabc
+              [FRAME] "Text" #I966:48935;1:6436 template=EL-bc40306a
+                [TEXT] #I966:48935;1:6437 template=EL-9eb34e2e
+                [TEXT] #I966:48935;1:6438 template=EL-e1f7f57e
+              [FRAME] "Sale Price" #I966:48935;1:6439 template=EL-94a17615
+                [TEXT] #I966:48935;1:6440 template=EL-afe1950d
+                [GROUP] #I966:48935;1:6441 template=EL-71714af2
+                  [LINE] #I966:48935;1:6442 template=EL-406ec395
+                  [TEXT] #I966:48935;1:6443 template=EL-7ac8af5c
+          [INSTANCE] "Item Card" #966:48936 template=EL-2eebfdca
+            [FRAME] "Image" #I966:48936;1:6430 template=EL-f49cb700
+              [IMAGE-SVG] "Icon Wishlist" #I966:48936;1:6433 template=EL-c593ddd4
+            [FRAME] "Content" #I966:48936;1:6435 template=EL-1519dabc
+              [FRAME] "Text" #I966:48936;1:6436 template=EL-bc40306a
+                [TEXT] #I966:48936;1:6437 template=EL-9eb34e2e
+                [TEXT] #I966:48936;1:6438 template=EL-e1f7f57e
+              [FRAME] "Sale Price" #I966:48936;1:6439 template=EL-94a17615
+                [TEXT] #I966:48936;1:6440 template=EL-afe1950d
+          [INSTANCE] "Item Card" #966:48937 template=EL-3cbe3213
+            [FRAME] "Image" #I966:48937;1:6430 template=EL-6604c6c3
+              [IMAGE-SVG] "Icon Wishlist" #I966:48937;1:6433 template=EL-c593ddd4
+            [FRAME] "Content" #I966:48937;1:6435 template=EL-1519dabc
+              [FRAME] "Text" #I966:48937;1:6436 template=EL-bc40306a
+                [TEXT] #I966:48937;1:6437 template=EL-9eb34e2e
+                [TEXT] #I966:48937;1:6438 template=EL-e1f7f57e
+              [FRAME] "Sale Price" #I966:48937;1:6439 template=EL-94a17615
+                [TEXT] #I966:48937;1:6440 template=EL-afe1950d
+                [GROUP] #I966:48937;1:6441 template=EL-71714af2
+                  [LINE] #I966:48937;1:6442 template=EL-406ec395
+                  [TEXT] #I966:48937;1:6443 template=EL-7ac8af5c
+          [INSTANCE] "Item Card" #966:48938 template=EL-3cbe3213
+            [FRAME] "Image" #I966:48938;1:6430 template=EL-6604c6c3
+              [IMAGE-SVG] "Icon Wishlist" #I966:48938;1:6433 template=EL-c593ddd4
+            [FRAME] "Content" #I966:48938;1:6435 template=EL-1519dabc
+              [FRAME] "Text" #I966:48938;1:6436 template=EL-bc40306a
+                [TEXT] #I966:48938;1:6437 template=EL-9eb34e2e
+                [TEXT] #I966:48938;1:6438 template=EL-e1f7f57e
+              [FRAME] "Sale Price" #I966:48938;1:6439 template=EL-94a17615
+                [TEXT] #I966:48938;1:6440 template=EL-afe1950d
+          [INSTANCE] "Item Card" #966:48939 template=EL-2eebfdca
+            [FRAME] "Image" #I966:48939;1:6430 template=EL-f49cb700
+              [IMAGE-SVG] "Icon Wishlist" #I966:48939;1:6433 template=EL-c593ddd4
+            [FRAME] "Content" #I966:48939;1:6435 template=EL-1519dabc
+              [FRAME] "Text" #I966:48939;1:6436 template=EL-bc40306a
+                [TEXT] #I966:48939;1:6437 template=EL-9eb34e2e
+                [TEXT] #I966:48939;1:6438 template=EL-e1f7f57e
+              [FRAME] "Sale Price" #I966:48939;1:6439 template=EL-94a17615
+                [TEXT] #I966:48939;1:6440 template=EL-afe1950d
+          [INSTANCE] "Item Card" #966:48940 template=EL-2eebfdca
+            [FRAME] "Image" #I966:48940;1:6430 template=EL-f49cb700
+              [IMAGE-SVG] "Icon Wishlist" #I966:48940;1:6433 template=EL-c593ddd4
+            [FRAME] "Content" #I966:48940;1:6435 template=EL-1519dabc
+              [FRAME] "Text" #I966:48940;1:6436 template=EL-bc40306a
+                [TEXT] #I966:48940;1:6437 template=EL-9eb34e2e
+                [TEXT] #I966:48940;1:6438 template=EL-e1f7f57e
+              [FRAME] "Sale Price" #I966:48940;1:6439 template=EL-94a17615
+                [TEXT] #I966:48940;1:6440 template=EL-afe1950d
+                [GROUP] #I966:48940;1:6441 template=EL-71714af2
+                  [LINE] #I966:48940;1:6442 template=EL-406ec395
+                  [TEXT] #I966:48940;1:6443 template=EL-7ac8af5c
+          [INSTANCE] "Item Card" #966:48941 template=EL-2eebfdca
+            [FRAME] "Image" #I966:48941;1:6430 template=EL-f49cb700
+              [IMAGE-SVG] "Icon Wishlist" #I966:48941;1:6433 template=EL-c593ddd4
+            [FRAME] "Content" #I966:48941;1:6435 template=EL-1519dabc
+              [FRAME] "Text" #I966:48941;1:6436 template=EL-bc40306a
+                [TEXT] #I966:48941;1:6437 template=EL-9eb34e2e
+                [TEXT] #I966:48941;1:6438 template=EL-e1f7f57e
+              [FRAME] "Sale Price" #I966:48941;1:6439 template=EL-94a17615
+                [TEXT] #I966:48941;1:6440 template=EL-afe1950d
+          [INSTANCE] "Item Card" #966:48942 template=EL-2eebfdca
+            [FRAME] "Image" #I966:48942;1:6430 template=EL-f49cb700
+              [IMAGE-SVG] "Icon Wishlist" #I966:48942;1:6433 template=EL-c593ddd4
+            [FRAME] "Content" #I966:48942;1:6435 template=EL-1519dabc
+              [FRAME] "Text" #I966:48942;1:6436 template=EL-bc40306a
+                [TEXT] #I966:48942;1:6437 template=EL-9eb34e2e
+                [TEXT] #I966:48942;1:6438 template=EL-e1f7f57e
+              [FRAME] "Sale Price" #I966:48942;1:6439 template=EL-94a17615
+                [TEXT] #I966:48942;1:6440 template=EL-afe1950d
+          [INSTANCE] "Item Card" #966:48943 template=EL-3cbe3213
+            [FRAME] "Image" #I966:48943;1:6430 template=EL-6604c6c3
+              [IMAGE-SVG] "Icon Wishlist" #I966:48943;1:6433 template=EL-c593ddd4
+            [FRAME] "Content" #I966:48943;1:6435 template=EL-1519dabc
+              [FRAME] "Text" #I966:48943;1:6436 template=EL-bc40306a
+                [TEXT] #I966:48943;1:6437 template=EL-9eb34e2e
+                [TEXT] #I966:48943;1:6438 template=EL-e1f7f57e
+              [FRAME] "Sale Price" #I966:48943;1:6439 template=EL-94a17615
+                [TEXT] #I966:48943;1:6440 template=EL-afe1950d
+                [GROUP] #I966:48943;1:6441 template=EL-71714af2
+                  [LINE] #I966:48943;1:6442 template=EL-406ec395
+                  [TEXT] #I966:48943;1:6443 template=EL-7ac8af5c
+          [INSTANCE] "Item Card" #966:48944 template=EL-3cbe3213
+            [FRAME] "Image" #I966:48944;1:6430 template=EL-6604c6c3
+              [IMAGE-SVG] "Icon Wishlist" #I966:48944;1:6433 template=EL-c593ddd4
+            [FRAME] "Content" #I966:48944;1:6435 template=EL-1519dabc
+              [FRAME] "Text" #I966:48944;1:6436 template=EL-bc40306a
+                [TEXT] #I966:48944;1:6437 template=EL-9eb34e2e
+                [TEXT] #I966:48944;1:6438 template=EL-e1f7f57e
+              [FRAME] "Sale Price" #I966:48944;1:6439 template=EL-94a17615
+                [TEXT] #I966:48944;1:6440 template=EL-afe1950d
+      [INSTANCE] "Button" #966:48945 template=EL-e935e75d
+        [TEXT] #I966:48945;1:6449 template=EL-577db4a2
+      [FRAME] "Pagination" #966:48946 template=EL-790ee3d6
+        [IMAGE-SVG] "Icon Arrow" #966:48947 template=EL-786995b0
+        [FRAME] "Pages" #966:48949 template=EL-21a18932
+          [FRAME] "Page" #966:48950 template=EL-49500987
+            [TEXT] #966:48951 template=EL-1cdeaac9
+          [FRAME] "Page" #966:48952 template=EL-72cd99d7
+            [TEXT] #966:48953 template=EL-6e4d5dc5
+          [FRAME] "Page" #966:48954 template=EL-72cd99d7
+            [TEXT] #966:48955 template=EL-e5a9249c
+          [FRAME] "Page" #966:48956 template=EL-72cd99d7
+            [TEXT] #966:48957 template=EL-58d548ec
+          [FRAME] "Page" #966:48958 template=EL-72cd99d7
+            [TEXT] #966:48959 template=EL-3f80f3e2
+          [FRAME] "Page" #966:48960 template=EL-72cd99d7
+            [TEXT] #966:48961 template=EL-8c18e808
+          [FRAME] "Page" #966:48962 template=EL-72cd99d7
+            [TEXT] #966:48963 template=EL-3e7ee904
+          [FRAME] "Page" #966:48964 template=EL-72cd99d7
+            [TEXT] #966:48965 template=EL-c52236e1
+        [IMAGE-SVG] "Icon Arrow" #966:48966 template=EL-786995b0
+    [INSTANCE] "Footer" #966:48968 template=EL-95db1e76
+      [FRAME] "Selection" #I966:48968;1:6349 template=EL-bf156a5b
+        [FRAME] #I966:48968;1:6350 template=EL-3991bef7
+          [RECTANGLE] "image 1271224130" #I966:48968;1:6351 template=EL-c354d6cc
+          [TEXT] #I966:48968;1:6352 template=EL-d07450bf
+        [TEXT] #I966:48968;1:6353 template=EL-b1ebc304
+        [TEXT] #I966:48968;1:6354 template=EL-0468c0d7
+        [TEXT] #I966:48968;1:6355 template=EL-899488be
+        [TEXT] #I966:48968;1:6356 template=EL-c531e5c6
+        [FRAME] #I966:48968;1:6357 template=EL-1c6de66b
+          [TEXT] #I966:48968;1:6358 template=EL-362fb9b8
+          [FRAME] #I966:48968;1:6359 template=EL-1519dabc
+            [TEXT] #I966:48968;1:6360 template=EL-53f4cbfc
+            [TEXT] #I966:48968;1:6361 template=EL-5eb41475
+            [TEXT] #I966:48968;1:6362 template=EL-fa609635
+            [TEXT] #I966:48968;1:6363 template=EL-6675a1ab
+            [TEXT] #I966:48968;1:6364 template=EL-d18ea825
+            [TEXT] #I966:48968;1:6365 template=EL-bad21f62
+            [TEXT] #I966:48968;1:6366 template=EL-19cf47e0
+        [FRAME] #I966:48968;1:6367 template=EL-4813bf8c
+          [TEXT] #I966:48968;1:6368 template=EL-488e33ab
+          [FRAME] #I966:48968;1:6369 template=EL-1519dabc
+            [TEXT] #I966:48968;1:6370 template=EL-def71b74
+            [TEXT] #I966:48968;1:6371 template=EL-12909fbd
+            [TEXT] #I966:48968;1:6372 template=EL-8dd185e5
+        [FRAME] #I966:48968;1:6373 template=EL-cd7c93c4
+          [TEXT] #I966:48968;1:6374 template=EL-71139944
+          [FRAME] #I966:48968;1:6375 template=EL-1519dabc
+            [TEXT] #I966:48968;1:6376 template=EL-46649359
+            [TEXT] #I966:48968;1:6377 template=EL-71203d8a
+            [TEXT] #I966:48968;1:6378 template=EL-bc5a879b
+            [TEXT] #I966:48968;1:6379 template=EL-01984c59
+        [FRAME] #I966:48968;1:6380 template=EL-8e2638f3
+          [FRAME] #I966:48968;1:6381 template=EL-f6efe3b4
+            [FRAME] #I966:48968;1:6382 template=EL-24705f71
+              [TEXT] #I966:48968;1:6383 template=EL-bcfc5562
+              [TEXT] #I966:48968;1:6384 template=EL-6dda702e
+            [FRAME] #I966:48968;1:6385 template=EL-24705f71
+              [TEXT] #I966:48968;1:6386 template=EL-b73a9f94
+              [TEXT] #I966:48968;1:6387 template=EL-adf99d5c
+            [TEXT] #I966:48968;1:6388 template=EL-b536d265
+            [FRAME] #I966:48968;1:6389 template=EL-235879b0
+              [IMAGE-SVG] "basil:vk-solid" #I966:48968;1:6390 template=EL-7c4c0d96
+              [IMAGE-SVG] "basil:vk-solid" #I966:48968;1:6392 template=EL-7c4c0d96
+              [IMAGE-SVG] "basil:vk-solid" #I966:48968;1:6394 template=EL-7c4c0d96
+          [FRAME] #I966:48968;1:6396 template=EL-d8a3e5e9
+            [TEXT] #I966:48968;1:6397 template=EL-19945db2
+            [TEXT] #I966:48968;1:6398 template=EL-438719fa
+        [RECTANGLE] "image 1271224161" #I966:48968;1:6399 template=EL-9a80455c
+    [RECTANGLE] "Overlay" #966:48969 template=EL-dfbceab7
+    [FRAME] "Filters" #966:48970 layout={"mode":"column","justifyContent":"space-between","alignItems":"stretch","sizing":{"horizontal":"fixed","vertical":"fixed"},"position":"absolute","locationRelativeToParent":{"x":500,"y":186},"dimensions":{"width":440,"height":427}} fills=fill_c48813f8
+      [FRAME] "Content" #966:48971 template=EL-dd2738a7
+        [FRAME] "Title" #966:48972 template=EL-bb582553
+          [TEXT] #966:48973 template=EL-d0bac69b
+          [IMAGE-SVG] "Icon Close" #966:48974 template=EL-762d5cce
+        [FRAME] #966:48976 template=EL-ecd9240b
+          [LINE] #966:48977 template=EL-7d2050db
+          [TEXT] #966:48978 template=EL-b0606623
+          [LINE] #966:48979 template=EL-7d2050db
+      [FRAME] "Buttons" #966:48980 template=EL-ebe32b4e
+        [FRAME] #966:48981 template=EL-98391260
+          [IMAGE-SVG] "Vector" #966:48982 template=EL-ff09df22
+          [TEXT] #966:48983 template=EL-69ab01bf
+  [FRAME] "Избранное / Добавление товара" #966:48984 layout={"mode":"column","alignItems":"center","sizing":{"horizontal":"fixed","vertical":"fixed"},"locationRelativeToParent":{"x":6838,"y":432},"dimensions":{"width":1440,"height":800}} fills=fill_658ab2fa
+    [FRAME] "Избранное / Все сохраненные товары" #966:48985 template=EL-2f9fe287
+      [INSTANCE] "Header" #966:48986 template=EL-6b472314
+        [FRAME] "Content" #I966:48986;279:19288 template=EL-bb582553
+          [FRAME] "Content " #I966:48986;279:19289 template=EL-12d709f7
+            [TEXT] #I966:48986;279:19290 template=EL-106f5a91
+            [FRAME] #I966:48986;279:19291 template=EL-5843db5d
+              [TEXT] #I966:48986;279:19292 template=EL-4cc49b2d
+              [IMAGE-SVG] "vuesax/linear/arrow-right" #I966:48986;279:19293 template=EL-d4302386
+          [RECTANGLE] "telegram-cloud-document-2-5251416634047897893 1" #I966:48986;907:30122 template=EL-496b7f4c
+          [FRAME] "Content" #I966:48986;279:19297 template=EL-50da7cd7
+            [IMAGE-SVG] "Icon Search" #I966:48986;279:19298 template=EL-762d5cce
+            [IMAGE-SVG] "bytesize:heart" #I966:48986;279:19300 template=EL-762d5cce
+            [INSTANCE] "Button" #I966:48986;895:29085 template=EL-e88db4ee
+              [TEXT] #I966:48986;895:29085;895:29077 template=EL-fd2be87b
+        [FRAME] "Content" #I966:48986;279:19309 template=EL-c9c16ae6
+          [TEXT] #I966:48986;279:19311 template=EL-569edc46
+          [TEXT] #I966:48986;279:19312 template=EL-36e8436f
+          [TEXT] #I966:48986;279:19313 template=EL-13bfe0f1
+          [TEXT] #I966:48986;279:19314 template=EL-62a5be30
+          [TEXT] #I966:48986;279:19315 template=EL-6858659e
+          [TEXT] #I966:48986;279:19316 template=EL-4792e634
+          [TEXT] #I966:48986;279:19317 template=EL-6ab11265
+          [FRAME] "Dropdown" #I966:48986;279:19318 template=EL-5843db5d
+            [TEXT] #I966:48986;279:19319 template=EL-f8162672
+      [FRAME] "Title" #966:48987 template=EL-5ff084d6
+        [FRAME] #966:48988 template=EL-7e82b98e
+          [FRAME] "Breadcrumbs" #966:48989 template=EL-eda14dc5
+            [TEXT] #966:48990 template=EL-474825e7
+            [TEXT] #966:48991 template=EL-ad237f5c
+            [TEXT] #966:48992 template=EL-d421bbef
+          [FRAME] #966:48993 template=EL-28d879d4
+            [LINE] #966:48994 template=EL-56ff9324
+            [RECTANGLE] "Logo" #966:48995 template=EL-b35ab3bb
+            [LINE] #966:48996 template=EL-56ff9324
+          [TEXT] #966:48997 template=EL-781b832a
+      [FRAME] #966:48998 template=EL-c4e48f56
+        [FRAME] #966:48999 template=EL-6e1f97e9
+          [FRAME] "Tabs" #966:49000 template=EL-abfc58e6
+            [FRAME] #966:49001 template=EL-2cfa4edb
+              [TEXT] #966:49002 template=EL-4b621ed7
+            [FRAME] #966:49003 template=EL-8a0f5ca1
+              [TEXT] #966:49004 template=EL-c56a473b
+          [FRAME] #966:49005 template=EL-c094fdcc
+            [FRAME] "Item Card" #966:49006 template=EL-9db5b930
+              [FRAME] "Image" #966:49007 template=EL-102dd31f
+                [IMAGE-SVG] "Icon Close" #966:49010 template=EL-232debae
+              [FRAME] "Content" #966:49012 template=EL-1519dabc
+                [FRAME] "Text" #966:49013 template=EL-bc40306a
+                  [TEXT] #966:49014 template=EL-2063c6fe
+                  [TEXT] #966:49015 template=EL-e1f7f57e
+                [FRAME] "Sale Price" #966:49016 template=EL-94a17615
+                  [TEXT] #966:49017 template=EL-afe1950d
+            [FRAME] "Item Card" #966:49021 template=EL-9db5b930
+              [FRAME] "Image" #966:49022 template=EL-293e5acd
+                [IMAGE-SVG] "Icon Close" #966:49025 template=EL-232debae
+              [FRAME] "Content" #966:49027 template=EL-1519dabc
+                [FRAME] "Text" #966:49028 template=EL-bc40306a
+                  [TEXT] #966:49029 template=EL-9eb34e2e
+                  [TEXT] #966:49030 template=EL-e1f7f57e
+                [FRAME] "Sale Price" #966:49031 template=EL-94a17615
+                  [TEXT] #966:49032 template=EL-afe1950d
+            [FRAME] "Item Card" #966:49036 template=EL-9db5b930
+              [FRAME] "Image" #966:49037 template=EL-96b2d234
+                [IMAGE-SVG] "Icon Close" #966:49040 template=EL-232debae
+              [FRAME] "Content" #966:49042 template=EL-1519dabc
+                [FRAME] "Text" #966:49043 template=EL-bc40306a
+                  [TEXT] #966:49044 template=EL-9eb34e2e
+                  [TEXT] #966:49045 template=EL-e1f7f57e
+                [FRAME] "Sale Price" #966:49046 template=EL-94a17615
+                  [TEXT] #966:49047 template=EL-afe1950d
+                  [GROUP] #966:49048 template=EL-71714af2
+                    [LINE] #966:49049 template=EL-406ec395
+                    [TEXT] #966:49050 template=EL-7ac8af5c
+            [FRAME] "Item Card" #966:49051 template=EL-9db5b930
+              [FRAME] "Image" #966:49052 template=EL-a57ef421
+                [IMAGE-SVG] "Icon Close" #966:49055 template=EL-232debae
+              [FRAME] "Content" #966:49057 template=EL-1519dabc
+                [FRAME] "Text" #966:49058 template=EL-bc40306a
+                  [TEXT] #966:49059 template=EL-49da3909
+                  [TEXT] #966:49060 template=EL-e1f7f57e
+                [FRAME] "Sale Price" #966:49061 template=EL-94a17615
+                  [TEXT] #966:49062 template=EL-afe1950d
+      [INSTANCE] "Footer" #966:49066 template=EL-89393d37
+        [FRAME] "Selection" #I966:49066;1:6349 template=EL-bf156a5b
+          [FRAME] #I966:49066;1:6350 template=EL-3991bef7
+            [RECTANGLE] "image 1271224130" #I966:49066;1:6351 template=EL-c354d6cc
+            [TEXT] #I966:49066;1:6352 template=EL-d07450bf
+          [TEXT] #I966:49066;1:6353 template=EL-b1ebc304
+          [TEXT] #I966:49066;1:6354 template=EL-0468c0d7
+          [TEXT] #I966:49066;1:6355 template=EL-899488be
+          [TEXT] #I966:49066;1:6356 template=EL-c531e5c6
+          [FRAME] #I966:49066;1:6357 template=EL-1c6de66b
+            [TEXT] #I966:49066;1:6358 template=EL-362fb9b8
+            [FRAME] #I966:49066;1:6359 template=EL-1519dabc
+              [TEXT] #I966:49066;1:6360 template=EL-53f4cbfc
+              [TEXT] #I966:49066;1:6361 template=EL-5eb41475
+              [TEXT] #I966:49066;1:6362 template=EL-fa609635
+              [TEXT] #I966:49066;1:6363 template=EL-6675a1ab
+              [TEXT] #I966:49066;1:6364 template=EL-d18ea825
+              [TEXT] #I966:49066;1:6365 template=EL-bad21f62
+              [TEXT] #I966:49066;1:6366 template=EL-19cf47e0
+          [FRAME] #I966:49066;1:6367 template=EL-4813bf8c
+            [TEXT] #I966:49066;1:6368 template=EL-488e33ab
+            [FRAME] #I966:49066;1:6369 template=EL-1519dabc
+              [TEXT] #I966:49066;1:6370 template=EL-def71b74
+              [TEXT] #I966:49066;1:6371 template=EL-12909fbd
+              [TEXT] #I966:49066;1:6372 template=EL-8dd185e5
+          [FRAME] #I966:49066;1:6373 template=EL-cd7c93c4
+            [TEXT] #I966:49066;1:6374 template=EL-71139944
+            [FRAME] #I966:49066;1:6375 template=EL-1519dabc
+              [TEXT] #I966:49066;1:6376 template=EL-46649359
+              [TEXT] #I966:49066;1:6377 template=EL-71203d8a
+              [TEXT] #I966:49066;1:6378 template=EL-bc5a879b
+              [TEXT] #I966:49066;1:6379 template=EL-01984c59
+          [FRAME] #I966:49066;1:6380 template=EL-8e2638f3
+            [FRAME] #I966:49066;1:6381 template=EL-f6efe3b4
+              [FRAME] #I966:49066;1:6382 template=EL-24705f71
+                [TEXT] #I966:49066;1:6383 template=EL-bcfc5562
+                [TEXT] #I966:49066;1:6384 template=EL-6dda702e
+              [FRAME] #I966:49066;1:6385 template=EL-24705f71
+                [TEXT] #I966:49066;1:6386 template=EL-b73a9f94
+                [TEXT] #I966:49066;1:6387 template=EL-adf99d5c
+              [TEXT] #I966:49066;1:6388 template=EL-b536d265
+              [FRAME] #I966:49066;1:6389 template=EL-235879b0
+                [IMAGE-SVG] "basil:vk-solid" #I966:49066;1:6390 template=EL-7c4c0d96
+                [IMAGE-SVG] "basil:vk-solid" #I966:49066;1:6392 template=EL-7c4c0d96
+                [IMAGE-SVG] "basil:vk-solid" #I966:49066;1:6394 template=EL-7c4c0d96
+            [FRAME] #I966:49066;1:6396 template=EL-d8a3e5e9
+              [TEXT] #I966:49066;1:6397 template=EL-19945db2
+              [TEXT] #I966:49066;1:6398 template=EL-438719fa
+          [RECTANGLE] "image 1271224161" #I966:49066;1:6399 template=EL-9a80455c
+    [INSTANCE] "Header" #966:49067 template=EL-44928c51
+      [FRAME] "Content " #I966:49067;1:6311 template=EL-dda368b5
+        [TEXT] #I966:49067;1:6312 template=EL-9ef49631
+        [FRAME] #I966:49067;1:6313 template=EL-5843db5d
+          [TEXT] #I966:49067;1:6314 template=EL-95e154cc
+          [IMAGE-SVG] "vuesax/linear/arrow-right" #I966:49067;1:6315 template=EL-d4302386
+      [FRAME] "Content" #I966:49067;1:6319 template=EL-b99d5fd3
+        [TEXT] #I966:49067;1:6320 template=EL-7d3d1727
+        [TEXT] #I966:49067;1:6321 template=EL-e65f391d
+        [TEXT] #I966:49067;1:6322 template=EL-b121fb61
+        [TEXT] #I966:49067;1:6323 template=EL-b1a961b1
+        [TEXT] #I966:49067;1:6324 template=EL-44e37d99
+        [TEXT] #I966:49067;1:6325 template=EL-44b5ca68
+        [TEXT] #I966:49067;1:6326 template=EL-e95bd3cc
+        [TEXT] #I966:49067;1:6327 template=EL-9d6fbc6a
+        [FRAME] "Dropdown" #I966:49067;1:6328 template=EL-5843db5d
+          [TEXT] #I966:49067;1:6329 template=EL-f7f9c3f6
+          [IMAGE-SVG] "vuesax/linear/arrow-right" #I966:49067;1:6330 template=EL-d4302386
+      [FRAME] "Content" #I966:49067;1:6334 template=EL-f73b6cbc
+        [IMAGE-SVG] "Icon Search" #I966:49067;1:6335 template=EL-762d5cce
+        [IMAGE-SVG] "bytesize:heart" #I966:49067;1:6337 template=EL-762d5cce
+        [IMAGE-SVG] "iconamoon:shopping-bag-light" #I966:49067;1:6339 template=EL-762d5cce
+        [FRAME] "Button" #I966:49067;1:6343 template=EL-3a760745
+          [TEXT] #I966:49067;1:6344 template=EL-e6d22986
+    [FRAME] "Catalog" #966:49068 template=EL-4161d281
+      [FRAME] "Content" #966:49069 template=EL-616774d3
+        [FRAME] "Filters" #966:49070 template=EL-ffc1b4d2
+          [FRAME] #966:49071 template=EL-a188efd9
+            [TEXT] #966:49072 template=EL-56ff89a0
+          [FRAME] #966:49073 template=EL-a188efd9
+            [TEXT] #966:49074 template=EL-0a758b4c
+        [FRAME] "Item Cards" #966:49075 template=EL-922c2e83
+          [INSTANCE] "Item Card" #966:49076 template=EL-2eebfdca
+            [FRAME] "Image" #I966:49076;1:6430 template=EL-f49cb700
+              [IMAGE-SVG] "Icon Wishlist" #I966:49076;1:6433 template=EL-c593ddd4
+            [FRAME] "Content" #I966:49076;1:6435 template=EL-1519dabc
+              [FRAME] "Text" #I966:49076;1:6436 template=EL-bc40306a
+                [TEXT] #I966:49076;1:6437 template=EL-9eb34e2e
+                [TEXT] #I966:49076;1:6438 template=EL-e1f7f57e
+              [FRAME] "Sale Price" #I966:49076;1:6439 template=EL-94a17615
+                [TEXT] #I966:49076;1:6440 template=EL-afe1950d
+          [INSTANCE] "Item Card" #966:49077 template=EL-2eebfdca
+            [FRAME] "Image" #I966:49077;1:6430 template=EL-f49cb700
+              [IMAGE-SVG] "Icon Wishlist" #I966:49077;1:6433 template=EL-c593ddd4
+            [FRAME] "Content" #I966:49077;1:6435 template=EL-1519dabc
+              [FRAME] "Text" #I966:49077;1:6436 template=EL-bc40306a
+                [TEXT] #I966:49077;1:6437 template=EL-9eb34e2e
+                [TEXT] #I966:49077;1:6438 template=EL-e1f7f57e
+              [FRAME] "Sale Price" #I966:49077;1:6439 template=EL-94a17615
+                [TEXT] #I966:49077;1:6440 template=EL-afe1950d
+          [INSTANCE] "Item Card" #966:49078 template=EL-2eebfdca
+            [FRAME] "Image" #I966:49078;1:6430 template=EL-f49cb700
+              [IMAGE-SVG] "Icon Wishlist" #I966:49078;1:6433 template=EL-c593ddd4
+            [FRAME] "Content" #I966:49078;1:6435 template=EL-1519dabc
+              [FRAME] "Text" #I966:49078;1:6436 template=EL-bc40306a
+                [TEXT] #I966:49078;1:6437 template=EL-9eb34e2e
+                [TEXT] #I966:49078;1:6438 template=EL-e1f7f57e
+              [FRAME] "Sale Price" #I966:49078;1:6439 template=EL-94a17615
+                [TEXT] #I966:49078;1:6440 template=EL-afe1950d
+                [GROUP] #I966:49078;1:6441 template=EL-71714af2
+                  [LINE] #I966:49078;1:6442 template=EL-406ec395
+                  [TEXT] #I966:49078;1:6443 template=EL-7ac8af5c
+          [INSTANCE] "Item Card" #966:49079 template=EL-2eebfdca
+            [FRAME] "Image" #I966:49079;1:6430 template=EL-f49cb700
+              [IMAGE-SVG] "Icon Wishlist" #I966:49079;1:6433 template=EL-c593ddd4
+            [FRAME] "Content" #I966:49079;1:6435 template=EL-1519dabc
+              [FRAME] "Text" #I966:49079;1:6436 template=EL-bc40306a
+                [TEXT] #I966:49079;1:6437 template=EL-9eb34e2e
+                [TEXT] #I966:49079;1:6438 template=EL-e1f7f57e
+              [FRAME] "Sale Price" #I966:49079;1:6439 template=EL-94a17615
+                [TEXT] #I966:49079;1:6440 template=EL-afe1950d
+          [INSTANCE] "Item Card" #966:49080 template=EL-3cbe3213
+            [FRAME] "Image" #I966:49080;1:6430 template=EL-6604c6c3
+              [IMAGE-SVG] "Icon Wishlist" #I966:49080;1:6433 template=EL-c593ddd4
+            [FRAME] "Content" #I966:49080;1:6435 template=EL-1519dabc
+              [FRAME] "Text" #I966:49080;1:6436 template=EL-bc40306a
+                [TEXT] #I966:49080;1:6437 template=EL-9eb34e2e
+                [TEXT] #I966:49080;1:6438 template=EL-e1f7f57e
+              [FRAME] "Sale Price" #I966:49080;1:6439 template=EL-94a17615
+                [TEXT] #I966:49080;1:6440 template=EL-afe1950d
+                [GROUP] #I966:49080;1:6441 template=EL-71714af2
+                  [LINE] #I966:49080;1:6442 template=EL-406ec395
+                  [TEXT] #I966:49080;1:6443 template=EL-7ac8af5c
+          [INSTANCE] "Item Card" #966:49081 template=EL-3cbe3213
+            [FRAME] "Image" #I966:49081;1:6430 template=EL-6604c6c3
+              [IMAGE-SVG] "Icon Wishlist" #I966:49081;1:6433 template=EL-c593ddd4
+            [FRAME] "Content" #I966:49081;1:6435 template=EL-1519dabc
+              [FRAME] "Text" #I966:49081;1:6436 template=EL-bc40306a
+                [TEXT] #I966:49081;1:6437 template=EL-9eb34e2e
+                [TEXT] #I966:49081;1:6438 template=EL-e1f7f57e
+              [FRAME] "Sale Price" #I966:49081;1:6439 template=EL-94a17615
+                [TEXT] #I966:49081;1:6440 template=EL-afe1950d
+          [INSTANCE] "Item Card" #966:49082 template=EL-2eebfdca
+            [FRAME] "Image" #I966:49082;1:6430 template=EL-f49cb700
+              [IMAGE-SVG] "Icon Wishlist" #I966:49082;1:6433 template=EL-c593ddd4
+            [FRAME] "Content" #I966:49082;1:6435 template=EL-1519dabc
+              [FRAME] "Text" #I966:49082;1:6436 template=EL-bc40306a
+                [TEXT] #I966:49082;1:6437 template=EL-9eb34e2e
+                [TEXT] #I966:49082;1:6438 template=EL-e1f7f57e
+              [FRAME] "Sale Price" #I966:49082;1:6439 template=EL-94a17615
+                [TEXT] #I966:49082;1:6440 template=EL-afe1950d
+          [INSTANCE] "Item Card" #966:49083 template=EL-2eebfdca
+            [FRAME] "Image" #I966:49083;1:6430 template=EL-f49cb700
+              [IMAGE-SVG] "Icon Wishlist" #I966:49083;1:6433 template=EL-c593ddd4
+            [FRAME] "Content" #I966:49083;1:6435 template=EL-1519dabc
+              [FRAME] "Text" #I966:49083;1:6436 template=EL-bc40306a
+                [TEXT] #I966:49083;1:6437 template=EL-9eb34e2e
+                [TEXT] #I966:49083;1:6438 template=EL-e1f7f57e
+              [FRAME] "Sale Price" #I966:49083;1:6439 template=EL-94a17615
+                [TEXT] #I966:49083;1:6440 template=EL-afe1950d
+                [GROUP] #I966:49083;1:6441 template=EL-71714af2
+                  [LINE] #I966:49083;1:6442 template=EL-406ec395
+                  [TEXT] #I966:49083;1:6443 template=EL-7ac8af5c
+          [INSTANCE] "Item Card" #966:49084 template=EL-2eebfdca
+            [FRAME] "Image" #I966:49084;1:6430 template=EL-f49cb700
+              [IMAGE-SVG] "Icon Wishlist" #I966:49084;1:6433 template=EL-c593ddd4
+            [FRAME] "Content" #I966:49084;1:6435 template=EL-1519dabc
+              [FRAME] "Text" #I966:49084;1:6436 template=EL-bc40306a
+                [TEXT] #I966:49084;1:6437 template=EL-9eb34e2e
+                [TEXT] #I966:49084;1:6438 template=EL-e1f7f57e
+              [FRAME] "Sale Price" #I966:49084;1:6439 template=EL-94a17615
+                [TEXT] #I966:49084;1:6440 template=EL-afe1950d
+          [INSTANCE] "Item Card" #966:49085 template=EL-2eebfdca
+            [FRAME] "Image" #I966:49085;1:6430 template=EL-f49cb700
+              [IMAGE-SVG] "Icon Wishlist" #I966:49085;1:6433 template=EL-c593ddd4
+            [FRAME] "Content" #I966:49085;1:6435 template=EL-1519dabc
+              [FRAME] "Text" #I966:49085;1:6436 template=EL-bc40306a
+                [TEXT] #I966:49085;1:6437 template=EL-9eb34e2e
+                [TEXT] #I966:49085;1:6438 template=EL-e1f7f57e
+              [FRAME] "Sale Price" #I966:49085;1:6439 template=EL-94a17615
+                [TEXT] #I966:49085;1:6440 template=EL-afe1950d
+          [INSTANCE] "Item Card" #966:49086 template=EL-3cbe3213
+            [FRAME] "Image" #I966:49086;1:6430 template=EL-6604c6c3
+              [IMAGE-SVG] "Icon Wishlist" #I966:49086;1:6433 template=EL-c593ddd4
+            [FRAME] "Content" #I966:49086;1:6435 template=EL-1519dabc
+              [FRAME] "Text" #I966:49086;1:6436 template=EL-bc40306a
+                [TEXT] #I966:49086;1:6437 template=EL-9eb34e2e
+                [TEXT] #I966:49086;1:6438 template=EL-e1f7f57e
+              [FRAME] "Sale Price" #I966:49086;1:6439 template=EL-94a17615
+                [TEXT] #I966:49086;1:6440 template=EL-afe1950d
+                [GROUP] #I966:49086;1:6441 template=EL-71714af2
+                  [LINE] #I966:49086;1:6442 template=EL-406ec395
+                  [TEXT] #I966:49086;1:6443 template=EL-7ac8af5c
+          [INSTANCE] "Item Card" #966:49087 template=EL-3cbe3213
+            [FRAME] "Image" #I966:49087;1:6430 template=EL-6604c6c3
+              [IMAGE-SVG] "Icon Wishlist" #I966:49087;1:6433 template=EL-c593ddd4
+            [FRAME] "Content" #I966:49087;1:6435 template=EL-1519dabc
+              [FRAME] "Text" #I966:49087;1:6436 template=EL-bc40306a
+                [TEXT] #I966:49087;1:6437 template=EL-9eb34e2e
+                [TEXT] #I966:49087;1:6438 template=EL-e1f7f57e
+              [FRAME] "Sale Price" #I966:49087;1:6439 template=EL-94a17615
+                [TEXT] #I966:49087;1:6440 template=EL-afe1950d
+      [INSTANCE] "Button" #966:49088 template=EL-e935e75d
+        [TEXT] #I966:49088;1:6449 template=EL-577db4a2
+      [FRAME] "Pagination" #966:49089 template=EL-790ee3d6
+        [IMAGE-SVG] "Icon Arrow" #966:49090 template=EL-786995b0
+        [FRAME] "Pages" #966:49092 template=EL-21a18932
+          [FRAME] "Page" #966:49093 template=EL-49500987
+            [TEXT] #966:49094 template=EL-1cdeaac9
+          [FRAME] "Page" #966:49095 template=EL-72cd99d7
+            [TEXT] #966:49096 template=EL-6e4d5dc5
+          [FRAME] "Page" #966:49097 template=EL-72cd99d7
+            [TEXT] #966:49098 template=EL-e5a9249c
+          [FRAME] "Page" #966:49099 template=EL-72cd99d7
+            [TEXT] #966:49100 template=EL-58d548ec
+          [FRAME] "Page" #966:49101 template=EL-72cd99d7
+            [TEXT] #966:49102 template=EL-3f80f3e2
+          [FRAME] "Page" #966:49103 template=EL-72cd99d7
+            [TEXT] #966:49104 template=EL-8c18e808
+          [FRAME] "Page" #966:49105 template=EL-72cd99d7
+            [TEXT] #966:49106 template=EL-3e7ee904
+          [FRAME] "Page" #966:49107 template=EL-72cd99d7
+            [TEXT] #966:49108 template=EL-c52236e1
+        [IMAGE-SVG] "Icon Arrow" #966:49109 template=EL-786995b0
+    [INSTANCE] "Footer" #966:49111 template=EL-95db1e76
+      [FRAME] "Selection" #I966:49111;1:6349 template=EL-bf156a5b
+        [FRAME] #I966:49111;1:6350 template=EL-3991bef7
+          [RECTANGLE] "image 1271224130" #I966:49111;1:6351 template=EL-c354d6cc
+          [TEXT] #I966:49111;1:6352 template=EL-d07450bf
+        [TEXT] #I966:49111;1:6353 template=EL-b1ebc304
+        [TEXT] #I966:49111;1:6354 template=EL-0468c0d7
+        [TEXT] #I966:49111;1:6355 template=EL-899488be
+        [TEXT] #I966:49111;1:6356 template=EL-c531e5c6
+        [FRAME] #I966:49111;1:6357 template=EL-1c6de66b
+          [TEXT] #I966:49111;1:6358 template=EL-362fb9b8
+          [FRAME] #I966:49111;1:6359 template=EL-1519dabc
+            [TEXT] #I966:49111;1:6360 template=EL-53f4cbfc
+            [TEXT] #I966:49111;1:6361 template=EL-5eb41475
+            [TEXT] #I966:49111;1:6362 template=EL-fa609635
+            [TEXT] #I966:49111;1:6363 template=EL-6675a1ab
+            [TEXT] #I966:49111;1:6364 template=EL-d18ea825
+            [TEXT] #I966:49111;1:6365 template=EL-bad21f62
+            [TEXT] #I966:49111;1:6366 template=EL-19cf47e0
+        [FRAME] #I966:49111;1:6367 template=EL-4813bf8c
+          [TEXT] #I966:49111;1:6368 template=EL-488e33ab
+          [FRAME] #I966:49111;1:6369 template=EL-1519dabc
+            [TEXT] #I966:49111;1:6370 template=EL-def71b74
+            [TEXT] #I966:49111;1:6371 template=EL-12909fbd
+            [TEXT] #I966:49111;1:6372 template=EL-8dd185e5
+        [FRAME] #I966:49111;1:6373 template=EL-cd7c93c4
+          [TEXT] #I966:49111;1:6374 template=EL-71139944
+          [FRAME] #I966:49111;1:6375 template=EL-1519dabc
+            [TEXT] #I966:49111;1:6376 template=EL-46649359
+            [TEXT] #I966:49111;1:6377 template=EL-71203d8a
+            [TEXT] #I966:49111;1:6378 template=EL-bc5a879b
+            [TEXT] #I966:49111;1:6379 template=EL-01984c59
+        [FRAME] #I966:49111;1:6380 template=EL-8e2638f3
+          [FRAME] #I966:49111;1:6381 template=EL-f6efe3b4
+            [FRAME] #I966:49111;1:6382 template=EL-24705f71
+              [TEXT] #I966:49111;1:6383 template=EL-bcfc5562
+              [TEXT] #I966:49111;1:6384 template=EL-6dda702e
+            [FRAME] #I966:49111;1:6385 template=EL-24705f71
+              [TEXT] #I966:49111;1:6386 template=EL-b73a9f94
+              [TEXT] #I966:49111;1:6387 template=EL-adf99d5c
+            [TEXT] #I966:49111;1:6388 template=EL-b536d265
+            [FRAME] #I966:49111;1:6389 template=EL-235879b0
+              [IMAGE-SVG] "basil:vk-solid" #I966:49111;1:6390 template=EL-7c4c0d96
+              [IMAGE-SVG] "basil:vk-solid" #I966:49111;1:6392 template=EL-7c4c0d96
+              [IMAGE-SVG] "basil:vk-solid" #I966:49111;1:6394 template=EL-7c4c0d96
+          [FRAME] #I966:49111;1:6396 template=EL-d8a3e5e9
+            [TEXT] #I966:49111;1:6397 template=EL-19945db2
+            [TEXT] #I966:49111;1:6398 template=EL-438719fa
+        [RECTANGLE] "image 1271224161" #I966:49111;1:6399 template=EL-9a80455c
+    [RECTANGLE] "Overlay" #966:49112 layout=layout_2fc956d7 fills=fill_4cd5ff90
+    [FRAME] "Filters" #966:49113 template=EL-af6662cf
+      [FRAME] "Content" #966:49114 template=EL-dd2738a7
+        [FRAME] "Title" #966:49115 template=EL-bb582553
+          [TEXT] #966:49116 template=EL-d0bac69b
+          [IMAGE-SVG] "Icon Close" #966:49117 template=EL-762d5cce
+        [FRAME] #966:49119 template=EL-ecd9240b
+          [LINE] #966:49120 template=EL-7d2050db
+          [TEXT] #966:49121 template=EL-b0606623
+          [LINE] #966:49122 template=EL-7d2050db
+          [FRAME] "Checkbox" #966:49123 template=EL-c8d50cb3
+            [TEXT] #966:49124 template=EL-f9e735ce
+            [INSTANCE] "Button" #966:49125 layout={"mode":"row","padding":"16px 24px","justifyContent":"center","alignItems":"center","gap":"10px","sizing":{"horizontal":"hug","vertical":"hug"},"position":"absolute","locationRelativeToParent":{"x":256,"y":-16}} strokes=fill_c5b17057 strokeWeight=1px borderRadius=2px componentId=828:11827
+              [TEXT] #I966:49125;1:6210 layout=layout_177c5efc fills=fill_8b4fbb9e textStyle=style_ce0a4cea text="Добавить"
+          [LINE] #966:49126 template=EL-7d2050db
+          [FRAME] "Checkbox" #966:49127 template=EL-c8d50cb3
+            [TEXT] #966:49128 template=EL-0503ed4c
+          [LINE] #966:49129 template=EL-7d2050db
+      [FRAME] "Buttons" #966:49130 template=EL-ebe32b4e
+        [FRAME] #966:49131 template=EL-98391260
+          [IMAGE-SVG] "Vector" #966:49132 template=EL-ff09df22
+          [TEXT] #966:49133 template=EL-69ab01bf
+    [RECTANGLE] "image 1271224189" #966:49134 layout={"mode":"none","sizing":{"horizontal":"fixed","vertical":"fixed"},"position":"absolute","locationRelativeToParent":{"x":758,"y":391},"dimensions":{"width":43,"height":43}} fills=fill_1e5e4c72
+  [FRAME] "Избранное / Создание подборки / Есть подборки" #966:49135 layout={"mode":"column","alignItems":"center","sizing":{"horizontal":"fixed","vertical":"fixed"},"locationRelativeToParent":{"x":9078,"y":432},"dimensions":{"width":1440,"height":800}} fills=fill_658ab2fa
+    [FRAME] "Избранное / Все сохраненные товары" #966:49136 template=EL-2f9fe287
+      [INSTANCE] "Header" #966:49137 template=EL-6b472314
+        [FRAME] "Content" #I966:49137;279:19288 template=EL-bb582553
+          [FRAME] "Content " #I966:49137;279:19289 template=EL-12d709f7
+            [TEXT] #I966:49137;279:19290 template=EL-106f5a91
+            [FRAME] #I966:49137;279:19291 template=EL-5843db5d
+              [TEXT] #I966:49137;279:19292 template=EL-4cc49b2d
+              [IMAGE-SVG] "vuesax/linear/arrow-right" #I966:49137;279:19293 template=EL-d4302386
+          [RECTANGLE] "telegram-cloud-document-2-5251416634047897893 1" #I966:49137;907:30122 template=EL-496b7f4c
+          [FRAME] "Content" #I966:49137;279:19297 template=EL-50da7cd7
+            [IMAGE-SVG] "Icon Search" #I966:49137;279:19298 template=EL-762d5cce
+            [IMAGE-SVG] "bytesize:heart" #I966:49137;279:19300 template=EL-762d5cce
+            [INSTANCE] "Button" #I966:49137;895:29085 template=EL-e88db4ee
+              [TEXT] #I966:49137;895:29085;895:29077 template=EL-fd2be87b
+        [FRAME] "Content" #I966:49137;279:19309 template=EL-c9c16ae6
+          [TEXT] #I966:49137;279:19311 template=EL-569edc46
+          [TEXT] #I966:49137;279:19312 template=EL-36e8436f
+          [TEXT] #I966:49137;279:19313 template=EL-13bfe0f1
+          [TEXT] #I966:49137;279:19314 template=EL-62a5be30
+          [TEXT] #I966:49137;279:19315 template=EL-6858659e
+          [TEXT] #I966:49137;279:19316 template=EL-4792e634
+          [TEXT] #I966:49137;279:19317 template=EL-6ab11265
+          [FRAME] "Dropdown" #I966:49137;279:19318 template=EL-5843db5d
+            [TEXT] #I966:49137;279:19319 template=EL-f8162672
+      [FRAME] "Title" #966:49138 template=EL-5ff084d6
+        [FRAME] #966:49139 template=EL-7e82b98e
+          [FRAME] "Breadcrumbs" #966:49140 template=EL-eda14dc5
+            [TEXT] #966:49141 template=EL-474825e7
+            [TEXT] #966:49142 template=EL-ad237f5c
+            [TEXT] #966:49143 template=EL-d421bbef
+          [FRAME] #966:49144 template=EL-28d879d4
+            [LINE] #966:49145 template=EL-56ff9324
+            [RECTANGLE] "Logo" #966:49146 template=EL-b35ab3bb
+            [LINE] #966:49147 template=EL-56ff9324
+          [TEXT] #966:49148 template=EL-781b832a
+      [FRAME] #966:49149 template=EL-c4e48f56
+        [FRAME] #966:49150 template=EL-6e1f97e9
+          [FRAME] "Tabs" #966:49151 template=EL-abfc58e6
+            [FRAME] #966:49152 template=EL-2cfa4edb
+              [TEXT] #966:49153 template=EL-4b621ed7
+            [FRAME] #966:49154 template=EL-8a0f5ca1
+              [TEXT] #966:49155 template=EL-c56a473b
+          [FRAME] #966:49156 template=EL-c094fdcc
+            [FRAME] "Item Card" #966:49157 template=EL-9db5b930
+              [FRAME] "Image" #966:49158 template=EL-102dd31f
+                [IMAGE-SVG] "Icon Close" #966:49161 template=EL-232debae
+              [FRAME] "Content" #966:49163 template=EL-1519dabc
+                [FRAME] "Text" #966:49164 template=EL-bc40306a
+                  [TEXT] #966:49165 template=EL-2063c6fe
+                  [TEXT] #966:49166 template=EL-e1f7f57e
+                [FRAME] "Sale Price" #966:49167 template=EL-94a17615
+                  [TEXT] #966:49168 template=EL-afe1950d
+            [FRAME] "Item Card" #966:49172 template=EL-9db5b930
+              [FRAME] "Image" #966:49173 template=EL-293e5acd
+                [IMAGE-SVG] "Icon Close" #966:49176 template=EL-232debae
+              [FRAME] "Content" #966:49178 template=EL-1519dabc
+                [FRAME] "Text" #966:49179 template=EL-bc40306a
+                  [TEXT] #966:49180 template=EL-9eb34e2e
+                  [TEXT] #966:49181 template=EL-e1f7f57e
+                [FRAME] "Sale Price" #966:49182 template=EL-94a17615
+                  [TEXT] #966:49183 template=EL-afe1950d
+            [FRAME] "Item Card" #966:49187 template=EL-9db5b930
+              [FRAME] "Image" #966:49188 template=EL-96b2d234
+                [IMAGE-SVG] "Icon Close" #966:49191 template=EL-232debae
+              [FRAME] "Content" #966:49193 template=EL-1519dabc
+                [FRAME] "Text" #966:49194 template=EL-bc40306a
+                  [TEXT] #966:49195 template=EL-9eb34e2e
+                  [TEXT] #966:49196 template=EL-e1f7f57e
+                [FRAME] "Sale Price" #966:49197 template=EL-94a17615
+                  [TEXT] #966:49198 template=EL-afe1950d
+                  [GROUP] #966:49199 template=EL-71714af2
+                    [LINE] #966:49200 template=EL-406ec395
+                    [TEXT] #966:49201 template=EL-7ac8af5c
+            [FRAME] "Item Card" #966:49202 template=EL-9db5b930
+              [FRAME] "Image" #966:49203 template=EL-a57ef421
+                [IMAGE-SVG] "Icon Close" #966:49206 template=EL-232debae
+              [FRAME] "Content" #966:49208 template=EL-1519dabc
+                [FRAME] "Text" #966:49209 template=EL-bc40306a
+                  [TEXT] #966:49210 template=EL-49da3909
+                  [TEXT] #966:49211 template=EL-e1f7f57e
+                [FRAME] "Sale Price" #966:49212 template=EL-94a17615
+                  [TEXT] #966:49213 template=EL-afe1950d
+      [INSTANCE] "Footer" #966:49217 template=EL-89393d37
+        [FRAME] "Selection" #I966:49217;1:6349 template=EL-bf156a5b
+          [FRAME] #I966:49217;1:6350 template=EL-3991bef7
+            [RECTANGLE] "image 1271224130" #I966:49217;1:6351 template=EL-c354d6cc
+            [TEXT] #I966:49217;1:6352 template=EL-d07450bf
+          [TEXT] #I966:49217;1:6353 template=EL-b1ebc304
+          [TEXT] #I966:49217;1:6354 template=EL-0468c0d7
+          [TEXT] #I966:49217;1:6355 template=EL-899488be
+          [TEXT] #I966:49217;1:6356 template=EL-c531e5c6
+          [FRAME] #I966:49217;1:6357 template=EL-1c6de66b
+            [TEXT] #I966:49217;1:6358 template=EL-362fb9b8
+            [FRAME] #I966:49217;1:6359 template=EL-1519dabc
+              [TEXT] #I966:49217;1:6360 template=EL-53f4cbfc
+              [TEXT] #I966:49217;1:6361 template=EL-5eb41475
+              [TEXT] #I966:49217;1:6362 template=EL-fa609635
+              [TEXT] #I966:49217;1:6363 template=EL-6675a1ab
+              [TEXT] #I966:49217;1:6364 template=EL-d18ea825
+              [TEXT] #I966:49217;1:6365 template=EL-bad21f62
+              [TEXT] #I966:49217;1:6366 template=EL-19cf47e0
+          [FRAME] #I966:49217;1:6367 template=EL-4813bf8c
+            [TEXT] #I966:49217;1:6368 template=EL-488e33ab
+            [FRAME] #I966:49217;1:6369 template=EL-1519dabc
+              [TEXT] #I966:49217;1:6370 template=EL-def71b74
+              [TEXT] #I966:49217;1:6371 template=EL-12909fbd
+              [TEXT] #I966:49217;1:6372 template=EL-8dd185e5
+          [FRAME] #I966:49217;1:6373 template=EL-cd7c93c4
+            [TEXT] #I966:49217;1:6374 template=EL-71139944
+            [FRAME] #I966:49217;1:6375 template=EL-1519dabc
+              [TEXT] #I966:49217;1:6376 template=EL-46649359
+              [TEXT] #I966:49217;1:6377 template=EL-71203d8a
+              [TEXT] #I966:49217;1:6378 template=EL-bc5a879b
+              [TEXT] #I966:49217;1:6379 template=EL-01984c59
+          [FRAME] #I966:49217;1:6380 template=EL-8e2638f3
+            [FRAME] #I966:49217;1:6381 template=EL-f6efe3b4
+              [FRAME] #I966:49217;1:6382 template=EL-24705f71
+                [TEXT] #I966:49217;1:6383 template=EL-bcfc5562
+                [TEXT] #I966:49217;1:6384 template=EL-6dda702e
+              [FRAME] #I966:49217;1:6385 template=EL-24705f71
+                [TEXT] #I966:49217;1:6386 template=EL-b73a9f94
+                [TEXT] #I966:49217;1:6387 template=EL-adf99d5c
+              [TEXT] #I966:49217;1:6388 template=EL-b536d265
+              [FRAME] #I966:49217;1:6389 template=EL-235879b0
+                [IMAGE-SVG] "basil:vk-solid" #I966:49217;1:6390 template=EL-7c4c0d96
+                [IMAGE-SVG] "basil:vk-solid" #I966:49217;1:6392 template=EL-7c4c0d96
+                [IMAGE-SVG] "basil:vk-solid" #I966:49217;1:6394 template=EL-7c4c0d96
+            [FRAME] #I966:49217;1:6396 template=EL-d8a3e5e9
+              [TEXT] #I966:49217;1:6397 template=EL-19945db2
+              [TEXT] #I966:49217;1:6398 template=EL-438719fa
+          [RECTANGLE] "image 1271224161" #I966:49217;1:6399 template=EL-9a80455c
+    [INSTANCE] "Header" #966:49218 template=EL-44928c51
+      [FRAME] "Content " #I966:49218;1:6311 template=EL-dda368b5
+        [TEXT] #I966:49218;1:6312 template=EL-9ef49631
+        [FRAME] #I966:49218;1:6313 template=EL-5843db5d
+          [TEXT] #I966:49218;1:6314 template=EL-95e154cc
+          [IMAGE-SVG] "vuesax/linear/arrow-right" #I966:49218;1:6315 template=EL-d4302386
+      [FRAME] "Content" #I966:49218;1:6319 template=EL-b99d5fd3
+        [TEXT] #I966:49218;1:6320 template=EL-7d3d1727
+        [TEXT] #I966:49218;1:6321 template=EL-e65f391d
+        [TEXT] #I966:49218;1:6322 template=EL-b121fb61
+        [TEXT] #I966:49218;1:6323 template=EL-b1a961b1
+        [TEXT] #I966:49218;1:6324 template=EL-44e37d99
+        [TEXT] #I966:49218;1:6325 template=EL-44b5ca68
+        [TEXT] #I966:49218;1:6326 template=EL-e95bd3cc
+        [TEXT] #I966:49218;1:6327 template=EL-9d6fbc6a
+        [FRAME] "Dropdown" #I966:49218;1:6328 template=EL-5843db5d
+          [TEXT] #I966:49218;1:6329 template=EL-f7f9c3f6
+          [IMAGE-SVG] "vuesax/linear/arrow-right" #I966:49218;1:6330 template=EL-d4302386
+      [FRAME] "Content" #I966:49218;1:6334 template=EL-f73b6cbc
+        [IMAGE-SVG] "Icon Search" #I966:49218;1:6335 template=EL-762d5cce
+        [IMAGE-SVG] "bytesize:heart" #I966:49218;1:6337 template=EL-762d5cce
+        [IMAGE-SVG] "iconamoon:shopping-bag-light" #I966:49218;1:6339 template=EL-762d5cce
+        [FRAME] "Button" #I966:49218;1:6343 template=EL-3a760745
+          [TEXT] #I966:49218;1:6344 template=EL-e6d22986
+    [FRAME] "Catalog" #966:49219 template=EL-4161d281
+      [FRAME] "Content" #966:49220 template=EL-616774d3
+        [FRAME] "Filters" #966:49221 template=EL-ffc1b4d2
+          [FRAME] #966:49222 template=EL-a188efd9
+            [TEXT] #966:49223 template=EL-56ff89a0
+          [FRAME] #966:49224 template=EL-a188efd9
+            [TEXT] #966:49225 template=EL-0a758b4c
+        [FRAME] "Item Cards" #966:49226 template=EL-922c2e83
+          [INSTANCE] "Item Card" #966:49227 template=EL-2eebfdca
+            [FRAME] "Image" #I966:49227;1:6430 template=EL-f49cb700
+              [IMAGE-SVG] "Icon Wishlist" #I966:49227;1:6433 template=EL-c593ddd4
+            [FRAME] "Content" #I966:49227;1:6435 template=EL-1519dabc
+              [FRAME] "Text" #I966:49227;1:6436 template=EL-bc40306a
+                [TEXT] #I966:49227;1:6437 template=EL-9eb34e2e
+                [TEXT] #I966:49227;1:6438 template=EL-e1f7f57e
+              [FRAME] "Sale Price" #I966:49227;1:6439 template=EL-94a17615
+                [TEXT] #I966:49227;1:6440 template=EL-afe1950d
+          [INSTANCE] "Item Card" #966:49228 template=EL-2eebfdca
+            [FRAME] "Image" #I966:49228;1:6430 template=EL-f49cb700
+              [IMAGE-SVG] "Icon Wishlist" #I966:49228;1:6433 template=EL-c593ddd4
+            [FRAME] "Content" #I966:49228;1:6435 template=EL-1519dabc
+              [FRAME] "Text" #I966:49228;1:6436 template=EL-bc40306a
+                [TEXT] #I966:49228;1:6437 template=EL-9eb34e2e
+                [TEXT] #I966:49228;1:6438 template=EL-e1f7f57e
+              [FRAME] "Sale Price" #I966:49228;1:6439 template=EL-94a17615
+                [TEXT] #I966:49228;1:6440 template=EL-afe1950d
+          [INSTANCE] "Item Card" #966:49229 template=EL-2eebfdca
+            [FRAME] "Image" #I966:49229;1:6430 template=EL-f49cb700
+              [IMAGE-SVG] "Icon Wishlist" #I966:49229;1:6433 template=EL-c593ddd4
+            [FRAME] "Content" #I966:49229;1:6435 template=EL-1519dabc
+              [FRAME] "Text" #I966:49229;1:6436 template=EL-bc40306a
+                [TEXT] #I966:49229;1:6437 template=EL-9eb34e2e
+                [TEXT] #I966:49229;1:6438 template=EL-e1f7f57e
+              [FRAME] "Sale Price" #I966:49229;1:6439 template=EL-94a17615
+                [TEXT] #I966:49229;1:6440 template=EL-afe1950d
+                [GROUP] #I966:49229;1:6441 template=EL-71714af2
+                  [LINE] #I966:49229;1:6442 template=EL-406ec395
+                  [TEXT] #I966:49229;1:6443 template=EL-7ac8af5c
+          [INSTANCE] "Item Card" #966:49230 template=EL-2eebfdca
+            [FRAME] "Image" #I966:49230;1:6430 template=EL-f49cb700
+              [IMAGE-SVG] "Icon Wishlist" #I966:49230;1:6433 template=EL-c593ddd4
+            [FRAME] "Content" #I966:49230;1:6435 template=EL-1519dabc
+              [FRAME] "Text" #I966:49230;1:6436 template=EL-bc40306a
+                [TEXT] #I966:49230;1:6437 template=EL-9eb34e2e
+                [TEXT] #I966:49230;1:6438 template=EL-e1f7f57e
+              [FRAME] "Sale Price" #I966:49230;1:6439 template=EL-94a17615
+                [TEXT] #I966:49230;1:6440 template=EL-afe1950d
+          [INSTANCE] "Item Card" #966:49231 template=EL-3cbe3213
+            [FRAME] "Image" #I966:49231;1:6430 template=EL-6604c6c3
+              [IMAGE-SVG] "Icon Wishlist" #I966:49231;1:6433 template=EL-c593ddd4
+            [FRAME] "Content" #I966:49231;1:6435 template=EL-1519dabc
+              [FRAME] "Text" #I966:49231;1:6436 template=EL-bc40306a
+                [TEXT] #I966:49231;1:6437 template=EL-9eb34e2e
+                [TEXT] #I966:49231;1:6438 template=EL-e1f7f57e
+              [FRAME] "Sale Price" #I966:49231;1:6439 template=EL-94a17615
+                [TEXT] #I966:49231;1:6440 template=EL-afe1950d
+                [GROUP] #I966:49231;1:6441 template=EL-71714af2
+                  [LINE] #I966:49231;1:6442 template=EL-406ec395
+                  [TEXT] #I966:49231;1:6443 template=EL-7ac8af5c
+          [INSTANCE] "Item Card" #966:49232 template=EL-3cbe3213
+            [FRAME] "Image" #I966:49232;1:6430 template=EL-6604c6c3
+              [IMAGE-SVG] "Icon Wishlist" #I966:49232;1:6433 template=EL-c593ddd4
+            [FRAME] "Content" #I966:49232;1:6435 template=EL-1519dabc
+              [FRAME] "Text" #I966:49232;1:6436 template=EL-bc40306a
+                [TEXT] #I966:49232;1:6437 template=EL-9eb34e2e
+                [TEXT] #I966:49232;1:6438 template=EL-e1f7f57e
+              [FRAME] "Sale Price" #I966:49232;1:6439 template=EL-94a17615
+                [TEXT] #I966:49232;1:6440 template=EL-afe1950d
+          [INSTANCE] "Item Card" #966:49233 template=EL-2eebfdca
+            [FRAME] "Image" #I966:49233;1:6430 template=EL-f49cb700
+              [IMAGE-SVG] "Icon Wishlist" #I966:49233;1:6433 template=EL-c593ddd4
+            [FRAME] "Content" #I966:49233;1:6435 template=EL-1519dabc
+              [FRAME] "Text" #I966:49233;1:6436 template=EL-bc40306a
+                [TEXT] #I966:49233;1:6437 template=EL-9eb34e2e
+                [TEXT] #I966:49233;1:6438 template=EL-e1f7f57e
+              [FRAME] "Sale Price" #I966:49233;1:6439 template=EL-94a17615
+                [TEXT] #I966:49233;1:6440 template=EL-afe1950d
+          [INSTANCE] "Item Card" #966:49234 template=EL-2eebfdca
+            [FRAME] "Image" #I966:49234;1:6430 template=EL-f49cb700
+              [IMAGE-SVG] "Icon Wishlist" #I966:49234;1:6433 template=EL-c593ddd4
+            [FRAME] "Content" #I966:49234;1:6435 template=EL-1519dabc
+              [FRAME] "Text" #I966:49234;1:6436 template=EL-bc40306a
+                [TEXT] #I966:49234;1:6437 template=EL-9eb34e2e
+                [TEXT] #I966:49234;1:6438 template=EL-e1f7f57e
+              [FRAME] "Sale Price" #I966:49234;1:6439 template=EL-94a17615
+                [TEXT] #I966:49234;1:6440 template=EL-afe1950d
+                [GROUP] #I966:49234;1:6441 template=EL-71714af2
+                  [LINE] #I966:49234;1:6442 template=EL-406ec395
+                  [TEXT] #I966:49234;1:6443 template=EL-7ac8af5c
+          [INSTANCE] "Item Card" #966:49235 template=EL-2eebfdca
+            [FRAME] "Image" #I966:49235;1:6430 template=EL-f49cb700
+              [IMAGE-SVG] "Icon Wishlist" #I966:49235;1:6433 template=EL-c593ddd4
+            [FRAME] "Content" #I966:49235;1:6435 template=EL-1519dabc
+              [FRAME] "Text" #I966:49235;1:6436 template=EL-bc40306a
+                [TEXT] #I966:49235;1:6437 template=EL-9eb34e2e
+                [TEXT] #I966:49235;1:6438 template=EL-e1f7f57e
+              [FRAME] "Sale Price" #I966:49235;1:6439 template=EL-94a17615
+                [TEXT] #I966:49235;1:6440 template=EL-afe1950d
+          [INSTANCE] "Item Card" #966:49236 template=EL-2eebfdca
+            [FRAME] "Image" #I966:49236;1:6430 template=EL-f49cb700
+              [IMAGE-SVG] "Icon Wishlist" #I966:49236;1:6433 template=EL-c593ddd4
+            [FRAME] "Content" #I966:49236;1:6435 template=EL-1519dabc
+              [FRAME] "Text" #I966:49236;1:6436 template=EL-bc40306a
+                [TEXT] #I966:49236;1:6437 template=EL-9eb34e2e
+                [TEXT] #I966:49236;1:6438 template=EL-e1f7f57e
+              [FRAME] "Sale Price" #I966:49236;1:6439 template=EL-94a17615
+                [TEXT] #I966:49236;1:6440 template=EL-afe1950d
+          [INSTANCE] "Item Card" #966:49237 template=EL-3cbe3213
+            [FRAME] "Image" #I966:49237;1:6430 template=EL-6604c6c3
+              [IMAGE-SVG] "Icon Wishlist" #I966:49237;1:6433 template=EL-c593ddd4
+            [FRAME] "Content" #I966:49237;1:6435 template=EL-1519dabc
+              [FRAME] "Text" #I966:49237;1:6436 template=EL-bc40306a
+                [TEXT] #I966:49237;1:6437 template=EL-9eb34e2e
+                [TEXT] #I966:49237;1:6438 template=EL-e1f7f57e
+              [FRAME] "Sale Price" #I966:49237;1:6439 template=EL-94a17615
+                [TEXT] #I966:49237;1:6440 template=EL-afe1950d
+                [GROUP] #I966:49237;1:6441 template=EL-71714af2
+                  [LINE] #I966:49237;1:6442 template=EL-406ec395
+                  [TEXT] #I966:49237;1:6443 template=EL-7ac8af5c
+          [INSTANCE] "Item Card" #966:49238 template=EL-3cbe3213
+            [FRAME] "Image" #I966:49238;1:6430 template=EL-6604c6c3
+              [IMAGE-SVG] "Icon Wishlist" #I966:49238;1:6433 template=EL-c593ddd4
+            [FRAME] "Content" #I966:49238;1:6435 template=EL-1519dabc
+              [FRAME] "Text" #I966:49238;1:6436 template=EL-bc40306a
+                [TEXT] #I966:49238;1:6437 template=EL-9eb34e2e
+                [TEXT] #I966:49238;1:6438 template=EL-e1f7f57e
+              [FRAME] "Sale Price" #I966:49238;1:6439 template=EL-94a17615
+                [TEXT] #I966:49238;1:6440 template=EL-afe1950d
+      [INSTANCE] "Button" #966:49239 template=EL-e935e75d
+        [TEXT] #I966:49239;1:6449 template=EL-577db4a2
+      [FRAME] "Pagination" #966:49240 template=EL-790ee3d6
+        [IMAGE-SVG] "Icon Arrow" #966:49241 template=EL-786995b0
+        [FRAME] "Pages" #966:49243 template=EL-21a18932
+          [FRAME] "Page" #966:49244 template=EL-49500987
+            [TEXT] #966:49245 template=EL-1cdeaac9
+          [FRAME] "Page" #966:49246 template=EL-72cd99d7
+            [TEXT] #966:49247 template=EL-6e4d5dc5
+          [FRAME] "Page" #966:49248 template=EL-72cd99d7
+            [TEXT] #966:49249 template=EL-e5a9249c
+          [FRAME] "Page" #966:49250 template=EL-72cd99d7
+            [TEXT] #966:49251 template=EL-58d548ec
+          [FRAME] "Page" #966:49252 template=EL-72cd99d7
+            [TEXT] #966:49253 template=EL-3f80f3e2
+          [FRAME] "Page" #966:49254 template=EL-72cd99d7
+            [TEXT] #966:49255 template=EL-8c18e808
+          [FRAME] "Page" #966:49256 template=EL-72cd99d7
+            [TEXT] #966:49257 template=EL-3e7ee904
+          [FRAME] "Page" #966:49258 template=EL-72cd99d7
+            [TEXT] #966:49259 template=EL-c52236e1
+        [IMAGE-SVG] "Icon Arrow" #966:49260 template=EL-786995b0
+    [INSTANCE] "Footer" #966:49262 template=EL-95db1e76
+      [FRAME] "Selection" #I966:49262;1:6349 template=EL-bf156a5b
+        [FRAME] #I966:49262;1:6350 template=EL-3991bef7
+          [RECTANGLE] "image 1271224130" #I966:49262;1:6351 template=EL-c354d6cc
+          [TEXT] #I966:49262;1:6352 template=EL-d07450bf
+        [TEXT] #I966:49262;1:6353 template=EL-b1ebc304
+        [TEXT] #I966:49262;1:6354 template=EL-0468c0d7
+        [TEXT] #I966:49262;1:6355 template=EL-899488be
+        [TEXT] #I966:49262;1:6356 template=EL-c531e5c6
+        [FRAME] #I966:49262;1:6357 template=EL-1c6de66b
+          [TEXT] #I966:49262;1:6358 template=EL-362fb9b8
+          [FRAME] #I966:49262;1:6359 template=EL-1519dabc
+            [TEXT] #I966:49262;1:6360 template=EL-53f4cbfc
+            [TEXT] #I966:49262;1:6361 template=EL-5eb41475
+            [TEXT] #I966:49262;1:6362 template=EL-fa609635
+            [TEXT] #I966:49262;1:6363 template=EL-6675a1ab
+            [TEXT] #I966:49262;1:6364 template=EL-d18ea825
+            [TEXT] #I966:49262;1:6365 template=EL-bad21f62
+            [TEXT] #I966:49262;1:6366 template=EL-19cf47e0
+        [FRAME] #I966:49262;1:6367 template=EL-4813bf8c
+          [TEXT] #I966:49262;1:6368 template=EL-488e33ab
+          [FRAME] #I966:49262;1:6369 template=EL-1519dabc
+            [TEXT] #I966:49262;1:6370 template=EL-def71b74
+            [TEXT] #I966:49262;1:6371 template=EL-12909fbd
+            [TEXT] #I966:49262;1:6372 template=EL-8dd185e5
+        [FRAME] #I966:49262;1:6373 template=EL-cd7c93c4
+          [TEXT] #I966:49262;1:6374 template=EL-71139944
+          [FRAME] #I966:49262;1:6375 template=EL-1519dabc
+            [TEXT] #I966:49262;1:6376 template=EL-46649359
+            [TEXT] #I966:49262;1:6377 template=EL-71203d8a
+            [TEXT] #I966:49262;1:6378 template=EL-bc5a879b
+            [TEXT] #I966:49262;1:6379 template=EL-01984c59
+        [FRAME] #I966:49262;1:6380 template=EL-8e2638f3
+          [FRAME] #I966:49262;1:6381 template=EL-f6efe3b4
+            [FRAME] #I966:49262;1:6382 template=EL-24705f71
+              [TEXT] #I966:49262;1:6383 template=EL-bcfc5562
+              [TEXT] #I966:49262;1:6384 template=EL-6dda702e
+            [FRAME] #I966:49262;1:6385 template=EL-24705f71
+              [TEXT] #I966:49262;1:6386 template=EL-b73a9f94
+              [TEXT] #I966:49262;1:6387 template=EL-adf99d5c
+            [TEXT] #I966:49262;1:6388 template=EL-b536d265
+            [FRAME] #I966:49262;1:6389 template=EL-235879b0
+              [IMAGE-SVG] "basil:vk-solid" #I966:49262;1:6390 template=EL-7c4c0d96
+              [IMAGE-SVG] "basil:vk-solid" #I966:49262;1:6392 template=EL-7c4c0d96
+              [IMAGE-SVG] "basil:vk-solid" #I966:49262;1:6394 template=EL-7c4c0d96
+          [FRAME] #I966:49262;1:6396 template=EL-d8a3e5e9
+            [TEXT] #I966:49262;1:6397 template=EL-19945db2
+            [TEXT] #I966:49262;1:6398 template=EL-438719fa
+        [RECTANGLE] "image 1271224161" #I966:49262;1:6399 template=EL-9a80455c
+    [RECTANGLE] "Overlay" #966:49263 template=EL-dfbceab7
+    [FRAME] "Filters" #966:49264 template=EL-af6662cf
+      [FRAME] "Content" #966:49265 template=EL-dd2738a7
+        [FRAME] "Title" #966:49266 template=EL-bb582553
+          [TEXT] #966:49267 template=EL-d0bac69b
+          [IMAGE-SVG] "Icon Close" #966:49268 template=EL-762d5cce
+        [FRAME] #966:49270 template=EL-ecd9240b
+          [LINE] #966:49271 template=EL-7d2050db
+          [TEXT] #966:49272 template=EL-b0606623
+          [LINE] #966:49273 template=EL-7d2050db
+          [FRAME] "Checkbox" #966:49274 template=EL-c8d50cb3
+            [TEXT] #966:49275 template=EL-f9e735ce
+          [LINE] #966:49276 template=EL-7d2050db
+          [FRAME] "Checkbox" #966:49277 template=EL-c8d50cb3
+            [TEXT] #966:49278 template=EL-0503ed4c
+          [LINE] #966:49279 template=EL-7d2050db
+      [FRAME] "Buttons" #966:49280 template=EL-ebe32b4e
+        [FRAME] #966:49281 template=EL-98391260
+          [IMAGE-SVG] "Vector" #966:49282 template=EL-ff09df22
+          [TEXT] #966:49283 template=EL-69ab01bf
+  [FRAME] "Избранное / Создание подборки" #966:49284 layout={"mode":"column","alignItems":"center","sizing":{"horizontal":"fixed","vertical":"fixed"},"locationRelativeToParent":{"x":10558,"y":432},"dimensions":{"width":1440,"height":800}} fills=fill_658ab2fa
+    [FRAME] "Избранное / Все сохраненные товары" #966:49285 template=EL-2f9fe287
+      [INSTANCE] "Header" #966:49286 template=EL-6b472314
+        [FRAME] "Content" #I966:49286;279:19288 template=EL-bb582553
+          [FRAME] "Content " #I966:49286;279:19289 template=EL-12d709f7
+            [TEXT] #I966:49286;279:19290 template=EL-106f5a91
+            [FRAME] #I966:49286;279:19291 template=EL-5843db5d
+              [TEXT] #I966:49286;279:19292 template=EL-4cc49b2d
+              [IMAGE-SVG] "vuesax/linear/arrow-right" #I966:49286;279:19293 template=EL-d4302386
+          [RECTANGLE] "telegram-cloud-document-2-5251416634047897893 1" #I966:49286;907:30122 template=EL-496b7f4c
+          [FRAME] "Content" #I966:49286;279:19297 template=EL-50da7cd7
+            [IMAGE-SVG] "Icon Search" #I966:49286;279:19298 template=EL-762d5cce
+            [IMAGE-SVG] "bytesize:heart" #I966:49286;279:19300 template=EL-762d5cce
+            [INSTANCE] "Button" #I966:49286;895:29085 template=EL-e88db4ee
+              [TEXT] #I966:49286;895:29085;895:29077 template=EL-fd2be87b
+        [FRAME] "Content" #I966:49286;279:19309 template=EL-c9c16ae6
+          [TEXT] #I966:49286;279:19311 template=EL-569edc46
+          [TEXT] #I966:49286;279:19312 template=EL-36e8436f
+          [TEXT] #I966:49286;279:19313 template=EL-13bfe0f1
+          [TEXT] #I966:49286;279:19314 template=EL-62a5be30
+          [TEXT] #I966:49286;279:19315 template=EL-6858659e
+          [TEXT] #I966:49286;279:19316 template=EL-4792e634
+          [TEXT] #I966:49286;279:19317 template=EL-6ab11265
+          [FRAME] "Dropdown" #I966:49286;279:19318 template=EL-5843db5d
+            [TEXT] #I966:49286;279:19319 template=EL-f8162672
+      [FRAME] "Title" #966:49287 template=EL-5ff084d6
+        [FRAME] #966:49288 template=EL-7e82b98e
+          [FRAME] "Breadcrumbs" #966:49289 template=EL-eda14dc5
+            [TEXT] #966:49290 template=EL-474825e7
+            [TEXT] #966:49291 template=EL-ad237f5c
+            [TEXT] #966:49292 template=EL-d421bbef
+          [FRAME] #966:49293 template=EL-28d879d4
+            [LINE] #966:49294 template=EL-56ff9324
+            [RECTANGLE] "Logo" #966:49295 template=EL-b35ab3bb
+            [LINE] #966:49296 template=EL-56ff9324
+          [TEXT] #966:49297 template=EL-781b832a
+      [FRAME] #966:49298 template=EL-c4e48f56
+        [FRAME] #966:49299 template=EL-6e1f97e9
+          [FRAME] "Tabs" #966:49300 template=EL-abfc58e6
+            [FRAME] #966:49301 template=EL-2cfa4edb
+              [TEXT] #966:49302 template=EL-4b621ed7
+            [FRAME] #966:49303 template=EL-8a0f5ca1
+              [TEXT] #966:49304 template=EL-c56a473b
+          [FRAME] #966:49305 template=EL-c094fdcc
+            [FRAME] "Item Card" #966:49306 template=EL-9db5b930
+              [FRAME] "Image" #966:49307 template=EL-102dd31f
+                [IMAGE-SVG] "Icon Close" #966:49310 template=EL-232debae
+              [FRAME] "Content" #966:49312 template=EL-1519dabc
+                [FRAME] "Text" #966:49313 template=EL-bc40306a
+                  [TEXT] #966:49314 template=EL-2063c6fe
+                  [TEXT] #966:49315 template=EL-e1f7f57e
+                [FRAME] "Sale Price" #966:49316 template=EL-94a17615
+                  [TEXT] #966:49317 template=EL-afe1950d
+            [FRAME] "Item Card" #966:49321 template=EL-9db5b930
+              [FRAME] "Image" #966:49322 template=EL-293e5acd
+                [IMAGE-SVG] "Icon Close" #966:49325 template=EL-232debae
+              [FRAME] "Content" #966:49327 template=EL-1519dabc
+                [FRAME] "Text" #966:49328 template=EL-bc40306a
+                  [TEXT] #966:49329 template=EL-9eb34e2e
+                  [TEXT] #966:49330 template=EL-e1f7f57e
+                [FRAME] "Sale Price" #966:49331 template=EL-94a17615
+                  [TEXT] #966:49332 template=EL-afe1950d
+            [FRAME] "Item Card" #966:49336 template=EL-9db5b930
+              [FRAME] "Image" #966:49337 template=EL-96b2d234
+                [IMAGE-SVG] "Icon Close" #966:49340 template=EL-232debae
+              [FRAME] "Content" #966:49342 template=EL-1519dabc
+                [FRAME] "Text" #966:49343 template=EL-bc40306a
+                  [TEXT] #966:49344 template=EL-9eb34e2e
+                  [TEXT] #966:49345 template=EL-e1f7f57e
+                [FRAME] "Sale Price" #966:49346 template=EL-94a17615
+                  [TEXT] #966:49347 template=EL-afe1950d
+                  [GROUP] #966:49348 template=EL-71714af2
+                    [LINE] #966:49349 template=EL-406ec395
+                    [TEXT] #966:49350 template=EL-7ac8af5c
+            [FRAME] "Item Card" #966:49351 template=EL-9db5b930
+              [FRAME] "Image" #966:49352 template=EL-a57ef421
+                [IMAGE-SVG] "Icon Close" #966:49355 template=EL-232debae
+              [FRAME] "Content" #966:49357 template=EL-1519dabc
+                [FRAME] "Text" #966:49358 template=EL-bc40306a
+                  [TEXT] #966:49359 template=EL-49da3909
+                  [TEXT] #966:49360 template=EL-e1f7f57e
+                [FRAME] "Sale Price" #966:49361 template=EL-94a17615
+                  [TEXT] #966:49362 template=EL-afe1950d
+      [INSTANCE] "Footer" #966:49366 template=EL-89393d37
+        [FRAME] "Selection" #I966:49366;1:6349 template=EL-bf156a5b
+          [FRAME] #I966:49366;1:6350 template=EL-3991bef7
+            [RECTANGLE] "image 1271224130" #I966:49366;1:6351 template=EL-c354d6cc
+            [TEXT] #I966:49366;1:6352 template=EL-d07450bf
+          [TEXT] #I966:49366;1:6353 template=EL-b1ebc304
+          [TEXT] #I966:49366;1:6354 template=EL-0468c0d7
+          [TEXT] #I966:49366;1:6355 template=EL-899488be
+          [TEXT] #I966:49366;1:6356 template=EL-c531e5c6
+          [FRAME] #I966:49366;1:6357 template=EL-1c6de66b
+            [TEXT] #I966:49366;1:6358 template=EL-362fb9b8
+            [FRAME] #I966:49366;1:6359 template=EL-1519dabc
+              [TEXT] #I966:49366;1:6360 template=EL-53f4cbfc
+              [TEXT] #I966:49366;1:6361 template=EL-5eb41475
+              [TEXT] #I966:49366;1:6362 template=EL-fa609635
+              [TEXT] #I966:49366;1:6363 template=EL-6675a1ab
+              [TEXT] #I966:49366;1:6364 template=EL-d18ea825
+              [TEXT] #I966:49366;1:6365 template=EL-bad21f62
+              [TEXT] #I966:49366;1:6366 template=EL-19cf47e0
+          [FRAME] #I966:49366;1:6367 template=EL-4813bf8c
+            [TEXT] #I966:49366;1:6368 template=EL-488e33ab
+            [FRAME] #I966:49366;1:6369 template=EL-1519dabc
+              [TEXT] #I966:49366;1:6370 template=EL-def71b74
+              [TEXT] #I966:49366;1:6371 template=EL-12909fbd
+              [TEXT] #I966:49366;1:6372 template=EL-8dd185e5
+          [FRAME] #I966:49366;1:6373 template=EL-cd7c93c4
+            [TEXT] #I966:49366;1:6374 template=EL-71139944
+            [FRAME] #I966:49366;1:6375 template=EL-1519dabc
+              [TEXT] #I966:49366;1:6376 template=EL-46649359
+              [TEXT] #I966:49366;1:6377 template=EL-71203d8a
+              [TEXT] #I966:49366;1:6378 template=EL-bc5a879b
+              [TEXT] #I966:49366;1:6379 template=EL-01984c59
+          [FRAME] #I966:49366;1:6380 template=EL-8e2638f3
+            [FRAME] #I966:49366;1:6381 template=EL-f6efe3b4
+              [FRAME] #I966:49366;1:6382 template=EL-24705f71
+                [TEXT] #I966:49366;1:6383 template=EL-bcfc5562
+                [TEXT] #I966:49366;1:6384 template=EL-6dda702e
+              [FRAME] #I966:49366;1:6385 template=EL-24705f71
+                [TEXT] #I966:49366;1:6386 template=EL-b73a9f94
+                [TEXT] #I966:49366;1:6387 template=EL-adf99d5c
+              [TEXT] #I966:49366;1:6388 template=EL-b536d265
+              [FRAME] #I966:49366;1:6389 template=EL-235879b0
+                [IMAGE-SVG] "basil:vk-solid" #I966:49366;1:6390 template=EL-7c4c0d96
+                [IMAGE-SVG] "basil:vk-solid" #I966:49366;1:6392 template=EL-7c4c0d96
+                [IMAGE-SVG] "basil:vk-solid" #I966:49366;1:6394 template=EL-7c4c0d96
+            [FRAME] #I966:49366;1:6396 template=EL-d8a3e5e9
+              [TEXT] #I966:49366;1:6397 template=EL-19945db2
+              [TEXT] #I966:49366;1:6398 template=EL-438719fa
+          [RECTANGLE] "image 1271224161" #I966:49366;1:6399 template=EL-9a80455c
+    [INSTANCE] "Header" #966:49367 template=EL-44928c51
+      [FRAME] "Content " #I966:49367;1:6311 template=EL-dda368b5
+        [TEXT] #I966:49367;1:6312 template=EL-9ef49631
+        [FRAME] #I966:49367;1:6313 template=EL-5843db5d
+          [TEXT] #I966:49367;1:6314 template=EL-95e154cc
+          [IMAGE-SVG] "vuesax/linear/arrow-right" #I966:49367;1:6315 template=EL-d4302386
+      [FRAME] "Content" #I966:49367;1:6319 template=EL-b99d5fd3
+        [TEXT] #I966:49367;1:6320 template=EL-7d3d1727
+        [TEXT] #I966:49367;1:6321 template=EL-e65f391d
+        [TEXT] #I966:49367;1:6322 template=EL-b121fb61
+        [TEXT] #I966:49367;1:6323 template=EL-b1a961b1
+        [TEXT] #I966:49367;1:6324 template=EL-44e37d99
+        [TEXT] #I966:49367;1:6325 template=EL-44b5ca68
+        [TEXT] #I966:49367;1:6326 template=EL-e95bd3cc
+        [TEXT] #I966:49367;1:6327 template=EL-9d6fbc6a
+        [FRAME] "Dropdown" #I966:49367;1:6328 template=EL-5843db5d
+          [TEXT] #I966:49367;1:6329 template=EL-f7f9c3f6
+          [IMAGE-SVG] "vuesax/linear/arrow-right" #I966:49367;1:6330 template=EL-d4302386
+      [FRAME] "Content" #I966:49367;1:6334 template=EL-f73b6cbc
+        [IMAGE-SVG] "Icon Search" #I966:49367;1:6335 template=EL-762d5cce
+        [IMAGE-SVG] "bytesize:heart" #I966:49367;1:6337 template=EL-762d5cce
+        [IMAGE-SVG] "iconamoon:shopping-bag-light" #I966:49367;1:6339 template=EL-762d5cce
+        [FRAME] "Button" #I966:49367;1:6343 template=EL-3a760745
+          [TEXT] #I966:49367;1:6344 template=EL-e6d22986
+    [FRAME] "Catalog" #966:49368 template=EL-4161d281
+      [FRAME] "Content" #966:49369 template=EL-616774d3
+        [FRAME] "Filters" #966:49370 template=EL-ffc1b4d2
+          [FRAME] #966:49371 template=EL-a188efd9
+            [TEXT] #966:49372 template=EL-56ff89a0
+          [FRAME] #966:49373 template=EL-a188efd9
+            [TEXT] #966:49374 template=EL-0a758b4c
+        [FRAME] "Item Cards" #966:49375 template=EL-922c2e83
+          [INSTANCE] "Item Card" #966:49376 template=EL-2eebfdca
+            [FRAME] "Image" #I966:49376;1:6430 template=EL-f49cb700
+              [IMAGE-SVG] "Icon Wishlist" #I966:49376;1:6433 template=EL-c593ddd4
+            [FRAME] "Content" #I966:49376;1:6435 template=EL-1519dabc
+              [FRAME] "Text" #I966:49376;1:6436 template=EL-bc40306a
+                [TEXT] #I966:49376;1:6437 template=EL-9eb34e2e
+                [TEXT] #I966:49376;1:6438 template=EL-e1f7f57e
+              [FRAME] "Sale Price" #I966:49376;1:6439 template=EL-94a17615
+                [TEXT] #I966:49376;1:6440 template=EL-afe1950d
+          [INSTANCE] "Item Card" #966:49377 template=EL-2eebfdca
+            [FRAME] "Image" #I966:49377;1:6430 template=EL-f49cb700
+              [IMAGE-SVG] "Icon Wishlist" #I966:49377;1:6433 template=EL-c593ddd4
+            [FRAME] "Content" #I966:49377;1:6435 template=EL-1519dabc
+              [FRAME] "Text" #I966:49377;1:6436 template=EL-bc40306a
+                [TEXT] #I966:49377;1:6437 template=EL-9eb34e2e
+                [TEXT] #I966:49377;1:6438 template=EL-e1f7f57e
+              [FRAME] "Sale Price" #I966:49377;1:6439 template=EL-94a17615
+                [TEXT] #I966:49377;1:6440 template=EL-afe1950d
+          [INSTANCE] "Item Card" #966:49378 template=EL-2eebfdca
+            [FRAME] "Image" #I966:49378;1:6430 template=EL-f49cb700
+              [IMAGE-SVG] "Icon Wishlist" #I966:49378;1:6433 template=EL-c593ddd4
+            [FRAME] "Content" #I966:49378;1:6435 template=EL-1519dabc
+              [FRAME] "Text" #I966:49378;1:6436 template=EL-bc40306a
+                [TEXT] #I966:49378;1:6437 template=EL-9eb34e2e
+                [TEXT] #I966:49378;1:6438 template=EL-e1f7f57e
+              [FRAME] "Sale Price" #I966:49378;1:6439 template=EL-94a17615
+                [TEXT] #I966:49378;1:6440 template=EL-afe1950d
+                [GROUP] #I966:49378;1:6441 template=EL-71714af2
+                  [LINE] #I966:49378;1:6442 template=EL-406ec395
+                  [TEXT] #I966:49378;1:6443 template=EL-7ac8af5c
+          [INSTANCE] "Item Card" #966:49379 template=EL-2eebfdca
+            [FRAME] "Image" #I966:49379;1:6430 template=EL-f49cb700
+              [IMAGE-SVG] "Icon Wishlist" #I966:49379;1:6433 template=EL-c593ddd4
+            [FRAME] "Content" #I966:49379;1:6435 template=EL-1519dabc
+              [FRAME] "Text" #I966:49379;1:6436 template=EL-bc40306a
+                [TEXT] #I966:49379;1:6437 template=EL-9eb34e2e
+                [TEXT] #I966:49379;1:6438 template=EL-e1f7f57e
+              [FRAME] "Sale Price" #I966:49379;1:6439 template=EL-94a17615
+                [TEXT] #I966:49379;1:6440 template=EL-afe1950d
+          [INSTANCE] "Item Card" #966:49380 template=EL-3cbe3213
+            [FRAME] "Image" #I966:49380;1:6430 template=EL-6604c6c3
+              [IMAGE-SVG] "Icon Wishlist" #I966:49380;1:6433 template=EL-c593ddd4
+            [FRAME] "Content" #I966:49380;1:6435 template=EL-1519dabc
+              [FRAME] "Text" #I966:49380;1:6436 template=EL-bc40306a
+                [TEXT] #I966:49380;1:6437 template=EL-9eb34e2e
+                [TEXT] #I966:49380;1:6438 template=EL-e1f7f57e
+              [FRAME] "Sale Price" #I966:49380;1:6439 template=EL-94a17615
+                [TEXT] #I966:49380;1:6440 template=EL-afe1950d
+                [GROUP] #I966:49380;1:6441 template=EL-71714af2
+                  [LINE] #I966:49380;1:6442 template=EL-406ec395
+                  [TEXT] #I966:49380;1:6443 template=EL-7ac8af5c
+          [INSTANCE] "Item Card" #966:49381 template=EL-3cbe3213
+            [FRAME] "Image" #I966:49381;1:6430 template=EL-6604c6c3
+              [IMAGE-SVG] "Icon Wishlist" #I966:49381;1:6433 template=EL-c593ddd4
+            [FRAME] "Content" #I966:49381;1:6435 template=EL-1519dabc
+              [FRAME] "Text" #I966:49381;1:6436 template=EL-bc40306a
+                [TEXT] #I966:49381;1:6437 template=EL-9eb34e2e
+                [TEXT] #I966:49381;1:6438 template=EL-e1f7f57e
+              [FRAME] "Sale Price" #I966:49381;1:6439 template=EL-94a17615
+                [TEXT] #I966:49381;1:6440 template=EL-afe1950d
+          [INSTANCE] "Item Card" #966:49382 template=EL-2eebfdca
+            [FRAME] "Image" #I966:49382;1:6430 template=EL-f49cb700
+              [IMAGE-SVG] "Icon Wishlist" #I966:49382;1:6433 template=EL-c593ddd4
+            [FRAME] "Content" #I966:49382;1:6435 template=EL-1519dabc
+              [FRAME] "Text" #I966:49382;1:6436 template=EL-bc40306a
+                [TEXT] #I966:49382;1:6437 template=EL-9eb34e2e
+                [TEXT] #I966:49382;1:6438 template=EL-e1f7f57e
+              [FRAME] "Sale Price" #I966:49382;1:6439 template=EL-94a17615
+                [TEXT] #I966:49382;1:6440 template=EL-afe1950d
+          [INSTANCE] "Item Card" #966:49383 template=EL-2eebfdca
+            [FRAME] "Image" #I966:49383;1:6430 template=EL-f49cb700
+              [IMAGE-SVG] "Icon Wishlist" #I966:49383;1:6433 template=EL-c593ddd4
+            [FRAME] "Content" #I966:49383;1:6435 template=EL-1519dabc
+              [FRAME] "Text" #I966:49383;1:6436 template=EL-bc40306a
+                [TEXT] #I966:49383;1:6437 template=EL-9eb34e2e
+                [TEXT] #I966:49383;1:6438 template=EL-e1f7f57e
+              [FRAME] "Sale Price" #I966:49383;1:6439 template=EL-94a17615
+                [TEXT] #I966:49383;1:6440 template=EL-afe1950d
+                [GROUP] #I966:49383;1:6441 template=EL-71714af2
+                  [LINE] #I966:49383;1:6442 template=EL-406ec395
+                  [TEXT] #I966:49383;1:6443 template=EL-7ac8af5c
+          [INSTANCE] "Item Card" #966:49384 template=EL-2eebfdca
+            [FRAME] "Image" #I966:49384;1:6430 template=EL-f49cb700
+              [IMAGE-SVG] "Icon Wishlist" #I966:49384;1:6433 template=EL-c593ddd4
+            [FRAME] "Content" #I966:49384;1:6435 template=EL-1519dabc
+              [FRAME] "Text" #I966:49384;1:6436 template=EL-bc40306a
+                [TEXT] #I966:49384;1:6437 template=EL-9eb34e2e
+                [TEXT] #I966:49384;1:6438 template=EL-e1f7f57e
+              [FRAME] "Sale Price" #I966:49384;1:6439 template=EL-94a17615
+                [TEXT] #I966:49384;1:6440 template=EL-afe1950d
+          [INSTANCE] "Item Card" #966:49385 template=EL-2eebfdca
+            [FRAME] "Image" #I966:49385;1:6430 template=EL-f49cb700
+              [IMAGE-SVG] "Icon Wishlist" #I966:49385;1:6433 template=EL-c593ddd4
+            [FRAME] "Content" #I966:49385;1:6435 template=EL-1519dabc
+              [FRAME] "Text" #I966:49385;1:6436 template=EL-bc40306a
+                [TEXT] #I966:49385;1:6437 template=EL-9eb34e2e
+                [TEXT] #I966:49385;1:6438 template=EL-e1f7f57e
+              [FRAME] "Sale Price" #I966:49385;1:6439 template=EL-94a17615
+                [TEXT] #I966:49385;1:6440 template=EL-afe1950d
+          [INSTANCE] "Item Card" #966:49386 template=EL-3cbe3213
+            [FRAME] "Image" #I966:49386;1:6430 template=EL-6604c6c3
+              [IMAGE-SVG] "Icon Wishlist" #I966:49386;1:6433 template=EL-c593ddd4
+            [FRAME] "Content" #I966:49386;1:6435 template=EL-1519dabc
+              [FRAME] "Text" #I966:49386;1:6436 template=EL-bc40306a
+                [TEXT] #I966:49386;1:6437 template=EL-9eb34e2e
+                [TEXT] #I966:49386;1:6438 template=EL-e1f7f57e
+              [FRAME] "Sale Price" #I966:49386;1:6439 template=EL-94a17615
+                [TEXT] #I966:49386;1:6440 template=EL-afe1950d
+                [GROUP] #I966:49386;1:6441 template=EL-71714af2
+                  [LINE] #I966:49386;1:6442 template=EL-406ec395
+                  [TEXT] #I966:49386;1:6443 template=EL-7ac8af5c
+          [INSTANCE] "Item Card" #966:49387 template=EL-3cbe3213
+            [FRAME] "Image" #I966:49387;1:6430 template=EL-6604c6c3
+              [IMAGE-SVG] "Icon Wishlist" #I966:49387;1:6433 template=EL-c593ddd4
+            [FRAME] "Content" #I966:49387;1:6435 template=EL-1519dabc
+              [FRAME] "Text" #I966:49387;1:6436 template=EL-bc40306a
+                [TEXT] #I966:49387;1:6437 template=EL-9eb34e2e
+                [TEXT] #I966:49387;1:6438 template=EL-e1f7f57e
+              [FRAME] "Sale Price" #I966:49387;1:6439 template=EL-94a17615
+                [TEXT] #I966:49387;1:6440 template=EL-afe1950d
+      [INSTANCE] "Button" #966:49388 template=EL-e935e75d
+        [TEXT] #I966:49388;1:6449 template=EL-577db4a2
+      [FRAME] "Pagination" #966:49389 template=EL-790ee3d6
+        [IMAGE-SVG] "Icon Arrow" #966:49390 template=EL-786995b0
+        [FRAME] "Pages" #966:49392 template=EL-21a18932
+          [FRAME] "Page" #966:49393 template=EL-49500987
+            [TEXT] #966:49394 template=EL-1cdeaac9
+          [FRAME] "Page" #966:49395 template=EL-72cd99d7
+            [TEXT] #966:49396 template=EL-6e4d5dc5
+          [FRAME] "Page" #966:49397 template=EL-72cd99d7
+            [TEXT] #966:49398 template=EL-e5a9249c
+          [FRAME] "Page" #966:49399 template=EL-72cd99d7
+            [TEXT] #966:49400 template=EL-58d548ec
+          [FRAME] "Page" #966:49401 template=EL-72cd99d7
+            [TEXT] #966:49402 template=EL-3f80f3e2
+          [FRAME] "Page" #966:49403 template=EL-72cd99d7
+            [TEXT] #966:49404 template=EL-8c18e808
+          [FRAME] "Page" #966:49405 template=EL-72cd99d7
+            [TEXT] #966:49406 template=EL-3e7ee904
+          [FRAME] "Page" #966:49407 template=EL-72cd99d7
+            [TEXT] #966:49408 template=EL-c52236e1
+        [IMAGE-SVG] "Icon Arrow" #966:49409 template=EL-786995b0
+    [INSTANCE] "Footer" #966:49411 template=EL-95db1e76
+      [FRAME] "Selection" #I966:49411;1:6349 template=EL-bf156a5b
+        [FRAME] #I966:49411;1:6350 template=EL-3991bef7
+          [RECTANGLE] "image 1271224130" #I966:49411;1:6351 template=EL-c354d6cc
+          [TEXT] #I966:49411;1:6352 template=EL-d07450bf
+        [TEXT] #I966:49411;1:6353 template=EL-b1ebc304
+        [TEXT] #I966:49411;1:6354 template=EL-0468c0d7
+        [TEXT] #I966:49411;1:6355 template=EL-899488be
+        [TEXT] #I966:49411;1:6356 template=EL-c531e5c6
+        [FRAME] #I966:49411;1:6357 template=EL-1c6de66b
+          [TEXT] #I966:49411;1:6358 template=EL-362fb9b8
+          [FRAME] #I966:49411;1:6359 template=EL-1519dabc
+            [TEXT] #I966:49411;1:6360 template=EL-53f4cbfc
+            [TEXT] #I966:49411;1:6361 template=EL-5eb41475
+            [TEXT] #I966:49411;1:6362 template=EL-fa609635
+            [TEXT] #I966:49411;1:6363 template=EL-6675a1ab
+            [TEXT] #I966:49411;1:6364 template=EL-d18ea825
+            [TEXT] #I966:49411;1:6365 template=EL-bad21f62
+            [TEXT] #I966:49411;1:6366 template=EL-19cf47e0
+        [FRAME] #I966:49411;1:6367 template=EL-4813bf8c
+          [TEXT] #I966:49411;1:6368 template=EL-488e33ab
+          [FRAME] #I966:49411;1:6369 template=EL-1519dabc
+            [TEXT] #I966:49411;1:6370 template=EL-def71b74
+            [TEXT] #I966:49411;1:6371 template=EL-12909fbd
+            [TEXT] #I966:49411;1:6372 template=EL-8dd185e5
+        [FRAME] #I966:49411;1:6373 template=EL-cd7c93c4
+          [TEXT] #I966:49411;1:6374 template=EL-71139944
+          [FRAME] #I966:49411;1:6375 template=EL-1519dabc
+            [TEXT] #I966:49411;1:6376 template=EL-46649359
+            [TEXT] #I966:49411;1:6377 template=EL-71203d8a
+            [TEXT] #I966:49411;1:6378 template=EL-bc5a879b
+            [TEXT] #I966:49411;1:6379 template=EL-01984c59
+        [FRAME] #I966:49411;1:6380 template=EL-8e2638f3
+          [FRAME] #I966:49411;1:6381 template=EL-f6efe3b4
+            [FRAME] #I966:49411;1:6382 template=EL-24705f71
+              [TEXT] #I966:49411;1:6383 template=EL-bcfc5562
+              [TEXT] #I966:49411;1:6384 template=EL-6dda702e
+            [FRAME] #I966:49411;1:6385 template=EL-24705f71
+              [TEXT] #I966:49411;1:6386 template=EL-b73a9f94
+              [TEXT] #I966:49411;1:6387 template=EL-adf99d5c
+            [TEXT] #I966:49411;1:6388 template=EL-b536d265
+            [FRAME] #I966:49411;1:6389 template=EL-235879b0
+              [IMAGE-SVG] "basil:vk-solid" #I966:49411;1:6390 template=EL-7c4c0d96
+              [IMAGE-SVG] "basil:vk-solid" #I966:49411;1:6392 template=EL-7c4c0d96
+              [IMAGE-SVG] "basil:vk-solid" #I966:49411;1:6394 template=EL-7c4c0d96
+          [FRAME] #I966:49411;1:6396 template=EL-d8a3e5e9
+            [TEXT] #I966:49411;1:6397 template=EL-19945db2
+            [TEXT] #I966:49411;1:6398 template=EL-438719fa
+        [RECTANGLE] "image 1271224161" #I966:49411;1:6399 template=EL-9a80455c
+    [RECTANGLE] "Overlay" #966:49412 template=EL-dfbceab7
+    [FRAME] "Filters" #966:49413 layout={"mode":"column","alignItems":"stretch","sizing":{"horizontal":"fixed","vertical":"hug"},"position":"absolute","locationRelativeToParent":{"x":500,"y":254.5},"dimensions":{"width":440}} fills=fill_c48813f8
+      [FRAME] "Content" #966:49414 layout={"mode":"column","alignSelf":"stretch","padding":"32px 32px 0px","alignItems":"stretch","gap":"32px","sizing":{"horizontal":"fill","vertical":"hug"}}
+        [FRAME] #966:49415 layout={"mode":"row","alignSelf":"stretch","gap":"7px","sizing":{"horizontal":"fill","vertical":"hug"}}
+          [FRAME] #966:49416 layout={"mode":"row","alignItems":"center","gap":"4px","sizing":{"horizontal":"hug","vertical":"hug"}}
+            [IMAGE-SVG] "arrow-left" #966:49417 layout={"mode":"none","sizing":{"horizontal":"fixed","vertical":"fixed"},"dimensions":{"width":16,"height":16}} componentId=313:8446
+            [TEXT] #966:49418 layout=layout_177c5efc fills=fill_8b4fbb9e textStyle={"fontFamily":"Inter","fontStyle":"Medium","fontWeight":500,"fontSize":14,"lineHeight":"1.4em","letterSpacing":"-0.01em","textAlignHorizontal":"LEFT","textAlignVertical":"TOP"} text="Назад"
+        [FRAME] "Title" #966:49420 template=EL-bb582553
+          [TEXT] #966:49421 layout=layout_177c5efc fills=fill_34dc0314 textStyle=style_742e00ad text="Создание подборки"
+          [FRAME] "Icon Close" #966:49422 layout=layout_a111c4b6 fills=fill_97d170e1
+        [FRAME] #966:49423 template=EL-ecd9240b
+          [FRAME] "input-full-stroke" #966:49424 layout={"mode":"row","alignSelf":"stretch","padding":"6px 20px","alignItems":"center","sizing":{"horizontal":"fill","vertical":"fixed"},"dimensions":{"height":52}} strokes=["#E0E0E0"] strokeWeight=1px
+            [TEXT] #966:49425 layout=layout_177c5efc fills=fill_34dc0314 textStyle={"fontFamily":"Inter","fontStyle":"Regular","fontWeight":400,"fontSize":14,"lineHeight":"1em","textAlignHorizontal":"LEFT","textAlignVertical":"CENTER"} text="Название"
+      [FRAME] "Buttons" #966:49427 layout={"mode":"column","alignSelf":"stretch","padding":"8px 32px 40px","alignItems":"stretch","gap":"8px","sizing":{"horizontal":"fill","vertical":"hug"}} fills=fill_f584bf6f
+        [INSTANCE] #966:49428 layout=layout_7efe7290 fills=fill_8b4fbb9e borderRadius=2px componentId=828:11817
+          [TEXT] #I966:49428;1:6200 layout=layout_177c5efc fills=fill_658ab2fa textStyle=style_ce0a4cea text="Создать"
+  [RECTANGLE] "image 1271224189" #966:49429 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":9878,"y":980},"dimensions":{"width":43,"height":43}} fills=fill_1e5e4c72

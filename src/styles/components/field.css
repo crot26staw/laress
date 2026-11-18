@@ -165,3 +165,20 @@
 .field--clearable:has(.field__input:placeholder-shown) .field__action {
   visibility: hidden;
 }
+
+/* Поле с рамкой 52px, без фона: «Название» в «Создании подборки» (966:49424, в макете Inter 14/1 → Hauora) */
+.field--outline {
+  height: 52px;
+  padding: 6px var(--space-20);
+  background-color: transparent;
+  box-shadow: inset 0 0 0 1px var(--color-line-input);
+}
+
+.field--outline .field__input {
+  font-size: var(--font-size-14);
+  line-height: 1;
+}
+
+.field--outline .field__input::placeholder {
+  color: var(--color-black);
+}

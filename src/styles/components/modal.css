@@ -172,6 +172,16 @@
   padding-block: 20px;
 }
 
+/* Крестик 44×44 в 40px от верха и правого края (966:50177, «Аккаунт успешно создан»): линии 22px толщиной 2px */
+.modal__close--l {
+  right: var(--space-40);
+}
+
+.modal__close--l svg {
+  width: 44px;
+  height: 44px;
+}
+
 /* Круглая кнопка закрытия «Button / Icon Round» (966:41418): 40×40 в 44px от верха и правого края, жирный белый крестик 24px */
 .modal__close--round {
   top: 44px;

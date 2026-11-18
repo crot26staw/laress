@@ -907,5 +907,67 @@
         "refH": 525
       }
     ]
+  },
+  "auth-register": {
+    "url": "http://localhost:5173/register.html",
+    "ref": ".figma/screenshots/auth-register_966-49573.png",
+    "sections": [
+      {
+        "name": "panel",
+        "eval": "document.activeElement.blur()",
+        "viewportH": 800,
+        "refY": 0,
+        "refH": 800,
+        "refX": 720,
+        "refW": 720,
+        "y": 0
+      },
+      {
+        "name": "media",
+        "eval": "document.activeElement.blur()",
+        "viewportH": 800,
+        "refY": 0,
+        "refH": 800,
+        "refX": 0,
+        "refW": 720,
+        "y": 0
+      },
+      {
+        "name": "filled",
+        "eval": "const v=(id,x)=>{document.getElementById(id).value=x};v('register-name','Никита');v('register-email','ivanovivan@mail.ru');v('register-phone','+7 (911) 111-11-11');v('register-password','12345678901234');v('register-password-repeat','12345678901234');document.querySelector('[data-consent]').checked=true;document.activeElement.blur()",
+        "viewportH": 800,
+        "refY": 0,
+        "refH": 800,
+        "refX": 720,
+        "refW": 720,
+        "y": 0,
+        "ref": ".figma/screenshots/auth-register-filled_966-49600.png"
+      },
+      {
+        "name": "phone-taken",
+        "eval": "const v=(id,x)=>{document.getElementById(id).value=x};v('register-name','Никита');v('register-email','ivanovivan@mail.ru');v('register-phone','+7 (911) 111-11-11');v('register-password','12345678901234');v('register-password-repeat','12345678901234');document.querySelector('[data-consent]').checked=true;var ff=document.getElementById('register-phone').closest('.form-field');ff.classList.add('form-field--invalid');ff.insertAdjacentHTML('beforeend','<p class=\\'form-field__error\\'>Номер уже зарегистрирован</p>');document.activeElement.blur()",
+        "viewportH": 800,
+        "refY": 0,
+        "refH": 800,
+        "refX": 720,
+        "refW": 720,
+        "y": 0,
+        "ref": ".figma/screenshots/auth-register-phone-taken_966-49653.png"
+      }
+    ]
+  },
+  "auth-success": {
+    "url": "http://localhost:5173/?notice=account-created",
+    "ref": ".figma/screenshots/auth-register-success_966-49905.png",
+    "sections": [
+      {
+        "name": "modal",
+        "eval": "document.activeElement.blur()",
+        "viewportH": 800,
+        "refY": 0,
+        "refH": 800,
+        "y": 0
+      }
+    ]
   }
 }

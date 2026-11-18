@@ -1,0 +1,10 @@
+<!-- Текстовое поле «Input» (966:49589 / заполненное 966:49616 / ошибка 966:49671): белое поле 60px с плавающей подписью.
+     Параметры: id, name, label, type (text / email / tel), autocomplete, error (текст ошибки — рамка #A50206, подпись под полем).
+     Ошибки на клиенте выводит modules/auth-form.js, ошибки сервера — тема через параметр error. -->
+<div class="form-field form-field--text {{#if error}}form-field--invalid{{/if}}">
+  <label class="field field--float" for="{{id}}">
+    <input class="field__input" type="{{type}}" id="{{id}}" name="{{name}}" placeholder=" " autocomplete="{{autocomplete}}" required {{#if error}}aria-invalid="true" aria-describedby="{{id}}-error"{{/if}} />
+    <span class="field__label">{{label}}</span>
+  </label>
+  {{#if error}}<p class="form-field__error" id="{{id}}-error">{{error}}</p>{{/if}}
+</div>

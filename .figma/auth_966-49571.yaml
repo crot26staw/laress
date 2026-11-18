@@ -1,0 +1,3176 @@
+NAME: "Laress (Copy)"
+
+GLOBAL_VARS:
+fill_dbe29f28:
+  - rgba(255, 255, 255, 0.1)
+fill_dd7f3e3e:
+  - '#232323'
+fill_b92dd999:
+  - '#F2F3F5'
+layout_38a9568e:
+  mode: column
+  padding: 32px
+  justifyContent: flex-end
+  alignItems: center
+  gap: 10px
+  sizing:
+    horizontal: fill
+    vertical: fixed
+  dimensions:
+    height: 800
+layout_a111c4b6:
+  mode: none
+  sizing:
+    horizontal: fixed
+    vertical: fixed
+  dimensions:
+    width: 24
+    height: 24
+fill_81a83821:
+  - rgba(0, 0, 0, 0.3)
+fill_7ad30328:
+  - '#FBFBFB'
+layout_177c5efc:
+  mode: none
+  sizing:
+    horizontal: hug
+    vertical: hug
+H2:
+  fontFamily: Hauora
+  fontStyle: Medium
+  fontWeight: 500
+  fontSize: 32
+  lineHeight: 1.15em
+  letterSpacing: '-0.02em'
+  textCase: UPPER
+  textAlignHorizontal: LEFT
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+fill_34dc0314:
+  - '#000000'
+layout_705ca8ff:
+  mode: column
+  alignSelf: stretch
+  padding: 4px 4px 4px 0px
+  justifyContent: center
+  gap: 8px
+  sizing:
+    horizontal: fill
+    vertical: fixed
+  dimensions:
+    height: 60
+fill_658ab2fa:
+  - '#FFFFFF'
+T2:
+  fontFamily: Hauora
+  fontStyle: Regular
+  fontWeight: 400
+  fontSize: 16
+  lineHeight: 1.3em
+  textAlignHorizontal: LEFT
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+fill_4cd5ff90:
+  - rgba(0, 0, 0, 0.6)
+layout_d68e34f1:
+  mode: column
+  alignSelf: stretch
+  justifyContent: center
+  gap: 4px
+  sizing:
+    horizontal: fill
+    vertical: fixed
+  dimensions:
+    height: 60
+fill_8b4fbb9e:
+  - '#B9904F'
+style_7f51a2ff:
+  fontFamily: Hauora
+  fontStyle: Bold
+  fontWeight: 700
+  fontSize: 16
+  lineHeight: 1.06em
+  letterSpacing: '-0.03em'
+  textAlignHorizontal: CENTER
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+layout_641aad05:
+  mode: row
+  alignItems: center
+  gap: 12px
+  sizing:
+    horizontal: fixed
+    vertical: hug
+  dimensions:
+    width: 512
+layout_d0a883b0:
+  mode: column
+  padding: 10px
+  gap: 10px
+  sizing:
+    horizontal: fixed
+    vertical: fixed
+  dimensions:
+    width: 24
+    height: 24
+layout_6eabe52e:
+  mode: none
+  sizing:
+    horizontal: fixed
+    vertical: hug
+  dimensions:
+    width: 476
+ts1:
+  fills:
+    - rgba(0, 0, 0, 0.9)
+fill_95f554d6:
+  - rgba(0, 0, 0, 0.9)
+layout_9e9b9c36:
+  mode: row
+  alignSelf: stretch
+  padding: 4px 4px 4px 0px
+  alignItems: center
+  sizing:
+    horizontal: fill
+    vertical: fixed
+  dimensions:
+    height: 60
+style_4fd33b53:
+  fontFamily: Hauora
+  fontStyle: Regular
+  fontWeight: 400
+  fontSize: 12
+  lineHeight: 1.1em
+  textAlignHorizontal: LEFT
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+Caption:
+  fontFamily: Hauora
+  fontStyle: Regular
+  fontWeight: 400
+  fontSize: 10
+  lineHeight: 1em
+  textAlignHorizontal: LEFT
+  textAlignVertical: TOP
+layout_a1298e08:
+  mode: column
+  gap: 10px
+  sizing:
+    horizontal: fixed
+    vertical: fixed
+  dimensions:
+    width: 6
+    height: 6
+layout_e4b6f33f:
+  mode: none
+  sizing:
+    horizontal: fixed
+    vertical: fixed
+  dimensions:
+    width: 16
+    height: 16
+fill_97d170e1: []
+layout_435677f1:
+  mode: column
+  alignSelf: stretch
+  justifyContent: center
+  gap: 4px
+  sizing:
+    horizontal: fill
+    vertical: hug
+fill_0ea70a13:
+  - '#A50206'
+fill_381be112:
+  - '#101C2A'
+layout_e620ffb0:
+  mode: column
+  alignSelf: stretch
+  justifyContent: center
+  alignItems: stretch
+  gap: 4px
+  sizing:
+    horizontal: fill
+    vertical: hug
+Caption/S:
+  fontFamily: SF Pro
+  fontStyle: Regular
+  fontWeight: 400
+  fontSize: 12
+  lineHeight: 12px
+  textAlignHorizontal: LEFT
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+ts2:
+  fills:
+    - '#A50206'
+layout_81291c0c:
+  mode: row
+  alignSelf: stretch
+  justifyContent: space-between
+  alignItems: center
+  sizing:
+    horizontal: fill
+    vertical: hug
+H2 (283:21642):
+  fontFamily: Hauora
+  fontStyle: Medium
+  fontWeight: 500
+  fontSize: 32
+  lineHeight: 1.15em
+  letterSpacing: '-0.02em'
+  textCase: UPPER
+  textAlignHorizontal: CENTER
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+layout_56d3c81c:
+  mode: none
+  sizing:
+    horizontal: fill
+    vertical: hug
+H1:
+  fontFamily: Hauora
+  fontStyle: Medium
+  fontWeight: 500
+  fontSize: 40
+  lineHeight: 1.15em
+  letterSpacing: '-0.03em'
+  textCase: UPPER
+  textAlignHorizontal: CENTER
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+layout_5d7ee650:
+  mode: row
+  padding: 16px 24px
+  justifyContent: center
+  alignItems: center
+  gap: 10px
+  sizing:
+    horizontal: hug
+    vertical: hug
+style_ce0a4cea:
+  fontFamily: Hauora
+  fontStyle: Medium
+  fontWeight: 500
+  fontSize: 16
+  lineHeight: 1.06em
+  letterSpacing: '-0.03em'
+  textAlignHorizontal: CENTER
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+fill_bd1b0c45:
+  - '#593B0C'
+fill_ed7aa05a:
+  - '#DCCCB6'
+ts3:
+  fills:
+    - rgba(255, 255, 255, 0.5)
+style_cc9a6c82:
+  fontFamily: Hauora
+  fontStyle: Regular
+  fontWeight: 400
+  fontSize: 16
+  lineHeight: 1.06em
+  textCase: UPPER
+  textAlignHorizontal: LEFT
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+style_d0b6b42e:
+  fontFamily: Hauora
+  fontStyle: Regular
+  fontWeight: 400
+  fontSize: 16
+  lineHeight: 1.06em
+  textCase: UPPER
+  textAlignHorizontal: CENTER
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+layout_f393722d:
+  mode: none
+  sizing:
+    horizontal: fixed
+    vertical: hug
+  dimensions:
+    width: 780
+H2 (828:11795):
+  fontFamily: Hauora
+  fontStyle: Medium
+  fontWeight: 500
+  fontSize: 32
+  lineHeight: 1.15em
+  letterSpacing: '-0.02em'
+  textCase: UPPER
+  textAlignHorizontal: CENTER
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+layout_e2494641:
+  mode: column
+  alignItems: stretch
+  gap: 16px
+  sizing:
+    horizontal: fixed
+    vertical: hug
+  dimensions:
+    width: 331
+layout_9f1db3b4:
+  mode: none
+  sizing:
+    horizontal: fill
+    vertical: fixed
+  dimensions:
+    height: 280
+H3:
+  fontFamily: Hauora
+  fontStyle: Medium
+  fontWeight: 500
+  fontSize: 24
+  lineHeight: 1.06em
+  letterSpacing: '-0.02em'
+  textAlignHorizontal: CENTER
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+style_408c8505:
+  fontFamily: Hauora
+  fontStyle: Regular
+  fontWeight: 400
+  fontSize: 16
+  lineHeight: 1.25em
+  textAlignHorizontal: CENTER
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+fill_c5b17057:
+  - rgba(185, 144, 79, 0.5)
+layout_dc104898:
+  mode: column
+  padding: 189px 124px 190px
+  justifyContent: center
+  alignItems: center
+  gap: 10px
+  sizing:
+    horizontal: fill
+    vertical: fixed
+  dimensions:
+    height: 720
+layout_8235c757:
+  mode: none
+  sizing:
+    horizontal: fixed
+    vertical: hug
+  dimensions:
+    width: 324
+layout_3a832226:
+  mode: column
+  padding: 2px 124px 190px
+  justifyContent: center
+  alignItems: center
+  gap: 10px
+  sizing:
+    horizontal: fixed
+    vertical: fixed
+  dimensions:
+    width: 260
+    height: 308
+layout_4fd60649:
+  mode: none
+  sizing:
+    horizontal: fixed
+    vertical: hug
+  dimensions:
+    width: 294
+style_eaa18374:
+  fontFamily: Hauora
+  fontStyle: Regular
+  fontWeight: 400
+  fontSize: 18
+  lineHeight: 1.25em
+  letterSpacing: '-0.02em'
+  textAlignHorizontal: CENTER
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+layout_de0cc672:
+  mode: none
+  sizing:
+    horizontal: fixed
+    vertical: hug
+  dimensions:
+    width: 550
+style_253fa23f:
+  fontFamily: Hauora
+  fontStyle: Regular
+  fontWeight: 400
+  fontSize: 18
+  lineHeight: 1.25em
+  textAlignHorizontal: CENTER
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+layout_5bc4e785:
+  mode: none
+  sizing:
+    horizontal: fill
+    vertical: fixed
+  dimensions:
+    height: 440
+layout_f855a86a:
+  mode: none
+  sizing:
+    horizontal: fill
+    vertical: fixed
+  dimensions:
+    height: 331
+style_f0c22508:
+  fontFamily: Hauora
+  fontStyle: SemiBold
+  fontWeight: 600
+  fontSize: 16
+  lineHeight: 1.25em
+  letterSpacing: '-0.02em'
+  textAlignHorizontal: LEFT
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+fill_b9de0bb4:
+  - '#C0B7A7'
+H4:
+  fontFamily: Hauora
+  fontStyle: Medium
+  fontWeight: 500
+  fontSize: 18
+  lineHeight: 1.25em
+  letterSpacing: '-0.02em'
+  textAlignHorizontal: LEFT
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+style_bd261dfe:
+  fontFamily: Hauora
+  fontStyle: Bold
+  fontWeight: 700
+  fontSize: 18
+  lineHeight: 1.25em
+  letterSpacing: '-0.02em'
+  textAlignHorizontal: LEFT
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+layout_10cdfab9:
+  mode: none
+  sizing:
+    horizontal: fixed
+    vertical: fixed
+  dimensions:
+    width: 40
+    height: 40
+layout_558641a8:
+  mode: none
+  sizing:
+    horizontal: fixed
+    vertical: fixed
+  dimensions:
+    width: 254
+    height: 306
+style_57ad5930:
+  fontFamily: Hauora
+  fontStyle: Regular
+  fontWeight: 400
+  fontSize: 18
+  lineHeight: 1.25em
+  textAlignHorizontal: LEFT
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+H3 (828:12005):
+  fontFamily: Hauora
+  fontStyle: Medium
+  fontWeight: 500
+  fontSize: 24
+  lineHeight: 1.06em
+  letterSpacing: '-0.02em'
+  textAlignHorizontal: LEFT
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+style_c1e78652:
+  fontFamily: Hauora
+  fontStyle: Regular
+  fontWeight: 400
+  fontSize: 16
+  lineHeight: 1.25em
+  textAlignHorizontal: LEFT
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+style_ea08502d:
+  fontFamily: Hauora
+  fontStyle: Regular
+  fontWeight: 400
+  fontSize: 12
+  lineHeight: 1.25em
+  textAlignHorizontal: LEFT
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+style_2d79fb96:
+  fontFamily: Hauora
+  fontStyle: Bold
+  fontWeight: 700
+  fontSize: 14
+  lineHeight: 1.25em
+  textAlignHorizontal: LEFT
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+style_b9ad78cf:
+  fontFamily: Hauora
+  fontStyle: Medium
+  fontWeight: 500
+  fontSize: 16
+  lineHeight: 1.25em
+  textAlignHorizontal: LEFT
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+style_749d1c1f:
+  fontFamily: Hauora
+  fontStyle: Regular
+  fontWeight: 400
+  fontSize: 14
+  lineHeight: 1.25em
+  textAlignHorizontal: LEFT
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+style_9df09fbc:
+  fontFamily: Hauora
+  fontStyle: SemiBold
+  fontWeight: 600
+  fontSize: 18
+  lineHeight: 1.25em
+  textAlignHorizontal: LEFT
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+BG Blur:
+  backdropFilter: blur(8px)
+H3 (283:21643):
+  fontFamily: Hauora
+  fontStyle: Medium
+  fontWeight: 500
+  fontSize: 28
+  lineHeight: 1.06em
+  letterSpacing: '-0.02em'
+  textAlignHorizontal: CENTER
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+T2 (843:17364):
+  fontFamily: Hauora
+  fontStyle: Regular
+  fontWeight: 400
+  fontSize: 16
+  lineHeight: 1.3em
+  textAlignHorizontal: CENTER
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+
+ELEMENTS:
+EL-088838df:
+  type: FRAME
+  layout:
+    mode: row
+    justifyContent: center
+    alignItems: center
+    sizing:
+      horizontal: fixed
+      vertical: fixed
+    locationRelativeToParent:
+      x: 100
+      y: 100
+    dimensions:
+      width: 1440
+      height: 800
+  fills: fill_b92dd999
+EL-8c67e9b2:
+  type: FRAME
+  layout: layout_38a9568e
+  fills:
+    - type: IMAGE
+      imageRef: 2830019a9c184a65e55593fd74714dbd31133de1
+      scaleMode: FILL
+      backgroundSize: cover
+      backgroundRepeat: no-repeat
+      isBackground: true
+      imageDownloadArguments:
+        needsCropping: false
+        requiresImageDimensions: false
+    - type: IMAGE
+      imageRef: 84c8217ef0c94f961c3ae566563b6249c7e5c675
+      scaleMode: FILL
+      backgroundSize: cover
+      backgroundRepeat: no-repeat
+      isBackground: true
+      imageDownloadArguments:
+        needsCropping: false
+        requiresImageDimensions: false
+    - '#B0B0B0'
+EL-318c758f:
+  type: FRAME
+  layout:
+    mode: row
+    justifyContent: center
+    alignItems: center
+    gap: 32px
+    sizing:
+      horizontal: hug
+      vertical: fixed
+    dimensions:
+      height: 2
+EL-f1b0f0c9:
+  type: IMAGE-SVG
+  layout: layout_a111c4b6
+EL-338518e8:
+  type: FRAME
+  layout:
+    mode: column
+    padding: 0px 253px 0px 0px
+    gap: 10px
+    sizing:
+      horizontal: fixed
+      vertical: hug
+    dimensions:
+      width: 200
+  fills: fill_81a83821
+  borderRadius: 100px
+EL-9d015771:
+  type: RECTANGLE
+  layout:
+    mode: none
+    sizing:
+      horizontal: fixed
+      vertical: fixed
+    dimensions:
+      width: 66
+      height: 2
+  fills:
+    - rgba(0, 0, 0, 0.8)
+  borderRadius: 100px
+EL-79e5d79d:
+  type: FRAME
+  layout:
+    mode: column
+    alignSelf: stretch
+    padding: 64px
+    justifyContent: center
+    alignItems: center
+    gap: 24px
+    sizing:
+      horizontal: fill
+      vertical: fill
+  fills: fill_7ad30328
+  borderRadius: 32px
+EL-9cacd7a2:
+  type: TEXT
+  layout: layout_177c5efc
+  text: Регистрация
+  textStyle: H2
+  fills: fill_34dc0314
+EL-0685d6ec:
+  type: FRAME
+  layout:
+    mode: column
+    alignItems: stretch
+    gap: 12px
+    sizing:
+      horizontal: fixed
+      vertical: hug
+    dimensions:
+      width: 520
+EL-723f3afb:
+  type: INSTANCE
+  layout: layout_705ca8ff
+  fills: fill_658ab2fa
+  componentId: 864:23086
+  componentProperties:
+    Discription-Button: true
+    Discription: true
+EL-ab28bdf4:
+  type: FRAME
+  layout:
+    mode: column
+    padding: 10px 20px 10px 16px
+    justifyContent: center
+    gap: 4px
+    sizing:
+      horizontal: hug
+      vertical: fixed
+    dimensions:
+      height: 36
+EL-bdcfd4a0:
+  type: TEXT
+  layout: layout_177c5efc
+  text: ФИО
+  textStyle: T2
+  fills: fill_4cd5ff90
+EL-e2a9b8c3:
+  type: INSTANCE
+  layout: layout_d68e34f1
+  fills: fill_658ab2fa
+  componentId: 864:51521
+  componentProperties:
+    delete-icon: true
+    icon-right: true
+    discription: false
+EL-a01f8c70:
+  type: FRAME
+  layout:
+    mode: row
+    alignSelf: stretch
+    padding: 12px 16px
+    alignItems: center
+    sizing:
+      horizontal: fill
+      vertical: fill
+EL-1f0b7899:
+  type: FRAME
+  layout:
+    mode: column
+    justifyContent: center
+    gap: 2px
+    sizing:
+      horizontal: hug
+      vertical: hug
+EL-50ef8a26:
+  type: FRAME
+  layout:
+    mode: column
+    alignSelf: stretch
+    gap: 12px
+    sizing:
+      horizontal: fill
+      vertical: hug
+EL-9e16dd56:
+  type: INSTANCE
+  layout:
+    mode: row
+    alignSelf: stretch
+    padding: 21px 24px
+    justifyContent: center
+    alignItems: center
+    gap: 10px
+    sizing:
+      horizontal: fill
+      vertical: hug
+  fills: fill_8b4fbb9e
+  borderRadius: 2px
+  componentId: 277:11102
+EL-953f0472:
+  type: TEXT
+  layout: layout_177c5efc
+  text: Зарегистрироваться
+  textStyle: style_7f51a2ff
+  fills: fill_658ab2fa
+EL-24bd77e5:
+  type: INSTANCE
+  layout: layout_641aad05
+  componentId: 862:19203
+EL-3ad43b36:
+  type: FRAME
+  layout:
+    mode: row
+    alignSelf: stretch
+    padding: 2px 0px
+    gap: 10px
+    sizing:
+      horizontal: hug
+      vertical: fill
+EL-fee77cc5:
+  type: FRAME
+  layout: layout_d0a883b0
+  fills: fill_658ab2fa
+  strokes:
+    - rgba(0, 0, 0, 0.15)
+  strokeWeight: 1px
+  borderRadius: 2px
+EL-9a2d2efc:
+  type: TEXT
+  layout: layout_6eabe52e
+  text: "{ts1}Я\_соглашаюсь с\_политикой конфиденциальности\_и\_даю согласие на\_обработку персональных данных{/ts1}"
+  textStyle: T2
+  fills: fill_95f554d6
+EL-790ee3d6:
+  type: FRAME
+  layout:
+    mode: row
+    justifyContent: center
+    alignItems: center
+    gap: 8px
+    sizing:
+      horizontal: hug
+      vertical: hug
+EL-19485b01:
+  type: TEXT
+  layout: layout_177c5efc
+  text: Есть аккаунт ?
+  textStyle: T2
+  fills: fill_4cd5ff90
+EL-d2a13494:
+  type: INSTANCE
+  layout:
+    mode: row
+    padding: 2px
+    justifyContent: center
+    alignItems: center
+    gap: 10px
+    sizing:
+      horizontal: hug
+      vertical: hug
+  componentId: 864:25311
+EL-0f04b0c3:
+  type: TEXT
+  layout: layout_177c5efc
+  text: Войти
+  textStyle: style_7f51a2ff
+  fills: fill_8b4fbb9e
+EL-5434280e:
+  type: FRAME
+  layout:
+    mode: row
+    justifyContent: center
+    alignItems: center
+    sizing:
+      horizontal: fixed
+      vertical: fixed
+    locationRelativeToParent:
+      x: 1690
+      y: 100
+    dimensions:
+      width: 1440
+      height: 800
+  fills: fill_b92dd999
+EL-b18cd488:
+  type: INSTANCE
+  layout: layout_9e9b9c36
+  fills: fill_658ab2fa
+  componentId: 864:23118
+  componentProperties:
+    Discription-Button: true
+    Discription: true
+EL-312c119f:
+  type: FRAME
+  layout:
+    mode: column
+    padding: 0px 20px 0px 16px
+    justifyContent: center
+    sizing:
+      horizontal: hug
+      vertical: hug
+EL-5ab3370e:
+  type: TEXT
+  layout: layout_177c5efc
+  text: ФИО
+  textStyle: style_4fd33b53
+  fills: fill_81a83821
+EL-c6701a83:
+  type: TEXT
+  layout: layout_177c5efc
+  text: Никита
+  textStyle: T2
+  fills: fill_34dc0314
+EL-d6bd7b15:
+  type: TEXT
+  layout: layout_177c5efc
+  text: E-mail
+  textStyle: style_4fd33b53
+  fills: fill_81a83821
+EL-15ce82c6:
+  type: TEXT
+  layout: layout_177c5efc
+  text: ivanovivan@mail.ru
+  textStyle: T2
+  fills: fill_34dc0314
+EL-d881295e:
+  type: TEXT
+  layout: layout_177c5efc
+  text: Телефон
+  textStyle: style_4fd33b53
+  fills: fill_81a83821
+EL-13f71c5d:
+  type: TEXT
+  layout: layout_177c5efc
+  text: +7 \(911\) 111-11-11
+  textStyle: T2
+  fills: fill_34dc0314
+EL-36a762b5:
+  type: INSTANCE
+  layout: layout_d68e34f1
+  fills: fill_658ab2fa
+  componentId: 864:51406
+  componentProperties:
+    delete-icon: true
+    discription: false
+    icon-right: true
+EL-92cf7249:
+  type: FRAME
+  layout:
+    mode: row
+    alignSelf: stretch
+    padding: 12px 16px
+    justifyContent: space-between
+    alignItems: center
+    sizing:
+      horizontal: fill
+      vertical: fill
+EL-0fef60ea:
+  type: TEXT
+  layout: layout_177c5efc
+  text: Новый пароль
+  textStyle: Caption
+  fills: fill_81a83821
+EL-46e13874:
+  type: FRAME
+  layout:
+    mode: row
+    gap: 6px
+    sizing:
+      horizontal: hug
+      vertical: hug
+EL-414176fc:
+  type: FRAME
+  layout:
+    mode: column
+    justifyContent: center
+    alignItems: center
+    gap: 10px
+    sizing:
+      horizontal: fixed
+      vertical: fixed
+    dimensions:
+      width: 6
+      height: 22
+EL-99ca7a3f:
+  type: FRAME
+  layout: layout_a1298e08
+  fills: fill_34dc0314
+  borderRadius: 100px
+EL-235879b0:
+  type: FRAME
+  layout:
+    mode: row
+    alignItems: center
+    gap: 8px
+    sizing:
+      horizontal: hug
+      vertical: hug
+EL-d313a6ec:
+  type: FRAME
+  layout:
+    mode: row
+    justifyContent: space-between
+    alignItems: center
+    sizing:
+      horizontal: fixed
+      vertical: hug
+    dimensions:
+      width: 25
+  componentPropertyReferences:
+    visible: delete-icon
+EL-ff0611ae:
+  type: IMAGE-SVG
+  layout: layout_e4b6f33f
+  componentId: 864:29438
+EL-9593ee8a:
+  type: FRAME
+  layout:
+    mode: none
+    sizing:
+      horizontal: fixed
+      vertical: fixed
+    dimensions:
+      width: 1
+      height: 16
+  fills:
+    - '#B5B9BD'
+EL-e836e453:
+  type: IMAGE-SVG
+  layout: layout_e4b6f33f
+  componentId: 864:29441
+  componentPropertyReferences:
+    visible: icon-right
+EL-f87fa05b:
+  type: TEXT
+  layout: layout_177c5efc
+  text: Повторите пароль
+  textStyle: Caption
+  fills: fill_81a83821
+EL-a5f9caaf:
+  type: INSTANCE
+  layout: layout_641aad05
+  componentId: 862:19217
+EL-73371b9d:
+  type: FRAME
+  layout:
+    mode: column
+    padding: 10px
+    justifyContent: center
+    alignItems: center
+    gap: 10px
+    sizing:
+      horizontal: fixed
+      vertical: fixed
+    dimensions:
+      width: 24
+      height: 24
+  fills: fill_8b4fbb9e
+  borderRadius: 2px
+EL-762d5cce:
+  type: IMAGE-SVG
+  layout: layout_a111c4b6
+  fills: fill_97d170e1
+EL-58fb6f1c:
+  type: FRAME
+  layout:
+    mode: column
+    alignSelf: stretch
+    padding: 64px
+    justifyContent: center
+    alignItems: center
+    gap: 20px
+    sizing:
+      horizontal: fill
+      vertical: fill
+  fills: fill_7ad30328
+  borderRadius: 32px
+EL-42d936a3:
+  type: INSTANCE
+  layout: layout_9e9b9c36
+  fills: fill_658ab2fa
+  componentId: 864:23118
+  componentProperties:
+    Discription-Button: true
+    Discription: false
+EL-0e93c075:
+  type: INSTANCE
+  layout: layout_9e9b9c36
+  fills: fill_658ab2fa
+  componentId: 864:23118
+  componentProperties:
+    Discription: true
+    Discription-Button: false
+EL-f0459587:
+  type: INSTANCE
+  layout: layout_435677f1
+  componentId: 864:51324
+  componentProperties:
+    delete-icon: true
+    discription: false
+    icon-right: true
+EL-be995052:
+  type: FRAME
+  layout:
+    mode: row
+    alignSelf: stretch
+    padding: 12px 16px
+    justifyContent: space-between
+    alignItems: center
+    sizing:
+      horizontal: fill
+      vertical: fixed
+    dimensions:
+      height: 60
+  fills: fill_658ab2fa
+  strokes: fill_0ea70a13
+  strokeWeight: 1px
+EL-c09fbf53:
+  type: TEXT
+  layout: layout_177c5efc
+  text: 1234567890%
+  textStyle: T2
+  fills: fill_381be112
+EL-be44a191:
+  type: INSTANCE
+  layout: layout_e620ffb0
+  componentId: 864:51324
+  componentProperties:
+    delete-icon: true
+    discription: false
+    icon-right: true
+EL-82b9f1ef:
+  type: FRAME
+  layout:
+    mode: row
+    alignSelf: stretch
+    padding: 0px 12px
+    alignItems: center
+    sizing:
+      horizontal: fill
+      vertical: hug
+EL-f49fc222:
+  type: TEXT
+  layout: layout_177c5efc
+  text: Пароли не совпадают
+  textStyle: Caption/S
+  fills: fill_0ea70a13
+EL-d9078507:
+  type: INSTANCE
+  layout: layout_e620ffb0
+  componentId: 864:23138
+  componentProperties:
+    Discription-Button: true
+    Discription: true
+EL-a8ef7fa3:
+  type: FRAME
+  layout:
+    mode: column
+    justifyContent: center
+    sizing:
+      horizontal: fill
+      vertical: hug
+EL-8598dc9b:
+  type: FRAME
+  layout: layout_81291c0c
+  componentPropertyReferences:
+    visible: Discription
+EL-ce12ebea:
+  type: INSTANCE
+  layout:
+    mode: row
+    alignItems: center
+    gap: 4px
+    sizing:
+      horizontal: hug
+      vertical: hug
+  componentId: 864:22924
+  componentProperties:
+    White: false
+    Button-Text: Зарегистрироваться
+    icon-left: false
+    Black: true
+    icon-right: false
+  componentPropertyReferences:
+    visible: Discription-Button
+EL-db1e2252:
+  type: TEXT
+  layout: layout_177c5efc
+  text: Забыли пароль ?
+  textStyle: H2 (283:21642)
+  fills: fill_34dc0314
+EL-6dce75e2:
+  type: TEXT
+  layout: layout_177c5efc
+  text: Пароль
+  textStyle: Caption
+  fills: fill_81a83821
+EL-fb6d8c35:
+  type: TEXT
+  layout: layout_177c5efc
+  text: Нет аккаунта ?
+  textStyle: T2
+  fills: fill_4cd5ff90
+EL-ecb8a821:
+  type: TEXT
+  layout: layout_177c5efc
+  text: Зарегистрироваться
+  textStyle: style_7f51a2ff
+  fills: fill_8b4fbb9e
+EL-546dd67a:
+  type: FRAME
+  layout:
+    mode: row
+    alignSelf: stretch
+    padding: 16px
+    justifyContent: space-between
+    alignItems: center
+    sizing:
+      horizontal: fill
+      vertical: fixed
+    dimensions:
+      height: 60
+  fills: fill_658ab2fa
+  strokes: fill_0ea70a13
+  strokeWeight: 1px
+EL-03e098af:
+  type: FRAME
+  layout: layout_a1298e08
+  fills: fill_381be112
+  borderRadius: 100px
+EL-fc6beb51:
+  type: TEXT
+  layout: layout_177c5efc
+  text: Здравствуйте !
+  textStyle: H2 (283:21642)
+  fills: fill_34dc0314
+EL-43b9216d:
+  type: INSTANCE
+  layout: layout_5d7ee650
+  fills: fill_7ad30328
+  borderRadius: 2px
+  componentId: 828:11819
+EL-193309be:
+  type: FRAME
+  layout:
+    mode: column
+    padding: 0px 253px 0px 0px
+    gap: 10px
+    sizing:
+      horizontal: fill
+      vertical: hug
+  fills:
+    - rgba(255, 255, 255, 0.3)
+  borderRadius: 100px
+EL-bb582553:
+  type: FRAME
+  layout: layout_81291c0c
+EL-5843db5d:
+  type: FRAME
+  layout:
+    mode: row
+    alignItems: center
+    gap: 2px
+    sizing:
+      horizontal: hug
+      vertical: hug
+EL-d4302386:
+  type: IMAGE-SVG
+  layout:
+    mode: none
+    sizing:
+      horizontal: fixed
+      vertical: fixed
+    dimensions:
+      width: 12
+      height: 12
+EL-5379637c:
+  type: FRAME
+  layout:
+    mode: column
+    alignSelf: stretch
+    alignItems: center
+    gap: 32px
+    sizing:
+      horizontal: fill
+      vertical: hug
+EL-7e82b98e:
+  type: FRAME
+  layout:
+    mode: column
+    alignItems: center
+    gap: 20px
+    sizing:
+      horizontal: hug
+      vertical: hug
+EL-28d879d4:
+  type: FRAME
+  layout:
+    mode: row
+    justifyContent: center
+    alignItems: center
+    gap: 12px
+    sizing:
+      horizontal: fixed
+      vertical: hug
+    dimensions:
+      width: 220
+EL-56ff9324:
+  type: LINE
+  layout:
+    mode: none
+    sizing:
+      horizontal: fill
+      vertical: fixed
+    dimensions:
+      height: 0
+  strokes: fill_ed7aa05a
+  strokeWeight: 1px
+  strokeAlign: CENTER
+EL-b35ab3bb:
+  type: RECTANGLE
+  layout:
+    mode: none
+    sizing:
+      horizontal: fixed
+      vertical: fixed
+    dimensions:
+      width: 42
+      height: 42
+  fills:
+    - type: IMAGE
+      imageRef: 473389d5f66d5b6de560860aa1b85bb9f4e262e9
+      scaleMode: STRETCH
+      objectFit: fill
+      isBackground: false
+      imageDownloadArguments:
+        needsCropping: true
+        requiresImageDimensions: false
+        cropTransform:
+          - - 0.23036649823188782
+            - 0
+            - 0.04973822459578514
+          - - 0
+            - 0.9085782170295715
+            - 0.03309168666601181
+        filenameSuffix: 62fde9
+EL-9db5b930:
+  type: FRAME
+  layout: layout_e2494641
+EL-29764127:
+  type: FRAME
+  layout:
+    mode: column
+    alignSelf: stretch
+    alignItems: center
+    gap: 12px
+    sizing:
+      horizontal: fill
+      vertical: hug
+EL-1519dabc:
+  type: FRAME
+  layout:
+    mode: column
+    alignSelf: stretch
+    alignItems: stretch
+    gap: 12px
+    sizing:
+      horizontal: fill
+      vertical: hug
+EL-2de48b83:
+  type: INSTANCE
+  layout: layout_5d7ee650
+  strokes: fill_c5b17057
+  strokeWeight: 1px
+  borderRadius: 2px
+  componentId: 828:11827
+EL-4568da53:
+  type: FRAME
+  layout:
+    mode: column
+    alignSelf: stretch
+    justifyContent: center
+    alignItems: center
+    gap: 24px
+    sizing:
+      horizontal: fill
+      vertical: fill
+EL-3e88f878:
+  type: FRAME
+  layout:
+    mode: column
+    alignItems: center
+    gap: 16px
+    sizing:
+      horizontal: hug
+      vertical: hug
+EL-18fca13c:
+  type: INSTANCE
+  layout: layout_5d7ee650
+  fills: fill_8b4fbb9e
+  borderRadius: 2px
+  componentId: 828:11817
+EL-3dc854f5:
+  type: TEXT
+  layout: layout_177c5efc
+  text: Перейти в каталог
+  textStyle: style_ce0a4cea
+  fills: fill_658ab2fa
+EL-5e5def69:
+  type: FRAME
+  layout:
+    mode: row
+    justifyContent: center
+    alignItems: center
+    gap: 12px
+    sizing:
+      horizontal: fixed
+      vertical: hug
+    position: absolute
+    locationRelativeToParent:
+      x: 39.5
+      y: -20
+    dimensions:
+      width: 641
+EL-5d3c36cd:
+  type: LINE
+  layout:
+    mode: none
+    sizing:
+      horizontal: fixed
+      vertical: fixed
+    dimensions:
+      width: 287.5
+      height: 0
+  strokes: fill_ed7aa05a
+  strokeWeight: 1px
+  strokeAlign: CENTER
+EL-89d9322e:
+  type: FRAME
+  layout:
+    mode: column
+    alignSelf: stretch
+    padding: 70px 40px
+    alignItems: center
+    gap: 32px
+    sizing:
+      horizontal: fill
+      vertical: hug
+EL-9f27bbaa:
+  type: FRAME
+  layout:
+    mode: column
+    alignItems: center
+    gap: 12px
+    sizing:
+      horizontal: hug
+      vertical: hug
+EL-d584ac2b:
+  type: FRAME
+  layout:
+    mode: column
+    alignItems: center
+    gap: 16px
+    sizing:
+      horizontal: fixed
+      vertical: hug
+    dimensions:
+      width: 331
+EL-58a296aa:
+  type: FRAME
+  layout:
+    mode: column
+    alignSelf: stretch
+    padding: 70px 40px
+    alignItems: center
+    gap: 40px
+    sizing:
+      horizontal: fill
+      vertical: hug
+EL-dc2e4f12:
+  type: INSTANCE
+  layout: layout_e2494641
+  componentId: 828:11802
+EL-bc40306a:
+  type: FRAME
+  layout:
+    mode: column
+    alignSelf: stretch
+    alignItems: stretch
+    gap: 8px
+    sizing:
+      horizontal: fill
+      vertical: hug
+EL-a3b5271a:
+  type: TEXT
+  layout: layout_56d3c81c
+  text: Статуэтка
+  textStyle: style_f0c22508
+  fills: fill_b9de0bb4
+EL-94a17615:
+  type: FRAME
+  layout:
+    mode: row
+    alignSelf: stretch
+    gap: 16px
+    sizing:
+      horizontal: fill
+      vertical: hug
+EL-095e709d:
+  type: INSTANCE
+  layout:
+    mode: row
+    padding: 7px 12px
+    justifyContent: center
+    alignItems: center
+    gap: 10px
+    sizing:
+      horizontal: hug
+      vertical: fixed
+    position: absolute
+    locationRelativeToParent:
+      x: 8
+      y: 8
+    dimensions:
+      height: 32
+  fills: fill_8b4fbb9e
+  borderRadius: 2px
+  componentId: 828:11798
+EL-9bfb5c6e:
+  type: TEXT
+  layout: layout_177c5efc
+  text: Бестселлер
+  textStyle:
+    fontFamily: Hauora
+    fontStyle: Regular
+    fontWeight: 400
+    fontSize: 14
+    lineHeight: 1.25em
+    letterSpacing: '-0.02em'
+    textAlignHorizontal: LEFT
+    textAlignVertical: TOP
+    paragraphSpacing: 14
+    listSpacing: 14
+  fills: fill_658ab2fa
+EL-27994a59:
+  type: IMAGE-SVG
+  layout:
+    mode: none
+    sizing:
+      horizontal: fixed
+      vertical: fixed
+    position: absolute
+    locationRelativeToParent:
+      x: 291
+      y: 8
+    dimensions:
+      width: 32
+      height: 32
+  fills: fill_97d170e1
+  componentId: 828:11800
+EL-3d5db4f2:
+  type: IMAGE-SVG
+  layout: layout_10cdfab9
+  strokes: fill_c5b17057
+  strokeWeight: 1px
+  borderRadius: 2px
+  componentId: 828:11841
+EL-1c2ecee1:
+  type: FRAME
+  layout:
+    mode: column
+    justifyContent: center
+    alignItems: center
+    gap: 12px
+    sizing:
+      horizontal: hug
+      vertical: hug
+EL-1bc16580:
+  type: FRAME
+  layout:
+    mode: column
+    alignSelf: stretch
+    gap: 24px
+    sizing:
+      horizontal: fill
+      vertical: hug
+EL-c0b8ba13:
+  type: FRAME
+  layout:
+    mode: column
+    alignItems: stretch
+    gap: 16px
+    sizing:
+      horizontal: fill
+      vertical: hug
+EL-243fe5b4:
+  type: FRAME
+  layout:
+    mode: column
+    alignSelf: stretch
+    padding: 0px 24px 0px 0px
+    alignItems: stretch
+    gap: 20px
+    sizing:
+      horizontal: fill
+      vertical: hug
+EL-abb0ba6e:
+  type: TEXT
+  layout: layout_56d3c81c
+  text: 13 мая 2026
+  textStyle: style_ea08502d
+  fills: fill_95f554d6
+EL-8f2f1080:
+  type: FRAME
+  layout:
+    mode: column
+    gap: 12px
+    sizing:
+      horizontal: hug
+      vertical: hug
+EL-6d1b5341:
+  type: FRAME
+  layout:
+    mode: column
+    alignItems: stretch
+    gap: 4px
+    sizing:
+      horizontal: fill
+      vertical: hug
+EL-24705f71:
+  type: FRAME
+  layout:
+    mode: column
+    alignItems: stretch
+    gap: 4px
+    sizing:
+      horizontal: fixed
+      vertical: hug
+    dimensions:
+      width: 215
+EL-7c4c0d96:
+  type: IMAGE-SVG
+  layout: layout_10cdfab9
+  fills: fill_8b4fbb9e
+  borderRadius: 2px
+EL-d8a3e5e9:
+  type: FRAME
+  layout:
+    mode: column
+    alignSelf: stretch
+    alignItems: stretch
+    gap: 16px
+    sizing:
+      horizontal: fill
+      vertical: hug
+EL-e1f99817:
+  type: FRAME
+  layout:
+    mode: none
+    sizing: {}
+    locationRelativeToParent:
+      x: 10.69
+      y: 10.69
+    dimensions:
+      width: 22.63
+      height: 22.63
+  fills: fill_658ab2fa
+
+COMPONENTS:
+864:23086:
+  id: 864:23086
+  key: 0006582c22745b40d7e07b2f257b0e36ed7c2e97
+  name: State=Empty, Size=L
+  componentSetId: 864:23085
+864:51521:
+  id: 864:51521
+  key: b8831ea91b0eba3df94827fe0e23a3c29c5e6187
+  name: State=Empty, Color=Grey
+  componentSetId: 864:51021
+277:11102:
+  id: 277:11102
+  key: a802f90bed203e2bb09ca6e83b3132bb13029ce2
+  name: State=Default, Type=Primary, Color=Accent
+  componentSetId: 277:11108
+862:19203:
+  id: 862:19203
+  key: 94455bf384ab3ac634cb2cf979d70cf14dbff5cb
+  name: State=Default, Size=L
+  componentSetId: 862:19204
+864:25311:
+  id: 864:25311
+  key: 26817a0a2fee2ee2bd44634e05d3a6df048a0f9e
+  name: State=Default, Type=Ghost, Color=Light
+  componentSetId: 277:11108
+864:23118:
+  id: 864:23118
+  key: 779bcf4145ff8fe513a617b87d6718bc1481f7b3
+  name: State=Fill, Size=L
+  componentSetId: 864:23085
+864:51406:
+  id: 864:51406
+  key: c7693afa26d55747bf954fed2d2d16e13193733e
+  name: State=Fill-Close, Color=Grey
+  componentSetId: 864:51021
+864:29438:
+  id: 864:29438
+  key: a8451b2bf813961c90d10d04fbb4434a6bad5484
+  name: Line Duotone / Essentional, UI / Close Circle
+864:29441:
+  id: 864:29441
+  key: 5662e8a118219fd56cdb8aa8d440c037ee0ac81c
+  name: Linear / Security / Eye
+862:19217:
+  id: 862:19217
+  key: 2c4ccd16a4d803468226638e4f22e9b4a950141b
+  name: State=Active, Size=L
+  componentSetId: 862:19204
+864:51324:
+  id: 864:51324
+  key: 86356877172d7a7f6666346bdf56285369de02d5
+  name: State=Error-Fill-Open, Color=Grey
+  componentSetId: 864:51021
+864:22924:
+  id: 864:22924
+  key: 12693fbc658df2f001b76a4386f57c6f344d8c29
+  name: Type=Tertiary-Ghost, SIze=XS, State=Default
+  componentSetId: 864:22871
+280:1581:
+  id: 280:1581
+  key: adb771592eeb1f1c87f1b07d3e0699fd44269674
+  name: Outline / Essentional, UI / Trash Bin Trash
+862:19234:
+  id: 862:19234
+  key: f22be1c2009a58a6b0c876a938e0790724314143
+  name: State=Error, Size=L
+  componentSetId: 862:19204
+864:23138:
+  id: 864:23138
+  key: 998b45959610ab0be69e631dcaf9a34e963d111c
+  name: State=Error-Fill, Size=L
+  componentSetId: 864:23085
+864:51283:
+  id: 864:51283
+  key: 0a30eebaffffd3ba07d05644c849da529a6d5ad9
+  name: State=Error-Fill-Close, Color=Grey
+  componentSetId: 864:51021
+828:11819:
+  id: 828:11819
+  key: 3645818126d269d31f6be7f42309440435a5d23a
+  name: State=Default, Type=Primary, Color=Light
+  componentSetId: 828:11816
+828:11827:
+  id: 828:11827
+  key: ac80f6f43eeaae236d202a6c2412a9f847c41f4a
+  name: State=Default, Type=Secondary, Color=Accent
+  componentSetId: 828:11816
+828:11817:
+  id: 828:11817
+  key: 61e5da15a5f50ba3b876d553d0dce4f2563ae822
+  name: State=Default, Type=Primary, Color=Accent
+  componentSetId: 828:11816
+828:11802:
+  id: 828:11802
+  key: 3c8ddb3c74b9f104f076f6c8ebabccca50feddbe
+  name: Item Card/Desktop
+828:11798:
+  id: 828:11798
+  key: 3e3705cdcff6e475dbd69d528486e144cc3e5b81
+  name: Tag
+828:11800:
+  id: 828:11800
+  key: c7265999d330917ba937c0f26c594f2f307b84d4
+  name: Icon Wishlist
+828:11841:
+  id: 828:11841
+  key: 8e63258d5718cebe487d917e44f05d9279c15f36
+  name: Header/Arrow
+828:11843:
+  id: 828:11843
+  key: 747cb56ac6720a18954157e9d72d1172d7c07e2c
+  name: Footer
+313:8443:
+  id: 313:8443
+  key: a6c432030e8fff6751b6c24594b957dd2be9cffc
+  name: Outline / Messages, Conversation / Unread
+
+COMPONENT_SETS:
+864:23085:
+  id: 864:23085
+  key: e6b38ef5c2142705630555c471d1db317e92ec95
+  name: Input
+  description: ''
+864:51021:
+  id: 864:51021
+  key: b30d959667878b3ad5f184222a23103e14da6753
+  name: Input-password
+  description: ''
+277:11108:
+  id: 277:11108
+  key: f734dda002e50822229e9c1be4cfeb9f642d8d05
+  name: Button
+  description: ''
+862:19204:
+  id: 862:19204
+  key: a67158342822328024455fce26a97dd0942c64f2
+  name: Checkbox
+  description: ''
+864:22871:
+  id: 864:22871
+  key: a5f0f34433a6869c8305cd1352f7a2036ceaf4da
+  name: Button
+  description: ''
+828:11816:
+  id: 828:11816
+  key: 675926d04fac1a9825d46ad65d49b5441cf04826
+  name: Button
+  description: ''
+
+NODES:
+[SECTION] "Регистрация / Авторизация" #966:49571 layout={"mode":"none","sizing":{}} fills=["#444444"] strokes=fill_dbe29f28 strokeWeight=1px
+  [SECTION] "Регистрация" #966:49572 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":250,"y":250},"dimensions":{"width":6410,"height":2025}} fills=fill_dd7f3e3e strokes=fill_dbe29f28 strokeWeight=1px
+    [FRAME] "Категория товаров" #966:49573 template=EL-088838df
+      [FRAME] "Image" #966:49574 template=EL-8c67e9b2
+        [FRAME] "Slider Indicator" #966:49575 template=EL-318c758f
+          [IMAGE-SVG] "vuesax/linear/arrow-right" #966:49576 template=EL-f1b0f0c9
+          [FRAME] "Progress Indicator" #966:49580 template=EL-338518e8
+            [RECTANGLE] "Line Active" #966:49581 template=EL-9d015771
+          [IMAGE-SVG] "vuesax/linear/arrow-right" #966:49582 template=EL-f1b0f0c9
+      [FRAME] #966:49586 template=EL-79e5d79d
+        [TEXT] #966:49587 template=EL-9cacd7a2
+        [FRAME] #966:49588 template=EL-0685d6ec
+          [INSTANCE] "Input" #966:49589 template=EL-723f3afb
+            [FRAME] #I966:49589;864:23087 template=EL-ab28bdf4
+              [TEXT] #I966:49589;864:23088 template=EL-bdcfd4a0
+          [INSTANCE] "Input" #966:49590 template=EL-723f3afb
+            [FRAME] #I966:49590;864:23087 template=EL-ab28bdf4
+              [TEXT] #I966:49590;864:23088 layout=layout_177c5efc fills=fill_4cd5ff90 textStyle=T2 text="E-mail"
+          [INSTANCE] "Input" #966:49591 template=EL-723f3afb
+            [FRAME] #I966:49591;864:23087 template=EL-ab28bdf4
+              [TEXT] #I966:49591;864:23088 layout=layout_177c5efc fills=fill_4cd5ff90 textStyle=T2 text="Телефон"
+          [INSTANCE] "Input-password" #966:49592 template=EL-e2a9b8c3
+            [FRAME] "Frame" #I966:49592;864:51522 template=EL-a01f8c70
+              [FRAME] "Frame" #I966:49592;864:51523 template=EL-1f0b7899
+                [TEXT] #I966:49592;864:51524 layout=layout_177c5efc fills=fill_4cd5ff90 textStyle=T2 text="Новый пароль"
+          [INSTANCE] "Input-password" #966:49593 template=EL-e2a9b8c3
+            [FRAME] "Frame" #I966:49593;864:51522 template=EL-a01f8c70
+              [FRAME] "Frame" #I966:49593;864:51523 template=EL-1f0b7899
+                [TEXT] #I966:49593;864:51524 layout=layout_177c5efc fills=fill_4cd5ff90 textStyle=T2 text="Повторите пароль"
+          [FRAME] #966:49594 template=EL-50ef8a26
+            [INSTANCE] #966:49595 template=EL-9e16dd56
+              [TEXT] #I966:49595;277:8778 template=EL-953f0472
+            [INSTANCE] "Checkbox" #966:49596 template=EL-24bd77e5
+              [FRAME] #I966:49596;862:19199 template=EL-3ad43b36
+                [FRAME] "Checkbox base" #I966:49596;862:19200 template=EL-fee77cc5
+              [TEXT] #I966:49596;862:19201 template=EL-9a2d2efc
+        [FRAME] #966:49597 template=EL-790ee3d6
+          [TEXT] #966:49598 template=EL-19485b01
+          [INSTANCE] #966:49599 template=EL-d2a13494
+            [TEXT] #I966:49599;864:25312 template=EL-0f04b0c3
+    [FRAME] "Категория товаров" #966:49600 template=EL-5434280e
+      [FRAME] "Image" #966:49601 template=EL-8c67e9b2
+        [FRAME] "Slider Indicator" #966:49602 template=EL-318c758f
+          [IMAGE-SVG] "vuesax/linear/arrow-right" #966:49603 template=EL-f1b0f0c9
+          [FRAME] "Progress Indicator" #966:49607 template=EL-338518e8
+            [RECTANGLE] "Line Active" #966:49608 template=EL-9d015771
+          [IMAGE-SVG] "vuesax/linear/arrow-right" #966:49609 template=EL-f1b0f0c9
+      [FRAME] #966:49613 template=EL-79e5d79d
+        [TEXT] #966:49614 template=EL-9cacd7a2
+        [FRAME] #966:49615 template=EL-0685d6ec
+          [INSTANCE] "Input" #966:49616 template=EL-b18cd488
+            [FRAME] #I966:49616;864:23119 template=EL-312c119f
+              [TEXT] #I966:49616;864:23120 template=EL-5ab3370e
+              [TEXT] #I966:49616;864:23121 template=EL-c6701a83
+          [INSTANCE] "Input" #966:49617 template=EL-b18cd488
+            [FRAME] #I966:49617;864:23119 template=EL-312c119f
+              [TEXT] #I966:49617;864:23120 template=EL-d6bd7b15
+              [TEXT] #I966:49617;864:23121 template=EL-15ce82c6
+          [INSTANCE] "Input" #966:49618 template=EL-b18cd488
+            [FRAME] #I966:49618;864:23119 template=EL-312c119f
+              [TEXT] #I966:49618;864:23120 template=EL-d881295e
+              [TEXT] #I966:49618;864:23121 template=EL-13f71c5d
+          [INSTANCE] "Input-password" #966:49619 template=EL-36a762b5
+            [FRAME] "Frame" #I966:49619;864:51407 template=EL-92cf7249
+              [FRAME] "Frame" #I966:49619;864:51408 template=EL-1f0b7899
+                [TEXT] #I966:49619;864:51409 template=EL-0fef60ea
+                [FRAME] #I966:49619;864:51410 template=EL-46e13874
+                  [FRAME] #I966:49619;864:51411 template=EL-414176fc
+                    [FRAME] #I966:49619;864:51412 template=EL-99ca7a3f
+                  [FRAME] #I966:49619;864:51413 template=EL-414176fc
+                    [FRAME] #I966:49619;864:51414 template=EL-99ca7a3f
+                  [FRAME] #I966:49619;864:51415 template=EL-414176fc
+                    [FRAME] #I966:49619;864:51416 template=EL-99ca7a3f
+                  [FRAME] #I966:49619;864:51417 template=EL-414176fc
+                    [FRAME] #I966:49619;864:51418 template=EL-99ca7a3f
+                  [FRAME] #I966:49619;864:51419 template=EL-414176fc
+                    [FRAME] #I966:49619;864:51420 template=EL-99ca7a3f
+                  [FRAME] #I966:49619;864:51421 template=EL-414176fc
+                    [FRAME] #I966:49619;864:51422 template=EL-99ca7a3f
+                  [FRAME] #I966:49619;864:51423 template=EL-414176fc
+                    [FRAME] #I966:49619;864:51424 template=EL-99ca7a3f
+                  [FRAME] #I966:49619;864:51425 template=EL-414176fc
+                    [FRAME] #I966:49619;864:51426 template=EL-99ca7a3f
+                  [FRAME] #I966:49619;864:51427 template=EL-414176fc
+                    [FRAME] #I966:49619;864:51428 template=EL-99ca7a3f
+                  [FRAME] #I966:49619;864:51429 template=EL-414176fc
+                    [FRAME] #I966:49619;864:51430 template=EL-99ca7a3f
+                  [FRAME] #I966:49619;864:51431 template=EL-414176fc
+                    [FRAME] #I966:49619;864:51432 template=EL-99ca7a3f
+                  [FRAME] #I966:49619;864:51433 template=EL-414176fc
+                    [FRAME] #I966:49619;864:51434 template=EL-99ca7a3f
+                  [FRAME] #I966:49619;864:51435 template=EL-414176fc
+                    [FRAME] #I966:49619;864:51436 template=EL-99ca7a3f
+                  [FRAME] #I966:49619;864:51437 template=EL-414176fc
+                    [FRAME] #I966:49619;864:51438 template=EL-99ca7a3f
+              [FRAME] #I966:49619;864:51439 template=EL-235879b0
+                [FRAME] #I966:49619;864:51440 template=EL-d313a6ec
+                  [IMAGE-SVG] "Line Duotone / Essentional, UI / Close Circle" #I966:49619;864:51441 template=EL-ff0611ae
+                  [FRAME] #I966:49619;864:51442 template=EL-9593ee8a
+                [IMAGE-SVG] "Linear / Security / Eye" #I966:49619;864:51443 template=EL-e836e453
+          [INSTANCE] "Input-password" #966:49620 template=EL-36a762b5
+            [FRAME] "Frame" #I966:49620;864:51407 template=EL-92cf7249
+              [FRAME] "Frame" #I966:49620;864:51408 template=EL-1f0b7899
+                [TEXT] #I966:49620;864:51409 template=EL-f87fa05b
+                [FRAME] #I966:49620;864:51410 template=EL-46e13874
+                  [FRAME] #I966:49620;864:51411 template=EL-414176fc
+                    [FRAME] #I966:49620;864:51412 template=EL-99ca7a3f
+                  [FRAME] #I966:49620;864:51413 template=EL-414176fc
+                    [FRAME] #I966:49620;864:51414 template=EL-99ca7a3f
+                  [FRAME] #I966:49620;864:51415 template=EL-414176fc
+                    [FRAME] #I966:49620;864:51416 template=EL-99ca7a3f
+                  [FRAME] #I966:49620;864:51417 template=EL-414176fc
+                    [FRAME] #I966:49620;864:51418 template=EL-99ca7a3f
+                  [FRAME] #I966:49620;864:51419 template=EL-414176fc
+                    [FRAME] #I966:49620;864:51420 template=EL-99ca7a3f
+                  [FRAME] #I966:49620;864:51421 template=EL-414176fc
+                    [FRAME] #I966:49620;864:51422 template=EL-99ca7a3f
+                  [FRAME] #I966:49620;864:51423 template=EL-414176fc
+                    [FRAME] #I966:49620;864:51424 template=EL-99ca7a3f
+                  [FRAME] #I966:49620;864:51425 template=EL-414176fc
+                    [FRAME] #I966:49620;864:51426 template=EL-99ca7a3f
+                  [FRAME] #I966:49620;864:51427 template=EL-414176fc
+                    [FRAME] #I966:49620;864:51428 template=EL-99ca7a3f
+                  [FRAME] #I966:49620;864:51429 template=EL-414176fc
+                    [FRAME] #I966:49620;864:51430 template=EL-99ca7a3f
+                  [FRAME] #I966:49620;864:51431 template=EL-414176fc
+                    [FRAME] #I966:49620;864:51432 template=EL-99ca7a3f
+                  [FRAME] #I966:49620;864:51433 template=EL-414176fc
+                    [FRAME] #I966:49620;864:51434 template=EL-99ca7a3f
+                  [FRAME] #I966:49620;864:51435 template=EL-414176fc
+                    [FRAME] #I966:49620;864:51436 template=EL-99ca7a3f
+                  [FRAME] #I966:49620;864:51437 template=EL-414176fc
+                    [FRAME] #I966:49620;864:51438 template=EL-99ca7a3f
+              [FRAME] #I966:49620;864:51439 template=EL-235879b0
+                [FRAME] #I966:49620;864:51440 template=EL-d313a6ec
+                  [IMAGE-SVG] "Line Duotone / Essentional, UI / Close Circle" #I966:49620;864:51441 template=EL-ff0611ae
+                  [FRAME] #I966:49620;864:51442 template=EL-9593ee8a
+                [IMAGE-SVG] "Linear / Security / Eye" #I966:49620;864:51443 template=EL-e836e453
+          [FRAME] #966:49621 template=EL-50ef8a26
+            [INSTANCE] #966:49622 template=EL-9e16dd56
+              [TEXT] #I966:49622;277:8778 template=EL-953f0472
+            [INSTANCE] "Checkbox" #966:49623 template=EL-a5f9caaf
+              [FRAME] #I966:49623;862:19218 template=EL-3ad43b36
+                [FRAME] "Checkbox base" #I966:49623;862:19219 template=EL-73371b9d
+                  [IMAGE-SVG] "basil:check-outline" #I966:49623;862:19225 template=EL-762d5cce
+              [TEXT] #I966:49623;862:19221 template=EL-9a2d2efc
+        [FRAME] #966:49624 template=EL-790ee3d6
+          [TEXT] #966:49625 template=EL-19485b01
+          [INSTANCE] #966:49626 template=EL-d2a13494
+            [TEXT] #I966:49626;864:25312 template=EL-0f04b0c3
+    [FRAME] "Категория товаров" #966:49627 layout={"mode":"row","justifyContent":"center","alignItems":"center","sizing":{"horizontal":"fixed","vertical":"fixed"},"locationRelativeToParent":{"x":4870,"y":1125},"dimensions":{"width":1440,"height":800}} fills=fill_b92dd999
+      [FRAME] "Image" #966:49628 layout=layout_38a9568e fills=[{"type":"IMAGE","imageRef":"4392ff2387ce5a4f5f7f7fcf06cd6b49170dc290","scaleMode":"FILL","backgroundSize":"cover","backgroundRepeat":"no-repeat","isBackground":true,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}},{"type":"IMAGE","imageRef":"84c8217ef0c94f961c3ae566563b6249c7e5c675","scaleMode":"FILL","backgroundSize":"cover","backgroundRepeat":"no-repeat","isBackground":true,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}},"#B0B0B0"]
+        [FRAME] "Slider Indicator" #966:49629 template=EL-318c758f
+          [IMAGE-SVG] "vuesax/linear/arrow-right" #966:49630 template=EL-f1b0f0c9
+          [FRAME] "Progress Indicator" #966:49634 template=EL-338518e8
+            [RECTANGLE] "Line Active" #966:49635 template=EL-9d015771
+          [IMAGE-SVG] "vuesax/linear/arrow-right" #966:49636 template=EL-f1b0f0c9
+      [FRAME] #966:49640 template=EL-58fb6f1c
+        [TEXT] #966:49641 template=EL-9cacd7a2
+        [FRAME] #966:49642 template=EL-0685d6ec
+          [INSTANCE] "Input" #966:49643 template=EL-42d936a3
+            [FRAME] #I966:49643;864:23119 template=EL-312c119f
+              [TEXT] #I966:49643;864:23120 template=EL-5ab3370e
+              [TEXT] #I966:49643;864:23121 template=EL-c6701a83
+          [INSTANCE] "Input" #966:49644 template=EL-0e93c075
+            [FRAME] #I966:49644;864:23119 template=EL-312c119f
+              [TEXT] #I966:49644;864:23120 template=EL-d6bd7b15
+              [TEXT] #I966:49644;864:23121 template=EL-15ce82c6
+          [INSTANCE] "Input-password" #966:49645 template=EL-f0459587
+            [FRAME] "Frame" #I966:49645;864:51325 template=EL-be995052
+              [FRAME] "Frame" #I966:49645;864:51326 template=EL-1f0b7899
+                [TEXT] #I966:49645;864:51327 template=EL-0fef60ea
+                [TEXT] #I966:49645;864:51328 template=EL-c09fbf53
+              [FRAME] #I966:49645;864:51329 template=EL-235879b0
+                [FRAME] #I966:49645;864:51330 template=EL-d313a6ec
+                  [IMAGE-SVG] "Line Duotone / Essentional, UI / Close Circle" #I966:49645;864:51331 template=EL-ff0611ae
+                  [FRAME] #I966:49645;864:51332 template=EL-9593ee8a
+                [IMAGE-SVG] "Linear / Security / Eye" #I966:49645;864:51333 template=EL-e836e453
+          [INSTANCE] "Input-password" #966:49646 template=EL-be44a191
+            [FRAME] "Frame" #I966:49646;864:51325 template=EL-be995052
+              [FRAME] "Frame" #I966:49646;864:51326 template=EL-1f0b7899
+                [TEXT] #I966:49646;864:51327 template=EL-f87fa05b
+                [TEXT] #I966:49646;864:51328 template=EL-c09fbf53
+              [FRAME] #I966:49646;864:51329 template=EL-235879b0
+                [FRAME] #I966:49646;864:51330 template=EL-d313a6ec
+                  [IMAGE-SVG] "Line Duotone / Essentional, UI / Close Circle" #I966:49646;864:51331 template=EL-ff0611ae
+                  [FRAME] #I966:49646;864:51332 template=EL-9593ee8a
+                [IMAGE-SVG] "Linear / Security / Eye" #I966:49646;864:51333 template=EL-e836e453
+            [FRAME] #I966:49646;864:51334 template=EL-82b9f1ef
+              [TEXT] #I966:49646;864:51335 template=EL-f49fc222
+          [FRAME] #966:49647 template=EL-50ef8a26
+            [INSTANCE] #966:49648 template=EL-9e16dd56
+              [TEXT] #I966:49648;277:8778 template=EL-953f0472
+            [INSTANCE] "Checkbox" #966:49649 layout=layout_641aad05 componentId=862:19234
+              [FRAME] #I966:49649;862:19235 template=EL-3ad43b36
+                [FRAME] "Checkbox base" #I966:49649;862:19236 layout=layout_d0a883b0 strokes=fill_0ea70a13 strokeWeight=1px borderRadius=2px
+                [FRAME] "Checkbox base" #I966:49649;862:19237 layout={"mode":"column","padding":"10px","gap":"10px","sizing":{"horizontal":"fixed","vertical":"hug"},"position":"absolute","locationRelativeToParent":{"x":-3,"y":-1},"dimensions":{"width":30}} strokes=fill_0ea70a13 strokeWeight=1px borderRadius=3px
+              [TEXT] #I966:49649;862:19238 layout=layout_6eabe52e fills=fill_0ea70a13 textStyle=T2 text="{ts2}Я соглашаюсь с политикой конфиденциальности и даю согласие на обработку персональных данных{/ts2}"
+        [FRAME] #966:49650 template=EL-790ee3d6
+          [TEXT] #966:49651 template=EL-19485b01
+          [INSTANCE] #966:49652 template=EL-d2a13494
+            [TEXT] #I966:49652;864:25312 template=EL-0f04b0c3
+    [FRAME] "Категория товаров" #966:49653 layout={"mode":"row","justifyContent":"center","alignItems":"center","sizing":{"horizontal":"fixed","vertical":"fixed"},"locationRelativeToParent":{"x":100,"y":1125},"dimensions":{"width":1440,"height":800}} fills=fill_b92dd999
+      [FRAME] "Image" #966:49654 template=EL-8c67e9b2
+        [FRAME] "Slider Indicator" #966:49655 template=EL-318c758f
+          [IMAGE-SVG] "vuesax/linear/arrow-right" #966:49656 template=EL-f1b0f0c9
+          [FRAME] "Progress Indicator" #966:49660 template=EL-338518e8
+            [RECTANGLE] "Line Active" #966:49661 template=EL-9d015771
+          [IMAGE-SVG] "vuesax/linear/arrow-right" #966:49662 template=EL-f1b0f0c9
+      [FRAME] #966:49666 template=EL-58fb6f1c
+        [TEXT] #966:49667 template=EL-9cacd7a2
+        [FRAME] #966:49668 template=EL-0685d6ec
+          [INSTANCE] "Input" #966:49669 template=EL-42d936a3
+            [FRAME] #I966:49669;864:23119 template=EL-312c119f
+              [TEXT] #I966:49669;864:23120 template=EL-5ab3370e
+              [TEXT] #I966:49669;864:23121 template=EL-c6701a83
+          [INSTANCE] "Input" #966:49670 layout=layout_9e9b9c36 fills=fill_658ab2fa componentId=864:23118 componentProperties={"Discription":false,"Discription-Button":false}
+            [FRAME] #I966:49670;864:23119 template=EL-312c119f
+              [TEXT] #I966:49670;864:23120 template=EL-d6bd7b15
+              [TEXT] #I966:49670;864:23121 template=EL-15ce82c6
+          [INSTANCE] "Input" #966:49671 template=EL-d9078507
+            [FRAME] "Frame" #I966:49671;864:23139 template=EL-be995052
+              [FRAME] #I966:49671;864:23140 template=EL-a8ef7fa3
+                [TEXT] #I966:49671;864:23141 template=EL-d881295e
+                [TEXT] #I966:49671;864:23142 template=EL-13f71c5d
+            [FRAME] #I966:49671;864:23143 template=EL-8598dc9b
+              [TEXT] #I966:49671;864:23144 layout=layout_177c5efc fills=fill_0ea70a13 textStyle=Caption/S text="Номер уже зарегестрирован"
+              [INSTANCE] #I966:49671;864:23145 template=EL-ce12ebea
+          [INSTANCE] "Input-password" #966:49672 template=EL-36a762b5
+            [FRAME] "Frame" #I966:49672;864:51407 template=EL-92cf7249
+              [FRAME] "Frame" #I966:49672;864:51408 template=EL-1f0b7899
+                [TEXT] #I966:49672;864:51409 template=EL-0fef60ea
+                [FRAME] #I966:49672;864:51410 template=EL-46e13874
+                  [FRAME] #I966:49672;864:51411 template=EL-414176fc
+                    [FRAME] #I966:49672;864:51412 template=EL-99ca7a3f
+                  [FRAME] #I966:49672;864:51413 template=EL-414176fc
+                    [FRAME] #I966:49672;864:51414 template=EL-99ca7a3f
+                  [FRAME] #I966:49672;864:51415 template=EL-414176fc
+                    [FRAME] #I966:49672;864:51416 template=EL-99ca7a3f
+                  [FRAME] #I966:49672;864:51417 template=EL-414176fc
+                    [FRAME] #I966:49672;864:51418 template=EL-99ca7a3f
+                  [FRAME] #I966:49672;864:51419 template=EL-414176fc
+                    [FRAME] #I966:49672;864:51420 template=EL-99ca7a3f
+                  [FRAME] #I966:49672;864:51421 template=EL-414176fc
+                    [FRAME] #I966:49672;864:51422 template=EL-99ca7a3f
+                  [FRAME] #I966:49672;864:51423 template=EL-414176fc
+                    [FRAME] #I966:49672;864:51424 template=EL-99ca7a3f
+                  [FRAME] #I966:49672;864:51425 template=EL-414176fc
+                    [FRAME] #I966:49672;864:51426 template=EL-99ca7a3f
+                  [FRAME] #I966:49672;864:51427 template=EL-414176fc
+                    [FRAME] #I966:49672;864:51428 template=EL-99ca7a3f
+                  [FRAME] #I966:49672;864:51429 template=EL-414176fc
+                    [FRAME] #I966:49672;864:51430 template=EL-99ca7a3f
+                  [FRAME] #I966:49672;864:51431 template=EL-414176fc
+                    [FRAME] #I966:49672;864:51432 template=EL-99ca7a3f
+                  [FRAME] #I966:49672;864:51433 template=EL-414176fc
+                    [FRAME] #I966:49672;864:51434 template=EL-99ca7a3f
+                  [FRAME] #I966:49672;864:51435 template=EL-414176fc
+                    [FRAME] #I966:49672;864:51436 template=EL-99ca7a3f
+                  [FRAME] #I966:49672;864:51437 template=EL-414176fc
+                    [FRAME] #I966:49672;864:51438 template=EL-99ca7a3f
+              [FRAME] #I966:49672;864:51439 template=EL-235879b0
+                [FRAME] #I966:49672;864:51440 template=EL-d313a6ec
+                  [IMAGE-SVG] "Line Duotone / Essentional, UI / Close Circle" #I966:49672;864:51441 template=EL-ff0611ae
+                  [FRAME] #I966:49672;864:51442 template=EL-9593ee8a
+                [IMAGE-SVG] "Linear / Security / Eye" #I966:49672;864:51443 template=EL-e836e453
+          [INSTANCE] "Input-password" #966:49673 template=EL-36a762b5
+            [FRAME] "Frame" #I966:49673;864:51407 template=EL-92cf7249
+              [FRAME] "Frame" #I966:49673;864:51408 template=EL-1f0b7899
+                [TEXT] #I966:49673;864:51409 template=EL-f87fa05b
+                [FRAME] #I966:49673;864:51410 template=EL-46e13874
+                  [FRAME] #I966:49673;864:51411 template=EL-414176fc
+                    [FRAME] #I966:49673;864:51412 template=EL-99ca7a3f
+                  [FRAME] #I966:49673;864:51413 template=EL-414176fc
+                    [FRAME] #I966:49673;864:51414 template=EL-99ca7a3f
+                  [FRAME] #I966:49673;864:51415 template=EL-414176fc
+                    [FRAME] #I966:49673;864:51416 template=EL-99ca7a3f
+                  [FRAME] #I966:49673;864:51417 template=EL-414176fc
+                    [FRAME] #I966:49673;864:51418 template=EL-99ca7a3f
+                  [FRAME] #I966:49673;864:51419 template=EL-414176fc
+                    [FRAME] #I966:49673;864:51420 template=EL-99ca7a3f
+                  [FRAME] #I966:49673;864:51421 template=EL-414176fc
+                    [FRAME] #I966:49673;864:51422 template=EL-99ca7a3f
+                  [FRAME] #I966:49673;864:51423 template=EL-414176fc
+                    [FRAME] #I966:49673;864:51424 template=EL-99ca7a3f
+                  [FRAME] #I966:49673;864:51425 template=EL-414176fc
+                    [FRAME] #I966:49673;864:51426 template=EL-99ca7a3f
+                  [FRAME] #I966:49673;864:51427 template=EL-414176fc
+                    [FRAME] #I966:49673;864:51428 template=EL-99ca7a3f
+                  [FRAME] #I966:49673;864:51429 template=EL-414176fc
+                    [FRAME] #I966:49673;864:51430 template=EL-99ca7a3f
+                  [FRAME] #I966:49673;864:51431 template=EL-414176fc
+                    [FRAME] #I966:49673;864:51432 template=EL-99ca7a3f
+                  [FRAME] #I966:49673;864:51433 template=EL-414176fc
+                    [FRAME] #I966:49673;864:51434 template=EL-99ca7a3f
+                  [FRAME] #I966:49673;864:51435 template=EL-414176fc
+                    [FRAME] #I966:49673;864:51436 template=EL-99ca7a3f
+                  [FRAME] #I966:49673;864:51437 template=EL-414176fc
+                    [FRAME] #I966:49673;864:51438 template=EL-99ca7a3f
+              [FRAME] #I966:49673;864:51439 template=EL-235879b0
+                [FRAME] #I966:49673;864:51440 template=EL-d313a6ec
+                  [IMAGE-SVG] "Line Duotone / Essentional, UI / Close Circle" #I966:49673;864:51441 template=EL-ff0611ae
+                  [FRAME] #I966:49673;864:51442 template=EL-9593ee8a
+                [IMAGE-SVG] "Linear / Security / Eye" #I966:49673;864:51443 template=EL-e836e453
+          [FRAME] #966:49674 template=EL-50ef8a26
+            [INSTANCE] #966:49675 template=EL-9e16dd56
+              [TEXT] #I966:49675;277:8778 template=EL-953f0472
+            [INSTANCE] "Checkbox" #966:49676 template=EL-a5f9caaf
+              [FRAME] #I966:49676;862:19218 template=EL-3ad43b36
+                [FRAME] "Checkbox base" #I966:49676;862:19219 template=EL-73371b9d
+                  [IMAGE-SVG] "basil:check-outline" #I966:49676;862:19225 template=EL-762d5cce
+              [TEXT] #I966:49676;862:19221 template=EL-9a2d2efc
+        [FRAME] #966:49677 template=EL-790ee3d6
+          [TEXT] #966:49678 template=EL-19485b01
+          [INSTANCE] #966:49679 template=EL-d2a13494
+            [TEXT] #I966:49679;864:25312 template=EL-0f04b0c3
+    [FRAME] "Категория товаров" #966:49680 layout={"mode":"row","justifyContent":"center","alignItems":"center","sizing":{"horizontal":"fixed","vertical":"fixed"},"locationRelativeToParent":{"x":1690,"y":1125},"dimensions":{"width":1440,"height":800}} fills=fill_b92dd999
+      [FRAME] "Image" #966:49681 template=EL-8c67e9b2
+        [FRAME] "Slider Indicator" #966:49682 template=EL-318c758f
+          [IMAGE-SVG] "vuesax/linear/arrow-right" #966:49683 template=EL-f1b0f0c9
+          [FRAME] "Progress Indicator" #966:49687 template=EL-338518e8
+            [RECTANGLE] "Line Active" #966:49688 template=EL-9d015771
+          [IMAGE-SVG] "vuesax/linear/arrow-right" #966:49689 template=EL-f1b0f0c9
+      [FRAME] #966:49693 template=EL-58fb6f1c
+        [TEXT] #966:49694 template=EL-9cacd7a2
+        [FRAME] #966:49695 template=EL-0685d6ec
+          [INSTANCE] "Input" #966:49696 layout=layout_435677f1 componentId=864:23138 componentProperties={"Discription-Button":true,"Discription":false}
+            [FRAME] "Frame" #I966:49696;864:23139 template=EL-be995052
+              [FRAME] #I966:49696;864:23140 template=EL-a8ef7fa3
+                [TEXT] #I966:49696;864:23141 template=EL-5ab3370e
+                [TEXT] #I966:49696;864:23142 template=EL-c6701a83
+          [INSTANCE] "Input" #966:49697 layout=layout_e620ffb0 componentId=864:23138 componentProperties={"Discription-Button":false,"Discription":true}
+            [FRAME] "Frame" #I966:49697;864:23139 template=EL-be995052
+              [FRAME] #I966:49697;864:23140 template=EL-a8ef7fa3
+                [TEXT] #I966:49697;864:23141 template=EL-d6bd7b15
+                [TEXT] #I966:49697;864:23142 template=EL-15ce82c6
+            [FRAME] #I966:49697;864:23143 layout={"mode":"row","alignSelf":"stretch","alignItems":"center","sizing":{"horizontal":"fill","vertical":"hug"}} componentPropertyReferences={"visible":"Discription"}
+              [TEXT] #I966:49697;864:23144 layout=layout_177c5efc fills=fill_0ea70a13 textStyle=Caption/S text="Пользователь уже зарегистрирован"
+          [INSTANCE] "Input-password" #966:49698 template=EL-36a762b5
+            [FRAME] "Frame" #I966:49698;864:51407 template=EL-92cf7249
+              [FRAME] "Frame" #I966:49698;864:51408 template=EL-1f0b7899
+                [TEXT] #I966:49698;864:51409 template=EL-0fef60ea
+                [FRAME] #I966:49698;864:51410 template=EL-46e13874
+                  [FRAME] #I966:49698;864:51411 template=EL-414176fc
+                    [FRAME] #I966:49698;864:51412 template=EL-99ca7a3f
+                  [FRAME] #I966:49698;864:51413 template=EL-414176fc
+                    [FRAME] #I966:49698;864:51414 template=EL-99ca7a3f
+                  [FRAME] #I966:49698;864:51415 template=EL-414176fc
+                    [FRAME] #I966:49698;864:51416 template=EL-99ca7a3f
+                  [FRAME] #I966:49698;864:51417 template=EL-414176fc
+                    [FRAME] #I966:49698;864:51418 template=EL-99ca7a3f
+                  [FRAME] #I966:49698;864:51419 template=EL-414176fc
+                    [FRAME] #I966:49698;864:51420 template=EL-99ca7a3f
+                  [FRAME] #I966:49698;864:51421 template=EL-414176fc
+                    [FRAME] #I966:49698;864:51422 template=EL-99ca7a3f
+                  [FRAME] #I966:49698;864:51423 template=EL-414176fc
+                    [FRAME] #I966:49698;864:51424 template=EL-99ca7a3f
+                  [FRAME] #I966:49698;864:51425 template=EL-414176fc
+                    [FRAME] #I966:49698;864:51426 template=EL-99ca7a3f
+                  [FRAME] #I966:49698;864:51427 template=EL-414176fc
+                    [FRAME] #I966:49698;864:51428 template=EL-99ca7a3f
+                  [FRAME] #I966:49698;864:51429 template=EL-414176fc
+                    [FRAME] #I966:49698;864:51430 template=EL-99ca7a3f
+                  [FRAME] #I966:49698;864:51431 template=EL-414176fc
+                    [FRAME] #I966:49698;864:51432 template=EL-99ca7a3f
+                  [FRAME] #I966:49698;864:51433 template=EL-414176fc
+                    [FRAME] #I966:49698;864:51434 template=EL-99ca7a3f
+                  [FRAME] #I966:49698;864:51435 template=EL-414176fc
+                    [FRAME] #I966:49698;864:51436 template=EL-99ca7a3f
+                  [FRAME] #I966:49698;864:51437 template=EL-414176fc
+                    [FRAME] #I966:49698;864:51438 template=EL-99ca7a3f
+              [FRAME] #I966:49698;864:51439 template=EL-235879b0
+                [FRAME] #I966:49698;864:51440 template=EL-d313a6ec
+                  [IMAGE-SVG] "Line Duotone / Essentional, UI / Close Circle" #I966:49698;864:51441 template=EL-ff0611ae
+                  [FRAME] #I966:49698;864:51442 template=EL-9593ee8a
+                [IMAGE-SVG] "Linear / Security / Eye" #I966:49698;864:51443 template=EL-e836e453
+          [INSTANCE] "Input-password" #966:49699 template=EL-36a762b5
+            [FRAME] "Frame" #I966:49699;864:51407 template=EL-92cf7249
+              [FRAME] "Frame" #I966:49699;864:51408 template=EL-1f0b7899
+                [TEXT] #I966:49699;864:51409 template=EL-f87fa05b
+                [FRAME] #I966:49699;864:51410 template=EL-46e13874
+                  [FRAME] #I966:49699;864:51411 template=EL-414176fc
+                    [FRAME] #I966:49699;864:51412 template=EL-99ca7a3f
+                  [FRAME] #I966:49699;864:51413 template=EL-414176fc
+                    [FRAME] #I966:49699;864:51414 template=EL-99ca7a3f
+                  [FRAME] #I966:49699;864:51415 template=EL-414176fc
+                    [FRAME] #I966:49699;864:51416 template=EL-99ca7a3f
+                  [FRAME] #I966:49699;864:51417 template=EL-414176fc
+                    [FRAME] #I966:49699;864:51418 template=EL-99ca7a3f
+                  [FRAME] #I966:49699;864:51419 template=EL-414176fc
+                    [FRAME] #I966:49699;864:51420 template=EL-99ca7a3f
+                  [FRAME] #I966:49699;864:51421 template=EL-414176fc
+                    [FRAME] #I966:49699;864:51422 template=EL-99ca7a3f
+                  [FRAME] #I966:49699;864:51423 template=EL-414176fc
+                    [FRAME] #I966:49699;864:51424 template=EL-99ca7a3f
+                  [FRAME] #I966:49699;864:51425 template=EL-414176fc
+                    [FRAME] #I966:49699;864:51426 template=EL-99ca7a3f
+                  [FRAME] #I966:49699;864:51427 template=EL-414176fc
+                    [FRAME] #I966:49699;864:51428 template=EL-99ca7a3f
+                  [FRAME] #I966:49699;864:51429 template=EL-414176fc
+                    [FRAME] #I966:49699;864:51430 template=EL-99ca7a3f
+                  [FRAME] #I966:49699;864:51431 template=EL-414176fc
+                    [FRAME] #I966:49699;864:51432 template=EL-99ca7a3f
+                  [FRAME] #I966:49699;864:51433 template=EL-414176fc
+                    [FRAME] #I966:49699;864:51434 template=EL-99ca7a3f
+                  [FRAME] #I966:49699;864:51435 template=EL-414176fc
+                    [FRAME] #I966:49699;864:51436 template=EL-99ca7a3f
+                  [FRAME] #I966:49699;864:51437 template=EL-414176fc
+                    [FRAME] #I966:49699;864:51438 template=EL-99ca7a3f
+              [FRAME] #I966:49699;864:51439 template=EL-235879b0
+                [FRAME] #I966:49699;864:51440 template=EL-d313a6ec
+                  [IMAGE-SVG] "Line Duotone / Essentional, UI / Close Circle" #I966:49699;864:51441 template=EL-ff0611ae
+                  [FRAME] #I966:49699;864:51442 template=EL-9593ee8a
+                [IMAGE-SVG] "Linear / Security / Eye" #I966:49699;864:51443 template=EL-e836e453
+          [FRAME] #966:49700 template=EL-50ef8a26
+            [INSTANCE] #966:49701 template=EL-9e16dd56
+              [TEXT] #I966:49701;277:8778 template=EL-953f0472
+            [INSTANCE] "Checkbox" #966:49702 template=EL-a5f9caaf
+              [FRAME] #I966:49702;862:19218 template=EL-3ad43b36
+                [FRAME] "Checkbox base" #I966:49702;862:19219 template=EL-73371b9d
+                  [IMAGE-SVG] "basil:check-outline" #I966:49702;862:19225 template=EL-762d5cce
+              [TEXT] #I966:49702;862:19221 template=EL-9a2d2efc
+        [FRAME] #966:49703 template=EL-790ee3d6
+          [TEXT] #966:49704 template=EL-19485b01
+          [INSTANCE] #966:49705 template=EL-d2a13494
+            [TEXT] #I966:49705;864:25312 template=EL-0f04b0c3
+    [FRAME] "Категория товаров" #966:49706 layout={"mode":"row","justifyContent":"center","alignItems":"center","sizing":{"horizontal":"fixed","vertical":"fixed"},"locationRelativeToParent":{"x":3280,"y":1125},"dimensions":{"width":1440,"height":800}} fills=fill_b92dd999
+      [FRAME] "Image" #966:49707 template=EL-8c67e9b2
+        [FRAME] "Slider Indicator" #966:49708 template=EL-318c758f
+          [IMAGE-SVG] "vuesax/linear/arrow-right" #966:49709 template=EL-f1b0f0c9
+          [FRAME] "Progress Indicator" #966:49713 template=EL-338518e8
+            [RECTANGLE] "Line Active" #966:49714 template=EL-9d015771
+          [IMAGE-SVG] "vuesax/linear/arrow-right" #966:49715 template=EL-f1b0f0c9
+      [FRAME] #966:49719 template=EL-58fb6f1c
+        [TEXT] #966:49720 template=EL-9cacd7a2
+        [FRAME] #966:49721 template=EL-0685d6ec
+          [INSTANCE] "Input" #966:49722 template=EL-42d936a3
+            [FRAME] #I966:49722;864:23119 template=EL-312c119f
+              [TEXT] #I966:49722;864:23120 template=EL-5ab3370e
+              [TEXT] #I966:49722;864:23121 template=EL-c6701a83
+          [INSTANCE] "Input" #966:49723 template=EL-0e93c075
+            [FRAME] #I966:49723;864:23119 template=EL-312c119f
+              [TEXT] #I966:49723;864:23120 template=EL-d6bd7b15
+              [TEXT] #I966:49723;864:23121 template=EL-15ce82c6
+          [INSTANCE] "Input-password" #966:49724 template=EL-f0459587
+            [FRAME] "Frame" #I966:49724;864:51325 template=EL-be995052
+              [FRAME] "Frame" #I966:49724;864:51326 template=EL-1f0b7899
+                [TEXT] #I966:49724;864:51327 template=EL-0fef60ea
+                [TEXT] #I966:49724;864:51328 template=EL-c09fbf53
+              [FRAME] #I966:49724;864:51329 template=EL-235879b0
+                [FRAME] #I966:49724;864:51330 template=EL-d313a6ec
+                  [IMAGE-SVG] "Line Duotone / Essentional, UI / Close Circle" #I966:49724;864:51331 template=EL-ff0611ae
+                  [FRAME] #I966:49724;864:51332 template=EL-9593ee8a
+                [IMAGE-SVG] "Linear / Security / Eye" #I966:49724;864:51333 template=EL-e836e453
+          [INSTANCE] "Input-password" #966:49725 template=EL-be44a191
+            [FRAME] "Frame" #I966:49725;864:51325 template=EL-be995052
+              [FRAME] "Frame" #I966:49725;864:51326 template=EL-1f0b7899
+                [TEXT] #I966:49725;864:51327 template=EL-f87fa05b
+                [TEXT] #I966:49725;864:51328 template=EL-c09fbf53
+              [FRAME] #I966:49725;864:51329 template=EL-235879b0
+                [FRAME] #I966:49725;864:51330 template=EL-d313a6ec
+                  [IMAGE-SVG] "Line Duotone / Essentional, UI / Close Circle" #I966:49725;864:51331 template=EL-ff0611ae
+                  [FRAME] #I966:49725;864:51332 template=EL-9593ee8a
+                [IMAGE-SVG] "Linear / Security / Eye" #I966:49725;864:51333 template=EL-e836e453
+            [FRAME] #I966:49725;864:51334 template=EL-82b9f1ef
+              [TEXT] #I966:49725;864:51335 template=EL-f49fc222
+          [FRAME] #966:49726 template=EL-50ef8a26
+            [INSTANCE] #966:49727 template=EL-9e16dd56
+              [TEXT] #I966:49727;277:8778 template=EL-953f0472
+            [INSTANCE] "Checkbox" #966:49728 template=EL-a5f9caaf
+              [FRAME] #I966:49728;862:19218 template=EL-3ad43b36
+                [FRAME] "Checkbox base" #I966:49728;862:19219 template=EL-73371b9d
+                  [IMAGE-SVG] "basil:check-outline" #I966:49728;862:19225 template=EL-762d5cce
+              [TEXT] #I966:49728;862:19221 template=EL-9a2d2efc
+        [FRAME] #966:49729 template=EL-790ee3d6
+          [TEXT] #966:49730 template=EL-19485b01
+          [INSTANCE] #966:49731 template=EL-d2a13494
+            [TEXT] #I966:49731;864:25312 template=EL-0f04b0c3
+  [SECTION] "Забыли пароль" #966:49732 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":250,"y":3723},"dimensions":{"width":4821,"height":1000}} fills=fill_dd7f3e3e strokes=fill_dbe29f28 strokeWeight=1px
+    [FRAME] "Категория товаров" #966:49733 layout={"mode":"row","justifyContent":"center","alignItems":"center","sizing":{"horizontal":"fixed","vertical":"fixed"},"locationRelativeToParent":{"x":100.5,"y":100},"dimensions":{"width":1440,"height":800}} fills=fill_b92dd999
+      [FRAME] "Image" #966:49734 template=EL-8c67e9b2
+        [FRAME] "Slider Indicator" #966:49735 template=EL-318c758f
+          [IMAGE-SVG] "vuesax/linear/arrow-right" #966:49736 template=EL-f1b0f0c9
+          [FRAME] "Progress Indicator" #966:49740 template=EL-338518e8
+            [RECTANGLE] "Line Active" #966:49741 template=EL-9d015771
+          [IMAGE-SVG] "vuesax/linear/arrow-right" #966:49742 template=EL-f1b0f0c9
+      [FRAME] #966:49746 template=EL-58fb6f1c
+        [TEXT] #966:49747 template=EL-db1e2252
+        [FRAME] #966:49748 template=EL-0685d6ec
+          [INSTANCE] "Input" #966:49749 template=EL-b18cd488
+            [FRAME] #I966:49749;864:23119 template=EL-312c119f
+              [TEXT] #I966:49749;864:23120 template=EL-d881295e
+              [TEXT] #I966:49749;864:23121 template=EL-13f71c5d
+          [INSTANCE] "Input-password" #966:49750 template=EL-36a762b5
+            [FRAME] "Frame" #I966:49750;864:51407 template=EL-92cf7249
+              [FRAME] "Frame" #I966:49750;864:51408 template=EL-1f0b7899
+                [TEXT] #I966:49750;864:51409 template=EL-6dce75e2
+                [FRAME] #I966:49750;864:51410 template=EL-46e13874
+                  [FRAME] #I966:49750;864:51411 template=EL-414176fc
+                    [FRAME] #I966:49750;864:51412 template=EL-99ca7a3f
+                  [FRAME] #I966:49750;864:51413 template=EL-414176fc
+                    [FRAME] #I966:49750;864:51414 template=EL-99ca7a3f
+                  [FRAME] #I966:49750;864:51415 template=EL-414176fc
+                    [FRAME] #I966:49750;864:51416 template=EL-99ca7a3f
+                  [FRAME] #I966:49750;864:51417 template=EL-414176fc
+                    [FRAME] #I966:49750;864:51418 template=EL-99ca7a3f
+                  [FRAME] #I966:49750;864:51419 template=EL-414176fc
+                    [FRAME] #I966:49750;864:51420 template=EL-99ca7a3f
+                  [FRAME] #I966:49750;864:51421 template=EL-414176fc
+                    [FRAME] #I966:49750;864:51422 template=EL-99ca7a3f
+                  [FRAME] #I966:49750;864:51423 template=EL-414176fc
+                    [FRAME] #I966:49750;864:51424 template=EL-99ca7a3f
+                  [FRAME] #I966:49750;864:51425 template=EL-414176fc
+                    [FRAME] #I966:49750;864:51426 template=EL-99ca7a3f
+                  [FRAME] #I966:49750;864:51427 template=EL-414176fc
+                    [FRAME] #I966:49750;864:51428 template=EL-99ca7a3f
+                  [FRAME] #I966:49750;864:51429 template=EL-414176fc
+                    [FRAME] #I966:49750;864:51430 template=EL-99ca7a3f
+                  [FRAME] #I966:49750;864:51431 template=EL-414176fc
+                    [FRAME] #I966:49750;864:51432 template=EL-99ca7a3f
+                  [FRAME] #I966:49750;864:51433 template=EL-414176fc
+                    [FRAME] #I966:49750;864:51434 template=EL-99ca7a3f
+                  [FRAME] #I966:49750;864:51435 template=EL-414176fc
+                    [FRAME] #I966:49750;864:51436 template=EL-99ca7a3f
+                  [FRAME] #I966:49750;864:51437 template=EL-414176fc
+                    [FRAME] #I966:49750;864:51438 template=EL-99ca7a3f
+              [FRAME] #I966:49750;864:51439 template=EL-235879b0
+                [FRAME] #I966:49750;864:51440 template=EL-d313a6ec
+                  [IMAGE-SVG] "Line Duotone / Essentional, UI / Close Circle" #I966:49750;864:51441 template=EL-ff0611ae
+                  [FRAME] #I966:49750;864:51442 template=EL-9593ee8a
+                [IMAGE-SVG] "Linear / Security / Eye" #I966:49750;864:51443 template=EL-e836e453
+          [INSTANCE] "Input-password" #966:49751 template=EL-36a762b5
+            [FRAME] "Frame" #I966:49751;864:51407 template=EL-92cf7249
+              [FRAME] "Frame" #I966:49751;864:51408 template=EL-1f0b7899
+                [TEXT] #I966:49751;864:51409 template=EL-f87fa05b
+                [FRAME] #I966:49751;864:51410 template=EL-46e13874
+                  [FRAME] #I966:49751;864:51411 template=EL-414176fc
+                    [FRAME] #I966:49751;864:51412 template=EL-99ca7a3f
+                  [FRAME] #I966:49751;864:51413 template=EL-414176fc
+                    [FRAME] #I966:49751;864:51414 template=EL-99ca7a3f
+                  [FRAME] #I966:49751;864:51415 template=EL-414176fc
+                    [FRAME] #I966:49751;864:51416 template=EL-99ca7a3f
+                  [FRAME] #I966:49751;864:51417 template=EL-414176fc
+                    [FRAME] #I966:49751;864:51418 template=EL-99ca7a3f
+                  [FRAME] #I966:49751;864:51419 template=EL-414176fc
+                    [FRAME] #I966:49751;864:51420 template=EL-99ca7a3f
+                  [FRAME] #I966:49751;864:51421 template=EL-414176fc
+                    [FRAME] #I966:49751;864:51422 template=EL-99ca7a3f
+                  [FRAME] #I966:49751;864:51423 template=EL-414176fc
+                    [FRAME] #I966:49751;864:51424 template=EL-99ca7a3f
+                  [FRAME] #I966:49751;864:51425 template=EL-414176fc
+                    [FRAME] #I966:49751;864:51426 template=EL-99ca7a3f
+                  [FRAME] #I966:49751;864:51427 template=EL-414176fc
+                    [FRAME] #I966:49751;864:51428 template=EL-99ca7a3f
+                  [FRAME] #I966:49751;864:51429 template=EL-414176fc
+                    [FRAME] #I966:49751;864:51430 template=EL-99ca7a3f
+                  [FRAME] #I966:49751;864:51431 template=EL-414176fc
+                    [FRAME] #I966:49751;864:51432 template=EL-99ca7a3f
+                  [FRAME] #I966:49751;864:51433 template=EL-414176fc
+                    [FRAME] #I966:49751;864:51434 template=EL-99ca7a3f
+                  [FRAME] #I966:49751;864:51435 template=EL-414176fc
+                    [FRAME] #I966:49751;864:51436 template=EL-99ca7a3f
+                  [FRAME] #I966:49751;864:51437 template=EL-414176fc
+                    [FRAME] #I966:49751;864:51438 template=EL-99ca7a3f
+              [FRAME] #I966:49751;864:51439 template=EL-235879b0
+                [FRAME] #I966:49751;864:51440 template=EL-d313a6ec
+                  [IMAGE-SVG] "Line Duotone / Essentional, UI / Close Circle" #I966:49751;864:51441 template=EL-ff0611ae
+                  [FRAME] #I966:49751;864:51442 template=EL-9593ee8a
+                [IMAGE-SVG] "Linear / Security / Eye" #I966:49751;864:51443 template=EL-e836e453
+          [FRAME] #966:49752 template=EL-50ef8a26
+            [INSTANCE] #966:49753 template=EL-9e16dd56
+              [TEXT] #I966:49753;277:8778 template=EL-953f0472
+            [INSTANCE] "Checkbox" #966:49754 template=EL-a5f9caaf
+              [FRAME] #I966:49754;862:19218 template=EL-3ad43b36
+                [FRAME] "Checkbox base" #I966:49754;862:19219 template=EL-73371b9d
+                  [IMAGE-SVG] "basil:check-outline" #I966:49754;862:19225 template=EL-762d5cce
+              [TEXT] #I966:49754;862:19221 template=EL-9a2d2efc
+        [FRAME] #966:49755 template=EL-790ee3d6
+          [TEXT] #966:49756 template=EL-fb6d8c35
+          [INSTANCE] #966:49757 template=EL-d2a13494
+            [TEXT] #I966:49757;864:25312 template=EL-ecb8a821
+    [FRAME] "Категория товаров" #966:49758 layout={"mode":"row","justifyContent":"center","alignItems":"center","sizing":{"horizontal":"fixed","vertical":"fixed"},"locationRelativeToParent":{"x":1690.5,"y":100},"dimensions":{"width":1440,"height":800}} fills=fill_b92dd999
+      [FRAME] "Image" #966:49759 template=EL-8c67e9b2
+        [FRAME] "Slider Indicator" #966:49760 template=EL-318c758f
+          [IMAGE-SVG] "vuesax/linear/arrow-right" #966:49761 template=EL-f1b0f0c9
+          [FRAME] "Progress Indicator" #966:49765 template=EL-338518e8
+            [RECTANGLE] "Line Active" #966:49766 template=EL-9d015771
+          [IMAGE-SVG] "vuesax/linear/arrow-right" #966:49767 template=EL-f1b0f0c9
+      [FRAME] #966:49771 template=EL-58fb6f1c
+        [TEXT] #966:49772 template=EL-db1e2252
+        [FRAME] #966:49773 template=EL-0685d6ec
+          [INSTANCE] "Input" #966:49774 template=EL-b18cd488
+            [FRAME] #I966:49774;864:23119 template=EL-312c119f
+              [TEXT] #I966:49774;864:23120 template=EL-d881295e
+              [TEXT] #I966:49774;864:23121 template=EL-13f71c5d
+          [INSTANCE] "Input-password" #966:49775 layout=layout_435677f1 componentId=864:51283 componentProperties={"delete-icon":true,"discription":false,"icon-right":true}
+            [FRAME] "Frame" #I966:49775;864:51284 template=EL-546dd67a
+              [FRAME] "Frame" #I966:49775;864:51285 template=EL-1f0b7899
+                [TEXT] #I966:49775;864:51286 template=EL-6dce75e2
+                [FRAME] #I966:49775;864:51287 template=EL-46e13874
+                  [FRAME] #I966:49775;864:51288 template=EL-414176fc
+                    [FRAME] #I966:49775;864:51289 template=EL-03e098af
+                  [FRAME] #I966:49775;864:51290 template=EL-414176fc
+                    [FRAME] #I966:49775;864:51291 template=EL-03e098af
+                  [FRAME] #I966:49775;864:51292 template=EL-414176fc
+                    [FRAME] #I966:49775;864:51293 template=EL-03e098af
+                  [FRAME] #I966:49775;864:51294 template=EL-414176fc
+                    [FRAME] #I966:49775;864:51295 template=EL-03e098af
+                  [FRAME] #I966:49775;864:51296 template=EL-414176fc
+                    [FRAME] #I966:49775;864:51297 template=EL-03e098af
+                  [FRAME] #I966:49775;864:51298 template=EL-414176fc
+                    [FRAME] #I966:49775;864:51299 template=EL-03e098af
+                  [FRAME] #I966:49775;864:51300 template=EL-414176fc
+                    [FRAME] #I966:49775;864:51301 template=EL-03e098af
+                  [FRAME] #I966:49775;864:51302 template=EL-414176fc
+                    [FRAME] #I966:49775;864:51303 template=EL-03e098af
+                  [FRAME] #I966:49775;864:51304 template=EL-414176fc
+                    [FRAME] #I966:49775;864:51305 template=EL-03e098af
+                  [FRAME] #I966:49775;864:51306 template=EL-414176fc
+                    [FRAME] #I966:49775;864:51307 template=EL-03e098af
+                  [FRAME] #I966:49775;864:51308 template=EL-414176fc
+                    [FRAME] #I966:49775;864:51309 template=EL-03e098af
+                  [FRAME] #I966:49775;864:51310 template=EL-414176fc
+                    [FRAME] #I966:49775;864:51311 template=EL-03e098af
+                  [FRAME] #I966:49775;864:51312 template=EL-414176fc
+                    [FRAME] #I966:49775;864:51313 template=EL-03e098af
+                  [FRAME] #I966:49775;864:51314 template=EL-414176fc
+                    [FRAME] #I966:49775;864:51315 template=EL-03e098af
+              [FRAME] #I966:49775;864:51316 template=EL-235879b0
+                [FRAME] #I966:49775;864:51317 template=EL-d313a6ec
+                  [IMAGE-SVG] "Line Duotone / Essentional, UI / Close Circle" #I966:49775;864:51318 template=EL-ff0611ae
+                  [FRAME] #I966:49775;864:51319 template=EL-9593ee8a
+                [IMAGE-SVG] "Linear / Security / Eye" #I966:49775;864:51320 template=EL-e836e453
+          [INSTANCE] "Input-password" #966:49776 layout=layout_e620ffb0 componentId=864:51283 componentProperties={"delete-icon":true,"discription":false,"icon-right":true}
+            [FRAME] "Frame" #I966:49776;864:51284 template=EL-546dd67a
+              [FRAME] "Frame" #I966:49776;864:51285 template=EL-1f0b7899
+                [TEXT] #I966:49776;864:51286 template=EL-f87fa05b
+                [FRAME] #I966:49776;864:51287 template=EL-46e13874
+                  [FRAME] #I966:49776;864:51288 template=EL-414176fc
+                    [FRAME] #I966:49776;864:51289 template=EL-03e098af
+                  [FRAME] #I966:49776;864:51290 template=EL-414176fc
+                    [FRAME] #I966:49776;864:51291 template=EL-03e098af
+                  [FRAME] #I966:49776;864:51292 template=EL-414176fc
+                    [FRAME] #I966:49776;864:51293 template=EL-03e098af
+                  [FRAME] #I966:49776;864:51294 template=EL-414176fc
+                    [FRAME] #I966:49776;864:51295 template=EL-03e098af
+                  [FRAME] #I966:49776;864:51296 template=EL-414176fc
+                    [FRAME] #I966:49776;864:51297 template=EL-03e098af
+                  [FRAME] #I966:49776;864:51298 template=EL-414176fc
+                    [FRAME] #I966:49776;864:51299 template=EL-03e098af
+                  [FRAME] #I966:49776;864:51300 template=EL-414176fc
+                    [FRAME] #I966:49776;864:51301 template=EL-03e098af
+                  [FRAME] #I966:49776;864:51302 template=EL-414176fc
+                    [FRAME] #I966:49776;864:51303 template=EL-03e098af
+                  [FRAME] #I966:49776;864:51304 template=EL-414176fc
+                    [FRAME] #I966:49776;864:51305 template=EL-03e098af
+                  [FRAME] #I966:49776;864:51306 template=EL-414176fc
+                    [FRAME] #I966:49776;864:51307 template=EL-03e098af
+                  [FRAME] #I966:49776;864:51308 template=EL-414176fc
+                    [FRAME] #I966:49776;864:51309 template=EL-03e098af
+                  [FRAME] #I966:49776;864:51310 template=EL-414176fc
+                    [FRAME] #I966:49776;864:51311 template=EL-03e098af
+                  [FRAME] #I966:49776;864:51312 template=EL-414176fc
+                    [FRAME] #I966:49776;864:51313 template=EL-03e098af
+                  [FRAME] #I966:49776;864:51314 template=EL-414176fc
+                    [FRAME] #I966:49776;864:51315 template=EL-03e098af
+              [FRAME] #I966:49776;864:51316 template=EL-235879b0
+                [FRAME] #I966:49776;864:51317 template=EL-d313a6ec
+                  [IMAGE-SVG] "Line Duotone / Essentional, UI / Close Circle" #I966:49776;864:51318 template=EL-ff0611ae
+                  [FRAME] #I966:49776;864:51319 template=EL-9593ee8a
+                [IMAGE-SVG] "Linear / Security / Eye" #I966:49776;864:51320 template=EL-e836e453
+            [FRAME] #I966:49776;864:51321 template=EL-82b9f1ef
+              [TEXT] #I966:49776;864:51322 template=EL-f49fc222
+          [FRAME] #966:49777 template=EL-50ef8a26
+            [INSTANCE] #966:49778 template=EL-9e16dd56
+              [TEXT] #I966:49778;277:8778 template=EL-953f0472
+            [INSTANCE] "Checkbox" #966:49779 template=EL-a5f9caaf
+              [FRAME] #I966:49779;862:19218 template=EL-3ad43b36
+                [FRAME] "Checkbox base" #I966:49779;862:19219 template=EL-73371b9d
+                  [IMAGE-SVG] "basil:check-outline" #I966:49779;862:19225 template=EL-762d5cce
+              [TEXT] #I966:49779;862:19221 template=EL-9a2d2efc
+        [FRAME] #966:49780 template=EL-790ee3d6
+          [TEXT] #966:49781 template=EL-fb6d8c35
+          [INSTANCE] #966:49782 template=EL-d2a13494
+            [TEXT] #I966:49782;864:25312 template=EL-ecb8a821
+    [FRAME] "Категория товаров" #966:49783 layout={"mode":"row","justifyContent":"center","alignItems":"center","sizing":{"horizontal":"fixed","vertical":"fixed"},"locationRelativeToParent":{"x":3280.5,"y":100},"dimensions":{"width":1440,"height":800}} fills=fill_b92dd999
+      [FRAME] "Image" #966:49784 template=EL-8c67e9b2
+        [FRAME] "Slider Indicator" #966:49785 template=EL-318c758f
+          [IMAGE-SVG] "vuesax/linear/arrow-right" #966:49786 template=EL-f1b0f0c9
+          [FRAME] "Progress Indicator" #966:49790 template=EL-338518e8
+            [RECTANGLE] "Line Active" #966:49791 template=EL-9d015771
+          [IMAGE-SVG] "vuesax/linear/arrow-right" #966:49792 template=EL-f1b0f0c9
+      [FRAME] #966:49796 template=EL-58fb6f1c
+        [TEXT] #966:49797 template=EL-db1e2252
+        [FRAME] #966:49798 template=EL-0685d6ec
+          [INSTANCE] "Input" #966:49799 template=EL-d9078507
+            [FRAME] "Frame" #I966:49799;864:23139 template=EL-be995052
+              [FRAME] #I966:49799;864:23140 template=EL-a8ef7fa3
+                [TEXT] #I966:49799;864:23141 template=EL-d881295e
+                [TEXT] #I966:49799;864:23142 template=EL-13f71c5d
+            [FRAME] #I966:49799;864:23143 template=EL-8598dc9b
+              [TEXT] #I966:49799;864:23144 layout=layout_177c5efc fills=fill_0ea70a13 textStyle=Caption/S text="Номер не зарегистрирован"
+              [INSTANCE] #I966:49799;864:23145 template=EL-ce12ebea
+          [INSTANCE] "Input-password" #966:49800 template=EL-36a762b5
+            [FRAME] "Frame" #I966:49800;864:51407 template=EL-92cf7249
+              [FRAME] "Frame" #I966:49800;864:51408 template=EL-1f0b7899
+                [TEXT] #I966:49800;864:51409 template=EL-6dce75e2
+                [FRAME] #I966:49800;864:51410 template=EL-46e13874
+                  [FRAME] #I966:49800;864:51411 template=EL-414176fc
+                    [FRAME] #I966:49800;864:51412 template=EL-99ca7a3f
+                  [FRAME] #I966:49800;864:51413 template=EL-414176fc
+                    [FRAME] #I966:49800;864:51414 template=EL-99ca7a3f
+                  [FRAME] #I966:49800;864:51415 template=EL-414176fc
+                    [FRAME] #I966:49800;864:51416 template=EL-99ca7a3f
+                  [FRAME] #I966:49800;864:51417 template=EL-414176fc
+                    [FRAME] #I966:49800;864:51418 template=EL-99ca7a3f
+                  [FRAME] #I966:49800;864:51419 template=EL-414176fc
+                    [FRAME] #I966:49800;864:51420 template=EL-99ca7a3f
+                  [FRAME] #I966:49800;864:51421 template=EL-414176fc
+                    [FRAME] #I966:49800;864:51422 template=EL-99ca7a3f
+                  [FRAME] #I966:49800;864:51423 template=EL-414176fc
+                    [FRAME] #I966:49800;864:51424 template=EL-99ca7a3f
+                  [FRAME] #I966:49800;864:51425 template=EL-414176fc
+                    [FRAME] #I966:49800;864:51426 template=EL-99ca7a3f
+                  [FRAME] #I966:49800;864:51427 template=EL-414176fc
+                    [FRAME] #I966:49800;864:51428 template=EL-99ca7a3f
+                  [FRAME] #I966:49800;864:51429 template=EL-414176fc
+                    [FRAME] #I966:49800;864:51430 template=EL-99ca7a3f
+                  [FRAME] #I966:49800;864:51431 template=EL-414176fc
+                    [FRAME] #I966:49800;864:51432 template=EL-99ca7a3f
+                  [FRAME] #I966:49800;864:51433 template=EL-414176fc
+                    [FRAME] #I966:49800;864:51434 template=EL-99ca7a3f
+                  [FRAME] #I966:49800;864:51435 template=EL-414176fc
+                    [FRAME] #I966:49800;864:51436 template=EL-99ca7a3f
+                  [FRAME] #I966:49800;864:51437 template=EL-414176fc
+                    [FRAME] #I966:49800;864:51438 template=EL-99ca7a3f
+              [FRAME] #I966:49800;864:51439 template=EL-235879b0
+                [FRAME] #I966:49800;864:51440 template=EL-d313a6ec
+                  [IMAGE-SVG] "Line Duotone / Essentional, UI / Close Circle" #I966:49800;864:51441 template=EL-ff0611ae
+                  [FRAME] #I966:49800;864:51442 template=EL-9593ee8a
+                [IMAGE-SVG] "Linear / Security / Eye" #I966:49800;864:51443 template=EL-e836e453
+          [INSTANCE] "Input-password" #966:49801 template=EL-36a762b5
+            [FRAME] "Frame" #I966:49801;864:51407 template=EL-92cf7249
+              [FRAME] "Frame" #I966:49801;864:51408 template=EL-1f0b7899
+                [TEXT] #I966:49801;864:51409 template=EL-f87fa05b
+                [FRAME] #I966:49801;864:51410 template=EL-46e13874
+                  [FRAME] #I966:49801;864:51411 template=EL-414176fc
+                    [FRAME] #I966:49801;864:51412 template=EL-99ca7a3f
+                  [FRAME] #I966:49801;864:51413 template=EL-414176fc
+                    [FRAME] #I966:49801;864:51414 template=EL-99ca7a3f
+                  [FRAME] #I966:49801;864:51415 template=EL-414176fc
+                    [FRAME] #I966:49801;864:51416 template=EL-99ca7a3f
+                  [FRAME] #I966:49801;864:51417 template=EL-414176fc
+                    [FRAME] #I966:49801;864:51418 template=EL-99ca7a3f
+                  [FRAME] #I966:49801;864:51419 template=EL-414176fc
+                    [FRAME] #I966:49801;864:51420 template=EL-99ca7a3f
+                  [FRAME] #I966:49801;864:51421 template=EL-414176fc
+                    [FRAME] #I966:49801;864:51422 template=EL-99ca7a3f
+                  [FRAME] #I966:49801;864:51423 template=EL-414176fc
+                    [FRAME] #I966:49801;864:51424 template=EL-99ca7a3f
+                  [FRAME] #I966:49801;864:51425 template=EL-414176fc
+                    [FRAME] #I966:49801;864:51426 template=EL-99ca7a3f
+                  [FRAME] #I966:49801;864:51427 template=EL-414176fc
+                    [FRAME] #I966:49801;864:51428 template=EL-99ca7a3f
+                  [FRAME] #I966:49801;864:51429 template=EL-414176fc
+                    [FRAME] #I966:49801;864:51430 template=EL-99ca7a3f
+                  [FRAME] #I966:49801;864:51431 template=EL-414176fc
+                    [FRAME] #I966:49801;864:51432 template=EL-99ca7a3f
+                  [FRAME] #I966:49801;864:51433 template=EL-414176fc
+                    [FRAME] #I966:49801;864:51434 template=EL-99ca7a3f
+                  [FRAME] #I966:49801;864:51435 template=EL-414176fc
+                    [FRAME] #I966:49801;864:51436 template=EL-99ca7a3f
+                  [FRAME] #I966:49801;864:51437 template=EL-414176fc
+                    [FRAME] #I966:49801;864:51438 template=EL-99ca7a3f
+              [FRAME] #I966:49801;864:51439 template=EL-235879b0
+                [FRAME] #I966:49801;864:51440 template=EL-d313a6ec
+                  [IMAGE-SVG] "Line Duotone / Essentional, UI / Close Circle" #I966:49801;864:51441 template=EL-ff0611ae
+                  [FRAME] #I966:49801;864:51442 template=EL-9593ee8a
+                [IMAGE-SVG] "Linear / Security / Eye" #I966:49801;864:51443 template=EL-e836e453
+          [FRAME] #966:49802 template=EL-50ef8a26
+            [INSTANCE] #966:49803 template=EL-9e16dd56
+              [TEXT] #I966:49803;277:8778 template=EL-953f0472
+            [INSTANCE] "Checkbox" #966:49804 template=EL-a5f9caaf
+              [FRAME] #I966:49804;862:19218 template=EL-3ad43b36
+                [FRAME] "Checkbox base" #I966:49804;862:19219 template=EL-73371b9d
+                  [IMAGE-SVG] "basil:check-outline" #I966:49804;862:19225 template=EL-762d5cce
+              [TEXT] #I966:49804;862:19221 template=EL-9a2d2efc
+        [FRAME] #966:49805 template=EL-790ee3d6
+          [TEXT] #966:49806 template=EL-fb6d8c35
+          [INSTANCE] #966:49807 template=EL-d2a13494
+            [TEXT] #I966:49807;864:25312 template=EL-ecb8a821
+  [SECTION] "Авторизация" #966:49808 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":250,"y":2499},"dimensions":{"width":6410,"height":1000}} fills=fill_dd7f3e3e strokes=fill_dbe29f28 strokeWeight=1px
+    [FRAME] "Категория товаров" #966:49809 template=EL-088838df
+      [FRAME] "Image" #966:49810 template=EL-8c67e9b2
+        [FRAME] "Slider Indicator" #966:49811 template=EL-318c758f
+          [IMAGE-SVG] "vuesax/linear/arrow-right" #966:49812 template=EL-f1b0f0c9
+          [FRAME] "Progress Indicator" #966:49816 template=EL-338518e8
+            [RECTANGLE] "Line Active" #966:49817 template=EL-9d015771
+          [IMAGE-SVG] "vuesax/linear/arrow-right" #966:49818 template=EL-f1b0f0c9
+      [FRAME] #966:49822 template=EL-58fb6f1c
+        [TEXT] #966:49823 template=EL-fc6beb51
+        [FRAME] #966:49824 template=EL-0685d6ec
+          [INSTANCE] "Input" #966:49825 layout=layout_705ca8ff fills=fill_658ab2fa componentId=864:23086 componentProperties={"Discription-Button":true,"Discription":false}
+            [FRAME] #I966:49825;864:23087 template=EL-ab28bdf4
+              [TEXT] #I966:49825;864:23088 template=EL-bdcfd4a0
+          [INSTANCE] "Input-password" #966:49826 template=EL-e2a9b8c3
+            [FRAME] "Frame" #I966:49826;864:51522 template=EL-a01f8c70
+              [FRAME] "Frame" #I966:49826;864:51523 template=EL-1f0b7899
+                [TEXT] #I966:49826;864:51524 layout=layout_177c5efc fills=fill_4cd5ff90 textStyle=T2 text="Введите пароль"
+          [FRAME] #966:49827 template=EL-50ef8a26
+            [INSTANCE] #966:49828 template=EL-9e16dd56
+              [TEXT] #I966:49828;277:8778 template=EL-953f0472
+            [INSTANCE] "Checkbox" #966:49829 template=EL-24bd77e5
+              [FRAME] #I966:49829;862:19199 template=EL-3ad43b36
+                [FRAME] "Checkbox base" #I966:49829;862:19200 template=EL-fee77cc5
+              [TEXT] #I966:49829;862:19201 template=EL-9a2d2efc
+        [FRAME] #966:49830 template=EL-790ee3d6
+          [TEXT] #966:49831 template=EL-fb6d8c35
+          [INSTANCE] #966:49832 template=EL-d2a13494
+            [TEXT] #I966:49832;864:25312 template=EL-ecb8a821
+    [FRAME] "Категория товаров" #966:49833 template=EL-5434280e
+      [FRAME] "Image" #966:49834 template=EL-8c67e9b2
+        [FRAME] "Slider Indicator" #966:49835 template=EL-318c758f
+          [IMAGE-SVG] "vuesax/linear/arrow-right" #966:49836 template=EL-f1b0f0c9
+          [FRAME] "Progress Indicator" #966:49840 template=EL-338518e8
+            [RECTANGLE] "Line Active" #966:49841 template=EL-9d015771
+          [IMAGE-SVG] "vuesax/linear/arrow-right" #966:49842 template=EL-f1b0f0c9
+      [FRAME] #966:49846 template=EL-58fb6f1c
+        [TEXT] #966:49847 template=EL-fc6beb51
+        [FRAME] #966:49848 template=EL-0685d6ec
+          [INSTANCE] "Input" #966:49849 template=EL-42d936a3
+            [FRAME] #I966:49849;864:23119 template=EL-312c119f
+              [TEXT] #I966:49849;864:23120 template=EL-5ab3370e
+              [TEXT] #I966:49849;864:23121 template=EL-c6701a83
+          [INSTANCE] "Input-password" #966:49850 template=EL-36a762b5
+            [FRAME] "Frame" #I966:49850;864:51407 template=EL-92cf7249
+              [FRAME] "Frame" #I966:49850;864:51408 template=EL-1f0b7899
+                [TEXT] #I966:49850;864:51409 template=EL-6dce75e2
+                [FRAME] #I966:49850;864:51410 template=EL-46e13874
+                  [FRAME] #I966:49850;864:51411 template=EL-414176fc
+                    [FRAME] #I966:49850;864:51412 template=EL-99ca7a3f
+                  [FRAME] #I966:49850;864:51413 template=EL-414176fc
+                    [FRAME] #I966:49850;864:51414 template=EL-99ca7a3f
+                  [FRAME] #I966:49850;864:51415 template=EL-414176fc
+                    [FRAME] #I966:49850;864:51416 template=EL-99ca7a3f
+                  [FRAME] #I966:49850;864:51417 template=EL-414176fc
+                    [FRAME] #I966:49850;864:51418 template=EL-99ca7a3f
+                  [FRAME] #I966:49850;864:51419 template=EL-414176fc
+                    [FRAME] #I966:49850;864:51420 template=EL-99ca7a3f
+                  [FRAME] #I966:49850;864:51421 template=EL-414176fc
+                    [FRAME] #I966:49850;864:51422 template=EL-99ca7a3f
+                  [FRAME] #I966:49850;864:51423 template=EL-414176fc
+                    [FRAME] #I966:49850;864:51424 template=EL-99ca7a3f
+                  [FRAME] #I966:49850;864:51425 template=EL-414176fc
+                    [FRAME] #I966:49850;864:51426 template=EL-99ca7a3f
+                  [FRAME] #I966:49850;864:51427 template=EL-414176fc
+                    [FRAME] #I966:49850;864:51428 template=EL-99ca7a3f
+                  [FRAME] #I966:49850;864:51429 template=EL-414176fc
+                    [FRAME] #I966:49850;864:51430 template=EL-99ca7a3f
+                  [FRAME] #I966:49850;864:51431 template=EL-414176fc
+                    [FRAME] #I966:49850;864:51432 template=EL-99ca7a3f
+                  [FRAME] #I966:49850;864:51433 template=EL-414176fc
+                    [FRAME] #I966:49850;864:51434 template=EL-99ca7a3f
+                  [FRAME] #I966:49850;864:51435 template=EL-414176fc
+                    [FRAME] #I966:49850;864:51436 template=EL-99ca7a3f
+                  [FRAME] #I966:49850;864:51437 template=EL-414176fc
+                    [FRAME] #I966:49850;864:51438 template=EL-99ca7a3f
+              [FRAME] #I966:49850;864:51439 template=EL-235879b0
+                [FRAME] #I966:49850;864:51440 template=EL-d313a6ec
+                  [IMAGE-SVG] "Line Duotone / Essentional, UI / Close Circle" #I966:49850;864:51441 template=EL-ff0611ae
+                  [FRAME] #I966:49850;864:51442 template=EL-9593ee8a
+                [IMAGE-SVG] "Linear / Security / Eye" #I966:49850;864:51443 template=EL-e836e453
+          [FRAME] #966:49851 template=EL-50ef8a26
+            [INSTANCE] #966:49852 template=EL-9e16dd56
+              [TEXT] #I966:49852;277:8778 template=EL-953f0472
+            [INSTANCE] "Checkbox" #966:49853 template=EL-a5f9caaf
+              [FRAME] #I966:49853;862:19218 template=EL-3ad43b36
+                [FRAME] "Checkbox base" #I966:49853;862:19219 template=EL-73371b9d
+                  [IMAGE-SVG] "basil:check-outline" #I966:49853;862:19225 template=EL-762d5cce
+              [TEXT] #I966:49853;862:19221 template=EL-9a2d2efc
+        [FRAME] #966:49854 template=EL-790ee3d6
+          [TEXT] #966:49855 template=EL-fb6d8c35
+          [INSTANCE] #966:49856 template=EL-d2a13494
+            [TEXT] #I966:49856;864:25312 template=EL-ecb8a821
+    [FRAME] "Категория товаров" #966:49857 layout={"mode":"row","justifyContent":"center","alignItems":"center","sizing":{"horizontal":"fixed","vertical":"fixed"},"locationRelativeToParent":{"x":3280,"y":100},"dimensions":{"width":1440,"height":800}} fills=fill_b92dd999
+      [FRAME] "Image" #966:49858 template=EL-8c67e9b2
+        [FRAME] "Slider Indicator" #966:49859 template=EL-318c758f
+          [IMAGE-SVG] "vuesax/linear/arrow-right" #966:49860 template=EL-f1b0f0c9
+          [FRAME] "Progress Indicator" #966:49864 template=EL-338518e8
+            [RECTANGLE] "Line Active" #966:49865 template=EL-9d015771
+          [IMAGE-SVG] "vuesax/linear/arrow-right" #966:49866 template=EL-f1b0f0c9
+      [FRAME] #966:49870 template=EL-58fb6f1c
+        [TEXT] #966:49871 template=EL-fc6beb51
+        [FRAME] #966:49872 template=EL-0685d6ec
+          [INSTANCE] "Input" #966:49873 template=EL-42d936a3
+            [FRAME] #I966:49873;864:23119 template=EL-312c119f
+              [TEXT] #I966:49873;864:23120 template=EL-5ab3370e
+              [TEXT] #I966:49873;864:23121 template=EL-c6701a83
+          [INSTANCE] "Input-password" #966:49874 template=EL-36a762b5
+            [FRAME] "Frame" #I966:49874;864:51407 template=EL-92cf7249
+              [FRAME] "Frame" #I966:49874;864:51408 template=EL-1f0b7899
+                [TEXT] #I966:49874;864:51409 template=EL-6dce75e2
+                [FRAME] #I966:49874;864:51410 template=EL-46e13874
+                  [FRAME] #I966:49874;864:51411 template=EL-414176fc
+                    [FRAME] #I966:49874;864:51412 template=EL-99ca7a3f
+                  [FRAME] #I966:49874;864:51413 template=EL-414176fc
+                    [FRAME] #I966:49874;864:51414 template=EL-99ca7a3f
+                  [FRAME] #I966:49874;864:51415 template=EL-414176fc
+                    [FRAME] #I966:49874;864:51416 template=EL-99ca7a3f
+                  [FRAME] #I966:49874;864:51417 template=EL-414176fc
+                    [FRAME] #I966:49874;864:51418 template=EL-99ca7a3f
+                  [FRAME] #I966:49874;864:51419 template=EL-414176fc
+                    [FRAME] #I966:49874;864:51420 template=EL-99ca7a3f
+                  [FRAME] #I966:49874;864:51421 template=EL-414176fc
+                    [FRAME] #I966:49874;864:51422 template=EL-99ca7a3f
+                  [FRAME] #I966:49874;864:51423 template=EL-414176fc
+                    [FRAME] #I966:49874;864:51424 template=EL-99ca7a3f
+                  [FRAME] #I966:49874;864:51425 template=EL-414176fc
+                    [FRAME] #I966:49874;864:51426 template=EL-99ca7a3f
+                  [FRAME] #I966:49874;864:51427 template=EL-414176fc
+                    [FRAME] #I966:49874;864:51428 template=EL-99ca7a3f
+                  [FRAME] #I966:49874;864:51429 template=EL-414176fc
+                    [FRAME] #I966:49874;864:51430 template=EL-99ca7a3f
+                  [FRAME] #I966:49874;864:51431 template=EL-414176fc
+                    [FRAME] #I966:49874;864:51432 template=EL-99ca7a3f
+                  [FRAME] #I966:49874;864:51433 template=EL-414176fc
+                    [FRAME] #I966:49874;864:51434 template=EL-99ca7a3f
+                  [FRAME] #I966:49874;864:51435 template=EL-414176fc
+                    [FRAME] #I966:49874;864:51436 template=EL-99ca7a3f
+                  [FRAME] #I966:49874;864:51437 template=EL-414176fc
+                    [FRAME] #I966:49874;864:51438 template=EL-99ca7a3f
+              [FRAME] #I966:49874;864:51439 template=EL-235879b0
+                [FRAME] #I966:49874;864:51440 template=EL-d313a6ec
+                  [IMAGE-SVG] "Line Duotone / Essentional, UI / Close Circle" #I966:49874;864:51441 template=EL-ff0611ae
+                  [FRAME] #I966:49874;864:51442 template=EL-9593ee8a
+                [IMAGE-SVG] "Linear / Security / Eye" #I966:49874;864:51443 template=EL-e836e453
+          [FRAME] #966:49875 template=EL-50ef8a26
+            [INSTANCE] #966:49876 template=EL-9e16dd56
+              [TEXT] #I966:49876;277:8778 template=EL-953f0472
+            [INSTANCE] "Checkbox" #966:49877 template=EL-a5f9caaf
+              [FRAME] #I966:49877;862:19218 template=EL-3ad43b36
+                [FRAME] "Checkbox base" #I966:49877;862:19219 template=EL-73371b9d
+                  [IMAGE-SVG] "basil:check-outline" #I966:49877;862:19225 template=EL-762d5cce
+              [TEXT] #I966:49877;862:19221 template=EL-9a2d2efc
+        [FRAME] #966:49878 template=EL-790ee3d6
+          [TEXT] #966:49879 template=EL-fb6d8c35
+          [INSTANCE] #966:49880 template=EL-d2a13494
+            [TEXT] #I966:49880;864:25312 template=EL-ecb8a821
+    [FRAME] "Категория товаров" #966:49881 layout={"mode":"row","justifyContent":"center","alignItems":"center","sizing":{"horizontal":"fixed","vertical":"fixed"},"locationRelativeToParent":{"x":4870,"y":100},"dimensions":{"width":1440,"height":800}} fills=fill_b92dd999
+      [FRAME] "Image" #966:49882 template=EL-8c67e9b2
+        [FRAME] "Slider Indicator" #966:49883 template=EL-318c758f
+          [IMAGE-SVG] "vuesax/linear/arrow-right" #966:49884 template=EL-f1b0f0c9
+          [FRAME] "Progress Indicator" #966:49888 template=EL-338518e8
+            [RECTANGLE] "Line Active" #966:49889 template=EL-9d015771
+          [IMAGE-SVG] "vuesax/linear/arrow-right" #966:49890 template=EL-f1b0f0c9
+      [FRAME] #966:49894 template=EL-58fb6f1c
+        [TEXT] #966:49895 template=EL-fc6beb51
+        [FRAME] #966:49896 template=EL-0685d6ec
+          [INSTANCE] "Input" #966:49897 template=EL-d9078507
+            [FRAME] "Frame" #I966:49897;864:23139 template=EL-be995052
+              [FRAME] #I966:49897;864:23140 template=EL-a8ef7fa3
+                [TEXT] #I966:49897;864:23141 template=EL-5ab3370e
+                [TEXT] #I966:49897;864:23142 template=EL-c6701a83
+            [FRAME] #I966:49897;864:23143 template=EL-8598dc9b
+              [TEXT] #I966:49897;864:23144 layout=layout_177c5efc fills=fill_0ea70a13 textStyle=Caption/S text="Пользователя с такими номером не существует"
+              [INSTANCE] #I966:49897;864:23145 template=EL-ce12ebea
+          [INSTANCE] "Input-password" #966:49898 template=EL-36a762b5
+            [FRAME] "Frame" #I966:49898;864:51407 template=EL-92cf7249
+              [FRAME] "Frame" #I966:49898;864:51408 template=EL-1f0b7899
+                [TEXT] #I966:49898;864:51409 template=EL-6dce75e2
+                [FRAME] #I966:49898;864:51410 template=EL-46e13874
+                  [FRAME] #I966:49898;864:51411 template=EL-414176fc
+                    [FRAME] #I966:49898;864:51412 template=EL-99ca7a3f
+                  [FRAME] #I966:49898;864:51413 template=EL-414176fc
+                    [FRAME] #I966:49898;864:51414 template=EL-99ca7a3f
+                  [FRAME] #I966:49898;864:51415 template=EL-414176fc
+                    [FRAME] #I966:49898;864:51416 template=EL-99ca7a3f
+                  [FRAME] #I966:49898;864:51417 template=EL-414176fc
+                    [FRAME] #I966:49898;864:51418 template=EL-99ca7a3f
+                  [FRAME] #I966:49898;864:51419 template=EL-414176fc
+                    [FRAME] #I966:49898;864:51420 template=EL-99ca7a3f
+                  [FRAME] #I966:49898;864:51421 template=EL-414176fc
+                    [FRAME] #I966:49898;864:51422 template=EL-99ca7a3f
+                  [FRAME] #I966:49898;864:51423 template=EL-414176fc
+                    [FRAME] #I966:49898;864:51424 template=EL-99ca7a3f
+                  [FRAME] #I966:49898;864:51425 template=EL-414176fc
+                    [FRAME] #I966:49898;864:51426 template=EL-99ca7a3f
+                  [FRAME] #I966:49898;864:51427 template=EL-414176fc
+                    [FRAME] #I966:49898;864:51428 template=EL-99ca7a3f
+                  [FRAME] #I966:49898;864:51429 template=EL-414176fc
+                    [FRAME] #I966:49898;864:51430 template=EL-99ca7a3f
+                  [FRAME] #I966:49898;864:51431 template=EL-414176fc
+                    [FRAME] #I966:49898;864:51432 template=EL-99ca7a3f
+                  [FRAME] #I966:49898;864:51433 template=EL-414176fc
+                    [FRAME] #I966:49898;864:51434 template=EL-99ca7a3f
+                  [FRAME] #I966:49898;864:51435 template=EL-414176fc
+                    [FRAME] #I966:49898;864:51436 template=EL-99ca7a3f
+                  [FRAME] #I966:49898;864:51437 template=EL-414176fc
+                    [FRAME] #I966:49898;864:51438 template=EL-99ca7a3f
+              [FRAME] #I966:49898;864:51439 template=EL-235879b0
+                [FRAME] #I966:49898;864:51440 template=EL-d313a6ec
+                  [IMAGE-SVG] "Line Duotone / Essentional, UI / Close Circle" #I966:49898;864:51441 template=EL-ff0611ae
+                  [FRAME] #I966:49898;864:51442 template=EL-9593ee8a
+                [IMAGE-SVG] "Linear / Security / Eye" #I966:49898;864:51443 template=EL-e836e453
+          [FRAME] #966:49899 template=EL-50ef8a26
+            [INSTANCE] #966:49900 template=EL-9e16dd56
+              [TEXT] #I966:49900;277:8778 template=EL-953f0472
+            [INSTANCE] "Checkbox" #966:49901 template=EL-a5f9caaf
+              [FRAME] #I966:49901;862:19218 template=EL-3ad43b36
+                [FRAME] "Checkbox base" #I966:49901;862:19219 template=EL-73371b9d
+                  [IMAGE-SVG] "basil:check-outline" #I966:49901;862:19225 template=EL-762d5cce
+              [TEXT] #I966:49901;862:19221 template=EL-9a2d2efc
+        [FRAME] #966:49902 template=EL-790ee3d6
+          [TEXT] #966:49903 template=EL-fb6d8c35
+          [INSTANCE] #966:49904 template=EL-d2a13494
+            [TEXT] #I966:49904;864:25312 template=EL-ecb8a821
+  [FRAME] "Главная" #966:49905 layout={"mode":"column","alignItems":"center","sizing":{"horizontal":"fixed","vertical":"fixed"},"locationRelativeToParent":{"x":3530,"y":350},"dimensions":{"width":1440,"height":800}} fills=["#FAFAF9"]
+    [FRAME] "Hero" #966:49906 layout={"mode":"none","sizing":{"horizontal":"fill","vertical":"fixed"},"dimensions":{"height":850}}
+      [RECTANGLE] "Image" #966:49907 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":0,"y":48},"dimensions":{"width":1440,"height":802}} fills=[{"type":"GRADIENT_LINEAR","gradient":"linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 27%, rgba(0, 0, 0, 0) 72%, rgba(0, 0, 0, 0.4) 100%)"},{"type":"IMAGE","imageRef":"c7ad4ed5c5e22ce5ca9338ed923323098bb40fdb","scaleMode":"STRETCH","objectFit":"fill","isBackground":false,"imageDownloadArguments":{"needsCropping":true,"requiresImageDimensions":false,"cropTransform":[[1.0001459121704102,0,-0.00007294564420590177],[0,1.000648856163025,-0.0003657471970655024]],"filenameSuffix":"5b758a"}}]
+      [FRAME] "Arrows" #966:49908 layout={"mode":"row","justifyContent":"space-between","alignItems":"center","sizing":{"horizontal":"fixed","vertical":"hug"},"locationRelativeToParent":{"x":40,"y":445},"dimensions":{"width":1360}}
+        [IMAGE-SVG] "vuesax/linear/arrow-right" #966:49909 template=EL-f1b0f0c9
+        [IMAGE-SVG] "vuesax/linear/arrow-right" #966:49913 template=EL-f1b0f0c9
+      [FRAME] #966:49917 layout={"mode":"column","alignItems":"center","gap":"32px","sizing":{"horizontal":"fixed","vertical":"hug"},"locationRelativeToParent":{"x":40,"y":639},"dimensions":{"width":1360}}
+        [FRAME] "CTA" #966:49918 layout={"mode":"column","alignItems":"center","gap":"16px","sizing":{"horizontal":"fixed","vertical":"hug"},"dimensions":{"width":643}}
+          [TEXT] #966:49919 layout=layout_56d3c81c fills=fill_658ab2fa textStyle=H1 text="Новая солнечная коллекция посуды Hermès"
+          [INSTANCE] "Button" #966:49920 template=EL-43b9216d
+            [TEXT] #I966:49920;1:6202 layout=layout_177c5efc fills=fill_bd1b0c45 textStyle=style_ce0a4cea text="Перейти в каталог"
+        [FRAME] "Slider Progress Indicator" #966:49921 layout={"mode":"row","alignSelf":"stretch","alignItems":"center","gap":"2px","sizing":{"horizontal":"fill","vertical":"fixed"},"dimensions":{"height":2}}
+          [FRAME] "Progress Indicator" #966:49922 template=EL-193309be
+            [RECTANGLE] "Line Active" #966:49923 layout={"mode":"none","sizing":{"horizontal":"fixed","vertical":"fixed"},"dimensions":{"width":200,"height":2}} fills=["rgba(255, 255, 255, 0.8)"] borderRadius=100px
+          [FRAME] "Progress Indicator" #966:49924 template=EL-193309be
+          [FRAME] "Progress Indicator" #966:49926 template=EL-193309be
+      [FRAME] "Header" #966:49928 layout={"mode":"column","alignItems":"stretch","sizing":{"horizontal":"fixed","vertical":"hug"},"locationRelativeToParent":{"x":0,"y":0},"dimensions":{"width":1440}}
+        [FRAME] "Ad Banner" #966:49929 layout={"mode":"row","alignSelf":"stretch","padding":"12px 40px","justifyContent":"flex-end","alignItems":"center","sizing":{"horizontal":"fill","vertical":"hug"}} fills=fill_ed7aa05a
+          [IMAGE-SVG] "bitcoin-icons:cross-outline" #966:49930 template=EL-762d5cce
+          [TEXT] #966:49932 layout={"mode":"none","sizing":{"horizontal":"fixed","vertical":"fixed"},"position":"absolute","locationRelativeToParent":{"x":516,"y":17},"dimensions":{"width":408,"height":15}} fills=fill_34dc0314 textStyle={"fontFamily":"Hauora","fontStyle":"Regular","fontWeight":400,"fontSize":14,"lineHeight":"1.06em","textAlignHorizontal":"CENTER","textAlignVertical":"TOP","paragraphSpacing":14,"listSpacing":14} text="Бесплатная доставка по Москве при заказе от 30.000 рублей"
+        [FRAME] "Menu" #966:49933 layout={"mode":"column","alignSelf":"stretch","padding":"32px 40px 20px","alignItems":"center","gap":"28px","sizing":{"horizontal":"fill","vertical":"hug"}} fills=fill_97d170e1
+          [FRAME] "Content" #966:49934 template=EL-bb582553
+            [FRAME] "Content " #966:49935 layout={"mode":"row","alignItems":"center","gap":"24px","sizing":{"horizontal":"fill","vertical":"hug"}}
+              [TEXT] #966:49936 layout=layout_177c5efc fills=fill_658ab2fa textStyle=style_cc9a6c82 text="{ts3}US{/ts3}/RU"
+              [FRAME] #966:49937 template=EL-5843db5d
+                [TEXT] #966:49938 layout=layout_177c5efc fills=fill_658ab2fa textStyle=style_cc9a6c82 text="RUB"
+                [IMAGE-SVG] "vuesax/linear/arrow-right" #966:49939 template=EL-d4302386
+            [RECTANGLE] "telegram-cloud-document-2-5251416634047897893 1" #966:49943 layout={"mode":"none","sizing":{"horizontal":"fixed","vertical":"fixed"},"dimensions":{"width":118.45,"height":34.08}} fills=[{"type":"IMAGE","imageRef":"967c087b9dcee4b9641ab2f0a69966aa5cb8a985","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}}]
+            [FRAME] "Content" #966:49944 layout={"mode":"row","justifyContent":"flex-end","alignItems":"center","gap":"20px","sizing":{"horizontal":"fill","vertical":"hug"}}
+              [IMAGE-SVG] "Icon Search" #966:49945 template=EL-762d5cce
+              [IMAGE-SVG] "bytesize:heart" #966:49947 template=EL-762d5cce
+              [IMAGE-SVG] "iconamoon:shopping-bag-light" #966:49949 template=EL-762d5cce
+              [FRAME] "Button" #966:49953 layout={"mode":"row","padding":"10px 20px","justifyContent":"center","alignItems":"center","gap":"10px","sizing":{"horizontal":"hug","vertical":"hug"}} strokes=fill_658ab2fa strokeWeight=1px borderRadius=2px
+                [TEXT] #966:49954 layout=layout_177c5efc fills=fill_658ab2fa textStyle={"fontFamily":"Hauora","fontStyle":"Regular","fontWeight":400,"fontSize":14,"lineHeight":"1.06em","letterSpacing":"-0.02em","textAlignHorizontal":"CENTER","textAlignVertical":"TOP","paragraphSpacing":14,"listSpacing":14} text="Войти"
+          [FRAME] "Content" #966:49955 layout={"mode":"row","justifyContent":"center","alignItems":"center","gap":"32px","sizing":{"horizontal":"hug","vertical":"hug"}}
+            [TEXT] #966:49956 layout=layout_177c5efc fills=fill_658ab2fa textStyle=style_d0b6b42e text="Каталог"
+            [TEXT] #966:49957 layout=layout_177c5efc fills=fill_658ab2fa textStyle=style_d0b6b42e text="Подарки"
+            [TEXT] #966:49958 layout=layout_177c5efc fills=fill_658ab2fa textStyle=style_d0b6b42e text="В наличии"
+            [TEXT] #966:49959 layout=layout_177c5efc fills=fill_658ab2fa textStyle=style_d0b6b42e text="Бренды"
+            [TEXT] #966:49960 layout=layout_177c5efc fills=fill_658ab2fa textStyle=style_d0b6b42e text="Посуда"
+            [TEXT] #966:49961 layout=layout_177c5efc fills=fill_658ab2fa textStyle=style_d0b6b42e text="Декор и интерьер"
+            [TEXT] #966:49962 layout=layout_177c5efc fills=fill_658ab2fa textStyle=style_d0b6b42e text="Аксессуары"
+            [TEXT] #966:49963 layout=layout_177c5efc fills=fill_658ab2fa textStyle=style_d0b6b42e text="Текстиль"
+            [FRAME] "Dropdown" #966:49964 template=EL-5843db5d
+              [TEXT] #966:49965 layout=layout_177c5efc fills=fill_658ab2fa textStyle=style_d0b6b42e text="О Luvr"
+              [IMAGE-SVG] "vuesax/linear/arrow-right" #966:49966 template=EL-d4302386
+    [FRAME] "About" #966:49970 layout={"mode":"column","alignSelf":"stretch","padding":"140px 40px 70px","alignItems":"center","gap":"40px","sizing":{"horizontal":"fill","vertical":"hug"}}
+      [FRAME] #966:49971 template=EL-5379637c
+        [FRAME] #966:49972 template=EL-7e82b98e
+          [FRAME] #966:49973 template=EL-28d879d4
+            [LINE] #966:49974 template=EL-56ff9324
+            [RECTANGLE] "Logo" #966:49975 template=EL-b35ab3bb
+            [LINE] #966:49976 template=EL-56ff9324
+          [TEXT] #966:49977 layout=layout_f393722d fills=fill_34dc0314 textStyle="H2 (828:11795)" text="Оригинальная посуда, декор, текстиль и аксессуары мировых премиальных брендов"
+        [FRAME] #966:49978 template=EL-bb582553
+          [FRAME] "Trust Card" #966:49979 template=EL-9db5b930
+            [RECTANGLE] "Image" #966:49980 layout=layout_9f1db3b4 fills=[{"type":"IMAGE","imageRef":"bf88fd541a1a454eff6536f8fbfae5ade55feb73","scaleMode":"STRETCH","objectFit":"fill","isBackground":false,"imageDownloadArguments":{"needsCropping":true,"requiresImageDimensions":false,"cropTransform":[[0.823383092880249,0,0.17661692202091217],[0,0.6965174078941345,-0.0010746390325948596]],"filenameSuffix":"4f3563"}}]
+            [FRAME] #966:49981 template=EL-29764127
+              [TEXT] #966:49982 layout=layout_177c5efc fills=fill_34dc0314 textStyle=H3 text="Оригинальные изделия"
+              [TEXT] #966:49983 layout=layout_56d3c81c fills=fill_95f554d6 textStyle=style_408c8505 text="Работаем с проверенными поставщиками и подтверждаем подлинность товаров"
+          [FRAME] "Trust Card" #966:49984 layout={"mode":"column","alignItems":"stretch","gap":"16px","sizing":{"horizontal":"fixed","vertical":"hug"},"dimensions":{"width":470}}
+            [RECTANGLE] "Image" #966:49985 layout={"mode":"none","sizing":{"horizontal":"fill","vertical":"fixed"},"dimensions":{"height":460}} fills=[{"type":"IMAGE","imageRef":"19d18261a744c0c897fb220cf55872414de53de3","scaleMode":"STRETCH","objectFit":"fill","isBackground":false,"imageDownloadArguments":{"needsCropping":true,"requiresImageDimensions":false,"cropTransform":[[1,0,-0.00021695185569114983],[0,0.978723406791687,0.020750798285007477]],"filenameSuffix":"347125"}}]
+            [FRAME] #966:49986 template=EL-1519dabc
+              [TEXT] #966:49987 layout=layout_56d3c81c fills=fill_34dc0314 textStyle=H3 text="Бережная доставка"
+              [TEXT] #966:49988 layout=layout_56d3c81c fills=fill_95f554d6 textStyle=style_408c8505 text="Собственные курьеры в Москве и СДЭК по России с вниманием к хрупким изделиям и гарантией сохранности"
+          [FRAME] "Trust Card" #966:49989 template=EL-9db5b930
+            [RECTANGLE] "Image" #966:49990 layout=layout_9f1db3b4 fills=[{"type":"IMAGE","imageRef":"2993e622763b4c20fd40190680177cf37bbe29bf","scaleMode":"STRETCH","objectFit":"fill","isBackground":false,"imageDownloadArguments":{"needsCropping":true,"requiresImageDimensions":false,"cropTransform":[[1,0,0],[0,0.8459214568138123,0.11714931577444077]],"filenameSuffix":"737dcc"}}]
+            [FRAME] #966:49991 template=EL-29764127
+              [TEXT] #966:49992 layout=layout_177c5efc fills=fill_34dc0314 textStyle=H3 text="Подарочная упаковка"
+              [TEXT] #966:49993 layout=layout_56d3c81c fills=fill_95f554d6 textStyle=style_408c8505 text="Оригинальная коробка, пакет, лента и другие детали комплектации"
+          [LINE] #966:49994 layout={"mode":"none","sizing":{"horizontal":"fixed","vertical":"fixed"},"position":"absolute","locationRelativeToParent":{"x":355,"y":230},"dimensions":{"width":66,"height":0}} strokes=fill_ed7aa05a strokeWeight=1px
+          [LINE] #966:49995 layout={"mode":"none","sizing":{"horizontal":"fixed","vertical":"fixed"},"position":"absolute","locationRelativeToParent":{"x":939,"y":230},"dimensions":{"width":66,"height":0}} strokes=fill_ed7aa05a strokeWeight=1px
+      [INSTANCE] "Button" #966:49996 template=EL-2de48b83
+        [TEXT] #I966:49996;1:6210 layout=layout_177c5efc fills=fill_8b4fbb9e textStyle=style_ce0a4cea text="Узнать больше о нас"
+    [FRAME] "Gifts" #966:49997 layout={"mode":"row","padding":"70px 0px","alignItems":"center","sizing":{"horizontal":"fixed","vertical":"hug"},"dimensions":{"width":1440}} fills=fill_7ad30328
+      [FRAME] "Image" #966:49998 layout=layout_dc104898 fills=[{"type":"IMAGE","imageRef":"4433e71c1e29a8c0b82114147eb9fde77541f222","scaleMode":"STRETCH","objectFit":"fill","isBackground":false,"imageDownloadArguments":{"needsCropping":true,"requiresImageDimensions":false,"cropTransform":[[1,0,0],[0,0.8055555820465088,0.12575648725032806]],"filenameSuffix":"27903a"}}]
+      [FRAME] #966:49999 template=EL-4568da53
+        [FRAME] #966:50000 template=EL-3e88f878
+          [TEXT] #966:50001 layout=layout_8235c757 fills=fill_34dc0314 textStyle="H2 (828:11795)" text="Подарки к особому случаю"
+          [FRAME] "Image" #966:50002 layout=layout_3a832226 fills=[{"type":"IMAGE","imageRef":"c6889ac7166cb69149aeb91c3615a7a8867e16cb","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}}]
+          [TEXT] #966:50003 layout=layout_4fd60649 fills=fill_34dc0314 textStyle=style_eaa18374 text="Изделия для особых поводов, деловых жестов и личных событий"
+        [FRAME] #966:50004 layout={"mode":"column","alignItems":"center","gap":"8px","sizing":{"horizontal":"hug","vertical":"hug"}}
+          [INSTANCE] "Button" #966:50005 template=EL-18fca13c
+            [TEXT] #I966:50005;1:6200 template=EL-3dc854f5
+          [INSTANCE] "Button" #966:50006 layout={"mode":"row","alignSelf":"stretch","padding":"16px 24px","justifyContent":"center","alignItems":"center","gap":"10px","sizing":{"horizontal":"fill","vertical":"hug"}} strokes=fill_c5b17057 strokeWeight=1px borderRadius=2px componentId=828:11827
+            [TEXT] #I966:50006;1:6210 layout=layout_177c5efc fills=fill_8b4fbb9e textStyle=style_ce0a4cea text="Подарочная карта"
+        [FRAME] #966:50007 template=EL-5e5def69
+          [LINE] #966:50008 template=EL-5d3c36cd
+          [RECTANGLE] "Logo" #966:50009 template=EL-b35ab3bb
+          [LINE] #966:50010 template=EL-5d3c36cd
+      [LINE] #966:50011 layout={"mode":"none","sizing":{"horizontal":"fixed","vertical":"fixed"},"position":"absolute","locationRelativeToParent":{"x":760,"y":790},"dimensions":{"width":640,"height":0}} strokes=fill_ed7aa05a strokeWeight=1px
+    [FRAME] "In stock" #966:50012 layout={"mode":"row","alignSelf":"stretch","padding":"70px 0px","alignItems":"center","sizing":{"horizontal":"fill","vertical":"hug"}}
+      [FRAME] #966:50013 template=EL-4568da53
+        [FRAME] #966:50014 template=EL-3e88f878
+          [TEXT] #966:50015 layout=layout_8235c757 fills=fill_34dc0314 textStyle="H2 (828:11795)" text="изделия  В наличии"
+          [FRAME] "Image" #966:50016 layout=layout_3a832226 fills=[{"type":"IMAGE","imageRef":"5121a4647bacd6fecd6faac3511f215257a73b50","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}}]
+          [TEXT] #966:50017 layout=layout_4fd60649 fills=fill_34dc0314 textStyle=style_eaa18374 text="Изделия, которые уже доступны к покупке без долгого ожидания"
+        [FRAME] #966:50018 template=EL-5e5def69
+          [LINE] #966:50019 template=EL-5d3c36cd
+          [RECTANGLE] "Logo" #966:50020 template=EL-b35ab3bb
+          [LINE] #966:50021 template=EL-5d3c36cd
+        [INSTANCE] #966:50022 template=EL-18fca13c
+          [TEXT] #I966:50022;1:6200 template=EL-3dc854f5
+      [LINE] #966:50023 layout={"mode":"none","sizing":{"horizontal":"fixed","vertical":"fixed"},"position":"absolute","locationRelativeToParent":{"x":40,"y":790},"dimensions":{"width":640,"height":0}} strokes=fill_ed7aa05a strokeWeight=1px
+      [FRAME] "Image" #966:50024 layout=layout_dc104898 fills=[{"type":"IMAGE","imageRef":"bd2bab0cee5b5f6541a39caade7e8528570a8295","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}}]
+    [FRAME] "Categories" #966:50025 template=EL-89d9322e
+      [FRAME] #966:50026 template=EL-7e82b98e
+        [FRAME] #966:50027 template=EL-28d879d4
+          [LINE] #966:50028 template=EL-56ff9324
+          [RECTANGLE] "Logo" #966:50029 template=EL-b35ab3bb
+          [LINE] #966:50030 template=EL-56ff9324
+        [FRAME] #966:50031 template=EL-9f27bbaa
+          [TEXT] #966:50032 layout=layout_56d3c81c fills=fill_34dc0314 textStyle="H2 (828:11795)" text="Коллекции для дома и образа"
+          [TEXT] #966:50033 layout=layout_de0cc672 fills=fill_95f554d6 textStyle=style_253fa23f text="Посуда, хрусталь, декор и аксессуары Hermès, Baccarat, Lalique, Tiffany&Co, Versace и других премиальных брендов"
+      [FRAME] #966:50034 layout={"mode":"row","alignSelf":"stretch","justifyContent":"space-between","sizing":{"horizontal":"fill","vertical":"hug"}}
+        [FRAME] "Trust Card" #966:50035 template=EL-d584ac2b
+          [RECTANGLE] "Image" #966:50036 layout=layout_5bc4e785 fills=[{"type":"IMAGE","imageRef":"40543c862d529ce0193dde6058c08d6d67be1d8f","scaleMode":"STRETCH","objectFit":"fill","isBackground":false,"imageDownloadArguments":{"needsCropping":true,"requiresImageDimensions":false,"cropTransform":[[0.7522727251052856,0,0.040951360017061234],[0,1,0]],"filenameSuffix":"259db2"}}]
+          [TEXT] #966:50037 layout=layout_177c5efc fills=fill_34dc0314 textStyle=H3 text="Декор и интерьер"
+        [FRAME] "Trust Card" #966:50038 template=EL-d584ac2b
+          [RECTANGLE] "Image" #966:50039 layout=layout_5bc4e785 fills=[{"type":"IMAGE","imageRef":"97b0fc254772552b4b4aa1b5ecf757d15de50e07","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}}]
+          [TEXT] #966:50040 layout=layout_177c5efc fills=fill_34dc0314 textStyle=H3 text="Посуда"
+        [FRAME] "Trust Card" #966:50041 template=EL-d584ac2b
+          [RECTANGLE] "Image" #966:50042 layout=layout_5bc4e785 fills=[{"type":"IMAGE","imageRef":"50698be927c97f81a97aad1faf4aa0835ee36df7","scaleMode":"STRETCH","objectFit":"fill","isBackground":false,"imageDownloadArguments":{"needsCropping":true,"requiresImageDimensions":false,"cropTransform":[[0.6495838165283203,0,0.21566373109817505],[0,0.6955932974815369,0.3036518096923828]],"filenameSuffix":"20025d"}}]
+          [TEXT] #966:50043 layout=layout_177c5efc fills=fill_34dc0314 textStyle=H3 text="Текстиль"
+        [FRAME] "Trust Card" #966:50044 template=EL-d584ac2b
+          [RECTANGLE] "Image" #966:50045 layout=layout_5bc4e785 fills=[{"type":"IMAGE","imageRef":"1eb64c7af4a93f1a3a9e8480f6fd0c62e5301a5c","scaleMode":"STRETCH","objectFit":"fill","isBackground":false,"imageDownloadArguments":{"needsCropping":true,"requiresImageDimensions":false,"cropTransform":[[0.6280362606048584,0,0.1859818696975708],[0,0.6725195646286011,0.13200421631336212]],"filenameSuffix":"23aa3a"}}]
+          [TEXT] #966:50046 layout=layout_177c5efc fills=fill_34dc0314 textStyle=H3 text="Аксессуары"
+    [FRAME] "Popular Items" #966:50047 template=EL-58a296aa
+      [FRAME] "Content" #966:50048 template=EL-5379637c
+        [FRAME] "Title" #966:50049 template=EL-7e82b98e
+          [FRAME] "Decoration" #966:50050 template=EL-28d879d4
+            [LINE] #966:50051 template=EL-56ff9324
+            [RECTANGLE] "Logo" #966:50052 template=EL-b35ab3bb
+            [LINE] #966:50053 template=EL-56ff9324
+          [TEXT] #966:50054 layout=layout_177c5efc fills=fill_34dc0314 textStyle="H2 (828:11795)" text="Выбор клиентов"
+        [FRAME] "Item Cards" #966:50055 layout={"mode":"row","gap":"12px","sizing":{"horizontal":"fixed","vertical":"hug"},"dimensions":{"width":1360}}
+          [INSTANCE] "Item Card/Desktop" #966:50056 template=EL-dc2e4f12
+            [RECTANGLE] "Image" #I966:50056;1:6410 layout=layout_f855a86a fills=[{"type":"IMAGE","imageRef":"88fd281f4d0240daee631a8963ea746f35fb0d87","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}}]
+            [FRAME] "Content" #I966:50056;1:6411 template=EL-1519dabc
+              [FRAME] "Text" #I966:50056;1:6412 template=EL-bc40306a
+                [TEXT] #I966:50056;1:6413 template=EL-a3b5271a
+                [TEXT] #I966:50056;1:6414 layout=layout_56d3c81c fills=fill_34dc0314 textStyle=H4 text="Скульптура Daum Рыба Ange Royal Turquoise & Jaune Maya"
+              [FRAME] "Sale Price" #I966:50056;1:6415 template=EL-94a17615
+                [TEXT] #I966:50056;1:6416 layout=layout_177c5efc fills=fill_34dc0314 textStyle=style_bd261dfe text="1 160 000 ₽"
+                [GROUP] #I966:50056;1:6417 layout={"mode":"none","sizing":{"horizontal":"fixed","vertical":"fixed"},"dimensions":{"width":93,"height":23}} borderRadius="0px 0px 0px 0px"
+                  [LINE] #I966:50056;1:6418 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":0,"y":13},"dimensions":{"width":91,"height":0}} strokes=fill_b9de0bb4 strokeWeight=1px
+                  [TEXT] #I966:50056;1:6419 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":0,"y":0},"dimensions":{"width":93,"height":23}} fills=fill_b9de0bb4 textStyle=style_bd261dfe text="1 170 000 ₽"
+            [INSTANCE] "Tag" #I966:50056;1:6420 template=EL-095e709d
+              [TEXT] #I966:50056;1:6420;1:6404 template=EL-9bfb5c6e
+            [IMAGE-SVG] "Icon Wishlist" #I966:50056;1:6421 template=EL-27994a59
+          [INSTANCE] "Item Card/Desktop" #966:50057 template=EL-dc2e4f12
+            [RECTANGLE] "Image" #I966:50057;1:6410 layout=layout_f855a86a fills=[{"type":"IMAGE","imageRef":"aaf478fb911a43441bf8a772a769081be615e7b5","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}}]
+            [FRAME] "Content" #I966:50057;1:6411 template=EL-1519dabc
+              [FRAME] "Text" #I966:50057;1:6412 template=EL-bc40306a
+                [TEXT] #I966:50057;1:6413 layout=layout_56d3c81c fills=fill_b9de0bb4 textStyle=style_f0c22508 text="Пепельница"
+                [TEXT] #I966:50057;1:6414 layout=layout_56d3c81c fills=fill_34dc0314 textStyle=H4 text="Пепельница Patek Philippe Chopard"
+              [FRAME] "Sale Price" #I966:50057;1:6415 template=EL-94a17615
+                [TEXT] #I966:50057;1:6416 layout=layout_177c5efc fills=fill_34dc0314 textStyle=style_bd261dfe text="45 000 ₽"
+            [INSTANCE] "Tag" #I966:50057;1:6420 template=EL-095e709d
+              [TEXT] #I966:50057;1:6420;1:6404 template=EL-9bfb5c6e
+            [IMAGE-SVG] "Icon Wishlist" #I966:50057;1:6421 template=EL-27994a59
+          [INSTANCE] "Item Card/Desktop" #966:50058 template=EL-dc2e4f12
+            [RECTANGLE] "Image" #I966:50058;1:6410 layout=layout_f855a86a fills=[{"type":"IMAGE","imageRef":"0f0cd5ecaf26ea691e2cc0cd8b0041b4281dd917","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}}]
+            [FRAME] "Content" #I966:50058;1:6411 template=EL-1519dabc
+              [FRAME] "Text" #I966:50058;1:6412 template=EL-bc40306a
+                [TEXT] #I966:50058;1:6413 layout=layout_56d3c81c fills=fill_b9de0bb4 textStyle=style_f0c22508 text="Плед"
+                [TEXT] #I966:50058;1:6414 layout=layout_56d3c81c fills=fill_34dc0314 textStyle=H4 text="Плед Cartier Panthere"
+              [FRAME] "Sale Price" #I966:50058;1:6415 template=EL-94a17615
+                [TEXT] #I966:50058;1:6416 layout=layout_177c5efc fills=fill_34dc0314 textStyle=style_bd261dfe text="120 000 ₽"
+            [IMAGE-SVG] "Icon Wishlist" #I966:50058;1:6421 template=EL-27994a59
+          [INSTANCE] "Item Card/Desktop" #966:50059 template=EL-dc2e4f12
+            [RECTANGLE] "Image" #I966:50059;1:6410 layout=layout_f855a86a fills=[{"type":"IMAGE","imageRef":"d375779d1ee3126fc36e125a1b29616370a5c520","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}}]
+            [FRAME] "Content" #I966:50059;1:6411 template=EL-1519dabc
+              [FRAME] "Text" #I966:50059;1:6412 template=EL-bc40306a
+                [TEXT] #I966:50059;1:6413 layout=layout_56d3c81c fills=fill_b9de0bb4 textStyle=style_f0c22508 text="Подушка"
+                [TEXT] #I966:50059;1:6414 layout=layout_56d3c81c fills=fill_34dc0314 textStyle=H4 text="Подушка Cartier Panthere"
+              [FRAME] "Sale Price" #I966:50059;1:6415 template=EL-94a17615
+                [TEXT] #I966:50059;1:6416 layout=layout_177c5efc fills=fill_34dc0314 textStyle=style_bd261dfe text="60 000 ₽"
+            [IMAGE-SVG] "Icon Wishlist" #I966:50059;1:6421 template=EL-27994a59
+          [INSTANCE] "Item Card/Desktop" #966:50060 template=EL-dc2e4f12
+            [RECTANGLE] "Image" #I966:50060;1:6410 layout=layout_f855a86a fills=[{"type":"IMAGE","imageRef":"9505638a2d3976fcd0596c09a5258870d977f96a","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}}]
+            [FRAME] "Content" #I966:50060;1:6411 template=EL-1519dabc
+              [FRAME] "Text" #I966:50060;1:6412 template=EL-bc40306a
+                [TEXT] #I966:50060;1:6413 template=EL-a3b5271a
+                [TEXT] #I966:50060;1:6414 layout=layout_56d3c81c fills=fill_34dc0314 textStyle=H4 text="Скульптура Daum Ястреб"
+              [FRAME] "Sale Price" #I966:50060;1:6415 template=EL-94a17615
+                [TEXT] #I966:50060;1:6416 layout=layout_177c5efc fills=fill_34dc0314 textStyle=style_bd261dfe text="2 772 000 ₽"
+            [IMAGE-SVG] "Icon Wishlist" #I966:50060;1:6421 template=EL-27994a59
+        [FRAME] "Arrows" #966:50061 layout={"mode":"row","alignItems":"center","gap":"8px","sizing":{"horizontal":"hug","vertical":"hug"},"position":"absolute","locationRelativeToParent":{"x":1272,"y":55}}
+          [IMAGE-SVG] "Header/Arrow" #966:50062 template=EL-3d5db4f2
+          [IMAGE-SVG] "Header/Arrow" #966:50063 template=EL-3d5db4f2
+      [INSTANCE] #966:50064 template=EL-18fca13c
+        [TEXT] #I966:50064;1:6200 layout=layout_177c5efc fills=fill_658ab2fa textStyle=style_ce0a4cea text="Смотреть все изделия"
+    [FRAME] "Popular Brands" #966:50065 template=EL-58a296aa
+      [FRAME] #966:50066 template=EL-5379637c
+        [FRAME] #966:50067 template=EL-7e82b98e
+          [FRAME] #966:50068 template=EL-28d879d4
+            [LINE] #966:50069 template=EL-56ff9324
+            [RECTANGLE] "Logo" #966:50070 template=EL-b35ab3bb
+            [LINE] #966:50071 template=EL-56ff9324
+          [TEXT] #966:50072 layout=layout_f393722d fills=fill_34dc0314 textStyle="H2 (828:11795)" text="Популярные бренды"
+        [FRAME] #966:50073 layout={"mode":"row","alignSelf":"stretch","justifyContent":"center","alignItems":"center","gap":"12px","sizing":{"horizontal":"fill","vertical":"hug"}}
+          [FRAME] #966:50074 template=EL-1c2ecee1
+            [RECTANGLE] "Image" #966:50075 layout=layout_558641a8 fills=[{"type":"IMAGE","imageRef":"f225673b23dd315f4b20c5c6ae60077bad9749dd","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}}]
+            [TEXT] #966:50076 layout=layout_177c5efc fills=fill_34dc0314 textStyle=H3 text="Daum"
+          [FRAME] #966:50077 template=EL-1c2ecee1
+            [RECTANGLE] "Image" #966:50078 layout=layout_558641a8 fills=[{"type":"IMAGE","imageRef":"d7efa69716b386174b4b2db4bbef6d931bef1c89","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}}]
+            [TEXT] #966:50079 layout=layout_177c5efc fills=fill_34dc0314 textStyle=H3 text="Versace"
+          [FRAME] #966:50080 template=EL-1c2ecee1
+            [RECTANGLE] "Image" #966:50081 layout={"mode":"none","sizing":{"horizontal":"fixed","vertical":"fixed"},"dimensions":{"width":446,"height":520}} fills=[{"type":"IMAGE","imageRef":"8ab9d3d3584e6571bbf7bc604a78c0ca467c3ff7","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}}]
+            [TEXT] #966:50082 layout=layout_177c5efc fills=fill_34dc0314 textStyle=H3 text="Hermès"
+          [FRAME] #966:50083 template=EL-1c2ecee1
+            [RECTANGLE] "Image" #966:50084 layout=layout_558641a8 fills=[{"type":"IMAGE","imageRef":"81e742ab53089e9c3203ec0a7d3803af5a7a9a14","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}}]
+            [TEXT] #966:50085 layout=layout_177c5efc fills=fill_34dc0314 textStyle=H3 text="Baccarat"
+          [FRAME] #966:50086 template=EL-1c2ecee1
+            [RECTANGLE] "Image" #966:50087 layout=layout_558641a8 fills=[{"type":"IMAGE","imageRef":"76d2f39b8013266fd5279a9bff60647fe8734529","scaleMode":"STRETCH","objectFit":"fill","isBackground":false,"imageDownloadArguments":{"needsCropping":true,"requiresImageDimensions":false,"cropTransform":[[0.8300653696060181,0,0.16947263479232788],[0,1,1.4210854715202004e-14]],"filenameSuffix":"36be65"}}]
+            [TEXT] #966:50088 layout=layout_177c5efc fills=fill_34dc0314 textStyle=H3 text="Tiffany&Co"
+        [FRAME] "Arrows" #966:50089 layout={"mode":"row","alignItems":"center","gap":"8px","sizing":{"horizontal":"hug","vertical":"hug"},"position":"absolute","locationRelativeToParent":{"x":1272,"y":131}}
+          [IMAGE-SVG] "Header/Arrow" #966:50090 template=EL-3d5db4f2
+          [IMAGE-SVG] "Header/Arrow" #966:50091 template=EL-3d5db4f2
+      [INSTANCE] #966:50092 template=EL-18fca13c
+        [TEXT] #I966:50092;1:6200 layout=layout_177c5efc fills=fill_658ab2fa textStyle=style_ce0a4cea text="Смотреть все бренды"
+    [FRAME] "Designers" #966:50093 layout={"mode":"row","padding":"70px 40px 70px 0px","justifyContent":"center","gap":"40px","sizing":{"horizontal":"fixed","vertical":"hug"},"dimensions":{"width":1440}} fills=fill_7ad30328
+      [FRAME] "Image" #966:50094 layout=layout_dc104898 fills=[{"type":"IMAGE","imageRef":"f46c1f5db92a730bbecf8b0f62e98542ff61d748","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}}]
+      [FRAME] "Content" #966:50095 layout={"mode":"column","alignSelf":"stretch","justifyContent":"space-between","alignItems":"flex-end","sizing":{"horizontal":"fixed","vertical":"fill"},"dimensions":{"width":674}}
+        [FRAME] #966:50096 template=EL-1bc16580
+          [FRAME] #966:50097 template=EL-50ef8a26
+            [TEXT] #966:50098 layout=layout_56d3c81c fills=fill_34dc0314 textStyle=H2 text="Дизайнерам и декораторам"
+            [TEXT] #966:50099 layout=layout_de0cc672 fills=fill_95f554d6 textStyle=style_57ad5930 text="Подбирайте оригинальные изделия премиальных брендов  для интерьерных проектов и собирайте их в удобные подборки для согласования с клиентами. Laress открыта к обсуждению индивидуальных условий партнёрства"
+          [FRAME] #966:50100 layout={"mode":"row","gap":"8px","sizing":{"horizontal":"hug","vertical":"hug"}}
+            [INSTANCE] #966:50101 template=EL-18fca13c
+              [TEXT] #I966:50101;1:6200 layout=layout_177c5efc fills=fill_658ab2fa textStyle=style_ce0a4cea text="Обсудить сотрудничество"
+            [FRAME] #966:50102 layout={"mode":"row","gap":"12px","sizing":{"horizontal":"hug","vertical":"hug"}}
+              [INSTANCE] #966:50103 template=EL-2de48b83
+                [TEXT] #I966:50103;1:6210 layout=layout_177c5efc fills=fill_8b4fbb9e textStyle=style_ce0a4cea text="Узнать больше"
+        [FRAME] "Image" #966:50104 layout={"mode":"column","padding":"2px 124px 190px","justifyContent":"center","gap":"10px","sizing":{"horizontal":"fixed","vertical":"fixed"},"dimensions":{"width":230,"height":300}} fills=[{"type":"IMAGE","imageRef":"ff353b705559d7ab206bf75901091b45f727f673","scaleMode":"STRETCH","objectFit":"fill","isBackground":false,"imageDownloadArguments":{"needsCropping":true,"requiresImageDimensions":false,"cropTransform":[[0.6731325387954712,0,0.1634337157011032],[0,0.7072769403457642,0.059497758746147156]],"filenameSuffix":"15f4f0"}}]
+    [FRAME] "Blog" #966:50105 template=EL-89d9322e
+      [FRAME] "Title" #966:50106 template=EL-7e82b98e
+        [FRAME] #966:50107 template=EL-28d879d4
+          [LINE] #966:50108 template=EL-56ff9324
+          [RECTANGLE] "Logo" #966:50109 template=EL-b35ab3bb
+          [LINE] #966:50110 template=EL-56ff9324
+        [FRAME] #966:50111 template=EL-9f27bbaa
+          [TEXT] #966:50112 layout=layout_56d3c81c fills=fill_34dc0314 textStyle="H2 (828:11795)" text="Статьи"
+          [TEXT] #966:50113 layout=layout_de0cc672 fills=fill_95f554d6 textStyle=style_253fa23f text="Материалы о посуде, декоре и подарках: от выбора бренда до сервировки и оформления интерьера"
+      [FRAME] "Content" #966:50114 layout={"mode":"column","alignSelf":"stretch","alignItems":"center","gap":"40px","sizing":{"horizontal":"fill","vertical":"hug"}}
+        [FRAME] "Cards" #966:50115 layout={"mode":"row","alignSelf":"stretch","gap":"12px","sizing":{"horizontal":"fill","vertical":"hug"}}
+          [FRAME] "Article Card" #966:50116 template=EL-c0b8ba13
+            [RECTANGLE] "Image" #966:50117 layout=layout_5bc4e785 fills=[{"type":"IMAGE","imageRef":"a5b4581711cf60f2ff5852db5cd0522bac1ce6cd","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}}]
+            [FRAME] #966:50118 template=EL-243fe5b4
+              [FRAME] #966:50119 template=EL-1519dabc
+                [TEXT] #966:50120 layout=layout_56d3c81c fills=fill_34dc0314 textStyle="H3 (828:12005)" text="Эстетика времени"
+                [TEXT] #966:50121 layout=layout_56d3c81c fills=fill_95f554d6 textStyle=style_c1e78652 text="В эпоху цифрового шума, когда тысячи снимков бесследно исчезают в бесконечной ленте социальных сетей среди мимолетных кадров, истинная ценность обретает физическую форму."
+              [TEXT] #966:50122 template=EL-abb0ba6e
+          [FRAME] "Article Card" #966:50123 template=EL-c0b8ba13
+            [RECTANGLE] "Image" #966:50124 layout=layout_5bc4e785 fills=[{"type":"IMAGE","imageRef":"c4cc1c2758794e9010804afa779f699b21c3e516","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}}]
+            [FRAME] #966:50125 template=EL-243fe5b4
+              [FRAME] #966:50126 template=EL-1519dabc
+                [TEXT] #966:50127 layout=layout_56d3c81c fills=fill_34dc0314 textStyle="H3 (828:12005)" text="Лето - время любви и красивых свадеб"
+                [TEXT] #966:50128 layout=layout_56d3c81c fills=fill_95f554d6 textStyle=style_c1e78652 text="Свадебный сезон в самом разгаре. Получение приглашения на свадьбу — это всегда радостное событие, за которым неизбежно следует важный вопрос: какой подарок станет достойным."
+              [TEXT] #966:50129 template=EL-abb0ba6e
+          [FRAME] "Article Card" #966:50130 template=EL-c0b8ba13
+            [RECTANGLE] "Image" #966:50131 layout=layout_5bc4e785 fills=[{"type":"IMAGE","imageRef":"ee0b9829b4db00f0da1d990f0e22124a47a952df","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}}]
+            [FRAME] #966:50132 template=EL-243fe5b4
+              [FRAME] #966:50133 template=EL-1519dabc
+                [TEXT] #966:50134 layout=layout_56d3c81c fills=fill_34dc0314 textStyle="H3 (828:12005)" text="Официальный дистрибьютор  люкс домов"
+                [TEXT] #966:50135 layout=layout_56d3c81c fills=fill_95f554d6 textStyle=style_c1e78652 text="LARESS является официальным дистрибьютором и авторизованным партнёром ряда крупнейших европейских марок в категориях фарфора, хрусталя, столовых приборов и предметов декора."
+              [TEXT] #966:50136 layout=layout_56d3c81c fills=fill_95f554d6 textStyle=style_ea08502d text="1 мая 2026"
+        [INSTANCE] #966:50137 template=EL-2de48b83
+          [TEXT] #I966:50137;1:6210 layout=layout_177c5efc fills=fill_8b4fbb9e textStyle=style_ce0a4cea text="Смотреть все статьи"
+    [FRAME] "CTA" #966:50138 layout={"mode":"column","alignSelf":"stretch","padding":"70px 0px","alignItems":"stretch","gap":"32px","sizing":{"horizontal":"fill","vertical":"hug"}}
+      [FRAME] "Image" #966:50139 layout={"mode":"column","alignSelf":"stretch","padding":"80px 40px","gap":"24px","sizing":{"horizontal":"fill","vertical":"fixed"},"dimensions":{"height":720}} fills=[{"type":"IMAGE","imageRef":"3588afd299632815815b682e49058927745484bf","scaleMode":"FILL","backgroundSize":"cover","backgroundRepeat":"no-repeat","isBackground":true,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}}]
+        [FRAME] #966:50140 template=EL-8f2f1080
+          [TEXT] #966:50141 layout=layout_177c5efc fills=fill_658ab2fa textStyle=H2 text="Не уверены, что выбрать?"
+          [TEXT] #966:50142 layout={"mode":"none","sizing":{"horizontal":"fixed","vertical":"hug"},"dimensions":{"width":462}} fills=["rgba(255, 255, 255, 0.9)"] textStyle=style_57ad5930 text="Менеджер Laress поможет подобрать оригинальную посуду, декор или подарок под повод, бюджет и сроки"
+        [INSTANCE] #966:50143 template=EL-43b9216d
+          [TEXT] #I966:50143;1:6202 layout=layout_177c5efc fills=fill_bd1b0c45 textStyle=style_ce0a4cea text="Получить бесплатную консультацию"
+    [FRAME] "Contacts" #966:50144 layout={"mode":"row","alignSelf":"stretch","padding":"70px 40px","justifyContent":"center","gap":"40px","sizing":{"horizontal":"fill","vertical":"hug"}}
+      [FRAME] #966:50145 layout={"mode":"column","justifyContent":"space-between","alignItems":"stretch","sizing":{"horizontal":"fill","vertical":"fixed"},"dimensions":{"height":440}}
+        [FRAME] #966:50146 template=EL-1bc16580
+          [FRAME] #966:50147 template=EL-8f2f1080
+            [TEXT] #966:50148 layout=layout_56d3c81c fills=fill_34dc0314 textStyle=H2 text="контакты"
+            [TEXT] #966:50149 layout=layout_de0cc672 fills=fill_95f554d6 textStyle=style_57ad5930 text="Ответим на вопросы, поможем уточнить детали заказа  или подобрать изделие под повод, интерьерный проект и сроки"
+          [INSTANCE] #966:50150 template=EL-18fca13c
+            [TEXT] #I966:50150;1:6200 layout=layout_177c5efc fills=fill_658ab2fa textStyle=style_ce0a4cea text="Оставить заявку"
+        [FRAME] #966:50151 layout={"mode":"column","alignSelf":"stretch","gap":"32px","sizing":{"horizontal":"fill","vertical":"hug"}}
+          [FRAME] #966:50152 layout={"mode":"grid","alignSelf":"stretch","gridTemplateColumns":"repeat(2,minmax(0,1fr))","gridTemplateRows":"repeat(2,fit-content(100%))","gap":"24px 46px","sizing":{"horizontal":"fill","vertical":"hug"}}
+            [FRAME] #966:50153 template=EL-6d1b5341
+              [TEXT] #966:50154 layout=layout_56d3c81c fills=fill_b9de0bb4 textStyle=style_2d79fb96 text="Телефон"
+              [TEXT] #966:50155 layout=layout_56d3c81c fills=fill_95f554d6 textStyle=style_b9ad78cf text="+7 977 620 88 85"
+            [FRAME] #966:50156 template=EL-6d1b5341
+              [TEXT] #966:50157 layout=layout_56d3c81c fills=fill_b9de0bb4 textStyle=style_2d79fb96 text="Адрес"
+              [TEXT] #966:50158 layout=layout_56d3c81c fills=fill_95f554d6 textStyle=style_b9ad78cf text="Москва, ул. Новослободская, 50/1с2"
+            [FRAME] #966:50159 template=EL-6d1b5341
+              [TEXT] #966:50160 layout=layout_56d3c81c fills=fill_b9de0bb4 textStyle=style_2d79fb96 text="Email"
+              [TEXT] #966:50161 layout=layout_56d3c81c fills=fill_95f554d6 textStyle=style_b9ad78cf text="laresseo@gmail.com"
+            [FRAME] #966:50162 template=EL-6d1b5341
+              [TEXT] #966:50163 layout=layout_56d3c81c fills=fill_b9de0bb4 textStyle=style_2d79fb96 text="Режим работы"
+              [TEXT] #966:50164 layout=layout_56d3c81c fills=fill_95f554d6 textStyle=style_b9ad78cf text="Пн—Вс 10:00 – 22:00"
+          [INSTANCE] #966:50165 template=EL-2de48b83
+            [TEXT] #I966:50165;1:6210 layout=layout_177c5efc fills=fill_8b4fbb9e textStyle=style_ce0a4cea text="Все контакты и реквизиты"
+      [FRAME] "Image" #966:50166 layout={"mode":"column","padding":"189px 124px 190px","justifyContent":"center","alignItems":"center","gap":"10px","sizing":{"horizontal":"fixed","vertical":"fixed"},"dimensions":{"width":680,"height":440}} fills=[{"type":"IMAGE","imageRef":"089ff52bb22d00811949bb4141c2ec87fe73f38a","scaleMode":"STRETCH","objectFit":"fill","isBackground":false,"imageDownloadArguments":{"needsCropping":true,"requiresImageDimensions":false,"cropTransform":[[0.5414012670516968,0,0.2292993664741516],[0,0.5911366939544678,0.18644779920578003]],"filenameSuffix":"76a056"}}]
+    [INSTANCE] "Footer" #966:50167 layout={"mode":"column","padding":"70px 40px","alignItems":"stretch","gap":"32px","sizing":{"horizontal":"fixed","vertical":"hug"},"dimensions":{"width":1440}} fills=fill_7ad30328 componentId=828:11843
+      [FRAME] "Selection" #I966:50167;1:6349 layout={"mode":"none","sizing":{"horizontal":"fill","vertical":"fixed"},"dimensions":{"height":385}}
+        [FRAME] #I966:50167;1:6350 layout={"mode":"column","gap":"12px","sizing":{"horizontal":"hug","vertical":"hug"},"locationRelativeToParent":{"x":0,"y":1}}
+          [RECTANGLE] "image 1271224130" #I966:50167;1:6351 layout={"mode":"none","sizing":{"horizontal":"fixed","vertical":"fixed"},"dimensions":{"width":193,"height":42}} fills=[{"type":"IMAGE","imageRef":"a340ddb26a8ef930273f1270569ffec0a1c8702f","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}}]
+          [TEXT] #I966:50167;1:6352 layout={"mode":"none","sizing":{"horizontal":"fixed","vertical":"hug"},"dimensions":{"width":276}} fills=fill_95f554d6 textStyle=style_749d1c1f text="Интернет-бутик оригинальной посуды, декора, текстиля и аксессуаров премиальных брендов"
+        [TEXT] #I966:50167;1:6353 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":0,"y":367},"dimensions":{"width":144,"height":18}} fills=fill_95f554d6 textStyle=style_749d1c1f text="© ООО «Ларес», 2026"
+        [TEXT] #I966:50167;1:6354 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":343,"y":367},"dimensions":{"width":366,"height":18}} fills=fill_95f554d6 textStyle=style_749d1c1f text="Информация на сайте не является публичной офертой"
+        [TEXT] #I966:50167;1:6355 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":800,"y":367},"dimensions":{"width":212,"height":18}} fills=fill_95f554d6 textStyle=style_749d1c1f text="Политика конфиденциальности"
+        [TEXT] #I966:50167;1:6356 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":1143,"y":367},"dimensions":{"width":211,"height":18}} fills=fill_95f554d6 textStyle=style_749d1c1f text="Пользовательское соглашение"
+        [FRAME] #I966:50167;1:6357 layout={"mode":"column","alignItems":"stretch","gap":"16px","sizing":{"horizontal":"fixed","vertical":"hug"},"locationRelativeToParent":{"x":343,"y":0},"dimensions":{"width":217}}
+          [TEXT] #I966:50167;1:6358 layout=layout_56d3c81c fills=fill_b9de0bb4 textStyle=style_2d79fb96 text="Каталог"
+          [FRAME] #I966:50167;1:6359 template=EL-1519dabc
+            [TEXT] #I966:50167;1:6360 layout=layout_56d3c81c fills=fill_95f554d6 textStyle=style_c1e78652 text="Посуда"
+            [TEXT] #I966:50167;1:6361 layout=layout_56d3c81c fills=fill_95f554d6 textStyle=style_c1e78652 text="Декор и интерьер"
+            [TEXT] #I966:50167;1:6362 layout=layout_56d3c81c fills=fill_95f554d6 textStyle=style_c1e78652 text="Текстиль"
+            [TEXT] #I966:50167;1:6363 layout=layout_56d3c81c fills=fill_95f554d6 textStyle=style_c1e78652 text="Аксессуары"
+            [TEXT] #I966:50167;1:6364 layout=layout_56d3c81c fills=fill_95f554d6 textStyle=style_c1e78652 text="В наличии"
+            [TEXT] #I966:50167;1:6365 layout=layout_56d3c81c fills=fill_95f554d6 textStyle=style_c1e78652 text="Подарки"
+            [TEXT] #I966:50167;1:6366 layout=layout_56d3c81c fills=fill_95f554d6 textStyle=style_c1e78652 text="Подарочный сертификат"
+        [FRAME] #I966:50167;1:6367 layout={"mode":"column","alignItems":"stretch","gap":"16px","sizing":{"horizontal":"fixed","vertical":"hug"},"locationRelativeToParent":{"x":572,"y":0},"dimensions":{"width":216}}
+          [TEXT] #I966:50167;1:6368 layout=layout_56d3c81c fills=fill_b9de0bb4 textStyle=style_2d79fb96 text="Покупателям"
+          [FRAME] #I966:50167;1:6369 template=EL-1519dabc
+            [TEXT] #I966:50167;1:6370 layout=layout_56d3c81c fills=fill_95f554d6 textStyle=style_c1e78652 text="Доставка и оплата"
+            [TEXT] #I966:50167;1:6371 layout=layout_56d3c81c fills=fill_95f554d6 textStyle=style_c1e78652 text="Выкуп и ресейл"
+            [TEXT] #I966:50167;1:6372 layout=layout_56d3c81c fills=fill_95f554d6 textStyle=style_c1e78652 text="Контакты"
+        [FRAME] #I966:50167;1:6373 layout={"mode":"column","alignItems":"stretch","gap":"16px","sizing":{"horizontal":"fixed","vertical":"hug"},"locationRelativeToParent":{"x":800,"y":0},"dimensions":{"width":217}}
+          [TEXT] #I966:50167;1:6374 layout=layout_56d3c81c fills=fill_b9de0bb4 textStyle=style_2d79fb96 text="О Laress"
+          [FRAME] #I966:50167;1:6375 template=EL-1519dabc
+            [TEXT] #I966:50167;1:6376 layout=layout_56d3c81c fills=fill_95f554d6 textStyle=style_c1e78652 text="О компании"
+            [TEXT] #I966:50167;1:6377 layout=layout_56d3c81c fills=fill_95f554d6 textStyle=style_c1e78652 text="Дизайнерам"
+            [TEXT] #I966:50167;1:6378 layout=layout_56d3c81c fills=fill_95f554d6 textStyle=style_c1e78652 text="Статьи"
+            [TEXT] #I966:50167;1:6379 layout=layout_56d3c81c fills=fill_95f554d6 textStyle=style_c1e78652 text="Вакансии"
+        [FRAME] #I966:50167;1:6380 layout={"mode":"column","alignItems":"stretch","gap":"24px","sizing":{"horizontal":"fixed","vertical":"hug"},"locationRelativeToParent":{"x":1143,"y":0},"dimensions":{"width":215}}
+          [FRAME] #I966:50167;1:6381 layout={"mode":"column","alignSelf":"stretch","gap":"16px","sizing":{"horizontal":"fill","vertical":"hug"}}
+            [FRAME] #I966:50167;1:6382 template=EL-24705f71
+              [TEXT] #I966:50167;1:6383 layout=layout_56d3c81c fills=fill_b9de0bb4 textStyle=style_2d79fb96 text="Заказы и консультации"
+              [TEXT] #I966:50167;1:6384 layout=layout_56d3c81c fills=fill_95f554d6 textStyle=style_9df09fbc text="+7 977 620 88 85"
+            [FRAME] #I966:50167;1:6385 template=EL-24705f71
+              [TEXT] #I966:50167;1:6386 layout=layout_56d3c81c fills=fill_b9de0bb4 textStyle=style_2d79fb96 text="Отдел закупок"
+              [TEXT] #I966:50167;1:6387 layout=layout_56d3c81c fills=fill_95f554d6 textStyle=style_9df09fbc text="+7 925 507 99 95"
+            [TEXT] #I966:50167;1:6388 layout=layout_56d3c81c fills=fill_95f554d6 textStyle=style_9df09fbc text="laresseo@gmail.com"
+            [FRAME] #I966:50167;1:6389 template=EL-235879b0
+              [IMAGE-SVG] "basil:vk-solid" #I966:50167;1:6390 template=EL-7c4c0d96
+              [IMAGE-SVG] "basil:vk-solid" #I966:50167;1:6392 template=EL-7c4c0d96
+              [IMAGE-SVG] "basil:vk-solid" #I966:50167;1:6394 template=EL-7c4c0d96
+          [FRAME] #I966:50167;1:6396 template=EL-d8a3e5e9
+            [TEXT] #I966:50167;1:6397 layout=layout_56d3c81c fills=fill_95f554d6 textStyle=style_c1e78652 text="Москва, Новослободская улица, д. 50/1с2"
+            [TEXT] #I966:50167;1:6398 layout=layout_56d3c81c fills=fill_95f554d6 textStyle=style_c1e78652 text="Пн—Вс 10:00 – 22:00"
+        [RECTANGLE] "image 1271224161" #I966:50167;1:6399 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":800,"y":170},"dimensions":{"width":151,"height":48}} fills=[{"type":"IMAGE","imageRef":"60b532a334228c29a280f643339be78344894145","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}}]
+    [FRAME] "Modal - Cookies" #966:50168 layout={"mode":"column","padding":"24px 12px","justifyContent":"center","alignItems":"center","sizing":{"horizontal":"fixed","vertical":"fixed"},"position":"absolute","locationRelativeToParent":{"x":0,"y":0},"dimensions":{"width":1440,"height":800}} fills=fill_4cd5ff90
+      [FRAME] "Modal / Toast" #966:50169 layout={"mode":"column","padding":"24px","alignItems":"center","gap":"24px","sizing":{"horizontal":"fixed","vertical":"hug"},"dimensions":{"width":411}} fills=fill_658ab2fa strokes=["#DCDDDF"] strokeWeight=1px effects="BG Blur"
+        [IMAGE-SVG] #966:50170 layout={"mode":"none","sizing":{"horizontal":"fixed","vertical":"fixed"},"dimensions":{"width":72,"height":72}} fills=["#009D5B"] borderRadius=100px
+        [FRAME] #966:50172 template=EL-d8a3e5e9
+          [FRAME] #966:50173 template=EL-bc40306a
+            [TEXT] #966:50174 layout=layout_56d3c81c fills=fill_34dc0314 textStyle="H3 (283:21643)" text="Аккаунт успешно создан"
+            [TEXT] #966:50175 layout=layout_56d3c81c fills=fill_4cd5ff90 textStyle="T2 (843:17364)" text="Можете начинать делать заказы"
+          [INSTANCE] #966:50176 template=EL-9e16dd56
+            [TEXT] #I966:50176;277:8778 layout=layout_177c5efc fills=fill_658ab2fa textStyle=style_7f51a2ff text="На главную"
+      [FRAME] #966:50177 layout={"mode":"none","sizing":{"horizontal":"fixed","vertical":"fixed"},"position":"absolute","locationRelativeToParent":{"x":1356,"y":40},"dimensions":{"width":44,"height":44}}
+        [FRAME] #966:50178 template=EL-e1f99817
+        [FRAME] #966:50179 template=EL-e1f99817

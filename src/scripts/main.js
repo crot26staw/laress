@@ -16,6 +16,7 @@ import { initPasswordFields } from './modules/password-field.js';
 import { initToasts } from './modules/toast.js';
 import { initDrawerForms } from './modules/drawer-form.js';
 import { initFavorites } from './modules/favorites.js';
+import { initAuthForms } from './modules/auth-form.js';
 
 initAnnouncement();
 initHeader();
@@ -34,3 +35,4 @@ initPasswordFields();
 initToasts();
 initDrawerForms();
 initFavorites();
+initAuthForms();

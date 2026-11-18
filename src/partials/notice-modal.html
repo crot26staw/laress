@@ -1,17 +1,21 @@
-<!-- Уведомление «Адрес успешно добавлен» (966:41417 во фрейме 966:41391): плашка по центру, круглый крестик в углу экрана (иконка 966:41418, белая — currentColor).
-     Открывается после отправки панели «Добавление адреса» (modules/drawer-form.js). Станет template-parts/address-added-modal.php. -->
-<dialog class="modal" id="address-added" aria-labelledby="address-added-title">
-  <button class="modal__close modal__close--round" type="button" aria-label="Закрыть" data-dialog-close>
+<!-- Окно-уведомление «Modal / Toast»: белая плашка 411px по центру, зелёный круг с галочкой, заголовок, подпись и кнопка-ссылка.
+     «Аккаунт успешно создан» (966:50169), «Адрес успешно добавлен» (966:41419), письмо для смены пароля и «Пароль изменён» (в макете нет).
+     Параметры: id, title, text, button, href; bold — кнопка 700 (в разделе входа / регистрации); round — круглый жирный крестик (966:41418), иначе тонкий 44×44 (966:50177).
+     Открывается showModal() из скрипта или по ссылке ?notice=<id> (modules/auth-form.js). Станет template-parts/notice-modal.php. -->
+<dialog class="modal" id="{{id}}" aria-labelledby="{{id}}-title" data-notice>
+  {{#if round}}<button class="modal__close modal__close--round" type="button" aria-label="Закрыть" data-dialog-close>
     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M14.1213 12.0003L18.0003 8.11731C18.2522 7.83107 18.3856 7.45967 18.3734 7.0786C18.3612 6.69753 18.2044 6.3354 17.9348 6.06581C17.6652 5.79622 17.3031 5.6394 16.922 5.62723C16.541 5.61507 16.1696 5.74846 15.8833 6.00031L12.0003 9.87931L8.11032 5.98831C7.97099 5.84898 7.80558 5.73845 7.62353 5.66305C7.44148 5.58764 7.24637 5.54883 7.04932 5.54883C6.85228 5.54883 6.65716 5.58764 6.47511 5.66305C6.29307 5.73845 6.12765 5.84898 5.98832 5.98831C5.84899 6.12764 5.73846 6.29305 5.66306 6.4751C5.58765 6.65715 5.54884 6.85226 5.54884 7.04931C5.54884 7.24635 5.58765 7.44147 5.66306 7.62352C5.73846 7.80556 5.84899 7.97098 5.98832 8.11031L9.87932 12.0003L6.00032 15.8823C5.84819 16.0183 5.72541 16.1839 5.63948 16.369C5.55356 16.554 5.5063 16.7547 5.50059 16.9587C5.49488 17.1626 5.53085 17.3656 5.60629 17.5552C5.68173 17.7448 5.79506 17.917 5.93934 18.0613C6.08362 18.2056 6.25583 18.3189 6.44542 18.3943C6.63501 18.4698 6.83799 18.5058 7.04196 18.5C7.24593 18.4943 7.44659 18.4471 7.63166 18.3611C7.81674 18.2752 7.98233 18.1524 8.11832 18.0003L12.0003 14.1213L15.8783 18.0003C16.1597 18.2817 16.5414 18.4398 16.9393 18.4398C17.3373 18.4398 17.7189 18.2817 18.0003 18.0003C18.2817 17.7189 18.4398 17.3373 18.4398 16.9393C18.4398 16.5414 18.2817 16.1597 18.0003 15.8783L14.1213 12.0003Z" fill="currentColor" /></svg>
-  </button>
+  </button>{{/if}}{{#unless round}}<button class="modal__close modal__close--l" type="button" aria-label="Закрыть" data-dialog-close>
+    <svg width="44" height="44" viewBox="0 0 44 44" fill="none" aria-hidden="true"><path d="M11 11L33 33M33 11L11 33" stroke="currentColor" stroke-width="2" /></svg>
+  </button>{{/unless}}
   <div class="modal__panel modal__panel--notice" data-dialog-panel>
     <img src="/src/assets/icons/icon-success-check.svg" width="72" height="72" alt="" />
     <div class="modal__body">
       <div class="modal__heading">
-        <h2 class="modal__title" id="address-added-title">Адрес успешно добавлен</h2>
-        <p class="modal__subtitle">И отображается в личном кабинете</p>
+        <h2 class="modal__title" id="{{id}}-title">{{title}}</h2>
+        <p class="modal__subtitle">{{text}}</p>
       </div>
-      <a class="button button--primary modal__submit" href="/catalog.html">За покупками</a>
+      <a class="button button--primary {{#if bold}}button--bold{{/if}} modal__submit" href="{{href}}">{{button}}</a>
     </div>
   </div>
 </dialog>

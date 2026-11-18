@@ -1,0 +1,110 @@
+/* Регистрация, вход и восстановление пароля (966:49571): экран без шапки и футера.
+   Слева фото на половину экрана (720×800), справа светлая панель со скруглением 32px и формой 520px по центру.
+   В макете слева слайдер (стрелки + прогресс) — по решению пользователя одна картинка, без слайдера. */
+
+.auth {
+  display: flex;
+  min-height: 100vh;
+  background-color: var(--color-gray-100);
+}
+
+.auth__media {
+  position: relative;
+  flex: 0 0 50%;
+  overflow: hidden;
+  background-color: var(--color-placeholder);
+}
+
+.auth__image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.auth__panel {
+  display: flex;
+  flex: 0 0 50%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-24);
+  padding: 64px;
+  border-radius: 32px;
+  background-color: var(--color-surface);
+}
+
+.auth__title {
+  text-align: center;
+}
+
+/* Заголовок с пояснением («Забыли пароль?», «Новый пароль») — пояснения в макете нет, T2 серым через 12px */
+.auth__heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-12);
+}
+
+.auth__intro {
+  max-width: 520px;
+  font-size: var(--font-size-16);
+  line-height: var(--line-height-text);
+  color: var(--color-text-60);
+  text-align: center;
+}
+
+.auth__form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-12);
+  width: 520px;
+}
+
+/* Кнопка: паддинги 21/24 минус рамка 1px; текст 700 — .button--bold (в разделе кнопки и ссылки жирные) */
+.auth__submit {
+  padding-block: 20px;
+}
+
+/* «Забыли пароль?» под полем пароля во входе — в макете нет: T3 серым, справа */
+.auth__forgot {
+  align-self: flex-end;
+  font-size: var(--font-size-14);
+  line-height: var(--line-height-text);
+  color: var(--color-text-60);
+  transition: color var(--transition);
+}
+
+.auth__forgot:hover {
+  color: var(--color-accent);
+}
+
+/* «Есть аккаунт? Войти» (966:49597) */
+.auth__switch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-8);
+  font-size: var(--font-size-16);
+  line-height: var(--line-height-text);
+  color: var(--color-text-60);
+}
+
+/* Текстовая кнопка (864:25312): золотая, 700 16/1.06, паддинг 2px */
+.auth__link {
+  padding: var(--space-2);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-tight);
+  letter-spacing: -0.03em;
+  color: var(--color-accent);
+  transition: color var(--transition);
+}
+
+.auth__link:hover {
+  color: var(--color-accent-hover);
+}
+
+.auth__link:active {
+  color: var(--color-accent-pressed);
+}

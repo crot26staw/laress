@@ -104,6 +104,11 @@
   letter-spacing: -5px;
 }
 
+/* Показанный пароль — цвет #101C2A (966:49646) */
+.field--password .field__input[type="text"] {
+  color: var(--color-heading);
+}
+
 .field__actions {
   display: flex;
   flex-shrink: 0;
@@ -153,6 +158,11 @@
   font-size: var(--font-size-12);
   line-height: 12px;
   color: var(--color-error);
+}
+
+/* У текстового поля «Input» подпись ошибки без отступа (966:49671), у пароля — 12px */
+.form-field--text .form-field__error {
+  padding-inline: 0;
 }
 
 /* Поле с кнопкой «очистить» справа (адрес в панели «Добавление адреса», 966:41389): кнопка видна, когда поле заполнено */

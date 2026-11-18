@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Регистрация — Luvr</title>
+    <meta name="robots" content="noindex" />
+    <link rel="preload" href="/src/assets/fonts/hauora-regular.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/src/assets/fonts/hauora-medium.woff2" as="font" type="font/woff2" crossorigin />
+    <script type="module" src="/src/scripts/main.js"></script>
+  </head>
+  <body>
+    <!-- Регистрация (966:49573, заполненная 966:49600, ошибки 966:49653 / 49680 / 49706 / 49627).
+         После регистрации — главная с окном «Аккаунт успешно создан» (966:49905): /?notice=account-created. -->
+    <main class="auth">
+      <!-- @include src/partials/auth-media.html -->
+
+      <section class="auth__panel" aria-labelledby="auth-title">
+        <h1 class="text-h2 auth__title" id="auth-title">Регистрация</h1>
+
+        <form class="auth__form" action="#" method="post" novalidate data-auth-form data-auth-redirect="/?notice=account-created">
+          <!-- @include src/partials/text-field.html {"id": "register-name", "name": "name", "label": "ФИО", "type": "text", "autocomplete": "name"} -->
+          <!-- @include src/partials/text-field.html {"id": "register-email", "name": "email", "label": "E-mail", "type": "email", "autocomplete": "email"} -->
+          <!-- @include src/partials/text-field.html {"id": "register-phone", "name": "phone", "label": "Телефон", "type": "tel", "autocomplete": "tel"} -->
+          <!-- @include src/partials/password-field.html {"id": "register-password", "name": "password", "label": "Новый пароль", "autocomplete": "new-password"} -->
+          <!-- @include src/partials/password-field.html {"id": "register-password-repeat", "name": "password_repeat", "label": "Повторите пароль", "autocomplete": "new-password", "repeat": "register-password"} -->
+          <button class="button button--primary button--bold auth__submit" type="submit">Зарегистрироваться</button>
+          <label class="checkbox">
+            <input class="checkbox__input" type="checkbox" name="consent" required data-consent />
+            <span class="checkbox__label">Я&nbsp;соглашаюсь с&nbsp;<a href="#">политикой конфиденциальности</a>&nbsp;и&nbsp;даю согласие на&nbsp;обработку персональных данных</span>
+          </label>
+        </form>
+
+        <p class="auth__switch">Есть аккаунт? <a class="auth__link" href="/login.html">Войти</a></p>
+      </section>
+    </main>
+  </body>
+</html>

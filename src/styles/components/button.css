@@ -30,6 +30,11 @@
   font-size: var(--font-size-14);
 }
 
+/* Жирный текст 700 — кнопки раздела «Регистрация / Авторизация» (966:49595) */
+.button--bold {
+  font-weight: var(--font-weight-bold);
+}
+
 .button:disabled,
 .button[aria-disabled="true"] {
   cursor: default;

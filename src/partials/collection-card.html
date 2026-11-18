@@ -1,0 +1,20 @@
+<!-- Карточка подборки в «Избранном» (966:48481). Станет template-parts/collection-card.php (миниатюры — цикл по товарам).
+     Параметры: href, title, count (число товаров), total (сумма), image1…image4 (путь без расширения: .webp + .jpg), alt1…alt4, loading. -->
+<article class="collection-card">
+  <div class="collection-card__head">
+    <h2 class="collection-card__title"><a class="collection-card__link" href="{{href}}">{{title}}</a></h2>
+    <button class="collection-card__menu" type="button" aria-label="Действия с подборкой «{{title}}»">
+      <span aria-hidden="true">•••</span>
+    </button>
+  </div>
+  <ul class="collection-card__images">
+    {{#if image1}}<li><picture><source srcset="{{image1}}.webp" type="image/webp" /><img class="collection-card__image" src="{{image1}}.jpg" width="120" height="140" alt="{{alt1}}" loading="{{loading}}" /></picture></li>{{/if}}
+    {{#if image2}}<li><picture><source srcset="{{image2}}.webp" type="image/webp" /><img class="collection-card__image" src="{{image2}}.jpg" width="120" height="140" alt="{{alt2}}" loading="{{loading}}" /></picture></li>{{/if}}
+    {{#if image3}}<li><picture><source srcset="{{image3}}.webp" type="image/webp" /><img class="collection-card__image" src="{{image3}}.jpg" width="120" height="140" alt="{{alt3}}" loading="{{loading}}" /></picture></li>{{/if}}
+    {{#if image4}}<li><picture><source srcset="{{image4}}.webp" type="image/webp" /><img class="collection-card__image" src="{{image4}}.jpg" width="120" height="140" alt="{{alt4}}" loading="{{loading}}" /></picture></li>{{/if}}
+  </ul>
+  <p class="collection-card__summary">
+    <span class="collection-card__count">Товары ({{count}})</span>
+    <span class="collection-card__total"><span class="visually-hidden">Сумма: </span>{{total}}</span>
+  </p>
+</article>

@@ -63,3 +63,78 @@
   line-height: var(--line-height-text);
   color: var(--color-text-90);
 }
+
+/* Планшет — 1329:43946: фото 768×560 на всю ширину, под ним текст по центру между линиями */
+@media (max-width: 1279.98px) {
+  .brand-story {
+    flex-direction: column;
+    gap: 0;
+    padding-block: 50px;
+  }
+
+  .brand-story__image {
+    flex: none;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 768 / 560;
+  }
+
+  .brand-story__content {
+    gap: var(--space-20);
+    padding: var(--space-16) var(--container-padding) 0;
+  }
+
+  .brand-story__ornament {
+    height: auto;
+  }
+
+  .brand-story__body {
+    justify-content: flex-start;
+    gap: var(--space-20);
+    padding-block: 0;
+  }
+
+  .brand-story__heading {
+    gap: var(--space-8);
+  }
+
+  .brand-story__eyebrow {
+    font-size: var(--font-size-14);
+  }
+
+  .brand-story__text {
+    gap: 10px;
+    width: min(550px, 100%);
+  }
+}
+
+/* Мобильная — 1356:46368: фото 375×285, текст 14px на всю ширину, знак орнамента 32×30 */
+@media (max-width: 767.98px) {
+  .brand-story__image {
+    aspect-ratio: 375 / 285;
+  }
+
+  .brand-story__body {
+    gap: var(--space-16);
+  }
+
+  .brand-story__heading {
+    gap: 6px;
+  }
+
+  .brand-story__eyebrow {
+    font-size: var(--font-size-12);
+  }
+
+  .brand-story__text {
+    gap: 6px;
+    width: 100%;
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+  }
+
+  .brand-story .ornament__mark {
+    width: 32px;
+    height: 30px;
+  }
+}

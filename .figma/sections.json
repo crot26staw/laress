@@ -444,13 +444,7 @@
         "name": "preview",
         "selector": ".product-preview",
         "refY": 131,
-        "refH": 700
-      },
-      {
-        "name": "gallery",
-        "selector": ".product-gallery",
-        "refY": 831,
-        "refH": 756
+        "refH": 1456
       },
       {
         "name": "details",
@@ -1331,6 +1325,134 @@
         "selector": ".footer",
         "refY": 2547,
         "refH": 1086
+      }
+    ]
+  },
+  "product-tablet": {
+    "$comment": "Планшет 768 (1327:43285). В макете карточки слайдеров — фреймы фиксированной высоты 579 (у нас по контенту ~529), поэтому каждый слайдер в Figma на 50px выше: refY ниже них сдвинуты. Панель покупки (1328:43650) — в секции screen (первый экран 1328:43599).",
+    "url": "http://localhost:5173/product.html",
+    "ref": ".figma/screenshots/product-v2-in-stock-tablet_1327-43285.png",
+    "hide": ".tab-bar, .product-bar",
+    "viewportH": 1024,
+    "sections": [
+      {
+        "name": "header",
+        "refY": 0,
+        "refH": 66
+      },
+      {
+        "name": "preview",
+        "selector": ".product-preview",
+        "refY": 66,
+        "refH": 929
+      },
+      {
+        "name": "details",
+        "selector": ".product-details",
+        "refY": 995,
+        "refH": 551
+      },
+      {
+        "name": "same-collection",
+        "selector": ".products:has(#same-collection-title)",
+        "refY": 1546,
+        "refH": 735
+      },
+      {
+        "name": "brand",
+        "selector": ".brand-story",
+        "refY": 2332,
+        "refH": 1126
+      },
+      {
+        "name": "bought-together",
+        "selector": ".products:has(#bought-together-title)",
+        "refY": 3458,
+        "refH": 735
+      },
+      {
+        "name": "recently-viewed",
+        "selector": ".products:has(#recently-viewed-title)",
+        "refY": 4243,
+        "refH": 735
+      },
+      {
+        "name": "footer",
+        "selector": ".footer",
+        "refY": 5029,
+        "refH": 747
+      },
+      {
+        "name": "screen",
+        "ref": ".figma/screenshots/product-v2-in-stock-screen-tablet_1328-43599.png",
+        "hide": ".tab-bar",
+        "refY": 0,
+        "refH": 1024,
+        "viewportH": 1024
+      }
+    ]
+  },
+  "product-mobile": {
+    "$comment": "Мобильная 375 (1356:45789). Панель покупки (1356:46823) сверяется отдельно — первый экран 1356:46488.",
+    "url": "http://localhost:5173/product.html",
+    "ref": ".figma/screenshots/product-v2-in-stock-mobile_1356-45789.png",
+    "hide": ".tab-bar, .product-bar",
+    "viewportH": 812,
+    "sections": [
+      {
+        "name": "header",
+        "refY": 0,
+        "refH": 50
+      },
+      {
+        "name": "preview",
+        "selector": ".product-preview",
+        "refY": 50,
+        "refH": 748
+      },
+      {
+        "name": "details",
+        "selector": ".product-details",
+        "refY": 798,
+        "refH": 805
+      },
+      {
+        "name": "same-collection",
+        "selector": ".products:has(#same-collection-title)",
+        "refY": 1603,
+        "refH": 658
+      },
+      {
+        "name": "brand",
+        "selector": ".brand-story",
+        "refY": 2261,
+        "refH": 903
+      },
+      {
+        "name": "bought-together",
+        "selector": ".products:has(#bought-together-title)",
+        "refY": 3165,
+        "refH": 686
+      },
+      {
+        "name": "recently-viewed",
+        "selector": ".products:has(#recently-viewed-title)",
+        "refY": 3851,
+        "refH": 658
+      },
+      {
+        "name": "footer",
+        "selector": ".footer",
+        "refY": 4509,
+        "refH": 1086
+      },
+      {
+        "name": "screen",
+        "ref": ".figma/screenshots/product-v2-in-stock-screen-mobile_1356-46488.png",
+        "hide": ".tab-bar",
+        "refY": 0,
+        "refH": 812,
+        "viewportH": 812
       }
     ]
   }

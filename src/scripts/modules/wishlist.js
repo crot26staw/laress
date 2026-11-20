@@ -1,11 +1,16 @@
 // Сердечко «в избранное» на карточке и окно «Добавление в избранное» (src/partials/favorites-modal.html).
 // Не отмечено → открывает окно; «Добавить» в строке подборки отмечает сердечко и закрывает окно.
 // Отмечено → снимает отметку. Сохранение на сервере и список подборок пользователя добавит WordPress.
-const WISHLIST = '.product-card__wishlist, .product-preview__wishlist';
+// На странице товара два сердечка одного товара (на фото и в панели покупки) — связаны data-wishlist-id.
+const WISHLIST = '.product-card__wishlist, .product-preview__wishlist, .product-bar__wishlist';
 
 const setPressed = (button, pressed) => {
-  button.setAttribute('aria-pressed', String(pressed));
-  button.setAttribute('aria-label', pressed ? 'Убрать из избранного' : 'Добавить в избранное');
+  const id = button.dataset.wishlistId;
+  const buttons = id ? document.querySelectorAll(`[data-wishlist-id="${CSS.escape(id)}"]`) : [button];
+  buttons.forEach((item) => {
+    item.setAttribute('aria-pressed', String(pressed));
+    item.setAttribute('aria-label', pressed ? 'Убрать из избранного' : 'Добавить в избранное');
+  });
 };
 
 export function initWishlist() {

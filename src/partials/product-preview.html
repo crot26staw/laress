@@ -1,6 +1,10 @@
-<!-- Первый экран страницы товара (966:46295) + галерея (966:46426). Станет template-parts/product-preview.php.
+<!-- Первый экран страницы товара: описание — галерея — цена и покупка. Станет template-parts/product-preview.php.
+     Десктоп: 966:46295 + галерея 2×2 (966:46426). Планшет: 1327:43372, панель покупки 1328:43650. Мобильная: 1356:46125, панель 1356:46823.
      Состояния «Страница товара 2.0»: В наличии (966:46293), Нет в наличии (966:46948), Под заказ (966:47081) — отличаются главным фото и текстом кнопки.
-     Параметры: image (путь без расширения: .webp + .jpg), imageAlt, cta (текст кнопки). -->
+     Параметры: image (путь без расширения: .webp + .jpg), imageAlt, cta (текст кнопки).
+     Галерея (scripts/modules/product-gallery.js): слайды — цикл по фото товара (первое — главное), миниатюры — тот же цикл.
+     На десктопе — главное фото и сетка 2×2, на планшете и мобильной — слайдер со стрелками и миниатюрами.
+     Панель покупки .product-bar — только планшет и мобильная (закреплена снизу вместо таб-бара). -->
 <section class="product-preview" aria-labelledby="product-title">
   <div class="product-preview__info">
     <div class="product-preview__heading">
@@ -15,16 +19,64 @@
     <p class="product-preview__lead">Подушка Cartier Panthere размером 50×50 см&nbsp;— воплощение роскоши и&nbsp;комфорта от&nbsp;легендарного бренда. Элемент коллекции Panthere, выполненный из&nbsp;кашемира.</p>
   </div>
 
-  <div class="product-preview__media">
-    <picture>
-      <source srcset="{{image}}.webp" type="image/webp" />
-      <img class="product-preview__image" src="{{image}}.jpg" width="674" height="700" alt="{{imageAlt}}" />
-    </picture>
-    <button class="product-preview__wishlist" type="button" aria-label="Добавить в избранное" aria-pressed="false">
+  <div class="product-preview__media product-gallery" role="region" aria-roledescription="галерея" aria-label="Фото товара" data-gallery>
+    <div class="product-gallery__viewport">
+      <ul class="product-gallery__track" data-gallery-track>
+        <li class="product-gallery__slide">
+          <picture>
+            <source srcset="{{image}}.webp" type="image/webp" />
+            <img class="product-gallery__image" src="{{image}}.jpg" width="674" height="700" alt="{{imageAlt}}" />
+          </picture>
+        </li>
+        <li class="product-gallery__slide">
+          <picture>
+            <source srcset="/src/assets/images/product/product-cushion-detail-1.webp" type="image/webp" />
+            <img class="product-gallery__image" src="/src/assets/images/product/product-cushion-detail-1.jpg" width="1373" height="1145" alt="Вышитая пантера и надпись Cartier на подушке крупным планом" loading="lazy" />
+          </picture>
+        </li>
+        <li class="product-gallery__slide">
+          <picture>
+            <source srcset="/src/assets/images/product/product-cushion-detail-2.webp" type="image/webp" />
+            <img class="product-gallery__image" src="/src/assets/images/product/product-cushion-detail-2.jpg" width="1373" height="1145" alt="Подушка Cartier Panthere на светлом диване" loading="lazy" />
+          </picture>
+        </li>
+        <li class="product-gallery__slide">
+          <picture>
+            <!-- В десктопе у этого фото своё кадрирование (экспорт слоя 662×662), в слайдере — исходник целиком -->
+            <source media="(max-width: 1279.98px)" srcset="/src/assets/images/product/product-cushion-detail-3-wide.webp" type="image/webp" width="1373" height="1145" />
+            <source media="(max-width: 1279.98px)" srcset="/src/assets/images/product/product-cushion-detail-3-wide.jpg" width="1373" height="1145" />
+            <source srcset="/src/assets/images/product/product-cushion-detail-3.webp" type="image/webp" />
+            <img class="product-gallery__image" src="/src/assets/images/product/product-cushion-detail-3.jpg" width="662" height="662" alt="Подушка с пантерой рядом с вязаным пледом" loading="lazy" />
+          </picture>
+        </li>
+        <li class="product-gallery__slide">
+          <picture>
+            <source srcset="/src/assets/images/product/product-cushion-detail-4.webp" type="image/webp" />
+            <img class="product-gallery__image" src="/src/assets/images/product/product-cushion-detail-4.jpg" width="1373" height="1145" alt="Край подушки с кантом и рисунком пантеры" loading="lazy" />
+          </picture>
+        </li>
+      </ul>
+      <button class="product-gallery__arrow product-gallery__arrow--prev" type="button" aria-label="Предыдущее фото" data-gallery-prev>
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M15.17 3.009L8.592 9.587C7.815 10.364 7.815 11.636 8.592 12.413L15.17 18.991" transform="translate(0 1)" stroke="currentColor" stroke-width="2.018" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" /></svg>
+      </button>
+      <button class="product-gallery__arrow product-gallery__arrow--next" type="button" aria-label="Следующее фото" data-gallery-next>
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M8.009 3.009L14.587 9.587C15.364 10.364 15.364 11.636 14.587 12.413L8.009 18.991" transform="translate(0 1)" stroke="currentColor" stroke-width="2.018" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" /></svg>
+      </button>
+    </div>
+
+    <button class="product-preview__wishlist" type="button" aria-label="Добавить в избранное" aria-pressed="false" data-wishlist-id="15256">
       <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
         <path d="M7.21688 16.1999C5.05354 13.2665 5.77465 8.86642 9.38022 7.39973C12.9858 5.93305 15.1491 8.86642 15.8702 10.3331C16.5914 8.86642 19.4758 5.93305 23.0814 7.39973C26.687 8.86642 26.687 13.2665 24.5236 16.1999C22.3603 19.1332 15.8702 25 15.8702 25C15.8702 25 9.38022 19.1332 7.21688 16.1999Z" stroke-linecap="round" stroke-linejoin="round" />
       </svg>
     </button>
+
+    <ul class="product-gallery__thumbs" aria-label="Миниатюры фото" data-gallery-thumbs>
+      <li><button class="product-gallery__thumb" type="button" aria-label="Фото 1" aria-current="true"><img src="{{image}}.jpg" width="174" height="120" alt="" /></button></li>
+      <li><button class="product-gallery__thumb" type="button" aria-label="Фото 2"><img src="/src/assets/images/product/product-cushion-detail-1.jpg" width="174" height="120" alt="" loading="lazy" /></button></li>
+      <li><button class="product-gallery__thumb" type="button" aria-label="Фото 3"><img src="/src/assets/images/product/product-cushion-detail-2.jpg" width="174" height="120" alt="" loading="lazy" /></button></li>
+      <li><button class="product-gallery__thumb" type="button" aria-label="Фото 4"><img src="/src/assets/images/product/product-cushion-detail-3-wide.jpg" width="174" height="120" alt="" loading="lazy" /></button></li>
+      <li><button class="product-gallery__thumb" type="button" aria-label="Фото 5"><img src="/src/assets/images/product/product-cushion-detail-4.jpg" width="174" height="120" alt="" loading="lazy" /></button></li>
+    </ul>
   </div>
 
   <div class="product-preview__buy">
@@ -62,21 +114,37 @@
   </div>
 </section>
 
-<div class="product-gallery">
-  <picture>
-    <source srcset="/src/assets/images/product/product-cushion-detail-1.webp" type="image/webp" />
-    <img class="product-gallery__image" src="/src/assets/images/product/product-cushion-detail-1.jpg" width="331" height="331" alt="Вышитая пантера и надпись Cartier на подушке крупным планом" loading="lazy" />
-  </picture>
-  <picture>
-    <source srcset="/src/assets/images/product/product-cushion-detail-2.webp" type="image/webp" />
-    <img class="product-gallery__image" src="/src/assets/images/product/product-cushion-detail-2.jpg" width="331" height="331" alt="Подушка Cartier Panthere на светлом диване" loading="lazy" />
-  </picture>
-  <picture>
-    <source srcset="/src/assets/images/product/product-cushion-detail-3.webp" type="image/webp" />
-    <img class="product-gallery__image" src="/src/assets/images/product/product-cushion-detail-3.jpg" width="331" height="331" alt="Подушка с пантерой рядом с вязаным пледом" loading="lazy" />
-  </picture>
-  <picture>
-    <source srcset="/src/assets/images/product/product-cushion-detail-4.webp" type="image/webp" />
-    <img class="product-gallery__image" src="/src/assets/images/product/product-cushion-detail-4.jpg" width="331" height="331" alt="Край подушки с кантом и рисунком пантеры" loading="lazy" />
-  </picture>
+<!-- Панель покупки (планшет и мобильная): закреплена снизу экрана, на десктопе скрыта -->
+<div class="product-bar" role="region" aria-label="Покупка">
+  <div class="product-bar__price-row">
+    <p class="product-bar__title">Подушка Cartier Panthere</p>
+    <div class="product-bar__price-block">
+      <p class="product-bar__price">60 000 ₽</p>
+      <p class="product-bar__split">
+        <img class="product-bar__split-logo" src="/src/assets/icons/icon-yandex-split.svg" width="16" height="16" alt="Яндекс Сплит" />
+        <span class="product-bar__split-text">
+          15000₽<svg class="product-bar__split-times" width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 6L12 12M12 12L18 18M12 12L18 6M12 12L6 18" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" /></svg><span class="visually-hidden"> × </span>4 в супер Сплит
+        </span>
+      </p>
+    </div>
+  </div>
+  <div class="product-bar__actions">
+    <div class="product-bar__cta">
+      <button class="button button--primary product-bar__order" type="button" data-dialog-open="order-modal">{{cta}}</button>
+      <button class="product-bar__icon-button" type="button" aria-label="Поделиться">
+        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+          <path d="M24.6311 21.338C17.665 22.3934 14.4417 27.1399 13.2036 32.0974C13.1514 32.3062 13.428 32.4327 13.5647 32.2665C16.1678 29.1002 19.7086 27.6213 24.6038 27.5821C24.7142 27.5812 24.8049 27.6708 24.8049 27.7812V32.5729C24.8049 32.7425 25.0027 32.8351 25.133 32.7265L34.8158 24.6536C34.9117 24.5737 34.9117 24.4263 34.8158 24.3464L25.133 16.2735C25.0027 16.1649 24.8049 16.2575 24.8049 16.4271V21.1388C24.8049 21.2384 24.7296 21.323 24.6311 21.338Z" stroke="currentColor" stroke-linecap="square" />
+        </svg>
+      </button>
+      <button class="product-bar__icon-button product-bar__wishlist" type="button" aria-label="Добавить в избранное" aria-pressed="false" data-wishlist-id="15256">
+        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+          <path d="M16.0268 24.6814C14.0625 22.0179 14.7173 18.0226 17.9911 16.6908C21.265 15.3591 23.2294 18.0226 23.8841 19.3544C24.5389 18.0226 27.158 15.3591 30.4319 16.6908C33.7058 18.0226 33.7058 22.0179 31.7415 24.6814C29.7771 27.345 23.8841 32.672 23.8841 32.672C23.8841 32.672 17.9911 27.345 16.0268 24.6814Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </button>
+    </div>
+    <a class="product-bar__ask" href="#">
+      Задать вопрос менеджеру
+      <img src="/src/assets/icons/icon-telegram.svg" width="20" height="20" alt="" />
+    </a>
+  </div>
 </div>

@@ -1,6 +1,9 @@
-<!-- «О бренде» на странице товара (966:46569). Станет template-parts/brand-story.php. Раскладка как у «Дизайнерам» на главной. -->
+<!-- «О бренде» на странице товара (966:46569; планшет 1329:43946, мобильная 1356:46368). Станет template-parts/brand-story.php. Раскладка как у «Дизайнерам» на главной. -->
 <section class="brand-story" aria-labelledby="brand-story-title">
   <picture>
+    <!-- Планшет и мобильная — исходник целиком (1536×1024), на десктопе — кадр 760×720 из макета -->
+    <source media="(max-width: 1279.98px)" srcset="/src/assets/images/product/product-promo-hermes-wide.webp" type="image/webp" width="1536" height="1024" />
+    <source media="(max-width: 1279.98px)" srcset="/src/assets/images/product/product-promo-hermes-wide.jpg" width="1536" height="1024" />
     <source srcset="/src/assets/images/product/product-promo-hermes.webp" type="image/webp" />
     <img class="brand-story__image" src="/src/assets/images/product/product-promo-hermes.jpg" width="760" height="720" alt="Сумка Hermès Birkin и шёлковый платок на фоне логотипа Hermès Paris" loading="lazy" />
   </picture>

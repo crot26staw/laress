@@ -109,3 +109,26 @@
     flex-basis: min(343px, 100%);
   }
 }
+
+/* Слайдеры на странице товара (планшет 1329:43802, мобильная 1356:46226): по 50px сверху и снизу —
+   между соседними блоками страницы 100px, как в макете */
+@media (max-width: 1279.98px) {
+  .products--related {
+    padding-block: 50px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .products--related .products__inner {
+    gap: var(--space-28);
+  }
+
+  .products--related .products__track {
+    gap: var(--space-12);
+  }
+
+  .products--related .ornament__mark {
+    width: 32px;
+    height: 30px;
+  }
+}

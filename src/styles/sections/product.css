@@ -1,22 +1,26 @@
 /* Страница товара 2.0 (966:46293): первый экран, галерея, характеристики и описание. */
 
-/* Первый экран (966:46295): описание — фото 674×700 — цена и покупка; колонки по центру фото */
+/* Первый экран (966:46295): описание — фото 674×700 — цена и покупка; колонки по центру главного фото.
+   Галерея (966:46426) — в средней колонке: главное фото и сетка 2×2 по 331px под ним. */
 .product-preview {
-  display: flex;
-  align-items: center;
-  gap: var(--space-40);
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 674px minmax(0, 1fr);
+  align-items: start;
+  column-gap: var(--space-40);
   width: 100%;
   max-width: var(--container-width);
   margin-inline: auto;
   padding-inline: var(--container-padding);
+  padding-bottom: var(--space-70);
 }
 
 .product-preview__info,
 .product-preview__buy {
   display: flex;
-  flex: 1;
   flex-direction: column;
+  justify-content: center;
   min-width: 0;
+  height: 700px;
 }
 
 .product-preview__info {
@@ -57,15 +61,7 @@
 
 .product-preview__media {
   position: relative;
-  flex: 0 0 674px;
-  height: 700px;
-  background-color: var(--color-placeholder);
-}
-
-.product-preview__image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  min-width: 0;
 }
 
 /* «В избранное» на фото — как у карточки товара */
@@ -208,21 +204,42 @@
   color: var(--color-accent);
 }
 
-/* Галерея (966:46426): 2×2 по 331px под главным фото */
-.product-gallery {
+/* Галерея: на десктопе — главное фото 674×700 и сетка 2×2 по 331px (966:46426), без прокрутки */
+.product-gallery__viewport {
+  position: relative;
+}
+
+.product-gallery__track {
   display: grid;
   grid-template-columns: repeat(2, 331px);
   gap: var(--space-12);
-  width: 674px;
-  margin-inline: auto;
-  padding-block: var(--space-12) var(--space-70);
+}
+
+.product-gallery__slide {
+  height: 331px;
+  background-color: var(--color-placeholder);
+}
+
+.product-gallery__slide:first-child {
+  grid-column: 1 / -1;
+  height: 700px;
 }
 
 .product-gallery__image {
-  width: 331px;
-  height: 331px;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
-  background-color: var(--color-placeholder);
+}
+
+/* Стрелки и миниатюры — только в слайдере планшета и мобильной */
+.product-gallery__arrow,
+.product-gallery__thumbs {
+  display: none;
+}
+
+/* Панель покупки — только планшет и мобильная */
+.product-bar {
+  display: none;
 }
 
 /* Характеристики — Описание — аккордеон (966:46431): три колонки через 80px */
@@ -291,6 +308,473 @@
   color: var(--color-accent-hover);
 }
 
-.product-details__more[hidden] {
-  display: none;
+
+/* ---------- Планшет — 1327:43285 (вся страница), 1328:43599 (первый экран с панелью покупки) ---------- */
+@media (max-width: 1279.98px) {
+  /* Первый экран: описание — слайдер фото — характеристики, в колонку */
+  .product-preview {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: var(--space-24);
+    padding-block: var(--space-24) var(--space-32);
+  }
+
+  .product-preview__info,
+  .product-preview__buy {
+    height: auto;
+  }
+
+  .product-preview__info {
+    gap: var(--space-12);
+  }
+
+  .product-preview__heading {
+    gap: 14px;
+  }
+
+  .product-preview__lead {
+    max-width: 601px; /* текст фиксированной ширины 601.16 */
+    line-height: var(--line-height-14);
+  }
+
+  /* Цена и кнопки уходят в панель покупки, на месте остаются характеристики */
+  .product-preview__price-block,
+  .product-preview__actions,
+  .product-preview__wishlist {
+    display: none;
+  }
+
+  /* Слайдер: лента с нативной прокруткой (scroll-snap), фото 720×484 по ширине контейнера */
+  .product-gallery__track {
+    display: flex;
+    gap: 0;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+  }
+
+  .product-gallery__track::-webkit-scrollbar {
+    display: none;
+  }
+
+  .product-gallery__slide,
+  .product-gallery__slide:first-child {
+    flex: 0 0 100%;
+    height: auto;
+    aspect-ratio: 720 / 484;
+    scroll-snap-align: start;
+  }
+
+  /* Стрелки 24×24 в 12px от краёв фото; кнопка 40×40 — для удобного нажатия */
+  .product-gallery__arrow {
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    color: var(--color-white-80);
+    translate: 0 -50%;
+    transition: color var(--transition);
+  }
+
+  .product-gallery__arrow:hover {
+    color: var(--color-white);
+  }
+
+  .product-gallery__arrow svg {
+    width: 24px;
+    height: 24px;
+  }
+
+  .product-gallery__arrow--prev {
+    left: 4px;
+  }
+
+  .product-gallery__arrow--next {
+    right: 4px;
+  }
+
+  /* Миниатюры 174×120 через 8px; лента уходит за правый край экрана */
+  .product-gallery__thumbs {
+    display: flex;
+    gap: var(--space-8);
+    margin-right: calc(-1 * var(--container-padding));
+    padding-top: var(--space-8);
+    padding-right: var(--container-padding);
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scrollbar-width: none;
+  }
+
+  .product-gallery__thumbs::-webkit-scrollbar {
+    display: none;
+  }
+
+  .product-gallery__thumbs > li {
+    flex-shrink: 0;
+  }
+
+  .product-gallery__thumb {
+    position: relative;
+    display: block;
+    width: 174px;
+    height: 120px;
+    background-color: var(--color-placeholder);
+  }
+
+  .product-gallery__thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  /* Неактивная миниатюра — под белой вуалью 60% */
+  .product-gallery__thumb::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: var(--color-white-60);
+    transition: opacity var(--transition);
+  }
+
+  .product-gallery__thumb:hover::after {
+    opacity: 0.5;
+  }
+
+  .product-gallery__thumb[aria-current="true"]::after {
+    opacity: 0;
+  }
+
+  .product-gallery__thumb:focus-visible {
+    outline-offset: -2px;
+  }
+
+  /* Одно фото — без стрелок и миниатюр */
+  .product-gallery:not(:has(.product-gallery__slide + .product-gallery__slide)) :is(.product-gallery__arrow, .product-gallery__thumbs) {
+    display: none;
+  }
+
+  /* Характеристики и описание — две колонки через 32px, аккордеон на всю ширину */
+  .product-details {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: var(--space-32);
+    padding-bottom: 50px;
+  }
+
+  .product-details .accordion {
+    grid-column: 1 / -1;
+  }
+
+  .product-details__column {
+    gap: var(--space-16);
+  }
+
+  /* Панель покупки: закреплена снизу вместо таб-бара */
+  body:has(.product-bar) {
+    --tab-bar-height: 0px;
+    --product-bar-height: 153px; /* 16 + 23 + 16 + 48 + 10 + 20 + 20 */
+
+    padding-bottom: var(--product-bar-height);
+  }
+
+  body:has(.product-bar) .tab-bar {
+    display: none;
+  }
+
+  .product-bar {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 8; /* под затемнением меню и поиска */
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-16);
+    padding: var(--space-16) var(--container-padding) var(--space-20);
+    background-color: var(--color-white);
+    box-shadow: var(--shadow-bar);
+  }
+
+  .product-bar__price-row {
+    display: flex;
+    align-items: flex-end;
+    gap: var(--space-24);
+  }
+
+  /* Название в одну строку — высота панели постоянная */
+  .product-bar__title {
+    flex: 1;
+    min-width: 0;
+    overflow: hidden;
+    font-size: 22px;
+    font-weight: var(--font-weight-medium);
+    line-height: var(--line-height-tight);
+    letter-spacing: -0.02em;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+  .product-bar__price-block {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    gap: var(--space-16);
+  }
+
+  .product-bar__price {
+    font-size: var(--font-size-18);
+    font-weight: var(--font-weight-medium);
+    line-height: var(--line-height-snug);
+    letter-spacing: -0.02em;
+  }
+
+  .product-bar__split {
+    display: flex;
+    align-items: center;
+    gap: var(--space-4);
+  }
+
+  .product-bar__split-logo {
+    flex-shrink: 0;
+    width: 16px;
+    height: 16px;
+  }
+
+  .product-bar__split-text {
+    display: flex;
+    align-items: center;
+    font-size: var(--font-size-12);
+    line-height: var(--line-height-snug);
+    letter-spacing: -0.02em;
+  }
+
+  .product-bar__split-times {
+    flex-shrink: 0;
+    width: 18px;
+    height: 18px;
+  }
+
+  .product-bar__actions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .product-bar__cta {
+    display: flex;
+    align-items: center;
+    gap: var(--space-8);
+  }
+
+  .product-bar__order {
+    flex: 1;
+    min-height: 48px;
+    padding-block: 0;
+    font-size: var(--font-size-14);
+    letter-spacing: 0.03em;
+  }
+
+  .product-bar__icon-button {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border: 1px solid var(--color-text-30);
+    border-radius: var(--radius-s);
+    color: var(--color-accent);
+    transition:
+      color var(--transition),
+      border-color var(--transition);
+  }
+
+  /* Иконка вместе с рамкой: внутри бордера 1px сдвигаем на -1px */
+  .product-bar__icon-button svg {
+    flex-shrink: 0;
+    width: 48px;
+    height: 48px;
+    margin: -1px;
+  }
+
+  .product-bar__icon-button:hover {
+    color: var(--color-accent-hover);
+    border-color: var(--color-accent-hover);
+  }
+
+  .product-bar__icon-button:active {
+    color: var(--color-accent-pressed);
+    border-color: var(--color-accent-pressed);
+  }
+
+  .product-bar__wishlist path {
+    fill: var(--color-white);
+    transition: fill var(--transition);
+  }
+
+  .product-bar__wishlist[aria-pressed="true"] path {
+    fill: currentColor;
+  }
+
+  .product-bar__ask {
+    display: inline-flex;
+    align-items: center;
+    align-self: flex-start;
+    gap: var(--space-4);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-snug);
+    letter-spacing: -0.02em;
+    transition: color var(--transition);
+  }
+
+  .product-bar__ask:hover {
+    color: var(--color-accent);
+  }
+
+  .product-bar__ask img {
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+  }
+}
+
+/* ---------- Мобильная — 1356:45789 (вся страница), 1356:46488 (первый экран с панелью покупки) ---------- */
+@media (max-width: 767.98px) {
+  .product-preview__info {
+    gap: 10px;
+  }
+
+  .product-preview__heading {
+    gap: var(--space-16);
+  }
+
+  .product-preview__brand {
+    height: auto;
+  }
+
+  .product-preview__brand-logo {
+    width: 86.12px;
+    height: 24.22px;
+  }
+
+  .product-preview__title {
+    font-size: 20px;
+  }
+
+  .product-preview__lead {
+    max-width: none;
+  }
+
+  /* Фото 343×300, стрелки в 8px от краёв */
+  .product-gallery__slide,
+  .product-gallery__slide:first-child {
+    aspect-ratio: 343 / 300;
+  }
+
+  .product-gallery__arrow--prev {
+    left: 0;
+  }
+
+  .product-gallery__arrow--next {
+    right: 0;
+  }
+
+  .product-gallery__thumbs {
+    padding-top: 6px;
+  }
+
+  .product-gallery__thumb {
+    width: 109px;
+    height: 109px;
+  }
+
+  /* Характеристики, описание и аккордеон — в колонку */
+  .product-details {
+    grid-template-columns: minmax(0, 1fr);
+    gap: var(--space-28);
+  }
+
+  .product-details__column {
+    gap: 14px;
+  }
+
+  .product-details .specs {
+    gap: var(--space-12);
+  }
+
+  .product-details__description {
+    gap: 10px;
+  }
+
+  .product-details .accordion__summary {
+    padding-block: var(--space-16);
+  }
+
+  .product-details .accordion__title {
+    font-size: var(--font-size-16);
+  }
+
+  .product-details .accordion__content {
+    padding-bottom: var(--space-16);
+  }
+
+  body:has(.product-bar) {
+    --product-bar-height: 161px; /* 12 + 21 + 10 + 20 + 12 + 44 + 8 + 18 + 16 */
+  }
+
+  .product-bar {
+    gap: var(--space-12);
+    padding-block: var(--space-12) var(--space-16);
+  }
+
+  .product-bar__price-row {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+  }
+
+  .product-bar__title {
+    font-size: 20px;
+  }
+
+  .product-bar__price-block {
+    gap: var(--space-12);
+  }
+
+  .product-bar__price {
+    font-size: var(--font-size-16);
+    color: var(--color-text-90);
+  }
+
+  .product-bar__split-text {
+    color: var(--color-text-60);
+  }
+
+  .product-bar__actions {
+    gap: var(--space-8);
+  }
+
+  .product-bar__cta {
+    gap: 6px;
+  }
+
+  .product-bar__order {
+    min-height: 44px;
+  }
+
+  .product-bar__icon-button,
+  .product-bar__icon-button svg {
+    width: 44px;
+    height: 44px;
+  }
+
+  .product-bar__ask img {
+    width: 18px;
+    height: 18px;
+  }
 }

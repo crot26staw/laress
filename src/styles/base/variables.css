@@ -125,6 +125,7 @@
 
   /* Прочее */
   --radius-s: 2px;
+  --shadow-bar: 0 -2px 16px rgba(0, 0, 0, 0.04); /* панель покупки товара снизу экрана (1328:43650) */
   --transition: 0.2s ease;
   --focus-ring: 2px solid var(--color-accent);
 

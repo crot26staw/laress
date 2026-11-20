@@ -41,3 +41,39 @@
 .page-intro__text--center {
   text-align: center; /* Подарочная карта: текст отдельно от заголовка, через 24px */
 }
+
+/* Планшет («Подарочная карта» 1357:52965): отступы 32 сверху и снизу, крошки — орнамент — заголовок через 16,
+   текст под заголовком через 12 (16/1.3) */
+@media (max-width: 1279.98px) {
+  .page-intro {
+    gap: var(--space-12);
+    padding-top: var(--space-32);
+    padding-bottom: var(--space-32);
+  }
+
+  .page-intro .section-heading {
+    gap: var(--space-16);
+  }
+
+  .page-intro__text {
+    line-height: var(--line-height-text);
+  }
+}
+
+/* Мобильная (1357:53007): снизу 28, текст 14/1.25 на всю ширину, знак орнамента 32×30 */
+@media (max-width: 767.98px) {
+  .page-intro {
+    padding-bottom: var(--space-28);
+  }
+
+  .page-intro__text {
+    max-width: none;
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+  }
+
+  .page-intro .ornament__mark {
+    width: 32px;
+    height: 30px;
+  }
+}

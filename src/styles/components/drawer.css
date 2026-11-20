@@ -112,3 +112,46 @@
 .drawer__submit {
   padding-block: 20px;
 }
+
+/* Текстовая панель («Условия использования» подарочной карты).
+   Планшет (1357:53586): ширина 400, заголовок и текст через 24. */
+@media (max-width: 1279.98px) {
+  .drawer--text {
+    width: 400px;
+  }
+
+  .drawer--text[open] {
+    gap: var(--space-24);
+  }
+}
+
+/* Мобильная (1357:53595): шторка снизу на всю ширину, высота по содержимому, отступы 20/16,
+   заголовок 22 (в макете стиль планшета), абзацы через 6. */
+@media (max-width: 767.98px) {
+  .drawer--text {
+    inset: auto 0 0;
+    width: 100%;
+    height: auto;
+    max-height: calc(100% - var(--space-40));
+    padding: var(--space-20) var(--space-16);
+  }
+
+  .drawer--text[open] {
+    gap: var(--space-20);
+    animation-name: drawer-slide-up;
+  }
+
+  .drawer--text .text-h3 {
+    font-size: 22px;
+  }
+
+  .drawer--text .drawer__text {
+    gap: 6px;
+  }
+}
+
+@keyframes drawer-slide-up {
+  from {
+    transform: translateY(100%);
+  }
+}

@@ -611,35 +611,27 @@
     ]
   },
   "gift-card-checkout": {
+    "$comment": "Новый макет 1311:20641 — без способа доставки (решение заказчика 2026-11-20). Шапка в эталоне — старая, без корзины. Шапка эталона на 2px выше нашей — refY секций сдвинуты на +2.",
     "url": "http://localhost:5173/gift-card-checkout.html",
-    "ref": ".figma/screenshots/gift-card-plastic_966-47642.png",
+    "ref": ".figma/screenshots/gift-card-plastic-v2_1311-20641.png",
     "sections": [
       {
         "name": "intro",
         "selector": ".checkout-intro",
-        "refY": 131,
+        "refY": 133,
         "refH": 96
       },
       {
-        "name": "courier",
+        "name": "checkout",
         "selector": ".checkout",
-        "refY": 227,
-        "refH": 844
+        "refY": 229,
+        "refH": 491
       },
       {
         "name": "footer",
         "selector": ".footer",
-        "refY": 1071,
-        "refH": 526
-      },
-      {
-        "name": "pickup",
-        "ref": ".figma/screenshots/gift-card-virtual_966-47566.png",
-        "selector": ".checkout",
-        "open": "label:has([value=\"pickup\"])",
-        "refY": 227,
-        "refH": 774,
-        "viewportH": 1527
+        "refY": 720,
+        "refH": 525
       }
     ]
   },
@@ -1453,6 +1445,165 @@
         "refY": 0,
         "refH": 812,
         "viewportH": 812
+      }
+    ]
+  },
+  "gift-card-tablet": {
+    "$comment": "Планшет 768 (1357:51971). Крошки в макете «Главная / Каталог» — у нас «Подарочная карта».",
+    "url": "http://localhost:5173/gift-card.html",
+    "ref": ".figma/screenshots/gift-card-tablet_1357-51971.png",
+    "hide": ".tab-bar",
+    "viewportH": 1024,
+    "sections": [
+      {
+        "name": "header",
+        "refY": 0,
+        "refH": 66
+      },
+      {
+        "name": "intro",
+        "selector": ".page-intro",
+        "refY": 66,
+        "refH": 248
+      },
+      {
+        "name": "card",
+        "selector": ".gift-card",
+        "refY": 314,
+        "refH": 921
+      },
+      {
+        "name": "faq",
+        "selector": ".faq",
+        "refY": 1235,
+        "refH": 592
+      },
+      {
+        "name": "footer",
+        "selector": ".footer",
+        "refY": 1827,
+        "refH": 747
+      },
+      {
+        "name": "terms",
+        "ref": ".figma/screenshots/gift-card-terms-tablet_1357-53173.png",
+        "open": "[data-dialog-open=\"gift-card-terms\"]",
+        "refY": 0,
+        "refH": 1024,
+        "viewportH": 1024,
+        "refX": 368,
+        "refW": 400
+      }
+    ]
+  },
+  "gift-card-mobile": {
+    "$comment": "Мобильная 375 (1357:52273). Крошки в макете «Главная / Каталог» — у нас «Подарочная карта».",
+    "url": "http://localhost:5173/gift-card.html",
+    "ref": ".figma/screenshots/gift-card-mobile_1357-52273.png",
+    "hide": ".tab-bar",
+    "viewportH": 812,
+    "sections": [
+      {
+        "name": "header",
+        "refY": 0,
+        "refH": 50
+      },
+      {
+        "name": "intro",
+        "selector": ".page-intro",
+        "refY": 50,
+        "refH": 249
+      },
+      {
+        "name": "card",
+        "selector": ".gift-card",
+        "refY": 299,
+        "refH": 757
+      },
+      {
+        "name": "faq",
+        "selector": ".faq",
+        "refY": 1056,
+        "refH": 684
+      },
+      {
+        "name": "footer",
+        "selector": ".footer",
+        "refY": 1739,
+        "refH": 1086
+      },
+      {
+        "name": "terms",
+        "ref": ".figma/screenshots/gift-card-terms-mobile_1357-53288.png",
+        "open": "[data-dialog-open=\"gift-card-terms\"]",
+        "refY": 471,
+        "refH": 341,
+        "viewportH": 812,
+        "y": 471
+      }
+    ]
+  },
+  "gift-card-checkout-tablet": {
+    "$comment": "Планшет 768 (1357:53603).",
+    "url": "http://localhost:5173/gift-card-checkout.html",
+    "ref": ".figma/screenshots/gift-card-plastic-tablet_1357-53603.png",
+    "hide": ".tab-bar",
+    "viewportH": 1024,
+    "sections": [
+      {
+        "name": "header",
+        "refY": 0,
+        "refH": 66
+      },
+      {
+        "name": "intro",
+        "selector": ".checkout-intro",
+        "refY": 66,
+        "refH": 91
+      },
+      {
+        "name": "checkout",
+        "selector": ".checkout",
+        "refY": 157,
+        "refH": 736
+      },
+      {
+        "name": "footer",
+        "selector": ".footer",
+        "refY": 895,
+        "refH": 747
+      }
+    ]
+  },
+  "gift-card-checkout-mobile": {
+    "$comment": "Мобильная 375 (1357:53718). Заголовок в макете 28px (стиль планшета) — у нас мобильный H2 24px, всё ниже на 4px выше эталона.",
+    "url": "http://localhost:5173/gift-card-checkout.html",
+    "ref": ".figma/screenshots/gift-card-plastic-mobile_1357-53718.png",
+    "hide": ".tab-bar",
+    "viewportH": 812,
+    "sections": [
+      {
+        "name": "header",
+        "refY": 0,
+        "refH": 50
+      },
+      {
+        "name": "intro",
+        "selector": ".checkout-intro",
+        "refY": 50,
+        "refH": 91
+      },
+      {
+        "name": "checkout",
+        "selector": ".checkout",
+        "refY": 141,
+        "refH": 1110
+      },
+      {
+        "name": "footer",
+        "selector": ".footer",
+        "refY": 1251,
+        "refH": 1086
       }
     ]
   }

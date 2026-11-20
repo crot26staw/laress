@@ -106,3 +106,40 @@
 .accordion--faq .accordion__content p {
   max-width: 550px;
 }
+
+/* FAQ, планшет (1357:52873): вопрос и линии через 16, ответ под вопросом через 8;
+   вопрос и иконка выровнены по центру строки (на десктопе — по верху) */
+@media (max-width: 1279.98px) {
+  .accordion--faq .accordion__summary {
+    align-items: center;
+  }
+
+  .accordion--faq .accordion__summary,
+  .accordion--faq .accordion__item:first-child .accordion__summary {
+    padding-block: var(--space-16);
+  }
+
+  .accordion--faq .accordion__item[open] .accordion__summary {
+    padding-bottom: var(--space-8);
+  }
+
+  .accordion--faq .accordion__content {
+    padding-bottom: var(--space-16);
+  }
+}
+
+/* FAQ, мобильная (1357:53049): вопрос 16/1.25 на всю ширину рядом с иконкой, ответ 266px */
+@media (max-width: 767.98px) {
+  .accordion--faq .accordion__summary {
+    gap: 0;
+  }
+
+  .accordion--faq .accordion__title {
+    font-size: var(--font-size-16);
+    line-height: var(--line-height-snug);
+  }
+
+  .accordion--faq .accordion__content p {
+    max-width: 266.2px;
+  }
+}

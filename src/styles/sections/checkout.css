@@ -1,5 +1,5 @@
-/* Оформление заказа подарочной карты — «Подарочная карта / Пластиковая» (966:47642, курьер)
-   и «… / Виртуальная» (966:47566, самовывоз). Слева форма 780px, справа сводка заказа. */
+/* Оформление заказа подарочной карты — «Подарочная карта / Оформление» (новый макет 1311:20641: без способа доставки).
+   Слева форма 780px (получатель, способ оплаты), справа сводка заказа. */
 
 .checkout-intro {
   display: flex;
@@ -24,17 +24,6 @@
   flex-shrink: 0;
 }
 
-.checkout__delivery,
-.checkout__panel {
-  display: flex;
-  flex-direction: column;
-  gap: 22px;
-}
-
-.checkout__panel[hidden] {
-  display: none;
-}
-
 /* Группа: заголовок и содержимое через 16px. */
 .checkout__group {
   display: flex;
@@ -42,18 +31,9 @@
   gap: var(--space-16);
 }
 
-.checkout__legend,
-.checkout__label {
+.checkout__legend {
   float: left; /* плавающий <legend> становится обычным flex-элементом и получает gap */
   padding: 0;
-}
-
-.checkout__label {
-  font-size: var(--font-size-16);
-  font-weight: var(--font-weight-medium);
-  line-height: var(--line-height-snug);
-  letter-spacing: -0.01em;
-  color: var(--color-text-90);
 }
 
 .checkout__rows {
@@ -67,18 +47,6 @@
   gap: 10px;
 }
 
-/* Даты и время: вкладки по содержимому через 8px, ряды — через 14px */
-.checkout__slots {
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
-}
-
-.checkout__row--slots {
-  flex-wrap: wrap;
-  gap: var(--space-8);
-}
-
 .checkout__row--fields {
   gap: var(--space-12);
 }
@@ -86,29 +54,6 @@
 .checkout__row--fields .field {
   flex: 1;
   min-width: 0;
-}
-
-/* Адрес бутика при самовывозе — на месте поля адреса, с линией снизу */
-.checkout__pickup {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: var(--space-4);
-  height: 56px;
-  padding: 0 var(--space-2) 10px;
-  box-shadow: inset 0 -1px 0 var(--color-text-15);
-}
-
-.checkout__notes {
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-}
-
-.checkout__note {
-  font-size: var(--font-size-14);
-  line-height: var(--line-height-text);
-  color: var(--color-text-60);
 }
 
 /* Правая колонка: сводка и подтверждение через 10px */
@@ -179,12 +124,6 @@
   line-height: 1;
 }
 
-.order-summary__meta {
-  font-size: var(--font-size-14);
-  line-height: var(--line-height-text);
-  color: var(--color-ink-50);
-}
-
 /* «Итого»: линия 1px и строка через 20px. В макете шрифт Inter — у нас только Hauora. */
 .order-summary__total {
   display: flex;
@@ -202,4 +141,185 @@
   font-size: var(--font-size-18);
   font-weight: var(--font-weight-semibold);
   line-height: 1.2;
+}
+
+/* Планшет (1357:53603): форма и сводка друг под другом на всю ширину. Отступы 32 сверху и снизу,
+   группы через 24, заголовок группы — содержимое 12; поля 56px через 10; способы оплаты 52px (16/18, иконка 20) через 8. */
+@media (max-width: 1279.98px) {
+  .checkout {
+    flex-direction: column;
+    align-items: stretch;
+    padding-top: var(--space-32);
+    padding-bottom: var(--space-32);
+  }
+
+  .checkout__main {
+    gap: var(--space-24);
+    width: auto;
+  }
+
+  .checkout__group {
+    gap: var(--space-12);
+  }
+
+  .checkout__rows,
+  .checkout__row {
+    gap: var(--space-8);
+  }
+
+  .checkout__row--fields {
+    gap: 10px;
+  }
+
+  /* В Figma текст в поле на 2.4px ниже центра (внутренний фрейм 36px с отступом 10 сверху) */
+  .checkout__row--fields .field {
+    height: 56px;
+    padding-top: 5px;
+  }
+
+  .checkout .option-tab {
+    padding: var(--space-16) 18px;
+    font-size: var(--font-size-16);
+  }
+
+  .checkout .option-tab__icon {
+    width: 20px;
+    height: 20px;
+    margin-block: 0;
+  }
+
+  .order-summary {
+    gap: var(--space-20);
+    padding: var(--space-24);
+  }
+
+  .order-summary__info {
+    gap: 6px;
+  }
+
+  .order-summary__head {
+    align-items: center;
+  }
+
+  .order-summary__total {
+    padding-top: var(--space-16);
+  }
+}
+
+/* Мобильная (1357:53718): поля 52px и способы оплаты в столбик, сводка — фото во всю ширину 193px,
+   под ним название и цена; блоки сводки 20/16, подписи 14px, чекбокс 20×20. */
+@media (max-width: 767.98px) {
+  .checkout {
+    gap: var(--space-20);
+  }
+
+  .checkout__legend {
+    font-size: var(--font-size-16);
+    letter-spacing: -0.02em;
+  }
+
+  .checkout__row--fields,
+  .checkout__row {
+    flex-direction: column;
+  }
+
+  .checkout__rows,
+  .checkout__row {
+    gap: 6px;
+  }
+
+  .checkout__row--fields {
+    gap: var(--space-8);
+  }
+
+  .checkout__row--fields .field {
+    flex: none;
+    height: 52px;
+    padding-top: 0;
+  }
+
+  .checkout__row--fields .field__input {
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-snug);
+  }
+
+  .checkout .option-tab {
+    flex: none;
+    font-size: var(--font-size-14);
+  }
+
+  .checkout__aside {
+    gap: var(--space-8);
+  }
+
+  .order-summary {
+    gap: var(--space-16);
+    padding: var(--space-20);
+  }
+
+  .order-summary__item {
+    flex-direction: column;
+  }
+
+  .order-summary__image {
+    width: 100%;
+    height: 193.24px;
+  }
+
+  .order-summary__info {
+    padding-block: 0;
+  }
+
+  .order-summary__name {
+    font-size: var(--font-size-16);
+    line-height: var(--line-height-snug);
+    letter-spacing: -0.02em;
+  }
+
+  .order-summary__price {
+    font-size: var(--font-size-14);
+  }
+
+  .order-summary__total {
+    padding-top: var(--space-12);
+    font-size: var(--font-size-14);
+  }
+
+  .order-summary__total-value {
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-medium);
+    line-height: var(--line-height-snug);
+    letter-spacing: -0.02em;
+  }
+
+  .checkout__confirm {
+    padding: var(--space-20);
+  }
+
+  .checkout__confirm .checkbox {
+    gap: 10px;
+  }
+
+  .checkout__confirm .checkbox__input {
+    width: 20px;
+    height: 20px;
+  }
+
+  .checkout__confirm .checkbox__label {
+    font-size: var(--font-size-14);
+  }
+}
+
+/* Мобильная: крошки в одну строку, как в макете, заходят в правый отступ контейнера (на 375 — до 372px);
+   на экранах уже 375 — прокрутка по горизонтали вместо переноса */
+@media (max-width: 767.98px) {
+  .checkout-intro .breadcrumbs {
+    margin-right: calc(var(--container-padding) * -1);
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  .checkout-intro .breadcrumbs__item {
+    white-space: nowrap;
+  }
 }

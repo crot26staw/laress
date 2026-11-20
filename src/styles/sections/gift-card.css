@@ -113,3 +113,130 @@
 .faq__list {
   width: 1130px;
 }
+
+/* Планшет (1357:51971): панель над фото, обе на всю ширину контейнера.
+   Панель — отступы 32, между блоками 32; фото 720×420 (широкий кадр исходника, imageRef 596eb3a2). */
+@media (max-width: 1279.98px) {
+  .gift-card {
+    flex-direction: column;
+    height: auto;
+    padding-bottom: 50px;
+  }
+
+  .gift-card picture {
+    order: 1;
+    height: auto;
+  }
+
+  .gift-card__image {
+    width: 100%;
+    height: 420px;
+  }
+
+  .gift-card__panel {
+    justify-content: flex-start;
+    gap: var(--space-32);
+    width: auto;
+  }
+
+  /* Тип карты — Tab 16px 20px, текст 16/1.25 (Mobile/Heading/H4) */
+  .gift-card__types .option-tab {
+    padding: var(--space-16) var(--space-20);
+    font-size: var(--font-size-16);
+    letter-spacing: -0.02em;
+  }
+
+  .gift-card__amount {
+    gap: var(--space-20);
+  }
+
+  .gift-card__title {
+    font-size: 22px;
+  }
+
+  .gift-card__actions {
+    gap: var(--space-12);
+  }
+
+  .gift-card__submit {
+    padding-block: calc(var(--space-16) - 1px);
+  }
+
+  .gift-card__terms-link {
+    font-size: var(--font-size-14);
+  }
+
+  .faq {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .faq__list {
+    width: 100%;
+  }
+}
+
+/* Мобильная (1357:52273): панель 24/24, вкладки 44, суммы — сетка 2 колонки, поле 12px по вертикали, фото 343×265 */
+@media (max-width: 767.98px) {
+  .gift-card__image {
+    height: 265px;
+  }
+
+  .gift-card__panel {
+    align-items: stretch;
+    gap: var(--space-24);
+    padding: var(--space-24);
+  }
+
+  .gift-card__types {
+    gap: var(--space-4);
+  }
+
+  .gift-card__types .option-tab {
+    height: 44px;
+    padding-block: 0;
+    font-size: var(--font-size-14);
+    font-weight: var(--font-weight-regular);
+    letter-spacing: 0;
+  }
+
+  .gift-card__amount {
+    width: auto;
+  }
+
+  .gift-card__title {
+    font-size: 20px;
+  }
+
+  .gift-card__amount-body {
+    align-items: stretch;
+    gap: var(--space-8);
+  }
+
+  .gift-card__amount-body .field {
+    gap: var(--space-2);
+    height: auto;
+    padding-block: var(--space-12);
+  }
+
+  .gift-card__amount-body .field__input {
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-snug);
+  }
+
+  .gift-card__presets {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: auto;
+  }
+
+  .gift-card__actions {
+    gap: 10px;
+  }
+
+  .gift-card__submit {
+    min-height: 44px;
+    padding-block: 0;
+    font-size: var(--font-size-14);
+  }
+}

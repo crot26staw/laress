@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Оформление заказа — подарочная карта Luvr</title>
-    <meta name="description" content="Оформление заказа подарочной карты Luvr: доставка курьером или самовывоз из бутика, данные получателя и способ оплаты." />
+    <meta name="description" content="Оформление заказа подарочной карты Luvr: данные получателя и способ оплаты." />
     <meta name="robots" content="noindex" />
     <link rel="preload" href="/src/assets/fonts/hauora-regular.woff2" as="font" type="font/woff2" crossorigin />
     <link rel="preload" href="/src/assets/fonts/hauora-medium.woff2" as="font" type="font/woff2" crossorigin />
@@ -25,76 +25,10 @@
         <h1 class="text-h2">Оформление заказа</h1>
       </div>
 
-      <!-- «Подарочная карта / Пластиковая» (966:47642) — курьер, «… / Виртуальная» (966:47566) — самовывоз.
+      <!-- «Подарочная карта / Оформление» (новый макет 1311:20641; планшет 1357:53603, мобильная 1357:53718): получатель и способ оплаты.
            Обычная форма POST: в WordPress её заменит форма оформления заказа (WooCommerce или CF7). -->
-      <form class="checkout container" action="" method="post" data-checkout>
+      <form class="checkout container" action="" method="post">
         <div class="checkout__main">
-          <div class="checkout__delivery">
-            <fieldset class="checkout__group">
-              <legend class="text-h5 checkout__legend">Способ доставки</legend>
-              <div class="checkout__row">
-              <label class="option-tab option-tab--fill">
-                <input class="visually-hidden" type="radio" name="delivery" value="courier" checked data-delivery-switch />
-                <svg class="option-tab__icon" width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M19.5 17.5C19.5 18.163 19.2366 18.7989 18.7678 19.2678C18.2989 19.7366 17.663 20 17 20C16.337 20 15.7011 19.7366 15.2322 19.2678C14.7634 18.7989 14.5 18.163 14.5 17.5C14.5 16.837 14.7634 16.2011 15.2322 15.7322C15.7011 15.2634 16.337 15 17 15C17.663 15 18.2989 15.2634 18.7678 15.7322C19.2366 16.2011 19.5 16.837 19.5 17.5ZM9.5 17.5C9.5 18.163 9.23661 18.7989 8.76777 19.2678C8.29893 19.7366 7.66304 20 7 20C6.33696 20 5.70107 19.7366 5.23223 19.2678C4.76339 18.7989 4.5 18.163 4.5 17.5C4.5 16.837 4.76339 16.2011 5.23223 15.7322C5.70107 15.2634 6.33696 15 7 15C7.66304 15 8.29893 15.2634 8.76777 15.7322C9.23661 16.2011 9.5 16.837 9.5 17.5Z" stroke-width="1.5" stroke="currentColor"/><path d="M14.5 17.5H9.5M19.5 17.5H20.263H20.2631C20.483 17.5 20.593 17.5 20.685 17.488C21.016 17.4468 21.3239 17.2964 21.5599 17.0606C21.7959 16.8248 21.9465 16.517 21.988 16.186C22 16.093 22 15.983 22 15.763V13C22 11.2761 21.3152 9.62279 20.0962 8.40381C18.8772 7.18482 17.2239 6.5 15.5 6.5M2 4H12C13.414 4 14.121 4 14.56 4.44C15 4.878 15 5.585 15 7V15.5M2 12.75V15C2 15.935 2 16.402 2.201 16.75C2.33265 16.978 2.52199 17.1674 2.75 17.299C3.098 17.5 3.565 17.5 4.5 17.5M2 7H8M2 10H6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"/></svg>
-                Курьером до двери
-              </label>
-              <label class="option-tab option-tab--fill">
-                <input class="visually-hidden" type="radio" name="delivery" value="pickup" data-delivery-switch />
-                <svg class="option-tab__icon" width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M22 22H2" stroke-width="1.5" stroke-linecap="round" stroke="currentColor"/><path d="M20 22V11" stroke-width="1.5" stroke-linecap="round" stroke="currentColor"/><path d="M4 22V11" stroke-width="1.5" stroke-linecap="round" stroke="currentColor"/><path d="M16.5277 2H7.47201C6.26919 2 5.66778 2 5.18448 2.2987C4.70117 2.5974 4.43221 3.13531 3.8943 4.21114L2.49068 7.75929C2.16639 8.57905 1.88266 9.54525 2.42854 10.2375C2.79476 10.7019 3.36244 11 3.99978 11C5.10435 11 5.99978 10.1046 5.99978 9C5.99978 10.1046 6.89521 11 7.99978 11C9.10435 11 9.99978 10.1046 9.99978 9C9.99978 10.1046 10.8952 11 11.9998 11C13.1044 11 13.9998 10.1046 13.9998 9C13.9998 10.1046 14.8952 11 15.9998 11C17.1044 11 17.9998 10.1046 17.9998 9C17.9998 10.1046 18.8952 11 19.9998 11C20.6372 11 21.2049 10.7019 21.5711 10.2375C22.117 9.54525 21.8333 8.57905 21.509 7.75929L20.1054 4.21114C19.5675 3.13531 19.2985 2.5974 18.8152 2.2987C18.3319 2 17.7305 2 16.5277 2Z" stroke-width="1.5" stroke-linejoin="round" stroke="currentColor"/><path d="M9.5 21.5V18.5C9.5 17.5654 9.5 17.0981 9.70096 16.75C9.83261 16.522 10.022 16.3326 10.25 16.201C10.5981 16 11.0654 16 12 16C12.9346 16 13.4019 16 13.75 16.201C13.978 16.3326 14.1674 16.522 14.299 16.75C14.5 17.0981 14.5 17.5654 14.5 18.5V21.5" stroke-width="1.5" stroke-linecap="round" stroke="currentColor"/></svg>
-                Самовывоз
-              </label>
-              </div>
-            </fieldset>
-
-            <div class="checkout__panel" data-delivery-panel="courier">
-              <label class="field field--line">
-                <span class="visually-hidden">Адрес доставки</span>
-                <input class="field__input" type="text" name="address" placeholder="Введите адрес доставки" autocomplete="street-address" />
-              </label>
-              <fieldset class="checkout__group">
-                <legend class="checkout__label">Дата и время доставки</legend>
-                <div class="checkout__slots">
-                  <div class="checkout__row checkout__row--slots">
-                    <label class="option-tab option-tab--m"><input class="visually-hidden" type="radio" name="delivery_date" value="2026-05-23" />23 мая <span class="option-tab__muted">Сб</span></label>
-                    <label class="option-tab option-tab--m"><input class="visually-hidden" type="radio" name="delivery_date" value="2026-05-24" />24 мая <span class="option-tab__muted">Вс</span></label>
-                    <label class="option-tab option-tab--m"><input class="visually-hidden" type="radio" name="delivery_date" value="2026-05-25" />25 мая <span class="option-tab__muted">Пн</span></label>
-                    <label class="option-tab option-tab--m"><input class="visually-hidden" type="radio" name="delivery_date" value="2026-05-26" />26 мая <span class="option-tab__muted">Вт</span></label>
-                    <label class="option-tab option-tab--m"><input class="visually-hidden" type="radio" name="delivery_date" value="2026-05-27" />27 мая <span class="option-tab__muted">Ср</span></label>
-                  </div>
-                  <div class="checkout__row checkout__row--slots" role="group" aria-label="Время доставки">
-                    <label class="option-tab option-tab--m"><input class="visually-hidden" type="radio" name="delivery_time" value="10:00-12:00" />10:00 - 12:00</label>
-                    <label class="option-tab option-tab--m"><input class="visually-hidden" type="radio" name="delivery_time" value="12:00-14:00" />12:00 - 14:00</label>
-                    <label class="option-tab option-tab--m"><input class="visually-hidden" type="radio" name="delivery_time" value="14:00-16:00" />14:00 - 16:00</label>
-                    <label class="option-tab option-tab--m"><input class="visually-hidden" type="radio" name="delivery_time" value="16:00-18:00" />16:00 - 18:00</label>
-                    <label class="option-tab option-tab--m"><input class="visually-hidden" type="radio" name="delivery_time" value="18:00-20:00" />18:00 - 20:00</label>
-                    <label class="option-tab option-tab--m"><input class="visually-hidden" type="radio" name="delivery_time" value="20:00-22:00" />20:00 - 22:00</label>
-                  </div>
-                </div>
-              </fieldset>
-            </div>
-
-            <div class="checkout__panel" data-delivery-panel="pickup" hidden>
-              <div class="checkout__pickup">
-                <p class="text-t1">Бутик Luvr</p>
-                <p class="checkout__note">Москва, Новослободская улица, 50/1с2</p>
-              </div>
-              <fieldset class="checkout__group">
-                <legend class="checkout__label">Дата самовывоза</legend>
-                <div class="checkout__row checkout__row--slots">
-                  <label class="option-tab option-tab--m"><input class="visually-hidden" type="radio" name="pickup_date" value="2026-05-23" />23 мая <span class="option-tab__muted">Сб</span></label>
-                  <label class="option-tab option-tab--m"><input class="visually-hidden" type="radio" name="pickup_date" value="2026-05-24" />24 мая <span class="option-tab__muted">Вс</span></label>
-                  <label class="option-tab option-tab--m"><input class="visually-hidden" type="radio" name="pickup_date" value="2026-05-25" checked />25 мая <span class="option-tab__muted">Пн</span></label>
-                  <label class="option-tab option-tab--m"><input class="visually-hidden" type="radio" name="pickup_date" value="2026-05-26" />26 мая <span class="option-tab__muted">Вт</span></label>
-                  <label class="option-tab option-tab--m"><input class="visually-hidden" type="radio" name="pickup_date" value="2026-05-27" />27 мая <span class="option-tab__muted">Ср</span></label>
-                </div>
-                <div class="checkout__notes">
-                  <p class="checkout__note">Ваш заказ будет готов после 23 мая. Заберите его до 30 мая 2026 г. до 13:00</p>
-                  <p class="checkout__note">Вам доступна примерка и частичный выкуп</p>
-                </div>
-              </fieldset>
-            </div>
-          </div>
-
           <fieldset class="checkout__group">
             <legend class="text-h5 checkout__legend">Получатель</legend>
             <div class="checkout__row checkout__row--fields">
@@ -144,6 +78,9 @@
           <div class="order-summary">
             <div class="order-summary__item">
               <picture>
+                <!-- Мобильная — фото на всю ширину сводки (303×193): исходник целиком, imageRef 0ebaece7 -->
+                <source media="(max-width: 767.98px)" srcset="/src/assets/images/gift-card/gift-card-virtual.webp" type="image/webp" width="1536" height="1024" />
+                <source media="(max-width: 767.98px)" srcset="/src/assets/images/gift-card/gift-card-virtual.jpg" width="1536" height="1024" />
                 <source srcset="/src/assets/images/gift-card/gift-card-virtual-thumb.webp" type="image/webp" />
                 <img class="order-summary__image" src="/src/assets/images/gift-card/gift-card-virtual-thumb.jpg" width="189" height="120" alt="Подарочная карта Luvr" />
               </picture>
@@ -152,7 +89,6 @@
                   <p class="order-summary__name">Подарочная карта</p>
                   <p class="order-summary__price">100 000 ₽</p>
                 </div>
-                <p class="order-summary__meta">Пластиковая</p>
               </div>
             </div>
             <div class="order-summary__total">

@@ -477,7 +477,7 @@
 }
 
 /* «Детали заказа»: бежевая плашка, строки через 16px, линии 1px #EBEBEB */
-.order-summary {
+.order-details {
   display: flex;
   flex-direction: column;
   gap: var(--space-16);
@@ -486,11 +486,11 @@
 }
 
 /* 18px × 1.25 — в Figma шаг строки 23px */
-.order-summary h2 {
+.order-details h2 {
   line-height: 23px;
 }
 
-.order-summary__list {
+.order-details__list {
   display: flex;
   flex-direction: column;
   gap: var(--space-16);
@@ -498,7 +498,7 @@
   border-top: 1px solid var(--color-line-light);
 }
 
-.order-summary__row {
+.order-details__row {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -507,16 +507,16 @@
   line-height: var(--line-height-text);
 }
 
-.order-summary__row dt {
+.order-details__row dt {
   color: var(--color-text-60);
 }
 
-.order-summary__row--total {
+.order-details__row--total {
   padding-top: var(--space-16);
   border-top: 1px solid var(--color-line-light);
 }
 
-.order-summary__row--total dt {
+.order-details__row--total dt {
   color: var(--color-black);
 }
 

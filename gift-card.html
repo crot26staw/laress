@@ -33,6 +33,9 @@
 
       <section class="gift-card container" aria-label="Покупка подарочной карты">
         <picture>
+          <!-- Планшет и мобильная — широкий кадр (720×420 / 343×265): исходник целиком, imageRef 596eb3a2 -->
+          <source media="(max-width: 1279.98px)" srcset="/src/assets/images/gift-card/gift-card-hero-wide.webp" type="image/webp" width="736" height="946" />
+          <source media="(max-width: 1279.98px)" srcset="/src/assets/images/gift-card/gift-card-hero-wide.jpg" width="736" height="946" />
           <source srcset="/src/assets/images/gift-card/gift-card-hero.webp" type="image/webp" />
           <img class="gift-card__image" src="/src/assets/images/gift-card/gift-card-hero.jpg" width="672" height="630" alt="Две пары рук передают подарочную коробку с бордовой бархатной лентой" />
         </picture>
@@ -86,7 +89,7 @@
               <svg class="accordion__icon" width="24" height="24" viewBox="-3 -3 24 24" fill="none" aria-hidden="true"><path d="M5.004 7.504L8.294 10.794C8.682 11.182 9.318 11.182 9.706 10.794L12.996 7.504" stroke="currentColor" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" /></svg>
             </summary>
             <div class="accordion__content">
-              <p>Вы можете выбрать один из предложенных номиналов или указать индивидуальную сумму, если такая возможность предусмотрена на сайте.</p>
+              <p>Вы можете выбрать один из&nbsp;предложенных номиналов или указать индивидуальную сумму, если такая возможность предусмотрена на сайте.</p>
             </div>
           </details>
           <details class="accordion__item">

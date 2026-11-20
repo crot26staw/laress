@@ -48,3 +48,95 @@
   display: flex;
   gap: var(--space-8);
 }
+
+/* Планшет — 1315:32976: фото на всю ширину (560px), под ним орнамент, текст, две кнопки в ряд и линия */
+@media (max-width: 1279.98px) {
+  .designers {
+    padding-block: 50px 0;
+  }
+
+  .designers__inner {
+    flex-direction: column;
+    gap: var(--space-16);
+  }
+
+  .designers__image {
+    flex: none;
+    width: 100%;
+    height: 560px;
+  }
+
+  .designers__content {
+    gap: var(--space-24);
+    padding-inline: var(--container-padding);
+  }
+
+  .designers__ornament {
+    height: auto;
+  }
+
+  .designers__body {
+    gap: var(--space-24);
+  }
+
+  .designers .section-heading__body {
+    gap: var(--space-16);
+  }
+
+  .designers .text-h2 {
+    max-width: 489.36px;
+  }
+
+  .designers .section-heading__text {
+    max-width: 439.3px;
+    font-size: var(--font-size-16);
+    letter-spacing: -0.02em;
+  }
+
+  /* Принудительный перенос из десктопного макета на планшете не нужен */
+  .designers .section-heading__text br {
+    display: none;
+  }
+
+  .designers__actions {
+    align-self: stretch;
+  }
+
+  .designers__actions .button {
+    flex: 1 1 0;
+  }
+}
+
+/* Мобильная — 1317:33640: фото 400px, кнопки друг под другом на всю ширину */
+@media (max-width: 767.98px) {
+  .designers__image {
+    height: 400px;
+  }
+
+  .designers__content {
+    gap: var(--space-20);
+  }
+
+  .designers__body {
+    gap: var(--space-20);
+  }
+
+  .designers .section-heading__body {
+    gap: var(--space-12);
+  }
+
+  .designers .text-h2,
+  .designers .section-heading__text {
+    max-width: none;
+  }
+
+  .designers .section-heading__text {
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    letter-spacing: 0;
+  }
+
+  .designers__actions {
+    flex-direction: column;
+  }
+}

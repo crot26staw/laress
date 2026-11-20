@@ -40,3 +40,23 @@
   width: 100%;
   height: 100%;
 }
+
+/* Мобильная — 1317:33447: текст 12px слева в две строки, крестик справа.
+   Полоса в Figma 49px, но фото первого экрана заходит под неё на 1px — по сетке макета берём 48. */
+@media (max-width: 767.98px) {
+  .announcement {
+    justify-content: space-between;
+    gap: var(--space-16);
+    min-height: 48px;
+    padding-block: 0;
+  }
+
+  .announcement__text {
+    position: static;
+    max-width: 204.75px;
+    font-size: var(--font-size-12);
+    text-align: left;
+    white-space: normal;
+    transform: none;
+  }
+}

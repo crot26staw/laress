@@ -152,3 +152,189 @@
 .footer--bordered {
   box-shadow: inset 0 1px 0 var(--color-line);
 }
+
+/* ==========================================================================
+   Планшет (768–1279) — Figma I1317:33280 (главная, 768): две колонки, блоки стоят по сетке
+   Каталог | О Luvr
+   Покупателям | Контакты
+   Правовая информация | (контакты)
+   Логотип
+   Мобильная (<768) — I1370:16488: одна колонка в порядке Каталог, Контакты, О Luvr, Покупателям, правовая информация, логотип.
+   ========================================================================== */
+
+@media (max-width: 1279.98px) {
+  .footer {
+    padding-block: 50px;
+  }
+
+  .footer__inner {
+    /* Колонки по макету: x = 15 и 409.5 из 720 */
+    grid-template-columns: minmax(0, 394.5fr) minmax(0, 310.5fr);
+    grid-template-rows: none;
+    grid-template-areas:
+      "catalog about"
+      "buyers contacts"
+      "legal contacts"
+      "brand contacts";
+    align-items: start;
+    row-gap: 40px;
+    height: auto;
+    padding-left: calc(var(--container-padding) + 15px);
+  }
+
+  .footer__column--catalog {
+    grid-area: catalog;
+  }
+
+  .footer__column--buyers {
+    grid-area: buyers;
+  }
+
+  .footer__column--about {
+    grid-area: about;
+    gap: var(--space-20);
+  }
+
+  .footer__contacts {
+    grid-area: contacts;
+    gap: var(--space-20);
+    width: auto;
+  }
+
+  .footer__brand {
+    grid-area: brand;
+  }
+
+  .footer__column {
+    gap: var(--space-12);
+  }
+
+  .footer__title {
+    line-height: var(--line-height-14);
+  }
+
+  .footer__menu {
+    gap: 10px;
+  }
+
+  .footer__logo-image {
+    width: 124.64px;
+  }
+
+  .footer__about {
+    font-size: var(--font-size-12);
+    text-align: center;
+  }
+
+  .footer__rating {
+    margin-top: 0;
+  }
+
+  .footer__phone,
+  .footer__email {
+    font-size: var(--font-size-16);
+  }
+
+  .footer__address {
+    gap: 10px;
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+  }
+
+  /* Правовая информация — одним столбцом */
+  .footer__bottom {
+    grid-area: legal;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--space-12);
+    margin-top: 12.5px; /* 52.5px от «Покупателям» */
+  }
+
+  .footer__copyright,
+  .footer__offer,
+  .footer__legal-link {
+    align-self: auto;
+    font-size: var(--font-size-12);
+  }
+}
+
+@media (max-width: 767.98px) {
+  .footer__inner {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    padding-left: var(--container-padding);
+  }
+
+  .footer__column--catalog {
+    order: 1;
+  }
+
+  .footer__contacts {
+    order: 2;
+    gap: var(--space-12);
+  }
+
+  .footer__column--about {
+    order: 3;
+    gap: 10px;
+  }
+
+  .footer__column--buyers {
+    order: 4;
+  }
+
+  .footer__bottom {
+    order: 5;
+    gap: var(--space-8);
+    margin-top: 0;
+  }
+
+  .footer__brand {
+    order: 6;
+    gap: 10px;
+  }
+
+  .footer__column {
+    gap: 10px;
+  }
+
+  .footer__menu {
+    gap: 6px;
+  }
+
+  /* «О Luvr»: список растянут на 90px (space-between), строки ссылок — по 18px */
+  .footer__column--about .footer__menu {
+    gap: calc((90px - 4 * 18px) / 3);
+  }
+
+  .footer__link {
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+  }
+
+  .footer__contacts-main {
+    gap: 10px;
+  }
+
+  .footer__address {
+    gap: 6px;
+    font-size: var(--font-size-12);
+    line-height: 15px; /* 12 × 1.25 */
+  }
+
+  .footer__socials {
+    gap: 6px;
+  }
+
+  .footer__social {
+    width: 44px;
+    height: 44px;
+  }
+
+  .footer__social img {
+    width: 100%;
+    height: 100%;
+  }
+}

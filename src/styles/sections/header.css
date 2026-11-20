@@ -205,61 +205,67 @@
   top: 0;
   left: 0;
   right: 0;
-  flex-direction: row;
-  justify-content: space-between;
-  gap: 0;
-  padding: 20px var(--gutter);
   animation: header-slide-in 0.3s ease;
 }
 
-.header--compact .header__top {
-  display: contents;
-}
+/* На десктопе компактная шапка перестраивается в одну строку; на планшете и мобильной — та же раскладка, белый фон */
+@media (min-width: 1280px) {
+  .header--compact {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 0;
+    padding: 20px var(--gutter);
+  }
 
-.header--compact .header__logo {
-  display: none;
-}
+  .header--compact .header__top {
+    display: contents;
+  }
 
-.header--compact .header__group {
-  flex: none;
-}
+  .header--compact .header__logo {
+    display: none;
+  }
 
-.header--compact .header__group--start {
-  order: 1;
-}
+  .header--compact .header__group {
+    flex: none;
+  }
 
-.header--compact .header__nav {
-  order: 2;
-}
+  .header--compact .header__group--start {
+    order: 1;
+  }
 
-.header--compact .header__group--end {
-  order: 3;
-}
+  .header--compact .header__nav {
+    order: 2;
+  }
 
-.header--compact .header__lang,
-.header--compact .header__currency,
-.header--compact .header__menu-link {
-  font-size: 14px;
-}
+  .header--compact .header__group--end {
+    order: 3;
+  }
 
-.header--compact .header__menu {
-  gap: 20px;
-}
+  .header--compact .header__lang,
+  .header--compact .header__currency,
+  .header--compact .header__menu-link {
+    font-size: 14px;
+  }
 
-.header--compact .header__login {
-  border-color: var(--color-black); /* во фрейме «Хедер при скролле» — чёрная рамка, обычное начертание */
-  font-weight: var(--font-weight-regular);
-  letter-spacing: -0.02em;
-}
+  .header--compact .header__menu {
+    gap: 20px;
+  }
 
-.header--compact .header__menu-item--compact-only {
-  display: block;
-}
+  .header--compact .header__login {
+    border-color: var(--color-black); /* во фрейме «Хедер при скролле» — чёрная рамка, обычное начертание */
+    font-weight: var(--font-weight-regular);
+    letter-spacing: -0.02em;
+  }
 
-.header--compact .header__menu-chevron {
-  display: block;
-  width: 12px;
-  height: 12px;
+  .header--compact .header__menu-item--compact-only {
+    display: block;
+  }
+
+  .header--compact .header__menu-chevron {
+    display: block;
+    width: 12px;
+    height: 12px;
+  }
 }
 
 @keyframes header-slide-in {
@@ -375,4 +381,211 @@
   opacity: 1;
   visibility: visible;
   transition: opacity var(--transition);
+}
+
+/* ==========================================================================
+   Планшет (768–1279) и мобильная версия (<768)
+   Figma: шапка — планшет 1317:33337 / 1319:35035, мобильная 1317:33873 / 1319:34678;
+   меню категорий («Menu Level 2») — фреймы «Навигация / …» 1319:34687…1323:43113 (планшет) и 1319:34664…1322:36459 (мобильная).
+   Одна строка: язык и валюта — логотип — поиск (на мобильной в белой шапке ещё корзина).
+   Избранное, корзина и вход — в нижнем таб-баре. Меню открывается кнопкой «Каталог» в таб-баре:
+   строка категорий с горизонтальной прокруткой, под ней пункты активной категории.
+   ========================================================================== */
+
+@media (max-width: 1279.98px) {
+  .header {
+    --menu-tabs-height: calc(24px + 16px * 1.06); /* отступ сверху + строка категорий */
+
+    padding: 16px var(--gutter);
+    gap: 0;
+    background-color: var(--color-surface);
+    box-shadow: none;
+  }
+
+  /* Шапка в потоке страницы — закреплена сверху; прозрачная на главной закрепляется через --compact (JS) */
+  .header:not(.header--transparent) {
+    position: sticky;
+    top: 0;
+  }
+
+  .header__favorites,
+  .header__cart,
+  .header__login {
+    display: none;
+  }
+
+  /* Меню категорий: панель между шапкой и таб-баром (--header-nav-top — низ шапки, считает header.js) */
+  .header__nav {
+    position: fixed;
+    top: var(--header-nav-top, 0px);
+    left: 0;
+    right: 0;
+    bottom: var(--tab-bar-height);
+    display: none;
+    pointer-events: none; /* под панелью — затемнение, клик по нему закрывает меню */
+  }
+
+  .header--catalog-open .header__nav {
+    display: block;
+  }
+
+  .header__menu {
+    justify-content: flex-start;
+    gap: 24px;
+    padding: 24px var(--gutter) 0;
+    overflow-x: auto;
+    background-color: var(--color-white);
+    pointer-events: auto;
+    scrollbar-width: none;
+  }
+
+  .header__menu::-webkit-scrollbar {
+    display: none;
+  }
+
+  .header--menu-open .header__menu-link {
+    color: var(--color-black);
+  }
+
+  .header__menu-link:hover {
+    opacity: 1;
+  }
+
+  .mega-menu {
+    top: var(--menu-tabs-height);
+    bottom: auto;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 32px;
+    height: auto;
+    max-height: calc(100% - var(--menu-tabs-height));
+    padding: 32px var(--gutter);
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    pointer-events: auto;
+  }
+
+  /* Колонки: по две в строке на всю ширину (Подарки — 16px между колонками, В наличии — сетка 2×2 через 32px) */
+  .mega-menu__columns {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 32px 16px;
+  }
+
+  .mega-menu--spread .mega-menu__columns {
+    gap: 32px;
+  }
+
+  .mega-menu__column {
+    width: auto;
+  }
+
+  /* Один список в две колонки (Бренды, Посуда, Декор, О Luvr) — колонки по 217px через 24px */
+  .mega-menu__columns:has(.mega-menu__column--continued) {
+    display: flex;
+    gap: 24px;
+  }
+
+  .mega-menu__columns:has(.mega-menu__column--continued) .mega-menu__column {
+    width: 217px;
+  }
+
+  .mega-menu__banner {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 2 / 1; /* 720×360 на 768 */
+  }
+
+  /* Затемнение — под шапкой и меню, таб-бар остаётся сверху */
+  .page-overlay {
+    bottom: var(--tab-bar-height);
+  }
+}
+
+@media (max-width: 767.98px) {
+  .header {
+    --menu-tabs-height: calc(16px + 14px * 1.06);
+
+    padding: 8px var(--gutter);
+  }
+
+  .header__group--start,
+  .header__group--end {
+    gap: 16px;
+  }
+
+  .header__lang,
+  .header__currency,
+  .header__menu-link {
+    font-size: 14px;
+  }
+
+  .header__logo-image {
+    width: 37.06px;
+  }
+
+  /* В белой шапке мобильной версии — поиск и корзина */
+  .header__cart {
+    display: flex;
+  }
+
+  .header__menu {
+    gap: 16px;
+    padding-top: 16px;
+  }
+
+  /* Мобильная панель — во всю высоту до таб-бара, баннер занимает остаток */
+  .mega-menu {
+    bottom: 0;
+    gap: 28px;
+    max-height: none;
+    padding: 28px var(--gutter) 16px;
+  }
+
+  .mega-menu__columns,
+  .mega-menu__columns:has(.mega-menu__column--continued) {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+  }
+
+  .mega-menu__columns:has(.mega-menu__column--continued) .mega-menu__column {
+    width: auto;
+  }
+
+  /* Заголовок колонки — список: 16px, пункты через 12px (Бренды 1319:35497, О Luvr 1322:36642) */
+  .mega-menu__column {
+    gap: var(--space-16);
+  }
+
+  .mega-menu__list {
+    gap: 12px;
+  }
+
+  .mega-menu--spread .mega-menu__column,
+  .mega-menu--spread .mega-menu__list {
+    gap: 16px;
+  }
+
+  /* Продолжение списка — сразу под первой частью */
+  .mega-menu__column--continued {
+    margin-top: -16px;
+    padding-top: 0;
+  }
+
+  .mega-menu__banner {
+    position: relative;
+    flex: 1 0 191px;
+    aspect-ratio: auto;
+  }
+
+  .mega-menu__banner picture {
+    position: absolute;
+    inset: 0;
+  }
+}
+
+/* Пока открыто меню категорий (планшет, мобильная), страница под затемнением не прокручивается */
+.is-catalog-open {
+  overflow: hidden;
 }

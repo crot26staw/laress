@@ -10,7 +10,7 @@
     <script type="module" src="/src/scripts/main.js"></script>
   </head>
   <body>
-    <!-- @include src/partials/header.html -->
+    <!-- @include src/partials/header.html {"tabCatalog": "1"} -->
 
     <main class="catalog container">
       <div class="section-heading">
@@ -35,7 +35,7 @@
             <svg class="catalog__control-icon" width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true">
               <path d="M6.26172 2.92383L5.73438 3.45117L3.75391 1.47656L3.74805 12H2.99805L3.00391 1.45898L1.01172 3.45117L0.484375 2.92383L3.37305 0.0351562L6.26172 2.92383ZM10.9902 8.54883L11.5234 9.07617L8.63477 11.9648L5.74023 9.07617L6.27344 8.54883L8.25391 10.5293L8.24805 0H8.99805L9.00391 10.5352L10.9902 8.54883Z" fill="currentColor" />
             </svg>
-            Сортировать
+            <span class="catalog__control-label">Сортировать</span>
           </button>
         </div>
 
@@ -84,8 +84,11 @@
 
       <nav class="pagination" aria-label="Страницы каталога">
         <a class="pagination__arrow" href="#" aria-label="Предыдущая страница" aria-disabled="true">
-          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+          <svg class="pagination__icon" width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
             <path d="M17.5469 19.92L14.2869 16.66C13.9019 16.275 13.9019 15.645 14.2869 15.26L17.5469 12" stroke="currentColor" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+          <svg class="pagination__icon pagination__icon--adaptive" width="40" height="40" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+            <path d="M22 12L15.5696 18.5859C14.8101 19.3636 14.8101 20.6364 15.5696 21.4141L22 28" stroke="currentColor" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
           </svg>
         </a>
         <ul class="pagination__pages">
@@ -99,8 +102,11 @@
           <li><a class="pagination__page" href="#">10</a></li>
         </ul>
         <a class="pagination__arrow pagination__arrow--next" href="#" aria-label="Следующая страница">
-          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+          <svg class="pagination__icon" width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
             <path d="M17.5469 19.92L14.2869 16.66C13.9019 16.275 13.9019 15.645 14.2869 15.26L17.5469 12" stroke="currentColor" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+          <svg class="pagination__icon pagination__icon--adaptive" width="40" height="40" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+            <path d="M22 12L15.5696 18.5859C14.8101 19.3636 14.8101 20.6364 15.5696 21.4141L22 28" stroke="currentColor" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
           </svg>
         </a>
       </nav>

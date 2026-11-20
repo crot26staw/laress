@@ -73,6 +73,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
+  width: max-content; /* иначе от left: 50% карточке остаётся только половина ряда (мобильная) */
   transform: translate(calc(-50% + var(--brands-x, 0px)), -50%);
   transition: transform var(--brands-duration) var(--brands-easing);
 }
@@ -101,4 +102,66 @@
 
 .brands__arrow--next {
   right: -20px;
+}
+
+/* Планшет — 1315:32923: центральная карточка 340×470, остальные 230×280; без стрелок, листается свайпом
+   (размеры дублируются в brands-slider.js) */
+@media (max-width: 1279.98px) {
+  .brands {
+    gap: var(--space-32);
+    padding-block: 50px;
+  }
+
+  .brands__inner {
+    gap: var(--space-28);
+  }
+
+  .brands .section-heading {
+    gap: var(--space-16);
+  }
+
+  .brands__image {
+    width: 230px;
+    height: 280px;
+  }
+
+  .brands__item--active .brands__image {
+    width: 340px;
+    height: 470px;
+  }
+
+  .brands__track--carousel {
+    height: calc(470px + 12px + 22px * 1.06);
+    touch-action: pan-y;
+  }
+
+  .brands__arrow {
+    display: none;
+  }
+}
+
+/* Мобильная — 1317:33607: все карточки 343×400, видна одна */
+@media (max-width: 767.98px) {
+  .brands {
+    gap: var(--space-24);
+  }
+
+  .brands__inner {
+    gap: var(--space-20);
+  }
+
+  .brands__link {
+    gap: 10px;
+  }
+
+  /* 343×400 на 375; на узких экранах — по ширине контейнера (--brands-card считает brands-slider.js) */
+  .brands__image,
+  .brands__item--active .brands__image {
+    width: var(--brands-card, 343px);
+    height: 400px;
+  }
+
+  .brands__track--carousel {
+    height: calc(400px + 10px + 20px * 1.06);
+  }
 }

@@ -109,3 +109,135 @@
 .showcase__text--order {
   max-width: 414.95px;
 }
+
+/* Планшет — «Подарки» 1314:32596, «Под заказ» 1314:32686: фото и колонка по половине, высота 530,
+   в колонке орнамент сверху, кнопки снизу на всю ширину; линии под колонкой нет */
+@media (max-width: 1279.98px) {
+  .showcase {
+    padding-block: 0;
+    background-color: var(--color-surface);
+  }
+
+  .showcase--filled {
+    padding-bottom: 50px;
+  }
+
+  .showcase--reverse {
+    padding-top: 50px;
+  }
+
+  .showcase__inner {
+    align-items: stretch;
+    height: 530px;
+  }
+
+  .showcase__media {
+    height: auto;
+  }
+
+  .showcase__content,
+  .showcase--reverse .showcase__content {
+    padding-inline: var(--container-padding);
+  }
+
+  .showcase__body {
+    justify-content: space-between;
+    gap: 0;
+  }
+
+  .showcase__body::after {
+    content: none;
+  }
+
+  .showcase__ornament {
+    position: static;
+    width: 100%;
+  }
+
+  .showcase__group {
+    gap: var(--space-12);
+  }
+
+  .showcase__title {
+    max-width: 290.02px;
+  }
+
+  .showcase__thumb {
+    width: 200px;
+    height: 236px;
+  }
+
+  .showcase__text {
+    font-size: var(--font-size-16);
+  }
+
+  .showcase__text--order {
+    max-width: none;
+  }
+
+  .showcase__actions {
+    align-self: stretch;
+  }
+
+  .showcase__body > .button,
+  .showcase__actions .button {
+    align-self: stretch;
+  }
+}
+
+/* Мобильная — 1317:33485 / 1317:33508: фото 300px сверху, под ним колонка по центру, кнопки по ширине текста */
+@media (max-width: 767.98px) {
+  .showcase__inner,
+  .showcase--reverse .showcase__inner {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .showcase__media {
+    flex: none;
+    height: 300px;
+  }
+
+  .showcase__content,
+  .showcase--reverse .showcase__content {
+    padding: var(--space-16) var(--container-padding) 0;
+  }
+
+  .showcase--reverse .showcase__content {
+    padding-bottom: var(--space-16);
+  }
+
+  .showcase__body {
+    justify-content: flex-start;
+    gap: var(--space-16);
+  }
+
+  .showcase__group {
+    gap: 10px;
+  }
+
+  .showcase__title {
+    max-width: none;
+  }
+
+  .showcase__thumb {
+    width: 180px;
+    height: 200px;
+  }
+
+  .showcase__text {
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    letter-spacing: 0;
+  }
+
+  .showcase__actions {
+    align-self: center;
+    align-items: center;
+  }
+
+  .showcase__body > .button,
+  .showcase__actions .button {
+    align-self: center;
+  }
+}

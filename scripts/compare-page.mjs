@@ -56,8 +56,11 @@ for (const s of page.sections) {
   if (s.refW !== undefined) args.push('--ref-w', String(Math.round(s.refW * k)));
   if (s.open) args.push('--open', s.open);
   if (s.eval) args.push('--eval', s.eval);
-  if (s.viewportH !== undefined) args.push('--viewport-h', String(Math.round(s.viewportH * k)));
+  const viewportH = s.viewportH ?? page.viewportH;
+  if (viewportH !== undefined) args.push('--viewport-h', String(Math.round(viewportH * k)));
   if (s.url) args[args.indexOf('--url') + 1] = s.url;
+  const hide = s.hide ?? page.hide;
+  if (hide) args.push('--hide', hide);
   const out = execFileSync('node', args, { encoding: 'utf-8' });
   const [line1, line2] = out.split('\n');
   console.log(`${line1.split(',')[0].padEnd(28)} ${line1.match(/\(([\d.]+%)\)/)?.[1].padStart(7)}   ${line2.trim()}`);

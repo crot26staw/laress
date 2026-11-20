@@ -52,3 +52,37 @@
 .hero__button {
   --button-color: var(--color-brown-dark);
 }
+
+/* Планшет — 1314:32488, мобильная — 1317:33424: первый экран на всю высоту окна.
+   В макете: с полосой объявления 1024 − 48 = 976 (мобильная 812 − 48 = 764), без неё (фреймы навигации) — весь кадр.
+   Таб-бар лежит поверх низа первого экрана. */
+@media (max-width: 1279.98px) {
+  .hero {
+    --hero-offset: 48px; /* полоса объявления над шапкой */
+
+    height: calc(100vh - var(--hero-offset));
+    height: calc(100svh - var(--hero-offset));
+    min-height: 480px;
+  }
+
+  body:has(> .announcement[hidden]) .hero,
+  body:not(:has(> .announcement)) .hero {
+    --hero-offset: 0px;
+  }
+
+  .hero__content {
+    bottom: 117.2px;
+  }
+}
+
+/* Мобильная — 1317:33424: заголовок 32px в три строки, кнопка на всю ширину */
+@media (max-width: 767.98px) {
+  .hero__content {
+    left: var(--container-padding);
+    right: var(--container-padding);
+    bottom: 94.6px;
+    align-items: stretch;
+    width: auto;
+    transform: none;
+  }
+}

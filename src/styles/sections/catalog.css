@@ -62,3 +62,125 @@
 .catalog__item--wide {
   grid-column: span 3;
 }
+
+/* Планшет — 1322:36664: отступы 32 / 32 / 24 / 24 / 32, заголовок через 16px.
+   Сетка 2 колонки (354 + 12 + 354), каждая 5-я карточка — на всю ширину (720, фото 500). */
+@media (max-width: 1279.98px) {
+  .catalog {
+    gap: 0;
+    padding-top: var(--space-32);
+    padding-bottom: var(--space-32);
+  }
+
+  .catalog > .section-heading {
+    gap: var(--space-16);
+    margin-bottom: var(--space-32);
+  }
+
+  .catalog__content {
+    gap: var(--space-24);
+  }
+
+  .catalog > .pagination {
+    margin-top: var(--space-24);
+  }
+
+  .catalog__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .catalog__item,
+  .catalog__item--wide {
+    grid-column: auto;
+  }
+
+  .catalog__item .product-card__media {
+    aspect-ratio: 354 / 420;
+  }
+}
+
+/* Только планшет: широкая карточка — каждая 5-я; одиночная последняя карточка в ряду тоже растягивается,
+   чтобы не оставлять пустую половину ряда. Порядок задаёт позиция в цикле, а не класс. */
+@media (min-width: 768px) and (max-width: 1279.98px) {
+  .catalog__item:nth-child(5n),
+  .catalog__item:last-child:is(:nth-child(5n + 1), :nth-child(5n + 3)) {
+    grid-column: 1 / -1;
+  }
+
+  .catalog__item:nth-child(5n) .product-card__media,
+  .catalog__item:last-child:is(:nth-child(5n + 1), :nth-child(5n + 3)) .product-card__media {
+    aspect-ratio: 720 / 500;
+  }
+
+  /* Figma рисует 18px × 1.25 с шагом строк 23px: карточка 530, а не 529 — иначе к пагинации набегает 7px */
+  .catalog__item .product-card__title {
+    line-height: 23px;
+  }
+}
+
+/* Мобильная — 1322:37615: отступы 24 / 24 / 28 / 28 / 32, все карточки по 2 в ряд (165.5, фото 210.34),
+   у «Сортировать» только иконка. */
+@media (max-width: 767.98px) {
+  .catalog {
+    padding-top: var(--space-24);
+  }
+
+  .catalog > .section-heading {
+    gap: var(--space-12);
+    margin-bottom: var(--space-24);
+  }
+
+  /* В заголовке каталога знак орнамента и на мобильной 32×30 (1322:37933) */
+  .catalog .ornament__mark {
+    width: 32px;
+    height: 30px;
+  }
+
+  .catalog__content {
+    gap: var(--space-28);
+  }
+
+  .catalog > .pagination {
+    margin-top: var(--space-28);
+  }
+
+  .catalog__toolbar {
+    align-items: flex-start;
+  }
+
+  .catalog__control-label {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+
+  .catalog__grid {
+    row-gap: var(--space-20);
+  }
+
+  .catalog__item .product-card__media {
+    aspect-ratio: 165.5 / 210.34;
+  }
+
+  /* Нечётная последняя карточка — на всю ширину, как карточка 343×360 на главной (I1319:34094) */
+  .catalog__item:last-child:nth-child(odd) {
+    grid-column: 1 / -1;
+  }
+
+  .catalog__item:last-child:nth-child(odd) .product-card__media {
+    aspect-ratio: 343 / 360;
+  }
+
+  .catalog__item .product-card__tag {
+    top: 6px;
+    left: 6px;
+  }
+
+  .catalog__item .product-card__wishlist {
+    top: 6px;
+    right: 6px;
+  }
+}

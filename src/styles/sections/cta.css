@@ -80,3 +80,79 @@
   inset: 0;
   background: linear-gradient(142deg, var(--color-black-30) 17%, transparent 64%);
 }
+
+/* Планшет — 1316:33086: фото 1000px в высоту (кадр правее центра, как в Figma), отступы 50/24 */
+@media (max-width: 1279.98px) {
+  .cta {
+    padding-block: 50px;
+  }
+
+  .cta__inner {
+    height: 1000px;
+  }
+
+  .cta__image {
+    object-position: 85.8% 50%;
+  }
+
+  .cta__content {
+    padding: 50px var(--container-padding);
+  }
+
+  .cta__text {
+    max-width: 317.01px;
+    font-size: var(--font-size-16);
+  }
+
+  .cta--flush {
+    padding-block: 0;
+  }
+}
+
+/* «Все бренды» на планшете — 1398:20522: сверху 50, снизу вплотную к футеру,
+   внутри 80 / 40 (как на десктопе), квадратное фото с тарелками по центру кадра */
+@media (max-width: 1279.98px) {
+  .cta--brands {
+    padding-block: 50px 0;
+  }
+
+  .cta--brands .cta__image {
+    object-position: 50% 50%;
+  }
+
+  .cta--brands .cta__content {
+    padding: 80px var(--space-40);
+  }
+}
+
+/* Мобильная — 1317:33708: своё вертикальное фото 812px, кнопка на всю ширину */
+@media (max-width: 767.98px) {
+  .cta__inner {
+    height: 812px;
+  }
+
+  .cta__image {
+    object-position: 50% 50%;
+  }
+
+  .cta__content {
+    align-items: stretch;
+  }
+
+  .cta__text {
+    max-width: 271.81px;
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+  }
+}
+
+/* «Все бренды» на мобильной — 1398:20550: сверху и снизу по 50, внутри 80 / 24 */
+@media (max-width: 767.98px) {
+  .cta--brands {
+    padding-block: 50px;
+  }
+
+  .cta--brands .cta__content {
+    padding: 80px var(--space-24);
+  }
+}

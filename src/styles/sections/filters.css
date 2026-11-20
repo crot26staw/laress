@@ -177,3 +177,76 @@
 html:has(.filters[open]) {
   overflow: hidden;
 }
+
+/* Планшет — 1323:39223: панель та же (440 слева), отступы 24, заголовок 22, кнопки по 44px (button--m-tablet) */
+@media (max-width: 1279.98px) {
+  .filters__content {
+    gap: var(--space-24);
+    padding: var(--space-24) var(--space-24) 0;
+  }
+
+  .filters__title {
+    font-size: 22px;
+  }
+
+  .filters__price {
+    gap: var(--space-16);
+  }
+
+  .filters__actions {
+    padding: var(--space-24);
+  }
+}
+
+/* Мобильная — 1323:40579: шторка на всю ширину, сверху 40px затемнённой шапки, выезжает снизу.
+   Заголовки групп 16/1.25 500, пункты 14px через 10, поля цены 44px. */
+@media (max-width: 767.98px) {
+  .filters {
+    inset: 40px 0 0;
+    width: 100%;
+    height: auto;
+  }
+
+  .filters[open] {
+    animation-name: filters-slide-up;
+  }
+
+  .filters__content {
+    padding: var(--space-20) var(--space-16) 0;
+  }
+
+  .filters__legend {
+    margin-bottom: var(--space-12);
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-medium);
+    line-height: var(--line-height-snug);
+    letter-spacing: -0.02em;
+  }
+
+  .filters__options {
+    gap: 10px;
+  }
+
+  .filters__options .choice {
+    font-size: var(--font-size-14);
+  }
+
+  .filters__price {
+    gap: var(--space-12);
+  }
+
+  .filters__input {
+    height: 44px;
+    font-size: var(--font-size-14);
+  }
+
+  .filters__actions {
+    padding: var(--space-16);
+  }
+}
+
+@keyframes filters-slide-up {
+  from {
+    transform: translateY(100%);
+  }
+}

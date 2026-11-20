@@ -202,3 +202,74 @@
 .product-card--favorite .product-card__price-old {
   color: var(--color-gray-500);
 }
+
+/* Планшет — «Item Card» 354×(420 + текст) (I1315:32888): категория 14, цена 16, тег 12px */
+@media (max-width: 1279.98px) {
+  .product-card__media {
+    aspect-ratio: 354 / 420;
+  }
+
+  .product-card__body {
+    gap: var(--space-8);
+  }
+
+  .product-card__text {
+    gap: 6px;
+  }
+
+  .product-card__category {
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+  }
+
+  /* В «Item Card» планшета и мобильной название — блок 319.38px */
+  .product-card__title {
+    max-width: 319.38px;
+  }
+
+  .product-card__prices {
+    font-size: var(--font-size-16);
+  }
+
+  .product-card__price-old {
+    line-height: 20px;
+  }
+
+  .product-card__tag {
+    padding-inline: 10px;
+    font-size: var(--font-size-12);
+  }
+}
+
+/* Мобильная — I1319:34094: фото 343×360, название 16, цена 14 */
+@media (max-width: 767.98px) {
+  .product-card {
+    gap: 10px;
+  }
+
+  .product-card__media {
+    aspect-ratio: 343 / 360;
+  }
+
+  .product-card__body {
+    gap: 6px;
+  }
+
+  .product-card__text {
+    gap: var(--space-4);
+  }
+
+  .product-card__title {
+    font-size: var(--font-size-16);
+  }
+
+  .product-card__prices {
+    gap: var(--space-8);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+  }
+
+  .product-card__price-old {
+    line-height: 18px;
+  }
+}

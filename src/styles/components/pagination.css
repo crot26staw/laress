@@ -21,9 +21,13 @@
     box-shadow var(--transition);
 }
 
-.pagination__arrow svg {
+.pagination__icon {
   width: 32px;
   height: 32px;
+}
+
+.pagination__icon--adaptive {
+  display: none;
 }
 
 .pagination__arrow--next svg {
@@ -69,4 +73,36 @@ a.pagination__page:hover {
   background-color: var(--color-accent);
   color: var(--color-white);
   pointer-events: none;
+}
+
+/* Планшет и мобильная — 1322:37562: стрелка-шеврон акцентом 16px с линией 2px (как у «Arrow Button»), на всю кнопку 40×40 */
+@media (max-width: 1279.98px) {
+  .pagination__arrow {
+    color: var(--color-accent);
+  }
+
+  .pagination__arrow:hover {
+    color: var(--color-accent-hover);
+  }
+
+  .pagination__icon {
+    display: none;
+  }
+
+  .pagination__icon--adaptive {
+    display: block;
+    width: 40px;
+    height: 40px;
+  }
+}
+
+/* Экраны уже макета 375 (320–359): 340px пагинации не помещаются — сжимаем отступы до 280px */
+@media (max-width: 359.98px) {
+  .pagination {
+    gap: var(--space-4);
+  }
+
+  .pagination__pages {
+    gap: 0;
+  }
 }

@@ -30,6 +30,24 @@
   font-size: var(--font-size-14);
 }
 
+/* Размер M планшета / мобильной версии: высота 44px, текст 14px (Figma: кнопки с фиксированной высотой 44).
+   --m-tablet — на планшете и мобильной, --m-mobile — только на мобильной. */
+@media (max-width: 1279.98px) {
+  .button--m-tablet {
+    min-height: 44px;
+    padding-block: 0;
+    font-size: var(--font-size-14);
+  }
+}
+
+@media (max-width: 767.98px) {
+  .button--m-mobile {
+    min-height: 44px;
+    padding-block: 0;
+    font-size: var(--font-size-14);
+  }
+}
+
 /* Жирный текст 700 — кнопки раздела «Регистрация / Авторизация» (966:49595) */
 .button--bold {
   font-weight: var(--font-weight-bold);

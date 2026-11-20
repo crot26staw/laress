@@ -91,3 +91,129 @@
   line-height: var(--line-height-snug);
   color: var(--color-text-90);
 }
+
+/* Планшет — 1314:32557: большая карточка «Бережная доставка» сверху на всю ширину, под ней две в ряд; текст слева */
+@media (max-width: 1279.98px) {
+  .about {
+    gap: var(--space-28);
+    padding-block: 100px;
+  }
+
+  .about__inner {
+    gap: var(--space-28);
+  }
+
+  .about .section-heading {
+    gap: var(--space-16);
+  }
+
+  .about__title {
+    max-width: none;
+  }
+
+  .about__list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-items: start;
+    gap: var(--space-24);
+  }
+
+  .about__list::before,
+  .about__list::after {
+    content: none;
+  }
+
+  .about__item {
+    grid-row: 2;
+    text-align: left;
+  }
+
+  .about__item:nth-child(1) {
+    grid-column: 1;
+  }
+
+  .about__item:nth-child(3) {
+    grid-column: 2;
+  }
+
+  .about__item.about__item--large {
+    grid-row: 1;
+    grid-column: 1 / -1;
+  }
+
+  .about__image {
+    height: auto;
+    aspect-ratio: 348 / 260;
+  }
+
+  .about__item--large .about__image {
+    height: auto;
+    aspect-ratio: 720 / 541.67;
+  }
+
+  .about__body {
+    gap: 10px;
+  }
+
+  .about__item--large .about__text {
+    max-width: 468.78px;
+  }
+
+  .about__item:nth-child(3) .about__text {
+    max-width: 295.8px;
+  }
+}
+
+/* Мобильная — 1317:33452: карточки в колонку (большая первой), фото 280px, текст по центру */
+@media (max-width: 767.98px) {
+  .about {
+    padding-block: 80px;
+  }
+
+  .about .ornament__mark {
+    width: 32px;
+    height: 30px;
+  }
+
+  .about__list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-20);
+  }
+
+  /* Две малые карточки — через 16px */
+  .about__item--large {
+    order: -1;
+  }
+
+  .about__item:nth-child(3) {
+    margin-top: -4px;
+  }
+
+  .about__item {
+    gap: var(--space-12);
+    text-align: center;
+  }
+
+  .about__image,
+  .about__item--large .about__image {
+    height: 280px;
+    aspect-ratio: auto;
+  }
+
+  .about__body {
+    gap: var(--space-8);
+  }
+
+  .about__text {
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+  }
+
+  .about__item--large .about__text {
+    max-width: none;
+  }
+
+  .about__item:nth-child(3) .about__text {
+    margin-inline: auto;
+  }
+}

@@ -3,7 +3,9 @@
 //   [--ref-y 1900 --ref-h 860]  — вырезать полосу из полного эталона страницы
 //   [--ref-x 0 --ref-w 440]     — сравнивать только полосу по горизонтали (например, панель поверх затемнённой страницы)
 //   [--open .button]            — кликнуть перед снимком (модалки, панели); снимается окно высотой --viewport-h (по умолчанию = высоте полосы)
+//   [--viewport-h 812]          — высота окна и без --open (первый экран на всю высоту окна — планшет 1024, мобильная 812)
 //   [--eval "js"]               — вместо клика выполнить JS на странице (окно, которое открывается не кнопкой)
+//   [--hide ".tab-bar"]         — скрыть элементы (фиксированный таб-бар планшета/мобильной на полном снимке страницы)
 // Печатает % отличий и лучший вертикальный сдвиг эталона (±4px). Норма: ≤ ~2% при сдвиге 0–2px
 // (остаток — сглаживание текста). Больше — смотреть <name>-diff.png и <name>-side.png.
 // Снимает страницу при ширине эталона, вырезает область той же высоты и кладёт в .compare/:
@@ -28,6 +30,7 @@ const { values: args } = parseArgs({
     open: { type: 'string' },
     eval: { type: 'string' },
     'viewport-h': { type: 'string' },
+    hide: { type: 'string' },
     bg: { type: 'string', default: '#fafaf9' }, // подложка под прозрачные места эталона (фон страницы)
   },
 });
@@ -53,7 +56,9 @@ const refPng = await sharp(args.ref)
   .toBuffer();
 
 const browser = await chromium.launch();
-const page = await browser.newPage({ viewport: { width: fullWidth, height: args.open || args.eval ? Number(args['viewport-h'] ?? height) : 900 }, deviceScaleFactor: 1 });
+// Высота окна: для панелей — по высоте полосы; для страниц — 900 или --viewport-h (первый экран планшета/мобильной = высота окна)
+const viewportH = args['viewport-h'] ? Number(args['viewport-h']) : args.open || args.eval ? height : 900;
+const page = await browser.newPage({ viewport: { width: fullWidth, height: viewportH }, deviceScaleFactor: 1 });
 await page.goto(args.url, { waitUntil: 'networkidle' });
 // Ленивые картинки: прокрутить страницу, чтобы всё загрузилось
 await page.evaluate(async () => {
@@ -61,6 +66,10 @@ await page.evaluate(async () => {
   await Promise.all([...document.images].map((img) => (img.complete ? null : new Promise((r) => (img.onload = img.onerror = r)))));
   await document.fonts.ready;
 });
+
+if (args.hide) {
+  await page.addStyleTag({ content: `${args.hide} { visibility: hidden !important; }` });
+}
 
 let top = Number(args.y);
 if (args.selector) {

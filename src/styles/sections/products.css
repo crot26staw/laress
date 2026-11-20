@@ -54,3 +54,58 @@
 .products__arrow--next {
   right: -20px;
 }
+
+/* Планшет — 1315:32793: карточки 354px, лента листается пальцем (без стрелок) */
+@media (max-width: 1279.98px) {
+  .products {
+    gap: var(--space-32);
+    padding-block: 50px 100px;
+  }
+
+  .products__inner {
+    gap: var(--space-28);
+  }
+
+  .products .section-heading {
+    gap: var(--space-16);
+  }
+
+  .products__track {
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scroll-padding-inline: var(--container-padding);
+    scrollbar-width: none;
+  }
+
+  .products__track::-webkit-scrollbar {
+    display: none;
+  }
+
+  .products__item {
+    flex-basis: 354px;
+  }
+
+  .products__arrow {
+    display: none;
+  }
+}
+
+/* Мобильная — 1317:33562: карточка на всю ширину (343px), между карточками 10px */
+@media (max-width: 767.98px) {
+  .products {
+    gap: var(--space-24);
+  }
+
+  .products__inner {
+    gap: var(--space-20);
+  }
+
+  .products__track {
+    gap: 10px;
+  }
+
+  /* 343px на 375; на узких экранах — по ширине контейнера */
+  .products__item {
+    flex-basis: min(343px, 100%);
+  }
+}

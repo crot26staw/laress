@@ -1,0 +1,40 @@
+<!-- Нижний таб-бар планшета и мобильной версии — Figma «Tab-Bar» (планшет I1319:35036, 768×64; мобильная I1319:34677, 375×50). На десктопе скрыт.
+     Подключается из header.html. Параметры: catalog / favorites / profile — активный пункт (любое непустое значение); loggedIn — «Профиль» ведёт в личный кабинет, иначе на вход.
+     «Каталог» открывает меню категорий шапки (header.js), пока оно открыто — пункт тоже активный. -->
+<nav class="tab-bar" aria-label="Быстрое меню">
+  <ul class="tab-bar__list">
+    <li class="tab-bar__item">
+      <button class="tab-bar__link" type="button" aria-controls="header-nav" aria-expanded="false" {{#if catalog}}aria-current="page"{{/if}} data-catalog-toggle>
+        <svg class="tab-bar__icon" width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M3 7H21M3 12H21M3 17H21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+        Каталог
+      </button>
+    </li>
+    <li class="tab-bar__item">
+      <a class="tab-bar__link" href="/favorites.html" {{#if favorites}}aria-current="page"{{/if}}>
+        <svg class="tab-bar__icon" width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M3.21688 13.1999C1.05354 10.2665 1.77465 5.86642 5.38022 4.39973C8.98579 2.93305 11.1491 5.86642 11.8702 7.33311C12.5914 5.86642 15.4758 2.93305 19.0814 4.39973C22.687 5.86642 22.687 10.2665 20.5236 13.1999C18.3603 16.1332 11.8702 22 11.8702 22C11.8702 22 5.38022 16.1332 3.21688 13.1999Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+        Избранное
+      </a>
+    </li>
+    <li class="tab-bar__item">
+      <a class="tab-bar__link" href="#">
+        <svg class="tab-bar__icon" width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M2 8H21L20.0084 18.8503C19.9548 19.4375 19.6826 19.9836 19.2451 20.3814C18.8077 20.7791 18.2366 20.9998 17.6441 21H5.35588C4.76336 20.9998 4.19233 20.7791 3.75488 20.3814C3.31744 19.9836 3.04519 19.4375 2.99156 18.8503L2 8Z" stroke="currentColor" stroke-linejoin="round" />
+          <path d="M7 10V6.57143C7 5.35901 7.47411 4.19625 8.31802 3.33894C9.16193 2.48163 10.3065 2 11.5 2C12.6935 2 13.8381 2.48163 14.682 3.33894C15.5259 4.19625 16 5.35901 16 6.57143V10" stroke="currentColor" stroke-linecap="round" />
+        </svg>
+        Корзина
+      </a>
+    </li>
+    <li class="tab-bar__item">
+      <a class="tab-bar__link" href="{{#if loggedIn}}/account.html{{/if}}{{#unless loggedIn}}/login.html{{/unless}}" {{#if profile}}aria-current="page"{{/if}}>
+        <svg class="tab-bar__icon" width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M4 21C4 18.79 7.582 17 12 17C16.418 17 20 18.79 20 21M7 8C7 9.32608 7.52678 10.5979 8.46447 11.5355C9.40215 12.4732 10.6739 13 12 13C13.3261 13 14.5979 12.4732 15.5355 11.5355C16.4732 10.5979 17 9.32608 17 8C17 6.67392 16.4732 5.40215 15.5355 4.46447C14.5979 3.52678 13.3261 3 12 3C10.6739 3 9.40215 3.52678 8.46447 4.46447C7.52678 5.40215 7 6.67392 7 8Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+        Профиль
+      </a>
+    </li>
+  </ul>
+</nav>

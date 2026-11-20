@@ -128,3 +128,106 @@ a.brands-index__letter:hover {
   line-height: var(--line-height-snug);
   color: var(--color-text-60);
 }
+
+/* Планшет — 1322:38278: отступы 32 / 32 / 24 / 32, алфавит 22px через 6 над поиском во всю ширину,
+   в колонках группы через 24, буква — список 16. */
+@media (max-width: 1279.98px) {
+  .brands-index {
+    gap: var(--space-24);
+    padding-top: var(--space-32);
+    padding-bottom: var(--space-32);
+  }
+
+  .brands-index > .section-heading {
+    gap: var(--space-16);
+    margin-bottom: var(--space-8);
+  }
+
+  .brands-index__toolbar {
+    flex-direction: column;
+    align-items: stretch;
+    gap: var(--space-12);
+  }
+
+  /* В макете 6px, Figma округляет ширину букв 22px вверх (+0.52px на букву) — иначе к «Z» не хватает 13px */
+  .brands-index__alphabet {
+    gap: 6.52px;
+  }
+
+  .brands-index__letter {
+    font-size: 22px;
+  }
+
+  .brands-index__search {
+    width: auto;
+  }
+
+  .brands-index__column {
+    gap: var(--space-24);
+  }
+
+  .brands-index__group {
+    gap: var(--space-16);
+    scroll-margin-top: 80px; /* под шапкой 66px */
+  }
+}
+
+/* Мобильная — 1322:38364: отступы 24 / 24 / 20 / 32, алфавит переносится на вторую строку,
+   поиск 14px с иконкой 20, бренды 14/1.25 через 8, группы через 20, буква — список 10. */
+@media (max-width: 767.98px) {
+  .brands-index {
+    gap: var(--space-20);
+    padding-top: var(--space-24);
+  }
+
+  .brands-index > .section-heading {
+    gap: var(--space-12);
+    margin-bottom: var(--space-4);
+  }
+
+  .brands-index .ornament__mark {
+    width: 32px;
+    height: 30px;
+  }
+
+  .brands-index__toolbar {
+    gap: 10px;
+  }
+
+  .brands-index__alphabet {
+    flex-wrap: wrap;
+  }
+
+  .brands-index__search {
+    padding: var(--space-16) 0 var(--space-12);
+  }
+
+  .brands-index__search-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .brands-index__search-input {
+    font-size: var(--font-size-14);
+  }
+
+  .brands-index__column {
+    gap: var(--space-20);
+  }
+
+  .brands-index__group {
+    gap: 10px;
+    scroll-margin-top: 64px; /* под шапкой 50px */
+  }
+
+  /* 14 × 1.25 — Figma рисует строки с шагом 18px */
+  .brands-index__list {
+    gap: var(--space-8);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+  }
+
+  .brands-index__empty {
+    font-size: var(--font-size-14);
+  }
+}

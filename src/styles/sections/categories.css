@@ -62,3 +62,45 @@
 .categories--three .categories__image {
   aspect-ratio: 445 / 440;
 }
+
+/* Планшет — 1319:34008: сетка 2×2 через 20px, фото 350×400 */
+@media (max-width: 1279.98px) {
+  .categories {
+    gap: var(--space-28);
+    padding-block: 100px 50px;
+  }
+
+  .categories__list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: var(--space-20);
+  }
+
+  .categories__link {
+    gap: var(--space-12);
+  }
+
+  .categories__image {
+    aspect-ratio: 350 / 400;
+  }
+}
+
+/* Мобильная — 1317:33530: в колонку, фото 280px */
+@media (max-width: 767.98px) {
+  .categories {
+    align-items: stretch;
+    gap: var(--space-20);
+  }
+
+  .categories__list {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .categories__link {
+    gap: 10px;
+  }
+
+  .categories__image {
+    height: 280px;
+    aspect-ratio: auto;
+  }
+}

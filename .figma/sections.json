@@ -969,5 +969,369 @@
         "y": 0
       }
     ]
+  },
+  "home-tablet": {
+    "url": "http://localhost:5173/",
+    "ref": ".figma/screenshots/home-tablet_1311-32012.png",
+    "hide": ".tab-bar",
+    "sections": [
+      {
+        "name": "hero",
+        "refY": 0,
+        "refH": 1024
+      },
+      {
+        "name": "about",
+        "selector": ".about",
+        "refY": 1024,
+        "refH": 1420
+      },
+      {
+        "name": "gifts",
+        "selector": ".showcase--filled",
+        "refY": 2444,
+        "refH": 580
+      },
+      {
+        "name": "order",
+        "selector": ".showcase--reverse",
+        "refY": 3024,
+        "refH": 580
+      },
+      {
+        "name": "categories",
+        "selector": ".categories",
+        "refY": 3604,
+        "refH": 1203
+      },
+      {
+        "name": "products",
+        "selector": ".products",
+        "refY": 4806,
+        "refH": 866
+      },
+      {
+        "name": "brands",
+        "selector": ".brands",
+        "refY": 5721,
+        "refH": 792
+      },
+      {
+        "name": "designers",
+        "selector": ".designers",
+        "refY": 6513,
+        "refH": 901
+      },
+      {
+        "name": "blog",
+        "selector": ".blog",
+        "refY": 7414,
+        "refH": 944
+      },
+      {
+        "name": "cta",
+        "selector": ".cta",
+        "refY": 8358,
+        "refH": 1100
+      },
+      {
+        "name": "contacts",
+        "selector": ".contacts",
+        "refY": 9458,
+        "refH": 897
+      },
+      {
+        "name": "footer",
+        "selector": ".footer",
+        "refY": 10356,
+        "refH": 747
+      }
+    ],
+    "$comment": "Планшет 768 (1311:32012). Карточки «Выбор клиентов» в макете тянет третья карточка с фиксированной высотой 579 — эталон после этой секции сдвинут на 48px (refY = Y на сайте + 48).",
+    "viewportH": 1024
+  },
+  "home-mobile": {
+    "url": "http://localhost:5173/",
+    "ref": ".figma/screenshots/home-mobile_1317-33423.png",
+    "hide": ".tab-bar",
+    "sections": [
+      {
+        "name": "hero",
+        "refY": 0,
+        "refH": 812
+      },
+      {
+        "name": "about",
+        "selector": ".about",
+        "refY": 812,
+        "refH": 1544
+      },
+      {
+        "name": "gifts",
+        "selector": ".showcase--filled",
+        "refY": 2356,
+        "refH": 828
+      },
+      {
+        "name": "order",
+        "selector": ".showcase--reverse",
+        "refY": 3184,
+        "refH": 792
+      },
+      {
+        "name": "categories",
+        "selector": ".categories",
+        "refY": 3976,
+        "refH": 1635
+      },
+      {
+        "name": "products",
+        "selector": ".products",
+        "refY": 5610,
+        "refH": 765
+      },
+      {
+        "name": "brands",
+        "selector": ".brands",
+        "refY": 6375,
+        "refH": 690
+      },
+      {
+        "name": "designers",
+        "selector": ".designers",
+        "refY": 7065,
+        "refH": 803
+      },
+      {
+        "name": "blog",
+        "selector": ".blog",
+        "refY": 7870,
+        "refH": 846
+      },
+      {
+        "name": "cta",
+        "selector": ".cta",
+        "refY": 8707,
+        "refH": 912
+      },
+      {
+        "name": "contacts",
+        "selector": ".contacts",
+        "refY": 9618,
+        "refH": 870
+      },
+      {
+        "name": "footer",
+        "selector": ".footer",
+        "refY": 10493,
+        "refH": 1083
+      }
+    ],
+    "$comment": "Мобильная 375 (1317:33423). В ленте статей у нас 3 карточки (в макете 2), лента выше на ~10px — refY секций после статей поправлены по тексту.",
+    "viewportH": 812
+  },
+  "catalog-tablet": {
+    "$comment": "Планшет 768 (1322:36664), фильтры — 1323:39223 / 1323:39959. Y секций посчитаны по раскладке Figma (карточка 530, широкая 610). В макете 12 карточек, у нас 13 — сетка сверяется по высоте макета.",
+    "url": "http://localhost:5173/catalog.html",
+    "ref": ".figma/screenshots/catalog-tablet_1322-36664.png",
+    "hide": ".tab-bar",
+    "viewportH": 1024,
+    "sections": [
+      {
+        "name": "header",
+        "refY": 0,
+        "refH": 66
+      },
+      {
+        "name": "heading",
+        "selector": ".catalog > .section-heading",
+        "refY": 98,
+        "refH": 109
+      },
+      {
+        "name": "grid",
+        "selector": ".catalog__content",
+        "refY": 239,
+        "refH": 4083
+      },
+      {
+        "name": "pagination",
+        "selector": ".catalog > .pagination",
+        "refY": 4346,
+        "refH": 40
+      },
+      {
+        "name": "footer",
+        "selector": ".footer",
+        "refY": 4418,
+        "refH": 747
+      },
+      {
+        "name": "filters-all",
+        "ref": ".figma/screenshots/catalog-filters-all-tablet_1323-39223.png",
+        "open": "[data-filters-open]",
+        "refY": 0,
+        "refH": 1219,
+        "viewportH": 1219,
+        "refX": 0,
+        "refW": 440
+      },
+      {
+        "name": "filters-one-screen",
+        "ref": ".figma/screenshots/catalog-filters-one-screen-tablet_1323-39959.png",
+        "open": "[data-filters-open]",
+        "refY": 0,
+        "refH": 1024,
+        "viewportH": 1024,
+        "refX": 0,
+        "refW": 440
+      }
+    ]
+  },
+  "catalog-mobile": {
+    "$comment": "Мобильная 375 (1322:37615), фильтры — 1323:40579 / 1323:39623 (шторка с Y=40). В макете 10 карточек, у нас 13 — сетка сверяется по высоте макета.",
+    "url": "http://localhost:5173/catalog.html",
+    "ref": ".figma/screenshots/catalog-mobile_1322-37615.png",
+    "hide": ".tab-bar",
+    "viewportH": 812,
+    "sections": [
+      {
+        "name": "header",
+        "refY": 0,
+        "refH": 50
+      },
+      {
+        "name": "heading",
+        "selector": ".catalog > .section-heading",
+        "refY": 74,
+        "refH": 96
+      },
+      {
+        "name": "grid",
+        "selector": ".catalog__content",
+        "refY": 195,
+        "refH": 1885
+      },
+      {
+        "name": "pagination",
+        "selector": ".catalog > .pagination",
+        "refY": 2108,
+        "refH": 40
+      },
+      {
+        "name": "footer",
+        "selector": ".footer",
+        "refY": 2180,
+        "refH": 1086
+      },
+      {
+        "name": "filters-all",
+        "ref": ".figma/screenshots/catalog-filters-all-mobile_1323-40579.png",
+        "open": "[data-filters-open]",
+        "refY": 0,
+        "refH": 1203,
+        "viewportH": 1203,
+        "refX": 0,
+        "refW": 375
+      },
+      {
+        "name": "filters-one-screen",
+        "ref": ".figma/screenshots/catalog-filters-one-screen-mobile_1323-39623.png",
+        "open": "[data-filters-open]",
+        "refY": 0,
+        "refH": 812,
+        "viewportH": 812,
+        "refX": 0,
+        "refW": 375
+      }
+    ]
+  },
+  "brands-tablet": {
+    "$comment": "Планшет 768 (1322:38278). Фото CTA начинается на 1976 (найдено по пикселям), секция CTA — с отступом 50 сверху.",
+    "url": "http://localhost:5173/brands.html",
+    "ref": ".figma/screenshots/catalog-all-brands-tablet_1322-38278.png",
+    "hide": ".tab-bar",
+    "viewportH": 1024,
+    "sections": [
+      {
+        "name": "header",
+        "refY": 0,
+        "refH": 66
+      },
+      {
+        "name": "heading",
+        "selector": ".brands-index > .section-heading",
+        "refY": 98,
+        "refH": 109
+      },
+      {
+        "name": "toolbar",
+        "selector": ".brands-index__toolbar",
+        "refY": 239,
+        "refH": 91
+      },
+      {
+        "name": "list",
+        "selector": ".brands-index__columns",
+        "refY": 354,
+        "refH": 1540
+      },
+      {
+        "name": "cta",
+        "selector": ".cta",
+        "refY": 1926,
+        "refH": 1050
+      },
+      {
+        "name": "footer",
+        "selector": ".footer",
+        "refY": 2976,
+        "refH": 747
+      }
+    ]
+  },
+  "brands-mobile": {
+    "$comment": "Мобильная 375 (1322:38364). В группе «C» у дизайнера отступы 12 вместо 8 — у нас 8, список ниже «C» на 16px выше эталона.",
+    "url": "http://localhost:5173/brands.html",
+    "ref": ".figma/screenshots/catalog-all-brands-mobile_1322-38364.png",
+    "hide": ".tab-bar",
+    "viewportH": 812,
+    "sections": [
+      {
+        "name": "header",
+        "refY": 0,
+        "refH": 50
+      },
+      {
+        "name": "heading",
+        "selector": ".brands-index > .section-heading",
+        "refY": 74,
+        "refH": 97
+      },
+      {
+        "name": "toolbar",
+        "selector": ".brands-index__toolbar",
+        "refY": 195,
+        "refH": 111
+      },
+      {
+        "name": "list",
+        "selector": ".brands-index__columns",
+        "refY": 325,
+        "refH": 1278
+      },
+      {
+        "name": "cta",
+        "selector": ".cta",
+        "refY": 1635,
+        "refH": 912
+      },
+      {
+        "name": "footer",
+        "selector": ".footer",
+        "refY": 2547,
+        "refH": 1086
+      }
+    ]
   }
 }

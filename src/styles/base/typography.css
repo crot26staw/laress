@@ -1,9 +1,17 @@
 /* Базовая типографика и текстовые стили из Figma (H1–H5, T1–T3). */
 
-/* Масштабирование макета: на 1440 — 1rem = 16px, к 1920 растёт пропорционально (до 21.33px),
-   шире 1920 — фиксируется. Ниже 1440 — 16px (адаптив делается отдельно). */
+/* Масштабирование макета. Десктоп (≥1280): 1rem = ширина окна / 90 — на 1440 ровно 16px,
+   к 1920 растёт до 21.33px (шире — фиксируется), к 1280 уменьшается до 14.22px: вся десктопная вёрстка
+   пропорционально сжимается. Планшет (768–1279) и мобильная версия (<768): 1rem = 16px, размеры как в Figma,
+   ширина блоков «резиновая». Брейкпоинты: max-width 1279.98px — планшет, max-width 767.98px — мобильная. */
 html {
-  font-size: clamp(16px, 100vw / 90, 1920px / 90);
+  font-size: 16px;
+}
+
+@media (min-width: 1280px) {
+  html {
+    font-size: clamp(1280px / 90, 100vw / 90, 1920px / 90);
+  }
 }
 
 body {
@@ -65,6 +73,49 @@ body {
 .text-t3 {
   font-size: var(--font-size-14);
   line-height: var(--line-height-text);
+}
+
+/* Адаптивные текстовые стили из Figma (Tablet/…, Mobile/…) */
+@media (max-width: 1279.98px) {
+  .text-h1 {
+    font-size: 36px;
+  }
+
+  .text-h2 {
+    font-size: var(--font-size-28);
+  }
+
+  .text-h3 {
+    font-size: 22px;
+  }
+
+  .text-t2 {
+    line-height: var(--line-height-snug);
+  }
+}
+
+@media (max-width: 767.98px) {
+  .text-h1 {
+    font-size: var(--font-size-32);
+  }
+
+  .text-h2 {
+    font-size: var(--font-size-24);
+    line-height: 28px; /* Figma: 24 × 1.15 с шагом 28 */
+  }
+
+  .text-h3 {
+    font-size: 20px;
+  }
+
+  .text-h4 {
+    font-size: var(--font-size-16);
+  }
+
+  .text-t2 {
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+  }
 }
 
 /* Скрыть визуально, оставить для скринридеров */

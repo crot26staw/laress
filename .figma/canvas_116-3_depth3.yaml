@@ -1,0 +1,2256 @@
+NAME: "Laress (Copy)"
+
+GLOBAL_VARS:
+fill_658ab2fa:
+  - '#FFFFFF'
+fill_70745384:
+  - '#8A38F5'
+fill_6733d979:
+  - rgba(0, 0, 0, 0.15)
+fill_4cd5ff90:
+  - rgba(0, 0, 0, 0.6)
+layout_ac102a0a:
+  mode: row
+  padding: 6px 2px
+  justifyContent: space-between
+  alignItems: center
+  sizing:
+    horizontal: fill
+    vertical: fixed
+  dimensions:
+    height: 56
+fill_090ebe47:
+  - rgba(0, 0, 0, 0.1)
+layout_177c5efc:
+  mode: none
+  sizing:
+    horizontal: hug
+    vertical: hug
+T2:
+  fontFamily: Hauora
+  fontStyle: Regular
+  fontWeight: 400
+  fontSize: 16
+  lineHeight: 1.3em
+  textAlignHorizontal: LEFT
+  textAlignVertical: CENTER
+  paragraphSpacing: 14
+  listSpacing: 14
+fill_34dc0314:
+  - '#000000'
+fill_97d170e1: []
+fill_441636dc:
+  - '#D7D7D7'
+H5:
+  fontFamily: Hauora
+  fontStyle: Medium
+  fontWeight: 500
+  fontSize: 18
+  lineHeight: 1.25em
+  letterSpacing: '-0.01em'
+  textAlignHorizontal: LEFT
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+fill_0ea70a13:
+  - '#A50206'
+fill_b9de0bb4:
+  - '#C0B7A7'
+fill_8b4fbb9e:
+  - '#B9904F'
+T2 (843:17364):
+  fontFamily: Hauora
+  fontStyle: Regular
+  fontWeight: 400
+  fontSize: 16
+  lineHeight: 1.3em
+  textAlignHorizontal: LEFT
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+T3:
+  fontFamily: Hauora
+  fontStyle: Regular
+  fontWeight: 400
+  fontSize: 14
+  lineHeight: 1.3em
+  textAlignHorizontal: LEFT
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+layout_641aad05:
+  mode: row
+  alignItems: center
+  gap: 12px
+  sizing:
+    horizontal: fixed
+    vertical: hug
+  dimensions:
+    width: 512
+fill_a8e1f6d9:
+  - '#444444'
+fill_dbe29f28:
+  - rgba(255, 255, 255, 0.1)
+style_6f999b2d:
+  fontFamily: Hauora
+  fontStyle: Bold
+  fontWeight: 700
+  fontSize: 128
+  lineHeight: 1.06em
+  letterSpacing: '-0.02em'
+  textAlignHorizontal: LEFT
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+fill_0f8538f0:
+  - '#191919'
+fill_fd958d89:
+  - rgba(255, 255, 255, 0.15)
+style_1f430fa7:
+  fontFamily: Inter
+  fontStyle: Regular
+  fontWeight: 400
+  fontSize: 16
+  lineHeight: 1.06em
+  letterSpacing: '-0.05em'
+  textAlignHorizontal: CENTER
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+fill_9abcc1ff:
+  - '#EFEFEF'
+style_0d941602:
+  fontFamily: Inter
+  fontStyle: Medium
+  fontWeight: 500
+  fontSize: 36
+  lineHeight: 1.06em
+  letterSpacing: '-0.05em'
+  textAlignHorizontal: LEFT
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+fill_7ad30328:
+  - '#FBFBFB'
+fill_c5b17057:
+  - rgba(185, 144, 79, 0.5)
+fill_a9b2b803:
+  - '#363636'
+layout_7d29e789:
+  mode: column
+  alignItems: center
+  sizing:
+    horizontal: fixed
+    vertical: hug
+  dimensions:
+    width: 1440
+fill_272d20b3:
+  - '#FAFAF9'
+fill_a23249e5:
+  - type: GRADIENT_LINEAR
+    gradient: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 27%, rgba(0, 0, 0, 0) 72%, rgba(0, 0, 0, 0.4) 100%)
+  - type: IMAGE
+    imageRef: c7ad4ed5c5e22ce5ca9338ed923323098bb40fdb
+    scaleMode: STRETCH
+    objectFit: fill
+    isBackground: false
+    imageDownloadArguments:
+      needsCropping: true
+      requiresImageDimensions: false
+      cropTransform:
+        - - 1.0001459121704102
+          - 0
+          - -0.00007294564420590177
+        - - 0
+          - 1.000648856163025
+          - -0.0003657471970655024
+      filenameSuffix: 5b758a
+layout_cb313dd4:
+  mode: column
+  sizing:
+    horizontal: fixed
+    vertical: hug
+  locationRelativeToParent:
+    x: 0
+    y: 0
+  dimensions:
+    width: 1440
+layout_5d7ee650:
+  mode: row
+  padding: 16px 24px
+  justifyContent: center
+  alignItems: center
+  gap: 10px
+  sizing:
+    horizontal: hug
+    vertical: hug
+layout_dc104898:
+  mode: column
+  padding: 189px 124px 190px
+  justifyContent: center
+  alignItems: center
+  gap: 10px
+  sizing:
+    horizontal: fill
+    vertical: fixed
+  dimensions:
+    height: 720
+fill_ed7aa05a:
+  - '#DCCCB6'
+layout_a7c67348:
+  mode: column
+  alignSelf: stretch
+  padding: 70px 40px
+  alignItems: center
+  gap: 32px
+  sizing:
+    horizontal: fill
+    vertical: hug
+layout_26e12d74:
+  mode: column
+  alignSelf: stretch
+  padding: 80px 40px
+  gap: 24px
+  sizing:
+    horizontal: fill
+    vertical: fixed
+  dimensions:
+    height: 720
+fill_de39a2d0:
+  - rgba(255, 255, 255, 0.05)
+style_adee6b6c:
+  fontFamily: Inter
+  fontStyle: Bold
+  fontWeight: 700
+  fontSize: 48
+  lineHeight: 1.2em
+  letterSpacing: '-0.04em'
+  textAlignHorizontal: LEFT
+  textAlignVertical: TOP
+  paragraphSpacing: 16
+  listSpacing: 16
+layout_6e64c7b1:
+  mode: column
+  padding: 24px 24px 24px 20px
+  gap: 16px
+  sizing:
+    horizontal: fixed
+    vertical: hug
+  dimensions:
+    width: 280
+effect_e10bd275:
+  boxShadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.08)
+fill_c48813f8:
+  - '#F2F2F2'
+layout_6eabe52e:
+  mode: none
+  sizing:
+    horizontal: fixed
+    vertical: hug
+  dimensions:
+    width: 476
+ts1:
+  fills:
+    - rgba(0, 0, 0, 0.9)
+fill_95f554d6:
+  - rgba(0, 0, 0, 0.9)
+ts2:
+  fills:
+    - '#A50206'
+style_3f760aeb:
+  fontFamily: Hauora
+  fontStyle: Regular
+  fontWeight: 400
+  fontSize: 14
+  lineHeight: 1.3em
+  textAlignHorizontal: LEFT
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+layout_a5a855d3:
+  mode: column
+  padding: 32px 40px 20px
+  alignItems: center
+  gap: 28px
+  sizing:
+    horizontal: fixed
+    vertical: hug
+  dimensions:
+    width: 1440
+layout_701e7b76:
+  mode: column
+  padding: 70px 40px
+  alignItems: center
+  gap: 32px
+  sizing:
+    horizontal: fixed
+    vertical: hug
+  dimensions:
+    width: 1440
+layout_a94e6e75:
+  mode: none
+  sizing: {}
+  locationRelativeToParent:
+    x: 0
+    y: 0
+  dimensions:
+    width: 1440
+    height: 802
+fill_5db237a5:
+  - rgba(0, 0, 0, 0.5)
+layout_f88dac9c:
+  mode: column
+  padding: 32px 40px 40px
+  alignItems: center
+  gap: 17px
+  sizing:
+    horizontal: fixed
+    vertical: hug
+  locationRelativeToParent:
+    x: 0
+    y: 0
+  dimensions:
+    width: 1440
+layout_023311a7:
+  mode: column
+  padding: 30px 40px 0px
+  gap: 10px
+  sizing:
+    horizontal: fixed
+    vertical: hug
+  dimensions:
+    width: 1440
+layout_f3b08d91:
+  mode: none
+  sizing:
+    horizontal: fixed
+    vertical: fixed
+  dimensions:
+    width: 1440
+    height: 600
+style_70acd44d:
+  fontFamily: Hauora
+  fontStyle: Medium
+  fontWeight: 500
+  fontSize: 100
+  lineHeight: 1.06em
+  textAlignHorizontal: LEFT
+  textAlignVertical: TOP
+  paragraphSpacing: 14
+  listSpacing: 14
+layout_2fc956d7:
+  mode: none
+  sizing:
+    horizontal: fixed
+    vertical: fixed
+  position: absolute
+  locationRelativeToParent:
+    x: 0
+    y: 0
+  dimensions:
+    width: 1440
+    height: 3492
+fill_1e5e4c72:
+  - type: IMAGE
+    imageRef: 5ac0ffbded13ff0cda969f0f0b0f7e5e0cf230a7
+    scaleMode: FILL
+    objectFit: cover
+    isBackground: false
+    imageDownloadArguments:
+      needsCropping: false
+      requiresImageDimensions: false
+fill_dd7f3e3e:
+  - '#232323'
+fill_b92dd999:
+  - '#F2F3F5'
+
+ELEMENTS:
+EL-a75c3b19:
+  type: FRAME
+  layout:
+    mode: row
+    alignSelf: stretch
+    alignItems: center
+    sizing:
+      horizontal: fill
+      vertical: hug
+EL-cbef767c:
+  type: FRAME
+  layout: layout_ac102a0a
+  strokes: fill_4cd5ff90
+  strokeWeight: 0px 0px 1px
+EL-3cc95dec:
+  type: INSTANCE
+  layout:
+    mode: column
+    alignSelf: stretch
+    padding: 18px 16px
+    gap: 10px
+    sizing:
+      horizontal: fill
+      vertical: hug
+  componentId: 864:22759
+EL-b9ead39a:
+  type: TEXT
+  layout: layout_177c5efc
+  text: Г. Москва
+  textStyle: T2
+  fills: fill_34dc0314
+EL-df63ce0a:
+  type: FRAME
+  layout:
+    mode: none
+    sizing:
+      horizontal: fill
+      vertical: fixed
+    dimensions:
+      height: 1
+  fills:
+    - rgba(0, 0, 0, 0.05)
+EL-b0a0a76d:
+  type: TEXT
+  layout: layout_177c5efc
+  text: Тверская область, Деревня Москва
+  textStyle: T2
+  fills: fill_34dc0314
+EL-ad0f51d9:
+  type: FRAME
+  layout:
+    mode: row
+    padding: 2px 0px
+    alignItems: center
+    gap: 10px
+    sizing:
+      horizontal: hug
+      vertical: hug
+  componentPropertyReferences:
+    visible: Left-icon
+EL-1c4cbc57:
+  type: TEXT
+  layout: layout_177c5efc
+  text: Курьером до двери
+  textStyle: H5
+  fills: fill_34dc0314
+EL-6a88d582:
+  type: TEXT
+  layout: layout_177c5efc
+  text: 23 мая
+  textStyle: T2 (843:17364)
+  fills: fill_34dc0314
+EL-bec764c0:
+  type: TEXT
+  layout:
+    mode: none
+    sizing:
+      horizontal: fixed
+      vertical: fixed
+    dimensions:
+      width: 21
+      height: 21
+  text: Сб
+  textStyle: T2 (843:17364)
+  fills:
+    - rgba(0, 0, 0, 0.3)
+  componentPropertyReferences:
+    visible: Day
+EL-76a8aa70:
+  type: TEXT
+  layout: layout_177c5efc
+  text: 23 мая
+  textStyle: T3
+  fills: fill_34dc0314
+EL-37bc2607:
+  type: IMAGE-SVG
+  layout:
+    mode: none
+    sizing: {}
+    dimensions:
+      width: 16
+      height: 16
+  fills: fill_97d170e1
+EL-aa33e238:
+  type: IMAGE-SVG
+  layout:
+    mode: none
+    sizing: {}
+    dimensions:
+      width: 24
+      height: 24
+  fills: fill_97d170e1
+EL-fd1f872d:
+  type: FRAME
+  layout:
+    mode: column
+    alignSelf: stretch
+    padding: 24px
+    gap: 16px
+    sizing:
+      horizontal: fill
+      vertical: hug
+  fills: fill_658ab2fa
+  borderRadius: 6px
+EL-bb6b96bf:
+  type: LINE
+  layout:
+    mode: none
+    sizing: {}
+    locationRelativeToParent:
+      x: 0
+      y: 102
+    dimensions:
+      width: 940
+      height: 0
+  strokes: fill_fd958d89
+  strokeWeight: 1px
+  strokeAlign: CENTER
+EL-735e928d:
+  type: FRAME
+  layout:
+    mode: row
+    alignSelf: stretch
+    padding: 40px 64px
+    alignItems: center
+    gap: 10px
+    sizing:
+      horizontal: fill
+      vertical: hug
+  fills:
+    - '#16181C'
+  strokes: fill_658ab2fa
+  strokeWeight: 1px 1px 0px
+EL-f54da08f:
+  type: FRAME
+  layout:
+    mode: none
+    sizing:
+      horizontal: fill
+      vertical: fixed
+    dimensions:
+      height: 850
+EL-8a7ae0d8:
+  type: FRAME
+  layout:
+    mode: row
+    justifyContent: space-between
+    alignItems: center
+    sizing:
+      horizontal: fixed
+      vertical: hug
+    locationRelativeToParent:
+      x: 40
+      y: 445
+    dimensions:
+      width: 1360
+EL-c8ccf09a:
+  type: FRAME
+  layout: layout_cb313dd4
+EL-3de4ac06:
+  type: FRAME
+  layout:
+    mode: column
+    alignSelf: stretch
+    padding: 140px 40px 70px
+    alignItems: center
+    gap: 40px
+    sizing:
+      horizontal: fill
+      vertical: hug
+EL-5379637c:
+  type: FRAME
+  layout:
+    mode: column
+    alignSelf: stretch
+    alignItems: center
+    gap: 32px
+    sizing:
+      horizontal: fill
+      vertical: hug
+EL-5b5dec48:
+  type: FRAME
+  layout:
+    mode: row
+    padding: 70px 0px
+    alignItems: center
+    sizing:
+      horizontal: fixed
+      vertical: hug
+    dimensions:
+      width: 1440
+  fills: fill_7ad30328
+EL-4568da53:
+  type: FRAME
+  layout:
+    mode: column
+    alignSelf: stretch
+    justifyContent: center
+    alignItems: center
+    gap: 24px
+    sizing:
+      horizontal: fill
+      vertical: fill
+EL-ce78c624:
+  type: FRAME
+  layout:
+    mode: row
+    alignSelf: stretch
+    padding: 70px 0px
+    alignItems: center
+    sizing:
+      horizontal: fill
+      vertical: hug
+EL-89d9322e:
+  type: FRAME
+  layout: layout_a7c67348
+EL-7e82b98e:
+  type: FRAME
+  layout:
+    mode: column
+    alignItems: center
+    gap: 20px
+    sizing:
+      horizontal: hug
+      vertical: hug
+EL-58a296aa:
+  type: FRAME
+  layout:
+    mode: column
+    alignSelf: stretch
+    padding: 70px 40px
+    alignItems: center
+    gap: 40px
+    sizing:
+      horizontal: fill
+      vertical: hug
+EL-73f3da4f:
+  type: INSTANCE
+  layout: layout_5d7ee650
+  fills: fill_8b4fbb9e
+  borderRadius: 2px
+  componentId: 277:11102
+EL-ec36b7eb:
+  type: FRAME
+  layout:
+    mode: row
+    padding: 70px 40px 70px 0px
+    justifyContent: center
+    gap: 40px
+    sizing:
+      horizontal: fixed
+      vertical: hug
+    dimensions:
+      width: 1440
+  fills: fill_7ad30328
+EL-f7f62d35:
+  type: FRAME
+  layout: layout_26e12d74
+  fills:
+    - type: IMAGE
+      imageRef: 3588afd299632815815b682e49058927745484bf
+      scaleMode: FILL
+      objectFit: cover
+      isBackground: false
+      imageDownloadArguments:
+        needsCropping: false
+        requiresImageDimensions: false
+EL-4e952ca1:
+  type: FRAME
+  layout:
+    mode: row
+    alignSelf: stretch
+    padding: 70px 40px
+    justifyContent: center
+    gap: 40px
+    sizing:
+      horizontal: fill
+      vertical: hug
+EL-715348b9:
+  type: FRAME
+  layout: layout_6e64c7b1
+  fills:
+    - '#45D264'
+  effects: effect_e10bd275
+  borderRadius: 12px 12px 12px 12px
+EL-3f111f63:
+  type: FRAME
+  layout: layout_6e64c7b1
+  fills:
+    - '#FF985E'
+  effects: effect_e10bd275
+  borderRadius: 12px 12px 12px 12px
+EL-007cf302:
+  type: FRAME
+  layout:
+    mode: column
+    alignSelf: stretch
+    gap: 28px
+    sizing:
+      horizontal: fill
+      vertical: hug
+EL-3ad43b36:
+  type: FRAME
+  layout:
+    mode: row
+    alignSelf: stretch
+    padding: 2px 0px
+    gap: 10px
+    sizing:
+      horizontal: hug
+      vertical: fill
+EL-2aa71c88:
+  type: TEXT
+  layout: layout_6eabe52e
+  text: "{ts1}Я\_соглашаюсь с\_политикой конфиденциальности\_и\_даю согласие на\_обработку персональных данных{/ts1}"
+  textStyle: T2 (843:17364)
+  fills: fill_95f554d6
+EL-c697a365:
+  type: TEXT
+  layout: layout_6eabe52e
+  text: "{ts1}Я\_соглашаюсь с\_политикой конфиденциальности\_и\_даю согласие на\_обработку персональных данных{/ts1}"
+  textStyle: style_3f760aeb
+  fills: fill_95f554d6
+EL-6b472314:
+  type: INSTANCE
+  layout: layout_a5a855d3
+  fills: fill_7ad30328
+  strokes: fill_090ebe47
+  strokeWeight: 0px 0px 1px
+  componentId: 279:19287
+EL-c7256d48:
+  type: INSTANCE
+  layout: layout_a7c67348
+  fills: fill_7ad30328
+  strokes: fill_090ebe47
+  strokeWeight: 1px 0px 0px
+  componentId: 276:2863
+EL-d64b923f:
+  type: FRAME
+  layout:
+    mode: row
+    alignSelf: stretch
+    padding: 40px 20px
+    gap: 10px
+    sizing:
+      horizontal: fill
+      vertical: hug
+  fills: fill_7ad30328
+EL-c9e012d9:
+  type: FRAME
+  layout:
+    mode: none
+    sizing:
+      horizontal: fixed
+      vertical: fixed
+    position: absolute
+    locationRelativeToParent:
+      x: 0
+      y: 0
+    dimensions:
+      width: 1440
+      height: 800
+  fills: fill_4cd5ff90
+EL-cdd6e1b0:
+  type: FRAME
+  layout:
+    mode: row
+    padding: 70px 40px 70px 0px
+    justifyContent: center
+    gap: 20px
+    sizing:
+      horizontal: fixed
+      vertical: hug
+    dimensions:
+      width: 1440
+  fills: fill_7ad30328
+EL-95610d40:
+  type: FRAME
+  layout:
+    mode: column
+    alignSelf: stretch
+    padding: 70px 0px
+    alignItems: center
+    gap: 32px
+    sizing:
+      horizontal: fill
+      vertical: hug
+EL-94cc377b:
+  type: INSTANCE
+  layout: layout_701e7b76
+  fills: fill_7ad30328
+  componentId: 276:2863
+EL-16575c01:
+  type: RECTANGLE
+  layout: layout_a94e6e75
+  fills: fill_a23249e5
+EL-d83f1529:
+  type: FRAME
+  layout:
+    mode: column
+    alignItems: center
+    gap: 32px
+    sizing:
+      horizontal: fixed
+      vertical: hug
+    locationRelativeToParent:
+      x: 40
+      y: 591
+    dimensions:
+      width: 1360
+EL-4c29f32b:
+  type: RECTANGLE
+  layout: layout_a94e6e75
+  fills: fill_5db237a5
+EL-2b64100a:
+  type: FRAME
+  layout: layout_cb313dd4
+  fills: fill_658ab2fa
+EL-4161d281:
+  type: FRAME
+  layout:
+    mode: column
+    alignSelf: stretch
+    padding: 40px 40px 70px
+    alignItems: center
+    gap: 40px
+    sizing:
+      horizontal: fill
+      vertical: hug
+EL-15a772ba:
+  type: FRAME
+  layout:
+    mode: column
+    alignSelf: stretch
+    padding: 0px 40px 70px
+    alignItems: center
+    gap: 40px
+    sizing:
+      horizontal: fill
+      vertical: hug
+EL-44928c51:
+  type: INSTANCE
+  layout:
+    mode: row
+    padding: 20px 40px
+    justifyContent: space-between
+    alignItems: center
+    sizing:
+      horizontal: fixed
+      vertical: hug
+    dimensions:
+      width: 1440
+  fills: fill_7ad30328
+  strokes: fill_090ebe47
+  strokeWeight: 0px 0px 1px
+  componentId: 828:11970
+EL-5fa5ebd3:
+  type: INSTANCE
+  layout: layout_a7c67348
+  fills: fill_7ad30328
+  componentId: 828:11843
+EL-b2c2d069:
+  type: FRAME
+  layout:
+    mode: row
+    alignSelf: stretch
+    padding: 0px 0px 70px
+    alignItems: center
+    sizing:
+      horizontal: fill
+      vertical: hug
+EL-f287f31c:
+  type: FRAME
+  layout: layout_7d29e789
+  fills: fill_7ad30328
+EL-98258daf:
+  type: FRAME
+  layout:
+    mode: row
+    alignSelf: stretch
+    padding: 0px 40px
+    alignItems: center
+    gap: 40px
+    sizing:
+      horizontal: fill
+      vertical: hug
+EL-1051dab4:
+  type: FRAME
+  layout:
+    mode: row
+    padding: 12px 0px 70px
+    wrap: true
+    gap: 12px
+    sizing:
+      horizontal: fixed
+      vertical: hug
+    dimensions:
+      width: 674
+EL-2dc438c6:
+  type: FRAME
+  layout:
+    mode: row
+    alignSelf: stretch
+    padding: 0px 40px 70px
+    justifyContent: center
+    gap: 80px
+    sizing:
+      horizontal: fill
+      vertical: hug
+EL-1e2d879d:
+  type: FRAME
+  layout:
+    mode: column
+    alignSelf: stretch
+    padding: 70px 40px 40px
+    alignItems: center
+    gap: 24px
+    sizing:
+      horizontal: fill
+      vertical: hug
+EL-f8540e27:
+  type: FRAME
+  layout:
+    mode: column
+    alignSelf: stretch
+    padding: 40px
+    gap: 20px
+    sizing:
+      horizontal: fill
+      vertical: hug
+  fills: fill_7ad30328
+EL-75ecaf86:
+  type: FRAME
+  layout:
+    mode: row
+    padding: 70px 40px
+    justifyContent: center
+    gap: 40px
+    sizing:
+      horizontal: fixed
+      vertical: hug
+    dimensions:
+      width: 1440
+EL-9755d695:
+  type: FRAME
+  layout: layout_26e12d74
+  fills:
+    - type: IMAGE
+      imageRef: 15d29905f621b4d116c3923f0e503fbb05ee91f7
+      scaleMode: FILL
+      objectFit: cover
+      isBackground: false
+      imageDownloadArguments:
+        needsCropping: false
+        requiresImageDimensions: false
+    - type: IMAGE
+      imageRef: 667b801169c5c75a4c36b4311c13fb82702ad770
+      scaleMode: FILL
+      objectFit: cover
+      isBackground: false
+      imageDownloadArguments:
+        needsCropping: false
+        requiresImageDimensions: false
+    - type: IMAGE
+      imageRef: fe04c3a5f9a2123105ffc6584646292077d64c38
+      scaleMode: FILL
+      objectFit: cover
+      isBackground: false
+      imageDownloadArguments:
+        needsCropping: false
+        requiresImageDimensions: false
+    - type: IMAGE
+      imageRef: d7efa69716b386174b4b2db4bbef6d931bef1c89
+      scaleMode: FILL
+      objectFit: cover
+      isBackground: false
+      imageDownloadArguments:
+        needsCropping: false
+        requiresImageDimensions: false
+    - type: IMAGE
+      imageRef: 3588afd299632815815b682e49058927745484bf
+      scaleMode: FILL
+      objectFit: cover
+      isBackground: false
+      imageDownloadArguments:
+        needsCropping: false
+        requiresImageDimensions: false
+EL-5ff084d6:
+  type: FRAME
+  layout:
+    mode: column
+    padding: 70px 40px 40px
+    alignItems: center
+    gap: 24px
+    sizing:
+      horizontal: fixed
+      vertical: hug
+    dimensions:
+      width: 1440
+  fills: fill_658ab2fa
+EL-c4e48f56:
+  type: FRAME
+  layout:
+    mode: row
+    alignSelf: stretch
+    padding: 0px 40px 70px
+    gap: 20px
+    sizing:
+      horizontal: fill
+      vertical: hug
+  fills: fill_658ab2fa
+EL-2f9fe287:
+  type: FRAME
+  layout:
+    mode: column
+    sizing:
+      horizontal: hug
+      vertical: hug
+EL-dfbceab7:
+  type: RECTANGLE
+  layout: layout_2fc956d7
+  fills: fill_5db237a5
+EL-6a3fff57:
+  type: FRAME
+  layout:
+    mode: column
+    sizing:
+      horizontal: fixed
+      vertical: hug
+    position: absolute
+    locationRelativeToParent:
+      x: 500
+      y: 186
+    dimensions:
+      width: 440
+  fills: fill_c48813f8
+EL-6c4f0121:
+  type: FRAME
+  layout: layout_26e12d74
+  fills:
+    - type: IMAGE
+      imageRef: abd22c112c8184f627e10a1d5b20670752231b9e
+      scaleMode: FILL
+      objectFit: cover
+      isBackground: false
+      imageDownloadArguments:
+        needsCropping: false
+        requiresImageDimensions: false
+    - type: IMAGE
+      imageRef: 667b801169c5c75a4c36b4311c13fb82702ad770
+      scaleMode: FILL
+      objectFit: cover
+      isBackground: false
+      imageDownloadArguments:
+        needsCropping: false
+        requiresImageDimensions: false
+    - type: IMAGE
+      imageRef: fe04c3a5f9a2123105ffc6584646292077d64c38
+      scaleMode: FILL
+      objectFit: cover
+      isBackground: false
+      imageDownloadArguments:
+        needsCropping: false
+        requiresImageDimensions: false
+    - type: IMAGE
+      imageRef: d7efa69716b386174b4b2db4bbef6d931bef1c89
+      scaleMode: FILL
+      objectFit: cover
+      isBackground: false
+      imageDownloadArguments:
+        needsCropping: false
+        requiresImageDimensions: false
+    - type: IMAGE
+      imageRef: 3588afd299632815815b682e49058927745484bf
+      scaleMode: FILL
+      objectFit: cover
+      isBackground: false
+      imageDownloadArguments:
+        needsCropping: false
+        requiresImageDimensions: false
+EL-088838df:
+  type: FRAME
+  layout:
+    mode: row
+    justifyContent: center
+    alignItems: center
+    sizing:
+      horizontal: fixed
+      vertical: fixed
+    locationRelativeToParent:
+      x: 100
+      y: 100
+    dimensions:
+      width: 1440
+      height: 800
+  fills: fill_b92dd999
+EL-5434280e:
+  type: FRAME
+  layout:
+    mode: row
+    justifyContent: center
+    alignItems: center
+    sizing:
+      horizontal: fixed
+      vertical: fixed
+    locationRelativeToParent:
+      x: 1690
+      y: 100
+    dimensions:
+      width: 1440
+      height: 800
+  fills: fill_b92dd999
+EL-311ab1ca:
+  type: INSTANCE
+  layout:
+    mode: column
+    alignSelf: stretch
+    justifyContent: center
+    gap: 4px
+    sizing:
+      horizontal: fill
+      vertical: fixed
+    dimensions:
+      height: 60
+  componentId: 864:54692
+  componentProperties:
+    delete-icon: true
+    icon-right: true
+    discription: false
+EL-fe25f119:
+  type: FRAME
+  layout:
+    mode: row
+    alignSelf: stretch
+    padding: 12px 16px
+    alignItems: center
+    sizing:
+      horizontal: fill
+      vertical: fill
+  strokes:
+    - '#E7E8EA'
+  strokeWeight: 1px
+
+COMPONENTS:
+864:24381:
+  id: 864:24381
+  key: 54f033d90a92d6eabdc9f22ec9ef4ccbe0a2b088
+  name: State=Default
+  componentSetId: 864:24386
+864:24437:
+  id: 864:24437
+  key: 7ad301f48ee186365f7b502f24f77a6fdd4e454a
+  name: State=Default-Error
+  componentSetId: 864:24386
+864:24387:
+  id: 864:24387
+  key: 8b620f12618a881e9ae1fa4f17c46861c18b37f2
+  name: State=Hover
+  componentSetId: 864:24386
+864:24391:
+  id: 864:24391
+  key: c1e084c1b8497afdf9341812ad2a7ef1193f7f92
+  name: State=Active
+  componentSetId: 864:24386
+864:24398:
+  id: 864:24398
+  key: 5cbd11e21325c12c19f3e83ac97627e2acc0e627
+  name: State=Active-Fill
+  componentSetId: 864:24386
+864:24412:
+  id: 864:24412
+  key: 2310ed7ef97e2b94c24113a17e6748bab5d0bcee
+  name: State=Fill
+  componentSetId: 864:24386
+864:24421:
+  id: 864:24421
+  key: d5f10cf5b4e15560dd5d7635e91b7991ec55eb82
+  name: State=Error-Fill
+  componentSetId: 864:24386
+864:22732:
+  id: 864:22732
+  key: cb07dd1d088c5c9021d34df0f5aad03234b1dccf
+  name: List
+864:22759:
+  id: 864:22759
+  key: 9854cc4791de7d8e013b03d8a026a1a15dd79e41
+  name: State=Default
+  componentSetId: 864:22760
+864:21587:
+  id: 864:21587
+  key: c1bbf273843c3773750d0a628fc7f5ad6718b54b
+  name: State=Default, Size=L
+  componentSetId: 864:21588
+864:24510:
+  id: 864:24510
+  key: 38962c2701beda51baaec39b6686af2f3b713d58
+  name: State=Error, Size=L
+  componentSetId: 864:21588
+864:21590:
+  id: 864:21590
+  key: e7ce488c5347cb56c9d041b866d5c5b1b3abe831
+  name: State=Hover, Size=L
+  componentSetId: 864:21588
+864:21598:
+  id: 864:21598
+  key: 01e121cd3d9e3aeb93cf48bd24d017ba0610ff51
+  name: State=Active, Size=L
+  componentSetId: 864:21588
+864:21841:
+  id: 864:21841
+  key: 8996ded468defd02115166dce0f9af6edcf6d896
+  name: State=Default, Size=M
+  componentSetId: 864:21588
+864:21845:
+  id: 864:21845
+  key: a03071727ce47f063aea6d59a9c61fb1b76374df
+  name: State=Hover, Size=M
+  componentSetId: 864:21588
+864:21849:
+  id: 864:21849
+  key: 08ed5e9bbe780f963b0e3945423b989b0ff6daa9
+  name: State=Active, Size=M
+  componentSetId: 864:21588
+864:24498:
+  id: 864:24498
+  key: 736191beeda66a0487cac9ba1b3a074c5fadd9e2
+  name: State=Error, Size=M
+  componentSetId: 864:21588
+876:29550:
+  id: 876:29550
+  key: 4721e7f94916b9df8f9161828877e407fba4570d
+  name: State=Default, Size=S
+  componentSetId: 864:21588
+876:29553:
+  id: 876:29553
+  key: d5938e21f5ace95e33cf66b32078e9d41df7bd8e
+  name: State=Hover, Size=S
+  componentSetId: 864:21588
+876:29556:
+  id: 876:29556
+  key: 0c163afa11fe576d163937929656751d7e5cfb4b
+  name: State=Active, Size=S
+  componentSetId: 864:21588
+876:29559:
+  id: 876:29559
+  key: 3bb507e2742cdb6ea034800fbcbdb223b03377ae
+  name: State=Error, Size=S
+  componentSetId: 864:21588
+850:17417:
+  id: 850:17417
+  key: d17bc15f7ecd8bdca7a1b7b6fd97ffd85dfdf012
+  name: input-full-stroke
+281:1757:
+  id: 281:1757
+  key: 79059df9ea77f12bf33ad133e9e0c720fe9ed95d
+  name: Mode=Dark
+  componentSetId: 281:1756
+855:18743:
+  id: 855:18743
+  key: f3423b503405d1244d0958362a5424dfaf5e632f
+  name: State=2 position
+  componentSetId: 862:19146
+862:19147:
+  id: 862:19147
+  key: a4f5a4d4926115b560c0a4912de96d34a6e2fc66
+  name: Card-Checkout/More position
+  propertyDefinitions:
+    Sale:
+      type: boolean
+      defaultValue: false
+    Error-Discription:
+      type: boolean
+      defaultValue: false
+862:19203:
+  id: 862:19203
+  key: 94455bf384ab3ac634cb2cf979d70cf14dbff5cb
+  name: State=Default, Size=L
+  componentSetId: 862:19204
+277:11102:
+  id: 277:11102
+  key: a802f90bed203e2bb09ca6e83b3132bb13029ce2
+  name: State=Default, Type=Primary, Color=Accent
+  componentSetId: 277:11108
+276:2863:
+  id: 276:2863
+  key: 639d4c7c713feb7ddca0506b0450132c98d6d2db
+  name: Footer
+277:11218:
+  id: 277:11218
+  key: 7197b69e13e0d2a8d6154159ae69c42fe03a9722
+  name: Tag
+277:11232:
+  id: 277:11232
+  key: a4b106e381f5aa018ff6a78e2651a97a64d26579
+  name: Icon Wishlist
+393:5672:
+  id: 393:5672
+  key: 82226dde64bd1b762cbb11319843dc1b197ff4f1
+  name: Header/Arrow
+276:2960:
+  id: 276:2960
+  key: 60225b2bc4ae996a5c62439a8264d0cff7ff29cb
+  name: Item Card
+277:3990:
+  id: 277:3990
+  key: d08c519e723b431c75bc92b6ba20aeeedab98562
+  name: Property 1=Primary
+  componentSetId: 277:4000
+277:4001:
+  id: 277:4001
+  key: 8cb843ea78961e5ae75789471d5822deedf629d4
+  name: Property 1=Secondary
+  componentSetId: 277:4000
+885:13423:
+  id: 885:13423
+  key: 4da182a946af55e2f3cd56a18e5add6506bdf00b
+  name: State=Default
+  componentSetId: 885:13424
+886:13431:
+  id: 886:13431
+  key: 4703497f8590865a69deee2ce2856e26538aaea4
+  name: State=Disabled
+  componentSetId: 885:13424
+885:13425:
+  id: 885:13425
+  key: 17035a02a76cbdfc021c9ea6b819f96602fef2bb
+  name: State=Hover
+  componentSetId: 885:13424
+886:13428:
+  id: 886:13428
+  key: c567fcc582d1c7405950a69209f777eaf83c0ed9
+  name: State=Active
+  componentSetId: 885:13424
+277:11109:
+  id: 277:11109
+  key: f9149f333dd94455b2617d9022ec45851862fb2d
+  name: State=Default, Type=Thretiarly, Color=Accent
+  componentSetId: 277:11108
+862:19210:
+  id: 862:19210
+  key: 4bf826e5b5e9a07e3a8c1f4e9d8c010b5788a6f5
+  name: State=Hover, Size=L
+  componentSetId: 862:19204
+862:19234:
+  id: 862:19234
+  key: f22be1c2009a58a6b0c876a938e0790724314143
+  name: State=Error, Size=L
+  componentSetId: 862:19204
+862:19217:
+  id: 862:19217
+  key: 2c4ccd16a4d803468226638e4f22e9b4a950141b
+  name: State=Active, Size=L
+  componentSetId: 862:19204
+862:20003:
+  id: 862:20003
+  key: 604b0095bb45600a512223110521cb13b085db34
+  name: State=Default, Size=M
+  componentSetId: 862:19204
+862:20007:
+  id: 862:20007
+  key: ac43ca30928866f5a0077929ecd5ecc748aa86eb
+  name: State=Hover, Size=M
+  componentSetId: 862:19204
+862:20012:
+  id: 862:20012
+  key: 081b774340555c3a6f62e53160058cfcd4e28e8a
+  name: State=Active, Size=M
+  componentSetId: 862:19204
+862:20018:
+  id: 862:20018
+  key: ef0ccabe0a57739c4fdce04e6740e358c183dffa
+  name: State=Error, Size=M
+  componentSetId: 862:19204
+864:22761:
+  id: 864:22761
+  key: a782ffdbf4668871bdc2b97c467c650c32a2897e
+  name: State=Hover
+  componentSetId: 864:22760
+279:19287:
+  id: 279:19287
+  key: 7ec3f18a57c5f56e9f7098d58c4a4dd9e7d20c00
+  name: Fill=Yes, Size=Desktop, State=Full
+  componentSetId: 279:19286
+828:11970:
+  id: 828:11970
+  key: 2d0919b929504ac312a2fe7e50c0beb263a225f0
+  name: Fill=Yes, Size=Desktop
+  componentSetId: 828:11895
+828:11843:
+  id: 828:11843
+  key: 747cb56ac6720a18954157e9d72d1172d7c07e2c
+  name: Footer
+828:11933:
+  id: 828:11933
+  key: 576f2a4a7bd350b16e706d32a6166b237aacbab1
+  name: Fill=Yes, Size=Desktop
+  componentSetId: 828:11895
+864:54692:
+  id: 864:54692
+  key: 81120d24eb7361b5aa6f256fc4388fc3244f5a32
+  name: State=Empty, Color=Grey
+  componentSetId: 864:54192
+
+COMPONENT_SETS:
+864:24386:
+  id: 864:24386
+  key: 2fa05e6d4c5d0b927d78fd3c8f98f197dc76c19d
+  name: Search
+  description: ''
+  propertyDefinitions:
+    left-icon:
+      type: boolean
+      defaultValue: false
+864:22760:
+  id: 864:22760
+  key: 200b5a0c898f646611c698ce0d33cab5e5551b56
+  name: List-Item
+  description: ''
+864:21588:
+  id: 864:21588
+  key: e5bada1129e21e1fd4dc7b4a3c5fbb38756fa8a5
+  name: Tab
+  description: ''
+  propertyDefinitions:
+    Left-icon:
+      type: boolean
+      defaultValue: true
+    Day:
+      type: boolean
+      defaultValue: false
+281:1756:
+  id: 281:1756
+  key: de8ea05dedb60249cf99a753abf0bc2b379a1cc2
+  name: Arrow-down
+  description: ''
+862:19146:
+  id: 862:19146
+  key: ba5a78e7a52efc538b59f9bd581e7fb89df96dce
+  name: Card-Checkout
+  description: ''
+  propertyDefinitions:
+    Sale:
+      type: boolean
+      defaultValue: false
+    Error-Discription:
+      type: boolean
+      defaultValue: false
+862:19204:
+  id: 862:19204
+  key: a67158342822328024455fce26a97dd0942c64f2
+  name: Checkbox
+  description: ''
+277:11108:
+  id: 277:11108
+  key: f734dda002e50822229e9c1be4cfeb9f642d8d05
+  name: Button
+  description: ''
+279:19286:
+  id: 279:19286
+  key: bc281cfd3d4aa83729dc01553a29d1b18d374dd1
+  name: Header
+  description: ''
+277:11373:
+  id: 277:11373
+  key: 1f21b0bc6175145a989330240dc8e6f11b6d543c
+  name: Item Card
+  description: ''
+895:28954:
+  id: 895:28954
+  key: 4b1ae5f116d5507dd3a2f0dbb27b281beba9c49e
+  name: Icon Search
+  description: ''
+277:4000:
+  id: 277:4000
+  key: 1e8bd7e7e208e4f8d06c16fe2d8c2c7c0a8849a9
+  name: Button
+  description: ''
+864:23085:
+  id: 864:23085
+  key: e6b38ef5c2142705630555c471d1db317e92ec95
+  name: Input
+  description: ''
+  propertyDefinitions:
+    Discription:
+      type: boolean
+      defaultValue: true
+    Discription-Button:
+      type: boolean
+      defaultValue: true
+864:51021:
+  id: 864:51021
+  key: b30d959667878b3ad5f184222a23103e14da6753
+  name: Input-password
+  description: ''
+  propertyDefinitions:
+    icon-right:
+      type: boolean
+      defaultValue: true
+    discription:
+      type: boolean
+      defaultValue: false
+    delete-icon:
+      type: boolean
+      defaultValue: true
+885:13424:
+  id: 885:13424
+  key: 4b3f9c9a8d0a5a718de2066be97a3eeee815952d
+  name: Icon-Button
+  description: ''
+864:21718:
+  id: 864:21718
+  key: 6932e856e407f657f259dafe85ceb530d185164e
+  name: hugeicons
+  description: ''
+864:21719:
+  id: 864:21719
+  key: 83b85fe5a0fbcde11ec415f79b6a380dd1dea8a8
+  name: solar:shop
+  description: ''
+864:21720:
+  id: 864:21720
+  key: aa2471f7c2c91b66201c40c73c27d69609b33955
+  name: sber-pay
+  description: ''
+864:21721:
+  id: 864:21721
+  key: 135a39d3149351631bc2ccb2fd17ca1762901883
+  name: card
+  description: ''
+864:21722:
+  id: 864:21722
+  key: 616890040a48e9e586148a29710d5466523ce537
+  name: wallet
+  description: ''
+864:21723:
+  id: 864:21723
+  key: 1940a465ff4a1ea1b4c38888f45e7fab8617217b
+  name: t-pay
+  description: ''
+864:21724:
+  id: 864:21724
+  key: 815e87cc81f0bfa3f0e5ff3a3e4f60177f018336
+  name: sbp
+  description: ''
+828:11895:
+  id: 828:11895
+  key: 2dc5627e4a6e0ea774ed01acf8de7fa80fb9a4f6
+  name: Header
+  description: ''
+864:54192:
+  id: 864:54192
+  key: 6e755febbc8bdc23d59ac8d2522dcfcbed0c9ef2
+  name: Input-password
+  description: ''
+
+NODES:
+[CANVAS] "Демонстрация" #116:3
+  [COMPONENT_SET] "Search" #864:24386 layout={"mode":"none","sizing":{},"dimensions":{"width":820,"height":588}} fills=fill_658ab2fa strokes=fill_70745384 strokeWeight=1px strokeDashes=10,5 borderRadius=5px
+    [COMPONENT] "State=Default" #864:24381 layout={"mode":"row","gap":"12px","sizing":{"horizontal":"fixed","vertical":"hug"},"locationRelativeToParent":{"x":20,"y":20},"dimensions":{"width":780}}
+      [FRAME] "Selector-input" #864:24119 layout={"mode":"row","padding":"6px 2px","alignItems":"center","gap":"12px","sizing":{"horizontal":"fill","vertical":"fixed"},"dimensions":{"height":56}} strokes=fill_6733d979 strokeWeight="0px 0px 1px"
+    [COMPONENT] "State=Default-Error" #864:24437 layout={"mode":"column","alignItems":"stretch","gap":"6px","sizing":{"horizontal":"fixed","vertical":"hug"},"locationRelativeToParent":{"x":20,"y":494},"dimensions":{"width":780}}
+      [FRAME] "Selector-input" #864:24438 layout={"mode":"row","alignSelf":"stretch","padding":"6px 2px","alignItems":"center","gap":"12px","sizing":{"horizontal":"fill","vertical":"fixed"},"dimensions":{"height":56}} strokes=fill_6733d979 strokeWeight="0px 0px 1px"
+      [FRAME] #864:24441 template=EL-a75c3b19
+    [COMPONENT] "State=Hover" #864:24387 layout={"mode":"row","gap":"12px","sizing":{"horizontal":"fixed","vertical":"hug"},"locationRelativeToParent":{"x":20,"y":96},"dimensions":{"width":780}}
+      [FRAME] "Selector-input" #864:24388 layout={"mode":"row","padding":"6px 2px","alignItems":"center","sizing":{"horizontal":"fill","vertical":"fixed"},"dimensions":{"height":56}} strokes=fill_4cd5ff90 strokeWeight="0px 0px 1px"
+    [COMPONENT] "State=Active" #864:24391 layout={"mode":"row","gap":"12px","sizing":{"horizontal":"fixed","vertical":"hug"},"locationRelativeToParent":{"x":20,"y":172},"dimensions":{"width":780}}
+      [FRAME] "Selector-input" #864:24392 template=EL-cbef767c
+    [COMPONENT] "State=Active-Fill" #864:24398 layout={"mode":"row","gap":"12px","sizing":{"horizontal":"fixed","vertical":"hug"},"locationRelativeToParent":{"x":20,"y":248},"dimensions":{"width":780}}
+      [FRAME] "Selector-input" #864:24399 template=EL-cbef767c
+    [COMPONENT] "State=Fill" #864:24412 layout={"mode":"row","gap":"12px","sizing":{"horizontal":"fixed","vertical":"hug"},"locationRelativeToParent":{"x":20,"y":324},"dimensions":{"width":780}}
+      [FRAME] "Selector-input" #864:24413 layout=layout_ac102a0a strokes=fill_6733d979 strokeWeight="0px 0px 1px"
+    [COMPONENT] "State=Error-Fill" #864:24421 layout={"mode":"column","alignItems":"stretch","gap":"6px","sizing":{"horizontal":"fixed","vertical":"hug"},"locationRelativeToParent":{"x":20,"y":400},"dimensions":{"width":780}}
+      [FRAME] "Selector-input" #864:24422 layout={"mode":"row","alignSelf":"stretch","padding":"6px 2px","justifyContent":"space-between","alignItems":"center","sizing":{"horizontal":"fill","vertical":"fixed"},"dimensions":{"height":56}} strokes=fill_6733d979 strokeWeight="0px 0px 1px"
+      [FRAME] #864:24429 template=EL-a75c3b19
+  [COMPONENT] "List" #864:22732 layout={"mode":"column","alignItems":"stretch","sizing":{"horizontal":"fixed","vertical":"fixed"},"dimensions":{"width":780,"height":339}} fills=fill_658ab2fa strokes=fill_090ebe47 strokeWeight=1px
+    [INSTANCE] "List-Item" #864:22764 template=EL-3cc95dec
+      [TEXT] #I864:22764;860:11406 template=EL-b9ead39a
+    [FRAME] #860:11407 template=EL-df63ce0a
+    [INSTANCE] "List-Item" #864:22769 template=EL-3cc95dec
+      [TEXT] #I864:22769;860:11406 template=EL-b0a0a76d
+    [FRAME] #860:11412 template=EL-df63ce0a
+    [INSTANCE] "List-Item" #864:22774 template=EL-3cc95dec
+      [TEXT] #I864:22774;860:11406 template=EL-b0a0a76d
+    [FRAME] #860:11418 template=EL-df63ce0a
+    [INSTANCE] "List-Item" #864:22779 template=EL-3cc95dec
+      [TEXT] #I864:22779;860:11406 template=EL-b0a0a76d
+    [FRAME] #860:11424 template=EL-df63ce0a
+    [INSTANCE] "List-Item" #864:22784 template=EL-3cc95dec
+      [TEXT] #I864:22784;860:11406 template=EL-b0a0a76d
+    [FRAME] #860:11430 template=EL-df63ce0a
+    [INSTANCE] "List-Item" #864:22789 template=EL-3cc95dec
+      [TEXT] #I864:22789;860:11406 template=EL-b0a0a76d
+    [FRAME] #860:11442 layout={"mode":"column","padding":"4px 0px","alignItems":"center","gap":"10px","sizing":{"horizontal":"fixed","vertical":"fixed"},"position":"absolute","locationRelativeToParent":{"x":771,"y":1},"dimensions":{"width":8,"height":337}}
+      [FRAME] #860:11445 layout={"mode":"column","gap":"10px","sizing":{"horizontal":"fixed","vertical":"fixed"},"dimensions":{"width":2,"height":36}} fills=fill_4cd5ff90 borderRadius=100px
+  [COMPONENT_SET] "Tab" #864:21588 layout={"mode":"none","sizing":{},"dimensions":{"width":841,"height":375}} fills=fill_658ab2fa strokes=fill_70745384 strokeWeight=1px strokeDashes=10,5 borderRadius=5px
+    [COMPONENT] "State=Default, Size=L" #864:21587 layout={"mode":"row","padding":"20px","alignItems":"center","gap":"10px","sizing":{"horizontal":"fixed","vertical":"hug"},"locationRelativeToParent":{"x":20,"y":20},"dimensions":{"width":385}} fills=fill_97d170e1 strokes=fill_441636dc strokeWeight=1px borderRadius=4px
+      [FRAME] #855:18659 template=EL-ad0f51d9
+      [TEXT] #842:13822 template=EL-1c4cbc57
+    [COMPONENT] "State=Error, Size=L" #864:24510 layout={"mode":"row","padding":"20px","alignItems":"center","gap":"10px","sizing":{"horizontal":"fixed","vertical":"hug"},"locationRelativeToParent":{"x":20,"y":289},"dimensions":{"width":385}} fills=fill_97d170e1 strokes=fill_0ea70a13 strokeWeight=1px borderRadius=4px
+      [FRAME] #864:24511 template=EL-ad0f51d9
+      [TEXT] #864:24513 template=EL-1c4cbc57
+    [COMPONENT] "State=Hover, Size=L" #864:21590 layout={"mode":"row","padding":"20px","alignItems":"center","gap":"10px","sizing":{"horizontal":"fixed","vertical":"hug"},"locationRelativeToParent":{"x":20,"y":108},"dimensions":{"width":385}} fills=fill_97d170e1 strokes=fill_b9de0bb4 strokeWeight=1px borderRadius=4px
+      [FRAME] #864:21591 template=EL-ad0f51d9
+      [TEXT] #864:21596 template=EL-1c4cbc57
+    [COMPONENT] "State=Active, Size=L" #864:21598 layout={"mode":"row","padding":"20px","alignItems":"center","gap":"10px","sizing":{"horizontal":"fixed","vertical":"hug"},"locationRelativeToParent":{"x":20,"y":201},"dimensions":{"width":385}} fills=fill_97d170e1 strokes=fill_8b4fbb9e strokeWeight=1px borderRadius=4px
+      [FRAME] #864:21599 template=EL-ad0f51d9
+      [TEXT] #864:21604 layout=layout_177c5efc fills=fill_8b4fbb9e textStyle=H5 text="Курьером до двери"
+    [COMPONENT] "State=Default, Size=M" #864:21841 layout={"mode":"row","padding":"16px 20px","alignItems":"center","gap":"6px","sizing":{"horizontal":"hug","vertical":"hug"},"locationRelativeToParent":{"x":425,"y":17.5}} fills=fill_97d170e1 strokes=fill_441636dc strokeWeight=1px borderRadius=2px
+      [TEXT] #864:21844 template=EL-6a88d582
+      [TEXT] #864:21866 template=EL-bec764c0
+    [COMPONENT] "State=Hover, Size=M" #864:21845 layout={"mode":"row","padding":"16px 20px","alignItems":"center","gap":"6px","sizing":{"horizontal":"hug","vertical":"hug"},"locationRelativeToParent":{"x":425,"y":105.5}} fills=fill_97d170e1 strokes=fill_b9de0bb4 strokeWeight=1px borderRadius=2px
+      [TEXT] #864:21870 template=EL-6a88d582
+      [TEXT] #864:21864 template=EL-bec764c0
+    [COMPONENT] "State=Active, Size=M" #864:21849 layout={"mode":"row","padding":"16px 20px","alignItems":"center","gap":"6px","sizing":{"horizontal":"hug","vertical":"hug"},"locationRelativeToParent":{"x":425,"y":198.5}} fills=fill_97d170e1 strokes=fill_8b4fbb9e strokeWeight=1px borderRadius=2px
+      [TEXT] #864:21872 layout=layout_177c5efc fills=fill_8b4fbb9e textStyle="T2 (843:17364)" text="23 мая"
+      [TEXT] #864:21868 template=EL-bec764c0
+    [COMPONENT] "State=Error, Size=M" #864:24498 layout={"mode":"row","padding":"16px 20px","alignItems":"center","gap":"6px","sizing":{"horizontal":"hug","vertical":"hug"},"locationRelativeToParent":{"x":425,"y":291.5}} fills=fill_97d170e1 strokes=fill_0ea70a13 strokeWeight=1px borderRadius=2px
+      [TEXT] #864:24499 template=EL-6a88d582
+      [TEXT] #864:24500 template=EL-bec764c0
+    [COMPONENT] "State=Default, Size=S" #876:29550 layout={"mode":"row","padding":"10px 14px","alignItems":"center","gap":"6px","sizing":{"horizontal":"hug","vertical":"hug"},"locationRelativeToParent":{"x":535,"y":17.5}} fills=fill_97d170e1 strokes=fill_441636dc strokeWeight=1px borderRadius=2px
+      [TEXT] #876:29551 template=EL-76a8aa70
+      [TEXT] #876:29552 template=EL-bec764c0
+    [COMPONENT] "State=Hover, Size=S" #876:29553 layout={"mode":"row","padding":"10px 14px","alignItems":"center","gap":"6px","sizing":{"horizontal":"hug","vertical":"hug"},"locationRelativeToParent":{"x":535,"y":105.5}} fills=fill_97d170e1 strokes=fill_b9de0bb4 strokeWeight=1px borderRadius=2px
+      [TEXT] #876:29554 template=EL-76a8aa70
+      [TEXT] #876:29555 template=EL-bec764c0
+    [COMPONENT] "State=Active, Size=S" #876:29556 layout={"mode":"row","padding":"10px 14px","alignItems":"center","gap":"6px","sizing":{"horizontal":"hug","vertical":"hug"},"locationRelativeToParent":{"x":535,"y":198.5}} fills=fill_97d170e1 strokes=fill_8b4fbb9e strokeWeight=1px borderRadius=2px
+      [TEXT] #876:29557 layout=layout_177c5efc fills=fill_8b4fbb9e textStyle=T3 text="23 мая"
+      [TEXT] #876:29558 template=EL-bec764c0
+    [COMPONENT] "State=Error, Size=S" #876:29559 layout={"mode":"row","padding":"10px 14px","alignItems":"center","gap":"6px","sizing":{"horizontal":"hug","vertical":"hug"},"locationRelativeToParent":{"x":535,"y":291.5}} fills=fill_97d170e1 strokes=fill_0ea70a13 strokeWeight=1px borderRadius=2px
+      [TEXT] #876:29560 template=EL-76a8aa70
+      [TEXT] #876:29561 template=EL-bec764c0
+  [IMAGE-SVG] "t-pay 1" #860:11109 layout={"mode":"none","sizing":{},"dimensions":{"width":32,"height":32}} fills=fill_97d170e1
+  [IMAGE-SVG] "famicons:gift-outline" #862:19275 template=EL-37bc2607
+  [IMAGE-SVG] "famicons:gift" #862:19284 template=EL-37bc2607
+  [IMAGE-SVG] "circum:credit-card-1" #860:11050 template=EL-aa33e238
+  [IMAGE-SVG] "circum:credit-card-1" #860:11060 template=EL-aa33e238
+  [COMPONENT] "input-full-stroke" #850:17417 layout={"mode":"row","padding":"6px 12px","alignItems":"center","sizing":{"horizontal":"fixed","vertical":"fixed"},"dimensions":{"width":254,"height":56}} strokes=fill_6733d979 strokeWeight=1px
+    [TEXT] #850:17409 layout=layout_177c5efc fills=fill_4cd5ff90 textStyle=T2 text="ФИО"
+  [COMPONENT_SET] "Card-Checkout" #862:19146 layout={"mode":"none","sizing":{},"dimensions":{"width":600,"height":880}} strokes=fill_70745384 strokeWeight=1px strokeDashes=10,5 borderRadius=5px
+    [COMPONENT] "State=2 position" #855:18743 layout={"mode":"column","gap":"10px","sizing":{"horizontal":"hug","vertical":"hug"},"locationRelativeToParent":{"x":20,"y":20}}
+      [FRAME] #842:13871 layout={"mode":"column","padding":"24px","gap":"16px","sizing":{"horizontal":"fixed","vertical":"hug"},"dimensions":{"width":400}} fills=fill_658ab2fa borderRadius=6px
+      [FRAME] #862:12672 template=EL-fd1f872d
+  [COMPONENT] "Card-Checkout/More position" #862:19147 layout={"mode":"column","alignItems":"stretch","gap":"10px","sizing":{"horizontal":"fixed","vertical":"hug"},"dimensions":{"width":560}}
+    [FRAME] #862:19148 layout={"mode":"column","alignSelf":"stretch","padding":"24px","alignItems":"stretch","gap":"16px","sizing":{"horizontal":"fill","vertical":"hug"}} fills=fill_658ab2fa borderRadius=6px
+      [FRAME] #862:19149 layout={"mode":"column","alignSelf":"stretch","gap":"20px","sizing":{"horizontal":"fill","vertical":"hug"}}
+      [FRAME] #862:19154 layout={"mode":"column","alignSelf":"stretch","gap":"16px","sizing":{"horizontal":"fill","vertical":"hug"}}
+    [FRAME] #862:19168 template=EL-fd1f872d
+      [INSTANCE] "Checkbox" #862:19205 layout=layout_641aad05 componentId=862:19203
+      [FRAME] "Checkbox" #864:24623 layout=layout_641aad05 componentPropertyReferences={"visible":"Error-Discription"}
+      [INSTANCE] #862:19173 layout={"mode":"row","alignSelf":"stretch","padding":"16px 24px","justifyContent":"center","alignItems":"center","gap":"10px","sizing":{"horizontal":"fill","vertical":"hug"}} fills=fill_8b4fbb9e borderRadius=2px componentId=277:11102
+  [SECTION] "Компоненты" #827:12045 layout={"mode":"none","sizing":{},"dimensions":{"width":3212,"height":13445}} fills=fill_a8e1f6d9 strokes=fill_dbe29f28 strokeWeight=1px
+    [TEXT] #277:11175 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":100,"y":100},"dimensions":{"width":783,"height":136}} fills=fill_658ab2fa textStyle=style_6f999b2d text="Компоненты"
+    [FRAME] "Buttons" #277:11135 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":100,"y":408},"dimensions":{"width":940,"height":632}} fills=fill_0f8538f0 strokes=fill_fd958d89 strokeWeight=1px borderRadius=5px
+      [TEXT] #277:11129 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":38,"y":126},"dimensions":{"width":50,"height":17}} fills=fill_658ab2fa textStyle=style_1f430fa7 text="Default"
+      [TEXT] #277:11130 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":259,"y":126},"dimensions":{"width":42,"height":17}} fills=fill_658ab2fa textStyle=style_1f430fa7 text="Hover"
+      [TEXT] #277:11131 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":486,"y":126},"dimensions":{"width":57,"height":17}} fills=fill_658ab2fa textStyle=style_1f430fa7 text="Pressed"
+      [TEXT] #277:11132 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":713,"y":126},"dimensions":{"width":61,"height":17}} fills=fill_658ab2fa textStyle=style_1f430fa7 text="Disabled"
+      [COMPONENT_SET] "Button" #277:11108 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":0,"y":167},"dimensions":{"width":940,"height":465}} fills=fill_9abcc1ff strokes=fill_70745384 strokeWeight=1px strokeDashes=10,5 borderRadius=5px
+      [TEXT] #277:11105 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":32,"y":32},"dimensions":{"width":124,"height":38}} fills=fill_658ab2fa textStyle=style_0d941602 text="Buttons"
+      [LINE] #277:11139 template=EL-bb6b96bf
+    [FRAME] "Header" #277:11311 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":100,"y":3352},"dimensions":{"width":3012,"height":569}} fills=fill_0f8538f0 strokes=fill_fd958d89 strokeWeight=1px borderRadius=5px
+      [TEXT] #277:11316 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":32,"y":32},"dimensions":{"width":117,"height":38}} fills=fill_658ab2fa textStyle=style_0d941602 text="Header"
+      [LINE] #277:11317 template=EL-bb6b96bf
+      [COMPONENT_SET] "Header" #279:19286 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":0,"y":102},"dimensions":{"width":1504,"height":467}} strokes=fill_70745384 strokeWeight=1px strokeDashes=10,5 borderRadius=5px
+    [FRAME] "Footer" #277:11318 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":100,"y":4080},"dimensions":{"width":3012,"height":691}} fills=fill_0f8538f0 strokes=fill_fd958d89 strokeWeight=1px borderRadius=5px
+      [TEXT] #277:11319 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":32,"y":32},"dimensions":{"width":103,"height":38}} fills=fill_658ab2fa textStyle=style_0d941602 text="Footer"
+      [LINE] #277:11320 template=EL-bb6b96bf
+      [COMPONENT] "Footer" #276:2863 layout={"mode":"column","padding":"70px 40px","alignItems":"center","gap":"32px","sizing":{"horizontal":"fixed","vertical":"hug"},"locationRelativeToParent":{"x":32,"y":134},"dimensions":{"width":1440}} fills=fill_7ad30328
+    [FRAME] "Tags" #277:11240 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":1136,"y":408},"dimensions":{"width":940,"height":632}} fills=fill_0f8538f0 strokes=fill_fd958d89 strokeWeight=1px borderRadius=5px
+      [TEXT] #277:11262 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":32,"y":32},"dimensions":{"width":78,"height":38}} fills=fill_658ab2fa textStyle=style_0d941602 text="Tags"
+      [LINE] #277:11263 template=EL-bb6b96bf
+      [COMPONENT] "Tag" #277:11218 layout={"mode":"row","padding":"7px 12px","justifyContent":"center","alignItems":"center","gap":"10px","sizing":{"horizontal":"hug","vertical":"fixed"},"locationRelativeToParent":{"x":32,"y":202},"dimensions":{"height":32}} fills=fill_8b4fbb9e borderRadius=2px
+    [FRAME] "Item Cards" #277:11264 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":100,"y":1136},"dimensions":{"width":3012,"height":1012}} fills=fill_0f8538f0 strokes=fill_fd958d89 strokeWeight=1px borderRadius=5px
+      [TEXT] #277:11265 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":32,"y":32},"dimensions":{"width":172,"height":38}} fills=fill_658ab2fa textStyle=style_0d941602 text="Item Cards"
+      [LINE] #277:11266 template=EL-bb6b96bf
+      [COMPONENT_SET] "Item Card" #277:11373 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":0,"y":102},"dimensions":{"width":3012,"height":910}} fills=fill_9abcc1ff strokes=fill_70745384 strokeWeight=1px strokeDashes=10,5 borderRadius=5px
+    [FRAME] "Icons" #277:11269 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":100,"y":2244},"dimensions":{"width":940,"height":1012}} fills=fill_0f8538f0 strokes=fill_fd958d89 strokeWeight=1px borderRadius=5px
+      [TEXT] #277:11270 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":32,"y":32},"dimensions":{"width":86,"height":38}} fills=fill_658ab2fa textStyle=style_0d941602 text="Icons"
+      [LINE] #277:11271 template=EL-bb6b96bf
+      [COMPONENT] "Icon Wishlist" #277:11232 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":32,"y":134},"dimensions":{"width":32,"height":32}} fills=fill_97d170e1
+      [COMPONENT] "Header/Arrow" #393:5672 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":92,"y":130},"dimensions":{"width":40,"height":40}} strokes=fill_c5b17057 strokeWeight=1px borderRadius=2px
+      [COMPONENT_SET] "Icon Search" #895:28954 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":48,"y":442},"dimensions":{"width":64,"height":64}} strokes=fill_70745384 strokeWeight=1px strokeDashes=10,5 borderRadius=5px
+    [COMPONENT] "Item Card" #276:2960 layout={"mode":"column","alignItems":"stretch","gap":"16px","sizing":{"horizontal":"fixed","vertical":"hug"},"locationRelativeToParent":{"x":120,"y":6408},"dimensions":{"width":331}}
+      [FRAME] "Image" #277:3894 layout={"mode":"row","alignSelf":"stretch","padding":"8px","justifyContent":"flex-end","gap":"169px","sizing":{"horizontal":"fill","vertical":"fixed"},"dimensions":{"height":331}} fills=["#B0B0B0"]
+      [FRAME] "Content" #276:2655 layout={"mode":"column","alignSelf":"stretch","gap":"12px","sizing":{"horizontal":"fill","vertical":"hug"}}
+    [TEXT] #276:3360 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":120,"y":6135},"dimensions":{"width":751,"height":136}} fills=fill_658ab2fa textStyle=style_6f999b2d text="c прототипа"
+    [COMPONENT_SET] "Button" #277:4000 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":100,"y":6964},"dimensions":{"width":223,"height":158}} strokes=fill_70745384 strokeWeight=1px strokeDashes=10,5 borderRadius=5px
+      [COMPONENT] "Property 1=Primary" #277:3990 layout={"mode":"row","padding":"16px 24px","justifyContent":"center","alignItems":"center","gap":"10px","sizing":{"horizontal":"hug","vertical":"hug"},"locationRelativeToParent":{"x":20,"y":20}} fills=fill_a9b2b803 borderRadius=2px
+      [COMPONENT] "Property 1=Secondary" #277:4001 layout={"mode":"row","padding":"16px 24px","justifyContent":"center","alignItems":"center","gap":"10px","sizing":{"horizontal":"hug","vertical":"hug"},"locationRelativeToParent":{"x":20,"y":89}} strokes=fill_a9b2b803 strokeWeight=1px borderRadius=2px
+    [FRAME] "Input-Text" #864:23082 layout={"mode":"column","sizing":{"horizontal":"hug","vertical":"hug"},"locationRelativeToParent":{"x":1255,"y":5975}}
+      [FRAME] "Button" #864:23083 template=EL-735e928d
+      [COMPONENT_SET] "Input" #864:23085 layout={"mode":"column","padding":"20px","gap":"20px","sizing":{"horizontal":"hug","vertical":"hug"}} fills=fill_7ad30328 strokes=fill_70745384 strokeWeight=1px strokeDashes=10,5 borderRadius=5px
+    [FRAME] "Input-Password" #864:51018 layout={"mode":"column","sizing":{"horizontal":"hug","vertical":"hug"},"locationRelativeToParent":{"x":1739,"y":5975}}
+      [FRAME] "Button" #864:51019 template=EL-735e928d
+      [COMPONENT_SET] "Input-password" #864:51021 layout={"mode":"grid","padding":"64px","gridTemplateColumns":"484.00px","gridTemplateRows":"62.17px 62.17px 62.17px 62.17px 62.17px 62.17px 62.17px 62.17px 62.17px 62.17px 62.17px 62.17px 62.17px 62.17px 62.17px 62.17px 62.17px 62.17px 62.17px 62.17px 62.17px 62.17px 62.17px 62.17px","gap":"20px","sizing":{"horizontal":"hug","vertical":"hug"}} fills=fill_7ad30328 strokes=fill_70745384 strokeWeight=1px strokeDashes=10,5 borderRadius=5px
+    [COMPONENT_SET] "Icon-Button" #885:13424 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":1175,"y":2430},"dimensions":{"width":80,"height":260}} fills=fill_658ab2fa strokes=fill_70745384 strokeWeight=1px strokeDashes=10,5 borderRadius=5px
+      [COMPONENT] "State=Default" #885:13423 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":20,"y":20},"dimensions":{"width":40,"height":40}} strokes=fill_c5b17057 strokeWeight=1px borderRadius=2px
+      [COMPONENT] "State=Disabled" #886:13431 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":20,"y":200},"dimensions":{"width":40,"height":40}} strokes=["#D6C5AA"] strokeWeight=1px borderRadius=2px
+      [COMPONENT] "State=Hover" #885:13425 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":20,"y":80},"dimensions":{"width":40,"height":40}} strokes=["#977541"] strokeWeight=1px borderRadius=2px
+      [COMPONENT] "State=Active" #886:13428 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":20,"y":140},"dimensions":{"width":40,"height":40}} strokes=["#765C32"] strokeWeight=1px borderRadius=2px
+    [SECTION] "Icon" #864:21618 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":147,"y":2476},"dimensions":{"width":849,"height":168}} fills=fill_0f8538f0 strokes=fill_dbe29f28 strokeWeight=1px
+      [COMPONENT_SET] "hugeicons" #864:21718 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":16,"y":29},"dimensions":{"width":64,"height":110}} strokes=fill_70745384 strokeWeight=1px strokeDashes=10,5 borderRadius=5px
+      [COMPONENT_SET] "solar:shop" #864:21719 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":100,"y":29},"dimensions":{"width":64,"height":110}} strokes=fill_70745384 strokeWeight=1px strokeDashes=10,5 borderRadius=5px
+      [COMPONENT_SET] "sber-pay" #864:21720 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":184,"y":28},"dimensions":{"width":64,"height":110}} strokes=fill_70745384 strokeWeight=1px strokeDashes=10,5 borderRadius=5px
+      [COMPONENT_SET] "card" #864:21721 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":268,"y":29},"dimensions":{"width":64,"height":110}} strokes=fill_70745384 strokeWeight=1px strokeDashes=10,5 borderRadius=5px
+      [COMPONENT_SET] "wallet" #864:21722 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":352,"y":29},"dimensions":{"width":64,"height":110}} strokes=fill_70745384 strokeWeight=1px strokeDashes=10,5 borderRadius=5px
+      [COMPONENT_SET] "t-pay" #864:21723 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":436,"y":28},"dimensions":{"width":64,"height":112}} strokes=fill_70745384 strokeWeight=1px strokeDashes=10,5 borderRadius=5px
+      [COMPONENT_SET] "sbp" #864:21724 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":520,"y":28},"dimensions":{"width":62,"height":110}} strokes=fill_70745384 strokeWeight=1px strokeDashes=10,5 borderRadius=5px
+  [FRAME] "Главная" #842:16888 layout=layout_7d29e789 fills=fill_272d20b3
+    [FRAME] "Hero" #842:16889 template=EL-f54da08f
+      [RECTANGLE] "Image" #842:16890 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":0,"y":48},"dimensions":{"width":1440,"height":802}} fills=fill_a23249e5
+      [FRAME] "Arrows" #842:16891 template=EL-8a7ae0d8
+      [FRAME] #842:16900 layout={"mode":"column","alignItems":"center","gap":"32px","sizing":{"horizontal":"fixed","vertical":"hug"},"locationRelativeToParent":{"x":40,"y":639},"dimensions":{"width":1360}}
+      [FRAME] "Header" #842:16911 template=EL-c8ccf09a
+    [FRAME] "About" #842:16953 template=EL-3de4ac06
+      [FRAME] #842:16954 template=EL-5379637c
+      [INSTANCE] "Button" #842:16979 layout=layout_5d7ee650 strokes=fill_c5b17057 strokeWeight=1px borderRadius=2px componentId=277:11109
+    [FRAME] "Gifts" #842:16980 template=EL-5b5dec48
+      [FRAME] "Image" #842:16981 layout=layout_dc104898 fills=[{"type":"IMAGE","imageRef":"4433e71c1e29a8c0b82114147eb9fde77541f222","scaleMode":"STRETCH","objectFit":"fill","isBackground":false,"imageDownloadArguments":{"needsCropping":true,"requiresImageDimensions":false,"cropTransform":[[1,0,0],[0,0.8055555820465088,0.12575648725032806]],"filenameSuffix":"27903a"}}]
+      [FRAME] #842:16982 template=EL-4568da53
+      [LINE] #842:16994 layout={"mode":"none","sizing":{"horizontal":"fixed","vertical":"fixed"},"position":"absolute","locationRelativeToParent":{"x":760,"y":790},"dimensions":{"width":640,"height":0}} strokes=fill_ed7aa05a strokeWeight=1px
+    [FRAME] "In stock" #842:16995 template=EL-ce78c624
+      [FRAME] #842:16996 template=EL-4568da53
+      [LINE] #842:17006 layout={"mode":"none","sizing":{"horizontal":"fixed","vertical":"fixed"},"position":"absolute","locationRelativeToParent":{"x":40,"y":790},"dimensions":{"width":640,"height":0}} strokes=fill_ed7aa05a strokeWeight=1px
+      [FRAME] "Image" #842:17007 layout=layout_dc104898 fills=[{"type":"IMAGE","imageRef":"bd2bab0cee5b5f6541a39caade7e8528570a8295","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}}]
+    [FRAME] "Categories" #842:17008 template=EL-89d9322e
+      [FRAME] #842:17009 template=EL-7e82b98e
+      [FRAME] #842:17017 layout={"mode":"row","alignSelf":"stretch","justifyContent":"space-between","sizing":{"horizontal":"fill","vertical":"hug"}}
+    [FRAME] "Popular Items" #842:17030 template=EL-58a296aa
+      [FRAME] "Content" #842:17031 template=EL-5379637c
+      [INSTANCE] #842:17047 template=EL-73f3da4f
+    [FRAME] "Popular Brands" #842:17048 template=EL-58a296aa
+      [FRAME] #842:17049 template=EL-5379637c
+      [INSTANCE] #842:17075 template=EL-73f3da4f
+    [FRAME] "Designers" #842:17076 template=EL-ec36b7eb
+      [FRAME] "Image" #842:17077 layout=layout_dc104898 fills=[{"type":"IMAGE","imageRef":"f46c1f5db92a730bbecf8b0f62e98542ff61d748","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}}]
+      [FRAME] "Content" #842:17078 layout={"mode":"column","alignSelf":"stretch","justifyContent":"space-between","alignItems":"flex-end","sizing":{"horizontal":"fixed","vertical":"fill"},"dimensions":{"width":674}}
+    [FRAME] "Blog" #842:17088 template=EL-89d9322e
+      [FRAME] "Title" #842:17089 template=EL-7e82b98e
+      [FRAME] "Content" #842:17097 layout={"mode":"column","alignSelf":"stretch","alignItems":"center","gap":"40px","sizing":{"horizontal":"fill","vertical":"hug"}}
+    [FRAME] "CTA" #842:17121 layout={"mode":"column","alignSelf":"stretch","padding":"70px 0px","alignItems":"stretch","gap":"32px","sizing":{"horizontal":"fill","vertical":"hug"}}
+      [FRAME] "Image" #842:17122 template=EL-f7f62d35
+    [FRAME] "Contacts" #842:17127 template=EL-4e952ca1
+      [FRAME] #842:17128 layout={"mode":"column","justifyContent":"space-between","sizing":{"horizontal":"fill","vertical":"fixed"},"dimensions":{"height":440}}
+      [FRAME] "Image" #842:17149 layout={"mode":"column","padding":"189px 124px 190px","justifyContent":"center","alignItems":"center","gap":"10px","sizing":{"horizontal":"fixed","vertical":"fixed"},"dimensions":{"width":680,"height":440}} fills=[{"type":"IMAGE","imageRef":"089ff52bb22d00811949bb4141c2ec87fe73f38a","scaleMode":"STRETCH","objectFit":"fill","isBackground":false,"imageDownloadArguments":{"needsCropping":true,"requiresImageDimensions":false,"cropTransform":[[0.5414012670516968,0,0.2292993664741516],[0,0.5911366939544678,0.18644779920578003]],"filenameSuffix":"76a056"}}]
+    [INSTANCE] "Footer" #842:17150 layout={"mode":"column","padding":"70px 40px","alignItems":"stretch","gap":"32px","sizing":{"horizontal":"fixed","vertical":"hug"},"dimensions":{"width":1440}} fills=fill_7ad30328 componentId=276:2863
+      [FRAME] "Selection" #I842:17150;203:887 layout={"mode":"none","sizing":{"horizontal":"fill","vertical":"fixed"},"dimensions":{"height":385}}
+  [SECTION] "ЦУМ" #850:17424 layout={"mode":"none","sizing":{},"dimensions":{"width":14275,"height":10687}} fills=fill_de39a2d0 strokes=fill_dbe29f28 strokeWeight=1px
+    [TEXT] #850:17425 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":100,"y":100},"dimensions":{"width":244,"height":58}} fills=fill_658ab2fa textStyle=style_adee6b6c text="Навигация"
+    [TEXT] #850:17426 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":2112,"y":100},"dimensions":{"width":184,"height":58}} fills=fill_658ab2fa textStyle=style_adee6b6c text="Каталог"
+    [TEXT] #850:17427 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":4032,"y":100},"dimensions":{"width":192,"height":58}} fills=fill_658ab2fa textStyle=style_adee6b6c text="Корзина"
+    [RECTANGLE] "Снимок экрана 2026-06-11 в 16.00.32 1" #850:17428 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":100,"y":223.15},"dimensions":{"width":1512,"height":626}} fills=[{"type":"IMAGE","imageRef":"f5ab7c4b2070fc1291cc5cf6d13a22c6c1a78095","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}}]
+    [WIDGET] "Sticky Note" #850:17429
+      [FRAME] "Frame" #850:17430 template=EL-715348b9
+    [WIDGET] "Sticky Note" #850:17438
+      [FRAME] "Frame" #850:17439 template=EL-715348b9
+    [WIDGET] "Sticky Note" #850:17447
+      [FRAME] "Frame" #850:17448 template=EL-3f111f63
+    [WIDGET] "Sticky Note" #850:17456
+      [FRAME] "Frame" #850:17457 template=EL-3f111f63
+    [WIDGET] "Sticky Note" #850:17465
+      [FRAME] "Frame" #850:17466 template=EL-3f111f63
+    [FRAME] "1440w light" #850:17474 layout={"mode":"none","overflowScroll":["y"],"sizing":{},"locationRelativeToParent":{"x":2112,"y":212},"dimensions":{"width":1440,"height":10374.8}} fills=fill_658ab2fa
+      [FRAME] "Main" #850:17475 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":120,"y":152.5},"dimensions":{"width":1200,"height":9618.8}}
+      [FRAME] "Footer" #850:18250 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":0,"y":9803.3},"dimensions":{"width":1440,"height":571.5}}
+      [FRAME] "Header" #850:18390 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":0,"y":0},"dimensions":{"width":1440,"height":152.5}} fills=fill_658ab2fa
+      [WIDGET] "Sticky Note" #850:18482
+    [RECTANGLE] "Снимок экрана 2026-06-11 в 16.12.52 1" #850:18491 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":4032,"y":212},"dimensions":{"width":1512,"height":746}} fills=[{"type":"IMAGE","imageRef":"3ce962365dc0d272f957594a46d89c0b525b77f8","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}}]
+    [RECTANGLE] "Снимок экрана 2026-06-11 в 16.13.12 1" #850:18492 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":4032,"y":871.83},"dimensions":{"width":1512,"height":372.44}} fills=[{"type":"IMAGE","imageRef":"e88ab1d0a61e8652f6e4e02488f51a7e84fed65e","scaleMode":"STRETCH","objectFit":"fill","isBackground":false,"imageDownloadArguments":{"needsCropping":true,"requiresImageDimensions":false,"cropTransform":[[0.9999998807907104,0,4.440892098500626e-16],[0,0.4992459714412689,0.5007540583610535]],"filenameSuffix":"525a3d"}}]
+    [RECTANGLE] "Снимок экрана 2026-06-11 в 16.13.42 1" #850:18493 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":4032,"y":1046.19},"dimensions":{"width":1512,"height":595}} fills=[{"type":"IMAGE","imageRef":"d4671e9742666f56c62963a38c3ff6ec8bda00a7","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}}]
+    [RECTANGLE] "Снимок экрана 2026-06-11 в 16.13.58 1" #850:18494 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":4032,"y":1617.47},"dimensions":{"width":1512,"height":562}} fills=[{"type":"IMAGE","imageRef":"4f82ed977f1dc6ebadeec8e800fed433a96f698b","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}}]
+    [WIDGET] "Sticky Note" #850:18495
+      [FRAME] "Frame" #850:18496 template=EL-715348b9
+    [WIDGET] "Sticky Note" #850:18504
+      [FRAME] "Frame" #850:18505 template=EL-715348b9
+    [WIDGET] "Sticky Note" #850:18513
+      [FRAME] "Frame" #850:18514 template=EL-3f111f63
+    [WIDGET] "Sticky Note" #850:18522
+      [FRAME] "Frame" #850:18523 template=EL-3f111f63
+    [WIDGET] "Sticky Note" #850:18531
+      [FRAME] "Frame" #850:18532 template=EL-3f111f63
+    [RECTANGLE] "Снимок экрана 2026-06-11 в 16.21.42 1" #850:18540 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":6177,"y":215.5},"dimensions":{"width":1512,"height":697}} fills=[{"type":"IMAGE","imageRef":"57da939b4e1196a75b4c4f3f6d37b80b4573c565","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}}]
+    [GROUP] #850:18541 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":6177,"y":1415.7},"dimensions":{"width":1512,"height":1179.51}}
+      [RECTANGLE] "Снимок экрана 2026-06-11 в 16.22.01 1" #850:18542 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":0,"y":0},"dimensions":{"width":1512,"height":746}} fills=[{"type":"IMAGE","imageRef":"0158e0164ded42c572453af44b96fc5464502100","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}}]
+      [RECTANGLE] "Снимок экрана 2026-06-11 в 16.22.17 1" #850:18543 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":0,"y":625.51},"dimensions":{"width":1512,"height":554}} fills=[{"type":"IMAGE","imageRef":"ed35538157ece7ed4f98095ce2c76f11fffbb676","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}}]
+      [FRAME] #850:18544 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":937,"y":626},"dimensions":{"width":491,"height":442}} fills=fill_658ab2fa
+    [RECTANGLE] "Снимок экрана 2026-06-11 в 16.23.16 1" #850:18545 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":7739.76,"y":212},"dimensions":{"width":1512,"height":725}} fills=[{"type":"IMAGE","imageRef":"2687660fb586000fae383b435973e7b67090af44","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}}]
+    [GROUP] #850:18546 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":9302.53,"y":215.5},"dimensions":{"width":1512.47,"height":1049.4}}
+      [RECTANGLE] "Снимок экрана 2026-06-11 в 16.23.43 1" #850:18547 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":0,"y":0},"dimensions":{"width":1512,"height":719}} fills=[{"type":"IMAGE","imageRef":"a6c77cee640049101cea7cfece9d4be7c7164e8a","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}}]
+      [RECTANGLE] "Снимок экрана 2026-06-11 в 16.24.02 1" #850:18548 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":0,"y":530.4},"dimensions":{"width":1512,"height":519}} fills=[{"type":"IMAGE","imageRef":"75bdc94435a07319bd43e3951f4a7d41475e6ec5","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}}]
+      [FRAME] #850:18549 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":935.47,"y":530.5},"dimensions":{"width":577,"height":410}} fills=fill_658ab2fa
+    [FRAME] #850:18550 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":7739.4,"y":1415.7},"dimensions":{"width":1512.36,"height":1195.3}}
+      [RECTANGLE] "Снимок экрана 2026-06-11 в 16.30.13 1" #850:18551 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":0.36,"y":0},"dimensions":{"width":1512,"height":746}} fills=[{"type":"IMAGE","imageRef":"d350c52d201e4a1c37bc9b06a7b881b1bc815bcf","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}}]
+      [RECTANGLE] "Снимок экрана 2026-06-11 в 16.30.27 1" #850:18552 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":0,"y":622.16},"dimensions":{"width":1512.36,"height":573.14}} fills=[{"type":"IMAGE","imageRef":"cefd7579b3c2708fde8f631d24fcba2c67ddfa2e","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}}]
+    [FRAME] #850:18553 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":8706,"y":2038},"dimensions":{"width":437,"height":401}} fills=fill_658ab2fa
+    [WIDGET] "Sticky Note" #850:18554
+      [FRAME] "Frame" #850:18555 template=EL-715348b9
+    [WIDGET] "Sticky Note" #850:18563
+      [FRAME] "Frame" #850:18564 template=EL-715348b9
+    [WIDGET] "Sticky Note" #850:18572
+      [FRAME] "Frame" #850:18573 template=EL-715348b9
+    [WIDGET] "Sticky Note" #850:18581
+      [FRAME] "Frame" #850:18582 template=EL-715348b9
+    [WIDGET] "Sticky Note" #850:18590
+      [FRAME] "Frame" #850:18591 template=EL-3f111f63
+    [WIDGET] "Sticky Note" #850:18599
+      [FRAME] "Frame" #850:18600 template=EL-3f111f63
+    [FRAME] #850:18608 layout={"mode":"column","padding":"60px","alignItems":"stretch","gap":"100px","sizing":{"horizontal":"fixed","vertical":"hug"},"locationRelativeToParent":{"x":11237,"y":215.5},"dimensions":{"width":1000}} fills=fill_c48813f8 borderRadius=40px
+      [FRAME] #850:18609 template=EL-007cf302
+      [FRAME] #850:18612 template=EL-007cf302
+      [FRAME] #850:18615 layout={"mode":"column","alignSelf":"stretch","gap":"32px","sizing":{"horizontal":"fill","vertical":"hug"}}
+  [COMPONENT_SET] "Checkbox" #862:19204 layout={"mode":"none","sizing":{},"dimensions":{"width":1228,"height":268}} fills=fill_658ab2fa strokes=fill_70745384 strokeWeight=1px strokeDashes=10,5 borderRadius=5px
+    [COMPONENT] "State=Default, Size=L" #862:19203 layout={"mode":"row","alignItems":"center","gap":"12px","sizing":{"horizontal":"fixed","vertical":"hug"},"locationRelativeToParent":{"x":20,"y":20},"dimensions":{"width":512}}
+      [FRAME] #862:19199 template=EL-3ad43b36
+      [TEXT] #862:19201 template=EL-2aa71c88
+    [COMPONENT] "State=Hover, Size=L" #862:19210 layout={"mode":"row","alignItems":"center","gap":"12px","sizing":{"horizontal":"fixed","vertical":"hug"},"locationRelativeToParent":{"x":20,"y":82},"dimensions":{"width":512}}
+      [FRAME] #862:19211 template=EL-3ad43b36
+      [TEXT] #862:19213 template=EL-2aa71c88
+    [COMPONENT] "State=Error, Size=L" #862:19234 layout={"mode":"row","alignItems":"center","gap":"12px","sizing":{"horizontal":"fixed","vertical":"hug"},"locationRelativeToParent":{"x":20,"y":206},"dimensions":{"width":512}}
+      [FRAME] #862:19235 template=EL-3ad43b36
+      [TEXT] #862:19238 layout=layout_6eabe52e fills=fill_0ea70a13 textStyle="T2 (843:17364)" text="{ts2}Я соглашаюсь с политикой конфиденциальности и даю согласие на обработку персональных данных{/ts2}"
+    [COMPONENT] "State=Active, Size=L" #862:19217 layout={"mode":"row","alignItems":"center","gap":"12px","sizing":{"horizontal":"fixed","vertical":"hug"},"locationRelativeToParent":{"x":20,"y":144},"dimensions":{"width":512}}
+      [FRAME] #862:19218 template=EL-3ad43b36
+      [TEXT] #862:19221 template=EL-2aa71c88
+    [COMPONENT] "State=Default, Size=M" #862:20003 layout={"mode":"row","alignItems":"center","gap":"10px","sizing":{"horizontal":"fixed","vertical":"hug"},"locationRelativeToParent":{"x":598,"y":20},"dimensions":{"width":512}}
+      [FRAME] #862:20004 template=EL-3ad43b36
+      [TEXT] #862:20006 template=EL-c697a365
+    [COMPONENT] "State=Hover, Size=M" #862:20007 layout={"mode":"row","alignItems":"center","gap":"10px","sizing":{"horizontal":"fixed","vertical":"hug"},"locationRelativeToParent":{"x":598,"y":82},"dimensions":{"width":512}}
+      [FRAME] #862:20008 template=EL-3ad43b36
+      [TEXT] #862:20011 template=EL-c697a365
+    [COMPONENT] "State=Active, Size=M" #862:20012 layout={"mode":"row","alignItems":"center","gap":"10px","sizing":{"horizontal":"fixed","vertical":"hug"},"locationRelativeToParent":{"x":598,"y":144},"dimensions":{"width":512}}
+      [FRAME] #862:20013 template=EL-3ad43b36
+      [TEXT] #862:20017 template=EL-c697a365
+    [COMPONENT] "State=Error, Size=M" #862:20018 layout={"mode":"row","alignItems":"center","gap":"10px","sizing":{"horizontal":"fixed","vertical":"hug"},"locationRelativeToParent":{"x":598,"y":206},"dimensions":{"width":512}}
+      [FRAME] #862:20019 template=EL-3ad43b36
+      [TEXT] #862:20022 layout=layout_6eabe52e fills=fill_0ea70a13 textStyle=style_3f760aeb text="{ts2}Я соглашаюсь с политикой конфиденциальности и даю согласие на обработку персональных данных{/ts2}"
+  [COMPONENT_SET] "List-Item" #864:22760 layout={"mode":"none","sizing":{},"dimensions":{"width":802,"height":329}} fills=fill_658ab2fa strokes=fill_70745384 strokeWeight=1px strokeDashes=10,5 borderRadius=5px
+    [COMPONENT] "State=Default" #864:22759 layout={"mode":"column","padding":"18px 16px","gap":"10px","sizing":{"horizontal":"fixed","vertical":"hug"},"locationRelativeToParent":{"x":20,"y":20},"dimensions":{"width":762}}
+      [TEXT] #860:11406 template=EL-b9ead39a
+    [COMPONENT] "State=Hover" #864:22761 layout={"mode":"column","padding":"18px 16px","gap":"10px","sizing":{"horizontal":"fixed","vertical":"hug"},"locationRelativeToParent":{"x":20,"y":97},"dimensions":{"width":762}} fills=fill_c48813f8
+      [TEXT] #864:22762 template=EL-b9ead39a
+  [SECTION] "Дизайн / Личный кабинет" #966:40942 layout={"mode":"none","sizing":{},"dimensions":{"width":9590,"height":7817}} fills=fill_a8e1f6d9 strokes=fill_dbe29f28 strokeWeight=1px
+    [FRAME] "Личный кабинет | Физическое лицо" #966:40943 layout={"mode":"column","sizing":{"horizontal":"hug","vertical":"hug"},"locationRelativeToParent":{"x":100,"y":100}}
+      [INSTANCE] "Header" #966:40944 template=EL-6b472314
+      [FRAME] #966:40945 layout={"mode":"row","alignSelf":"stretch","padding":"40px 20px","gap":"20px","sizing":{"horizontal":"fill","vertical":"hug"}} fills=fill_7ad30328
+      [INSTANCE] "Footer" #966:41027 template=EL-c7256d48
+    [FRAME] "Личный кабинет | Физическое лицо" #966:41028 layout={"mode":"column","sizing":{"horizontal":"hug","vertical":"hug"},"locationRelativeToParent":{"x":100,"y":1963}}
+      [INSTANCE] "Header" #966:41029 template=EL-6b472314
+      [FRAME] #966:41030 template=EL-d64b923f
+      [INSTANCE] "Footer" #966:41051 template=EL-c7256d48
+    [FRAME] "Личный кабинет | Физическое лицо" #966:41052 layout={"mode":"column","sizing":{"horizontal":"hug","vertical":"hug"},"locationRelativeToParent":{"x":1690,"y":1963}}
+      [INSTANCE] "Header" #966:41053 template=EL-6b472314
+      [FRAME] #966:41054 template=EL-d64b923f
+      [INSTANCE] "Footer" #966:41142 template=EL-c7256d48
+    [FRAME] "Личный кабинет | Физическое лицо" #966:41143 layout={"mode":"column","sizing":{"horizontal":"hug","vertical":"hug"},"locationRelativeToParent":{"x":100,"y":4233}}
+      [INSTANCE] "Header" #966:41144 template=EL-6b472314
+      [FRAME] #966:41145 template=EL-d64b923f
+      [INSTANCE] "Footer" #966:41168 template=EL-c7256d48
+    [FRAME] "Личный кабинет | Физическое лицо" #966:41169 layout={"mode":"column","sizing":{"horizontal":"hug","vertical":"hug"},"locationRelativeToParent":{"x":1690,"y":4233}}
+      [INSTANCE] "Header" #966:41170 template=EL-6b472314
+      [FRAME] #966:41171 template=EL-d64b923f
+      [INSTANCE] "Footer" #966:41194 template=EL-c7256d48
+    [FRAME] "Личный кабинет | Физическое лицо" #966:41195 layout={"mode":"column","sizing":{"horizontal":"hug","vertical":"hug"},"locationRelativeToParent":{"x":3280,"y":4233}}
+      [INSTANCE] "Header" #966:41196 template=EL-6b472314
+      [FRAME] #966:41197 template=EL-d64b923f
+      [INSTANCE] "Footer" #966:41220 template=EL-c7256d48
+    [FRAME] "Личный кабинет | Физическое лицо" #966:41221 layout={"mode":"column","sizing":{"horizontal":"hug","vertical":"hug"},"locationRelativeToParent":{"x":4870,"y":4233}}
+      [INSTANCE] "Header" #966:41222 template=EL-6b472314
+      [FRAME] #966:41223 template=EL-d64b923f
+      [INSTANCE] "Footer" #966:41246 template=EL-c7256d48
+    [FRAME] "Личный кабинет | Физическое лицо" #966:41247 layout={"mode":"column","sizing":{"horizontal":"hug","vertical":"hug"},"locationRelativeToParent":{"x":6460,"y":4233}}
+      [INSTANCE] "Header" #966:41248 template=EL-6b472314
+      [FRAME] #966:41249 template=EL-d64b923f
+      [INSTANCE] "Footer" #966:41272 template=EL-c7256d48
+    [FRAME] "Личный кабинет | Физическое лицо" #966:41273 layout={"mode":"column","sizing":{"horizontal":"hug","vertical":"fixed"},"locationRelativeToParent":{"x":8050,"y":4233},"dimensions":{"height":800}}
+      [INSTANCE] "Header" #966:41274 template=EL-6b472314
+      [FRAME] #966:41275 template=EL-d64b923f
+      [INSTANCE] "Footer" #966:41298 template=EL-c7256d48
+      [FRAME] "Modal - Cookies" #966:41299 layout={"mode":"column","padding":"24px 12px","justifyContent":"flex-end","alignItems":"flex-end","sizing":{"horizontal":"fixed","vertical":"fixed"},"position":"absolute","locationRelativeToParent":{"x":0,"y":0},"dimensions":{"width":1440,"height":800}}
+    [FRAME] "Личный кабинет | Физическое лицо" #966:41307 layout={"mode":"column","sizing":{"horizontal":"hug","vertical":"fixed"},"locationRelativeToParent":{"x":100,"y":5744},"dimensions":{"height":800}}
+      [INSTANCE] "Header" #966:41308 template=EL-6b472314
+      [FRAME] #966:41309 template=EL-d64b923f
+      [INSTANCE] "Footer" #966:41332 template=EL-c7256d48
+      [FRAME] #966:41333 template=EL-c9e012d9
+    [FRAME] "Личный кабинет | Физическое лицо" #966:41349 layout={"mode":"column","sizing":{"horizontal":"hug","vertical":"fixed"},"locationRelativeToParent":{"x":100,"y":6917},"dimensions":{"height":800}}
+      [INSTANCE] "Header" #966:41350 template=EL-6b472314
+      [FRAME] #966:41351 template=EL-d64b923f
+      [INSTANCE] "Footer" #966:41374 template=EL-c7256d48
+      [FRAME] #966:41375 template=EL-c9e012d9
+    [FRAME] "Личный кабинет | Физическое лицо" #966:41391 layout={"mode":"column","sizing":{"horizontal":"hug","vertical":"fixed"},"locationRelativeToParent":{"x":1690,"y":6917},"dimensions":{"height":800}}
+      [INSTANCE] "Header" #966:41392 template=EL-6b472314
+      [FRAME] #966:41393 template=EL-d64b923f
+      [INSTANCE] "Footer" #966:41416 template=EL-c7256d48
+      [FRAME] #966:41417 template=EL-c9e012d9
+    [FRAME] "Личный кабинет | Физическое лицо" #966:41427 layout={"mode":"column","sizing":{"horizontal":"hug","vertical":"hug"},"locationRelativeToParent":{"x":3280,"y":1963}}
+      [INSTANCE] "Header" #966:41428 template=EL-6b472314
+      [FRAME] #966:41429 template=EL-d64b923f
+      [INSTANCE] "Footer" #966:41551 template=EL-c7256d48
+  [SECTION] "Дизайн / Основные страницы" #966:41552 layout={"mode":"none","sizing":{},"dimensions":{"width":38380,"height":12307}} fills=fill_de39a2d0 strokes=fill_dbe29f28 strokeWeight=1px
+    [FRAME] "Главная" #966:41553 layout={"mode":"column","alignItems":"center","sizing":{"horizontal":"fixed","vertical":"hug"},"locationRelativeToParent":{"x":625,"y":741},"dimensions":{"width":1440}} fills=fill_272d20b3
+      [FRAME] "Hero" #966:41554 template=EL-f54da08f
+      [FRAME] "About" #966:41582 template=EL-3de4ac06
+      [FRAME] "Gifts" #966:41617 template=EL-5b5dec48
+      [FRAME] "In stock" #966:41640 template=EL-ce78c624
+      [FRAME] "Categories" #966:41661 template=EL-89d9322e
+      [FRAME] "Popular Items" #966:41691 layout={"mode":"column","padding":"70px 40px","alignItems":"center","gap":"40px","sizing":{"horizontal":"hug","vertical":"hug"}}
+      [FRAME] "Popular Brands" #966:41764 template=EL-58a296aa
+      [FRAME] "Designers" #966:41800 template=EL-cdd6e1b0
+      [FRAME] "Blog" #966:41825 template=EL-89d9322e
+      [FRAME] "CTA" #966:41866 template=EL-95610d40
+      [FRAME] "Contacts" #966:41872 template=EL-4e952ca1
+      [INSTANCE] "Footer" #966:41895 template=EL-94cc377b
+    [TEXT] #966:41896 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":625,"y":433},"dimensions":{"width":495,"height":136}} fills=fill_658ab2fa textStyle=style_6f999b2d text="Главная"
+    [FRAME] "Навигация / Хедер при скролле вниз" #966:41897 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":2672,"y":4963},"dimensions":{"width":1440,"height":802}}
+      [RECTANGLE] "Image" #966:41898 template=EL-16575c01
+      [FRAME] "Arrows" #966:41899 layout={"mode":"row","justifyContent":"space-between","alignItems":"center","sizing":{"horizontal":"fixed","vertical":"hug"},"locationRelativeToParent":{"x":40,"y":397},"dimensions":{"width":1360}}
+      [FRAME] #966:41908 template=EL-d83f1529
+      [FRAME] "Menu" #966:41920 layout={"mode":"row","padding":"20px 40px","justifyContent":"space-between","alignItems":"center","sizing":{"horizontal":"fixed","vertical":"hug"},"locationRelativeToParent":{"x":0,"y":0},"dimensions":{"width":1440}} fills=fill_658ab2fa strokes=fill_090ebe47 strokeWeight="0px 0px 1px"
+    [FRAME] "Навигация / Подарки" #966:41955 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":2672,"y":741},"dimensions":{"width":1440,"height":802}}
+      [FRAME] "Arrows" #966:41956 template=EL-8a7ae0d8
+      [RECTANGLE] "Image" #966:41965 template=EL-16575c01
+      [FRAME] #966:41966 template=EL-d83f1529
+      [RECTANGLE] "Overlay" #966:41978 template=EL-4c29f32b
+      [FRAME] "Header" #966:41979 template=EL-c8ccf09a
+    [FRAME] "Навигация / В наличии" #966:42001 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":4152,"y":741},"dimensions":{"width":1440,"height":802}}
+      [FRAME] "Arrows" #966:42002 template=EL-8a7ae0d8
+      [RECTANGLE] "Image" #966:42011 template=EL-16575c01
+      [FRAME] #966:42012 template=EL-d83f1529
+      [RECTANGLE] "Overlay" #966:42024 template=EL-4c29f32b
+      [FRAME] "Header" #966:42025 template=EL-c8ccf09a
+    [FRAME] "Навигация / Бренды" #966:42060 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":5632,"y":741},"dimensions":{"width":1440,"height":802}}
+      [FRAME] "Arrows" #966:42061 template=EL-8a7ae0d8
+      [RECTANGLE] "Image" #966:42070 template=EL-16575c01
+      [FRAME] #966:42071 template=EL-d83f1529
+      [RECTANGLE] "Overlay" #966:42083 template=EL-4c29f32b
+      [FRAME] "Header" #966:42084 template=EL-2b64100a
+    [FRAME] "Навигация / Посуда" #966:42136 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":7112,"y":741},"dimensions":{"width":1440,"height":802}}
+      [FRAME] "Arrows" #966:42137 template=EL-8a7ae0d8
+      [RECTANGLE] "Image" #966:42146 template=EL-16575c01
+      [FRAME] #966:42147 template=EL-d83f1529
+      [RECTANGLE] "Overlay" #966:42159 template=EL-4c29f32b
+      [FRAME] "Header" #966:42160 template=EL-2b64100a
+    [FRAME] "Навигация / Декор" #966:42209 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":2672,"y":1743},"dimensions":{"width":1440,"height":802}}
+      [FRAME] "Arrows" #966:42210 template=EL-8a7ae0d8
+      [RECTANGLE] "Image" #966:42219 template=EL-16575c01
+      [FRAME] #966:42220 template=EL-d83f1529
+      [RECTANGLE] "Overlay" #966:42232 template=EL-4c29f32b
+      [FRAME] "Header" #966:42233 template=EL-2b64100a
+    [FRAME] "Навигация / Аксессуары" #966:42282 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":4152,"y":1743},"dimensions":{"width":1440,"height":802}}
+      [FRAME] "Arrows" #966:42283 template=EL-8a7ae0d8
+      [RECTANGLE] "Image" #966:42292 template=EL-16575c01
+      [FRAME] #966:42293 template=EL-d83f1529
+      [RECTANGLE] "Overlay" #966:42305 template=EL-4c29f32b
+      [FRAME] "Header" #966:42306 template=EL-2b64100a
+    [FRAME] "Навигация / Текстиль" #966:42362 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":5632,"y":1743},"dimensions":{"width":1440,"height":802}}
+      [FRAME] "Arrows" #966:42363 template=EL-8a7ae0d8
+      [RECTANGLE] "Image" #966:42372 template=EL-16575c01
+      [FRAME] #966:42373 template=EL-d83f1529
+      [RECTANGLE] "Overlay" #966:42385 template=EL-4c29f32b
+      [FRAME] "Header" #966:42386 template=EL-2b64100a
+    [FRAME] "Навигация / О Luvr" #966:42428 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":7112,"y":1743},"dimensions":{"width":1440,"height":802}}
+      [FRAME] "Arrows" #966:42429 template=EL-8a7ae0d8
+      [RECTANGLE] "Image" #966:42438 template=EL-16575c01
+      [FRAME] #966:42439 template=EL-d83f1529
+      [RECTANGLE] "Overlay" #966:42451 template=EL-4c29f32b
+      [FRAME] "Header" #966:42452 template=EL-2b64100a
+    [FRAME] "Навигация / Поиск" #966:42499 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":2672,"y":3353},"dimensions":{"width":1440,"height":802}}
+      [FRAME] "Arrows" #966:42500 template=EL-8a7ae0d8
+      [RECTANGLE] "Image" #966:42509 template=EL-16575c01
+      [FRAME] #966:42510 template=EL-d83f1529
+      [RECTANGLE] "Overlay" #966:42522 template=EL-4c29f32b
+      [FRAME] "Header" #966:42523 layout=layout_f88dac9c fills=fill_658ab2fa strokes=fill_658ab2fa strokeWeight="0px 0px 1px"
+    [FRAME] "Навигация / Поиск" #966:42529 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":4152,"y":3353},"dimensions":{"width":1440,"height":802}}
+      [FRAME] "Arrows" #966:42530 template=EL-8a7ae0d8
+      [RECTANGLE] "Image" #966:42539 template=EL-16575c01
+      [FRAME] #966:42540 template=EL-d83f1529
+      [RECTANGLE] "Overlay" #966:42552 template=EL-4c29f32b
+      [FRAME] "Header" #966:42553 layout=layout_f88dac9c fills=fill_658ab2fa strokes=["rgba(0, 0, 0, 0.2)"] strokeWeight="0px 0px 1px"
+    [TEXT] #966:42572 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":2672,"y":433},"dimensions":{"width":1417,"height":136}} fills=fill_658ab2fa textStyle=style_6f999b2d text="Навигация / Категории"
+    [TEXT] #966:42573 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":2672,"y":3045},"dimensions":{"width":1144,"height":136}} fills=fill_658ab2fa textStyle=style_6f999b2d text="Навигация / Поиск"
+    [TEXT] #966:42574 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":2672,"y":4655},"dimensions":{"width":2078,"height":136}} fills=fill_658ab2fa textStyle=style_6f999b2d text="Навигация / Хедер после скролла"
+    [FRAME] "Каталог" #966:42575 layout={"mode":"column","alignItems":"center","sizing":{"horizontal":"fixed","vertical":"hug"},"locationRelativeToParent":{"x":11083,"y":5688},"dimensions":{"width":1440}} fills=fill_272d20b3
+      [INSTANCE] "Header" #966:42576 template=EL-6b472314
+      [FRAME] "Catalog" #966:42577 template=EL-4161d281
+      [FRAME] "Image" #966:42748 layout=layout_26e12d74 fills=[{"type":"IMAGE","imageRef":"a532f01d6d2a16be6d0561a5312694bd8f30413c","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}},{"type":"IMAGE","imageRef":"3588afd299632815815b682e49058927745484bf","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}}]
+      [INSTANCE] "Footer" #966:42753 template=EL-94cc377b
+    [FRAME] "Каталог / Фильтры Все" #966:42754 layout={"mode":"column","alignItems":"center","sizing":{"horizontal":"fixed","vertical":"fixed"},"locationRelativeToParent":{"x":12563,"y":741},"dimensions":{"width":1440,"height":1298}} fills=fill_272d20b3
+      [FRAME] "Catalog" #966:42755 template=EL-15a772ba
+      [INSTANCE] "Header" #966:42849 template=EL-44928c51
+      [FRAME] "Catalog" #966:42850 template=EL-4161d281
+      [INSTANCE] "Footer" #966:42893 template=EL-5fa5ebd3
+      [FRAME] #966:42894 layout={"mode":"none","sizing":{"horizontal":"fixed","vertical":"fixed"},"position":"absolute","locationRelativeToParent":{"x":0,"y":0},"dimensions":{"width":1440,"height":1417}} fills=fill_4cd5ff90
+    [FRAME] "Каталог / Фильтры на одном экране" #966:42996 layout={"mode":"column","alignItems":"center","sizing":{"horizontal":"fixed","vertical":"fixed"},"locationRelativeToParent":{"x":14043,"y":741},"dimensions":{"width":1440,"height":800}} fills=fill_272d20b3
+      [FRAME] "Catalog" #966:42997 template=EL-15a772ba
+      [INSTANCE] "Header" #966:43257 template=EL-44928c51
+      [FRAME] "Catalog" #966:43258 template=EL-4161d281
+      [INSTANCE] "Footer" #966:43301 template=EL-5fa5ebd3
+      [FRAME] #966:43302 template=EL-c9e012d9
+    [TEXT] #966:43403 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":11083,"y":5444},"dimensions":{"width":1318,"height":136}} fills=fill_658ab2fa textStyle=style_6f999b2d text="Каталог / Все бренды"
+    [TEXT] #966:43404 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":11083,"y":404},"dimensions":{"width":497,"height":136}} fills=fill_658ab2fa textStyle=style_6f999b2d text="Каталог "
+    [TEXT] #966:43405 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":16365,"y":360},"dimensions":{"width":1064,"height":136}} fills=fill_658ab2fa textStyle=style_6f999b2d text="Страница товара"
+    [TEXT] #966:43406 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":26455,"y":360},"dimensions":{"width":1240,"height":136}} fills=fill_658ab2fa textStyle=style_6f999b2d text="Оформление заказа"
+    [TEXT] #966:43407 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":16365,"y":4817},"dimensions":{"width":1279,"height":136}} fills=fill_658ab2fa textStyle=style_6f999b2d text="Страница товара 2.0"
+    [FRAME] "Страница товара" #966:43408 layout={"mode":"column","alignItems":"center","sizing":{"horizontal":"fixed","vertical":"hug"},"locationRelativeToParent":{"x":16365,"y":668},"dimensions":{"width":1440}} fills=fill_7ad30328
+      [INSTANCE] "Header" #966:43409 template=EL-6b472314
+      [FRAME] "Item Preview" #966:43410 template=EL-b2c2d069
+      [FRAME] "Same Collection" #966:43573 template=EL-89d9322e
+      [FRAME] "Designers" #966:43646 template=EL-cdd6e1b0
+      [FRAME] "Same Collection" #966:43670 template=EL-89d9322e
+      [FRAME] "Recently Viewed" #966:43741 template=EL-89d9322e
+      [INSTANCE] "Footer" #966:43812 template=EL-94cc377b
+    [FRAME] "Страница товара" #966:43813 layout={"mode":"column","alignItems":"center","sizing":{"horizontal":"fixed","vertical":"fixed"},"locationRelativeToParent":{"x":26455,"y":668},"dimensions":{"width":1440,"height":800}} fills=fill_7ad30328
+      [INSTANCE] "Header" #966:43814 template=EL-6b472314
+      [FRAME] "Item Preview" #966:43815 template=EL-b2c2d069
+      [FRAME] "Same Collection" #966:43978 template=EL-89d9322e
+      [FRAME] "Designers" #966:44051 template=EL-cdd6e1b0
+      [FRAME] "Same Collection" #966:44071 template=EL-89d9322e
+      [FRAME] "Recently Viewed" #966:44144 template=EL-89d9322e
+      [INSTANCE] "Footer" #966:44217 template=EL-94cc377b
+      [FRAME] #966:44218 template=EL-c9e012d9
+    [FRAME] "Страница товара" #966:44234 layout={"mode":"column","alignItems":"center","sizing":{"horizontal":"fixed","vertical":"fixed"},"locationRelativeToParent":{"x":28045,"y":668},"dimensions":{"width":1440,"height":800}} fills=fill_7ad30328
+      [INSTANCE] "Header" #966:44235 template=EL-6b472314
+      [FRAME] "Item Preview" #966:44236 template=EL-b2c2d069
+      [FRAME] "Same Collection" #966:44399 template=EL-89d9322e
+      [FRAME] "Designers" #966:44472 template=EL-cdd6e1b0
+      [FRAME] "Same Collection" #966:44492 template=EL-89d9322e
+      [FRAME] "Recently Viewed" #966:44565 template=EL-89d9322e
+      [INSTANCE] "Footer" #966:44638 template=EL-94cc377b
+      [FRAME] #966:44639 template=EL-c9e012d9
+    [FRAME] "Страница товара" #966:44655 layout={"mode":"column","alignItems":"center","sizing":{"horizontal":"fixed","vertical":"fixed"},"locationRelativeToParent":{"x":29635,"y":668},"dimensions":{"width":1440,"height":800}} fills=fill_7ad30328
+      [INSTANCE] "Header" #966:44656 template=EL-6b472314
+      [FRAME] "Item Preview" #966:44657 template=EL-b2c2d069
+      [FRAME] "Same Collection" #966:44820 template=EL-89d9322e
+      [FRAME] "Designers" #966:44893 template=EL-cdd6e1b0
+      [FRAME] "Same Collection" #966:44913 template=EL-89d9322e
+      [FRAME] "Recently Viewed" #966:44986 template=EL-89d9322e
+      [INSTANCE] "Footer" #966:45059 template=EL-94cc377b
+      [FRAME] #966:45060 template=EL-c9e012d9
+    [FRAME] "Страница товара" #966:45074 layout={"mode":"column","alignItems":"center","sizing":{"horizontal":"fixed","vertical":"hug"},"locationRelativeToParent":{"x":24215,"y":668},"dimensions":{"width":1440}} fills=fill_7ad30328
+      [INSTANCE] "Header" #966:45075 template=EL-6b472314
+      [FRAME] "Item Preview" #966:45076 template=EL-b2c2d069
+    [FRAME] "Страница товара" #966:45243 layout={"mode":"column","alignItems":"center","sizing":{"horizontal":"fixed","vertical":"hug"},"locationRelativeToParent":{"x":17955,"y":668},"dimensions":{"width":1440}} fills=fill_7ad30328
+      [INSTANCE] "Header" #966:45244 template=EL-6b472314
+      [FRAME] "Item Preview" #966:45245 template=EL-b2c2d069
+    [FRAME] "Страница товара" #966:45443 layout={"mode":"column","alignItems":"center","sizing":{"horizontal":"fixed","vertical":"hug"},"locationRelativeToParent":{"x":21035,"y":668},"dimensions":{"width":1440}} fills=fill_7ad30328
+      [INSTANCE] "Header" #966:45444 template=EL-6b472314
+      [FRAME] "Item Preview" #966:45445 template=EL-b2c2d069
+    [FRAME] "Страница товара" #966:45611 layout={"mode":"column","alignItems":"center","sizing":{"horizontal":"fixed","vertical":"hug"},"locationRelativeToParent":{"x":22625,"y":668},"dimensions":{"width":1440}} fills=fill_7ad30328
+      [INSTANCE] "Header" #966:45612 template=EL-6b472314
+      [FRAME] "Item Preview" #966:45613 template=EL-b2c2d069
+    [FRAME] "Страница товара / Об изделии" #966:45780 layout={"mode":"column","alignItems":"center","sizing":{"horizontal":"fixed","vertical":"fixed"},"locationRelativeToParent":{"x":19445,"y":668},"dimensions":{"width":1440,"height":1065}} fills=fill_658ab2fa
+      [FRAME] "Страница товара" #966:45781 template=EL-f287f31c
+      [INSTANCE] "Header" #966:46004 layout=layout_a5a855d3 fills=fill_7ad30328 strokes=fill_090ebe47 strokeWeight="0px 0px 1px" componentId=828:11933
+      [FRAME] "Item Preview" #966:46005 template=EL-b2c2d069
+      [FRAME] "Navigation" #966:46091 layout={"mode":"column","alignSelf":"stretch","padding":"70px 0px","gap":"32px","sizing":{"horizontal":"fill","vertical":"hug"}}
+      [FRAME] "Also like" #966:46133 template=EL-89d9322e
+      [FRAME] "Recently Viewed" #966:46192 template=EL-89d9322e
+      [INSTANCE] "Footer" #966:46251 template=EL-5fa5ebd3
+      [FRAME] #966:46252 layout={"mode":"none","sizing":{"horizontal":"fixed","vertical":"fixed"},"position":"absolute","locationRelativeToParent":{"x":0,"y":0},"dimensions":{"width":1440,"height":1099}} fills=fill_4cd5ff90
+    [FRAME] "Страница товара / В наличии" #966:46293 layout={"mode":"column","alignItems":"center","sizing":{"horizontal":"fixed","vertical":"hug"},"locationRelativeToParent":{"x":16365,"y":6082},"dimensions":{"width":1440}} fills=fill_7ad30328
+      [INSTANCE] "Header" #966:46294 template=EL-6b472314
+      [FRAME] "Item Preview" #966:46295 template=EL-98258daf
+      [FRAME] "Image" #966:46426 template=EL-1051dab4
+      [FRAME] #966:46431 template=EL-2dc438c6
+      [FRAME] "Same Collection" #966:46498 template=EL-89d9322e
+      [FRAME] "Designers" #966:46569 template=EL-cdd6e1b0
+      [FRAME] "Same Collection" #966:46593 template=EL-89d9322e
+      [FRAME] "Recently Viewed" #966:46664 template=EL-89d9322e
+      [INSTANCE] "Footer" #966:46735 template=EL-94cc377b
+    [FRAME] "Страница товара / Аккордеон" #966:46736 layout={"mode":"column","alignItems":"center","sizing":{"horizontal":"fixed","vertical":"hug"},"locationRelativeToParent":{"x":17845,"y":6082},"dimensions":{"width":1440}} fills=fill_7ad30328
+      [INSTANCE] "Header" #966:46737 template=EL-6b472314
+      [FRAME] "Item Preview" #966:46738 template=EL-98258daf
+      [FRAME] "Image" #966:46869 template=EL-1051dab4
+      [FRAME] #966:46874 template=EL-2dc438c6
+    [FRAME] "Страница товара /  Нет в наличии" #966:46948 layout={"mode":"column","alignItems":"center","sizing":{"horizontal":"fixed","vertical":"hug"},"locationRelativeToParent":{"x":19325,"y":6082},"dimensions":{"width":1440}} fills=fill_7ad30328
+      [INSTANCE] "Header" #966:46949 template=EL-6b472314
+      [FRAME] "Item Preview" #966:46950 template=EL-98258daf
+    [FRAME] "Страница товара / Под заказ" #966:47081 layout={"mode":"column","alignItems":"center","sizing":{"horizontal":"fixed","vertical":"hug"},"locationRelativeToParent":{"x":20805,"y":6082},"dimensions":{"width":1440}} fills=fill_7ad30328
+      [INSTANCE] "Header" #966:47082 template=EL-6b472314
+      [FRAME] "Item Preview" #966:47083 template=EL-98258daf
+    [FRAME] "Каталог" #966:47214 layout={"mode":"column","alignItems":"center","sizing":{"horizontal":"fixed","vertical":"hug"},"locationRelativeToParent":{"x":11083,"y":741},"dimensions":{"width":1440}} fills=fill_272d20b3
+      [FRAME] "Catalog" #966:47215 template=EL-15a772ba
+      [INSTANCE] "Footer" #966:47438 template=EL-94cc377b
+    [TEXT] #966:47439 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":31875,"y":428},"dimensions":{"width":1133,"height":136}} fills=fill_658ab2fa textStyle=style_6f999b2d text="Подарочная карта"
+    [FRAME] "Подарочная карта" #966:47440 layout={"mode":"column","alignItems":"center","sizing":{"horizontal":"fixed","vertical":"hug"},"locationRelativeToParent":{"x":31875,"y":736},"dimensions":{"width":1440}} fills=fill_7ad30328
+      [INSTANCE] "Header" #966:47441 template=EL-6b472314
+      [FRAME] "Title" #966:47442 template=EL-1e2d879d
+      [FRAME] "Gift Card" #966:47462 layout={"mode":"row","alignSelf":"stretch","padding":"0px 40px 70px","justifyContent":"space-between","sizing":{"horizontal":"fill","vertical":"fixed"},"dimensions":{"height":700}}
+      [FRAME] "FAQ" #966:47482 layout={"mode":"column","alignSelf":"stretch","padding":"70px 40px","alignItems":"center","gap":"24px","sizing":{"horizontal":"fill","vertical":"hug"}}
+      [INSTANCE] "Footer" #966:47554 template=EL-94cc377b
+    [FRAME] "Подарочная карта / Виртуальная" #966:47566 layout={"mode":"column","alignItems":"center","sizing":{"horizontal":"fixed","vertical":"hug"},"locationRelativeToParent":{"x":36315,"y":736},"dimensions":{"width":1440}} fills=fill_7ad30328
+      [INSTANCE] "Header" #966:47567 template=EL-6b472314
+      [FRAME] "Главная страница" #966:47568 layout=layout_023311a7 fills=fill_658ab2fa
+      [FRAME] #966:47577 template=EL-f8540e27
+      [INSTANCE] "Footer" #966:47641 template=EL-94cc377b
+    [FRAME] "Подарочная карта / Пластиковая" #966:47642 layout={"mode":"column","alignItems":"center","sizing":{"horizontal":"fixed","vertical":"hug"},"locationRelativeToParent":{"x":34835,"y":736},"dimensions":{"width":1440}} fills=fill_7ad30328
+      [INSTANCE] "Header" #966:47643 template=EL-6b472314
+      [FRAME] "Главная страница" #966:47644 layout=layout_023311a7 fills=fill_7ad30328
+      [FRAME] #966:47653 template=EL-f8540e27
+      [INSTANCE] "Footer" #966:47719 template=EL-94cc377b
+    [FRAME] "Подарочная карта / Условия" #966:47720 layout={"mode":"column","alignItems":"center","sizing":{"horizontal":"fixed","vertical":"fixed"},"locationRelativeToParent":{"x":33355,"y":736},"dimensions":{"width":1440,"height":800}} fills=fill_7ad30328
+      [FRAME] "Подарочная карта" #966:47721 template=EL-f287f31c
+      [RECTANGLE] "Overlay" #966:47844 layout={"mode":"none","sizing":{"horizontal":"fixed","vertical":"fixed"},"position":"absolute","locationRelativeToParent":{"x":0,"y":0},"dimensions":{"width":1440,"height":3152}} fills=fill_5db237a5
+      [FRAME] "Conditions Popup" #966:47845 layout={"mode":"column","padding":"32px","gap":"32px","sizing":{"horizontal":"fixed","vertical":"fixed"},"position":"absolute","locationRelativeToParent":{"x":1000,"y":0},"dimensions":{"width":440,"height":800}} fills=fill_7ad30328
+  [SECTION] "Дизайн / Информационные страницы" #966:47852 layout={"mode":"none","sizing":{},"dimensions":{"width":14490,"height":6355}} fills=fill_de39a2d0 strokes=fill_dbe29f28 strokeWeight=1px
+    [TEXT] #966:47853 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":534,"y":440},"dimensions":{"width":726,"height":136}} fills=fill_658ab2fa textStyle=style_6f999b2d text="О компании"
+    [TEXT] #966:47854 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":2774,"y":440},"dimensions":{"width":772,"height":136}} fills=fill_658ab2fa textStyle=style_6f999b2d text="Дизайнерам"
+    [TEXT] #966:47856 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":8642,"y":440},"dimensions":{"width":1141,"height":136}} fills=fill_658ab2fa textStyle=style_6f999b2d text="Доставка и оплата"
+    [TEXT] #966:47857 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":6402,"y":440},"dimensions":{"width":592,"height":136}} fills=fill_658ab2fa textStyle=style_6f999b2d text="Контакты"
+    [TEXT] #966:47858 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":10882,"y":440},"dimensions":{"width":590,"height":136}} fills=fill_658ab2fa textStyle=style_6f999b2d text="Вакансии"
+    [FRAME] "Дизайнерам" #966:47859 layout={"mode":"column","alignItems":"center","sizing":{"horizontal":"fixed","vertical":"hug"},"locationRelativeToParent":{"x":2774,"y":741},"dimensions":{"width":1440}} fills=fill_7ad30328
+      [INSTANCE] "Header" #966:47860 template=EL-6b472314
+      [FRAME] "Title" #966:47861 template=EL-1e2d879d
+      [RECTANGLE] "Image" #966:47882 layout=layout_f3b08d91 fills=[{"type":"IMAGE","imageRef":"200abcd69cb904674c1c480343718c332dae8179","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}},"#B0B0B0"]
+      [FRAME] "Categories" #966:47883 layout={"mode":"column","padding":"140px 40px 70px","alignItems":"center","gap":"32px","sizing":{"horizontal":"fixed","vertical":"hug"},"dimensions":{"width":1440}}
+      [FRAME] "Help" #966:47909 template=EL-75ecaf86
+      [FRAME] "Designers" #966:47928 template=EL-4e952ca1
+      [FRAME] "Originals" #966:47967 layout={"mode":"column","alignSelf":"stretch","padding":"70px 40px","alignItems":"flex-end","gap":"32px","sizing":{"horizontal":"fill","vertical":"hug"}}
+      [FRAME] "Image" #966:47999 layout=layout_26e12d74 fills=[{"type":"IMAGE","imageRef":"ae813a5d3843c46b585feec445aac620292beebe","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}},{"type":"IMAGE","imageRef":"3588afd299632815815b682e49058927745484bf","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}}]
+      [INSTANCE] "Footer" #966:48004 template=EL-94cc377b
+    [FRAME] "О компании" #966:48005 layout={"mode":"column","alignItems":"center","sizing":{"horizontal":"fixed","vertical":"hug"},"locationRelativeToParent":{"x":534,"y":741},"dimensions":{"width":1440}} fills=fill_7ad30328
+      [INSTANCE] "Header" #966:48006 template=EL-6b472314
+      [FRAME] "Title" #966:48007 template=EL-1e2d879d
+      [RECTANGLE] "Image" #966:48028 layout=layout_f3b08d91 fills=[{"type":"IMAGE","imageRef":"bd2bab0cee5b5f6541a39caade7e8528570a8295","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}},{"type":"IMAGE","imageRef":"200abcd69cb904674c1c480343718c332dae8179","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}},"#B0B0B0"]
+      [FRAME] "Categories" #966:48029 layout={"mode":"column","alignSelf":"stretch","padding":"140px 40px 70px","alignItems":"center","gap":"32px","sizing":{"horizontal":"fill","vertical":"hug"}}
+      [FRAME] "Help" #966:48065 template=EL-75ecaf86
+      [FRAME] "Originals" #966:48084 template=EL-89d9322e
+      [FRAME] "Image" #966:48131 template=EL-f7f62d35
+      [INSTANCE] "Footer" #966:48136 template=EL-94cc377b
+    [FRAME] "Дизайнерам / Hero 5" #966:48137 layout={"mode":"column","sizing":{"horizontal":"fixed","vertical":"hug"},"locationRelativeToParent":{"x":4254,"y":741},"dimensions":{"width":1440}} fills=fill_7ad30328
+      [INSTANCE] "Header" #966:48138 template=EL-6b472314
+      [FRAME] "Designers" #966:48139 layout={"mode":"row","alignSelf":"stretch","padding":"0px 0px 0px 40px","justifyContent":"center","gap":"12px","sizing":{"horizontal":"fill","vertical":"hug"}}
+    [FRAME] "Доставка и оплата" #966:48241 layout={"mode":"column","alignItems":"center","sizing":{"horizontal":"fixed","vertical":"hug"},"locationRelativeToParent":{"x":8642,"y":741},"dimensions":{"width":1440}} fills=fill_7ad30328
+      [INSTANCE] "Header" #966:48242 template=EL-6b472314
+      [FRAME] "Title" #966:48243 template=EL-1e2d879d
+      [FRAME] "Delivery" #966:48263 layout={"mode":"column","alignSelf":"stretch","padding":"0px 40px","alignItems":"center","gap":"32px","sizing":{"horizontal":"fill","vertical":"hug"}}
+      [FRAME] "In stock" #966:48272 template=EL-ce78c624
+      [FRAME] "Image" #966:48297 layout=layout_26e12d74 fills=[{"type":"IMAGE","imageRef":"6e7b408207da980f53569e61db687c9547a13257","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}},{"type":"IMAGE","imageRef":"667b801169c5c75a4c36b4311c13fb82702ad770","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}},{"type":"IMAGE","imageRef":"fe04c3a5f9a2123105ffc6584646292077d64c38","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}},{"type":"IMAGE","imageRef":"d7efa69716b386174b4b2db4bbef6d931bef1c89","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}},{"type":"IMAGE","imageRef":"3588afd299632815815b682e49058927745484bf","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}}]
+      [INSTANCE] "Footer" #966:48302 template=EL-94cc377b
+    [FRAME] "Контакты" #966:48303 layout={"mode":"column","alignItems":"center","sizing":{"horizontal":"fixed","vertical":"hug"},"locationRelativeToParent":{"x":6402,"y":741},"dimensions":{"width":1440}} fills=fill_7ad30328
+      [INSTANCE] "Header" #966:48304 template=EL-6b472314
+      [FRAME] "Title" #966:48305 template=EL-1e2d879d
+      [FRAME] "Contacts" #966:48324 layout={"mode":"column","padding":"0px 40px 70px","alignItems":"center","gap":"32px","sizing":{"horizontal":"fixed","vertical":"hug"},"dimensions":{"width":1440}} fills=fill_7ad30328
+      [FRAME] "Image" #966:48351 layout=layout_26e12d74 fills=[{"type":"GRADIENT_LINEAR","gradient":"linear-gradient(142deg, rgba(0, 0, 0, 0.3) 17%, rgba(0, 0, 0, 0) 64%)"},{"type":"IMAGE","imageRef":"8140187d7434deb0949af7fc1b0dd918d1b1971f","scaleMode":"STRETCH","objectFit":"fill","isBackground":false,"imageDownloadArguments":{"needsCropping":true,"requiresImageDimensions":false,"cropTransform":[[0.9068757891654968,0,-6.443740042282519e-15],[0,0.3018002212047577,0.2503964900970459]],"filenameSuffix":"2fcee5"}},{"type":"IMAGE","imageRef":"013d49a8edd78e5ec3ad22e6534d313e56c35c80","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}},{"type":"IMAGE","imageRef":"667b801169c5c75a4c36b4311c13fb82702ad770","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}},{"type":"IMAGE","imageRef":"fe04c3a5f9a2123105ffc6584646292077d64c38","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}},{"type":"IMAGE","imageRef":"d7efa69716b386174b4b2db4bbef6d931bef1c89","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}},{"type":"IMAGE","imageRef":"3588afd299632815815b682e49058927745484bf","scaleMode":"FILL","objectFit":"cover","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}}]
+      [INSTANCE] "Footer" #966:48356 template=EL-94cc377b
+    [FRAME] "Вакансии" #966:48357 layout={"mode":"column","alignItems":"center","sizing":{"horizontal":"fixed","vertical":"hug"},"locationRelativeToParent":{"x":10882,"y":741},"dimensions":{"width":1440}} fills=fill_7ad30328
+      [INSTANCE] "Header" #966:48358 template=EL-6b472314
+      [FRAME] "Title" #966:48359 template=EL-1e2d879d
+      [FRAME] "Delivery" #966:48379 layout={"mode":"column","alignSelf":"stretch","padding":"0px 40px 70px","alignItems":"center","gap":"32px","sizing":{"horizontal":"fill","vertical":"hug"}}
+      [FRAME] "Image" #966:48387 template=EL-9755d695
+      [INSTANCE] "Footer" #966:48396 template=EL-94cc377b
+    [FRAME] "Вакансии" #966:48397 layout={"mode":"column","alignItems":"center","sizing":{"horizontal":"fixed","vertical":"hug"},"locationRelativeToParent":{"x":12516,"y":741},"dimensions":{"width":1440}} fills=fill_7ad30328
+      [INSTANCE] "Header" #966:48398 template=EL-6b472314
+      [FRAME] "Title" #966:48399 template=EL-1e2d879d
+      [FRAME] #966:48423 layout={"mode":"row","padding":"0px 0px 70px","gap":"20px","sizing":{"horizontal":"hug","vertical":"hug"}}
+      [FRAME] "Image" #966:48434 template=EL-9755d695
+      [INSTANCE] "Footer" #966:48443 template=EL-94cc377b
+  [SECTION] "Дизайн / Избранное" #966:48444 layout={"mode":"none","sizing":{},"dimensions":{"width":12529,"height":2945}} fills=fill_de39a2d0 strokes=fill_dbe29f28 strokeWeight=1px
+    [FRAME] "Избранное  / Все подборки" #966:48445 layout={"mode":"column","sizing":{"horizontal":"hug","vertical":"hug"},"locationRelativeToParent":{"x":1675,"y":432}}
+      [INSTANCE] "Header" #966:48446 template=EL-6b472314
+      [FRAME] "Title" #966:48447 template=EL-5ff084d6
+      [FRAME] #966:48466 template=EL-c4e48f56
+      [INSTANCE] "Footer" #966:48515 template=EL-94cc377b
+    [FRAME] "Избранное / Подборка" #966:48516 layout={"mode":"column","sizing":{"horizontal":"fixed","vertical":"hug"},"locationRelativeToParent":{"x":3155,"y":432},"dimensions":{"width":1440}}
+      [INSTANCE] "Header" #966:48517 template=EL-6b472314
+      [FRAME] "Главная страница" #966:48518 layout={"mode":"column","padding":"30px 40px","gap":"10px","sizing":{"horizontal":"fixed","vertical":"hug"},"dimensions":{"width":1440}} fills=fill_658ab2fa
+      [FRAME] #966:48530 template=EL-c4e48f56
+      [INSTANCE] "Footer" #966:48598 template=EL-94cc377b
+    [FRAME] "Избранное / Все сохраненные товары" #966:48599 layout={"mode":"column","sizing":{"horizontal":"hug","vertical":"hug"},"locationRelativeToParent":{"x":195,"y":432}}
+      [INSTANCE] "Header" #966:48600 template=EL-6b472314
+      [FRAME] "Title" #966:48601 template=EL-5ff084d6
+      [FRAME] #966:48620 template=EL-c4e48f56
+      [INSTANCE] "Footer" #966:48688 template=EL-94cc377b
+    [TEXT] #966:48689 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":195,"y":187},"dimensions":{"width":536,"height":106}} fills=fill_658ab2fa textStyle=style_70acd44d text="Избранное"
+    [TEXT] #966:48690 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":5358,"y":187},"dimensions":{"width":957,"height":106}} fills=fill_658ab2fa textStyle=style_70acd44d text="Добавление товара"
+    [TEXT] #966:48691 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":9078,"y":187},"dimensions":{"width":964,"height":106}} fills=fill_658ab2fa textStyle=style_70acd44d text="Создание подборки"
+    [FRAME] "Избранное / Добавление товара" #966:48692 layout={"mode":"column","alignItems":"center","sizing":{"horizontal":"fixed","vertical":"fixed"},"locationRelativeToParent":{"x":5358,"y":432},"dimensions":{"width":1440,"height":800}} fills=fill_658ab2fa
+      [FRAME] "Избранное / Все сохраненные товары" #966:48693 template=EL-2f9fe287
+      [INSTANCE] "Header" #966:48775 template=EL-44928c51
+      [FRAME] "Catalog" #966:48776 template=EL-4161d281
+      [INSTANCE] "Footer" #966:48819 template=EL-5fa5ebd3
+      [FRAME] #966:48820 template=EL-c9e012d9
+    [FRAME] "Избранное / Добавление товара / Нет созданных подборок" #966:48841 layout={"mode":"column","alignItems":"center","sizing":{"horizontal":"fixed","vertical":"fixed"},"locationRelativeToParent":{"x":9078,"y":1421},"dimensions":{"width":1440,"height":800}} fills=fill_658ab2fa
+      [FRAME] "Избранное / Все сохраненные товары" #966:48842 template=EL-2f9fe287
+      [INSTANCE] "Header" #966:48924 template=EL-44928c51
+      [FRAME] "Catalog" #966:48925 template=EL-4161d281
+      [INSTANCE] "Footer" #966:48968 template=EL-5fa5ebd3
+      [RECTANGLE] "Overlay" #966:48969 template=EL-dfbceab7
+      [FRAME] "Filters" #966:48970 layout={"mode":"column","justifyContent":"space-between","sizing":{"horizontal":"fixed","vertical":"fixed"},"position":"absolute","locationRelativeToParent":{"x":500,"y":186},"dimensions":{"width":440,"height":427}} fills=fill_c48813f8
+    [FRAME] "Избранное / Добавление товара" #966:48984 layout={"mode":"column","alignItems":"center","sizing":{"horizontal":"fixed","vertical":"fixed"},"locationRelativeToParent":{"x":6838,"y":432},"dimensions":{"width":1440,"height":800}} fills=fill_658ab2fa
+      [FRAME] "Избранное / Все сохраненные товары" #966:48985 template=EL-2f9fe287
+      [INSTANCE] "Header" #966:49067 template=EL-44928c51
+      [FRAME] "Catalog" #966:49068 template=EL-4161d281
+      [INSTANCE] "Footer" #966:49111 template=EL-5fa5ebd3
+      [RECTANGLE] "Overlay" #966:49112 layout=layout_2fc956d7 fills=fill_4cd5ff90
+      [FRAME] "Filters" #966:49113 template=EL-6a3fff57
+      [RECTANGLE] "image 1271224189" #966:49134 layout={"mode":"none","sizing":{"horizontal":"fixed","vertical":"fixed"},"position":"absolute","locationRelativeToParent":{"x":758,"y":391},"dimensions":{"width":43,"height":43}} fills=fill_1e5e4c72
+    [FRAME] "Избранное / Создание подборки / Есть подборки" #966:49135 layout={"mode":"column","alignItems":"center","sizing":{"horizontal":"fixed","vertical":"fixed"},"locationRelativeToParent":{"x":9078,"y":432},"dimensions":{"width":1440,"height":800}} fills=fill_658ab2fa
+      [FRAME] "Избранное / Все сохраненные товары" #966:49136 template=EL-2f9fe287
+      [INSTANCE] "Header" #966:49218 template=EL-44928c51
+      [FRAME] "Catalog" #966:49219 template=EL-4161d281
+      [INSTANCE] "Footer" #966:49262 template=EL-5fa5ebd3
+      [RECTANGLE] "Overlay" #966:49263 template=EL-dfbceab7
+      [FRAME] "Filters" #966:49264 template=EL-6a3fff57
+    [FRAME] "Избранное / Создание подборки" #966:49284 layout={"mode":"column","alignItems":"center","sizing":{"horizontal":"fixed","vertical":"fixed"},"locationRelativeToParent":{"x":10558,"y":432},"dimensions":{"width":1440,"height":800}} fills=fill_658ab2fa
+      [FRAME] "Избранное / Все сохраненные товары" #966:49285 template=EL-2f9fe287
+      [INSTANCE] "Header" #966:49367 template=EL-44928c51
+      [FRAME] "Catalog" #966:49368 template=EL-4161d281
+      [INSTANCE] "Footer" #966:49411 template=EL-5fa5ebd3
+      [RECTANGLE] "Overlay" #966:49412 template=EL-dfbceab7
+      [FRAME] "Filters" #966:49413 layout={"mode":"column","sizing":{"horizontal":"fixed","vertical":"hug"},"position":"absolute","locationRelativeToParent":{"x":500,"y":254.5},"dimensions":{"width":440}} fills=fill_c48813f8
+    [RECTANGLE] "image 1271224189" #966:49429 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":9878,"y":980},"dimensions":{"width":43,"height":43}} fills=fill_1e5e4c72
+  [FRAME] #966:49430 layout={"mode":"none","sizing":{},"dimensions":{"width":1440,"height":800}} fills=fill_4cd5ff90
+    [FRAME] "Filters" #966:49431 layout={"mode":"column","alignItems":"stretch","sizing":{"horizontal":"fixed","vertical":"hug"},"locationRelativeToParent":{"x":470,"y":163},"dimensions":{"width":500}} fills=fill_7ad30328
+      [FRAME] "Content" #966:49432 layout={"mode":"column","alignSelf":"stretch","padding":"32px 32px 0px","gap":"28px","sizing":{"horizontal":"fill","vertical":"hug"}}
+      [FRAME] "Buttons" #966:49441 layout={"mode":"column","alignSelf":"stretch","padding":"24px 32px 32px","gap":"8px","sizing":{"horizontal":"fill","vertical":"hug"}} fills=fill_7ad30328
+    [IMAGE-SVG] "Icon Close" #966:49444 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":1362.5,"y":40},"dimensions":{"width":37,"height":37}} fills=fill_97d170e1
+  [SECTION] "Дизайн / Блог" #966:49446 layout={"mode":"none","sizing":{},"dimensions":{"width":4889,"height":6355}} fills=fill_de39a2d0 strokes=fill_dbe29f28 strokeWeight=1px
+    [TEXT] #966:49447 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":534,"y":440},"dimensions":{"width":293,"height":136}} fills=fill_658ab2fa textStyle=style_6f999b2d text="Блог"
+    [TEXT] #966:49448 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":2774,"y":440},"dimensions":{"width":438,"height":136}} fills=fill_658ab2fa textStyle=style_6f999b2d text="Статья"
+    [FRAME] "Блог" #966:49449 layout={"mode":"column","alignItems":"center","sizing":{"horizontal":"fixed","vertical":"hug"},"locationRelativeToParent":{"x":534,"y":723},"dimensions":{"width":1440}} fills=fill_7ad30328
+      [INSTANCE] "Header" #966:49450 template=EL-6b472314
+      [FRAME] "Title" #966:49451 template=EL-1e2d879d
+      [FRAME] "Content" #966:49470 template=EL-15a772ba
+      [FRAME] "Image" #966:49515 template=EL-6c4f0121
+      [INSTANCE] "Footer" #966:49520 template=EL-94cc377b
+    [FRAME] "Блог" #966:49521 layout={"mode":"column","alignItems":"center","sizing":{"horizontal":"fixed","vertical":"hug"},"locationRelativeToParent":{"x":2774,"y":723},"dimensions":{"width":1440}} fills=fill_7ad30328
+      [INSTANCE] "Header" #966:49522 template=EL-6b472314
+      [FRAME] "Title" #966:49523 template=EL-1e2d879d
+      [FRAME] #966:49544 layout={"mode":"column","alignSelf":"stretch","padding":"0px 268px 70px","alignItems":"center","gap":"28px","sizing":{"horizontal":"fill","vertical":"hug"}}
+      [FRAME] "Image" #966:49565 template=EL-6c4f0121
+      [INSTANCE] "Footer" #966:49570 template=EL-94cc377b
+  [SECTION] "Регистрация / Авторизация" #966:49571 layout={"mode":"none","sizing":{},"dimensions":{"width":6911,"height":4973}} fills=fill_a8e1f6d9 strokes=fill_dbe29f28 strokeWeight=1px
+    [SECTION] "Регистрация" #966:49572 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":250,"y":250},"dimensions":{"width":6410,"height":2025}} fills=fill_dd7f3e3e strokes=fill_dbe29f28 strokeWeight=1px
+      [FRAME] "Категория товаров" #966:49573 template=EL-088838df
+      [FRAME] "Категория товаров" #966:49600 template=EL-5434280e
+      [FRAME] "Категория товаров" #966:49627 layout={"mode":"row","justifyContent":"center","alignItems":"center","sizing":{"horizontal":"fixed","vertical":"fixed"},"locationRelativeToParent":{"x":4870,"y":1125},"dimensions":{"width":1440,"height":800}} fills=fill_b92dd999
+      [FRAME] "Категория товаров" #966:49653 layout={"mode":"row","justifyContent":"center","alignItems":"center","sizing":{"horizontal":"fixed","vertical":"fixed"},"locationRelativeToParent":{"x":100,"y":1125},"dimensions":{"width":1440,"height":800}} fills=fill_b92dd999
+      [FRAME] "Категория товаров" #966:49680 layout={"mode":"row","justifyContent":"center","alignItems":"center","sizing":{"horizontal":"fixed","vertical":"fixed"},"locationRelativeToParent":{"x":1690,"y":1125},"dimensions":{"width":1440,"height":800}} fills=fill_b92dd999
+      [FRAME] "Категория товаров" #966:49706 layout={"mode":"row","justifyContent":"center","alignItems":"center","sizing":{"horizontal":"fixed","vertical":"fixed"},"locationRelativeToParent":{"x":3280,"y":1125},"dimensions":{"width":1440,"height":800}} fills=fill_b92dd999
+    [SECTION] "Забыли пароль" #966:49732 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":250,"y":3723},"dimensions":{"width":4821,"height":1000}} fills=fill_dd7f3e3e strokes=fill_dbe29f28 strokeWeight=1px
+      [FRAME] "Категория товаров" #966:49733 layout={"mode":"row","justifyContent":"center","alignItems":"center","sizing":{"horizontal":"fixed","vertical":"fixed"},"locationRelativeToParent":{"x":100.5,"y":100},"dimensions":{"width":1440,"height":800}} fills=fill_b92dd999
+      [FRAME] "Категория товаров" #966:49758 layout={"mode":"row","justifyContent":"center","alignItems":"center","sizing":{"horizontal":"fixed","vertical":"fixed"},"locationRelativeToParent":{"x":1690.5,"y":100},"dimensions":{"width":1440,"height":800}} fills=fill_b92dd999
+      [FRAME] "Категория товаров" #966:49783 layout={"mode":"row","justifyContent":"center","alignItems":"center","sizing":{"horizontal":"fixed","vertical":"fixed"},"locationRelativeToParent":{"x":3280.5,"y":100},"dimensions":{"width":1440,"height":800}} fills=fill_b92dd999
+    [SECTION] "Авторизация" #966:49808 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":250,"y":2499},"dimensions":{"width":6410,"height":1000}} fills=fill_dd7f3e3e strokes=fill_dbe29f28 strokeWeight=1px
+      [FRAME] "Категория товаров" #966:49809 template=EL-088838df
+      [FRAME] "Категория товаров" #966:49833 template=EL-5434280e
+      [FRAME] "Категория товаров" #966:49857 layout={"mode":"row","justifyContent":"center","alignItems":"center","sizing":{"horizontal":"fixed","vertical":"fixed"},"locationRelativeToParent":{"x":3280,"y":100},"dimensions":{"width":1440,"height":800}} fills=fill_b92dd999
+      [FRAME] "Категория товаров" #966:49881 layout={"mode":"row","justifyContent":"center","alignItems":"center","sizing":{"horizontal":"fixed","vertical":"fixed"},"locationRelativeToParent":{"x":4870,"y":100},"dimensions":{"width":1440,"height":800}} fills=fill_b92dd999
+    [FRAME] "Главная" #966:49905 layout={"mode":"column","alignItems":"center","sizing":{"horizontal":"fixed","vertical":"fixed"},"locationRelativeToParent":{"x":3530,"y":350},"dimensions":{"width":1440,"height":800}} fills=fill_272d20b3
+      [FRAME] "Hero" #966:49906 template=EL-f54da08f
+      [FRAME] "About" #966:49970 template=EL-3de4ac06
+      [FRAME] "Gifts" #966:49997 template=EL-5b5dec48
+      [FRAME] "In stock" #966:50012 template=EL-ce78c624
+      [FRAME] "Categories" #966:50025 template=EL-89d9322e
+      [FRAME] "Popular Items" #966:50047 template=EL-58a296aa
+      [FRAME] "Popular Brands" #966:50065 template=EL-58a296aa
+      [FRAME] "Designers" #966:50093 template=EL-ec36b7eb
+      [FRAME] "Blog" #966:50105 template=EL-89d9322e
+      [FRAME] "CTA" #966:50138 template=EL-95610d40
+      [FRAME] "Contacts" #966:50144 template=EL-4e952ca1
+      [INSTANCE] "Footer" #966:50167 layout=layout_701e7b76 fills=fill_7ad30328 componentId=828:11843
+      [FRAME] "Modal - Cookies" #966:50168 layout={"mode":"column","padding":"24px 12px","justifyContent":"center","alignItems":"center","sizing":{"horizontal":"fixed","vertical":"fixed"},"position":"absolute","locationRelativeToParent":{"x":0,"y":0},"dimensions":{"width":1440,"height":800}} fills=fill_4cd5ff90
+  [FRAME] #966:50180 layout={"mode":"column","gap":"16px","sizing":{"horizontal":"fixed","vertical":"hug"},"dimensions":{"width":520}}
+  [FRAME] #966:50181 layout={"mode":"column","alignItems":"stretch","gap":"8px","sizing":{"horizontal":"fixed","vertical":"hug"},"dimensions":{"width":520}}
+    [INSTANCE] "Input-password" #966:50182 template=EL-311ab1ca
+      [FRAME] "Frame" #I966:50182;509:94127 template=EL-fe25f119
+    [INSTANCE] "Input-password" #966:50183 template=EL-311ab1ca
+      [FRAME] "Frame" #I966:50183;509:94127 template=EL-fe25f119

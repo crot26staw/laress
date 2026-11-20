@@ -151,3 +151,41 @@
 .search__match {
   color: var(--color-black);
 }
+
+/* Планшет — «Навигация / Поиск» 1319:34502, 1323:43113: поле на всю ширину, подсказки 14px.
+   Крестик в адаптивных фреймах вынесен за край кадра (остался от десктопа) — ставим справа на уровне логотипа. */
+@media (max-width: 1279.98px) {
+  .search__inner {
+    gap: 17px;
+    padding: 16px var(--gutter) 24px;
+  }
+
+  .search__close {
+    top: 17px;
+  }
+
+  .search__form {
+    gap: 20px;
+    padding-inline: 0;
+  }
+
+  .search__suggestion {
+    font-size: var(--font-size-14);
+  }
+}
+
+/* Мобильная — 1319:34487, 1323:43090: монограмма вместо логотипа, отступы 8/16/20 */
+@media (max-width: 767.98px) {
+  .search__inner {
+    gap: 12px;
+    padding: 8px var(--gutter) 20px;
+  }
+
+  .search__logo-image {
+    width: 37.06px;
+  }
+
+  .search__close {
+    top: 9px;
+  }
+}

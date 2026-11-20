@@ -29,3 +29,23 @@
   line-height: var(--line-height-snug);
   color: var(--color-text-90);
 }
+
+/* Планшет: подзаголовок 16/1.25 (Tablet/Text/T2) */
+@media (max-width: 1279.98px) {
+  .section-heading__text {
+    font-size: var(--font-size-16);
+  }
+}
+
+/* Мобильная: орнамент — заголовок 16px, подзаголовок 14/1.25 на всю ширину */
+@media (max-width: 767.98px) {
+  .section-heading {
+    gap: var(--space-16);
+  }
+
+  .section-heading__text {
+    max-width: none;
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+  }
+}

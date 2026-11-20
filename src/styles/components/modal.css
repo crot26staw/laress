@@ -324,3 +324,152 @@
 .favorites-modal__actions--form {
   padding-top: var(--space-8);
 }
+
+/* «Оформление заказа» (order-modal), планшет (1356:49676, 1356:51001, 1357:51628): та же панель 500 по центру.
+   Форма: отступы 28, заголовок 22, поля 56 через 10, согласие 12/1.3 с квадратом 20 на всю ширину, кнопка 56.
+   Успех: отступы 32 сверху и по бокам, текст 14/1.25. Крестика в адаптивных фреймах нет (остался на месте десктопного, за кадром) — оставляем как на десктопе. */
+@media (max-width: 1279.98px) {
+  .modal--sheet .modal__content {
+    align-items: center;
+    gap: var(--space-24);
+    padding: var(--space-28) var(--space-28) 0;
+  }
+
+  .modal--sheet .modal__content--center {
+    padding: var(--space-32) var(--space-32) 0;
+  }
+
+  .modal--sheet .modal__title {
+    font-size: 22px;
+  }
+
+  .modal--sheet .modal__form {
+    align-self: stretch;
+  }
+
+  .modal--sheet .field {
+    height: 56px;
+  }
+
+  .modal--sheet .field--float {
+    gap: 1px;
+  }
+
+  /* Пустое поле: в Figma подпись на 2.4px ниже центра (внутренний фрейм 36px с отступом 10 сверху) */
+  .modal--sheet .field--float:has(.field__input:placeholder-shown:not(:focus)) .field__label {
+    transform: translateY(calc(-50% + 2.4px));
+  }
+
+  .modal--sheet .modal__consent {
+    gap: 10px;
+    width: auto;
+  }
+
+  .modal--sheet .checkbox__input {
+    width: 20px;
+    height: 20px;
+  }
+
+  .modal--sheet .checkbox__label {
+    font-size: var(--font-size-12);
+  }
+
+  .modal--sheet .modal__actions {
+    padding: var(--space-24) var(--space-28) var(--space-28);
+  }
+
+  .modal--sheet .modal__button {
+    height: 56px;
+  }
+
+  .modal--sheet .modal__text {
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-snug);
+  }
+}
+
+/* Мобильная (1356:49831, 1356:50732, 1357:51359): шторка снизу 375×573 на всю ширину, кнопка прижата к низу.
+   Отступы 28/16 (форма) и 32 (успех), снизу 20/16/24; поля — 14/1.25, согласие 276px; заголовок успеха 20. */
+@media (max-width: 767.98px) {
+  .modal--sheet {
+    padding: 0;
+  }
+
+  .modal--sheet[open] {
+    align-items: flex-end;
+    animation-name: modal-slide-up;
+  }
+
+  /* Крестика в макете нет — ставим над шторкой у правого края (в углу экрана он ложится на корзину в шапке).
+     Шторка не выше экрана минус 64px, чтобы крестику всегда было место. */
+  .modal--sheet .modal__close {
+    top: auto;
+    right: var(--space-16);
+    bottom: calc(min(573px, 100% - 64px) + var(--space-12));
+  }
+
+  .modal--sheet .modal__panel {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 573px;
+    max-height: calc(100% - 64px);
+    margin: 0;
+    overflow-y: auto;
+  }
+
+  .modal--sheet .modal__view:not([hidden]) {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+  }
+
+  .modal--sheet .modal__content {
+    flex: 1;
+    padding: var(--space-28) var(--space-16) 0;
+  }
+
+  .modal--sheet .modal__content--center {
+    padding: var(--space-32) var(--space-32) 0;
+  }
+
+  .modal--sheet .modal__title--success {
+    font-size: 20px;
+  }
+
+  .modal--sheet .modal__content--center .modal__text-group {
+    gap: 10px;
+  }
+
+  .modal--sheet .field--float {
+    gap: var(--space-2);
+  }
+
+  .modal--sheet .field__input,
+  .modal--sheet .field--float:has(.field__input:placeholder-shown:not(:focus)) .field__label {
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-snug);
+  }
+
+  .modal--sheet .field--float:has(.field__input:placeholder-shown:not(:focus)) .field__label {
+    transform: translateY(-50%);
+  }
+
+  .modal--sheet .modal__consent {
+    width: 276px;
+  }
+
+  .modal--sheet .modal__actions {
+    padding: var(--space-20) var(--space-16) var(--space-24);
+  }
+
+  .modal--sheet .modal__button {
+    font-size: var(--font-size-14);
+  }
+}
+
+@keyframes modal-slide-up {
+  from {
+    transform: translateY(100%);
+  }
+}

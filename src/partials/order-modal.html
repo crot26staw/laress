@@ -1,8 +1,9 @@
 <!-- Модалка «Оформление заказа» на странице товара: форма — 966:44219 (пустая, 966:43813) / 966:44640 (заполненная, 966:44234),
-     успех — 966:45061 (966:44655). Параметр submit — текст кнопки отправки («Оформить заказ» / «Оформить предзаказ»).
+     успех — 966:45061 (966:44655); планшет 1356:49676 / 1356:51001 / 1357:51628, мобильная (шторка снизу) 1356:49831 / 1356:50732 / 1357:51359.
+     Параметры: title — заголовок («Оформление заказа» / «Оформление предзаказа»), submit — текст кнопки отправки («Оформить заказ» / «Оформить предзаказ»).
      Открывается кнопкой [data-dialog-open="order-modal"]. Станет template-parts/order-modal.php, форма — Contact Form 7:
      экран успеха показывать по событию wpcf7mailsent (сейчас — по submit, см. scripts/modules/order-modal.js). -->
-<dialog class="modal" id="order-modal" aria-labelledby="order-modal-title" data-order-modal>
+<dialog class="modal modal--sheet" id="order-modal" aria-labelledby="order-modal-title" data-order-modal>
   <button class="modal__close" type="button" aria-label="Закрыть" data-dialog-close>
     <svg width="37" height="37" viewBox="0 0 32 32" fill="none" aria-hidden="true">
       <path d="M8 8L16 16M16 16L24 24M16 16L24 8M16 16L8 24" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" />
@@ -12,7 +13,7 @@
   <div class="modal__panel" data-dialog-panel>
     <form class="modal__view" action="" method="post" data-order-form>
       <div class="modal__content">
-        <h2 class="modal__title" id="order-modal-title">Оформление заказа</h2>
+        <h2 class="modal__title" id="order-modal-title">{{title}}</h2>
         <div class="modal__form">
           <div class="modal__fields">
             <label class="field field--float">
@@ -45,7 +46,7 @@
           <svg width="48" height="48" viewBox="0 0 24 24" fill="none"><path d="M18.0292 7.97032C18.1696 8.11094 18.2485 8.30157 18.2485 8.50032C18.2485 8.69907 18.1696 8.88969 18.0292 9.03032L11.0292 16.0303C10.8886 16.1708 10.6979 16.2497 10.4992 16.2497C10.3004 16.2497 10.1098 16.1708 9.96918 16.0303L5.96918 12.0303C5.89549 11.9617 5.83639 11.8789 5.7954 11.7869C5.7544 11.6949 5.73236 11.5955 5.73059 11.4948C5.72881 11.3941 5.74733 11.2941 5.78505 11.2007C5.82278 11.1073 5.87892 11.0225 5.95014 10.9513C6.02136 10.8801 6.10619 10.8239 6.19958 10.7862C6.29297 10.7485 6.393 10.7299 6.4937 10.7317C6.5944 10.7335 6.69372 10.7555 6.78571 10.7965C6.87771 10.8375 6.96052 10.8966 7.02918 10.9703L10.4992 14.4403L16.9692 7.97032C17.1098 7.82987 17.3004 7.75098 17.4992 7.75098C17.6979 7.75098 17.8886 7.82987 18.0292 7.97032Z" fill-rule="evenodd" clip-rule="evenodd" fill="currentColor" /></svg>
         </span>
         <div class="modal__text-group">
-          <p class="modal__title" role="status">Заказ успешно оформлен</p>
+          <p class="modal__title modal__title--success" role="status">Заказ успешно оформлен</p>
           <p class="modal__text">Наш менеджер скоро свяжется с&nbsp;вами для уточнения деталей</p>
         </div>
       </div>

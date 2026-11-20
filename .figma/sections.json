@@ -1381,6 +1381,39 @@
         "refY": 0,
         "refH": 1024,
         "viewportH": 1024
+      },
+      {
+        "name": "order-modal",
+        "ref": ".figma/screenshots/checkout-modal-empty-tablet_1356-49676.png",
+        "eval": "document.getElementById('order-modal').showModal(); document.activeElement.blur()",
+        "refY": 303,
+        "refH": 417,
+        "viewportH": 1024,
+        "y": 303,
+        "refX": 134,
+        "refW": 500
+      },
+      {
+        "name": "order-modal-filled",
+        "ref": ".figma/screenshots/checkout-modal-filled-tablet_1356-51001.png",
+        "eval": "document.getElementById('order-modal').showModal(); document.activeElement.blur(); const d = document.getElementById('order-modal'); const v = ['Никита', '+7 (911) 111-11-11', 'ivanovivam@mail.ru']; d.querySelectorAll('.field__input').forEach((i, k) => (i.value = v[k])); d.querySelector('.checkbox__input').checked = true",
+        "refY": 303,
+        "refH": 417,
+        "viewportH": 1024,
+        "y": 303,
+        "refX": 134,
+        "refW": 500
+      },
+      {
+        "name": "order-success",
+        "ref": ".figma/screenshots/checkout-success-tablet_1357-51628.png",
+        "eval": "document.getElementById('order-modal').showModal(); document.activeElement.blur(); document.querySelector('[data-order-form]').hidden = true; document.querySelector('[data-order-success]').hidden = false",
+        "refY": 358,
+        "refH": 306,
+        "viewportH": 1024,
+        "y": 358,
+        "refX": 134,
+        "refW": 500
       }
     ]
   },
@@ -1445,6 +1478,33 @@
         "refY": 0,
         "refH": 812,
         "viewportH": 812
+      },
+      {
+        "name": "order-modal",
+        "ref": ".figma/screenshots/checkout-modal-empty-mobile_1356-49831.png",
+        "eval": "document.getElementById('order-modal').showModal(); document.activeElement.blur()",
+        "refY": 239,
+        "refH": 573,
+        "viewportH": 812,
+        "y": 239
+      },
+      {
+        "name": "order-modal-filled",
+        "ref": ".figma/screenshots/checkout-modal-filled-mobile_1356-50732.png",
+        "eval": "document.getElementById('order-modal').showModal(); document.activeElement.blur(); const d = document.getElementById('order-modal'); const v = ['Никита', '+7 (911) 111-11-11', 'ivanovivam@mail.ru']; d.querySelectorAll('.field__input').forEach((i, k) => (i.value = v[k])); d.querySelector('.checkbox__input').checked = true",
+        "refY": 239,
+        "refH": 573,
+        "viewportH": 812,
+        "y": 239
+      },
+      {
+        "name": "order-success",
+        "ref": ".figma/screenshots/checkout-success-mobile_1357-51359.png",
+        "eval": "document.getElementById('order-modal').showModal(); document.activeElement.blur(); document.querySelector('[data-order-form]').hidden = true; document.querySelector('[data-order-success]').hidden = false",
+        "refY": 239,
+        "refH": 573,
+        "viewportH": 812,
+        "y": 239
       }
     ]
   },

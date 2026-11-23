@@ -96,3 +96,203 @@
   height: 720px;
   object-fit: cover;
 }
+
+/* 1400:21616 — карточки в две колонки, фото оплаты на всю ширину. */
+@media (max-width: 1279.98px) {
+  .delivery-page .text-h2 {
+    line-height: 32px;
+  }
+
+  .delivery-page .text-h3 {
+    line-height: 23px;
+  }
+
+  .delivery-page .page-intro__body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-12);
+  }
+
+  .delivery-page .page-intro__text {
+    max-width: 443.71px;
+  }
+
+  .delivery-page .page-intro__text,
+  .delivery-page .info-card__text,
+  .delivery-page .info-card__list,
+  .payment__qr-caption {
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+  }
+
+  .delivery__cards {
+    gap: var(--space-12);
+  }
+
+  .delivery__cards > .info-card,
+  .payment .info-card {
+    padding: var(--space-28);
+  }
+
+  .delivery__cards .info-card__text p + p {
+    margin-top: 14px;
+  }
+
+  .delivery__cards .info-card__text strong {
+    font-weight: inherit;
+  }
+
+  .delivery-page .info-card__list li {
+    padding-left: 21px;
+  }
+
+  .delivery-page .info-card__list li::before {
+    left: 6px;
+  }
+
+  .payment {
+    flex-direction: column;
+    padding-block: 50px var(--space-70);
+  }
+
+  .payment__content {
+    padding: var(--space-32) var(--container-padding) var(--space-24);
+  }
+
+  .payment__content::after {
+    content: none;
+  }
+
+  .payment__ornament {
+    left: 40px;
+  }
+
+  .payment__text {
+    max-width: 541.18px;
+    font-size: var(--font-size-16);
+    letter-spacing: normal;
+  }
+
+  .payment__qr {
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+  }
+
+  .payment__qr-image {
+    width: 230px;
+    height: 200px;
+  }
+
+  .payment__image {
+    width: 100%;
+  }
+
+  .delivery-page .cta {
+    padding-top: 50px;
+  }
+
+  .delivery-page .cta__image {
+    object-position: center;
+  }
+
+  .delivery-page .cta__text {
+    max-width: 386.38px;
+    line-height: var(--line-height-snug);
+  }
+}
+
+/* 1400:21560 — карточки в одну колонку, плашка оплаты на всю ширину. */
+@media (max-width: 767.98px) {
+  .delivery-page .page-intro {
+    padding-bottom: var(--space-32);
+  }
+
+  .delivery-page .page-intro .text-h2 {
+    line-height: 28px;
+  }
+
+  .delivery-page .text-h3 {
+    line-height: 21px;
+  }
+
+  .delivery {
+    padding-bottom: 50px;
+  }
+
+  .delivery__cards {
+    flex-direction: column;
+  }
+
+  .delivery__cards > .info-card {
+    padding: var(--space-24);
+  }
+
+  .delivery__note {
+    letter-spacing: -0.001em;
+  }
+
+  .payment {
+    padding-block: 0;
+  }
+
+  .payment__ornament {
+    left: var(--container-padding);
+    width: calc(100% - 2 * var(--container-padding));
+  }
+
+  .payment__ornament .ornament__mark {
+    width: 32px;
+    height: 30px;
+  }
+
+  .payment__ornament .ornament__line {
+    flex: 1;
+  }
+
+  .payment__text {
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+  }
+
+  .payment .info-card {
+    flex-direction: column;
+    padding: var(--space-20);
+  }
+
+  .payment__methods {
+    gap: var(--space-12);
+    width: auto;
+  }
+
+  .payment .info-card__list li + li {
+    margin-top: var(--space-8);
+  }
+
+  .payment__surcharge {
+    display: block;
+  }
+
+  .payment__qr-image {
+    width: 100%;
+    height: 240px;
+  }
+
+  .payment__image {
+    display: none;
+  }
+
+  .delivery-page .cta {
+    padding-bottom: 50px;
+  }
+
+  .delivery-page .cta .text-h2 {
+    font-size: var(--font-size-28);
+  }
+
+  .delivery-page .cta__text {
+    max-width: none;
+    line-height: var(--line-height-14);
+  }
+}

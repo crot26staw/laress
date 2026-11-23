@@ -12,8 +12,8 @@
   <body class="page-surface">
     <!-- @include src/partials/header.html -->
 
-    <main>
-      <div class="page-intro container">
+    <main class="company-page">
+      <div class="page-intro page-intro--action container">
         <div class="section-heading">
           <nav class="breadcrumbs" aria-label="Хлебные крошки">
             <ol class="breadcrumbs__list">
@@ -26,13 +26,19 @@
             <img class="ornament__mark" src="/src/assets/icons/logo-mark.svg" width="37" height="34" alt="" />
             <span class="ornament__line"></span>
           </div>
-          <h1 class="text-h2">О бутике Luvr</h1>
-          <p class="page-intro__text">Luvr— интернет-бутик оригинальной посуды, декора, текстиля и аксессуаров премиальных брендов для дома, подарков и интерьера</p>
+          <div class="page-intro__body">
+            <h1 class="text-h2">О бутике Luvr</h1>
+            <p class="page-intro__text">Luvr— интернет-бутик оригинальной посуды, декора, текстиля и аксессуаров премиальных брендов для дома, подарков и интерьера</p>
+          </div>
         </div>
         <a class="button button--primary" href="/catalog.html">Перейти в каталог</a>
       </div>
 
-      <picture>
+      <picture class="page-intro__media">
+        <source media="(max-width: 767.98px)" srcset="/src/assets/images/about/about-hero-mobile.webp" type="image/webp" />
+        <source media="(max-width: 767.98px)" srcset="/src/assets/images/about/about-hero-mobile.jpg" />
+        <source media="(max-width: 1279.98px)" srcset="/src/assets/images/about/about-hero-tablet.webp" type="image/webp" />
+        <source media="(max-width: 1279.98px)" srcset="/src/assets/images/about/about-hero-tablet.jpg" />
         <source srcset="/src/assets/images/about/about-hero.webp" type="image/webp" />
         <img class="wide-image" src="/src/assets/images/about/about-hero.jpg" width="1440" height="600" alt="Хрустальные подсвечники и хрустальная бабочка на терракотовом фоне" fetchpriority="high" />
       </picture>
@@ -50,6 +56,10 @@
           <li class="categories__item">
             <a class="categories__link" href="/catalog.html">
               <picture>
+                <source media="(max-width: 767.98px)" srcset="/src/assets/images/about/about-category-tableware-mobile.webp" type="image/webp" />
+                <source media="(max-width: 767.98px)" srcset="/src/assets/images/about/about-category-tableware-mobile.jpg" />
+                <source media="(max-width: 1279.98px)" srcset="/src/assets/images/about/about-category-tableware-tablet.webp" type="image/webp" />
+                <source media="(max-width: 1279.98px)" srcset="/src/assets/images/about/about-category-tableware-tablet.jpg" />
                 <source srcset="/src/assets/images/about/about-category-tableware.webp" type="image/webp" />
                 <img class="categories__image" src="/src/assets/images/about/about-category-tableware.jpg" width="331" height="440" alt="Фарфоровая чайная пара с синим и золотым узором" loading="lazy" />
               </picture>
@@ -62,6 +72,10 @@
           <li class="categories__item">
             <a class="categories__link" href="/catalog.html">
               <picture>
+                <source media="(max-width: 767.98px)" srcset="/src/assets/images/about/about-category-decor-mobile.webp" type="image/webp" />
+                <source media="(max-width: 767.98px)" srcset="/src/assets/images/about/about-category-decor-mobile.jpg" />
+                <source media="(max-width: 1279.98px)" srcset="/src/assets/images/about/about-category-decor-tablet.webp" type="image/webp" />
+                <source media="(max-width: 1279.98px)" srcset="/src/assets/images/about/about-category-decor-tablet.jpg" />
                 <source srcset="/src/assets/images/about/about-category-decor.webp" type="image/webp" />
                 <img class="categories__image" src="/src/assets/images/about/about-category-decor.jpg" width="331" height="440" alt="Фарфоровая статуэтка рыбы на светлом постаменте" loading="lazy" />
               </picture>
@@ -74,6 +88,10 @@
           <li class="categories__item">
             <a class="categories__link" href="/catalog.html">
               <picture>
+                <source media="(max-width: 767.98px)" srcset="/src/assets/images/about/about-category-textile-mobile.webp" type="image/webp" />
+                <source media="(max-width: 767.98px)" srcset="/src/assets/images/about/about-category-textile-mobile.jpg" />
+                <source media="(max-width: 1279.98px)" srcset="/src/assets/images/about/about-category-textile-tablet.webp" type="image/webp" />
+                <source media="(max-width: 1279.98px)" srcset="/src/assets/images/about/about-category-textile-tablet.jpg" />
                 <source srcset="/src/assets/images/about/about-category-textile.webp" type="image/webp" />
                 <img class="categories__image" src="/src/assets/images/about/about-category-textile.jpg" width="331" height="440" alt="Красные подушки и плед с пантерой на светлом диване" loading="lazy" />
               </picture>
@@ -86,6 +104,10 @@
           <li class="categories__item">
             <a class="categories__link" href="/catalog.html">
               <picture>
+                <source media="(max-width: 767.98px)" srcset="/src/assets/images/about/about-category-accessories-mobile.webp" type="image/webp" />
+                <source media="(max-width: 767.98px)" srcset="/src/assets/images/about/about-category-accessories-mobile.jpg" />
+                <source media="(max-width: 1279.98px)" srcset="/src/assets/images/about/about-category-accessories-tablet.webp" type="image/webp" />
+                <source media="(max-width: 1279.98px)" srcset="/src/assets/images/about/about-category-accessories-tablet.jpg" />
                 <source srcset="/src/assets/images/about/about-category-accessories.webp" type="image/webp" />
                 <img class="categories__image" src="/src/assets/images/about/about-category-accessories.jpg" width="331" height="440" alt="Хрустальные бабочки Baccarat на красных подарочных коробках" loading="lazy" />
               </picture>
@@ -98,7 +120,7 @@
         </ul>
       </section>
 
-      <section class="media-text container" aria-labelledby="selection-title">
+      <section class="media-text media-text--stacked container" aria-labelledby="selection-title">
         <div class="media-text__content">
           <div class="media-text__body">
             <div class="ornament ornament--wide" aria-hidden="true">
@@ -113,32 +135,44 @@
             </div>
           </div>
           <picture>
+            <source media="(max-width: 767.98px)" srcset="/src/assets/images/about/about-selection-small-mobile.webp" type="image/webp" />
+            <source media="(max-width: 767.98px)" srcset="/src/assets/images/about/about-selection-small-mobile.jpg" />
+            <source media="(max-width: 1279.98px)" srcset="/src/assets/images/about/about-selection-small-tablet.webp" type="image/webp" />
+            <source media="(max-width: 1279.98px)" srcset="/src/assets/images/about/about-selection-small-tablet.jpg" />
             <source srcset="/src/assets/images/about/about-selection-small.webp" type="image/webp" />
             <img class="media-text__thumb" src="/src/assets/images/about/about-selection-small.jpg" width="230" height="300" alt="Тарелки Hermès с красными кораллами на светлом рельефном фоне" loading="lazy" />
           </picture>
         </div>
         <picture>
+          <source media="(max-width: 767.98px)" srcset="/src/assets/images/about/about-selection-large-mobile.webp" type="image/webp" />
+          <source media="(max-width: 767.98px)" srcset="/src/assets/images/about/about-selection-large-mobile.jpg" />
+          <source media="(max-width: 1279.98px)" srcset="/src/assets/images/about/about-selection-large-tablet.webp" type="image/webp" />
+          <source media="(max-width: 1279.98px)" srcset="/src/assets/images/about/about-selection-large-tablet.jpg" />
           <source srcset="/src/assets/images/about/about-selection-large.webp" type="image/webp" />
           <img class="media-text__image" src="/src/assets/images/about/about-selection-large.jpg" width="660" height="700" alt="Бокалы с белым, розовым и красным вином на светлом столе" loading="lazy" />
         </picture>
       </section>
 
-      <!-- @include src/partials/originals.html {"heading": "1", "image": "/src/assets/images/about/about-originals", "alt": "Девушка с золотой серьгой-подвеской"} -->
+      <!-- @include src/partials/originals.html {"heading": "1", "responsiveImage": "1", "image": "/src/assets/images/about/about-originals", "alt": "Девушка с золотой серьгой-подвеской"} -->
 
       <section class="cta cta--flush" aria-labelledby="cta-title">
         <div class="cta__inner">
           <div class="cta__media">
             <picture>
+              <source media="(max-width: 767.98px)" srcset="/src/assets/images/home/cta-bg-mobile.webp" type="image/webp" />
+              <source media="(max-width: 767.98px)" srcset="/src/assets/images/home/cta-bg-mobile.jpg" />
               <source srcset="/src/assets/images/home/cta-bg.webp" type="image/webp" />
               <img class="cta__image" src="/src/assets/images/home/cta-bg.jpg" width="1440" height="720" alt="Девушка в коричневом платье с сумкой Hermès" loading="lazy" />
             </picture>
           </div>
           <div class="cta__content">
             <div class="cta__text-group">
-              <h2 class="text-h2" id="cta-title">Поможем найти нужное изделие</h2>
-              <p class="cta__text">Расскажите, что вы&nbsp;ищете: бренд, коллекцию, категорию или конкретный предмет. Команда Luvr уточнит возможные варианты и&nbsp;поможет с&nbsp;выбором</p>
+              <h2 class="text-h2" id="cta-title"><span class="company-page__desktop-copy">Поможем найти нужное изделие</span><span class="company-page__adaptive-copy">Не уверены, что выбрать?</span></h2>
+              <p class="cta__text company-page__desktop-copy">Расскажите, что вы&nbsp;ищете: бренд, коллекцию, категорию или конкретный предмет. Команда Luvr уточнит возможные варианты и&nbsp;поможет с&nbsp;выбором</p>
+              <p class="cta__text company-page__adaptive-copy">Менеджер Luvr поможет подобрать оригинальную посуду, декор или подарок под повод, бюджет и сроки</p>
             </div>
-            <a class="button button--secondary cta__button" href="#">Связаться с нами</a>
+            <a class="button button--secondary cta__button company-page__desktop-copy" href="#">Связаться с нами</a>
+            <a class="button button--secondary cta__button company-page__adaptive-copy" href="/contacts.html">Получить бесплатную консультацию</a>
           </div>
         </div>
       </section>

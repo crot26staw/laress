@@ -226,6 +226,118 @@
       }
     ]
   },
+  "about-tablet": {
+    "url": "http://localhost:5173/about.html",
+    "ref": ".figma/screenshots/about-tablet_1363-55304.png",
+    "hide": ".tab-bar",
+    "viewportH": 1024,
+    "sections": [
+      {
+        "name": "header",
+        "selector": ".header",
+        "refY": 0,
+        "refH": 66
+      },
+      {
+        "name": "intro",
+        "selector": ".page-intro",
+        "refY": 66,
+        "refH": 313
+      },
+      {
+        "name": "image",
+        "selector": ".wide-image",
+        "refY": 379,
+        "refH": 450
+      },
+      {
+        "name": "categories",
+        "selector": ".categories",
+        "refY": 829,
+        "refH": 1234
+      },
+      {
+        "name": "selection",
+        "selector": ".media-text",
+        "refY": 2063,
+        "refH": 741
+      },
+      {
+        "name": "originals",
+        "selector": ".originals",
+        "refY": 2804,
+        "refH": 1269
+      },
+      {
+        "name": "cta",
+        "selector": ".cta",
+        "refY": 4073,
+        "refH": 1051
+      },
+      {
+        "name": "footer",
+        "selector": ".footer",
+        "refY": 5124,
+        "refH": 746
+      }
+    ]
+  },
+  "about-mobile": {
+    "url": "http://localhost:5173/about.html",
+    "ref": ".figma/screenshots/about-mobile_1363-55123.png",
+    "hide": ".tab-bar",
+    "viewportH": 812,
+    "sections": [
+      {
+        "name": "header",
+        "selector": ".header",
+        "refY": 0,
+        "refH": 50
+      },
+      {
+        "name": "intro",
+        "selector": ".page-intro",
+        "refY": 50,
+        "refH": 295
+      },
+      {
+        "name": "image",
+        "selector": ".wide-image",
+        "refY": 345,
+        "refH": 410
+      },
+      {
+        "name": "categories",
+        "selector": ".categories",
+        "refY": 755,
+        "refH": 1736
+      },
+      {
+        "name": "selection",
+        "selector": ".media-text",
+        "refY": 2491,
+        "refH": 904
+      },
+      {
+        "name": "originals",
+        "selector": ".originals",
+        "refY": 3395,
+        "refH": 1385
+      },
+      {
+        "name": "cta",
+        "selector": ".cta",
+        "refY": 4780,
+        "refH": 912
+      },
+      {
+        "name": "footer",
+        "selector": ".footer",
+        "refY": 5692,
+        "refH": 1086
+      }
+    ]
+  },
   "designers": {
     "url": "http://localhost:5173/designers.html",
     "ref": ".figma/screenshots/designers_966-47859.png",
@@ -285,6 +397,130 @@
       }
     ]
   },
+  "designers-tablet": {
+    "url": "http://localhost:5173/designers.html",
+    "ref": ".figma/screenshots/designers-tablet_1368-15107.png",
+    "hide": ".tab-bar",
+    "viewportH": 1024,
+    "sections": [
+      {
+        "name": "header",
+        "selector": ".header",
+        "refY": 0,
+        "refH": 66
+      },
+      {
+        "name": "intro",
+        "selector": ".page-intro",
+        "refY": 66,
+        "refH": 313
+      },
+      {
+        "name": "image",
+        "selector": ".wide-image",
+        "refY": 379,
+        "refH": 450
+      },
+      {
+        "name": "categories",
+        "selector": ".categories",
+        "refY": 829,
+        "refH": 1162
+      },
+      {
+        "name": "projects",
+        "selector": ".media-text",
+        "refY": 1991,
+        "refH": 759
+      },
+      {
+        "name": "partnership",
+        "selector": ".partnership",
+        "refY": 2750,
+        "refH": 486
+      },
+      {
+        "name": "originals",
+        "selector": ".originals",
+        "refY": 3236,
+        "refH": 1009
+      },
+      {
+        "name": "cta",
+        "selector": ".cta",
+        "refY": 4245,
+        "refH": 1051
+      },
+      {
+        "name": "footer",
+        "selector": ".footer",
+        "refY": 5296,
+        "refH": 746
+      }
+    ]
+  },
+  "designers-mobile": {
+    "url": "http://localhost:5173/designers.html",
+    "ref": ".figma/screenshots/designers-mobile_1368-14964.png",
+    "hide": ".tab-bar",
+    "viewportH": 812,
+    "sections": [
+      {
+        "name": "header",
+        "selector": ".header",
+        "refY": 0,
+        "refH": 50
+      },
+      {
+        "name": "intro",
+        "selector": ".page-intro",
+        "refY": 50,
+        "refH": 341
+      },
+      {
+        "name": "image",
+        "selector": ".wide-image",
+        "refY": 391,
+        "refH": 410
+      },
+      {
+        "name": "categories",
+        "selector": ".categories",
+        "refY": 801,
+        "refH": 1321
+      },
+      {
+        "name": "projects",
+        "selector": ".media-text",
+        "refY": 2122,
+        "refH": 940
+      },
+      {
+        "name": "partnership",
+        "selector": ".partnership",
+        "refY": 3062,
+        "refH": 694
+      },
+      {
+        "name": "originals",
+        "selector": ".originals",
+        "refY": 3756,
+        "refH": 1116
+      },
+      {
+        "name": "cta",
+        "selector": ".cta",
+        "refY": 4872,
+        "refH": 912
+      },
+      {
+        "name": "footer",
+        "selector": ".footer",
+        "refY": 5784,
+        "refH": 1086
+      }
+    ]
+  },
   "delivery": {
     "url": "http://localhost:5173/delivery.html",
     "ref": ".figma/screenshots/delivery_966-48241.png",
@@ -326,6 +562,94 @@
       }
     ]
   },
+  "delivery-tablet": {
+    "url": "http://localhost:5173/delivery.html",
+    "ref": ".figma/screenshots/delivery-tablet_1400-21616.png",
+    "hide": ".tab-bar",
+    "viewportH": 1024,
+    "sections": [
+      {
+        "name": "header",
+        "selector": ".header",
+        "refY": 0,
+        "refH": 66
+      },
+      {
+        "name": "intro",
+        "selector": ".page-intro",
+        "refY": 66,
+        "refH": 239
+      },
+      {
+        "name": "cards",
+        "selector": ".delivery",
+        "refY": 305,
+        "refH": 271
+      },
+      {
+        "name": "payment",
+        "selector": ".payment",
+        "refY": 576,
+        "refH": 1338
+      },
+      {
+        "name": "cta",
+        "selector": ".cta",
+        "refY": 1914,
+        "refH": 1050
+      },
+      {
+        "name": "footer",
+        "selector": ".footer",
+        "refY": 2964,
+        "refH": 747
+      }
+    ]
+  },
+  "delivery-mobile": {
+    "url": "http://localhost:5173/delivery.html",
+    "ref": ".figma/screenshots/delivery-mobile_1400-21560.png",
+    "hide": ".tab-bar",
+    "viewportH": 812,
+    "sections": [
+      {
+        "name": "header",
+        "selector": ".header",
+        "refY": 0,
+        "refH": 50
+      },
+      {
+        "name": "intro",
+        "selector": ".page-intro",
+        "refY": 50,
+        "refH": 253
+      },
+      {
+        "name": "cards",
+        "selector": ".delivery",
+        "refY": 303,
+        "refH": 496
+      },
+      {
+        "name": "payment",
+        "selector": ".payment",
+        "refY": 799,
+        "refH": 745
+      },
+      {
+        "name": "cta",
+        "selector": ".cta",
+        "refY": 1544,
+        "refH": 912
+      },
+      {
+        "name": "footer",
+        "selector": ".footer",
+        "refY": 2456,
+        "refH": 1086
+      }
+    ]
+  },
   "contacts": {
     "url": "http://localhost:5173/contacts.html",
     "ref": ".figma/screenshots/contacts_966-48303.png",
@@ -358,6 +682,82 @@
         "selector": ".footer",
         "refY": 1346,
         "refH": 526
+      }
+    ]
+  },
+  "contacts-tablet": {
+    "url": "http://localhost:5173/contacts.html",
+    "ref": ".figma/screenshots/contacts-tablet_1399-21154.png",
+    "hide": ".tab-bar",
+    "viewportH": 1024,
+    "sections": [
+      {
+        "name": "header",
+        "selector": ".header",
+        "refY": 0,
+        "refH": 66
+      },
+      {
+        "name": "intro",
+        "selector": ".page-intro",
+        "refY": 66,
+        "refH": 173
+      },
+      {
+        "name": "info",
+        "selector": ".contact-info",
+        "refY": 239,
+        "refH": 201
+      },
+      {
+        "name": "cta",
+        "selector": ".cta",
+        "refY": 440,
+        "refH": 1050
+      },
+      {
+        "name": "footer",
+        "selector": ".footer",
+        "refY": 1490,
+        "refH": 747
+      }
+    ]
+  },
+  "contacts-mobile": {
+    "url": "http://localhost:5173/contacts.html",
+    "ref": ".figma/screenshots/contacts-mobile_1399-21003.png",
+    "hide": ".tab-bar",
+    "viewportH": 812,
+    "sections": [
+      {
+        "name": "header",
+        "selector": ".header",
+        "refY": 0,
+        "refH": 50
+      },
+      {
+        "name": "intro",
+        "selector": ".page-intro",
+        "refY": 50,
+        "refH": 169
+      },
+      {
+        "name": "info",
+        "selector": ".contact-info",
+        "refY": 219,
+        "refH": 423
+      },
+      {
+        "name": "cta",
+        "selector": ".cta",
+        "refY": 642,
+        "refH": 912
+      },
+      {
+        "name": "footer",
+        "selector": ".footer",
+        "refY": 1554,
+        "refH": 1086
       }
     ]
   },
@@ -396,6 +796,82 @@
       }
     ]
   },
+  "vacancies-tablet": {
+    "url": "http://localhost:5173/vacancies.html",
+    "ref": ".figma/screenshots/vacancies-tablet_1418-31201.png",
+    "hide": ".tab-bar",
+    "viewportH": 1024,
+    "sections": [
+      {
+        "name": "header",
+        "selector": ".header",
+        "refY": 0,
+        "refH": 66
+      },
+      {
+        "name": "intro",
+        "selector": ".page-intro",
+        "refY": 66,
+        "refH": 239
+      },
+      {
+        "name": "list",
+        "selector": ".vacancies",
+        "refY": 305,
+        "refH": 278
+      },
+      {
+        "name": "cta",
+        "selector": ".cta",
+        "refY": 583,
+        "refH": 1000
+      },
+      {
+        "name": "footer",
+        "selector": ".footer",
+        "refY": 1583,
+        "refH": 747
+      }
+    ]
+  },
+  "vacancies-mobile": {
+    "url": "http://localhost:5173/vacancies.html",
+    "ref": ".figma/screenshots/vacancies-mobile_1418-31137.png",
+    "hide": ".tab-bar",
+    "viewportH": 812,
+    "sections": [
+      {
+        "name": "header",
+        "selector": ".header",
+        "refY": 0,
+        "refH": 50
+      },
+      {
+        "name": "intro",
+        "selector": ".page-intro",
+        "refY": 50,
+        "refH": 253
+      },
+      {
+        "name": "list",
+        "selector": ".vacancies",
+        "refY": 303,
+        "refH": 300
+      },
+      {
+        "name": "cta",
+        "selector": ".cta",
+        "refY": 603,
+        "refH": 912
+      },
+      {
+        "name": "footer",
+        "selector": ".footer",
+        "refY": 1515,
+        "refH": 1086
+      }
+    ]
+  },
   "vacancy-sales-manager": {
     "url": "http://localhost:5173/vacancy-sales-manager.html",
     "ref": ".figma/screenshots/vacancy-sales-manager_966-48397.png",
@@ -428,6 +904,82 @@
         "selector": ".footer",
         "refY": 1861,
         "refH": 526
+      }
+    ]
+  },
+  "vacancy-sales-manager-tablet": {
+    "url": "http://localhost:5173/vacancy-sales-manager.html",
+    "ref": ".figma/screenshots/vacancy-sales-manager-tablet_1418-31537.png",
+    "hide": ".tab-bar",
+    "viewportH": 1024,
+    "sections": [
+      {
+        "name": "header",
+        "selector": ".header",
+        "refY": 0,
+        "refH": 66
+      },
+      {
+        "name": "intro",
+        "selector": ".page-intro",
+        "refY": 66,
+        "refH": 237
+      },
+      {
+        "name": "cards",
+        "selector": ".vacancy",
+        "refY": 303,
+        "refH": 810
+      },
+      {
+        "name": "cta",
+        "selector": ".cta",
+        "refY": 1113,
+        "refH": 1000
+      },
+      {
+        "name": "footer",
+        "selector": ".footer",
+        "refY": 2113,
+        "refH": 747
+      }
+    ]
+  },
+  "vacancy-sales-manager-mobile": {
+    "url": "http://localhost:5173/vacancy-sales-manager.html",
+    "ref": ".figma/screenshots/vacancy-sales-manager-mobile_1418-31496.png",
+    "hide": ".tab-bar",
+    "viewportH": 812,
+    "sections": [
+      {
+        "name": "header",
+        "selector": ".header",
+        "refY": 0,
+        "refH": 50
+      },
+      {
+        "name": "intro",
+        "selector": ".page-intro",
+        "refY": 50,
+        "refH": 229
+      },
+      {
+        "name": "cards",
+        "selector": ".vacancy",
+        "refY": 279,
+        "refH": 1249
+      },
+      {
+        "name": "cta",
+        "selector": ".cta",
+        "refY": 1528,
+        "refH": 912
+      },
+      {
+        "name": "footer",
+        "selector": ".footer",
+        "refY": 2440,
+        "refH": 1086
       }
     ]
   },

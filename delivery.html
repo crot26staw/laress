@@ -12,7 +12,7 @@
   <body class="page-surface">
     <!-- @include src/partials/header.html -->
 
-    <main>
+    <main class="delivery-page">
       <div class="page-intro container">
         <div class="section-heading">
           <nav class="breadcrumbs" aria-label="Хлебные крошки">
@@ -26,8 +26,10 @@
             <img class="ornament__mark" src="/src/assets/icons/logo-mark.svg" width="37" height="34" alt="" />
             <span class="ornament__line"></span>
           </div>
-          <h1 class="text-h2">Доставка и оплата</h1>
-          <p class="page-intro__text page-intro__text--580">Мы выкупаем и доставляем изделия под заказ. Сопровождаем товар на&nbsp;каждом этапе: выкупаем позицию у бренда, организуем доставку и&nbsp;таможенное оформление товара</p>
+          <div class="page-intro__body">
+            <h1 class="text-h2">Доставка и оплата</h1>
+            <p class="page-intro__text page-intro__text--580">Мы выкупаем и доставляем изделия под заказ. Сопровождаем товар на&nbsp;каждом этапе: выкупаем позицию у бренда, организуем доставку и&nbsp;таможенное оформление товара</p>
+          </div>
         </div>
       </div>
 
@@ -70,16 +72,18 @@
                 <li>Банковской картой на сайте</li>
                 <li>СБП</li>
                 <li>QR-кодом</li>
-                <li>На расчётный счёт (+10% к стоимости заказа)</li>
+                <li>На расчётный счёт <span class="payment__surcharge">(+10% к стоимости заказа)</span></li>
               </ul>
             </div>
             <figure class="payment__qr">
-              <div class="payment__qr-image" role="img" aria-label="QR-код для оплаты на расчётный счёт"></div>
+              <div class="payment__qr-image" aria-hidden="true"></div>
               <figcaption class="payment__qr-caption">Оплата на расчетный счет</figcaption>
             </figure>
           </div>
         </div>
         <picture>
+          <source media="(min-width: 768px) and (max-width: 1279.98px)" srcset="/src/assets/images/delivery/delivery-crystal-tablet.webp" type="image/webp" />
+          <source media="(min-width: 768px) and (max-width: 1279.98px)" srcset="/src/assets/images/delivery/delivery-crystal-tablet.jpg" />
           <source srcset="/src/assets/images/delivery/delivery-crystal.webp" type="image/webp" />
           <img class="payment__image" src="/src/assets/images/delivery/delivery-crystal.jpg" width="710" height="720" alt="Хрустальные подсвечники и бабочка на терракотовом фоне" loading="lazy" />
         </picture>

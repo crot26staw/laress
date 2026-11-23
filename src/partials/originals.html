@@ -1,6 +1,6 @@
 <!-- «Оригинальные изделия» — «Originals» (О компании 966:48084, Дизайнерам 966:47967). Станет template-parts/originals.php.
-     Параметры: heading (любое значение — центральный заголовок над блоком, как на «О компании»; в макете он дублирует заголовок блока, поэтому это не h2), image (путь без расширения), alt. -->
-<section class="originals container" aria-labelledby="originals-title">
+     Параметры: heading (центральный заголовок над блоком), stacked (вертикальный адаптив), image (путь без расширения), responsiveImage (варианты -mobile и -tablet), alt. -->
+<section class="originals {{#if stacked}}originals--stacked{{/if}} container" aria-labelledby="originals-title">
   {{#if heading}}<div class="section-heading">
     <div class="ornament" aria-hidden="true">
       <span class="ornament__line"></span>
@@ -18,10 +18,16 @@
           <img class="ornament__mark" src="/src/assets/icons/logo-mark.svg" width="37" height="34" alt="" loading="lazy" />
           <span class="ornament__line"></span>
         </div>
-        <h2 class="text-h2" id="originals-title">Оригинальные изделия</h2>
-        <p class="originals__lead">Мы внимательно относимся к&nbsp;происхождению товаров, комплектации и&nbsp;деталям, которые помогают подтвердить подлинность предмета</p>
+        <div class="originals__intro-text">
+          <h2 class="text-h2" id="originals-title">Оригинальные изделия</h2>
+          <p class="originals__lead">Мы внимательно относимся к&nbsp;происхождению товаров, комплектации и&nbsp;деталям, которые помогают подтвердить подлинность предмета</p>
+        </div>
       </div>
       <picture>
+        {{#if responsiveImage}}<source media="(max-width: 767.98px)" srcset="{{image}}-mobile.webp" type="image/webp" />
+        <source media="(max-width: 767.98px)" srcset="{{image}}-mobile.jpg" />
+        <source media="(max-width: 1279.98px)" srcset="{{image}}-tablet.webp" type="image/webp" />
+        <source media="(max-width: 1279.98px)" srcset="{{image}}-tablet.jpg" />{{/if}}
         <source srcset="{{image}}.webp" type="image/webp" />
         <img class="originals__image" src="{{image}}.jpg" width="244" height="314" alt="{{alt}}" loading="lazy" />
       </picture>

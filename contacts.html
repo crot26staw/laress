@@ -12,13 +12,13 @@
   <body class="page-surface">
     <!-- @include src/partials/header.html -->
 
-    <main>
+    <main class="contact-page">
       <div class="page-intro container">
         <div class="section-heading">
           <nav class="breadcrumbs" aria-label="Хлебные крошки">
             <ol class="breadcrumbs__list">
               <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="/">Главная</a></li>
-              <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="/contacts.html" aria-current="page">Контакты</a></li>
+              <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="/contacts.html" aria-current="page">Контакты<span class="contact-page__breadcrumb-brand"> Luvr</span></a></li>
             </ol>
           </nav>
           <div class="ornament" aria-hidden="true">
@@ -74,7 +74,10 @@
             </li>
             <li>
               <a class="contact-info__social" href="#" aria-label="WhatsApp">
-                <img src="/src/assets/icons/icon-whatsapp-square.svg" width="40" height="40" alt="" />
+                <picture>
+                  <source media="(max-width: 1279.98px)" srcset="/src/assets/icons/icon-whatsapp-square-contacts.svg" />
+                  <img src="/src/assets/icons/icon-whatsapp-square.svg" width="40" height="40" alt="" />
+                </picture>
               </a>
             </li>
           </ul>
@@ -85,6 +88,10 @@
         <div class="cta__inner">
           <div class="cta__media">
             <picture>
+              <source media="(max-width: 767.98px)" srcset="/src/assets/images/contacts/contacts-cta-bg-mobile.webp" type="image/webp" />
+              <source media="(max-width: 767.98px)" srcset="/src/assets/images/contacts/contacts-cta-bg-mobile.jpg" />
+              <source media="(max-width: 1279.98px)" srcset="/src/assets/images/contacts/contacts-cta-bg-tablet.webp" type="image/webp" />
+              <source media="(max-width: 1279.98px)" srcset="/src/assets/images/contacts/contacts-cta-bg-tablet.jpg" />
               <source srcset="/src/assets/images/contacts/contacts-cta-bg.webp" type="image/webp" />
               <img class="cta__image" src="/src/assets/images/contacts/contacts-cta-bg.jpg" width="928" height="464" alt="Подушка с терракотовым тканым узором" loading="lazy" />
             </picture>

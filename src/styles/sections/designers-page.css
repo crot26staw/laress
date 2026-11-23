@@ -1,0 +1,125 @@
+/* «Дизайнерам» — 1368:15107 (768) и 1368:14964 (375). */
+@media (max-width: 1279.98px) {
+  .designers-page .text-h2 {
+    line-height: 32px;
+  }
+
+  .designers-page .text-h3 {
+    line-height: 23px;
+  }
+
+  .designers-page .page-intro__text--wide {
+    max-width: 480.88px;
+  }
+
+  .designers-page .categories {
+    gap: var(--space-32);
+  }
+
+  .designers-page .categories .section-heading {
+    gap: var(--space-16);
+  }
+
+  .designers-page .categories .ornament {
+    margin-bottom: 4px;
+  }
+
+  .designers-page .section-heading__lead {
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+  }
+
+  .designers-page .categories__list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: var(--space-16);
+  }
+
+  .designers-page .categories__item:last-child {
+    grid-column: 1 / -1;
+  }
+
+  .designers-page .categories__link {
+    text-align: center;
+  }
+
+  .designers-page .categories__image {
+    height: 380px;
+    aspect-ratio: auto;
+  }
+
+  .designers-page .media-text__text {
+    max-width: 516.47px;
+  }
+
+  .designers-page .cta {
+    padding-top: 50px;
+  }
+
+  .designers-page .cta__content {
+    padding: 80px var(--space-40);
+  }
+
+  .designers-page .cta__image {
+    object-position: center;
+  }
+
+  .designers-page .cta__text {
+    max-width: 359.81px;
+    line-height: var(--line-height-snug);
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1279.98px) {
+  .designers-page .page-intro__text--wide {
+    translate: 0 1px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .designers-page .text-h2 {
+    line-height: 28px;
+  }
+
+  .designers-page .text-h3 {
+    line-height: 21px;
+  }
+
+  .designers-page .ornament__mark {
+    width: 32px;
+    height: 30px;
+  }
+
+  .designers-page .categories {
+    gap: var(--space-24);
+  }
+
+  .designers-page .categories .section-heading {
+    gap: var(--space-12);
+  }
+
+  .designers-page .categories__list {
+    grid-template-columns: minmax(0, 1fr);
+    gap: var(--space-20);
+  }
+
+  .designers-page .categories__link {
+    gap: var(--space-12);
+  }
+
+  .designers-page .categories__image {
+    height: 280px;
+  }
+
+  .designers-page .cta {
+    padding-bottom: 50px;
+  }
+
+  .designers-page .cta__content {
+    padding: var(--space-40) var(--container-padding);
+  }
+
+  .designers-page .cta__text {
+    max-width: 310.33px;
+    line-height: var(--line-height-14);
+  }
+}

@@ -73,3 +73,127 @@
 .contact-info__social:hover {
   opacity: 0.8;
 }
+
+.contact-page__breadcrumb-brand {
+  display: none;
+}
+
+/* 1399:21154 — реквизиты слева, контакты в компактной сетке справа. */
+@media (max-width: 1279.98px) {
+  .contact-page__breadcrumb-brand {
+    display: inline;
+  }
+
+  .contact-page .text-h2 {
+    line-height: 32px;
+  }
+
+  .contact-info {
+    gap: var(--space-24);
+    padding-bottom: 50px;
+  }
+
+  .contact-info__requisites {
+    min-width: 0;
+  }
+
+  .contact-info__aside {
+    width: auto;
+    gap: var(--space-20);
+  }
+
+  .contact-info__list {
+    grid-template-columns: 133px minmax(217px, max-content);
+    gap: var(--space-12) var(--space-16);
+  }
+
+  .contact-info__item {
+    gap: 6px;
+  }
+
+  .contact-info__label {
+    font-size: var(--font-size-12);
+    line-height: 15px;
+  }
+
+  .contact-info__value {
+    font-size: var(--font-size-14);
+    font-weight: var(--font-weight-regular);
+    line-height: var(--line-height-14);
+    overflow-wrap: anywhere;
+  }
+
+  .contact-info__value--text p + p {
+    margin-top: var(--space-4);
+  }
+
+  .contact-page .cta {
+    padding-top: 50px;
+  }
+
+  .contact-page .cta__image {
+    object-fit: fill;
+  }
+
+  /* В адаптивных кадрах градиент привязан к пропорциям области фото. */
+  .contact-page .cta__media {
+    container-type: size;
+  }
+
+  .contact-page .cta__media::after {
+    background: linear-gradient(
+      atan2(100cqh, -30cqw),
+      var(--color-black-30) 12.5%,
+      transparent 50%
+    );
+  }
+
+  .contact-page .cta__text {
+    max-width: 359.81px;
+    line-height: var(--line-height-snug);
+  }
+}
+
+/* 1399:21003 — все контактные данные в одной колонке. */
+@media (max-width: 767.98px) {
+  .contact-page .page-intro {
+    align-items: stretch;
+    padding-bottom: var(--space-32);
+  }
+
+  .contact-page .page-intro .section-heading {
+    align-items: stretch;
+    text-align: left;
+  }
+
+  .contact-page .page-intro .ornament {
+    width: 100%;
+  }
+
+  .contact-page .text-h2 {
+    line-height: 28px;
+  }
+
+  .contact-info {
+    flex-direction: column;
+    gap: var(--space-20);
+    padding-bottom: 0;
+  }
+
+  .contact-info__list {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .contact-page .cta {
+    padding-bottom: 50px;
+  }
+
+  .contact-page .cta__text-group .text-h2 {
+    max-width: 272.62px;
+  }
+
+  .contact-page .cta__text {
+    max-width: 310.33px;
+    line-height: var(--line-height-14);
+  }
+}

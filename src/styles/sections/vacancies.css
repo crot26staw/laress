@@ -58,3 +58,184 @@
   flex-shrink: 0;
   width: 672px;
 }
+
+/* 1418:31537 — требования и условия в первой строке, обязанности во второй. */
+@media (max-width: 1279.98px) {
+  .vacancy-page .page-intro .text-h2 {
+    line-height: 32px;
+  }
+
+  .vacancy-page .page-intro .button {
+    color: var(--color-surface);
+    font-size: var(--font-size-14);
+    line-height: 15px;
+  }
+
+  .vacancy-page .page-intro .button__icon {
+    width: 16px;
+    height: 16px;
+  }
+
+  .vacancy {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: var(--space-12);
+    padding-bottom: 50px;
+  }
+
+  .vacancy__column {
+    display: contents;
+  }
+
+  .vacancy__duties {
+    grid-column: 1 / -1;
+    width: auto;
+  }
+
+  .vacancy .info-card {
+    padding: var(--space-28);
+  }
+
+  .vacancy .text-h3 {
+    line-height: 23px;
+  }
+
+  .vacancy .info-card__list {
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+  }
+
+  .vacancy .info-card__list li {
+    padding-left: 21px;
+  }
+
+  .vacancy .info-card__list li::before {
+    left: 6px;
+  }
+}
+
+/* 1418:31496 — карточки друг под другом. */
+@media (max-width: 767.98px) {
+  .vacancy-page .page-intro {
+    padding-bottom: var(--space-32);
+  }
+
+  .vacancy-page .breadcrumbs__list {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .vacancy-page .breadcrumbs__item {
+    white-space: nowrap;
+  }
+
+  .vacancy-page .page-intro .text-h2 {
+    line-height: 28px;
+  }
+
+  .vacancy-page .page-intro .button {
+    min-height: 44px;
+    padding-block: 0;
+  }
+
+  .vacancy {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 10px;
+  }
+
+  .vacancy .info-card {
+    padding: var(--space-24);
+  }
+
+  .vacancy .text-h3 {
+    line-height: 21px;
+  }
+}
+
+/* 1418:31201 — кнопка и место работы под описанием вакансии. */
+@media (max-width: 1279.98px) {
+  .vacancies-page .page-intro__body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-12);
+  }
+
+  .vacancies-page .page-intro .text-h2 {
+    line-height: 32px;
+  }
+
+  .vacancies-page .page-intro__text {
+    max-width: 443.71px;
+  }
+
+  .vacancies-page__phrase {
+    white-space: nowrap;
+  }
+
+  .vacancies-page .page-intro__text,
+  .vacancy-card__text,
+  .vacancy-card__place {
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+  }
+
+  .vacancies {
+    padding-bottom: 50px;
+  }
+
+  .vacancy-card {
+    flex-direction: column;
+    gap: var(--space-20);
+    padding: var(--space-28);
+  }
+
+  .vacancy-card__main {
+    gap: var(--space-12);
+  }
+
+  .vacancy-card__main .text-h3 {
+    line-height: 23px;
+  }
+
+  .vacancy-card__aside {
+    align-self: flex-start;
+    align-items: stretch;
+    min-height: 81px;
+  }
+}
+
+/* 1418:31137 — кнопка на всю ширину карточки. */
+@media (max-width: 767.98px) {
+  .vacancies-page .page-intro {
+    padding-bottom: var(--space-32);
+  }
+
+  .vacancies-page .page-intro .text-h2 {
+    line-height: 28px;
+  }
+
+  .vacancy-card {
+    padding: var(--space-24);
+  }
+
+  .vacancy-card__main .text-h3 {
+    font-size: 22px;
+    translate: 0 1px;
+  }
+
+  .vacancy-card__text {
+    max-width: 283.87px;
+  }
+
+  .vacancy-card__aside {
+    align-self: stretch;
+    gap: 10px;
+    min-height: 0;
+  }
+
+  .vacancy-card__aside .button {
+    font-size: var(--font-size-14);
+    line-height: 15px;
+  }
+}

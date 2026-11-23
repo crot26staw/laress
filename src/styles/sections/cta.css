@@ -81,6 +81,21 @@
   background: linear-gradient(142deg, var(--color-black-30) 17%, transparent 64%);
 }
 
+@media (max-width: 1279.98px) {
+  .cta--careers .text-h2 {
+    line-height: 32px;
+  }
+
+  .cta--careers .cta__image {
+    object-position: center;
+  }
+
+  .cta--careers .cta__text {
+    max-width: 440.7px;
+    line-height: var(--line-height-snug);
+  }
+}
+
 /* Планшет — 1316:33086: фото 1000px в высоту (кадр правее центра, как в Figma), отступы 50/24 */
 @media (max-width: 1279.98px) {
   .cta {
@@ -154,5 +169,40 @@
 
   .cta--brands .cta__content {
     padding: 80px var(--space-24);
+  }
+}
+
+@media (max-width: 767.98px) {
+  .cta--careers {
+    padding-block: 50px;
+  }
+
+  .cta--careers .text-h2 {
+    line-height: 28px;
+  }
+
+  .cta--careers .cta__content {
+    gap: var(--space-20);
+  }
+
+  .cta--careers .cta__text {
+    max-width: none;
+    line-height: var(--line-height-14);
+  }
+
+  .cta--careers .cta__actions {
+    flex-direction: column;
+    gap: var(--space-16);
+  }
+
+  .cta--careers .cta__button {
+    align-self: stretch;
+    font-size: var(--font-size-14);
+    line-height: 15px;
+  }
+
+  .cta--careers .button__icon {
+    width: 16px;
+    height: 16px;
   }
 }

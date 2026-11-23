@@ -12,7 +12,7 @@
   <body class="page-surface">
     <!-- @include src/partials/header.html -->
 
-    <main>
+    <main class="vacancies-page">
       <div class="page-intro container">
         <div class="section-heading">
           <nav class="breadcrumbs" aria-label="Хлебные крошки">
@@ -26,8 +26,10 @@
             <img class="ornament__mark" src="/src/assets/icons/logo-mark.svg" width="37" height="34" alt="" />
             <span class="ornament__line"></span>
           </div>
-          <h1 class="text-h2">Вакансии</h1>
-          <p class="page-intro__text page-intro__text--580">Luvr&nbsp;— интернет-бутик посуды и&nbsp;декора премиальных брендов. Мы&nbsp;работаем и&nbsp;развиваемся более 10 лет и&nbsp;открыты к сотрудничеству с&nbsp;новыми специалистами</p>
+          <div class="page-intro__body">
+            <h1 class="text-h2">Вакансии</h1>
+            <p class="page-intro__text page-intro__text--580">Luvr&nbsp;— интернет-бутик посуды и&nbsp;декора премиальных брендов. Мы&nbsp;работаем и&nbsp;развиваемся более 10 лет и&nbsp;открыты <span class="vacancies-page__phrase">к сотрудничеству</span> с&nbsp;новыми специалистами</p>
+          </div>
         </div>
       </div>
 
@@ -46,7 +48,7 @@
         </ul>
       </section>
 
-      <!-- @include src/partials/cta-careers.html -->
+      <!-- @include src/partials/cta-careers.html {"adaptive": "1"} -->
     </main>
 
     <!-- @include src/partials/footer.html -->

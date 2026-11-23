@@ -12,8 +12,8 @@
   <body class="page-surface">
     <!-- @include src/partials/header.html -->
 
-    <main>
-      <div class="page-intro container">
+    <main class="designers-page">
+      <div class="page-intro page-intro--action container">
         <div class="section-heading">
           <nav class="breadcrumbs" aria-label="Хлебные крошки">
             <ol class="breadcrumbs__list">
@@ -26,13 +26,19 @@
             <img class="ornament__mark" src="/src/assets/icons/logo-mark.svg" width="37" height="34" alt="" />
             <span class="ornament__line"></span>
           </div>
-          <h1 class="text-h2">Дизайнерам и&nbsp;декораторам</h1>
-          <p class="page-intro__text page-intro__text--wide">Приглашаем к&nbsp;сотрудничеству дизайнеров интерьеров, декораторов и&nbsp;студии, которые работают с&nbsp;оформлением жилых и&nbsp;общественных пространств</p>
+          <div class="page-intro__body">
+            <h1 class="text-h2">Дизайнерам и&nbsp;декораторам</h1>
+            <p class="page-intro__text page-intro__text--wide">Приглашаем к&nbsp;сотрудничеству дизайнеров интерьеров, декораторов и&nbsp;студии, которые работают с&nbsp;оформлением жилых и&nbsp;общественных пространств</p>
+          </div>
         </div>
         <a class="button button--primary" href="#">Обсудить сотрудничество</a>
       </div>
 
-      <picture>
+      <picture class="page-intro__media">
+        <source media="(max-width: 767.98px)" srcset="/src/assets/images/designers/designers-hero-mobile.webp" type="image/webp" />
+        <source media="(max-width: 767.98px)" srcset="/src/assets/images/designers/designers-hero-mobile.jpg" />
+        <source media="(max-width: 1279.98px)" srcset="/src/assets/images/designers/designers-hero-tablet.webp" type="image/webp" />
+        <source media="(max-width: 1279.98px)" srcset="/src/assets/images/designers/designers-hero-tablet.jpg" />
         <source srcset="/src/assets/images/designers/designers-hero.webp" type="image/webp" />
         <img class="wide-image" src="/src/assets/images/designers/designers-hero.jpg" width="1440" height="600" alt="Фарфоровые тарелки и чашка с золотым жемчужным бортиком" fetchpriority="high" />
       </picture>
@@ -51,6 +57,10 @@
           <li class="categories__item">
             <a class="categories__link" href="/catalog.html">
               <picture>
+                <source media="(max-width: 767.98px)" srcset="/src/assets/images/designers/designers-category-tableware-mobile.webp" type="image/webp" />
+                <source media="(max-width: 767.98px)" srcset="/src/assets/images/designers/designers-category-tableware-mobile.jpg" />
+                <source media="(max-width: 1279.98px)" srcset="/src/assets/images/designers/designers-category-tableware-tablet.webp" type="image/webp" />
+                <source media="(max-width: 1279.98px)" srcset="/src/assets/images/designers/designers-category-tableware-tablet.jpg" />
                 <source srcset="/src/assets/images/designers/designers-category-tableware.webp" type="image/webp" />
                 <img class="categories__image" src="/src/assets/images/designers/designers-category-tableware.jpg" width="445" height="440" alt="Стеклянные бокалы и графин на столе в тёплом свете" loading="lazy" />
               </picture>
@@ -60,6 +70,10 @@
           <li class="categories__item">
             <a class="categories__link" href="/catalog.html">
               <picture>
+                <source media="(max-width: 767.98px)" srcset="/src/assets/images/designers/designers-category-decor-mobile.webp" type="image/webp" />
+                <source media="(max-width: 767.98px)" srcset="/src/assets/images/designers/designers-category-decor-mobile.jpg" />
+                <source media="(max-width: 1279.98px)" srcset="/src/assets/images/designers/designers-category-decor-tablet.webp" type="image/webp" />
+                <source media="(max-width: 1279.98px)" srcset="/src/assets/images/designers/designers-category-decor-tablet.jpg" />
                 <source srcset="/src/assets/images/designers/designers-category-decor.webp" type="image/webp" />
                 <img class="categories__image" src="/src/assets/images/designers/designers-category-decor.jpg" width="445" height="440" alt="Ваза из оранжевого стекла с золотым краем" loading="lazy" />
               </picture>
@@ -69,6 +83,10 @@
           <li class="categories__item">
             <a class="categories__link" href="/catalog.html">
               <picture>
+                <source media="(max-width: 767.98px)" srcset="/src/assets/images/designers/designers-category-textile-mobile.webp" type="image/webp" />
+                <source media="(max-width: 767.98px)" srcset="/src/assets/images/designers/designers-category-textile-mobile.jpg" />
+                <source media="(max-width: 1279.98px)" srcset="/src/assets/images/designers/designers-category-textile-tablet.webp" type="image/webp" />
+                <source media="(max-width: 1279.98px)" srcset="/src/assets/images/designers/designers-category-textile-tablet.jpg" />
                 <source srcset="/src/assets/images/designers/designers-category-textile.webp" type="image/webp" />
                 <img class="categories__image" src="/src/assets/images/designers/designers-category-textile.jpg" width="445" height="440" alt="Сервировка Hermès с цветочным узором на светлой скатерти" loading="lazy" />
               </picture>
@@ -78,7 +96,7 @@
         </ul>
       </section>
 
-      <section class="media-text media-text--reverse container" aria-labelledby="projects-title">
+      <section class="media-text media-text--stacked media-text--reverse container" aria-labelledby="projects-title">
         <div class="media-text__content">
           <div class="media-text__body">
             <div class="ornament ornament--wide" aria-hidden="true">
@@ -93,11 +111,19 @@
             </div>
           </div>
           <picture>
+            <source media="(max-width: 767.98px)" srcset="/src/assets/images/designers/designers-projects-small-mobile.webp" type="image/webp" />
+            <source media="(max-width: 767.98px)" srcset="/src/assets/images/designers/designers-projects-small-mobile.jpg" />
+            <source media="(max-width: 1279.98px)" srcset="/src/assets/images/designers/designers-projects-small-tablet.webp" type="image/webp" />
+            <source media="(max-width: 1279.98px)" srcset="/src/assets/images/designers/designers-projects-small-tablet.jpg" />
             <source srcset="/src/assets/images/designers/designers-projects-small.webp" type="image/webp" />
             <img class="media-text__thumb" src="/src/assets/images/designers/designers-projects-small.jpg" width="230" height="300" alt="Золотые браслеты и кольцо Tiffany T на бежевом шёлке" loading="lazy" />
           </picture>
         </div>
         <picture>
+            <source media="(max-width: 767.98px)" srcset="/src/assets/images/designers/designers-projects-large-mobile.webp" type="image/webp" />
+            <source media="(max-width: 767.98px)" srcset="/src/assets/images/designers/designers-projects-large-mobile.jpg" />
+            <source media="(max-width: 1279.98px)" srcset="/src/assets/images/designers/designers-projects-large-tablet.webp" type="image/webp" />
+            <source media="(max-width: 1279.98px)" srcset="/src/assets/images/designers/designers-projects-large-tablet.jpg" />
             <source srcset="/src/assets/images/designers/designers-projects-large.webp" type="image/webp" />
             <img class="media-text__image" src="/src/assets/images/designers/designers-projects-large.jpg" width="660" height="700" alt="Красные подарочные коробки Baccarat с хрустальными бабочками" loading="lazy" />
           </picture>
@@ -133,7 +159,7 @@
         </ul>
       </section>
 
-      <!-- @include src/partials/originals.html {"image": "/src/assets/images/designers/designers-originals", "alt": "Устрицы на тарелках с золотым узором и хрустальные бокалы"} -->
+      <!-- @include src/partials/originals.html {"stacked": "1", "responsiveImage": "1", "image": "/src/assets/images/designers/designers-originals", "alt": "Устрицы на тарелках с золотым узором и хрустальные бокалы"} -->
 
       <section class="cta cta--flush" aria-labelledby="cta-title">
         <div class="cta__inner">

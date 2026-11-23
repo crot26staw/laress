@@ -37,6 +37,10 @@
   gap: var(--space-20);
 }
 
+.originals__intro-text {
+  display: contents;
+}
+
 .originals__image {
   display: block;
   width: 244px;
@@ -65,4 +69,99 @@
   font-size: var(--font-size-16);
   line-height: var(--line-height-snug);
   color: var(--color-text-90);
+}
+
+@media (max-width: 1279.98px) {
+  .originals--stacked {
+    padding-block: 50px;
+  }
+
+  .originals--stacked .originals__inner {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+  }
+
+  .originals--stacked :is(.originals__aside, .originals__intro) {
+    display: contents;
+  }
+
+  .originals--stacked .originals__intro .ornament {
+    align-self: center;
+    width: 220px;
+    margin-bottom: 10px;
+  }
+
+  .originals--stacked .originals__intro-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-20);
+    margin-bottom: calc(var(--space-28) - 10px);
+    text-align: center;
+  }
+
+  .originals--stacked .originals__lead {
+    max-width: 425.7px;
+  }
+
+  .originals--stacked .originals__cards {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    width: 100%;
+  }
+
+  .originals--stacked .originals__card {
+    justify-content: flex-start;
+    gap: var(--space-24);
+    height: auto;
+    padding: var(--space-28);
+  }
+
+  .originals--stacked .originals__text {
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+  }
+
+  .originals--stacked .originals__image {
+    order: 1;
+    width: calc(100% + 0.87px);
+    max-width: none;
+    height: 367.36px;
+    margin-top: calc(var(--space-28) - 10px);
+  }
+}
+
+@media (max-width: 767.98px) {
+  .originals--stacked :is(.originals__inner, .originals__cards) {
+    gap: var(--space-8);
+  }
+
+  .originals--stacked .originals__cards {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .originals--stacked .originals__card {
+    gap: var(--space-12);
+    padding: var(--space-20);
+  }
+
+  .originals--stacked .originals__intro .ornament {
+    margin-bottom: var(--space-12);
+  }
+
+  .originals--stacked .originals__intro-text {
+    gap: var(--space-12);
+    margin-bottom: var(--space-12);
+  }
+
+  .originals--stacked .originals__lead {
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+  }
+
+  .originals--stacked .originals__image {
+    width: 100%;
+    height: 300px;
+    margin-top: var(--space-12);
+  }
 }

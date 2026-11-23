@@ -34,20 +34,18 @@
         <!-- @include src/partials/favorites-tabs.html {"collections": true} -->
 
         <section class="favorites__collections" aria-label="Мои подборки">
-          <div class="favorites__toolbar">
-            <button class="favorites__sort" type="button">
-              <svg class="favorites__sort-icon" width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true">
-                <path d="M6.26172 2.92383L5.73438 3.45117L3.75391 1.47656L3.74805 12H2.99805L3.00391 1.45898L1.01172 3.45117L0.484375 2.92383L3.37305 0.0351562L6.26172 2.92383ZM10.9902 8.54883L11.5234 9.07617L8.63477 11.9648L5.74023 9.07617L6.27344 8.54883L8.25391 10.5293L8.24805 0H8.99805L9.00391 10.5352L10.9902 8.54883Z" fill="currentColor" />
-              </svg>
-              Сортировать
-            </button>
-            <button class="button button--primary" type="button">Показать больше</button>
-          </div>
+          <button class="favorites__sort" type="button">
+            <svg class="favorites__sort-icon" width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true">
+              <path d="M6.26172 2.92383L5.73438 3.45117L3.75391 1.47656L3.74805 12H2.99805L3.00391 1.45898L1.01172 3.45117L0.484375 2.92383L3.37305 0.0351562L6.26172 2.92383ZM10.9902 8.54883L11.5234 9.07617L8.63477 11.9648L5.74023 9.07617L6.27344 8.54883L8.25391 10.5293L8.24805 0H8.99805L9.00391 10.5352L10.9902 8.54883Z" fill="currentColor" />
+            </svg>
+            Сортировать
+          </button>
 
           <ul class="favorites__list">
-            <li><!-- @include src/partials/collection-card.html {"href":"/favorites-collection.html","title":"Сервировка для ужина","count":"3","total":"223 900&nbsp;₽","loading":"eager","image1":"/src/assets/images/favorites/collection-glasses-figs","alt1":"Бокалы из цветного стекла и инжир на тарелке","image2":"/src/assets/images/favorites/collection-smoky-vase","alt2":"Дымчатая стеклянная ваза и янтарный стакан","image3":"/src/assets/images/favorites/collection-amber-bowl","alt3":"Янтарная стеклянная чаша на каменном постаменте"} --></li>
-            <li><!-- @include src/partials/collection-card.html {"href":"/favorites-collection.html","title":"Проект гостиной","count":"4","total":"653 000&nbsp;₽","loading":"eager","image1":"/src/assets/images/account/order-item-vase","alt1":"Красная гранёная ваза с белыми орхидеями","image2":"/src/assets/images/favorites/collection-horse","alt2":"Хрустальная статуэтка вставшего на дыбы коня","image3":"/src/assets/images/favorites/collection-flowers-vase","alt3":"Полевые цветы в белой керамической вазе","image4":"/src/assets/images/favorites/collection-pillows","alt4":"Стопка декоративных подушек"} --></li>
+            <li><!-- @include src/partials/collection-card.html {"href":"/favorites-collection.html","title":"Сервировка для ужина","count":"3","total":"223 900&nbsp;₽","loading":"eager","image1":"/src/assets/images/favorites/collection-glasses-figs","mobile1":"/src/assets/images/favorites/collection-glasses-figs-mobile","alt1":"Бокалы из цветного стекла и инжир на тарелке","image2":"/src/assets/images/favorites/collection-smoky-vase","mobile2":"/src/assets/images/favorites/collection-smoky-vase-mobile","alt2":"Дымчатая стеклянная ваза и янтарный стакан","image3":"/src/assets/images/favorites/collection-amber-bowl","mobile3":"/src/assets/images/favorites/collection-amber-bowl-mobile","alt3":"Янтарная стеклянная чаша на каменном постаменте"} --></li>
+            <li><!-- @include src/partials/collection-card.html {"href":"/favorites-collection.html","title":"Проект гостиной","count":"4","total":"653 000&nbsp;₽","loading":"eager","image1":"/src/assets/images/account/order-item-vase","mobile1":"/src/assets/images/favorites/collection-vase-mobile","alt1":"Красная гранёная ваза с белыми орхидеями","image2":"/src/assets/images/favorites/collection-horse","mobile2":"/src/assets/images/favorites/collection-horse-mobile","alt2":"Хрустальная статуэтка вставшего на дыбы коня","image3":"/src/assets/images/favorites/collection-flowers-vase","mobile3":"/src/assets/images/favorites/collection-flowers-vase-mobile","alt3":"Полевые цветы в белой керамической вазе","image4":"/src/assets/images/favorites/collection-pillows","mobile4":"/src/assets/images/favorites/collection-pillows-mobile","alt4":"Стопка декоративных подушек"} --></li>
           </ul>
+          <button class="button button--primary favorites__more" type="button">Показать больше</button>
         </section>
       </div>
     </main>

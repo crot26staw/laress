@@ -1,0 +1,9 @@
+<!-- Миниатюра товара в подборке. Параметры image, mobile (необязательное кадрирование), alt, loading. -->
+<li>
+  <picture>
+    {{#if mobile}}<source media="(max-width: 767.98px)" srcset="{{mobile}}.webp" type="image/webp" />
+    <source media="(max-width: 767.98px)" srcset="{{mobile}}.jpg" type="image/jpeg" />{{/if}}
+    <source srcset="{{image}}.webp" type="image/webp" />
+    <img class="collection-card__image" src="{{image}}.jpg" width="120" height="140" alt="{{alt}}" loading="{{loading}}" />
+  </picture>
+</li>

@@ -30,18 +30,24 @@
       <div class="favorites-modal__actions">
         <button class="button button--primary" type="button" data-favorites-create>
           <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M8 0.73V8M8 8V15.27M8 8H15.27M8 8H0.73" stroke="currentColor" stroke-width="1.46" stroke-linecap="round" /></svg>
-          Создать подборку
+          <span class="favorites-modal__create-label">Создать подборку</span>
+          <span class="favorites-modal__empty-label" hidden>Создать</span>
         </button>
       </div>
     </div>
 
     <form class="favorites-modal__view" data-favorites-view="create" hidden>
       <div class="favorites-modal__content favorites-modal__content--form">
-        <button class="favorites-modal__back" type="button" data-favorites-back>
-          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M10 13.28L5.65 8.93C5.14 8.42 5.14 7.58 5.65 7.07L10 2.72" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /></svg>
-          Назад
-        </button>
-        <h2 class="favorites-modal__title">Создание подборки</h2>
+        <div class="favorites-modal__head">
+          <button class="favorites-modal__back" type="button" data-favorites-back>
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M10 13.28L5.65 8.93C5.14 8.42 5.14 7.58 5.65 7.07L10 2.72" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /></svg>
+            Назад
+          </button>
+          <button class="favorites-modal__close favorites-modal__close--form" type="button" aria-label="Закрыть" data-dialog-close hidden>
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 6L18 18M18 6L6 18" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" /></svg>
+          </button>
+        </div>
+        <h2 class="favorites-modal__title" id="favorites-modal-create-title">Создание подборки</h2>
         <label class="field field--outline">
           <span class="visually-hidden">Название подборки</span>
           <input class="field__input" type="text" name="collection-name" placeholder="Название" autocomplete="off" required />

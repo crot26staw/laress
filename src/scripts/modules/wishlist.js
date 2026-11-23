@@ -34,9 +34,11 @@ export function initWishlist() {
   const list = dialog.querySelector('[data-favorites-list]');
   const listView = dialog.querySelector('[data-favorites-view="list"]');
   const form = dialog.querySelector('[data-favorites-view="create"]');
-  const showView = (view) => {
-    listView.hidden = view !== listView;
-    form.hidden = view !== form;
+  const createButton = dialog.querySelector('[data-favorites-create]');
+  const showView = (create) => {
+    listView.hidden = create;
+    form.hidden = !create;
+    dialog.setAttribute('aria-labelledby', create ? 'favorites-modal-create-title' : 'favorites-modal-title');
   };
 
   dialog.addEventListener('click', (event) => {
@@ -44,10 +46,11 @@ export function initWishlist() {
       if (current) setPressed(current, true);
       dialog.close();
     } else if (event.target.closest('[data-favorites-create]')) {
-      showView(form);
+      showView(true);
       form.elements['collection-name'].focus();
     } else if (event.target.closest('[data-favorites-back]')) {
-      showView(listView);
+      showView(false);
+      createButton.focus();
     }
   });
 
@@ -60,11 +63,12 @@ export function initWishlist() {
     item.querySelector('[data-favorites-add]').setAttribute('aria-label', `Добавить в подборку «${name}»`);
     list.append(item);
     form.reset();
-    showView(listView);
+    showView(false);
+    item.querySelector('[data-favorites-add]').focus();
   });
 
   dialog.addEventListener('close', () => {
-    showView(listView);
+    showView(false);
     form.reset();
     current?.focus();
     current = null;

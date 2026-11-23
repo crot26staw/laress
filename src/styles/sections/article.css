@@ -85,3 +85,130 @@
 .article__content .article-promo__image {
   height: 268px;
 }
+
+@media (max-width: 1279.98px) {
+  .article__title {
+    max-width: 574.38px;
+    line-height: 32px;
+  }
+
+  .article {
+    padding-inline: 60px;
+    padding-bottom: 50px;
+  }
+
+  .article__content {
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+  }
+
+  .article__content > * + * {
+    margin-top: var(--space-24);
+  }
+
+  .article__content > .article__lead {
+    max-width: 583.48px;
+  }
+
+  .article__phrase {
+    white-space: nowrap;
+  }
+
+  .article__content > h2 {
+    font-size: 22px;
+    line-height: 23px;
+  }
+
+  .article__content img {
+    height: 360px;
+  }
+
+  .article-promo {
+    padding: var(--space-20);
+  }
+
+  .article-promo__image {
+    flex: 0 0 268px;
+    width: 268px;
+  }
+
+  .article-promo__title {
+    line-height: 32px;
+  }
+
+  .article-promo__lead {
+    max-width: 300.84px;
+    line-height: var(--line-height-14);
+  }
+}
+
+@media (max-width: 767.98px) {
+  .page-intro--article {
+    padding-bottom: var(--space-32);
+  }
+
+  .article__title {
+    max-width: none;
+    line-height: 28px;
+  }
+
+  .article {
+    padding-inline: var(--container-padding);
+  }
+
+  .article__content > * + * {
+    margin-top: var(--space-20);
+  }
+
+  .article__content > .article__lead {
+    max-width: none;
+  }
+
+  .article__content > h2 {
+    font-size: 20px;
+    line-height: 21px;
+  }
+
+  .article__content > .article__heading--large-mobile {
+    font-size: 22px;
+    line-height: 23px;
+  }
+
+  /* Заголовок об упаковке в макете выходит за границу колонки текста. */
+  .article__heading--wide-mobile {
+    margin-inline-end: calc(-1 * var(--space-8));
+  }
+
+  .article__content img {
+    height: 280px;
+  }
+
+  .article-promo {
+    flex-direction: column;
+    gap: var(--space-20);
+  }
+
+  .article-promo__body {
+    gap: var(--space-12);
+    align-items: stretch;
+  }
+
+  .article-promo__text {
+    gap: 10px;
+  }
+
+  .article-promo__title {
+    line-height: 28px;
+  }
+
+  .article-promo__body .button {
+    font-size: var(--font-size-14);
+    line-height: 15px;
+    white-space: normal;
+  }
+
+  .article-promo__image {
+    flex: none;
+    width: 100%;
+  }
+}

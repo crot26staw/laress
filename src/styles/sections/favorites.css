@@ -46,21 +46,21 @@
   gap: var(--space-12);
 }
 
-/* «Мои подборки» (966:48473): панель «Сортировать» / «Показать больше», под ней карточки через 12px */
+/* «Мои подборки» (966:48473): на десктопе кнопки в одной строке, в адаптиве список между ними. */
 .favorites__collections {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr auto;
   gap: var(--space-28);
 }
 
-.favorites__toolbar {
-  display: flex;
-  justify-content: space-between;
+.favorites__more {
+  grid-area: 1 / 2;
 }
 
 /* «Сортировать» — 16/24, высота 48, обводка акцентом 50% (внутри блока) */
 .favorites__sort {
   display: inline-flex;
+  justify-self: start;
   align-items: center;
   gap: 10px;
   height: 48px;
@@ -87,6 +87,7 @@
 }
 
 .favorites__list {
+  grid-column: 1 / -1;
   display: flex;
   flex-direction: column;
   gap: var(--space-12);
@@ -259,4 +260,278 @@
 .collection-summary__actions {
   display: flex;
   gap: var(--space-12);
+}
+
+@media (max-width: 1279.98px) {
+  .favorites {
+    background-color: var(--color-surface);
+  }
+
+  .favorites h1 {
+    line-height: 32px;
+  }
+
+  .favorites__body,
+  .collection {
+    padding-bottom: var(--space-32);
+  }
+
+  .favorites__body {
+    gap: var(--space-24);
+  }
+
+  .favorites-tabs__link,
+  .collection-card__title {
+    line-height: 23px;
+  }
+
+  .favorites__grid,
+  .collection__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    row-gap: var(--space-24);
+  }
+
+  .favorites .product-card--favorite {
+    gap: var(--space-12);
+  }
+
+  .favorites .product-card--favorite .product-card__media {
+    aspect-ratio: 354 / 420;
+  }
+
+  .favorites .product-card--favorite .product-card__remove {
+    top: 6px;
+    right: 6px;
+  }
+
+  .favorites .product-card--favorite .product-card__category,
+  .favorites .product-card--favorite .product-card__price-old {
+    color: var(--color-beige);
+  }
+
+  .favorites .product-card--favorite .product-card__category {
+    font-weight: var(--font-weight-semibold);
+  }
+
+  .favorites .product-card--favorite .product-card__title {
+    font-weight: var(--font-weight-medium);
+    line-height: 23px;
+  }
+
+  .favorites .product-card--favorite .product-card__body {
+    gap: var(--space-8);
+  }
+
+  .favorites__collections {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-20);
+  }
+
+  .favorites__sort {
+    align-self: flex-start;
+    gap: var(--space-8);
+    height: 45px;
+    padding-inline: var(--space-20);
+  }
+
+  .favorites__more {
+    align-self: center;
+    margin-top: var(--space-4);
+  }
+
+  .collection-card {
+    background-color: transparent;
+  }
+
+  .collection-intro {
+    gap: var(--space-16);
+    padding-block: var(--space-32);
+  }
+
+  .collection-intro__head {
+    gap: 10px;
+    align-items: center;
+  }
+
+  .collection-intro .dots-button {
+    flex-shrink: 0;
+    height: auto;
+    padding: 10px;
+  }
+
+  .collection {
+    gap: var(--space-32);
+  }
+
+  .collection-summary {
+    padding: var(--space-24);
+  }
+
+  .collection-summary__title {
+    font-size: 22px;
+    line-height: 23px;
+  }
+
+  .collection-summary__list,
+  .collection-summary__row--total {
+    gap: var(--space-16);
+    line-height: 19px;
+  }
+
+  .collection-summary__row--total {
+    column-gap: 0;
+    line-height: 22px;
+  }
+
+  .collection-summary__actions {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .favorites .page-intro,
+  .collection-intro {
+    padding-block: var(--space-24);
+  }
+
+  .favorites .page-intro .section-heading,
+  .collection-intro {
+    gap: var(--space-12);
+  }
+
+  .favorites h1 {
+    line-height: 28px;
+  }
+
+  .favorites-tabs__list > li {
+    flex: 1 1 0;
+  }
+
+  .favorites-tabs__link {
+    padding: var(--space-12) var(--space-8);
+    font-size: var(--font-size-16);
+    line-height: 20px;
+    text-align: center;
+  }
+
+  .favorites__grid,
+  .collection__grid {
+    row-gap: var(--space-20);
+  }
+
+  .favorites .product-card--favorite {
+    gap: 10px;
+  }
+
+  .favorites .product-card--favorite .product-card__media {
+    aspect-ratio: 165.5 / 210.34;
+  }
+
+  .favorites .product-card--favorite .product-card__body {
+    gap: 6px;
+  }
+
+  .favorites .product-card--favorite .product-card__title {
+    line-height: 20px;
+    overflow-wrap: anywhere;
+  }
+
+  .favorites .product-card--favorite .product-card__prices {
+    flex-wrap: wrap;
+    row-gap: 0;
+  }
+
+  .favorites .product-card--favorite .product-card__prices > * {
+    white-space: nowrap;
+  }
+
+  .favorites__more {
+    align-self: stretch;
+  }
+
+  .collection-card,
+  .collection-card__head {
+    gap: var(--space-12);
+  }
+
+  .collection-card__head {
+    align-items: center;
+  }
+
+  .collection-card__title {
+    font-size: var(--font-size-16);
+    line-height: 20px;
+  }
+
+  .collection-card .dots-button {
+    padding: 6px;
+    font-size: var(--font-size-12);
+  }
+
+  .collection-card__images {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: var(--space-8);
+    padding-inline-end: 1px;
+  }
+
+  .collection-card__image {
+    width: 100%;
+    height: 160px;
+  }
+
+  .collection-card__summary {
+    font-size: var(--font-size-14);
+    line-height: 17px;
+  }
+
+  .collection-intro__head {
+    align-items: flex-end;
+  }
+
+  .collection-intro h1 {
+    max-width: 179.86px;
+  }
+
+  .collection-intro .dots-button {
+    padding: 6px var(--space-8) var(--space-8);
+    font-size: var(--font-size-12);
+  }
+
+  .collection-summary {
+    gap: var(--space-20);
+    padding: var(--space-20);
+  }
+
+  .collection-summary__title {
+    font-size: 20px;
+    line-height: 21px;
+  }
+
+  .collection-summary__list {
+    font-size: var(--font-size-14);
+    line-height: 17px;
+  }
+
+  .collection-summary__row--total {
+    font-size: var(--font-size-16);
+    line-height: 19px;
+  }
+
+  .collection-summary__row--total .collection-summary__value {
+    font-size: var(--font-size-16);
+  }
+
+  .collection-summary__actions {
+    flex-direction: column;
+    align-self: stretch;
+    gap: var(--space-8);
+  }
+
+  .collection-summary__actions .button {
+    font-size: var(--font-size-14);
+    line-height: 15px;
+    white-space: normal;
+  }
 }

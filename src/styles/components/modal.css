@@ -251,6 +251,10 @@
   color: var(--color-accent-hover);
 }
 
+.favorites-modal__close--form[hidden] {
+  display: none;
+}
+
 /* Линии в Figma — LINE высотой 0 между строками (gap 24): рисуем линию сверху у списка и снизу у каждой строки */
 .favorites-modal__list {
   box-shadow: inset 0 1px 0 var(--color-line);
@@ -323,6 +327,159 @@
 
 .favorites-modal__actions--form {
   padding-top: var(--space-8);
+}
+
+@media (max-width: 1279.98px) {
+  .favorites-modal__panel {
+    width: min(440px, 100%);
+  }
+
+  .favorites-modal__view[data-favorites-view="list"] {
+    min-height: 0;
+  }
+
+  .favorites-modal__content {
+    gap: var(--space-28);
+    padding: var(--space-28) var(--space-28) 0;
+  }
+
+  .favorites-modal__title {
+    font-size: 22px;
+    line-height: 23px;
+  }
+
+  .favorites-modal__head {
+    gap: var(--space-8);
+  }
+
+  .favorites-modal__close--form[hidden] {
+    display: flex;
+  }
+
+  .favorites-modal__close {
+    flex: 0 0 auto;
+  }
+
+  .favorites-modal__item {
+    padding-block: var(--space-20);
+  }
+
+  .favorites-modal__name {
+    min-width: 0;
+    font-size: var(--font-size-16);
+    line-height: 17px;
+    overflow-wrap: anywhere;
+  }
+
+  /* В адаптиве строка целиком служит кнопкой добавления. */
+  .favorites-modal .favorites-modal__add {
+    inset: 0;
+    width: 100%;
+    opacity: 0;
+    transform: none;
+  }
+
+  .favorites-modal__item:hover .favorites-modal__add {
+    opacity: 0;
+  }
+
+  .favorites-modal__item:has(.favorites-modal__add:focus-visible) {
+    outline: var(--focus-ring);
+    outline-offset: -2px;
+  }
+
+  .favorites-modal__actions {
+    padding: var(--space-24) var(--space-28) var(--space-28);
+  }
+
+  .favorites-modal__actions .button {
+    line-height: 17px;
+  }
+
+  .favorites-modal__actions svg {
+    width: 14px;
+    height: 14px;
+  }
+
+  .favorites-modal__panel:has(.favorites-modal__item:only-child) [data-favorites-view="list"] .favorites-modal__content {
+    min-height: 250px;
+  }
+
+  .favorites-modal__list:has(.favorites-modal__item:only-child) .favorites-modal__item {
+    padding-block: 18px;
+  }
+
+  .favorites-modal__panel:has(.favorites-modal__item:only-child) [data-favorites-create] :is(svg, .favorites-modal__create-label) {
+    display: none;
+  }
+
+  .favorites-modal__panel:has(.favorites-modal__item:only-child) .favorites-modal__empty-label {
+    display: inline;
+  }
+
+  .favorites-modal__content--form .field--outline {
+    height: 60px;
+    padding-inline: var(--space-16);
+    background-color: var(--color-white);
+    box-shadow: none;
+  }
+
+  .favorites-modal__content--form .field__input {
+    font-size: var(--font-size-16);
+    line-height: var(--line-height-text);
+  }
+
+  .favorites-modal__content--form .field__input::placeholder {
+    color: var(--color-text-60);
+  }
+
+  .favorites-modal__back {
+    align-self: center;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .favorites-modal {
+    padding: 0;
+  }
+
+  .favorites-modal__panel {
+    width: 100%;
+    max-height: 100%;
+    margin-block: auto 0;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+  }
+
+  .favorites-modal__content {
+    padding: var(--space-20) var(--space-20) 0;
+  }
+
+  .favorites-modal__content--form {
+    gap: var(--space-24);
+  }
+
+  [data-favorites-view="list"] .favorites-modal__title {
+    font-size: 20px;
+    line-height: 21px;
+  }
+
+  .favorites-modal__content:has(.favorites-modal__item:only-child) {
+    gap: var(--space-24);
+  }
+
+  .favorites-modal__content:has(.favorites-modal__item:only-child) .favorites-modal__title {
+    font-size: 22px;
+    line-height: 23px;
+  }
+
+  .favorites-modal__item {
+    padding-block: 18px;
+  }
+
+  .favorites-modal__actions {
+    padding: var(--space-20) var(--space-20) var(--space-24);
+  }
 }
 
 /* «Оформление заказа» (order-modal), планшет (1356:49676, 1356:51001, 1357:51628): та же панель 500 по центру.

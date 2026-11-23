@@ -1,5 +1,5 @@
 <!-- Карточка подборки в «Избранном» (966:48481). Станет template-parts/collection-card.php (миниатюры — цикл по товарам).
-     Параметры: href, title, count (число товаров), total (сумма), image1…image4 (путь без расширения: .webp + .jpg), alt1…alt4, loading. -->
+     Параметры: href, title, count (число товаров), total (сумма), image1…image4, mobile1…mobile4 (кадры без расширения), alt1…alt4, loading. -->
 <article class="collection-card">
   <div class="collection-card__head">
     <h2 class="collection-card__title"><a class="collection-card__link" href="{{href}}">{{title}}</a></h2>
@@ -8,10 +8,10 @@
     </button>
   </div>
   <ul class="collection-card__images">
-    {{#if image1}}<li><picture><source srcset="{{image1}}.webp" type="image/webp" /><img class="collection-card__image" src="{{image1}}.jpg" width="120" height="140" alt="{{alt1}}" loading="{{loading}}" /></picture></li>{{/if}}
-    {{#if image2}}<li><picture><source srcset="{{image2}}.webp" type="image/webp" /><img class="collection-card__image" src="{{image2}}.jpg" width="120" height="140" alt="{{alt2}}" loading="{{loading}}" /></picture></li>{{/if}}
-    {{#if image3}}<li><picture><source srcset="{{image3}}.webp" type="image/webp" /><img class="collection-card__image" src="{{image3}}.jpg" width="120" height="140" alt="{{alt3}}" loading="{{loading}}" /></picture></li>{{/if}}
-    {{#if image4}}<li><picture><source srcset="{{image4}}.webp" type="image/webp" /><img class="collection-card__image" src="{{image4}}.jpg" width="120" height="140" alt="{{alt4}}" loading="{{loading}}" /></picture></li>{{/if}}
+    {{#if image1}}<!-- @include src/partials/collection-thumb.html {"image":"{{image1}}","mobile":"{{mobile1}}","alt":"{{alt1}}","loading":"{{loading}}"} -->{{/if}}
+    {{#if image2}}<!-- @include src/partials/collection-thumb.html {"image":"{{image2}}","mobile":"{{mobile2}}","alt":"{{alt2}}","loading":"{{loading}}"} -->{{/if}}
+    {{#if image3}}<!-- @include src/partials/collection-thumb.html {"image":"{{image3}}","mobile":"{{mobile3}}","alt":"{{alt3}}","loading":"{{loading}}"} -->{{/if}}
+    {{#if image4}}<!-- @include src/partials/collection-thumb.html {"image":"{{image4}}","mobile":"{{mobile4}}","alt":"{{alt4}}","loading":"{{loading}}"} -->{{/if}}
   </ul>
   <p class="collection-card__summary">
     <span class="collection-card__count">Товары ({{count}})</span>

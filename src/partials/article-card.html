@@ -1,16 +1,21 @@
 <!-- Карточка статьи в списке блога (966:49472): фото 445×440, дата, заголовок, анонс.
-     Параметры: href, image (путь без расширения), alt, date, datetime, title, excerpt.
+     Параметры: href, image (путь без расширения), alt, date, datetime, title, excerpt, compactTitle.
+     У фото есть версии -mobile и -tablet с кадрированием для адаптива.
      В WordPress — template-parts/article-card.php в цикле WP_Query. -->
 <li>
   <article class="article-card">
     <picture>
+      <source media="(max-width: 767.98px)" srcset="{{image}}-mobile.webp" type="image/webp" />
+      <source media="(max-width: 767.98px)" srcset="{{image}}-mobile.jpg" type="image/jpeg" />
+      <source media="(max-width: 1279.98px)" srcset="{{image}}-tablet.webp" type="image/webp" />
+      <source media="(max-width: 1279.98px)" srcset="{{image}}-tablet.jpg" type="image/jpeg" />
       <source srcset="{{image}}.webp" type="image/webp" />
       <img class="article-card__image" src="{{image}}.jpg" width="445" height="440" alt="{{alt}}" loading="lazy" />
     </picture>
     <time class="article-card__date" datetime="{{datetime}}">{{date}}</time>
     <div class="article-card__body">
       <div class="article-card__text">
-        <h2 class="text-h3"><a class="article-card__link" href="{{href}}">{{title}}</a></h2>
+        <h2 class="text-h3{{#if compactTitle}} article-card__title--compact{{/if}}"><a class="article-card__link" href="{{href}}">{{title}}</a></h2>
         <p class="article-card__excerpt">{{excerpt}}</p>
       </div>
     </div>
